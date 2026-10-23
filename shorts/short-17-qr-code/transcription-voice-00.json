@@ -1,0 +1,758 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "db9c120cfc212435658203fc6a3da3b83b40abc7e5edd7b94e64e2b5c7c28729",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A QR code is not just a random pile of squares. It is data written in black and white. Each tiny module stands for a binary 0 or 1. The big corner squares help your camera find the code and its rotation. A clear border called the quiet zone separates it from everything else. Your phone reads the modules in a set order and rebuilds the message. Extra The error correction data is stored inside the pattern. It lets the reader repair missing or damaged parts. So scratches can be forgiven but only up to a limit. The code carries a message, a reading guide and a backup plan.",
+  "mean_word_probability": 0.9511017271684944,
+  "low_confidence_words": [
+    {
+      "start": 25.82,
+      "end": 25.88,
+      "word": " The",
+      "probability": 0.17669984698295593
+    },
+    {
+      "start": 32.44,
+      "end": 32.9,
+      "word": " scratches",
+      "probability": 0.29412487149238586
+    },
+    {
+      "start": 33.68,
+      "end": 34.1,
+      "word": " but",
+      "probability": 0.49853214621543884
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.46,
+      "text": "A QR code is not just a random pile of squares. It is data written in black and white. Each",
+      "avg_logprob": -0.07351262359058156,
+      "no_speech_prob": 0.05919661372900009,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.96,
+          "word": " A",
+          "probability": 0.5303469896316528
+        },
+        {
+          "start": 0.96,
+          "end": 1.28,
+          "word": " QR",
+          "probability": 0.9935562014579773
+        },
+        {
+          "start": 1.28,
+          "end": 1.62,
+          "word": " code",
+          "probability": 0.9086736440658569
+        },
+        {
+          "start": 1.62,
+          "end": 1.8,
+          "word": " is",
+          "probability": 0.9941523671150208
+        },
+        {
+          "start": 1.8,
+          "end": 2.1,
+          "word": " not",
+          "probability": 0.9967105388641357
+        },
+        {
+          "start": 2.1,
+          "end": 2.4,
+          "word": " just",
+          "probability": 0.9905992150306702
+        },
+        {
+          "start": 2.4,
+          "end": 2.66,
+          "word": " a",
+          "probability": 0.9945597052574158
+        },
+        {
+          "start": 2.66,
+          "end": 3.02,
+          "word": " random",
+          "probability": 0.9951497912406921
+        },
+        {
+          "start": 3.02,
+          "end": 3.28,
+          "word": " pile",
+          "probability": 0.9910029172897339
+        },
+        {
+          "start": 3.28,
+          "end": 3.52,
+          "word": " of",
+          "probability": 0.9972398281097412
+        },
+        {
+          "start": 3.52,
+          "end": 3.86,
+          "word": " squares.",
+          "probability": 0.9943956136703491
+        },
+        {
+          "start": 4.46,
+          "end": 4.54,
+          "word": " It",
+          "probability": 0.969261884689331
+        },
+        {
+          "start": 4.54,
+          "end": 4.76,
+          "word": " is",
+          "probability": 0.9856633543968201
+        },
+        {
+          "start": 4.76,
+          "end": 5.1,
+          "word": " data",
+          "probability": 0.9798465967178345
+        },
+        {
+          "start": 5.1,
+          "end": 5.48,
+          "word": " written",
+          "probability": 0.984178364276886
+        },
+        {
+          "start": 5.48,
+          "end": 5.78,
+          "word": " in",
+          "probability": 0.9930598735809326
+        },
+        {
+          "start": 5.78,
+          "end": 6.0,
+          "word": " black",
+          "probability": 0.9597482681274414
+        },
+        {
+          "start": 6.0,
+          "end": 6.3,
+          "word": " and",
+          "probability": 0.9557156562805176
+        },
+        {
+          "start": 6.3,
+          "end": 6.58,
+          "word": " white.",
+          "probability": 0.9963942170143127
+        },
+        {
+          "start": 7.18,
+          "end": 7.46,
+          "word": " Each",
+          "probability": 0.9928202033042908
+        }
+      ]
+    },
+    {
+      "start": 7.46,
+      "end": 14.38,
+      "text": "tiny module stands for a binary 0 or 1. The big corner squares help your camera find the",
+      "avg_logprob": -0.07351262359058156,
+      "no_speech_prob": 0.05919661372900009,
+      "words": [
+        {
+          "start": 7.46,
+          "end": 7.94,
+          "word": " tiny",
+          "probability": 0.9970625042915344
+        },
+        {
+          "start": 7.94,
+          "end": 8.4,
+          "word": " module",
+          "probability": 0.9902279376983643
+        },
+        {
+          "start": 8.4,
+          "end": 8.86,
+          "word": " stands",
+          "probability": 0.9880147576332092
+        },
+        {
+          "start": 8.86,
+          "end": 9.14,
+          "word": " for",
+          "probability": 0.9978965520858765
+        },
+        {
+          "start": 9.14,
+          "end": 9.36,
+          "word": " a",
+          "probability": 0.9734306931495667
+        },
+        {
+          "start": 9.36,
+          "end": 9.68,
+          "word": " binary",
+          "probability": 0.9813018441200256
+        },
+        {
+          "start": 9.68,
+          "end": 10.14,
+          "word": " 0",
+          "probability": 0.7124624252319336
+        },
+        {
+          "start": 10.14,
+          "end": 10.54,
+          "word": " or",
+          "probability": 0.9829548001289368
+        },
+        {
+          "start": 10.54,
+          "end": 10.9,
+          "word": " 1.",
+          "probability": 0.9920843839645386
+        },
+        {
+          "start": 11.46,
+          "end": 11.68,
+          "word": " The",
+          "probability": 0.9807519912719727
+        },
+        {
+          "start": 11.68,
+          "end": 12.02,
+          "word": " big",
+          "probability": 0.9823505878448486
+        },
+        {
+          "start": 12.02,
+          "end": 12.42,
+          "word": " corner",
+          "probability": 0.9468328952789307
+        },
+        {
+          "start": 12.42,
+          "end": 12.88,
+          "word": " squares",
+          "probability": 0.9959696531295776
+        },
+        {
+          "start": 12.88,
+          "end": 13.22,
+          "word": " help",
+          "probability": 0.9823765754699707
+        },
+        {
+          "start": 13.22,
+          "end": 13.44,
+          "word": " your",
+          "probability": 0.9933266639709473
+        },
+        {
+          "start": 13.44,
+          "end": 13.74,
+          "word": " camera",
+          "probability": 0.9973629117012024
+        },
+        {
+          "start": 13.74,
+          "end": 14.14,
+          "word": " find",
+          "probability": 0.9759259819984436
+        },
+        {
+          "start": 14.14,
+          "end": 14.38,
+          "word": " the",
+          "probability": 0.9949989318847656
+        }
+      ]
+    },
+    {
+      "start": 14.38,
+      "end": 19.96,
+      "text": "code and its rotation. A clear border called the quiet zone separates it from everything",
+      "avg_logprob": -0.07351262359058156,
+      "no_speech_prob": 0.05919661372900009,
+      "words": [
+        {
+          "start": 14.38,
+          "end": 14.6,
+          "word": " code",
+          "probability": 0.9985998272895813
+        },
+        {
+          "start": 14.6,
+          "end": 14.88,
+          "word": " and",
+          "probability": 0.9839888215065002
+        },
+        {
+          "start": 14.88,
+          "end": 15.08,
+          "word": " its",
+          "probability": 0.9340412616729736
+        },
+        {
+          "start": 15.08,
+          "end": 15.52,
+          "word": " rotation.",
+          "probability": 0.9934908747673035
+        },
+        {
+          "start": 16.2,
+          "end": 16.34,
+          "word": " A",
+          "probability": 0.9937306642532349
+        },
+        {
+          "start": 16.34,
+          "end": 16.66,
+          "word": " clear",
+          "probability": 0.9725278615951538
+        },
+        {
+          "start": 16.66,
+          "end": 17.08,
+          "word": " border",
+          "probability": 0.9973155856132507
+        },
+        {
+          "start": 17.08,
+          "end": 17.48,
+          "word": " called",
+          "probability": 0.855077862739563
+        },
+        {
+          "start": 17.48,
+          "end": 17.72,
+          "word": " the",
+          "probability": 0.9437649846076965
+        },
+        {
+          "start": 17.72,
+          "end": 18.0,
+          "word": " quiet",
+          "probability": 0.6604726314544678
+        },
+        {
+          "start": 18.0,
+          "end": 18.36,
+          "word": " zone",
+          "probability": 0.9928125739097595
+        },
+        {
+          "start": 18.36,
+          "end": 18.94,
+          "word": " separates",
+          "probability": 0.9421340227127075
+        },
+        {
+          "start": 18.94,
+          "end": 19.2,
+          "word": " it",
+          "probability": 0.9957594275474548
+        },
+        {
+          "start": 19.2,
+          "end": 19.4,
+          "word": " from",
+          "probability": 0.9973952770233154
+        },
+        {
+          "start": 19.4,
+          "end": 19.96,
+          "word": " everything",
+          "probability": 0.9929348826408386
+        }
+      ]
+    },
+    {
+      "start": 19.96,
+      "end": 25.82,
+      "text": "else. Your phone reads the modules in a set order and rebuilds the message. Extra",
+      "avg_logprob": -0.07351262359058156,
+      "no_speech_prob": 0.05919661372900009,
+      "words": [
+        {
+          "start": 19.96,
+          "end": 20.4,
+          "word": " else.",
+          "probability": 0.9947691559791565
+        },
+        {
+          "start": 20.86,
+          "end": 21.12,
+          "word": " Your",
+          "probability": 0.988867461681366
+        },
+        {
+          "start": 21.12,
+          "end": 21.38,
+          "word": " phone",
+          "probability": 0.996764063835144
+        },
+        {
+          "start": 21.38,
+          "end": 21.78,
+          "word": " reads",
+          "probability": 0.9960845708847046
+        },
+        {
+          "start": 21.78,
+          "end": 22.02,
+          "word": " the",
+          "probability": 0.98653244972229
+        },
+        {
+          "start": 22.02,
+          "end": 22.36,
+          "word": " modules",
+          "probability": 0.9784433841705322
+        },
+        {
+          "start": 22.36,
+          "end": 22.56,
+          "word": " in",
+          "probability": 0.9981776475906372
+        },
+        {
+          "start": 22.56,
+          "end": 22.78,
+          "word": " a",
+          "probability": 0.9755043983459473
+        },
+        {
+          "start": 22.78,
+          "end": 22.94,
+          "word": " set",
+          "probability": 0.9965852499008179
+        },
+        {
+          "start": 22.94,
+          "end": 23.3,
+          "word": " order",
+          "probability": 0.9936615228652954
+        },
+        {
+          "start": 23.3,
+          "end": 23.68,
+          "word": " and",
+          "probability": 0.9633216857910156
+        },
+        {
+          "start": 23.68,
+          "end": 24.22,
+          "word": " rebuilds",
+          "probability": 0.9519504904747009
+        },
+        {
+          "start": 24.22,
+          "end": 24.36,
+          "word": " the",
+          "probability": 0.9968748092651367
+        },
+        {
+          "start": 24.36,
+          "end": 24.68,
+          "word": " message.",
+          "probability": 0.9822179675102234
+        },
+        {
+          "start": 25.4,
+          "end": 25.82,
+          "word": " Extra",
+          "probability": 0.989285409450531
+        }
+      ]
+    },
+    {
+      "start": 25.82,
+      "end": 28.48,
+      "text": "The error correction data is stored inside the pattern.",
+      "avg_logprob": -0.16777144236998123,
+      "no_speech_prob": 0.0040605817921459675,
+      "words": [
+        {
+          "start": 25.82,
+          "end": 25.88,
+          "word": " The",
+          "probability": 0.17669984698295593
+        },
+        {
+          "start": 25.88,
+          "end": 26.18,
+          "word": " error",
+          "probability": 0.9416045546531677
+        },
+        {
+          "start": 26.18,
+          "end": 26.62,
+          "word": " correction",
+          "probability": 0.9516518115997314
+        },
+        {
+          "start": 26.62,
+          "end": 26.96,
+          "word": " data",
+          "probability": 0.9970704317092896
+        },
+        {
+          "start": 26.96,
+          "end": 27.22,
+          "word": " is",
+          "probability": 0.9960541725158691
+        },
+        {
+          "start": 27.22,
+          "end": 27.5,
+          "word": " stored",
+          "probability": 0.9980723857879639
+        },
+        {
+          "start": 27.5,
+          "end": 27.94,
+          "word": " inside",
+          "probability": 0.9946305751800537
+        },
+        {
+          "start": 27.94,
+          "end": 28.2,
+          "word": " the",
+          "probability": 0.9871404767036438
+        },
+        {
+          "start": 28.2,
+          "end": 28.48,
+          "word": " pattern.",
+          "probability": 0.9974365830421448
+        }
+      ]
+    },
+    {
+      "start": 29.06,
+      "end": 31.76,
+      "text": "It lets the reader repair missing or damaged parts.",
+      "avg_logprob": -0.16777144236998123,
+      "no_speech_prob": 0.0040605817921459675,
+      "words": [
+        {
+          "start": 29.06,
+          "end": 29.12,
+          "word": " It",
+          "probability": 0.9876810312271118
+        },
+        {
+          "start": 29.12,
+          "end": 29.36,
+          "word": " lets",
+          "probability": 0.963887095451355
+        },
+        {
+          "start": 29.36,
+          "end": 29.6,
+          "word": " the",
+          "probability": 0.9920086860656738
+        },
+        {
+          "start": 29.6,
+          "end": 29.78,
+          "word": " reader",
+          "probability": 0.9946183562278748
+        },
+        {
+          "start": 29.78,
+          "end": 30.24,
+          "word": " repair",
+          "probability": 0.9757466316223145
+        },
+        {
+          "start": 30.24,
+          "end": 30.68,
+          "word": " missing",
+          "probability": 0.9870794415473938
+        },
+        {
+          "start": 30.68,
+          "end": 31.0,
+          "word": " or",
+          "probability": 0.9820618033409119
+        },
+        {
+          "start": 31.0,
+          "end": 31.36,
+          "word": " damaged",
+          "probability": 0.9953610301017761
+        },
+        {
+          "start": 31.36,
+          "end": 31.76,
+          "word": " parts.",
+          "probability": 0.9907163381576538
+        }
+      ]
+    },
+    {
+      "start": 32.36,
+      "end": 35.16,
+      "text": "So scratches can be forgiven but only up to a limit.",
+      "avg_logprob": -0.16777144236998123,
+      "no_speech_prob": 0.0040605817921459675,
+      "words": [
+        {
+          "start": 32.36,
+          "end": 32.44,
+          "word": " So",
+          "probability": 0.9922930002212524
+        },
+        {
+          "start": 32.44,
+          "end": 32.9,
+          "word": " scratches",
+          "probability": 0.29412487149238586
+        },
+        {
+          "start": 32.9,
+          "end": 33.18,
+          "word": " can",
+          "probability": 0.9972668886184692
+        },
+        {
+          "start": 33.18,
+          "end": 33.34,
+          "word": " be",
+          "probability": 0.9983950257301331
+        },
+        {
+          "start": 33.34,
+          "end": 33.68,
+          "word": " forgiven",
+          "probability": 0.9964015483856201
+        },
+        {
+          "start": 33.68,
+          "end": 34.1,
+          "word": " but",
+          "probability": 0.49853214621543884
+        },
+        {
+          "start": 34.1,
+          "end": 34.5,
+          "word": " only",
+          "probability": 0.9851081967353821
+        },
+        {
+          "start": 34.5,
+          "end": 34.64,
+          "word": " up",
+          "probability": 0.7965642213821411
+        },
+        {
+          "start": 34.64,
+          "end": 34.8,
+          "word": " to",
+          "probability": 0.9939427971839905
+        },
+        {
+          "start": 34.8,
+          "end": 34.9,
+          "word": " a",
+          "probability": 0.9926551580429077
+        },
+        {
+          "start": 34.9,
+          "end": 35.16,
+          "word": " limit.",
+          "probability": 0.996410071849823
+        }
+      ]
+    },
+    {
+      "start": 35.82,
+      "end": 39.32,
+      "text": "The code carries a message, a reading guide and a backup plan.",
+      "avg_logprob": -0.16777144236998123,
+      "no_speech_prob": 0.0040605817921459675,
+      "words": [
+        {
+          "start": 35.82,
+          "end": 35.96,
+          "word": " The",
+          "probability": 0.9696633219718933
+        },
+        {
+          "start": 35.96,
+          "end": 36.24,
+          "word": " code",
+          "probability": 0.9921831488609314
+        },
+        {
+          "start": 36.24,
+          "end": 36.6,
+          "word": " carries",
+          "probability": 0.9893990755081177
+        },
+        {
+          "start": 36.6,
+          "end": 36.88,
+          "word": " a",
+          "probability": 0.9954814910888672
+        },
+        {
+          "start": 36.88,
+          "end": 37.22,
+          "word": " message,",
+          "probability": 0.9928273558616638
+        },
+        {
+          "start": 37.54,
+          "end": 37.68,
+          "word": " a",
+          "probability": 0.9818628430366516
+        },
+        {
+          "start": 37.68,
+          "end": 37.9,
+          "word": " reading",
+          "probability": 0.9874728918075562
+        },
+        {
+          "start": 37.9,
+          "end": 38.24,
+          "word": " guide",
+          "probability": 0.9964908957481384
+        },
+        {
+          "start": 38.24,
+          "end": 38.56,
+          "word": " and",
+          "probability": 0.718875527381897
+        },
+        {
+          "start": 38.56,
+          "end": 38.78,
+          "word": " a",
+          "probability": 0.9699915051460266
+        },
+        {
+          "start": 38.78,
+          "end": 38.96,
+          "word": " backup",
+          "probability": 0.9139642715454102
+        },
+        {
+          "start": 38.96,
+          "end": 39.32,
+          "word": " plan.",
+          "probability": 0.9991666078567505
+        }
+      ]
+    }
+  ]
+}
