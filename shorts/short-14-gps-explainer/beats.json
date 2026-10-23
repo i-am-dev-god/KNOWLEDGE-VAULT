@@ -8,91 +8,72 @@
     "fps": 30,
     "durationSec": 60.0
   },
-  "voiceStatus": "chatterbox:nano:indian-male-clone:complete",
-  "chatterbox": {
-    "source": "resemble-ai/chatterbox",
-    "sourceCommit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
-    "engine": "ChatterboxTurboTTS",
-    "variant": "Nano",
-    "model": "ResembleAI/chatterbox-nano",
-    "modelFileSha256": {
-      "ve.safetensors": "f0921cab452fa278bc25cd23ffd59d36f816d7dc5181dd1bef9751a7fb61f63c",
-      "t3_nano_v1.safetensors": "72b110185087d945dbdf54dee4e333848e1811bdd5fd6cb16ceb8da50006f0c9",
-      "s3gen_meanflow.safetensors": "d65cb687a2ed581ee6cc297e919ffefa63386944f42364ae13b78a594945514f",
-      "conds.pt": "b1852099306fd6a7814eb9d0bd10186caba7249596cc23868f78a0eefbfa5033"
-    },
-    "device": "cpu",
-    "sourceSampleRate": 24000,
-    "masterSampleRate": 48000,
-    "tempoRate": 1.12,
-    "tempoAlgorithm": "FFmpeg atempo WSOLA; pitch preserved",
-    "temperature": 0.7,
-    "topP": 0.9,
-    "topK": 500,
-    "repetitionPenalty": 1.2,
-    "exaggeration": 0.0,
-    "cfgWeight": 0.0,
-    "speakerGender": "male",
-    "speakerAccent": "Indian English, cloned from the earlier VCTK p251 narration reference",
-    "voiceTransformation": "segment RMS matching, edge fades, sample-rate conversion and uniform 1.12x WSOLA pacing; no pitch shifting",
-    "watermark": "Resemble Perth implicit audio watermark, applied by Chatterbox",
-    "reference": {
-      "file": "media/voiceovers/gps-explainer/chatterbox-voice-reference.wav",
-      "source": "Earlier dry VCTK p251 narration; reference only, not replacement speech",
-      "startSec": 0.65,
-      "endSec": 6.862,
-      "durationSec": 6.212,
-      "sha256": "ee069e2cd8bf90e32dfe5d059471523da66afbc44e999d3335a1ceaea4ad261f"
-    },
-    "captionTiming": "exact measured Chatterbox synthesis segment boundaries"
+  "voiceStatus": "ai-speech:voice-00:user-selected-indian-male:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected Indian-English male narration voice; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-14-gps-explainer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "aa6f9f521a5793ae5f339c3ac4bc9a023c4e1a629ff6178a39d5774761155311",
+    "raw_duration_seconds": 56.24,
+    "trimmed_duration_seconds": 55.76075,
+    "tempo_rate": 1.079588577,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; same rate for the entire take",
+    "initial_silence_seconds": 0.65,
+    "narration_file": "media/voiceovers/gps-explainer/narration.wav",
+    "narration_sha256": "df3abe50f290f5201a8d3b9f476b6c38dbf7bbed5bc0a37ab040d20bf3bb346f",
+    "narration_duration_seconds": 60.0,
+    "paced_speech_end_seconds": 52.292563,
+    "alignment": "faster-whisper medium.en word timestamps on the exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9662667513598224
   },
   "gaps": {
     "initial": 0.65,
-    "intraScene": 0.14,
-    "betweenScenes": 0.38
+    "pauses": "Natural pauses from one continuous take, preserved under the same tempo adjustment"
   },
-  "voiceEnd": 52.849,
+  "voiceEnd": 52.28,
   "scenes": [
     {
       "id": "hook",
       "title": "No signal. Still found.",
       "start": 0.0,
-      "end": 7.016
+      "end": 6.95
     },
     {
       "id": "orbit",
       "title": "Clocks in orbit",
-      "start": 7.016,
-      "end": 14.123
+      "start": 6.95,
+      "end": 14.97
     },
     {
       "id": "signals",
       "title": "A timestamp from space",
-      "start": 14.123,
-      "end": 18.801
+      "start": 14.97,
+      "end": 19.69
     },
     {
       "id": "delay",
       "title": "Time becomes distance",
-      "start": 18.801,
-      "end": 28.462
+      "start": 19.69,
+      "end": 29.43
     },
     {
       "id": "four",
       "title": "Why four satellites?",
-      "start": 28.462,
-      "end": 38.344
+      "start": 29.43,
+      "end": 39.21
     },
     {
       "id": "trilateration",
       "title": "Trilateration",
-      "start": 38.344,
-      "end": 45.419
+      "start": 39.21,
+      "end": 45.71
     },
     {
       "id": "closing",
       "title": "A cosmic stopwatch",
-      "start": 45.419,
+      "start": 45.71,
       "end": 60.0
     }
   ],
@@ -103,159 +84,143 @@
       "text": "Your phone can find you without mobile signal or internet.",
       "speak": "Your phone can find you without mobile signal or internet.",
       "start": 0.65,
-      "end": 3.522,
-      "duration": 2.872,
-      "generationSeed": 1401
+      "end": 3.98,
+      "duration": 3.33
     },
     {
       "id": "hook-map",
       "scene": "hook",
       "text": "The map may need data. GPS itself does not.",
       "speak": "The map may need data. G P S itself does not.",
-      "start": 3.662,
-      "end": 6.986,
-      "duration": 3.325,
-      "generationSeed": 1402
+      "start": 4.56,
+      "end": 7.3,
+      "duration": 2.74
     },
     {
       "id": "orbit-altitude",
       "scene": "orbit",
       "text": "GPS satellites orbit about twenty thousand kilometres above Earth.",
       "speak": "G P S satellites orbit about twenty thousand kilometres above Earth.",
-      "start": 7.366,
-      "end": 11.05,
-      "duration": 3.684,
-      "generationSeed": 1403
+      "start": 7.3,
+      "end": 11.4,
+      "duration": 4.1
     },
     {
       "id": "orbit-clock",
       "scene": "orbit",
       "text": "Each one carries an extremely accurate atomic clock.",
       "speak": "Each one carries an extremely accurate atomic clock.",
-      "start": 11.19,
-      "end": 14.093,
-      "duration": 2.903,
-      "generationSeed": 1404
+      "start": 11.92,
+      "end": 14.66,
+      "duration": 2.74
     },
     {
       "id": "signal-position",
       "scene": "signals",
       "text": "Every satellite broadcasts its position,",
       "speak": "Every satellite broadcasts its position,",
-      "start": 14.473,
-      "end": 16.61,
-      "duration": 2.137,
-      "generationSeed": 1405
+      "start": 15.32,
+      "end": 17.3,
+      "duration": 1.98
     },
     {
       "id": "signal-time",
       "scene": "signals",
       "text": "and the exact time its signal was sent.",
       "speak": "and the exact time its signal was sent.",
-      "start": 16.75,
-      "end": 18.771,
-      "duration": 2.021,
-      "generationSeed": 1406
+      "start": 17.3,
+      "end": 19.48,
+      "duration": 2.18
     },
     {
       "id": "delay-measure",
       "scene": "delay",
       "text": "Your phone measures how long that signal took to arrive.",
       "speak": "Your phone measures how long that signal took to arrive.",
-      "start": 19.151,
-      "end": 21.914,
-      "duration": 2.762,
-      "generationSeed": 1407
+      "start": 20.04,
+      "end": 22.6,
+      "duration": 2.56
     },
     {
       "id": "delay-precise",
       "scene": "delay",
       "text": "The timing must be astonishingly precise.",
       "speak": "The timing must be astonishingly precise.",
-      "start": 22.054,
-      "end": 24.286,
-      "duration": 2.232,
-      "generationSeed": 1408
+      "start": 23.2,
+      "end": 25.34,
+      "duration": 2.14
     },
     {
       "id": "delay-light",
       "scene": "delay",
       "text": "Because radio waves travel at the speed of light, delay becomes distance.",
       "speak": "Because radio waves travel at the speed of light, delay becomes distance.",
-      "start": 24.426,
-      "end": 28.432,
-      "duration": 4.006,
-      "generationSeed": 1409
+      "start": 25.72,
+      "end": 29.18,
+      "duration": 3.46
     },
     {
       "id": "four-one",
       "scene": "four",
       "text": "One satellite gives a distance, not a fix.",
       "speak": "One satellite gives a distance, not a fix.",
-      "start": 28.812,
-      "end": 31.442,
-      "duration": 2.629,
-      "generationSeed": 1410
+      "start": 29.78,
+      "end": 31.94,
+      "duration": 2.16
     },
     {
       "id": "four-position",
       "scene": "four",
       "text": "Three satellites help find your position. A fourth corrects your phone's clock.",
       "speak": "Three satellites help find your position. A fourth corrects your phone's clock.",
-      "start": 31.582,
-      "end": 35.547,
-      "duration": 3.966,
-      "generationSeed": 1411
+      "start": 32.46,
+      "end": 36.32,
+      "duration": 3.86
     },
     {
       "id": "four-correction",
       "scene": "four",
       "text": "Without that correction, the position would be wrong.",
       "speak": "Without that correction, the position would be wrong.",
-      "start": 35.687,
-      "end": 38.314,
-      "duration": 2.627,
-      "generationSeed": 1412
+      "start": 36.32,
+      "end": 38.8,
+      "duration": 2.48
     },
     {
       "id": "tri-spheres",
       "scene": "trilateration",
       "text": "Imagine invisible spheres around the satellites.",
       "speak": "Imagine invisible spheres around the satellites.",
-      "start": 38.694,
-      "end": 41.303,
-      "duration": 2.609,
-      "generationSeed": 1413
+      "start": 39.56,
+      "end": 41.76,
+      "duration": 2.2
     },
     {
       "id": "tri-location",
       "scene": "trilateration",
       "text": "Where the distances meet is your location. That's trilateration.",
       "speak": "Where the distances meet is your location. That's trilateration.",
-      "start": 41.443,
-      "end": 45.389,
-      "duration": 3.946,
-      "generationSeed": 1414
+      "start": 42.26,
+      "end": 45.5,
+      "duration": 3.24
     },
     {
       "id": "closing-stopwatch",
       "scene": "closing",
       "text": "So GPS is a cosmic stopwatch.",
       "speak": "So G P S is a cosmic stopwatch.",
-      "start": 45.769,
-      "end": 48.122,
-      "duration": 2.353,
-      "generationSeed": 1415
+      "start": 46.06,
+      "end": 47.9,
+      "duration": 1.84
     },
     {
       "id": "closing-map",
       "scene": "closing",
       "text": "Satellites send the time. Your phone turns tiny delays into a dot on the map.",
       "speak": "Satellites send the time. Your phone turns tiny delays into a dot on the map.",
-      "start": 48.262,
-      "end": 52.849,
-      "duration": 4.587,
-      "generationSeed": 1416
+      "start": 48.42,
+      "end": 52.28,
+      "duration": 3.86
     }
   ]
 }

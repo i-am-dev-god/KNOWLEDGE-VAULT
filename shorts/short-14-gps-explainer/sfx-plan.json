@@ -12,7 +12,7 @@
     "out": "shorts/short-14-gps-explainer/output/how-gps-finds-you.mp4",
     "end_s": 60.0
   },
-  "note": "All cues are sequenced in Short14GpsExplainer.tsx from exact Chatterbox segment timings. No estimated word alignment is used. Only final output loudness mastering is applied after rendering.",
+  "note": "All cues use verified word-timestamp alignment from one continuous user-selected voice-00 narration take.",
   "events": [
     {
       "at_s": 0.25,
@@ -22,112 +22,102 @@
       "sync_source": "hook-offline"
     },
     {
-      "at_s": 3.582,
+      "at_s": 4.48,
       "sfx_id": "ui-toggle-on",
       "gain_db": -15.5,
       "cue": "Map data and GPS are distinguished",
       "sync_source": "hook-map"
     },
     {
-      "at_s": 7.046,
+      "at_s": 6.98,
       "sfx_id": "whoosh-soft",
       "gain_db": -15.0,
       "cue": "Lift from phone into orbit",
       "sync_source": "orbit-altitude"
     },
     {
-      "at_s": 11.09,
+      "at_s": 11.82,
       "sfx_id": "clock-tick-soft",
       "gain_db": -15.0,
       "cue": "Atomic-clock reveal",
       "sync_source": "orbit-clock"
     },
     {
-      "at_s": 14.313,
+      "at_s": 15.16,
       "sfx_id": "scan-hum",
       "gain_db": -17.0,
       "cue": "Satellite begins broadcasting",
       "sync_source": "signal-position"
     },
     {
-      "at_s": 16.7,
+      "at_s": 17.25,
       "sfx_id": "ui-send",
       "gain_db": -15.0,
       "cue": "Timestamp packet leaves the satellite",
       "sync_source": "signal-time"
     },
     {
-      "at_s": 21.974,
+      "at_s": 23.12,
       "sfx_id": "clock-tick-soft",
       "gain_db": -16.5,
       "cue": "Precision stopwatch emphasis",
       "sync_source": "delay-precise"
     },
     {
-      "at_s": 24.526,
+      "at_s": 25.82,
       "sfx_id": "sparkle-soft",
       "gain_db": -15.5,
       "cue": "Delay-to-distance equation resolves",
       "sync_source": "delay-light"
     },
     {
-      "at_s": 28.652,
+      "at_s": 29.62,
       "sfx_id": "impact-soft",
       "gain_db": -16.0,
       "cue": "One distance is not a fix",
       "sync_source": "four-one"
     },
     {
-      "at_s": 31.522,
+      "at_s": 32.4,
       "sfx_id": "pop-reveal",
       "gain_db": -15.0,
       "cue": "Four-satellite layout appears",
       "sync_source": "four-position"
     },
     {
-      "at_s": 35.607,
+      "at_s": 36.24,
       "sfx_id": "ui-toggle-on",
       "gain_db": -16.0,
       "cue": "Clock-correction channel confirmed",
       "sync_source": "four-correction"
     },
     {
-      "at_s": 38.444,
+      "at_s": 39.31,
       "sfx_id": "whoosh-wind",
       "gain_db": -16.0,
       "cue": "Wireframe distance spheres expand",
       "sync_source": "tri-spheres"
     },
     {
-      "at_s": 41.543,
+      "at_s": 42.36,
       "sfx_id": "chime-magic",
       "gain_db": -16.0,
       "cue": "Intersection resolves to receiver",
       "sync_source": "tri-location"
     },
     {
-      "at_s": 45.569,
+      "at_s": 45.86,
       "sfx_id": "warm-shimmer",
       "gain_db": -16.0,
       "cue": "Cosmic-stopwatch recap",
       "sync_source": "closing-stopwatch"
     },
     {
-      "at_s": 48.412,
+      "at_s": 48.57,
       "sfx_id": "chime-reward",
       "gain_db": -16.0,
       "cue": "Final map pin and title",
       "sync_source": "closing-map"
     }
-  ],
-  "delivery": {
-    "video": "Validated H.264 stream copied without re-encoding",
-    "audio_master": "+4.62 dB to the complete mix, followed by a zero-makeup lookahead limiter at 0.86 with latency compensation; AAC-LC 48 kHz stereo, 192 kb/s target",
-    "integrated_lufs": -17.4,
-    "loudness_range_lu": 9.9,
-    "true_peak_dbfs": -1.1,
-    "decoded_frames": 1800,
-    "container_duration_s": 60.05,
-    "sha256": "d20cb101cf51307362881fa58eb2f5c6e58397b32e7d8a304281934849009c40"
-  }
+  ]
 }

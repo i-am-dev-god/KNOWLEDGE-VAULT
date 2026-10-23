@@ -4,7 +4,7 @@
 
 **Format:** 1080 × 1920, 30 fps, 60 seconds
 
-**Production:** Original everyday-technology explainer and vector animation, restrained Chatterbox-Nano Indian male narration, exact segment-timed captions, tech music and synchronized sound design
+**Production:** Existing everyday-technology vector animation, one continuous user-selected `voice-00` narration take, ASR-aligned captions, ducked tech music, and synchronized sound design
 
 ## Narration and storyboard
 
@@ -61,36 +61,33 @@
 
 **Picture:** The three-step recap `TIME → DISTANCE → POSITION` returns to the phone map and the final title `HOW GPS FINDS YOU`.
 
-## Chatterbox production record
+## Selected-voice production record
 
-- **Application source:** `resemble-ai/chatterbox`, commit `5de7a54aa4e5e2baadb0182dde554908b48b85c2`.
-- **Engine:** Official `ChatterboxTurboTTS` inference with `nano=True`, running on CPU.
-- **Voice model:** `ResembleAI/chatterbox-nano`; the required voice encoder, Nano T3 checkpoint, mean-flow speech decoder and built-in conditioning files were checksum-verified. Individual SHA-256 values are recorded in `beats.json`.
-- **Narrator:** Restrained Indian English male, cloned from a 6.212-second dry reference retained from the earlier VCTK p251 narration. The reference is used only for Chatterbox conditioning; **all 16 replacement speech segments are synthesized by Chatterbox-Nano**.
-- **Delivery settings:** temperature `0.7`, top-p `0.9`, top-k `500`, repetition penalty `1.2`, exaggeration `0.0`, CFG weight `0.0`, and deterministic per-segment seeds `1401–1416`. No dramatic speech tags are used.
-- **Clarity revision:** `Three satellites help find your position` replaces the less clear original phrase. Independent `faster-whisper small.en` transcription of the exact 60-second narration master matches the complete intended script after normalization, with 97.3% mean word confidence. See `transcription-qa.json`.
-- **Synthesis and pacing:** 24 kHz Chatterbox output with Resemble's Perth watermark, trimmed and level-matched, resampled to 48 kHz, then uniformly paced to `1.12×` with FFmpeg's pitch-preserving WSOLA `atempo`. No pitch shifting or accent transformation is applied.
-- **Synchronization:** Every caption is a complete synthesized audio segment. Caption, scene and SFX timings come from actual measured segment durations and placement—no estimated word-level alignment is used. The closing title transition and music release are derived from the measured final-line end.
-- **Master narration:** 48 kHz mono PCM WAV in a 60-second timeline; final speech ends at 52.849 seconds.
+- **Narrator:** The user-selected built-in `voice-00`, used exclusively for the complete script in one continuous take. No alternate voice, section-by-section voice switching, third-party voice cloning, or reference conditioning is used.
+- **Source take:** 24 kHz mono, 56.24 seconds; SHA-256 `aa6f9f521a5793ae5f339c3ac4bc9a023c4e1a629ff6178a39d5774761155311`.
+- **Synthesis and pacing:** Edge-trimmed and resampled to 48 kHz, then uniformly paced to `1.079588577×` with FFmpeg's pitch-preserving WSOLA `atempo`. The same rate is used throughout; no pitch shifting or accent transformation is applied.
+- **Master narration:** 48 kHz mono PCM WAV in a 60-second timeline with 0.65 seconds of initial silence. Paced speech ends at 52.292563 seconds. Master SHA-256: `df3abe50f290f5201a8d3b9f476b6c38dbf7bbed5bc0a37ab040d20bf3bb346f`.
+- **Script verification:** Independent `faster-whisper medium.en` transcription of the exact narration master matches the complete intended script after harmless spelling/number normalization, including `speed of light`, with 96.63% mean word confidence. See `transcription-voice-00.json`.
+- **Synchronization:** Caption boundaries come from verified ASR word timestamps, with the first onset clamped to the measured 0.65-second narration start. Scene changes and all 15 SFX cues are derived from the aligned narration. The closing title transition and music release are derived from the final-line end.
 
 ## Sound and accessibility
 
-- Original SVG/CSS animation; no stock footage or copied sample composition.
-- `tech-pulse` instrumental bed, ducked beneath narration.
-- Library clock, scan, interface, impact, whoosh, and shimmer effects are triggered from measured narration/scene cues.
-- Captions use complete measured clauses inside the vertical safe area.
+- Existing SVG/CSS animation preserved; no stock footage or replacement visual concept introduced.
+- `tech-pulse` instrumental bed, ducked beneath narration and released after the final line.
+- Library clock, scan, interface, impact, whoosh, and shimmer effects are triggered from narration-aligned cues.
+- Captions use complete aligned clauses inside the vertical safe area.
 - Final QA covers full decode, 1,800 frames, stream formats, duration, integrated loudness, true peak, silence, and visual contact sheets.
 
 ## Final master and QA
 
-- **Deliverable:** `output/how-gps-finds-you.mp4` (ignored by Git, consistent with the repository's other rendered finals).
-- **Picture:** H.264 High, 1080 × 1920, 30 fps, exactly 1,800 decoded frames; full-stream decode passed.
-- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. A final +4.62 dB playback gain and zero-makeup, latency-compensated lookahead limiter were applied to the complete Remotion mix while copying the validated video stream without re-encoding it.
-- **Measured audio:** −17.4 LUFS integrated, 9.9 LU loudness range, −1.1 dBFS true peak. No silence of at least two seconds below −45 dB was detected.
-- **Container duration:** 60.05 seconds (60.00 seconds of video plus AAC padding).
-- **Size:** 11,031,960 bytes.
-- **SHA-256:** `d20cb101cf51307362881fa58eb2f5c6e58397b32e7d8a304281934849009c40`.
-- **MD5:** `cfb1e567eef2c96e1247de49b3937a78`.
-- **Synchronization:** 16 caption segments and 15 sound cues are driven by measured Chatterbox timings; no estimated word alignment is used.
-- **Visual review:** Actual-MP4 contact sheet plus isolated closing-title frame checked. The closing recap and title remain overlap-free, and TypeScript validation passes with `npx tsc --noEmit`.
-- **Drive replacement:** Uploaded to **COMEBACK** as file `1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm`; Drive's reported size and MD5 match the validated local master. [Open the Chatterbox version](https://drive.google.com/file/d/1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm/view?usp=drivesdk). The earlier VoiceStudio file `132OmQMuxxeABKF45VqO6dwsLQfO0cKFr` was moved to trash only after that verification.
+- **GitHub deliverable:** `RESULT/how-gps-finds-you.mp4`. The production copy at `output/how-gps-finds-you.mp4` is byte-identical and remains ignored by Git, consistent with the repository's other rendered finals.
+- **Picture:** H.264 High, 1080 × 1920, 30 fps, exactly 1,800 decoded frames; full-stream decode of the finished MP4 passed.
+- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. Final audio mastering used a 70 Hz high-pass, zero-makeup limiter, and loudness normalization (`I=-16`, `TP=-1.5`, `LRA=11`) while copying the validated H.264 stream without re-encoding it.
+- **Measured audio:** −16.5 LUFS integrated, 4.9 LU loudness range, −1.1 dBFS true peak. No silence of at least two seconds below −45 dB was detected.
+- **Container duration:** 60.10 seconds (60.00 seconds of video plus AAC padding).
+- **Size:** 10,286,691 bytes.
+- **SHA-256:** `3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c`.
+- **MD5:** `c6354a20f58d664cd959fe16bc40ba10`.
+- **Synchronization:** 16 caption segments and 15 sound cues are driven by the verified `voice-00` alignment.
+- **Visual review:** All 16 caption midpoints from the finished MP4 plus an isolated closing-title frame checked. The closing recap and title remain overlap-free, and TypeScript validation passes with `npx tsc --noEmit`.
+- **Existing Drive version:** Left unchanged; this delivery is through GitHub in `RESULT/`.
