@@ -5,200 +5,665 @@
   "audio_sha256": "a6ecc375a716fadb73dd9401af26281cfab2458b4b398b779ba253deb315e1de",
   "language": "en",
   "language_probability": 1,
-  "text": "When both waves reach your ear, their opposing pressures largely cancel. This is called destructive interference. It works best on steady, low sounds, like an engine's hum. Sudden sounds are harder to predict, so some noise still gets through. So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
-  "mean_word_probability": 0.9595015009399503,
+  "text": "Noise-cancelling headphones do not just block sound. They erase part of it by adding more sound. Sound travels through air as pressure waves with peaks and troughs. A tiny microphone on the outside listens to the noise around you. Inside, the electronics create a copy of that noise. But the copy is flipped. Every peak becomes a trough. The speaker plays this anti-noise at exactly the right moment. When both waves reach your ear, their opposing pressures largely cancel. This is called destructive interference. It works best on steady, low sounds, like an engine's hum. Sudden sounds are harder to predict, so some noise still gets through. So silence is not always less sound. Sometimes it is a carefully timed copy, played in reverse. Thank you.",
+  "mean_word_probability": 0.9654538560741155,
   "low_confidence_words": [
-    {
-      "start": 30.0,
-      "end": 30.0,
-      "word": " When",
-      "probability": 0.021294550970196724
-    },
     {
       "start": 45.5,
       "end": 46.04,
       "word": " silence",
-      "probability": 0.49018076062202454
+      "probability": 0.47927606105804443
+    },
+    {
+      "start": 58.98,
+      "end": 59.84,
+      "word": " Thank",
+      "probability": 0.005971997044980526
     }
   ],
   "segments": [
     {
-      "start": 30.0,
-      "end": 36.22,
-      "text": "When both waves reach your ear, their opposing pressures largely cancel. This is called destructive interference.",
-      "avg_logprob": -0.13863060444216185,
-      "no_speech_prob": 0.45528411865234375,
+      "start": 0.0,
+      "end": 7.2,
+      "text": "Noise-cancelling headphones do not just block sound. They erase part of it by adding more sound.",
+      "avg_logprob": -0.07203501415880102,
+      "no_speech_prob": 0.03414297103881836,
       "words": [
         {
-          "start": 30.0,
-          "end": 30.0,
-          "word": " When",
-          "probability": 0.021294550970196724
+          "start": 0.0,
+          "end": 1.28,
+          "word": " Noise",
+          "probability": 0.8461508750915527
         },
         {
-          "start": 30.0,
-          "end": 30.1,
-          "word": " both",
-          "probability": 0.9462822675704956
+          "start": 1.28,
+          "end": 1.78,
+          "word": "-cancelling",
+          "probability": 0.6843441128730774
         },
         {
-          "start": 30.1,
-          "end": 30.44,
+          "start": 1.78,
+          "end": 2.26,
+          "word": " headphones",
+          "probability": 0.9767569899559021
+        },
+        {
+          "start": 2.26,
+          "end": 2.58,
+          "word": " do",
+          "probability": 0.9735585451126099
+        },
+        {
+          "start": 2.58,
+          "end": 2.78,
+          "word": " not",
+          "probability": 0.9984766840934753
+        },
+        {
+          "start": 2.78,
+          "end": 3.04,
+          "word": " just",
+          "probability": 0.9914244413375854
+        },
+        {
+          "start": 3.04,
+          "end": 3.38,
+          "word": " block",
+          "probability": 0.9885210990905762
+        },
+        {
+          "start": 3.38,
+          "end": 3.84,
+          "word": " sound.",
+          "probability": 0.9862544536590576
+        },
+        {
+          "start": 4.32,
+          "end": 4.46,
+          "word": " They",
+          "probability": 0.9790353775024414
+        },
+        {
+          "start": 4.46,
+          "end": 4.96,
+          "word": " erase",
+          "probability": 0.9623226523399353
+        },
+        {
+          "start": 4.96,
+          "end": 5.3,
+          "word": " part",
+          "probability": 0.9762351512908936
+        },
+        {
+          "start": 5.3,
+          "end": 5.46,
+          "word": " of",
+          "probability": 0.9976644515991211
+        },
+        {
+          "start": 5.46,
+          "end": 5.72,
+          "word": " it",
+          "probability": 0.9984813332557678
+        },
+        {
+          "start": 5.72,
+          "end": 5.98,
+          "word": " by",
+          "probability": 0.7410885691642761
+        },
+        {
+          "start": 5.98,
+          "end": 6.38,
+          "word": " adding",
+          "probability": 0.9987422823905945
+        },
+        {
+          "start": 6.38,
+          "end": 6.74,
+          "word": " more",
+          "probability": 0.9945953488349915
+        },
+        {
+          "start": 6.74,
+          "end": 7.2,
+          "word": " sound.",
+          "probability": 0.9971606731414795
+        }
+      ]
+    },
+    {
+      "start": 7.88,
+      "end": 12.5,
+      "text": "Sound travels through air as pressure waves with peaks and troughs.",
+      "avg_logprob": -0.07203501415880102,
+      "no_speech_prob": 0.03414297103881836,
+      "words": [
+        {
+          "start": 7.88,
+          "end": 8.2,
+          "word": " Sound",
+          "probability": 0.9834741950035095
+        },
+        {
+          "start": 8.2,
+          "end": 8.68,
+          "word": " travels",
+          "probability": 0.9989532232284546
+        },
+        {
+          "start": 8.68,
+          "end": 9.0,
+          "word": " through",
+          "probability": 0.9923754334449768
+        },
+        {
+          "start": 9.0,
+          "end": 9.36,
+          "word": " air",
+          "probability": 0.9775263071060181
+        },
+        {
+          "start": 9.36,
+          "end": 9.66,
+          "word": " as",
+          "probability": 0.9919722080230713
+        },
+        {
+          "start": 9.66,
+          "end": 10.08,
+          "word": " pressure",
+          "probability": 0.9813376665115356
+        },
+        {
+          "start": 10.08,
+          "end": 10.4,
           "word": " waves",
-          "probability": 0.9926642179489136
+          "probability": 0.9714474678039551
         },
         {
-          "start": 30.44,
+          "start": 10.4,
+          "end": 10.92,
+          "word": " with",
+          "probability": 0.6010003089904785
+        },
+        {
+          "start": 10.92,
+          "end": 11.34,
+          "word": " peaks",
+          "probability": 0.9963712692260742
+        },
+        {
+          "start": 11.34,
+          "end": 11.74,
+          "word": " and",
+          "probability": 0.9619505405426025
+        },
+        {
+          "start": 11.74,
+          "end": 12.5,
+          "word": " troughs.",
+          "probability": 0.9950399100780487
+        }
+      ]
+    },
+    {
+      "start": 12.8,
+      "end": 20.54,
+      "text": "A tiny microphone on the outside listens to the noise around you. Inside, the electronics create a copy of that noise.",
+      "avg_logprob": -0.07203501415880102,
+      "no_speech_prob": 0.03414297103881836,
+      "words": [
+        {
+          "start": 12.8,
+          "end": 13.02,
+          "word": " A",
+          "probability": 0.9886022210121155
+        },
+        {
+          "start": 13.02,
+          "end": 13.34,
+          "word": " tiny",
+          "probability": 0.998450517654419
+        },
+        {
+          "start": 13.34,
+          "end": 13.92,
+          "word": " microphone",
+          "probability": 0.9896117448806763
+        },
+        {
+          "start": 13.92,
+          "end": 14.18,
+          "word": " on",
+          "probability": 0.9939139485359192
+        },
+        {
+          "start": 14.18,
+          "end": 14.32,
+          "word": " the",
+          "probability": 0.9975554347038269
+        },
+        {
+          "start": 14.32,
+          "end": 14.86,
+          "word": " outside",
+          "probability": 0.9981842637062073
+        },
+        {
+          "start": 14.86,
+          "end": 15.46,
+          "word": " listens",
+          "probability": 0.9875284433364868
+        },
+        {
+          "start": 15.46,
+          "end": 15.78,
+          "word": " to",
+          "probability": 0.9980594515800476
+        },
+        {
+          "start": 15.78,
+          "end": 15.94,
+          "word": " the",
+          "probability": 0.9841806888580322
+        },
+        {
+          "start": 15.94,
+          "end": 16.14,
+          "word": " noise",
+          "probability": 0.9975528120994568
+        },
+        {
+          "start": 16.14,
+          "end": 16.38,
+          "word": " around",
+          "probability": 0.9988107681274414
+        },
+        {
+          "start": 16.38,
+          "end": 16.76,
+          "word": " you.",
+          "probability": 0.9964103102684021
+        },
+        {
+          "start": 17.26,
+          "end": 17.74,
+          "word": " Inside,",
+          "probability": 0.9962097406387329
+        },
+        {
+          "start": 18.14,
+          "end": 18.28,
+          "word": " the",
+          "probability": 0.9957078695297241
+        },
+        {
+          "start": 18.28,
+          "end": 18.82,
+          "word": " electronics",
+          "probability": 0.9976970553398132
+        },
+        {
+          "start": 18.82,
+          "end": 19.24,
+          "word": " create",
+          "probability": 0.9866085648536682
+        },
+        {
+          "start": 19.24,
+          "end": 19.54,
+          "word": " a",
+          "probability": 0.9978849291801453
+        },
+        {
+          "start": 19.54,
+          "end": 19.76,
+          "word": " copy",
+          "probability": 0.9164375066757202
+        },
+        {
+          "start": 19.76,
+          "end": 19.96,
+          "word": " of",
+          "probability": 0.9989515542984009
+        },
+        {
+          "start": 19.96,
+          "end": 20.14,
+          "word": " that",
+          "probability": 0.9853197932243347
+        },
+        {
+          "start": 20.14,
+          "end": 20.54,
+          "word": " noise.",
+          "probability": 0.9988258481025696
+        }
+      ]
+    },
+    {
+      "start": 20.72,
+      "end": 28.98,
+      "text": "But the copy is flipped. Every peak becomes a trough. The speaker plays this anti-noise at exactly the right moment.",
+      "avg_logprob": -0.07203501415880102,
+      "no_speech_prob": 0.03414297103881836,
+      "words": [
+        {
+          "start": 20.72,
+          "end": 21.14,
+          "word": " But",
+          "probability": 0.9958184361457825
+        },
+        {
+          "start": 21.14,
+          "end": 21.32,
+          "word": " the",
+          "probability": 0.9623329043388367
+        },
+        {
+          "start": 21.32,
+          "end": 21.58,
+          "word": " copy",
+          "probability": 0.9970794916152954
+        },
+        {
+          "start": 21.58,
+          "end": 21.88,
+          "word": " is",
+          "probability": 0.998087465763092
+        },
+        {
+          "start": 21.88,
+          "end": 22.34,
+          "word": " flipped.",
+          "probability": 0.9979119896888733
+        },
+        {
+          "start": 22.8,
+          "end": 23.16,
+          "word": " Every",
+          "probability": 0.9943243265151978
+        },
+        {
+          "start": 23.16,
+          "end": 23.56,
+          "word": " peak",
+          "probability": 0.9712460041046143
+        },
+        {
+          "start": 23.56,
+          "end": 24.04,
+          "word": " becomes",
+          "probability": 0.9853342771530151
+        },
+        {
+          "start": 24.04,
+          "end": 24.3,
+          "word": " a",
+          "probability": 0.9763484001159668
+        },
+        {
+          "start": 24.3,
+          "end": 24.44,
+          "word": " trough.",
+          "probability": 0.9990177154541016
+        },
+        {
+          "start": 25.24,
+          "end": 25.42,
+          "word": " The",
+          "probability": 0.9953071475028992
+        },
+        {
+          "start": 25.42,
+          "end": 25.74,
+          "word": " speaker",
+          "probability": 0.989827036857605
+        },
+        {
+          "start": 25.74,
+          "end": 26.14,
+          "word": " plays",
+          "probability": 0.9973205924034119
+        },
+        {
+          "start": 26.14,
+          "end": 26.44,
+          "word": " this",
+          "probability": 0.993881106376648
+        },
+        {
+          "start": 26.44,
+          "end": 26.86,
+          "word": " anti",
+          "probability": 0.9260396361351013
+        },
+        {
+          "start": 26.86,
+          "end": 27.18,
+          "word": "-noise",
+          "probability": 0.980371912320455
+        },
+        {
+          "start": 27.18,
+          "end": 27.44,
+          "word": " at",
+          "probability": 0.993294894695282
+        },
+        {
+          "start": 27.44,
+          "end": 28.1,
+          "word": " exactly",
+          "probability": 0.9958928823471069
+        },
+        {
+          "start": 28.1,
+          "end": 28.36,
+          "word": " the",
+          "probability": 0.9959970712661743
+        },
+        {
+          "start": 28.36,
+          "end": 28.52,
+          "word": " right",
+          "probability": 0.9989160299301147
+        },
+        {
+          "start": 28.52,
+          "end": 28.98,
+          "word": " moment.",
+          "probability": 0.996968686580658
+        }
+      ]
+    },
+    {
+      "start": 28.98,
+      "end": 33.68,
+      "text": "When both waves reach your ear, their opposing pressures largely cancel.",
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
+      "words": [
+        {
+          "start": 28.98,
+          "end": 29.68,
+          "word": " When",
+          "probability": 0.976565420627594
+        },
+        {
+          "start": 29.68,
+          "end": 30.06,
+          "word": " both",
+          "probability": 0.997008740901947
+        },
+        {
+          "start": 30.06,
+          "end": 30.42,
+          "word": " waves",
+          "probability": 0.9934276938438416
+        },
+        {
+          "start": 30.42,
           "end": 30.74,
           "word": " reach",
-          "probability": 0.9913715124130249
+          "probability": 0.9938449859619141
         },
         {
           "start": 30.74,
-          "end": 30.96,
+          "end": 30.94,
           "word": " your",
-          "probability": 0.9852077960968018
+          "probability": 0.9915605187416077
         },
         {
-          "start": 30.96,
+          "start": 30.94,
           "end": 31.2,
           "word": " ear,",
-          "probability": 0.8323498368263245
+          "probability": 0.8999488949775696
         },
         {
           "start": 31.58,
           "end": 31.66,
           "word": " their",
-          "probability": 0.9838648438453674
+          "probability": 0.9905880689620972
         },
         {
           "start": 31.66,
           "end": 32.24,
           "word": " opposing",
-          "probability": 0.9974595904350281
+          "probability": 0.9987353682518005
         },
         {
           "start": 32.24,
           "end": 32.66,
           "word": " pressures",
-          "probability": 0.9637713432312012
+          "probability": 0.9794049263000488
         },
         {
           "start": 32.66,
-          "end": 33.24,
+          "end": 33.26,
           "word": " largely",
-          "probability": 0.9832609295845032
+          "probability": 0.9878740906715393
         },
         {
-          "start": 33.24,
+          "start": 33.26,
           "end": 33.68,
           "word": " cancel.",
-          "probability": 0.9977838397026062
-        },
+          "probability": 0.9977309107780457
+        }
+      ]
+    },
+    {
+      "start": 34.28,
+      "end": 36.22,
+      "text": "This is called destructive interference.",
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
+      "words": [
         {
-          "start": 34.22,
-          "end": 34.54,
+          "start": 34.28,
+          "end": 34.52,
           "word": " This",
-          "probability": 0.9892480969429016
+          "probability": 0.9931496977806091
         },
         {
-          "start": 34.54,
-          "end": 34.7,
+          "start": 34.52,
+          "end": 34.68,
           "word": " is",
-          "probability": 0.9978848099708557
+          "probability": 0.9982159733772278
         },
         {
-          "start": 34.7,
+          "start": 34.68,
           "end": 34.9,
           "word": " called",
-          "probability": 0.9966731071472168
+          "probability": 0.9973893761634827
         },
         {
           "start": 34.9,
           "end": 35.54,
           "word": " destructive",
-          "probability": 0.9177027344703674
+          "probability": 0.897720456123352
         },
         {
           "start": 35.54,
           "end": 36.22,
           "word": " interference.",
-          "probability": 0.9992920160293579
+          "probability": 0.9990707635879517
         }
       ]
     },
     {
-      "start": 36.88,
+      "start": 36.9,
       "end": 40.42,
       "text": "It works best on steady, low sounds, like an engine's hum.",
-      "avg_logprob": -0.13863060444216185,
-      "no_speech_prob": 0.45528411865234375,
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
       "words": [
         {
-          "start": 36.88,
+          "start": 36.9,
           "end": 37.14,
           "word": " It",
-          "probability": 0.9912689924240112
+          "probability": 0.9935171604156494
         },
         {
           "start": 37.14,
           "end": 37.42,
           "word": " works",
-          "probability": 0.9984455704689026
+          "probability": 0.9988839030265808
         },
         {
           "start": 37.42,
           "end": 37.72,
           "word": " best",
-          "probability": 0.9909374117851257
+          "probability": 0.9919770359992981
         },
         {
           "start": 37.72,
-          "end": 37.98,
+          "end": 38.0,
           "word": " on",
-          "probability": 0.9944619536399841
+          "probability": 0.9963110089302063
         },
         {
-          "start": 37.98,
+          "start": 38.0,
           "end": 38.44,
           "word": " steady,",
-          "probability": 0.9840526580810547
+          "probability": 0.9862651228904724
         },
         {
           "start": 38.74,
           "end": 38.84,
           "word": " low",
-          "probability": 0.9972267746925354
+          "probability": 0.9976612329483032
         },
         {
           "start": 38.84,
           "end": 39.24,
           "word": " sounds,",
-          "probability": 0.9872150421142578
+          "probability": 0.9885385632514954
         },
         {
-          "start": 39.34,
+          "start": 39.36,
           "end": 39.58,
           "word": " like",
-          "probability": 0.9949274063110352
+          "probability": 0.9961374402046204
         },
         {
           "start": 39.58,
           "end": 39.78,
           "word": " an",
-          "probability": 0.973957896232605
+          "probability": 0.9665588736534119
         },
         {
           "start": 39.78,
-          "end": 40.28,
+          "end": 40.26,
           "word": " engine's",
-          "probability": 0.9806841909885406
+          "probability": 0.9864600002765656
         },
         {
-          "start": 40.28,
+          "start": 40.26,
           "end": 40.42,
           "word": " hum.",
-          "probability": 0.9968891739845276
+          "probability": 0.9960774779319763
         }
       ]
     },
@@ -206,191 +671,221 @@
       "start": 41.08,
       "end": 44.7,
       "text": "Sudden sounds are harder to predict, so some noise still gets through.",
-      "avg_logprob": -0.13863060444216185,
-      "no_speech_prob": 0.45528411865234375,
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
       "words": [
         {
           "start": 41.08,
-          "end": 41.32,
+          "end": 41.34,
           "word": " Sudden",
-          "probability": 0.9883468747138977
+          "probability": 0.9908992648124695
         },
         {
-          "start": 41.32,
+          "start": 41.34,
           "end": 41.72,
           "word": " sounds",
-          "probability": 0.9953775405883789
+          "probability": 0.9962261915206909
         },
         {
           "start": 41.72,
-          "end": 41.94,
+          "end": 41.92,
           "word": " are",
-          "probability": 0.9984868764877319
+          "probability": 0.9988460540771484
         },
         {
-          "start": 41.94,
+          "start": 41.92,
           "end": 42.2,
           "word": " harder",
-          "probability": 0.9935370087623596
+          "probability": 0.9940690994262695
         },
         {
           "start": 42.2,
           "end": 42.4,
           "word": " to",
-          "probability": 0.9994364380836487
+          "probability": 0.9996055960655212
         },
         {
           "start": 42.4,
           "end": 42.72,
           "word": " predict,",
-          "probability": 0.9990220069885254
+          "probability": 0.9991982579231262
         },
         {
-          "start": 42.9,
+          "start": 42.92,
           "end": 43.16,
           "word": " so",
-          "probability": 0.9929393529891968
+          "probability": 0.9957637786865234
         },
         {
           "start": 43.16,
           "end": 43.54,
           "word": " some",
-          "probability": 0.9899157881736755
+          "probability": 0.9921860694885254
         },
         {
           "start": 43.54,
-          "end": 43.82,
+          "end": 43.8,
           "word": " noise",
-          "probability": 0.998488187789917
+          "probability": 0.9986513257026672
         },
         {
-          "start": 43.82,
+          "start": 43.8,
           "end": 44.14,
           "word": " still",
-          "probability": 0.9920746088027954
+          "probability": 0.9928037524223328
         },
         {
           "start": 44.14,
           "end": 44.4,
           "word": " gets",
-          "probability": 0.994655966758728
+          "probability": 0.9954106211662292
         },
         {
           "start": 44.4,
           "end": 44.7,
           "word": " through.",
-          "probability": 0.9938101172447205
+          "probability": 0.9946742057800293
         }
       ]
     },
     {
-      "start": 45.34,
-      "end": 51.64,
-      "text": "So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
-      "avg_logprob": -0.13863060444216185,
-      "no_speech_prob": 0.45528411865234375,
+      "start": 45.32,
+      "end": 47.7,
+      "text": "So silence is not always less sound.",
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
       "words": [
         {
-          "start": 45.34,
+          "start": 45.32,
           "end": 45.5,
           "word": " So",
-          "probability": 0.9880759716033936
+          "probability": 0.9883421063423157
         },
         {
           "start": 45.5,
           "end": 46.04,
           "word": " silence",
-          "probability": 0.49018076062202454
+          "probability": 0.47927606105804443
         },
         {
           "start": 46.04,
           "end": 46.3,
           "word": " is",
-          "probability": 0.9950973391532898
+          "probability": 0.9951673746109009
         },
         {
           "start": 46.3,
-          "end": 46.5,
+          "end": 46.52,
           "word": " not",
-          "probability": 0.9990567564964294
+          "probability": 0.99901282787323
         },
         {
-          "start": 46.5,
+          "start": 46.52,
           "end": 46.98,
           "word": " always",
-          "probability": 0.9991856217384338
+          "probability": 0.9991887211799622
         },
         {
           "start": 46.98,
           "end": 47.28,
           "word": " less",
-          "probability": 0.9796675443649292
+          "probability": 0.9805740714073181
         },
         {
           "start": 47.28,
           "end": 47.7,
           "word": " sound.",
-          "probability": 0.9931252002716064
+          "probability": 0.9929254055023193
+        }
+      ]
+    },
+    {
+      "start": 48.08,
+      "end": 51.64,
+      "text": "Sometimes it is a carefully timed copy, played in reverse.",
+      "avg_logprob": -0.10988299466851281,
+      "no_speech_prob": 0.0018535173730924726,
+      "words": [
+        {
+          "start": 48.08,
+          "end": 48.52,
+          "word": " Sometimes",
+          "probability": 0.9961696267127991
         },
         {
-          "start": 48.1,
-          "end": 48.58,
-          "word": " Sometimes,",
-          "probability": 0.9957330822944641
-        },
-        {
-          "start": 48.58,
-          "end": 48.9,
+          "start": 48.52,
+          "end": 48.88,
           "word": " it",
-          "probability": 0.9954784512519836
+          "probability": 0.6499501466751099
         },
         {
-          "start": 48.9,
+          "start": 48.88,
           "end": 49.0,
           "word": " is",
-          "probability": 0.9697551727294922
+          "probability": 0.973116397857666
         },
         {
           "start": 49.0,
-          "end": 49.28,
+          "end": 49.3,
           "word": " a",
-          "probability": 0.9879327416419983
+          "probability": 0.9937947988510132
         },
         {
-          "start": 49.28,
+          "start": 49.3,
           "end": 49.7,
           "word": " carefully",
-          "probability": 0.9949349761009216
+          "probability": 0.9953232407569885
         },
         {
           "start": 49.7,
           "end": 50.1,
           "word": " timed",
-          "probability": 0.9697265625
+          "probability": 0.9770366549491882
         },
         {
           "start": 50.1,
-          "end": 50.52,
+          "end": 50.54,
           "word": " copy,",
-          "probability": 0.9663558006286621
+          "probability": 0.975104808807373
         },
         {
-          "start": 50.94,
+          "start": 50.82,
           "end": 51.1,
           "word": " played",
-          "probability": 0.9992656111717224
+          "probability": 0.999407172203064
         },
         {
           "start": 51.1,
-          "end": 51.38,
+          "end": 51.4,
           "word": " in",
-          "probability": 0.9985164999961853
+          "probability": 0.9986326098442078
         },
         {
-          "start": 51.38,
+          "start": 51.4,
           "end": 51.64,
           "word": " reverse.",
-          "probability": 0.987726628780365
+          "probability": 0.9855095744132996
+        }
+      ]
+    },
+    {
+      "start": 58.98,
+      "end": 59.84,
+      "text": "Thank you.",
+      "avg_logprob": -0.9555554389953613,
+      "no_speech_prob": 0.8893061876296997,
+      "words": [
+        {
+          "start": 58.98,
+          "end": 59.84,
+          "word": " Thank",
+          "probability": 0.005971997044980526
+        },
+        {
+          "start": 59.84,
+          "end": 59.84,
+          "word": " you.",
+          "probability": 0.9685490131378174
         }
       ]
     }
