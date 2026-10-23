@@ -1,0 +1,398 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "a6ecc375a716fadb73dd9401af26281cfab2458b4b398b779ba253deb315e1de",
+  "language": "en",
+  "language_probability": 1,
+  "text": "When both waves reach your ear, their opposing pressures largely cancel. This is called destructive interference. It works best on steady, low sounds, like an engine's hum. Sudden sounds are harder to predict, so some noise still gets through. So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
+  "mean_word_probability": 0.9595015009399503,
+  "low_confidence_words": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "word": " When",
+      "probability": 0.021294550970196724
+    },
+    {
+      "start": 45.5,
+      "end": 46.04,
+      "word": " silence",
+      "probability": 0.49018076062202454
+    }
+  ],
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 36.22,
+      "text": "When both waves reach your ear, their opposing pressures largely cancel. This is called destructive interference.",
+      "avg_logprob": -0.13863060444216185,
+      "no_speech_prob": 0.45528411865234375,
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.0,
+          "word": " When",
+          "probability": 0.021294550970196724
+        },
+        {
+          "start": 30.0,
+          "end": 30.1,
+          "word": " both",
+          "probability": 0.9462822675704956
+        },
+        {
+          "start": 30.1,
+          "end": 30.44,
+          "word": " waves",
+          "probability": 0.9926642179489136
+        },
+        {
+          "start": 30.44,
+          "end": 30.74,
+          "word": " reach",
+          "probability": 0.9913715124130249
+        },
+        {
+          "start": 30.74,
+          "end": 30.96,
+          "word": " your",
+          "probability": 0.9852077960968018
+        },
+        {
+          "start": 30.96,
+          "end": 31.2,
+          "word": " ear,",
+          "probability": 0.8323498368263245
+        },
+        {
+          "start": 31.58,
+          "end": 31.66,
+          "word": " their",
+          "probability": 0.9838648438453674
+        },
+        {
+          "start": 31.66,
+          "end": 32.24,
+          "word": " opposing",
+          "probability": 0.9974595904350281
+        },
+        {
+          "start": 32.24,
+          "end": 32.66,
+          "word": " pressures",
+          "probability": 0.9637713432312012
+        },
+        {
+          "start": 32.66,
+          "end": 33.24,
+          "word": " largely",
+          "probability": 0.9832609295845032
+        },
+        {
+          "start": 33.24,
+          "end": 33.68,
+          "word": " cancel.",
+          "probability": 0.9977838397026062
+        },
+        {
+          "start": 34.22,
+          "end": 34.54,
+          "word": " This",
+          "probability": 0.9892480969429016
+        },
+        {
+          "start": 34.54,
+          "end": 34.7,
+          "word": " is",
+          "probability": 0.9978848099708557
+        },
+        {
+          "start": 34.7,
+          "end": 34.9,
+          "word": " called",
+          "probability": 0.9966731071472168
+        },
+        {
+          "start": 34.9,
+          "end": 35.54,
+          "word": " destructive",
+          "probability": 0.9177027344703674
+        },
+        {
+          "start": 35.54,
+          "end": 36.22,
+          "word": " interference.",
+          "probability": 0.9992920160293579
+        }
+      ]
+    },
+    {
+      "start": 36.88,
+      "end": 40.42,
+      "text": "It works best on steady, low sounds, like an engine's hum.",
+      "avg_logprob": -0.13863060444216185,
+      "no_speech_prob": 0.45528411865234375,
+      "words": [
+        {
+          "start": 36.88,
+          "end": 37.14,
+          "word": " It",
+          "probability": 0.9912689924240112
+        },
+        {
+          "start": 37.14,
+          "end": 37.42,
+          "word": " works",
+          "probability": 0.9984455704689026
+        },
+        {
+          "start": 37.42,
+          "end": 37.72,
+          "word": " best",
+          "probability": 0.9909374117851257
+        },
+        {
+          "start": 37.72,
+          "end": 37.98,
+          "word": " on",
+          "probability": 0.9944619536399841
+        },
+        {
+          "start": 37.98,
+          "end": 38.44,
+          "word": " steady,",
+          "probability": 0.9840526580810547
+        },
+        {
+          "start": 38.74,
+          "end": 38.84,
+          "word": " low",
+          "probability": 0.9972267746925354
+        },
+        {
+          "start": 38.84,
+          "end": 39.24,
+          "word": " sounds,",
+          "probability": 0.9872150421142578
+        },
+        {
+          "start": 39.34,
+          "end": 39.58,
+          "word": " like",
+          "probability": 0.9949274063110352
+        },
+        {
+          "start": 39.58,
+          "end": 39.78,
+          "word": " an",
+          "probability": 0.973957896232605
+        },
+        {
+          "start": 39.78,
+          "end": 40.28,
+          "word": " engine's",
+          "probability": 0.9806841909885406
+        },
+        {
+          "start": 40.28,
+          "end": 40.42,
+          "word": " hum.",
+          "probability": 0.9968891739845276
+        }
+      ]
+    },
+    {
+      "start": 41.08,
+      "end": 44.7,
+      "text": "Sudden sounds are harder to predict, so some noise still gets through.",
+      "avg_logprob": -0.13863060444216185,
+      "no_speech_prob": 0.45528411865234375,
+      "words": [
+        {
+          "start": 41.08,
+          "end": 41.32,
+          "word": " Sudden",
+          "probability": 0.9883468747138977
+        },
+        {
+          "start": 41.32,
+          "end": 41.72,
+          "word": " sounds",
+          "probability": 0.9953775405883789
+        },
+        {
+          "start": 41.72,
+          "end": 41.94,
+          "word": " are",
+          "probability": 0.9984868764877319
+        },
+        {
+          "start": 41.94,
+          "end": 42.2,
+          "word": " harder",
+          "probability": 0.9935370087623596
+        },
+        {
+          "start": 42.2,
+          "end": 42.4,
+          "word": " to",
+          "probability": 0.9994364380836487
+        },
+        {
+          "start": 42.4,
+          "end": 42.72,
+          "word": " predict,",
+          "probability": 0.9990220069885254
+        },
+        {
+          "start": 42.9,
+          "end": 43.16,
+          "word": " so",
+          "probability": 0.9929393529891968
+        },
+        {
+          "start": 43.16,
+          "end": 43.54,
+          "word": " some",
+          "probability": 0.9899157881736755
+        },
+        {
+          "start": 43.54,
+          "end": 43.82,
+          "word": " noise",
+          "probability": 0.998488187789917
+        },
+        {
+          "start": 43.82,
+          "end": 44.14,
+          "word": " still",
+          "probability": 0.9920746088027954
+        },
+        {
+          "start": 44.14,
+          "end": 44.4,
+          "word": " gets",
+          "probability": 0.994655966758728
+        },
+        {
+          "start": 44.4,
+          "end": 44.7,
+          "word": " through.",
+          "probability": 0.9938101172447205
+        }
+      ]
+    },
+    {
+      "start": 45.34,
+      "end": 51.64,
+      "text": "So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
+      "avg_logprob": -0.13863060444216185,
+      "no_speech_prob": 0.45528411865234375,
+      "words": [
+        {
+          "start": 45.34,
+          "end": 45.5,
+          "word": " So",
+          "probability": 0.9880759716033936
+        },
+        {
+          "start": 45.5,
+          "end": 46.04,
+          "word": " silence",
+          "probability": 0.49018076062202454
+        },
+        {
+          "start": 46.04,
+          "end": 46.3,
+          "word": " is",
+          "probability": 0.9950973391532898
+        },
+        {
+          "start": 46.3,
+          "end": 46.5,
+          "word": " not",
+          "probability": 0.9990567564964294
+        },
+        {
+          "start": 46.5,
+          "end": 46.98,
+          "word": " always",
+          "probability": 0.9991856217384338
+        },
+        {
+          "start": 46.98,
+          "end": 47.28,
+          "word": " less",
+          "probability": 0.9796675443649292
+        },
+        {
+          "start": 47.28,
+          "end": 47.7,
+          "word": " sound.",
+          "probability": 0.9931252002716064
+        },
+        {
+          "start": 48.1,
+          "end": 48.58,
+          "word": " Sometimes,",
+          "probability": 0.9957330822944641
+        },
+        {
+          "start": 48.58,
+          "end": 48.9,
+          "word": " it",
+          "probability": 0.9954784512519836
+        },
+        {
+          "start": 48.9,
+          "end": 49.0,
+          "word": " is",
+          "probability": 0.9697551727294922
+        },
+        {
+          "start": 49.0,
+          "end": 49.28,
+          "word": " a",
+          "probability": 0.9879327416419983
+        },
+        {
+          "start": 49.28,
+          "end": 49.7,
+          "word": " carefully",
+          "probability": 0.9949349761009216
+        },
+        {
+          "start": 49.7,
+          "end": 50.1,
+          "word": " timed",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 50.1,
+          "end": 50.52,
+          "word": " copy,",
+          "probability": 0.9663558006286621
+        },
+        {
+          "start": 50.94,
+          "end": 51.1,
+          "word": " played",
+          "probability": 0.9992656111717224
+        },
+        {
+          "start": 51.1,
+          "end": 51.38,
+          "word": " in",
+          "probability": 0.9985164999961853
+        },
+        {
+          "start": 51.38,
+          "end": 51.64,
+          "word": " reverse.",
+          "probability": 0.987726628780365
+        }
+      ]
+    }
+  ]
+}
