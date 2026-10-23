@@ -255,11 +255,12 @@ const Sound: React.FC = () => {
   const frame = useCurrentFrame();
   const t = frame / 30;
   const endFade = 1 - prog(t, 58.6, 60);
+  const narrationEnd = line('closing-map').end;
   return (
     <>
       <Audio src={staticFile('voiceovers/gps-explainer/narration.wav')} volume={0.92} />
       <Audio src={staticFile('library/music/clips/tech-pulse.mp3')} volume={() => {
-        const duck = prog(t, 0.3, 1.0) * (1 - prog(t, 52.0, 53.0));
+        const duck = prog(t, 0.3, 1.0) * (1 - prog(t, narrationEnd - 0.2, narrationEnd + 0.8));
         return (0.34 - duck * 0.20) * endFade;
       }} />
       {SFX_CUES.map((cue, index) => (
@@ -285,8 +286,9 @@ const Short14GpsExplainer: React.FC = () => {
   const spheres = prog(t, line('tri-spheres').start - 0.1, line('tri-spheres').end + 0.2);
   const intersection = prog(t, line('tri-location').start - 0.1, line('tri-location').start + 0.55);
   const recap = prog(t, line('closing-map').start - 0.15, line('closing-map').start + 0.55);
-  const finalReveal = prog(t, 52.3, 53.05);
-  const closingExit = 1 - prog(t, 51.7, 52.3);
+  const finalRevealStart = line('closing-map').end + 0.1;
+  const finalReveal = prog(t, finalRevealStart, finalRevealStart + 0.75);
+  const closingExit = 1 - prog(t, finalRevealStart - 0.6, finalRevealStart);
 
   return (
     <AbsoluteFill style={{ background: C.bg, fontFamily: FONT_BODY }}>

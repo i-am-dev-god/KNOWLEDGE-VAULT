@@ -1,8 +1,9 @@
 {
   "file": "output/how-gps-finds-you.mp4",
   "status": "passed",
-  "bytes": 10914253,
-  "sha256": "5eacc8331d6452cb48a67380a646bce907e108812c50f5f8dd1190b15603083a",
+  "bytes": 11031960,
+  "sha256": "d20cb101cf51307362881fa58eb2f5c6e58397b32e7d8a304281934849009c40",
+  "md5": "cfb1e567eef2c96e1247de49b3937a78",
   "container_duration_seconds": 60.05,
   "video": {
     "codec": "h264",
@@ -21,24 +22,45 @@
     "channels": 2,
     "target_bitrate": "192k",
     "integrated_lufs": -17.4,
-    "loudness_range_lu": 6.1,
+    "loudness_range_lu": 9.9,
     "true_peak_dbfs": -1.1,
+    "mean_volume_db": -20.6,
+    "max_volume_db": -1.1,
     "silence_check": "No silence >= 2 seconds below -45 dB detected"
   },
   "synchronization": {
     "caption_segments": 16,
-    "timing_source": "Measured VoiceStudio segment durations and master placement",
+    "timing_source": "Measured Chatterbox segment durations and master placement",
     "estimated_word_alignment": false,
     "sfx_cues": 15,
-    "sfx_timing_source": "Narration segment starts"
+    "sfx_timing_source": "Narration segment starts",
+    "closing_transition": "Derived from the measured closing-map segment end",
+    "music_release": "Derived from the measured closing-map segment end"
   },
   "narration": {
-    "generator": "debpalash/VoiceStudio SherpaOnnxBackend",
-    "model": "Piper en_GB-vctk-medium",
-    "speaker": "VCTK p251",
-    "speaker_id": 92,
-    "voice": "Indian English male",
-    "master": "media/voiceovers/gps-explainer/narration.wav"
+    "generator": "resemble-ai/chatterbox ChatterboxTurboTTS",
+    "source_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+    "variant": "Nano",
+    "model": "ResembleAI/chatterbox-nano",
+    "voice": "Restrained Indian English male, cloned from the earlier dry VCTK p251 narration reference",
+    "replacement_speech_engine": "Chatterbox-Nano for all 16 segments",
+    "pace": "Uniform 1.12x FFmpeg atempo WSOLA; pitch preserved",
+    "watermark": "Resemble Perth implicit audio watermark",
+    "master": "media/voiceovers/gps-explainer/narration.wav",
+    "master_sha256": "59b70ac5d97d688eabd76811049155bdea3872c6a69ed08db0e70448e010da4f"
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper small.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9729471479324584,
+    "report": "transcription-qa.json"
+  },
+  "validation": {
+    "typescript": "npx tsc --noEmit passed",
+    "rendered_frames": 1800,
+    "actual_mp4_contact_sheet": "output/contact-sheet.jpg",
+    "closing_title_review": "passed"
   },
   "visual_review": [
     "Offline GPS hook",
@@ -49,6 +71,16 @@
     "Four-satellite position and clock solution",
     "Trilateration spheres",
     "Cosmic-stopwatch recap",
-    "Overlap-free closing title transition"
-  ]
+    "Overlap-free closing recap and title transition"
+  ],
+  "drive": {
+    "folder_name": "COMEBACK",
+    "folder_id": "1aYIH1UU4C-xX8CW4b-tj-j3VoLo2K5S_",
+    "file_id": "1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm",
+    "web_view_link": "https://drive.google.com/file/d/1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm/view?usp=drivesdk",
+    "upload_size_verified": 11031960,
+    "upload_md5_verified": "cfb1e567eef2c96e1247de49b3937a78",
+    "previous_file_id": "132OmQMuxxeABKF45VqO6dwsLQfO0cKFr",
+    "previous_file_state": "Moved to trash only after the replacement upload succeeded and its MD5 matched the local master"
+  }
 }

@@ -1,4 +1,8 @@
 {
+  "status": "passed",
+  "normalized_script_match": true,
+  "expected_text": "Your phone can find you without mobile signal or internet. The map may need data. GPS itself does not. GPS satellites orbit about twenty thousand kilometres above Earth. Each one carries an extremely accurate atomic clock. Every satellite broadcasts its position, and the exact time its signal was sent. Your phone measures how long that signal took to arrive. The timing must be astonishingly precise. Because radio waves travel at the speed of light, delay becomes distance. One satellite gives a distance, not a fix. Three satellites help find your position. A fourth corrects your phone's clock. Without that correction, the position would be wrong. Imagine invisible spheres around the satellites. Where the distances meet is your location. That's trilateration. So GPS is a cosmic stopwatch. Satellites send the time. Your phone turns tiny delays into a dot on the map.",
+  "verification_note": "Full 60-second Chatterbox narration matches the intended script after case, punctuation and the spoken-versus-written forms of twenty thousand kilometres are normalized. The clarified four-position line is transcribed exactly.",
   "engine": "faster-whisper",
   "model": "small.en",
   "audio_blob": "1012053d52ea52b45c605d7e7ca0d3ad1b8b6010",

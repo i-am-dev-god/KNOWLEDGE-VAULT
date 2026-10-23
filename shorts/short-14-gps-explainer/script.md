@@ -4,7 +4,7 @@
 
 **Format:** 1080 × 1920, 30 fps, 60 seconds
 
-**Production:** Original everyday-technology explainer, original vector animation, VoiceStudio Indian male narration, exact segment-timed captions, tech music and synchronized sound design
+**Production:** Original everyday-technology explainer and vector animation, restrained Chatterbox-Nano Indian male narration, exact segment-timed captions, tech music and synchronized sound design
 
 ## Narration and storyboard
 
@@ -41,7 +41,7 @@
 ### 5. Why four satellites?
 > One satellite gives a distance, not a fix.
 >
-> Three help solve your position. A fourth corrects your phone's clock.
+> Three satellites help find your position. A fourth corrects your phone's clock.
 >
 > Without that correction, the position would be wrong.
 
@@ -61,18 +61,17 @@
 
 **Picture:** The three-step recap `TIME → DISTANCE → POSITION` returns to the phone map and the final title `HOW GPS FINDS YOU`.
 
-## VoiceStudio production record
+## Chatterbox production record
 
-- **Application source:** `debpalash/VoiceStudio`, local `SherpaOnnxBackend` path.
-- **Engine:** `sherpa-onnx` VITS/Piper inference on CPU.
-- **Voice model:** `en_GB-vctk-medium`, 22.05 kHz, 109 speakers.
-- **Narrator:** VCTK **p251**, model speaker ID **92**; VCTK records identify this speaker as a 26-year-old Indian male. The alternate Indian male p376 / speaker 26 was also tested.
-- **Selection QA:** p251 produced a male fundamental-frequency distribution with median approximately 129.7 Hz and healthy short-test RMS; p281 / speaker 13 was rejected after its synthesized output did not satisfy the male-voice requirement.
-- **Model source mirror:** `tylerjoh86/REJI`, commit `2d98055b2c06751902f8f4e93e898ac80888a715`, `Voices/en_GB-vctk-medium.onnx` and JSON configuration. Original model SHA-256: `4e9fc85ab9009385319fc6bae7f55577f8a2d7ee77fd9159a5500eb6531f41e6`.
-- **Compatibility:** Sherpa's official Piper metadata script added model metadata and generated `tokens.txt`; model-local eSpeak-NG data is used by VoiceStudio.
-- **Synthesis:** 16 separate caption clauses at speed `0.88`. Raw narration is trimmed and level-matched without voice conversion, pitch shifting, or accent transformation.
-- **Synchronization:** Every caption is a complete synthesized audio segment. Caption and scene timings come from the actual measured segment durations and placement—no estimated word-level alignment is used.
-- **Master narration:** 48 kHz mono PCM WAV in a 60-second timeline.
+- **Application source:** `resemble-ai/chatterbox`, commit `5de7a54aa4e5e2baadb0182dde554908b48b85c2`.
+- **Engine:** Official `ChatterboxTurboTTS` inference with `nano=True`, running on CPU.
+- **Voice model:** `ResembleAI/chatterbox-nano`; the required voice encoder, Nano T3 checkpoint, mean-flow speech decoder and built-in conditioning files were checksum-verified. Individual SHA-256 values are recorded in `beats.json`.
+- **Narrator:** Restrained Indian English male, cloned from a 6.212-second dry reference retained from the earlier VCTK p251 narration. The reference is used only for Chatterbox conditioning; **all 16 replacement speech segments are synthesized by Chatterbox-Nano**.
+- **Delivery settings:** temperature `0.7`, top-p `0.9`, top-k `500`, repetition penalty `1.2`, exaggeration `0.0`, CFG weight `0.0`, and deterministic per-segment seeds `1401–1416`. No dramatic speech tags are used.
+- **Clarity revision:** `Three satellites help find your position` replaces the less clear original phrase. Independent `faster-whisper small.en` transcription of the exact 60-second narration master matches the complete intended script after normalization, with 97.3% mean word confidence. See `transcription-qa.json`.
+- **Synthesis and pacing:** 24 kHz Chatterbox output with Resemble's Perth watermark, trimmed and level-matched, resampled to 48 kHz, then uniformly paced to `1.12×` with FFmpeg's pitch-preserving WSOLA `atempo`. No pitch shifting or accent transformation is applied.
+- **Synchronization:** Every caption is a complete synthesized audio segment. Caption, scene and SFX timings come from actual measured segment durations and placement—no estimated word-level alignment is used. The closing title transition and music release are derived from the measured final-line end.
+- **Master narration:** 48 kHz mono PCM WAV in a 60-second timeline; final speech ends at 52.849 seconds.
 
 ## Sound and accessibility
 
@@ -86,10 +85,12 @@
 
 - **Deliverable:** `output/how-gps-finds-you.mp4` (ignored by Git, consistent with the repository's other rendered finals).
 - **Picture:** H.264 High, 1080 × 1920, 30 fps, exactly 1,800 decoded frames; full-stream decode passed.
-- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. A final +4.5 dB playback master was applied to the complete Remotion mix while copying the validated video stream without re-encoding it.
-- **Measured audio:** −17.4 LUFS integrated, 6.1 LU loudness range, −1.1 dBFS true peak. No silence of at least two seconds below −45 dB was detected.
+- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. A final +4.62 dB playback gain and zero-makeup, latency-compensated lookahead limiter were applied to the complete Remotion mix while copying the validated video stream without re-encoding it.
+- **Measured audio:** −17.4 LUFS integrated, 9.9 LU loudness range, −1.1 dBFS true peak. No silence of at least two seconds below −45 dB was detected.
 - **Container duration:** 60.05 seconds (60.00 seconds of video plus AAC padding).
-- **Size:** 10,914,253 bytes.
-- **SHA-256:** `5eacc8331d6452cb48a67380a646bce907e108812c50f5f8dd1190b15603083a`.
-- **Synchronization:** 16 caption segments and 15 sound cues are driven by measured VoiceStudio timings; no estimated word alignment is used.
-- **Visual review:** Final-MP4 contact sheet plus isolated scene and transition frames checked. The closing recap/title transition was corrected and rerendered to remove overlapping text.
+- **Size:** 11,031,960 bytes.
+- **SHA-256:** `d20cb101cf51307362881fa58eb2f5c6e58397b32e7d8a304281934849009c40`.
+- **MD5:** `cfb1e567eef2c96e1247de49b3937a78`.
+- **Synchronization:** 16 caption segments and 15 sound cues are driven by measured Chatterbox timings; no estimated word alignment is used.
+- **Visual review:** Actual-MP4 contact sheet plus isolated closing-title frame checked. The closing recap and title remain overlap-free, and TypeScript validation passes with `npx tsc --noEmit`.
+- **Drive replacement:** Uploaded to **COMEBACK** as file `1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm`; Drive's reported size and MD5 match the validated local master. [Open the Chatterbox version](https://drive.google.com/file/d/1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm/view?usp=drivesdk). The earlier VoiceStudio file `132OmQMuxxeABKF45VqO6dwsLQfO0cKFr` was moved to trash only after that verification.
