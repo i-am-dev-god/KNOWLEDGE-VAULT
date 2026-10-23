@@ -1,0 +1,93 @@
+{
+  "file": "../../RESULT/how-gps-finds-you.mp4",
+  "production_copy": "output/how-gps-finds-you.mp4",
+  "status": "passed",
+  "bytes": 10286691,
+  "sha256": "3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c",
+  "md5": "c6354a20f58d664cd959fe16bc40ba10",
+  "container_duration_seconds": 60.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "decoded_frames": 1800,
+    "video_duration_seconds": 60.0,
+    "full_decode": "passed"
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "target_bitrate": "192k",
+    "integrated_lufs": -16.5,
+    "loudness_range_lu": 4.9,
+    "true_peak_dbfs": -1.1,
+    "mean_volume_db": -19.8,
+    "max_volume_db": -1.1,
+    "silence_check": "No silence >= 2 seconds below -45 dB detected",
+    "mastering": "70 Hz high-pass, zero-makeup limiter, loudnorm I=-16/TP=-1.5/LRA=11; H.264 video stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 16,
+    "timing_source": "faster-whisper medium.en word timestamps on the exact selected-voice master, with exact normalized script/token alignment",
+    "initial_narration_onset_seconds": 0.65,
+    "asr_voice_end_seconds": 52.28,
+    "measured_speech_end_seconds": 52.292563,
+    "sfx_cues": 15,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "closing_transition": "Derived from the aligned closing-map segment end",
+    "music_release": "Derived from the aligned closing-map segment end"
+  },
+  "narration": {
+    "generator": "Arena generate_speech",
+    "voice": "voice-00",
+    "voice_selection": "User-selected built-in narration voice, used exclusively for one continuous full-script take; no alternate voice or section switching",
+    "source_take": "output/ai-speech/voice-00-full-raw.wav",
+    "source_take_sha256": "aa6f9f521a5793ae5f339c3ac4bc9a023c4e1a629ff6178a39d5774761155311",
+    "pace": "Uniform 1.079588577x FFmpeg atempo WSOLA; pitch preserved; same rate throughout",
+    "initial_silence_seconds": 0.65,
+    "master": "media/voiceovers/gps-explainer/narration.wav",
+    "master_duration_seconds": 60.0,
+    "master_sha256": "df3abe50f290f5201a8d3b9f476b6c38dbf7bbed5bc0a37ab040d20bf3bb346f"
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9662667513598224,
+    "full_script_including_speed_of_light_confirmed": true,
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "rendered_frames": 1800,
+    "actual_mp4_full_decode": "passed; 1800 frames",
+    "actual_mp4_contact_sheet": "output/contact-sheet.jpg",
+    "closing_title_frame": "output/closing-title.jpg",
+    "closing_title_review": "passed",
+    "delivery_and_production_copy_sha256_match": true
+  },
+  "visual_review": [
+    "All 16 caption midpoints extracted from the finished MP4 and reviewed",
+    "Offline GPS hook",
+    "Orbital altitude and atomic clock",
+    "Position and timestamp packets",
+    "Stopwatch and distance equation",
+    "One-satellite distance sphere",
+    "Four-satellite position and clock solution",
+    "Trilateration spheres",
+    "Cosmic-stopwatch recap",
+    "Overlap-free closing recap and title transition"
+  ],
+  "delivery": {
+    "github_path": "RESULT/how-gps-finds-you.mp4",
+    "branch": "arena/3cceb7fa-knowledge-vault",
+    "drive": {
+      "status": "Existing Drive video left unchanged",
+      "existing_file_id": "1UxCwWWUhNJkgnp1SO9qn1C5xvYxya9Dm"
+    }
+  }
+}

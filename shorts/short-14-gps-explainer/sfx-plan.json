@@ -1,0 +1,123 @@
+{
+  "master": "shorts/short-14-gps-explainer/output/how-gps-finds-you.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "tech-pulse",
+    "file": "media/library/music/clips/tech-pulse.mp3",
+    "ducked_under_narration": true
+  },
+  "render": {
+    "composition": "remotion/out/Short14GpsExplainer.mp4",
+    "out": "shorts/short-14-gps-explainer/output/how-gps-finds-you.mp4",
+    "end_s": 60.0
+  },
+  "note": "All cues use verified word-timestamp alignment from one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 0.25,
+      "sfx_id": "impact-soft",
+      "gain_db": -15.0,
+      "cue": "Offline-location hook lands",
+      "sync_source": "hook-offline"
+    },
+    {
+      "at_s": 4.48,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -15.5,
+      "cue": "Map data and GPS are distinguished",
+      "sync_source": "hook-map"
+    },
+    {
+      "at_s": 6.98,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -15.0,
+      "cue": "Lift from phone into orbit",
+      "sync_source": "orbit-altitude"
+    },
+    {
+      "at_s": 11.82,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -15.0,
+      "cue": "Atomic-clock reveal",
+      "sync_source": "orbit-clock"
+    },
+    {
+      "at_s": 15.16,
+      "sfx_id": "scan-hum",
+      "gain_db": -17.0,
+      "cue": "Satellite begins broadcasting",
+      "sync_source": "signal-position"
+    },
+    {
+      "at_s": 17.25,
+      "sfx_id": "ui-send",
+      "gain_db": -15.0,
+      "cue": "Timestamp packet leaves the satellite",
+      "sync_source": "signal-time"
+    },
+    {
+      "at_s": 23.12,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -16.5,
+      "cue": "Precision stopwatch emphasis",
+      "sync_source": "delay-precise"
+    },
+    {
+      "at_s": 25.82,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15.5,
+      "cue": "Delay-to-distance equation resolves",
+      "sync_source": "delay-light"
+    },
+    {
+      "at_s": 29.62,
+      "sfx_id": "impact-soft",
+      "gain_db": -16.0,
+      "cue": "One distance is not a fix",
+      "sync_source": "four-one"
+    },
+    {
+      "at_s": 32.4,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15.0,
+      "cue": "Four-satellite layout appears",
+      "sync_source": "four-position"
+    },
+    {
+      "at_s": 36.24,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -16.0,
+      "cue": "Clock-correction channel confirmed",
+      "sync_source": "four-correction"
+    },
+    {
+      "at_s": 39.31,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -16.0,
+      "cue": "Wireframe distance spheres expand",
+      "sync_source": "tri-spheres"
+    },
+    {
+      "at_s": 42.36,
+      "sfx_id": "chime-magic",
+      "gain_db": -16.0,
+      "cue": "Intersection resolves to receiver",
+      "sync_source": "tri-location"
+    },
+    {
+      "at_s": 45.86,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -16.0,
+      "cue": "Cosmic-stopwatch recap",
+      "sync_source": "closing-stopwatch"
+    },
+    {
+      "at_s": 48.57,
+      "sfx_id": "chime-reward",
+      "gain_db": -16.0,
+      "cue": "Final map pin and title",
+      "sync_source": "closing-map"
+    }
+  ]
+}

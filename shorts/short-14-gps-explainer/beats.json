@@ -1,0 +1,226 @@
+{
+  "id": "short-14-gps-explainer",
+  "title": "How GPS Finds You",
+  "composition": "Short14GpsExplainer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 60.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected-indian-male:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected Indian-English male narration voice; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-14-gps-explainer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "aa6f9f521a5793ae5f339c3ac4bc9a023c4e1a629ff6178a39d5774761155311",
+    "raw_duration_seconds": 56.24,
+    "trimmed_duration_seconds": 55.76075,
+    "tempo_rate": 1.079588577,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; same rate for the entire take",
+    "initial_silence_seconds": 0.65,
+    "narration_file": "media/voiceovers/gps-explainer/narration.wav",
+    "narration_sha256": "df3abe50f290f5201a8d3b9f476b6c38dbf7bbed5bc0a37ab040d20bf3bb346f",
+    "narration_duration_seconds": 60.0,
+    "paced_speech_end_seconds": 52.292563,
+    "alignment": "faster-whisper medium.en word timestamps on the exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9662667513598224
+  },
+  "gaps": {
+    "initial": 0.65,
+    "pauses": "Natural pauses from one continuous take, preserved under the same tempo adjustment"
+  },
+  "voiceEnd": 52.28,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "No signal. Still found.",
+      "start": 0.0,
+      "end": 6.95
+    },
+    {
+      "id": "orbit",
+      "title": "Clocks in orbit",
+      "start": 6.95,
+      "end": 14.97
+    },
+    {
+      "id": "signals",
+      "title": "A timestamp from space",
+      "start": 14.97,
+      "end": 19.69
+    },
+    {
+      "id": "delay",
+      "title": "Time becomes distance",
+      "start": 19.69,
+      "end": 29.43
+    },
+    {
+      "id": "four",
+      "title": "Why four satellites?",
+      "start": 29.43,
+      "end": 39.21
+    },
+    {
+      "id": "trilateration",
+      "title": "Trilateration",
+      "start": 39.21,
+      "end": 45.71
+    },
+    {
+      "id": "closing",
+      "title": "A cosmic stopwatch",
+      "start": 45.71,
+      "end": 60.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-offline",
+      "scene": "hook",
+      "text": "Your phone can find you without mobile signal or internet.",
+      "speak": "Your phone can find you without mobile signal or internet.",
+      "start": 0.65,
+      "end": 3.98,
+      "duration": 3.33
+    },
+    {
+      "id": "hook-map",
+      "scene": "hook",
+      "text": "The map may need data. GPS itself does not.",
+      "speak": "The map may need data. G P S itself does not.",
+      "start": 4.56,
+      "end": 7.3,
+      "duration": 2.74
+    },
+    {
+      "id": "orbit-altitude",
+      "scene": "orbit",
+      "text": "GPS satellites orbit about twenty thousand kilometres above Earth.",
+      "speak": "G P S satellites orbit about twenty thousand kilometres above Earth.",
+      "start": 7.3,
+      "end": 11.4,
+      "duration": 4.1
+    },
+    {
+      "id": "orbit-clock",
+      "scene": "orbit",
+      "text": "Each one carries an extremely accurate atomic clock.",
+      "speak": "Each one carries an extremely accurate atomic clock.",
+      "start": 11.92,
+      "end": 14.66,
+      "duration": 2.74
+    },
+    {
+      "id": "signal-position",
+      "scene": "signals",
+      "text": "Every satellite broadcasts its position,",
+      "speak": "Every satellite broadcasts its position,",
+      "start": 15.32,
+      "end": 17.3,
+      "duration": 1.98
+    },
+    {
+      "id": "signal-time",
+      "scene": "signals",
+      "text": "and the exact time its signal was sent.",
+      "speak": "and the exact time its signal was sent.",
+      "start": 17.3,
+      "end": 19.48,
+      "duration": 2.18
+    },
+    {
+      "id": "delay-measure",
+      "scene": "delay",
+      "text": "Your phone measures how long that signal took to arrive.",
+      "speak": "Your phone measures how long that signal took to arrive.",
+      "start": 20.04,
+      "end": 22.6,
+      "duration": 2.56
+    },
+    {
+      "id": "delay-precise",
+      "scene": "delay",
+      "text": "The timing must be astonishingly precise.",
+      "speak": "The timing must be astonishingly precise.",
+      "start": 23.2,
+      "end": 25.34,
+      "duration": 2.14
+    },
+    {
+      "id": "delay-light",
+      "scene": "delay",
+      "text": "Because radio waves travel at the speed of light, delay becomes distance.",
+      "speak": "Because radio waves travel at the speed of light, delay becomes distance.",
+      "start": 25.72,
+      "end": 29.18,
+      "duration": 3.46
+    },
+    {
+      "id": "four-one",
+      "scene": "four",
+      "text": "One satellite gives a distance, not a fix.",
+      "speak": "One satellite gives a distance, not a fix.",
+      "start": 29.78,
+      "end": 31.94,
+      "duration": 2.16
+    },
+    {
+      "id": "four-position",
+      "scene": "four",
+      "text": "Three satellites help find your position. A fourth corrects your phone's clock.",
+      "speak": "Three satellites help find your position. A fourth corrects your phone's clock.",
+      "start": 32.46,
+      "end": 36.32,
+      "duration": 3.86
+    },
+    {
+      "id": "four-correction",
+      "scene": "four",
+      "text": "Without that correction, the position would be wrong.",
+      "speak": "Without that correction, the position would be wrong.",
+      "start": 36.32,
+      "end": 38.8,
+      "duration": 2.48
+    },
+    {
+      "id": "tri-spheres",
+      "scene": "trilateration",
+      "text": "Imagine invisible spheres around the satellites.",
+      "speak": "Imagine invisible spheres around the satellites.",
+      "start": 39.56,
+      "end": 41.76,
+      "duration": 2.2
+    },
+    {
+      "id": "tri-location",
+      "scene": "trilateration",
+      "text": "Where the distances meet is your location. That's trilateration.",
+      "speak": "Where the distances meet is your location. That's trilateration.",
+      "start": 42.26,
+      "end": 45.5,
+      "duration": 3.24
+    },
+    {
+      "id": "closing-stopwatch",
+      "scene": "closing",
+      "text": "So GPS is a cosmic stopwatch.",
+      "speak": "So G P S is a cosmic stopwatch.",
+      "start": 46.06,
+      "end": 47.9,
+      "duration": 1.84
+    },
+    {
+      "id": "closing-map",
+      "scene": "closing",
+      "text": "Satellites send the time. Your phone turns tiny delays into a dot on the map.",
+      "speak": "Satellites send the time. Your phone turns tiny delays into a dot on the map.",
+      "start": 48.42,
+      "end": 52.28,
+      "duration": 3.86
+    }
+  ]
+}
