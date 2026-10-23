@@ -1,0 +1,75 @@
+{
+  "master": "RESULT/how-noise-cancelling-headphones-work.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Slow ambient pad; no drums or driving pulse"
+  },
+  "render": {
+    "composition": "remotion/out/Short15NoiseCancelling.mp4",
+    "out": "RESULT/how-noise-cancelling-headphones-work.mp4",
+    "end_s": 60.0
+  },
+  "note": "Eight restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 0.35,
+      "sfx_id": "impact-soft",
+      "gain_db": -15.0,
+      "cue": "Soft opening emphasis",
+      "sync_source": "hook-block"
+    },
+    {
+      "at_s": 7.58,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -17.0,
+      "cue": "Pressure-wave scene transition",
+      "sync_source": "waves-pressure"
+    },
+    {
+      "at_s": 12.7,
+      "sfx_id": "scan-hum",
+      "gain_db": -19.0,
+      "cue": "Microphone listens",
+      "sync_source": "listen-microphone"
+    },
+    {
+      "at_s": 20.57,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -18.0,
+      "cue": "Wave inversion",
+      "sync_source": "invert-flip"
+    },
+    {
+      "at_s": 28.83,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -17.0,
+      "cue": "Wave cancellation",
+      "sync_source": "cancel-meet"
+    },
+    {
+      "at_s": 36.6,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18.0,
+      "cue": "Limits scene transition",
+      "sync_source": "limits-steady"
+    },
+    {
+      "at_s": 45.07,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -18.0,
+      "cue": "Closing recap",
+      "sync_source": "closing-reverse"
+    },
+    {
+      "at_s": 45.52,
+      "sfx_id": "chime-reward",
+      "gain_db": -19.0,
+      "cue": "Final reverse-copy idea",
+      "sync_source": "closing-reverse"
+    }
+  ]
+}

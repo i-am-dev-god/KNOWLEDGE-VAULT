@@ -1,0 +1,99 @@
+{
+  "file": "../../RESULT/how-noise-cancelling-headphones-work.mp4",
+  "production_copy": "output/how-noise-cancelling-headphones-work.mp4",
+  "status": "passed",
+  "bytes": 11082509,
+  "sha256": "ef9e6020d7f60cdb4f24404e92f03e7d3938c9c7ba6a129e46a758bca60ef6d6",
+  "md5": "c4aca9a979f1275d39db167d7d95de23",
+  "container_duration_seconds": 60.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "decoded_frames": 1800,
+    "video_duration_seconds": 60.0,
+    "full_decode": "passed"
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "target_bitrate": "192k",
+    "integrated_lufs": -16.2,
+    "loudness_range_lu": 9.2,
+    "true_peak_dbfs": -1.5,
+    "mean_volume_db": -19.8,
+    "max_volume_db": -1.5,
+    "silence_check": "No silence >= 2 seconds below -45 dB detected",
+    "mastering": "70 Hz high-pass, zero-makeup limiter, loudnorm I=-16/TP=-1.5/LRA=11; H.264 video stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 12,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on the exact selected-voice master, with exact normalized script/token alignment",
+    "initial_narration_onset_seconds": 0.8,
+    "asr_voice_end_seconds": 51.64,
+    "measured_speech_end_seconds": 51.992937,
+    "sfx_cues": 8,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "closing_transition": "Derived from the aligned closing-reverse segment end plus a calm 0.6-second hold",
+    "music_release": "Derived from the aligned closing-reverse segment end"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.928439128,
+    "source_sped_up": false,
+    "spoken_words": 126,
+    "scenes": 7,
+    "style": "Slower selected take, fewer caption segments, longer scene holds, slow ambient music, and a calm outro"
+  },
+  "narration": {
+    "generator": "Arena generate_speech",
+    "voice": "voice-00",
+    "voice_selection": "User-selected built-in narration voice, used exclusively for one continuous full-script take; no alternate voice or section switching",
+    "source_take": "output/ai-speech/voice-00-full-raw.wav",
+    "source_take_sha256": "ad01442d5314ccf2ac60532433c2b8f2831238b389f59541d6f674cedab24294",
+    "pace": "Uniform 0.928439128x FFmpeg atempo WSOLA; pitch preserved; source never sped up",
+    "initial_silence_seconds": 0.8,
+    "master": "media/voiceovers/noise-cancelling/narration.wav",
+    "master_duration_seconds": 60.0,
+    "master_sha256": "a6ecc375a716fadb73dd9401af26281cfab2458b4b398b779ba253deb315e1de"
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9654538560741155,
+    "tail_filter": "Two spurious ASR tokens beginning in digital silence at or after 51.992937 seconds were excluded before exact script comparison",
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "rendered_frames": 1800,
+    "actual_mp4_full_decode": "passed; 1800 frames",
+    "actual_mp4_contact_sheet": "output/contact-sheet.jpg",
+    "closing_title_frame": "output/closing-title.jpg",
+    "closing_title_review": "passed",
+    "delivery_and_production_copy_sha256_match": true
+  },
+  "visual_review": [
+    "All 12 caption midpoints extracted from the finished MP4 and reviewed",
+    "No moving line or timing indicator appears beneath any caption",
+    "Headphone hook and active anti-noise idea",
+    "Pressure-wave peaks and troughs",
+    "External microphone and digital copy",
+    "Original and inverted anti-noise waves",
+    "Destructive-interference cancellation and near-zero result",
+    "Steady-hum versus sudden-clatter limitation",
+    "Closing recap and four final-title/outro frames reviewed"
+  ],
+  "delivery": {
+    "github_path": "RESULT/how-noise-cancelling-headphones-work.mp4",
+    "branch": "arena/d1582ef5-knowledge-vault",
+    "previous_gps_result": "RESULT/how-gps-finds-you.mp4 left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}
