@@ -69,9 +69,9 @@ jobs:
               'So GPS is a cosmic stopwatch. '
               'Satellites send the time. Your phone turns tiny delays into a dot on the map.'
           )
-          model = WhisperModel('small.en', device='cpu', compute_type='int8')
+          model = WhisperModel('medium.en', device='cpu', compute_type='int8')
           segments_iter, info = model.transcribe(
-              audio_path, language='en', beam_size=5, vad_filter=True,
+              audio_path, language='en', beam_size=5, vad_filter=False,
               word_timestamps=True, condition_on_previous_text=False,
               initial_prompt=prompt,
           )
@@ -87,7 +87,7 @@ jobs:
               })
           words = [w for s in segments for w in s['words']]
           result = {
-              'engine': 'faster-whisper', 'model': 'small.en',
+              'engine': 'faster-whisper', 'model': 'medium.en',
               'voice_id': 'voice-00',
               'audio_blob': blob_sha, 'audio_sha256': hashlib.sha256(audio).hexdigest(),
               'language': info.language, 'language_probability': info.language_probability,
