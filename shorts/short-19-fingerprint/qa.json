@@ -1,0 +1,130 @@
+{
+  "file": "../../RESULT/how-fingerprint-sensors-recognize-you.mp4",
+  "production_copy": "output/how-fingerprint-sensors-recognize-you.mp4",
+  "status": "passed",
+  "bytes": 7931346,
+  "sha256": "de615c547486e5bb0b58598ccc9684e64f3ed172b21e6eb6977f86d92b875bf2",
+  "md5": "be02ca33fe030d347b5fa7d5fb05829a",
+  "container_duration_seconds": 45.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 45.0,
+    "bit_rate": 1204022,
+    "decoded_frames": 1350
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 45.1,
+    "bit_rate": 196356,
+    "integrated_lufs": -16.14,
+    "true_peak_dbfs": -1.43,
+    "loudness_range_lu": 4.5,
+    "mean_volume_db": -19.0,
+    "max_volume_db": -1.4,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 10,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 41.38,
+    "measured_speech_end_seconds": 41.605167,
+    "scenes": 5,
+    "sfx_cues": 6,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": -0.001,
+    "narration_mix_correlation": 0.51269,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 1.0,
+    "source_sped_up": false,
+    "spoken_words": 108,
+    "style": "Calm scene holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-19-fingerprint/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "e3725039b810213c9c282f43a5f95a0f6faf41f305214ba5bf474b59e98740a9",
+    "raw_duration_seconds": 41.28,
+    "trimmed_duration_seconds": 40.912792,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.054453393,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "narration_file": "media/voiceovers/fingerprint/narration.wav",
+    "narration_sha256": "5017a1110357eb03da0e6ed17096bb4cf7426a88c45a1e0ae2b9d5923c922efa",
+    "narration_duration_seconds": 45.0,
+    "paced_speech_end_seconds": 41.605167,
+    "script_sha256": "f26aecc43394305eec625636ff715dac87d9c28ed315860eb2d16b43496f8cab",
+    "spoken_words": 108,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9763237284841361,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 41.605167s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9763237284841361,
+    "low_confidence_words": [],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheet": "output/qa/contact-sheet.jpg",
+    "caption_midpoints_extracted": 10,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "existing_gps_and_anc_sha256_unchanged": true,
+    "actual_mp4_visual_review": "passed"
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0080-hook-photo.jpg",
+      "output/qa/0192-hook-pattern.jpg",
+      "output/qa/0304-sensor-capacitive.jpg",
+      "output/qa/0430-sensor-charge.jpg",
+      "output/qa/0549-features-minutiae.jpg",
+      "output/qa/0672-features-template.jpg",
+      "output/qa/0790-match-rescan.jpg",
+      "output/qa/0898-match-compare.jpg",
+      "output/qa/1020-match-result.jpg",
+      "output/qa/1160-closing-pattern.jpg",
+      "output/qa/1335-outro.jpg"
+    ],
+    "required": "Review every extracted caption midpoint and the outro; confirm legibility, accurate visuals, safe areas, and no caption progress line",
+    "review": "All 10 caption midpoints and the outro from the delivered MP4 reviewed; legible safe-area captions, clear ridge/minutiae/template/matching diagrams, clean closing title, and no caption progress line"
+  },
+  "delivery": {
+    "github_path": "RESULT/how-fingerprint-sensors-recognize-you.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "previous_gps_and_anc_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

@@ -41,11 +41,11 @@ const QrCode: React.FC<{
       <circle cx={295} cy={45 + ((scan * 3) % 1) * 230} r={11} fill={C.teal} />
     </g>}
     {damage > 0 && <g opacity={damage * (1 - repair * 0.85)}>
-      <path d="M 45 260 L 285 65" stroke={C.paper} strokeWidth={48} strokeLinecap="round" />
-      <path d="M 45 260 L 285 65" stroke={C.coral} strokeWidth={5} strokeDasharray="13 12" strokeLinecap="round" />
+      <path d="M 125 245 L 245 125" stroke={C.paper} strokeWidth={48} strokeLinecap="round" />
+      <path d="M 125 245 L 245 125" stroke={C.coral} strokeWidth={5} strokeDasharray="13 12" strokeLinecap="round" />
     </g>}
     {repair > 0 && <g fill={C.teal} opacity={repair}>
-      {[0, 1, 2, 3, 4].map((index) => <rect key={index} x={92 + index * 32} y={213 - index * 27} width={14} height={14} rx={2} />)}
+      {[0, 1, 2, 3, 4].map((index) => <rect key={index} x={125 + index * 24} y={245 - index * 24} width={14} height={14} rx={2} />)}
     </g>}
   </g>
 );
