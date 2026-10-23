@@ -1,0 +1,162 @@
+{
+  "id": "short-18-wireless-charging",
+  "title": "How Wireless Charging Works",
+  "composition": "Short18WirelessCharging",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 45.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-18-wireless-charging/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "0f4da600a521cbb920406b56ba5b006abe4dde11cddb8767942eef1801e771d0",
+    "raw_duration_seconds": 36.24,
+    "trimmed_duration_seconds": 35.739625,
+    "tempo_rate": 0.921124356,
+    "requested_tempo_rate": 0.921124356,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "narration_file": "media/voiceovers/wireless-charging/narration.wav",
+    "narration_sha256": "173a05e3150e8f76cb8713ce42e1bb0bd6cf0fc4a0901e53d2a7467022b9a638",
+    "narration_duration_seconds": 45.0,
+    "paced_speech_end_seconds": 39.483229,
+    "script_sha256": "ee4f7b48a81a9f43c202df358bc566a69723289b913f031359eed5ca20ea424a",
+    "spoken_words": 101,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9749548756840205,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.483229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+  },
+  "pacing": "Calm 45-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.3,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Power without a plug",
+      "start": 0.0,
+      "end": 7.8
+    },
+    {
+      "id": "transmitter",
+      "title": "The changing field",
+      "start": 7.8,
+      "end": 15.34
+    },
+    {
+      "id": "receiver",
+      "title": "A voltage is induced",
+      "start": 15.34,
+      "end": 27.72
+    },
+    {
+      "id": "alignment",
+      "title": "Close and aligned",
+      "start": 27.72,
+      "end": 34.9
+    },
+    {
+      "id": "closing",
+      "title": "Two coils, one link",
+      "start": 34.9,
+      "end": 45.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-plug",
+      "scene": "hook",
+      "text": "Wireless charging needs no metal plug between the pad and your phone.",
+      "speak": "Wireless charging needs no metal plug between the pad and your phone.",
+      "start": 0.7,
+      "end": 4.76,
+      "duration": 4.06
+    },
+    {
+      "id": "hook-field",
+      "scene": "hook",
+      "text": "It passes energy through a magnetic field.",
+      "speak": "It passes energy through a magnetic field.",
+      "start": 5.32,
+      "end": 7.66,
+      "duration": 2.34
+    },
+    {
+      "id": "transmitter-current",
+      "scene": "transmitter",
+      "text": "Inside the pad, alternating current flows through a coil.",
+      "speak": "Inside the pad, alternating current flows through a coil.",
+      "start": 8.3,
+      "end": 11.66,
+      "duration": 3.36
+    },
+    {
+      "id": "transmitter-field",
+      "scene": "transmitter",
+      "text": "That current makes the magnetic field rise and fall.",
+      "speak": "That current makes the magnetic field rise and fall.",
+      "start": 12.2,
+      "end": 15.36,
+      "duration": 3.16
+    },
+    {
+      "id": "receiver-coil",
+      "scene": "receiver",
+      "text": "A second coil inside your phone sits within that field.",
+      "speak": "A second coil inside your phone sits within that field.",
+      "start": 15.84,
+      "end": 19.16,
+      "duration": 3.32
+    },
+    {
+      "id": "receiver-voltage",
+      "scene": "receiver",
+      "text": "The changing magnetism induces a voltage in this coil.",
+      "speak": "The changing magnetism induces a voltage in this coil.",
+      "start": 19.62,
+      "end": 23.1,
+      "duration": 3.48
+    },
+    {
+      "id": "receiver-battery",
+      "scene": "receiver",
+      "text": "The phone turns that induced power into a form its battery can use.",
+      "speak": "The phone turns that induced power into a form its battery can use.",
+      "start": 23.5,
+      "end": 27.68,
+      "duration": 4.18
+    },
+    {
+      "id": "alignment-close",
+      "scene": "alignment",
+      "text": "The coils work best when they are close and aligned.",
+      "speak": "The coils work best when they are close and aligned.",
+      "start": 28.22,
+      "end": 31.04,
+      "duration": 2.82
+    },
+    {
+      "id": "alignment-distance",
+      "scene": "alignment",
+      "text": "Distance and misalignment weaken the link and waste energy.",
+      "speak": "Distance and misalignment weaken the link and waste energy.",
+      "start": 31.7,
+      "end": 34.92,
+      "duration": 3.22
+    },
+    {
+      "id": "closing-link",
+      "scene": "closing",
+      "text": "So the cable disappears, but a pair of coils still makes the connection.",
+      "speak": "So the cable disappears, but a pair of coils still makes the connection.",
+      "start": 35.4,
+      "end": 39.3,
+      "duration": 3.9
+    }
+  ]
+}

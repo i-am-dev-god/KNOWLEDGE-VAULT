@@ -1,0 +1,162 @@
+{
+  "id": "short-20-digital-photo",
+  "title": "How a Camera Turns Light Into a Photo",
+  "composition": "Short20DigitalPhoto",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 50.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-20-digital-photo/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "8f3c7496be8f8cb2b73712df564d282bb1edee81de253a3783fa3e09de7b9069",
+    "raw_duration_seconds": 43.48,
+    "trimmed_duration_seconds": 43.04275,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.109349227,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "narration_file": "media/voiceovers/digital-photo/narration.wav",
+    "narration_sha256": "d397c371ecc9fb7f5b787a98f1f9dc07f76d04890e11ceac9aa5bc01142bc331",
+    "narration_duration_seconds": 50.0,
+    "paced_speech_end_seconds": 43.737771,
+    "script_sha256": "7a380626e88091d812ec12a5e67420c65dde714795f6e6cf87540ae775834bee",
+    "spoken_words": 97,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9831315122826402,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.737771s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+  },
+  "pacing": "Calm 50-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 43.66,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Not a finished photo",
+      "start": 0.0,
+      "end": 8.14
+    },
+    {
+      "id": "sensor",
+      "title": "Light becomes signal",
+      "start": 8.14,
+      "end": 12.62
+    },
+    {
+      "id": "mosaic",
+      "title": "One color per site",
+      "start": 12.62,
+      "end": 24.42
+    },
+    {
+      "id": "process",
+      "title": "Fill in the colors",
+      "start": 24.42,
+      "end": 36.76
+    },
+    {
+      "id": "closing",
+      "title": "Measurements become an image",
+      "start": 36.76,
+      "end": 50.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-finished",
+      "scene": "hook",
+      "text": "A camera sensor does not see a finished photograph.",
+      "speak": "A camera sensor does not see a finished photograph.",
+      "start": 0.7,
+      "end": 3.94,
+      "duration": 3.24
+    },
+    {
+      "id": "hook-measure",
+      "scene": "hook",
+      "text": "It measures light with millions of tiny photosites.",
+      "speak": "It measures light with millions of tiny photosites.",
+      "start": 4.56,
+      "end": 7.94,
+      "duration": 3.38
+    },
+    {
+      "id": "sensor-signal",
+      "scene": "sensor",
+      "text": "Each photosite turns incoming light into an electrical signal.",
+      "speak": "Each photosite turns incoming light into an electrical signal.",
+      "start": 8.64,
+      "end": 12.3,
+      "duration": 3.66
+    },
+    {
+      "id": "mosaic-filter",
+      "scene": "mosaic",
+      "text": "Most sensors place a color filter above each site.",
+      "speak": "Most sensors place a color filter above each site.",
+      "start": 13.12,
+      "end": 16.08,
+      "duration": 2.96
+    },
+    {
+      "id": "mosaic-pattern",
+      "scene": "mosaic",
+      "text": "The filters follow a mosaic of red, green, and blue.",
+      "speak": "The filters follow a mosaic of red, green, and blue.",
+      "start": 16.7,
+      "end": 20.22,
+      "duration": 3.52
+    },
+    {
+      "id": "mosaic-onecolor",
+      "scene": "mosaic",
+      "text": "So each site records only one color plus brightness.",
+      "speak": "So each site records only one color plus brightness.",
+      "start": 20.4,
+      "end": 24.04,
+      "duration": 3.64
+    },
+    {
+      "id": "process-neighbors",
+      "scene": "process",
+      "text": "The processor compares neighboring sites to estimate the missing colors.",
+      "speak": "The processor compares neighboring sites to estimate the missing colors.",
+      "start": 24.92,
+      "end": 29.0,
+      "duration": 4.08
+    },
+    {
+      "id": "process-demosaic",
+      "scene": "process",
+      "text": "This step is called demosaicing.",
+      "speak": "This step is called demosaicing.",
+      "start": 29.0,
+      "end": 31.7,
+      "duration": 2.7
+    },
+    {
+      "id": "process-adjust",
+      "scene": "process",
+      "text": "It also adjusts brightness and reduces noise before saving the image.",
+      "speak": "It also adjusts brightness and reduces noise before saving the image.",
+      "start": 32.3,
+      "end": 36.48,
+      "duration": 4.18
+    },
+    {
+      "id": "closing-weave",
+      "scene": "closing",
+      "text": "A photo begins as many tiny light measurements, which the processor weaves into the colors you see.",
+      "speak": "A photo begins as many tiny light measurements, which the processor weaves into the colors you see.",
+      "start": 37.26,
+      "end": 43.66,
+      "duration": 6.4
+    }
+  ]
+}

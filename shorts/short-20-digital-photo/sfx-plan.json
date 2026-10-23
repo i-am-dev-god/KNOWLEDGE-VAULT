@@ -1,0 +1,61 @@
+{
+  "master": "RESULT/how-a-camera-turns-light-into-a-photo.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short20DigitalPhoto.mp4",
+    "out": "RESULT/how-a-camera-turns-light-into-a-photo.mp4",
+    "end_s": 50.0
+  },
+  "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 0.3,
+      "sfx_id": "impact-soft",
+      "gain_db": -16.0,
+      "cue": "Opening emphasis",
+      "sync_source": "hook-finished"
+    },
+    {
+      "at_s": 8.39,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18.0,
+      "cue": "Photosite signal",
+      "sync_source": "sensor-signal"
+    },
+    {
+      "at_s": 12.97,
+      "sfx_id": "scan-hum",
+      "gain_db": -20.0,
+      "cue": "Color mosaic",
+      "sync_source": "mosaic-filter"
+    },
+    {
+      "at_s": 24.72,
+      "sfx_id": "pop-reveal",
+      "gain_db": -19.0,
+      "cue": "Demosaicing",
+      "sync_source": "process-neighbors"
+    },
+    {
+      "at_s": 37.01,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -19.0,
+      "cue": "Closing recap",
+      "sync_source": "closing-weave"
+    },
+    {
+      "at_s": 37.46,
+      "sfx_id": "chime-reward",
+      "gain_db": -20.0,
+      "cue": "Final idea",
+      "sync_source": "closing-weave"
+    }
+  ]
+}

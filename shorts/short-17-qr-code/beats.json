@@ -1,0 +1,162 @@
+{
+  "id": "short-17-qr-code",
+  "title": "How QR Codes Survive Damage",
+  "composition": "Short17QrCode",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 45.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-17-qr-code/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "200d499a47c6fb1ec95d9623d47733374ab586d63c58f187e3c49d5164c7a581",
+    "raw_duration_seconds": 36.24,
+    "trimmed_duration_seconds": 35.84975,
+    "tempo_rate": 0.923962629,
+    "requested_tempo_rate": 0.923962629,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "narration_file": "media/voiceovers/qr-code/narration.wav",
+    "narration_sha256": "db9c120cfc212435658203fc6a3da3b83b40abc7e5edd7b94e64e2b5c7c28729",
+    "narration_duration_seconds": 45.0,
+    "paced_speech_end_seconds": 39.489208,
+    "script_sha256": "31366f8aad803ac7baea7c14344aa35bc146e561bbbf06a1b96260045499effe",
+    "spoken_words": 108,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9511017271684944,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.489208s",
+    "asr_spurious_token_filter": "Excluded 1 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+  },
+  "pacing": "Calm 45-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.32,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Data in black and white",
+      "start": 0.0,
+      "end": 6.68
+    },
+    {
+      "id": "pattern",
+      "title": "A map inside the pattern",
+      "start": 6.68,
+      "end": 20.36
+    },
+    {
+      "id": "read",
+      "title": "Read in a set order",
+      "start": 20.36,
+      "end": 24.9
+    },
+    {
+      "id": "repair",
+      "title": "Built-in repair",
+      "start": 24.9,
+      "end": 35.32
+    },
+    {
+      "id": "closing",
+      "title": "Message plus backup",
+      "start": 35.32,
+      "end": 45.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-random",
+      "scene": "hook",
+      "text": "A QR code is not just a random pile of squares.",
+      "speak": "A QR code is not just a random pile of squares.",
+      "start": 0.7,
+      "end": 3.86,
+      "duration": 3.16
+    },
+    {
+      "id": "hook-data",
+      "scene": "hook",
+      "text": "It is data written in black and white.",
+      "speak": "It is data written in black and white.",
+      "start": 4.46,
+      "end": 6.58,
+      "duration": 2.12
+    },
+    {
+      "id": "pattern-module",
+      "scene": "pattern",
+      "text": "Each tiny module stands for a binary zero or one.",
+      "speak": "Each tiny module stands for a binary zero or one.",
+      "start": 7.18,
+      "end": 10.9,
+      "duration": 3.72
+    },
+    {
+      "id": "pattern-corners",
+      "scene": "pattern",
+      "text": "The big corner squares help your camera find the code and its rotation.",
+      "speak": "The big corner squares help your camera find the code and its rotation.",
+      "start": 11.46,
+      "end": 15.52,
+      "duration": 4.06
+    },
+    {
+      "id": "pattern-quiet",
+      "scene": "pattern",
+      "text": "A clear border called the quiet zone separates it from everything else.",
+      "speak": "A clear border called the quiet zone separates it from everything else.",
+      "start": 16.2,
+      "end": 20.4,
+      "duration": 4.2
+    },
+    {
+      "id": "read-message",
+      "scene": "read",
+      "text": "Your phone reads the modules in a set order and rebuilds the message.",
+      "speak": "Your phone reads the modules in a set order and rebuilds the message.",
+      "start": 20.86,
+      "end": 24.68,
+      "duration": 3.82
+    },
+    {
+      "id": "repair-extra",
+      "scene": "repair",
+      "text": "Extra error-correction data is stored inside the pattern.",
+      "speak": "Extra error-correction data is stored inside the pattern.",
+      "start": 25.4,
+      "end": 28.48,
+      "duration": 3.08
+    },
+    {
+      "id": "repair-damage",
+      "scene": "repair",
+      "text": "It lets the reader repair missing or damaged parts.",
+      "speak": "It lets the reader repair missing or damaged parts.",
+      "start": 29.06,
+      "end": 31.76,
+      "duration": 2.7
+    },
+    {
+      "id": "repair-limit",
+      "scene": "repair",
+      "text": "So scratches can be forgiven, but only up to a limit.",
+      "speak": "So scratches can be forgiven, but only up to a limit.",
+      "start": 32.36,
+      "end": 35.16,
+      "duration": 2.8
+    },
+    {
+      "id": "closing-backup",
+      "scene": "closing",
+      "text": "The code carries a message, a reading guide, and a backup plan.",
+      "speak": "The code carries a message, a reading guide, and a backup plan.",
+      "start": 35.82,
+      "end": 39.32,
+      "duration": 3.5
+    }
+  ]
+}

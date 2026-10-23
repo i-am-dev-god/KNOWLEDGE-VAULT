@@ -1,0 +1,61 @@
+{
+  "master": "RESULT/how-fingerprint-sensors-recognize-you.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short19Fingerprint.mp4",
+    "out": "RESULT/how-fingerprint-sensors-recognize-you.mp4",
+    "end_s": 45.0
+  },
+  "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 0.3,
+      "sfx_id": "impact-soft",
+      "gain_db": -16.0,
+      "cue": "Opening emphasis",
+      "sync_source": "hook-photo"
+    },
+    {
+      "at_s": 8.11,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18.0,
+      "cue": "Sensor reveal",
+      "sync_source": "sensor-capacitive"
+    },
+    {
+      "at_s": 16.55,
+      "sfx_id": "scan-hum",
+      "gain_db": -20.0,
+      "cue": "Feature extraction",
+      "sync_source": "features-minutiae"
+    },
+    {
+      "at_s": 24.6,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -19.0,
+      "cue": "Template comparison",
+      "sync_source": "match-rescan"
+    },
+    {
+      "at_s": 35.69,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -19.0,
+      "cue": "Closing recap",
+      "sync_source": "closing-pattern"
+    },
+    {
+      "at_s": 36.14,
+      "sfx_id": "chime-reward",
+      "gain_db": -20.0,
+      "cue": "Final idea",
+      "sync_source": "closing-pattern"
+    }
+  ]
+}
