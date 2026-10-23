@@ -1,0 +1,43 @@
+{
+  "file": "output/the-oceans-living-light.mp4",
+  "status": "passed",
+  "bytes": 12227806,
+  "sha256": "0e72cb5c98f5a4cc304103c5ba3135e09a016614d0d990f6200dea3ce9eaee9b",
+  "container_duration_seconds": 60.05,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "decoded_frames": 1800,
+    "video_duration_seconds": 60.0,
+    "full_decode": "passed"
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "target_bitrate": "192k",
+    "integrated_lufs": -17.2,
+    "loudness_range_lu": 2.9,
+    "true_peak_dbfs": -0.9,
+    "silence_check": "No silence >= 2 seconds below -45 dB detected"
+  },
+  "visual_review": [
+    "Opening hook",
+    "Living wave",
+    "Dinoflagellate macro scene",
+    "Luciferin and oxygen reaction",
+    "Burglar-alarm predator sequence",
+    "Warning, distraction, and call-for-help cards",
+    "Closing title"
+  ],
+  "narration": {
+    "generator": "debpalash/VoiceStudio SherpaOnnxBackend",
+    "model": "Piper en_US-amy-low",
+    "lines_synthesized": 7,
+    "master": "media/voiceovers/living-light/narration.wav"
+  }
+}

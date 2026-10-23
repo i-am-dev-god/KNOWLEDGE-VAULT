@@ -1,0 +1,239 @@
+#!/usr/bin/env python3
+"""Generate the original Living Light narration through VoiceStudio.
+
+Run with a Python environment containing VoiceStudio's lightweight runtime
+(torch, torchaudio, sherpa-onnx, soundfile) and point VOICESTUDIO_BACKEND_DIR at
+VoiceStudio's backend directory. OMNIVOICE_SHERPA_MODEL must name a prepared
+model directory containing model.onnx, tokens.txt and (for Piper English)
+espeak-ng-data.
+
+No other TTS provider is used. Scene timings come from the measured VoiceStudio
+audio. Word timings are estimates distributed inside each measured line.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import sys
+
+import numpy as np
+import soundfile as sf
+import torch
+import torchaudio.functional as AF
+
+ROOT = Path(__file__).resolve().parents[1]
+SHORT_ID = "short-13-living-light"
+FPS = 30
+DURATION_S = 60.0
+SAMPLE_RATE = 48000
+INITIAL_SILENCE_S = 0.65
+TARGET_VOICE_END_S = 56.4
+
+LINES = [
+    ("hook", "On a moonless beach, a wave can turn electric blue. But the light isn't in the water. It's alive."),
+    ("organisms", "Meet the dinoflagellates: microscopic plankton drifting through the sea. Disturb them, and some species answer with a flash."),
+    ("chemistry", "Inside each cell, a molecule called luciferin meets oxygen. An enzyme, luciferase, helps turn that reaction into light—with almost no heat."),
+    ("why", "But why flash when touched? One leading idea is the burglar alarm effect."),
+    ("predators", "The sudden light can startle a tiny predator. It may also expose that predator to larger hunters nearby."),
+    ("meaning", "So the glow is more than beautiful. It can be a warning, a distraction, or a call for help."),
+    ("closing", "Next time the night ocean ignites, look closer. You're watching a hidden conversation, written in blue."),
+]
+
+
+def trim_voice(samples: np.ndarray, sr: int) -> np.ndarray:
+    """Trim only low-level edge silence, retaining natural breath and consonants."""
+    mono = np.asarray(samples, dtype=np.float32).reshape(-1)
+    if mono.size == 0:
+        raise RuntimeError("VoiceStudio returned an empty audio segment")
+    window = max(1, int(sr * 0.02))
+    padded = np.pad(np.abs(mono), (window // 2, window - 1 - window // 2))
+    rms = np.sqrt(np.convolve(padded * padded, np.ones(window) / window, mode="valid"))
+    threshold = max(0.00035, float(np.max(rms)) * 0.018)
+    active = np.flatnonzero(rms >= threshold)
+    if active.size == 0:
+        return mono
+    pre = int(sr * 0.055)
+    post = int(sr * 0.13)
+    first = max(0, int(active[0]) - pre)
+    last = min(mono.size, int(active[-1]) + window + post)
+    return mono[first:last]
+
+
+def polish(samples: np.ndarray, sr: int) -> np.ndarray:
+    """Small level normalization and click-free edges; no voice transformation."""
+    mono = np.asarray(samples, dtype=np.float32).reshape(-1)
+    rms = float(np.sqrt(np.mean(mono * mono) + 1e-12))
+    gain = min(0.10 / max(rms, 1e-6), 0.94 / max(float(np.max(np.abs(mono))), 1e-6))
+    mono = mono * gain
+    fade = min(int(sr * 0.012), mono.size // 2)
+    if fade:
+        mono[:fade] *= np.linspace(0.0, 1.0, fade, dtype=np.float32)
+        mono[-fade:] *= np.linspace(1.0, 0.0, fade, dtype=np.float32)
+    return mono
+
+
+def resample(samples: np.ndarray, source_rate: int) -> np.ndarray:
+    tensor = torch.from_numpy(np.asarray(samples, dtype=np.float32)).reshape(1, -1)
+    if source_rate != SAMPLE_RATE:
+        tensor = AF.resample(tensor, source_rate, SAMPLE_RATE)
+    return tensor.reshape(-1).numpy().astype(np.float32)
+
+
+def estimate_words(text: str, start: float, end: float) -> list[dict]:
+    words = text.split()
+    weights = []
+    for word in words:
+        letters = re.sub(r"[^A-Za-z0-9]", "", word)
+        weight = max(2, len(letters)) + 1.4
+        if word.endswith((",", ":", ";")):
+            weight += 1.8
+        elif word.endswith((".", "?", "!", "—")):
+            weight += 3.0
+        weights.append(weight)
+    total = sum(weights)
+    result = []
+    cursor = start
+    for index, (word, weight) in enumerate(zip(words, weights)):
+        word_end = end if index == len(words) - 1 else cursor + (end - start) * weight / total
+        result.append({"w": word, "start": round(cursor, 3), "end": round(word_end, 3)})
+        cursor = word_end
+    return result
+
+
+def js_string(value: str) -> str:
+    return "'" + value.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n") + "'"
+
+
+def write_vo_module(path: Path, lines: list[dict]) -> None:
+    rows = []
+    for line in lines:
+        words = ", ".join(
+            "{ w: %s, start: %.3f, end: %.3f }" % (js_string(w["w"]), w["start"], w["end"])
+            for w in line["words"]
+        )
+        rows.append(
+            "  { beat: %s, text: %s, start: %.3f, end: %.3f, words: [%s] },"
+            % (js_string(line["beat"]), js_string(line["text"]), line["start"], line["end"], words)
+        )
+    path.write_text(
+        "// Generated by tools/gen_living_light_voicestudio.py.\n"
+        "// Line timings are measured VoiceStudio audio; word timings are estimates.\n"
+        "import type { VoLine } from '../../lib/shorts';\n\n"
+        "export type LivingLightLine = VoLine & { beat: string };\n"
+        "export const VO: LivingLightLine[] = [\n" + "\n".join(rows) + "\n];\n"
+    )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--reuse", action="store_true", help="Reuse raw VoiceStudio WAVs already in output/voice-segments")
+    args = parser.parse_args()
+
+    backend_dir = Path(os.environ.get("VOICESTUDIO_BACKEND_DIR", "/tmp/voicestudio-inspect/backend"))
+    model_dir = Path(os.environ.get("OMNIVOICE_SHERPA_MODEL", "/tmp/voicestudio-model"))
+    if not backend_dir.is_dir():
+        raise SystemExit(f"VoiceStudio backend not found: {backend_dir}")
+    if not (model_dir / "model.onnx").is_file():
+        raise SystemExit(f"VoiceStudio Sherpa model not found: {model_dir}")
+    os.environ["OMNIVOICE_SHERPA_MODEL"] = str(model_dir)
+    sys.path.insert(0, str(backend_dir))
+
+    from services.tts_backend import SherpaOnnxBackend
+
+    output_dir = ROOT / "shorts" / SHORT_ID / "output" / "voice-segments"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    public_dir = ROOT / "media" / "voiceovers" / "living-light"
+    public_dir.mkdir(parents=True, exist_ok=True)
+
+    backend = SherpaOnnxBackend()
+    available, reason = backend.is_available()
+    if not available:
+        raise SystemExit(f"VoiceStudio Sherpa-ONNX is unavailable: {reason}")
+    print(f"VoiceStudio engine: {backend.id}; model: {model_dir}")
+    backend.ensure_ready()
+    source_rate = backend.sample_rate
+
+    segments = []
+    for index, (beat, text) in enumerate(LINES, start=1):
+        raw_path = output_dir / f"{index:02d}-{beat}-raw.wav"
+        if args.reuse and raw_path.is_file():
+            raw, raw_rate = sf.read(raw_path, dtype="float32")
+            if raw_rate != source_rate:
+                raise RuntimeError(f"Sample rate changed for cached {raw_path}")
+        else:
+            print(f"Synthesizing {index}/{len(LINES)} through VoiceStudio: {beat}")
+            wav = backend.generate(text, speed=1.0, language="en")
+            raw = wav.reshape(-1).cpu().numpy().astype(np.float32)
+            sf.write(raw_path, raw, source_rate, subtype="PCM_16")
+        trimmed = trim_voice(raw, source_rate)
+        processed = polish(trimmed, source_rate)
+        processed = resample(processed, source_rate)
+        segment_path = output_dir / f"{index:02d}-{beat}.wav"
+        sf.write(segment_path, processed, SAMPLE_RATE, subtype="PCM_16")
+        segments.append((beat, text, processed))
+        print(f"  raw={len(raw) / source_rate:.3f}s; timed={len(processed) / SAMPLE_RATE:.3f}s")
+
+    speech_total = sum(len(samples) for _, _, samples in segments) / SAMPLE_RATE
+    gap = (TARGET_VOICE_END_S - INITIAL_SILENCE_S - speech_total) / (len(segments) - 1)
+    gap = min(0.65, max(0.22, gap))
+    cursor = INITIAL_SILENCE_S
+    master = np.zeros(int(DURATION_S * SAMPLE_RATE), dtype=np.float32)
+    timed_lines = []
+    for beat, text, samples in segments:
+        duration = len(samples) / SAMPLE_RATE
+        start_index = int(round(cursor * SAMPLE_RATE))
+        end_index = start_index + len(samples)
+        if end_index > master.size:
+            raise RuntimeError("Narration exceeds the 60-second composition")
+        master[start_index:end_index] += samples
+        line = {
+            "beat": beat,
+            "text": text,
+            "start": round(cursor, 3),
+            "end": round(cursor + duration, 3),
+            "duration": round(duration, 3),
+        }
+        line["words"] = estimate_words(text, line["start"], line["end"])
+        timed_lines.append(line)
+        cursor += duration + gap
+
+    voice_end = timed_lines[-1]["end"]
+    if voice_end > 58.4:
+        raise RuntimeError(f"Narration ends too late for the outro: {voice_end:.3f}s")
+    narration_path = public_dir / "narration.wav"
+    sf.write(narration_path, master, SAMPLE_RATE, subtype="PCM_16")
+
+    prepared_hash = hashlib.sha256((model_dir / "model.onnx").read_bytes()).hexdigest()
+    timeline = {
+        "id": SHORT_ID,
+        "title": "The Ocean's Living Light",
+        "composition": "Short13LivingLight",
+        "format": {"width": 1080, "height": 1920, "fps": FPS, "durationSec": DURATION_S},
+        "voiceStatus": "voicestudio:sherpa-onnx:complete",
+        "voiceStudio": {
+            "source": "debpalash/VoiceStudio",
+            "commit": "770118cfb563568d0aa2a7fa248fe354535510d2",
+            "engine": backend.id,
+            "model": "piper-en_US-amy-low",
+            "preparedModelSha256": prepared_hash,
+            "sourceSampleRate": source_rate,
+            "masterSampleRate": SAMPLE_RATE,
+            "wordTiming": "estimated within measured VoiceStudio line durations",
+        },
+        "gapSeconds": round(gap, 3),
+        "voiceEnd": voice_end,
+        "vo": timed_lines,
+    }
+    short_root = ROOT / "shorts" / SHORT_ID
+    (short_root / "beats.json").write_text(json.dumps(timeline, indent=2) + "\n")
+    write_vo_module(ROOT / "remotion" / "src" / "shots" / "short-13" / "vo.gen.ts", timed_lines)
+    print(f"Narration: {narration_path}")
+    print(f"Voice ends at {voice_end:.3f}s; gap={gap:.3f}s; master={DURATION_S:.1f}s")
+
+
+if __name__ == "__main__":
+    main()

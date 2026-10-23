@@ -1,0 +1,129 @@
+{
+  "master": "remotion/out/Short13LivingLight.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/Short13LivingLight.mp4",
+    "out": "shorts/short-13-living-light/output/the-oceans-living-light.mp4",
+    "end_s": 60,
+    "duck": true
+  },
+  "delivery": {
+    "video": "Validated H.264 stream copied without re-encoding",
+    "audio_master": "+4.0 dB to the complete mix; AAC-LC 48 kHz stereo, 192 kb/s target",
+    "integrated_lufs": -17.2,
+    "loudness_range_lu": 2.9,
+    "true_peak_dbfs": -0.9,
+    "decoded_frames": 1800,
+    "container_duration_s": 60.05,
+    "sha256": "0e72cb5c98f5a4cc304103c5ba3135e09a016614d0d990f6200dea3ce9eaee9b"
+  },
+  "note": "Original 60-second science film. VoiceStudio narration is the primary track; cinematic-min is ducked beneath it. These fifteen cues are sequenced directly in Short13LivingLight.tsx, so the composition renders a complete mix without a compatibility post-mix. Only final output loudness mastering is applied after rendering.",
+  "events": [
+    {
+      "at_s": 2.75,
+      "sfx_id": "stream-soft",
+      "gain_db": -12.0,
+      "cue": "Wave begins to lift under the hook",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 3.695,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10.5,
+      "cue": "The wave turns electric blue",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 7.72,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -13.2,
+      "cue": "Shore-to-macro transition",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 15.014,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -11.4,
+      "cue": "Dinoflagellate flash",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 16.02,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -14.9,
+      "cue": "Enter the cell reaction chamber",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 23.873,
+      "sfx_id": "chime-magic",
+      "gain_db": -14.0,
+      "cue": "Luciferin reaction resolves into blue light",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 26.16,
+      "sfx_id": "impact-soft",
+      "gain_db": -15.9,
+      "cue": "Survival question lands",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 30.065,
+      "sfx_id": "riser-soft",
+      "gain_db": -14.0,
+      "cue": "Burglar-alarm hypothesis reveal",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 33.655,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -13.2,
+      "cue": "Flash startles the tiny predator",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 36.158,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -15.4,
+      "cue": "Larger hunter notices the exposed grazer",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 42.924,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14.9,
+      "cue": "Warning card",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 44.853,
+      "sfx_id": "chime-reward",
+      "gain_db": -15.9,
+      "cue": "Call-for-help card resolves the triptych",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 46.35,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -15.9,
+      "cue": "Return from macro world to the shore",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 52.9,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -12.8,
+      "cue": "Written-in-blue closing image",
+      "mix": "Rendered as a Remotion Audio sequence"
+    },
+    {
+      "at_s": 56.3,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15.9,
+      "cue": "Final title and lingering living wave",
+      "mix": "Rendered as a Remotion Audio sequence"
+    }
+  ]
+}

@@ -1,15 +1,39 @@
-// Brand 3-font system, loaded from Google Fonts (bundled by Remotion at render time).
-import { loadFont as loadDisplay } from '@remotion/google-fonts/SpaceGrotesk';
-import { loadFont as loadBody } from '@remotion/google-fonts/Inter';
-import { loadFont as loadMono } from '@remotion/google-fonts/JetBrainsMono';
-import { loadFont as loadSerif } from '@remotion/google-fonts/Spectral';
-import { loadFont as loadEditorial } from '@remotion/google-fonts/SourceSerif4';
+// Local, render-safe font loading. All font files are bundled under media/fonts,
+// so neither composition discovery nor parallel render workers need Google Fonts.
+// FontFace.load() deliberately runs without delayRender(): a worker can be recycled
+// while a font promise is pending, and holding a render handle across that boundary
+// can otherwise stall an otherwise healthy long render.
+import { staticFile } from 'remotion';
 
-export const FONT_DISPLAY = loadDisplay('normal', { weights: ['500', '600', '700'], subsets: ['latin'] }).fontFamily;
-export const FONT_BODY = loadBody('normal', { weights: ['400', '500', '600'], subsets: ['latin'] }).fontFamily;
-export const FONT_MONO = loadMono('normal', { weights: ['400', '500', '700'], subsets: ['latin'] }).fontFamily;
-// serif for the Claude Code wordmark clone (close match to the app's serif)
-export const FONT_SERIF = loadSerif('normal', { weights: ['500', '600'], subsets: ['latin'] }).fontFamily;
-// heavy editorial serif for the vox collage engine's headlines (Publico-ish; Spectral maxes
-// at 600 and reads too light/bookish over collage layers)
-export const FONT_EDITORIAL = loadEditorial('normal', { weights: ['600', '700', '900'], subsets: ['latin'] }).fontFamily;
+const loaded: Record<string, Promise<void> | undefined> = {};
+
+const loadLocalFont = (
+  fontFamily: string,
+  fileStem: string,
+  weights: number[],
+): string => {
+  weights.forEach((weight) => {
+    const key = `${fontFamily}-${weight}`;
+    if (loaded[key]) return;
+    const fontFace = new FontFace(
+      fontFamily,
+      `url(${staticFile(`fonts/${fileStem}-${weight}.woff2`)}) format('woff2')`,
+      { style: 'normal', weight: String(weight), display: 'block' },
+    );
+    document.fonts.add(fontFace);
+    loaded[key] = fontFace
+      .load()
+      .then(() => undefined)
+      .catch((error) => {
+        loaded[key] = undefined;
+        console.error(`Unable to load bundled font ${key}`, error);
+      });
+  });
+  return fontFamily;
+};
+
+export const FONT_DISPLAY = loadLocalFont('Space Grotesk', 'space-grotesk', [500, 600, 700]);
+export const FONT_BODY = loadLocalFont('Inter', 'inter', [400, 500, 600]);
+export const FONT_MONO = loadLocalFont('JetBrains Mono', 'jetbrains-mono', [400, 500, 700]);
+export const FONT_SERIF = loadLocalFont('Spectral', 'spectral', [500, 600]);
+export const FONT_EDITORIAL = loadLocalFont('Source Serif 4', 'source-serif-4', [600, 700, 900]);
