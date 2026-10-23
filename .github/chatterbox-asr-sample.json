@@ -1,0 +1,79 @@
+{
+  "engine": "faster-whisper",
+  "model": "small.en",
+  "audio_blob": "ae74dc76e3c7ee22b0e2ba48e4f032763c26dfe4",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Your phone can find you without mobile signal or internet.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.92,
+      "text": "Your phone can find you without mobile signal or internet.",
+      "avg_logprob": -0.2555790628705706,
+      "no_speech_prob": 0.012966006994247437,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": " Your",
+          "probability": 0.8344904780387878
+        },
+        {
+          "start": 0.24,
+          "end": 0.48,
+          "word": " phone",
+          "probability": 0.9938687682151794
+        },
+        {
+          "start": 0.48,
+          "end": 0.68,
+          "word": " can",
+          "probability": 0.8752598762512207
+        },
+        {
+          "start": 0.68,
+          "end": 0.96,
+          "word": " find",
+          "probability": 0.9927394986152649
+        },
+        {
+          "start": 0.96,
+          "end": 1.14,
+          "word": " you",
+          "probability": 0.9982366561889648
+        },
+        {
+          "start": 1.14,
+          "end": 1.4,
+          "word": " without",
+          "probability": 0.9959010481834412
+        },
+        {
+          "start": 1.4,
+          "end": 1.76,
+          "word": " mobile",
+          "probability": 0.90304034948349
+        },
+        {
+          "start": 1.76,
+          "end": 2.14,
+          "word": " signal",
+          "probability": 0.9857611060142517
+        },
+        {
+          "start": 2.14,
+          "end": 2.54,
+          "word": " or",
+          "probability": 0.9807438254356384
+        },
+        {
+          "start": 2.54,
+          "end": 2.92,
+          "word": " internet.",
+          "probability": 0.7795952558517456
+        }
+      ]
+    }
+  ]
+}
