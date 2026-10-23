@@ -1,4 +1,4 @@
-name: Check Chatterbox Candidate Transcripts
+name: Verify Final Chatterbox Narration
 
 on:
   push:
@@ -19,19 +19,18 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install --quiet faster-whisper
-      - name: Transcribe alternate Chatterbox takes
+      - name: Transcribe final paced Chatterbox master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
           python - <<'PY'
           import base64
-          import io
+          import hashlib
           import json
           import os
-          from pathlib import Path
+          import urllib.error
           import urllib.request
-          import zipfile
 
           from faster_whisper import WhisperModel
 
@@ -42,51 +41,69 @@ jobs:
               'Authorization': f'Bearer {token}',
               'X-GitHub-Api-Version': '2022-11-28',
           }
-          blob_sha = '807c8a51f53ce8b89d1bd1f8c1d9be87899e6968'
+          blob_sha = '99f65b43724a114a4e9f97035879e94c7c97130d'
           request = urllib.request.Request(
-              f'https://api.github.com/repos/{repository}/git/blobs/{blob_sha}',
-              headers=headers,
+              f'https://api.github.com/repos/{repository}/git/blobs/{blob_sha}', headers=headers,
           )
           with urllib.request.urlopen(request, timeout=60) as response:
               blob = json.load(response)
-          candidate_dir = Path('/tmp/chatterbox-candidates')
-          candidate_dir.mkdir()
-          with zipfile.ZipFile(io.BytesIO(base64.b64decode(blob['content']))) as archive:
-              archive.extractall(candidate_dir)
+          audio = base64.b64decode(blob['content'])
+          audio_path = '/tmp/chatterbox-final-narration.wav'
+          with open(audio_path, 'wb') as output:
+              output.write(audio)
 
           model = WhisperModel('small.en', device='cpu', compute_type='int8')
-          results = []
-          for audio_path in sorted(candidate_dir.glob('*.wav')):
-              segments_iter, info = model.transcribe(
-                  str(audio_path), language='en', beam_size=5, vad_filter=True,
-                  condition_on_previous_text=False,
-              )
-              segments = [
-                  {'start': s.start, 'end': s.end, 'text': s.text.strip(),
-                   'avg_logprob': s.avg_logprob, 'no_speech_prob': s.no_speech_prob}
-                  for s in segments_iter
-              ]
-              result = {
-                  'file': audio_path.name,
-                  'text': ' '.join(s['text'] for s in segments),
-                  'language_probability': info.language_probability,
-                  'segments': segments,
-              }
-              results.append(result)
-              print(f'{audio_path.name}: {result["text"]}', flush=True)
-
-          content = json.dumps({'engine': 'faster-whisper', 'model': 'small.en',
-              'archive_blob': blob_sha, 'candidates': results}, indent=2) + '\n'
-          payload = json.dumps({
-              'message': 'Record Chatterbox candidate transcripts',
+          segments_iter, info = model.transcribe(
+              audio_path, language='en', beam_size=5, vad_filter=True,
+              word_timestamps=True, condition_on_previous_text=False,
+          )
+          segments = []
+          for segment in segments_iter:
+              segments.append({
+                  'start': segment.start, 'end': segment.end, 'text': segment.text.strip(),
+                  'avg_logprob': segment.avg_logprob, 'no_speech_prob': segment.no_speech_prob,
+                  'words': [
+                      {'start': w.start, 'end': w.end, 'word': w.word, 'probability': w.probability}
+                      for w in (segment.words or [])
+                  ],
+              })
+          words = [w for s in segments for w in s['words']]
+          result = {
+              'engine': 'faster-whisper', 'model': 'small.en',
+              'audio_blob': blob_sha, 'audio_sha256': hashlib.sha256(audio).hexdigest(),
+              'language': info.language, 'language_probability': info.language_probability,
+              'text': ' '.join(s['text'] for s in segments),
+              'mean_word_probability': sum(w['probability'] for w in words) / len(words),
+              'low_confidence_words': [w for w in words if w['probability'] < 0.5],
+              'segments': segments,
+          }
+          content = json.dumps(result, indent=2) + '\n'
+          output_path = 'shorts/short-14-gps-explainer/transcription-qa.json'
+          existing_sha = None
+          request = urllib.request.Request(
+              f'https://api.github.com/repos/{repository}/contents/{output_path}?ref=arena/3cceb7fa-knowledge-vault',
+              headers=headers,
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  existing_sha = json.load(response)['sha']
+          except urllib.error.HTTPError as error:
+              if error.code != 404:
+                  raise
+          payload_dict = {
+              'message': 'Verify final Chatterbox narration transcript',
               'content': base64.b64encode(content.encode()).decode('ascii'),
               'branch': 'arena/3cceb7fa-knowledge-vault',
-          }).encode()
+          }
+          if existing_sha:
+              payload_dict['sha'] = existing_sha
           request = urllib.request.Request(
-              f'https://api.github.com/repos/{repository}/contents/.github/chatterbox-asr-candidates.json',
-              data=payload, method='PUT', headers={**headers, 'Content-Type': 'application/json'},
+              f'https://api.github.com/repos/{repository}/contents/{output_path}',
+              data=json.dumps(payload_dict).encode(), method='PUT',
+              headers={**headers, 'Content-Type': 'application/json'},
           )
           with urllib.request.urlopen(request, timeout=60) as response:
               commit = json.load(response)
+          print(result['text'], flush=True)
           print(f'TRANSCRIPT_COMMIT={commit["commit"]["sha"]}', flush=True)
           PY
