@@ -1,0 +1,950 @@
+{
+  "engine": "faster-whisper",
+  "model": "small.en",
+  "audio_blob": "99f65b43724a114a4e9f97035879e94c7c97130d",
+  "audio_sha256": "663d5f05ef6aba7b02ea71a34d9dffcb8c9233f58d5817bdfd63d157facd64ce",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Your phone can find you without mobile signal or internet. The map may need data. GPS itself does not. GPS satellites orbit about 20,000 kilometers above Earth. Each one carries an extremely accurate atomic clock. Every satellite broadcasts its position and the exact time its signal was sent. Your phone measures how long that signal took to arrive. The timing must be astonishingly precise because radio waves travel at the speed of light. Delay becomes distance. One satellite gives a distance, not a fix. Three helps solve your position. A fourth corrects your phone's clock. Without that correction, the position would be wrong. Imagine invisible spheres around the satellites. Where the distances meet is your location. That's trilateration. So GPS is a cosmic stopwatch. Satellites send the time. Your phone turns tiny delays into a dot on the map.",
+  "mean_word_probability": 0.9718111673281308,
+  "low_confidence_words": [
+    {
+      "start": 23.92,
+      "end": 24.66,
+      "word": " because",
+      "probability": 0.3946179151535034
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.3,
+      "end": 6.72,
+      "text": "Your phone can find you without mobile signal or internet. The map may need data. GPS itself does not.",
+      "avg_logprob": -0.17152207776904105,
+      "no_speech_prob": 0.0009330107714049518,
+      "words": [
+        {
+          "start": 0.3,
+          "end": 0.84,
+          "word": " Your",
+          "probability": 0.7089703679084778
+        },
+        {
+          "start": 0.84,
+          "end": 1.08,
+          "word": " phone",
+          "probability": 0.9934237003326416
+        },
+        {
+          "start": 1.08,
+          "end": 1.26,
+          "word": " can",
+          "probability": 0.8448567390441895
+        },
+        {
+          "start": 1.26,
+          "end": 1.5,
+          "word": " find",
+          "probability": 0.9919468760490417
+        },
+        {
+          "start": 1.5,
+          "end": 1.64,
+          "word": " you",
+          "probability": 0.9978848099708557
+        },
+        {
+          "start": 1.64,
+          "end": 1.92,
+          "word": " without",
+          "probability": 0.9945307374000549
+        },
+        {
+          "start": 1.92,
+          "end": 2.2,
+          "word": " mobile",
+          "probability": 0.9356752038002014
+        },
+        {
+          "start": 2.2,
+          "end": 2.58,
+          "word": " signal",
+          "probability": 0.9881730675697327
+        },
+        {
+          "start": 2.58,
+          "end": 2.9,
+          "word": " or",
+          "probability": 0.9668233394622803
+        },
+        {
+          "start": 2.9,
+          "end": 3.28,
+          "word": " internet.",
+          "probability": 0.7792568206787109
+        },
+        {
+          "start": 3.76,
+          "end": 3.84,
+          "word": " The",
+          "probability": 0.9615275859832764
+        },
+        {
+          "start": 3.84,
+          "end": 4.0,
+          "word": " map",
+          "probability": 0.981077253818512
+        },
+        {
+          "start": 4.0,
+          "end": 4.22,
+          "word": " may",
+          "probability": 0.9962612986564636
+        },
+        {
+          "start": 4.22,
+          "end": 4.42,
+          "word": " need",
+          "probability": 0.9985639452934265
+        },
+        {
+          "start": 4.42,
+          "end": 4.78,
+          "word": " data.",
+          "probability": 0.9957380294799805
+        },
+        {
+          "start": 5.34,
+          "end": 5.6,
+          "word": " GPS",
+          "probability": 0.9971603155136108
+        },
+        {
+          "start": 5.6,
+          "end": 6.12,
+          "word": " itself",
+          "probability": 0.9885329008102417
+        },
+        {
+          "start": 6.12,
+          "end": 6.38,
+          "word": " does",
+          "probability": 0.989819347858429
+        },
+        {
+          "start": 6.38,
+          "end": 6.72,
+          "word": " not.",
+          "probability": 0.9971143007278442
+        }
+      ]
+    },
+    {
+      "start": 7.5,
+      "end": 13.74,
+      "text": "GPS satellites orbit about 20,000 kilometers above Earth. Each one carries an extremely accurate atomic clock.",
+      "avg_logprob": -0.17152207776904105,
+      "no_speech_prob": 0.0009330107714049518,
+      "words": [
+        {
+          "start": 7.5,
+          "end": 7.88,
+          "word": " GPS",
+          "probability": 0.9971231818199158
+        },
+        {
+          "start": 7.88,
+          "end": 8.38,
+          "word": " satellites",
+          "probability": 0.9885886907577515
+        },
+        {
+          "start": 8.38,
+          "end": 8.7,
+          "word": " orbit",
+          "probability": 0.9978803396224976
+        },
+        {
+          "start": 8.7,
+          "end": 8.98,
+          "word": " about",
+          "probability": 0.9963188171386719
+        },
+        {
+          "start": 8.98,
+          "end": 9.28,
+          "word": " 20",
+          "probability": 0.9372096061706543
+        },
+        {
+          "start": 9.28,
+          "end": 9.7,
+          "word": ",000",
+          "probability": 0.9557340741157532
+        },
+        {
+          "start": 9.7,
+          "end": 10.08,
+          "word": " kilometers",
+          "probability": 0.7148205637931824
+        },
+        {
+          "start": 10.08,
+          "end": 10.44,
+          "word": " above",
+          "probability": 0.9988124370574951
+        },
+        {
+          "start": 10.44,
+          "end": 10.74,
+          "word": " Earth.",
+          "probability": 0.734696090221405
+        },
+        {
+          "start": 11.22,
+          "end": 11.36,
+          "word": " Each",
+          "probability": 0.9917451739311218
+        },
+        {
+          "start": 11.36,
+          "end": 11.62,
+          "word": " one",
+          "probability": 0.9983730316162109
+        },
+        {
+          "start": 11.62,
+          "end": 11.88,
+          "word": " carries",
+          "probability": 0.9983951449394226
+        },
+        {
+          "start": 11.88,
+          "end": 12.06,
+          "word": " an",
+          "probability": 0.9952357411384583
+        },
+        {
+          "start": 12.06,
+          "end": 12.44,
+          "word": " extremely",
+          "probability": 0.9992867112159729
+        },
+        {
+          "start": 12.44,
+          "end": 12.98,
+          "word": " accurate",
+          "probability": 0.9972075819969177
+        },
+        {
+          "start": 12.98,
+          "end": 13.4,
+          "word": " atomic",
+          "probability": 0.9949188828468323
+        },
+        {
+          "start": 13.4,
+          "end": 13.74,
+          "word": " clock.",
+          "probability": 0.9989632368087769
+        }
+      ]
+    },
+    {
+      "start": 14.46,
+      "end": 18.56,
+      "text": "Every satellite broadcasts its position and the exact time its signal was sent.",
+      "avg_logprob": -0.17152207776904105,
+      "no_speech_prob": 0.0009330107714049518,
+      "words": [
+        {
+          "start": 14.46,
+          "end": 14.68,
+          "word": " Every",
+          "probability": 0.9948462247848511
+        },
+        {
+          "start": 14.68,
+          "end": 15.1,
+          "word": " satellite",
+          "probability": 0.9991580247879028
+        },
+        {
+          "start": 15.1,
+          "end": 15.5,
+          "word": " broadcasts",
+          "probability": 0.9927482008934021
+        },
+        {
+          "start": 15.5,
+          "end": 15.84,
+          "word": " its",
+          "probability": 0.9893191456794739
+        },
+        {
+          "start": 15.84,
+          "end": 16.26,
+          "word": " position",
+          "probability": 0.9979336261749268
+        },
+        {
+          "start": 16.26,
+          "end": 16.9,
+          "word": " and",
+          "probability": 0.567364513874054
+        },
+        {
+          "start": 16.9,
+          "end": 17.02,
+          "word": " the",
+          "probability": 0.9956205487251282
+        },
+        {
+          "start": 17.02,
+          "end": 17.34,
+          "word": " exact",
+          "probability": 0.9993404746055603
+        },
+        {
+          "start": 17.34,
+          "end": 17.6,
+          "word": " time",
+          "probability": 0.9991807341575623
+        },
+        {
+          "start": 17.6,
+          "end": 17.8,
+          "word": " its",
+          "probability": 0.9524174332618713
+        },
+        {
+          "start": 17.8,
+          "end": 18.08,
+          "word": " signal",
+          "probability": 0.9991723299026489
+        },
+        {
+          "start": 18.08,
+          "end": 18.24,
+          "word": " was",
+          "probability": 0.9979099631309509
+        },
+        {
+          "start": 18.24,
+          "end": 18.56,
+          "word": " sent.",
+          "probability": 0.9984748959541321
+        }
+      ]
+    },
+    {
+      "start": 19.12,
+      "end": 26.56,
+      "text": "Your phone measures how long that signal took to arrive. The timing must be astonishingly precise because radio waves travel at the speed of light.",
+      "avg_logprob": -0.17152207776904105,
+      "no_speech_prob": 0.0009330107714049518,
+      "words": [
+        {
+          "start": 19.12,
+          "end": 19.34,
+          "word": " Your",
+          "probability": 0.9933648109436035
+        },
+        {
+          "start": 19.34,
+          "end": 19.58,
+          "word": " phone",
+          "probability": 0.9994673132896423
+        },
+        {
+          "start": 19.58,
+          "end": 19.92,
+          "word": " measures",
+          "probability": 0.9974282383918762
+        },
+        {
+          "start": 19.92,
+          "end": 20.16,
+          "word": " how",
+          "probability": 0.9974971413612366
+        },
+        {
+          "start": 20.16,
+          "end": 20.36,
+          "word": " long",
+          "probability": 0.9996234178543091
+        },
+        {
+          "start": 20.36,
+          "end": 20.56,
+          "word": " that",
+          "probability": 0.9980594515800476
+        },
+        {
+          "start": 20.56,
+          "end": 20.86,
+          "word": " signal",
+          "probability": 0.9980407357215881
+        },
+        {
+          "start": 20.86,
+          "end": 21.1,
+          "word": " took",
+          "probability": 0.9994539618492126
+        },
+        {
+          "start": 21.1,
+          "end": 21.28,
+          "word": " to",
+          "probability": 0.9994418025016785
+        },
+        {
+          "start": 21.28,
+          "end": 21.62,
+          "word": " arrive.",
+          "probability": 0.9986876845359802
+        },
+        {
+          "start": 22.06,
+          "end": 22.18,
+          "word": " The",
+          "probability": 0.9921448826789856
+        },
+        {
+          "start": 22.18,
+          "end": 22.44,
+          "word": " timing",
+          "probability": 0.9980987906455994
+        },
+        {
+          "start": 22.44,
+          "end": 22.68,
+          "word": " must",
+          "probability": 0.9993090629577637
+        },
+        {
+          "start": 22.68,
+          "end": 22.86,
+          "word": " be",
+          "probability": 0.9995442032814026
+        },
+        {
+          "start": 22.86,
+          "end": 23.58,
+          "word": " astonishingly",
+          "probability": 0.996842622756958
+        },
+        {
+          "start": 23.58,
+          "end": 23.92,
+          "word": " precise",
+          "probability": 0.9974416494369507
+        },
+        {
+          "start": 23.92,
+          "end": 24.66,
+          "word": " because",
+          "probability": 0.3946179151535034
+        },
+        {
+          "start": 24.66,
+          "end": 25.02,
+          "word": " radio",
+          "probability": 0.9956564903259277
+        },
+        {
+          "start": 25.02,
+          "end": 25.3,
+          "word": " waves",
+          "probability": 0.9958853125572205
+        },
+        {
+          "start": 25.3,
+          "end": 25.58,
+          "word": " travel",
+          "probability": 0.9990406632423401
+        },
+        {
+          "start": 25.58,
+          "end": 25.8,
+          "word": " at",
+          "probability": 0.9985669255256653
+        },
+        {
+          "start": 25.8,
+          "end": 25.92,
+          "word": " the",
+          "probability": 0.9989120960235596
+        },
+        {
+          "start": 25.92,
+          "end": 26.16,
+          "word": " speed",
+          "probability": 0.999302864074707
+        },
+        {
+          "start": 26.16,
+          "end": 26.28,
+          "word": " of",
+          "probability": 0.9994885921478271
+        },
+        {
+          "start": 26.28,
+          "end": 26.56,
+          "word": " light.",
+          "probability": 0.9974778294563293
+        }
+      ]
+    },
+    {
+      "start": 27.14,
+      "end": 28.02,
+      "text": "Delay becomes distance.",
+      "avg_logprob": -0.17152207776904105,
+      "no_speech_prob": 0.0009330107714049518,
+      "words": [
+        {
+          "start": 27.14,
+          "end": 27.14,
+          "word": " Delay",
+          "probability": 0.9583892822265625
+        },
+        {
+          "start": 27.14,
+          "end": 27.56,
+          "word": " becomes",
+          "probability": 0.994403064250946
+        },
+        {
+          "start": 27.56,
+          "end": 28.02,
+          "word": " distance.",
+          "probability": 0.9928712248802185
+        }
+      ]
+    },
+    {
+      "start": 28.02,
+      "end": 32.78,
+      "text": "One satellite gives a distance, not a fix. Three helps solve your position.",
+      "avg_logprob": -0.12326479021539079,
+      "no_speech_prob": 0.009662766009569168,
+      "words": [
+        {
+          "start": 28.02,
+          "end": 29.06,
+          "word": " One",
+          "probability": 0.6938758492469788
+        },
+        {
+          "start": 29.06,
+          "end": 29.46,
+          "word": " satellite",
+          "probability": 0.9931849837303162
+        },
+        {
+          "start": 29.46,
+          "end": 29.74,
+          "word": " gives",
+          "probability": 0.9962064027786255
+        },
+        {
+          "start": 29.74,
+          "end": 29.92,
+          "word": " a",
+          "probability": 0.989663302898407
+        },
+        {
+          "start": 29.92,
+          "end": 30.3,
+          "word": " distance,",
+          "probability": 0.9781783223152161
+        },
+        {
+          "start": 30.58,
+          "end": 30.78,
+          "word": " not",
+          "probability": 0.9966567754745483
+        },
+        {
+          "start": 30.78,
+          "end": 30.92,
+          "word": " a",
+          "probability": 0.9969985485076904
+        },
+        {
+          "start": 30.92,
+          "end": 31.14,
+          "word": " fix.",
+          "probability": 0.9875363707542419
+        },
+        {
+          "start": 31.72,
+          "end": 31.82,
+          "word": " Three",
+          "probability": 0.9753870964050293
+        },
+        {
+          "start": 31.82,
+          "end": 32.06,
+          "word": " helps",
+          "probability": 0.9254361987113953
+        },
+        {
+          "start": 32.06,
+          "end": 32.28,
+          "word": " solve",
+          "probability": 0.8759777545928955
+        },
+        {
+          "start": 32.28,
+          "end": 32.42,
+          "word": " your",
+          "probability": 0.9983111619949341
+        },
+        {
+          "start": 32.42,
+          "end": 32.78,
+          "word": " position.",
+          "probability": 0.9970846772193909
+        }
+      ]
+    },
+    {
+      "start": 33.18,
+      "end": 37.48,
+      "text": "A fourth corrects your phone's clock. Without that correction, the position would be wrong.",
+      "avg_logprob": -0.12326479021539079,
+      "no_speech_prob": 0.009662766009569168,
+      "words": [
+        {
+          "start": 33.18,
+          "end": 33.36,
+          "word": " A",
+          "probability": 0.9908315539360046
+        },
+        {
+          "start": 33.36,
+          "end": 33.54,
+          "word": " fourth",
+          "probability": 0.9775317907333374
+        },
+        {
+          "start": 33.54,
+          "end": 34.02,
+          "word": " corrects",
+          "probability": 0.9881013333797455
+        },
+        {
+          "start": 34.02,
+          "end": 34.1,
+          "word": " your",
+          "probability": 0.9964985847473145
+        },
+        {
+          "start": 34.1,
+          "end": 34.4,
+          "word": " phone's",
+          "probability": 0.9769490957260132
+        },
+        {
+          "start": 34.4,
+          "end": 34.66,
+          "word": " clock.",
+          "probability": 0.9991512298583984
+        },
+        {
+          "start": 35.24,
+          "end": 35.44,
+          "word": " Without",
+          "probability": 0.9956226944923401
+        },
+        {
+          "start": 35.44,
+          "end": 35.66,
+          "word": " that",
+          "probability": 0.9975385665893555
+        },
+        {
+          "start": 35.66,
+          "end": 36.1,
+          "word": " correction,",
+          "probability": 0.99488765001297
+        },
+        {
+          "start": 36.42,
+          "end": 36.5,
+          "word": " the",
+          "probability": 0.9972230195999146
+        },
+        {
+          "start": 36.5,
+          "end": 36.82,
+          "word": " position",
+          "probability": 0.99533611536026
+        },
+        {
+          "start": 36.82,
+          "end": 37.04,
+          "word": " would",
+          "probability": 0.9992349147796631
+        },
+        {
+          "start": 37.04,
+          "end": 37.22,
+          "word": " be",
+          "probability": 0.9997574687004089
+        },
+        {
+          "start": 37.22,
+          "end": 37.48,
+          "word": " wrong.",
+          "probability": 0.9990170001983643
+        }
+      ]
+    },
+    {
+      "start": 38.38,
+      "end": 42.74,
+      "text": "Imagine invisible spheres around the satellites. Where the distances meet is your location.",
+      "avg_logprob": -0.12326479021539079,
+      "no_speech_prob": 0.009662766009569168,
+      "words": [
+        {
+          "start": 38.38,
+          "end": 38.58,
+          "word": " Imagine",
+          "probability": 0.993722140789032
+        },
+        {
+          "start": 38.58,
+          "end": 39.04,
+          "word": " invisible",
+          "probability": 0.9841229319572449
+        },
+        {
+          "start": 39.04,
+          "end": 39.5,
+          "word": " spheres",
+          "probability": 0.9974666833877563
+        },
+        {
+          "start": 39.5,
+          "end": 39.8,
+          "word": " around",
+          "probability": 0.9987346529960632
+        },
+        {
+          "start": 39.8,
+          "end": 39.98,
+          "word": " the",
+          "probability": 0.9986139535903931
+        },
+        {
+          "start": 39.98,
+          "end": 40.42,
+          "word": " satellites.",
+          "probability": 0.9910949468612671
+        },
+        {
+          "start": 41.04,
+          "end": 41.14,
+          "word": " Where",
+          "probability": 0.9923664927482605
+        },
+        {
+          "start": 41.14,
+          "end": 41.32,
+          "word": " the",
+          "probability": 0.9989223480224609
+        },
+        {
+          "start": 41.32,
+          "end": 41.66,
+          "word": " distances",
+          "probability": 0.9711625576019287
+        },
+        {
+          "start": 41.66,
+          "end": 42.0,
+          "word": " meet",
+          "probability": 0.9983194470405579
+        },
+        {
+          "start": 42.0,
+          "end": 42.14,
+          "word": " is",
+          "probability": 0.9976943135261536
+        },
+        {
+          "start": 42.14,
+          "end": 42.28,
+          "word": " your",
+          "probability": 0.9985301494598389
+        },
+        {
+          "start": 42.28,
+          "end": 42.74,
+          "word": " location.",
+          "probability": 0.9995279312133789
+        }
+      ]
+    },
+    {
+      "start": 43.36,
+      "end": 47.3,
+      "text": "That's trilateration. So GPS is a cosmic stopwatch.",
+      "avg_logprob": -0.12326479021539079,
+      "no_speech_prob": 0.009662766009569168,
+      "words": [
+        {
+          "start": 43.36,
+          "end": 43.6,
+          "word": " That's",
+          "probability": 0.9936791658401489
+        },
+        {
+          "start": 43.6,
+          "end": 44.46,
+          "word": " trilateration.",
+          "probability": 0.8718807697296143
+        },
+        {
+          "start": 45.34,
+          "end": 45.48,
+          "word": " So",
+          "probability": 0.9851218461990356
+        },
+        {
+          "start": 45.48,
+          "end": 45.86,
+          "word": " GPS",
+          "probability": 0.8951629996299744
+        },
+        {
+          "start": 45.86,
+          "end": 46.26,
+          "word": " is",
+          "probability": 0.9975845813751221
+        },
+        {
+          "start": 46.26,
+          "end": 46.44,
+          "word": " a",
+          "probability": 0.9989801049232483
+        },
+        {
+          "start": 46.44,
+          "end": 46.72,
+          "word": " cosmic",
+          "probability": 0.9671859741210938
+        },
+        {
+          "start": 46.72,
+          "end": 47.3,
+          "word": " stopwatch.",
+          "probability": 0.9951919913291931
+        }
+      ]
+    },
+    {
+      "start": 47.98,
+      "end": 51.96,
+      "text": "Satellites send the time. Your phone turns tiny delays into a dot on the map.",
+      "avg_logprob": -0.12326479021539079,
+      "no_speech_prob": 0.009662766009569168,
+      "words": [
+        {
+          "start": 47.98,
+          "end": 48.28,
+          "word": " Satellites",
+          "probability": 0.9758093158404032
+        },
+        {
+          "start": 48.28,
+          "end": 48.48,
+          "word": " send",
+          "probability": 0.9928185939788818
+        },
+        {
+          "start": 48.48,
+          "end": 48.6,
+          "word": " the",
+          "probability": 0.9991005659103394
+        },
+        {
+          "start": 48.6,
+          "end": 48.88,
+          "word": " time.",
+          "probability": 0.9994766116142273
+        },
+        {
+          "start": 49.38,
+          "end": 49.48,
+          "word": " Your",
+          "probability": 0.9962724447250366
+        },
+        {
+          "start": 49.48,
+          "end": 49.74,
+          "word": " phone",
+          "probability": 0.9988518953323364
+        },
+        {
+          "start": 49.74,
+          "end": 50.08,
+          "word": " turns",
+          "probability": 0.998428225517273
+        },
+        {
+          "start": 50.08,
+          "end": 50.44,
+          "word": " tiny",
+          "probability": 0.997738242149353
+        },
+        {
+          "start": 50.44,
+          "end": 50.78,
+          "word": " delays",
+          "probability": 0.9991211295127869
+        },
+        {
+          "start": 50.78,
+          "end": 51.06,
+          "word": " into",
+          "probability": 0.9976198077201843
+        },
+        {
+          "start": 51.06,
+          "end": 51.22,
+          "word": " a",
+          "probability": 0.9988570213317871
+        },
+        {
+          "start": 51.22,
+          "end": 51.42,
+          "word": " dot",
+          "probability": 0.992789089679718
+        },
+        {
+          "start": 51.42,
+          "end": 51.66,
+          "word": " on",
+          "probability": 0.9971954822540283
+        },
+        {
+          "start": 51.66,
+          "end": 51.74,
+          "word": " the",
+          "probability": 0.9988983869552612
+        },
+        {
+          "start": 51.74,
+          "end": 51.96,
+          "word": " map.",
+          "probability": 0.9981520771980286
+        }
+      ]
+    }
+  ]
+}
