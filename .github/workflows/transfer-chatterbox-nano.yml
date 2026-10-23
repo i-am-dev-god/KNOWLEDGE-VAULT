@@ -1,4 +1,4 @@
-name: Check Chatterbox Sample Transcript
+name: Check Chatterbox Narration Transcript
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install --quiet faster-whisper
-      - name: Transcribe Chatterbox sample
+      - name: Transcribe Chatterbox narration
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
@@ -39,14 +39,14 @@ jobs:
               'Authorization': f'Bearer {token}',
               'X-GitHub-Api-Version': '2022-11-28',
           }
-          blob_sha = 'ae74dc76e3c7ee22b0e2ba48e4f032763c26dfe4'
+          blob_sha = 'a9351d85bc9ce3455a7dc52475628ba0b1d78772'
           request = urllib.request.Request(
               f'https://api.github.com/repos/{repository}/git/blobs/{blob_sha}',
               headers=headers,
           )
           with urllib.request.urlopen(request, timeout=60) as response:
               blob = json.load(response)
-          audio_path = '/tmp/chatterbox-sample.wav'
+          audio_path = '/tmp/chatterbox-narration.wav'
           with open(audio_path, 'wb') as audio:
               audio.write(base64.b64decode(blob['content']))
 
@@ -83,12 +83,12 @@ jobs:
           }
           content = json.dumps(result, indent=2) + '\n'
           payload = json.dumps({
-              'message': 'Record Chatterbox sample transcript',
+              'message': 'Record Chatterbox narration transcript',
               'content': base64.b64encode(content.encode()).decode('ascii'),
               'branch': 'arena/3cceb7fa-knowledge-vault',
           }).encode()
           request = urllib.request.Request(
-              f'https://api.github.com/repos/{repository}/contents/.github/chatterbox-asr-sample.json',
+              f'https://api.github.com/repos/{repository}/contents/.github/chatterbox-asr-narration.json',
               data=payload,
               method='PUT',
               headers={**headers, 'Content-Type': 'application/json'},
