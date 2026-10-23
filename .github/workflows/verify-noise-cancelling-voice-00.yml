@@ -36,21 +36,9 @@ jobs:
           from faster_whisper import WhisperModel
 
           audio_path = 'media/voiceovers/noise-cancelling/narration.wav'
-          prompt = (
-              'Noise-cancelling headphones do not just block sound. '
-              'They erase part of it by adding more sound. '
-              'Sound travels through air as pressure waves, with peaks and troughs. '
-              'A tiny microphone on the outside listens to the noise around you. '
-              'Inside, the electronics create a copy of that noise. '
-              'But the copy is flipped: every peak becomes a trough. '
-              'The speaker plays this anti-noise at exactly the right moment. '
-              'When both waves reach your ear, their opposing pressures largely cancel. '
-              'This is called destructive interference. '
-              'It works best on steady, low sounds, like an engine\'s hum. '
-              'Sudden sounds are harder to predict, so some noise still gets through. '
-              'So silence is not always less sound. '
-              'Sometimes, it is a carefully timed copy, played in reverse.'
-          )
+          # A short domain prompt avoids the model treating the full script as
+          # already-transcribed context and skipping directly to its ending.
+          prompt = 'Noise-cancelling headphones. Anti-noise. Destructive interference.'
           model = WhisperModel('medium.en', device='cpu', compute_type='int8')
           segments_iter, info = model.transcribe(
               audio_path, language='en', beam_size=5, vad_filter=False,
