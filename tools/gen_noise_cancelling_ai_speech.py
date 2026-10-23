@@ -210,7 +210,13 @@ def align() -> None:
     expected_flat = []
     for index, segment in enumerate(LINES):
         expected_flat.extend((index, token) for token in normalize_tokens(segment["text"]))
-    words = [word for segment in result["segments"] for word in segment.get("words", [])]
+    all_words = [word for segment in result["segments"] for word in segment.get("words", [])]
+    # Whisper can hallucinate polite closings in the long digital-silence tail.
+    # The master has a measured non-silent endpoint; tokens beginning after it
+    # cannot belong to the narration and are excluded before exact comparison.
+    speech_end = float(metadata["paced_speech_end_seconds"])
+    words = [word for word in all_words if float(word["start"]) < speech_end]
+    ignored_tail_words = [word for word in all_words if float(word["start"]) >= speech_end]
     asr_alignment = [(token, word) for word in words for token in normalize_tokens(word["word"])]
     asr_tokens = [token for token, _ in asr_alignment]
     expected_tokens = [token for _, token in expected_flat]
@@ -277,6 +283,7 @@ def align() -> None:
             "alignment": f"{result['engine']} {result['model']} word timestamps on the exact paced narration master",
             "normalized_script_match": True,
             "mean_word_probability": result["mean_word_probability"],
+            "asr_tail_filter": f"Excluded {len(ignored_tail_words)} ASR tokens beginning in digital silence at or after {speech_end:.6f}s",
         },
         "pacing": "Calmer explainer edit; source narration is never sped up; no caption progress line",
         "voiceEnd": voice_end,

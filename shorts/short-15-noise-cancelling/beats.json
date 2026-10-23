@@ -1,0 +1,191 @@
+{
+  "id": "short-15-noise-cancelling",
+  "title": "How Noise-Cancelling Headphones Erase Sound",
+  "composition": "Short15NoiseCancelling",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 60.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-15-noise-cancelling/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "ad01442d5314ccf2ac60532433c2b8f2831238b389f59541d6f674cedab24294",
+    "raw_duration_seconds": 47.92,
+    "trimmed_duration_seconds": 47.536083,
+    "tempo_rate": 0.928439128,
+    "requested_tempo_rate": 0.928439128,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than the source take",
+    "initial_silence_seconds": 0.8,
+    "narration_file": "media/voiceovers/noise-cancelling/narration.wav",
+    "narration_sha256": "a6ecc375a716fadb73dd9401af26281cfab2458b4b398b779ba253deb315e1de",
+    "narration_duration_seconds": 60.0,
+    "paced_speech_end_seconds": 51.992937,
+    "script_sha256": "faf235d89284ff86a2749feee9d828794445be15d7a74805e5e22967d1856fa3",
+    "spoken_words": 126,
+    "alignment": "faster-whisper medium.en word timestamps on the exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9654538560741155,
+    "asr_tail_filter": "Excluded 2 ASR tokens beginning in digital silence at or after 51.992937s"
+  },
+  "pacing": "Calmer explainer edit; source narration is never sped up; no caption progress line",
+  "voiceEnd": 51.64,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Silence, made with sound",
+      "start": 0.0,
+      "end": 7.33
+    },
+    {
+      "id": "waves",
+      "title": "Sound is pressure",
+      "start": 7.33,
+      "end": 12.25
+    },
+    {
+      "id": "listen",
+      "title": "First, listen",
+      "start": 12.25,
+      "end": 20.17
+    },
+    {
+      "id": "invert",
+      "title": "Make the opposite",
+      "start": 20.17,
+      "end": 28.43
+    },
+    {
+      "id": "cancel",
+      "title": "Opposites cancel",
+      "start": 28.43,
+      "end": 36.35
+    },
+    {
+      "id": "limits",
+      "title": "Best with steady noise",
+      "start": 36.35,
+      "end": 44.77
+    },
+    {
+      "id": "closing",
+      "title": "Quiet, by design",
+      "start": 44.77,
+      "end": 60.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-block",
+      "scene": "hook",
+      "text": "Noise-cancelling headphones do not just block sound.",
+      "speak": "Noise-cancelling headphones do not just block sound.",
+      "start": 0.8,
+      "end": 3.84,
+      "duration": 3.04
+    },
+    {
+      "id": "hook-add",
+      "scene": "hook",
+      "text": "They erase part of it by adding more sound.",
+      "speak": "They erase part of it by adding more sound.",
+      "start": 4.32,
+      "end": 7.2,
+      "duration": 2.88
+    },
+    {
+      "id": "waves-pressure",
+      "scene": "waves",
+      "text": "Sound travels through air as pressure waves, with peaks and troughs.",
+      "speak": "Sound travels through air as pressure waves, with peaks and troughs.",
+      "start": 7.88,
+      "end": 12.5,
+      "duration": 4.62
+    },
+    {
+      "id": "listen-microphone",
+      "scene": "listen",
+      "text": "A tiny microphone on the outside listens to the noise around you.",
+      "speak": "A tiny microphone on the outside listens to the noise around you.",
+      "start": 12.8,
+      "end": 16.76,
+      "duration": 3.96
+    },
+    {
+      "id": "listen-copy",
+      "scene": "listen",
+      "text": "Inside, the electronics create a copy of that noise.",
+      "speak": "Inside, the electronics create a copy of that noise.",
+      "start": 17.26,
+      "end": 20.54,
+      "duration": 3.28
+    },
+    {
+      "id": "invert-flip",
+      "scene": "invert",
+      "text": "But the copy is flipped: every peak becomes a trough.",
+      "speak": "But the copy is flipped: every peak becomes a trough.",
+      "start": 20.72,
+      "end": 24.44,
+      "duration": 3.72
+    },
+    {
+      "id": "invert-play",
+      "scene": "invert",
+      "text": "The speaker plays this anti-noise at exactly the right moment.",
+      "speak": "The speaker plays this anti-noise at exactly the right moment.",
+      "start": 25.24,
+      "end": 28.98,
+      "duration": 3.74
+    },
+    {
+      "id": "cancel-meet",
+      "scene": "cancel",
+      "text": "When both waves reach your ear, their opposing pressures largely cancel.",
+      "speak": "When both waves reach your ear, their opposing pressures largely cancel.",
+      "start": 28.98,
+      "end": 33.68,
+      "duration": 4.7
+    },
+    {
+      "id": "cancel-name",
+      "scene": "cancel",
+      "text": "This is called destructive interference.",
+      "speak": "This is called destructive interference.",
+      "start": 34.28,
+      "end": 36.22,
+      "duration": 1.94
+    },
+    {
+      "id": "limits-steady",
+      "scene": "limits",
+      "text": "It works best on steady, low sounds, like an engine's hum.",
+      "speak": "It works best on steady, low sounds, like an engine's hum.",
+      "start": 36.9,
+      "end": 40.42,
+      "duration": 3.52
+    },
+    {
+      "id": "limits-sudden",
+      "scene": "limits",
+      "text": "Sudden sounds are harder to predict, so some noise still gets through.",
+      "speak": "Sudden sounds are harder to predict, so some noise still gets through.",
+      "start": 41.08,
+      "end": 44.7,
+      "duration": 3.62
+    },
+    {
+      "id": "closing-reverse",
+      "scene": "closing",
+      "text": "So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
+      "speak": "So silence is not always less sound. Sometimes, it is a carefully timed copy, played in reverse.",
+      "start": 45.32,
+      "end": 51.64,
+      "duration": 6.32
+    }
+  ]
+}
