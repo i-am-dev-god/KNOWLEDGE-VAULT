@@ -122,7 +122,8 @@ def master_one(project: dict) -> dict:
         "-ar", "48000", "-ac", "1", "-c:a", "pcm_s16le", str(paths["trimmed"]),
     ])
     trimmed_duration = audio_duration(paths["trimmed"])
-    requested_rate = trimmed_duration / (DEFAULTS["target_voice_end_s"] - DEFAULTS["initial_silence_s"])
+    target_voice_end = float(project.get("target_voice_end_s", DEFAULTS["target_voice_end_s"]))
+    requested_rate = trimmed_duration / (target_voice_end - DEFAULTS["initial_silence_s"])
     tempo_rate = min(1.0, requested_rate)
     if not 0.84 <= tempo_rate <= 1.0:
         raise SystemExit(f"Pacing would be unnatural for {project['id']}: {tempo_rate:.4f}x")
@@ -155,6 +156,7 @@ def master_one(project: dict) -> dict:
         "requested_tempo_rate": round(requested_rate, 9),
         "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
         "initial_silence_seconds": DEFAULTS["initial_silence_s"],
+        "target_voice_end_seconds": target_voice_end,
         "narration_file": str(paths["narration"].relative_to(ROOT)),
         "narration_sha256": sha256(paths["narration"]),
         "narration_duration_seconds": audio_duration(paths["narration"]),
@@ -270,12 +272,12 @@ def align_one(project: dict) -> None:
             "composition": f"remotion/out/{project['composition']}.mp4",
             "out": f"RESULT/{project['result']}", "end_s": duration_s,
         },
-        "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+        "note": f"{len(cues)} restrained cues aligned to one continuous user-selected voice-00 narration take.",
         "events": cues,
     }
     (paths["short_root"] / "sfx-plan.json").write_text(json.dumps(new_plan, indent=2) + "\n")
     write_ts_module(project, timed, scenes, cues)
-    print(f"{project['id']}: 10 captions, 5 scenes, 6 cues; voice end={voice_end:.3f}s; tempo={metadata['tempo_rate']:.6f}x")
+    print(f"{project['id']}: {len(timed)} captions, {len(scenes)} scenes, {len(cues)} cues; voice end={voice_end:.3f}s; tempo={metadata['tempo_rate']:.6f}x")
 
 
 def main() -> None:
