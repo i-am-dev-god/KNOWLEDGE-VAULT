@@ -278,7 +278,7 @@
       "composition": "Short23LithiumBattery",
       "result": "how-a-lithium-battery-powers-your-phone.mp4",
       "duration_s": 52.0,
-      "target_voice_end_s": 45.0,
+      "target_voice_end_s": 44.0,
       "prompt": "Lithium ion battery. Negative electrode. Positive electrode. Electrolyte. Separator. Electrons. Charger.",
       "music": "ambient-pad",
       "lines": [
@@ -330,7 +330,7 @@
         {
           "id": "closing-summary",
           "scene": "closing",
-          "text": "A battery is a controlled shuttle: ions inside, electrons outside."
+          "text": "A battery controls this shuttle: ions inside, electrons outside."
         }
       ],
       "scenes": [
