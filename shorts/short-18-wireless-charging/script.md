@@ -4,72 +4,90 @@
 
 **Format:** 1080 × 1920, 30 fps, 45 seconds
 
-**Production:** Original code-drawn vector animation, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, ducked ambient music, and restrained sound design
+**Production:** Demonstration-led original animation, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, ducked instrumental music, and restrained sound design
 
-## Narration and storyboard
+## Timed narration and matching demonstrations
 
-### 1. Power without a plug
-> Wireless charging needs no metal plug between the pad and your phone.
+### 1. Drive one coil · 0.00–7.20s
+
+> Inside the pad, alternating current flows through this coil.
+> *0.70–4.46s*
 >
-> It passes energy through a magnetic field.
+> Watch the current reverse direction.
+> *5.22–7.02s*
 
-**Picture:** A phone and charging pad are linked by gentle magnetic-field arcs, with no metal connector between them.
+**Picture:** One pad coil is shown alone. Current arrows reverse while an alternating waveform makes the direction change explicit.
 
-### 2. The changing field
-> Inside the pad, alternating current flows through a coil.
+### 2. Make a changing field · 7.20–11.42s
+
+> That makes the magnetic field expand and collapse.
+> *7.70–10.92s*
+
+**Picture:** Magnetic loops expand and collapse around the same driven coil; no receiver is introduced yet.
+
+### 3. Induce a voltage · 11.42–22.62s
+
+> Now place a second coil inside that changing field.
+> *11.92–15.12s*
 >
-> That current makes the magnetic field rise and fall.
-
-**Picture:** An alternating-current waveform drives the transmitter coil; the surrounding field strengthens as the current changes.
-
-### 3. A voltage is induced
-> A second coil inside your phone sits within that field.
+> The field induces a voltage in the second coil.
+> *15.72–18.68s*
 >
-> The changing magnetism induces a voltage in this coil.
+> The coils do not touch. They are magnetically linked.
+> *19.34–22.36s*
+
+**Picture:** A second coil enters the changing field, an induced-voltage readout appears, and a no-contact bracket identifies the magnetic link.
+
+### 4. Prepare battery power · 22.62–26.02s
+
+> The phone then rectifies and regulates that power for its battery.
+> *23.12–26.52s*
+
+**Picture:** The receiver feeds one combined RECTIFY + REGULATE stage and then the battery; the alternating waveform becomes controlled DC.
+
+### 5. Change the coupling · 26.02–34.56s
+
+> Move the coils apart or off-center.
+> *26.52–29.48s*
 >
-> The phone turns that induced power into a form its battery can use.
+> Less of the field links them, so the transfer weakens and wastes energy.
+> *30.20–34.00s*
 
-**Picture:** The receiver coil enters the changing field, then a battery indicator appears inside the phone to show usable induced power.
+**Picture:** The receiver moves off-center and away. Fewer shared field lines remain, and the transfer weakens.
 
-### 4. Close and aligned
-> The coils work best when they are close and aligned.
->
-> Distance and misalignment weaken the link and waste energy.
+### 6. Two coils, one transfer · 34.56–45.00s
 
-**Picture:** Side-by-side aligned and offset coils compare a strong link with a weaker one; no claim of lossless charging is made.
+> Wireless charging is energy crossing a changing magnetic field between two coils.
+> *35.06–39.78s*
 
-### 5. Two coils, one link
-> So the cable disappears, but a pair of coils still makes the connection.
-
-**Picture:** Transmitter and receiver coils resolve into `NO CABLE. STILL LINKED.` with a calm outro and no engagement CTA.
+**Picture:** The two coils and the changing magnetic field remain together as the complete transfer is summarized.
 
 ## Selected-voice production record
 
-- **Narrator:** The user-selected built-in `voice-00`, used exclusively for the complete script in one continuous take. No alternate voice, section switching, third-party voice cloning, or reference conditioning is used.
-- **Source take:** 24 kHz mono, 36.24 seconds; SHA-256 `0f4da600a521cbb920406b56ba5b006abe4dde11cddb8767942eef1801e771d0`.
-- **Calmer pacing:** The source is never sped up. It is uniformly slowed to `0.921124356×` with FFmpeg's pitch-preserving WSOLA `atempo`.
-- **Master narration:** 48 kHz mono PCM WAV in a 45-second timeline with 0.7 seconds of initial silence. Measured paced speech ends at 39.483229 seconds. Master SHA-256: `173a05e3150e8f76cb8713ce42e1bb0bd6cf0fc4a0901e53d2a7467022b9a638`.
-- **Synchronization:** Caption, scene, and sound-cue timings are generated only after `faster-whisper medium.en` word timestamps match the complete normalized script. Mean raw ASR word confidence is 97.50%.
-- **Caption treatment:** Ten complete static clauses fade in and out. There is no moving underline, progress bar, per-caption timer, or word-pop animation beneath the subtitles.
+- **Narrator:** The user-selected `voice-00`, used exclusively for the complete script in one continuous take. No alternate voice, section switching, third-party cloning, or reference conditioning is used.
+- **Source take:** 24 kHz mono, 37.20 seconds; SHA-256 `7bd80c6ab8a9098e2bd3a438e4dd08ec303ac0b8f2f466492fb8bb535dd32e81`.
+- **Calmer pacing:** Playback is slowed gently to `0.937254029×` with pitch preserved; never sped up. Pitch-preserving FFmpeg WSOLA `atempo` is used whenever slowing is required.
+- **Master narration:** 48 kHz mono PCM WAV in a 45-second timeline with 0.7 seconds of initial silence. Measured paced speech ends at 39.984896 seconds. Master SHA-256: `8364ddc5136c03f76a959cb8f152b4612b1da57a138bfc5a2bb566c20138e91b`.
+- **Synchronization:** `faster-whisper medium.en` word timestamps on the exact master match the complete normalized script. Mean raw ASR word confidence is 98.57%.
+- **Caption treatment:** 10 complete clauses fade in and out. There is no moving underline, progress bar, per-caption timer, or word-pop animation.
 
-## Sound and accessibility
+## Sound and provenance
 
-- Original SVG/CSS artwork created for this topic; no GPS, ANC, aquatic-life, stock-footage, or third-party logo material is reused.
-- `ambient-pad` instrumental bed with no drums or driving pulse, ducked beneath narration and gently released after the final line.
-- Six quiet library cues support only meaningful transitions and reveals; their existing catalog provenance is retained.
-- Final QA covers full decode, all 1,350 frames, stream formats, duration, integrated loudness, true peak, silence, delivered-audio/narration offset, and actual-MP4 visual review.
+- Original code-drawn SVG/CSS artwork created for this topic; no GPS, ANC, aquatic-life, stock-footage, or third-party logo material is reused.
+- `ambient-pad` instrumental bed, ducked beneath narration and gently released after the final line; 5 quiet catalog cues support meaningful reveals only.
+- Existing music and sound-effect catalog provenance is retained. No external raster assets are used.
 
 ## Final master and QA
 
-- **GitHub deliverable:** `RESULT/how-wireless-charging-works.mp4`. The production copy at `output/how-wireless-charging-works.mp4` is byte-identical and remains ignored by Git.
+- **GitHub deliverable:** `RESULT/how-wireless-charging-works.mp4`. The production copy is byte-identical and remains ignored by Git.
 - **Picture:** H.264 High, 1080 × 1920, 30 fps, exactly 1,350 decoded frames; full-stream decode passed.
-- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. Final mastering applied a measured 48 ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, and two-pass loudness normalization (`I=-16`, `TP=-1.5`, `LRA=11`) while copying the H.264 stream without re-encoding it.
-- **Measured audio:** −16.19 LUFS integrated, 7.5 LU loudness range, −1.38 dBFS true peak. No silence of at least two seconds below −45 dB was detected.
-- **Delivered synchronization:** Cross-correlation against the exact narration WAV measured 0 ms offset, within the 12 ms acceptance limit; normalized mix correlation 0.36171.
-- **Container duration:** 45.10 seconds (45.00 seconds of video plus AAC padding).
-- **Size:** 7,550,235 bytes.
-- **SHA-256:** `9656eaf91dfee2d4ed94a87b0ad72f2b9bf346dee377d4a87af2f4418ce6ba63`.
-- **MD5:** `322898b96ad67d7e62fb6ca108b85540`.
-- **Timing:** Ten caption segments, five scenes, and six sound cues use the verified `voice-00` alignment. ASR caption end is 39.30 seconds; measured speech ends at 39.483229 seconds.
-- **Visual review:** Every caption midpoint and the final outro were extracted from the delivered MP4 and reviewed. Captions are legible, diagrams remain inside the safe area, no moving caption line is present, and TypeScript validation passes with `npx tsc --noEmit`.
-- **Existing versions:** The GPS and ANC videos in `RESULT/` and all existing Drive deliverables remain unchanged.
+- **Sound:** AAC-LC, 48 kHz stereo, 192 kb/s target. Final mastering applied a measured 48 ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, and two-pass loudness normalization while copying the H.264 stream without re-encoding it.
+- **Measured audio:** -16.19 LUFS integrated, 9.7 LU loudness range, -1.33 dBTP true peak. No silence of at least two seconds below −45 dB was detected.
+- **Delivered synchronization:** Narration offset 0 ms, within the 12 ms acceptance limit; normalized mix correlation 0.35510.
+- **Timing:** 10 captions, 6 scenes, and 5 cues use the verified `voice-00` alignment. ASR caption end is 39.78 seconds; measured speech ends at 39.984896 seconds.
+- **Container duration:** 45.100 seconds (45.00 seconds of video plus AAC padding).
+- **Size:** 7,256,912 bytes.
+- **SHA-256:** `c3ceecb903eb86ad8982210e1420e023d124e4e0e16fb5ec04f388896e7f537e`.
+- **MD5:** `a86726af8a68da080353c4473d910113`.
+- **Visual review:** Passed on the actual delivered MP4 at every narration-clause onset and midpoint plus the outro (21 ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.
+- **Existing versions:** GPS and ANC hashes are verified unchanged, and existing Drive deliverables are left untouched.
