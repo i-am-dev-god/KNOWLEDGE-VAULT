@@ -2,640 +2,590 @@
   "engine": "faster-whisper",
   "model": "medium.en",
   "voice_id": "voice-00",
-  "audio_sha256": "e3430c4192ff7ffb8c9384967fa41cff7b4cca80e459f6c4a4bb674d0e9a2458",
+  "audio_sha256": "4decae645a3931cb26127d217a1f7ee811db39ed8b9f629eab532dcea74c1ea5",
   "language": "en",
   "language_probability": 1,
-  "text": "Your touchscreen does not need to feel pressure from your finger. It senses a tiny change in an electric field. Under the glass sits a grid of transparent electrodes. A small electrical signal moves through them. Your finger conducts a little charge and disturbs the field nearby. The controller measures which rows and columns change. Their crossing point becomes your touch. That is why a normal glove blocks the signal. A conductive glove works because it lets the field reach your skin, so the glass is not just watching your finger, it is listening for a tiny electrical disturbance.",
-  "mean_word_probability": 0.983009180035254,
-  "low_confidence_words": [],
+  "text": "Touch this spot. How does the glass know where your finger landed? Beneath it, transparent electrodes cross in rows and columns. Each crossing holds a tiny electric field. Watch the center crossing. Your finger draws a little charge so this field changes. The other crossings stay nearly unchanged. The controller finds the changed row and column. Their intersection becomes the touch position. A normal glove stops this effect. Conductive thread lets it through, so the crossing responds again. That is how glass turns a changed electric field into a touch location.",
+  "mean_word_probability": 0.9808522688818502,
+  "low_confidence_words": [
+    {
+      "start": 17.3,
+      "end": 17.62,
+      "word": " so",
+      "probability": 0.47744250297546387
+    }
+  ],
   "segments": [
     {
       "start": 0.0,
-      "end": 28.84,
-      "text": "Your touchscreen does not need to feel pressure from your finger. It senses a tiny change in an electric field. Under the glass sits a grid of transparent electrodes. A small electrical signal moves through them. Your finger conducts a little charge and disturbs the field nearby. The controller measures which rows and columns change. Their crossing point becomes your touch. That is why a normal glove blocks the signal.",
-      "avg_logprob": -0.025607078899571926,
-      "no_speech_prob": 0.04148716479539871,
+      "end": 27.52,
+      "text": "Touch this spot. How does the glass know where your finger landed? Beneath it, transparent electrodes cross in rows and columns. Each crossing holds a tiny electric field. Watch the center crossing. Your finger draws a little charge so this field changes. The other crossings stay nearly unchanged. The controller finds the changed row and column. Their intersection becomes the touch position.",
+      "avg_logprob": -0.050023006154345226,
+      "no_speech_prob": 0.001180937048047781,
       "words": [
         {
           "start": 0.0,
-          "end": 0.98,
-          "word": " Your",
-          "probability": 0.7027262449264526
+          "end": 1.02,
+          "word": " Touch",
+          "probability": 0.8897337317466736
         },
         {
-          "start": 0.98,
-          "end": 1.56,
-          "word": " touchscreen",
-          "probability": 0.6784259080886841
+          "start": 1.02,
+          "end": 1.4,
+          "word": " this",
+          "probability": 0.9847684502601624
         },
         {
-          "start": 1.56,
-          "end": 1.86,
-          "word": " does",
-          "probability": 0.9911086559295654
-        },
-        {
-          "start": 1.86,
-          "end": 2.1,
-          "word": " not",
-          "probability": 0.9985822439193726
-        },
-        {
-          "start": 2.1,
-          "end": 2.28,
-          "word": " need",
-          "probability": 0.9956333041191101
-        },
-        {
-          "start": 2.28,
-          "end": 2.44,
-          "word": " to",
-          "probability": 0.9966874718666077
+          "start": 1.4,
+          "end": 1.8,
+          "word": " spot.",
+          "probability": 0.9972547888755798
         },
         {
           "start": 2.44,
-          "end": 2.62,
-          "word": " feel",
-          "probability": 0.9975111484527588
+          "end": 2.52,
+          "word": " How",
+          "probability": 0.9727171063423157
         },
         {
-          "start": 2.62,
-          "end": 3.14,
-          "word": " pressure",
-          "probability": 0.9958311915397644
+          "start": 2.52,
+          "end": 2.72,
+          "word": " does",
+          "probability": 0.9988911747932434
         },
         {
-          "start": 3.14,
-          "end": 3.44,
-          "word": " from",
-          "probability": 0.995276689529419
-        },
-        {
-          "start": 3.44,
-          "end": 3.6,
-          "word": " your",
-          "probability": 0.9971785545349121
-        },
-        {
-          "start": 3.6,
-          "end": 3.94,
-          "word": " finger.",
-          "probability": 0.9981092214584351
-        },
-        {
-          "start": 4.52,
-          "end": 4.6,
-          "word": " It",
-          "probability": 0.9541391134262085
-        },
-        {
-          "start": 4.6,
-          "end": 4.94,
-          "word": " senses",
-          "probability": 0.9966791868209839
-        },
-        {
-          "start": 4.94,
-          "end": 5.32,
-          "word": " a",
-          "probability": 0.9973809123039246
-        },
-        {
-          "start": 5.32,
-          "end": 5.66,
-          "word": " tiny",
-          "probability": 0.9985644221305847
-        },
-        {
-          "start": 5.66,
-          "end": 6.2,
-          "word": " change",
-          "probability": 0.998826801776886
-        },
-        {
-          "start": 6.2,
-          "end": 6.4,
-          "word": " in",
-          "probability": 0.9980353713035583
-        },
-        {
-          "start": 6.4,
-          "end": 6.58,
-          "word": " an",
-          "probability": 0.9948837161064148
-        },
-        {
-          "start": 6.58,
-          "end": 6.98,
-          "word": " electric",
-          "probability": 0.9959844350814819
-        },
-        {
-          "start": 6.98,
-          "end": 7.42,
-          "word": " field.",
-          "probability": 0.9995551705360413
-        },
-        {
-          "start": 8.14,
-          "end": 8.3,
-          "word": " Under",
-          "probability": 0.992931604385376
-        },
-        {
-          "start": 8.3,
-          "end": 8.5,
+          "start": 2.72,
+          "end": 2.88,
           "word": " the",
-          "probability": 0.998530387878418
+          "probability": 0.9907320141792297
         },
         {
-          "start": 8.5,
-          "end": 8.84,
+          "start": 2.88,
+          "end": 3.12,
           "word": " glass",
-          "probability": 0.9976918697357178
+          "probability": 0.9949266910552979
         },
         {
-          "start": 8.84,
-          "end": 9.16,
-          "word": " sits",
-          "probability": 0.9591317772865295
+          "start": 3.12,
+          "end": 3.48,
+          "word": " know",
+          "probability": 0.9958181977272034
         },
         {
-          "start": 9.16,
-          "end": 9.4,
-          "word": " a",
-          "probability": 0.9977931976318359
+          "start": 3.48,
+          "end": 3.86,
+          "word": " where",
+          "probability": 0.9933664202690125
         },
         {
-          "start": 9.4,
-          "end": 9.66,
-          "word": " grid",
-          "probability": 0.9990429282188416
+          "start": 3.86,
+          "end": 4.14,
+          "word": " your",
+          "probability": 0.992522656917572
         },
         {
-          "start": 9.66,
-          "end": 9.98,
-          "word": " of",
-          "probability": 0.9989416003227234
+          "start": 4.14,
+          "end": 4.42,
+          "word": " finger",
+          "probability": 0.9973468780517578
         },
         {
-          "start": 9.98,
-          "end": 10.64,
+          "start": 4.42,
+          "end": 4.78,
+          "word": " landed?",
+          "probability": 0.9986574649810791
+        },
+        {
+          "start": 5.64,
+          "end": 5.94,
+          "word": " Beneath",
+          "probability": 0.9899641871452332
+        },
+        {
+          "start": 5.94,
+          "end": 6.12,
+          "word": " it,",
+          "probability": 0.9970740079879761
+        },
+        {
+          "start": 6.36,
+          "end": 6.9,
           "word": " transparent",
-          "probability": 0.9984725117683411
+          "probability": 0.9878122210502625
         },
         {
-          "start": 10.64,
+          "start": 6.9,
+          "end": 7.6,
+          "word": " electrodes",
+          "probability": 0.9969834685325623
+        },
+        {
+          "start": 7.6,
+          "end": 8.04,
+          "word": " cross",
+          "probability": 0.9889256358146667
+        },
+        {
+          "start": 8.04,
+          "end": 8.38,
+          "word": " in",
+          "probability": 0.9981344938278198
+        },
+        {
+          "start": 8.38,
+          "end": 8.74,
+          "word": " rows",
+          "probability": 0.9985383749008179
+        },
+        {
+          "start": 8.74,
+          "end": 9.08,
+          "word": " and",
+          "probability": 0.9977124929428101
+        },
+        {
+          "start": 9.08,
+          "end": 9.5,
+          "word": " columns.",
+          "probability": 0.9971303343772888
+        },
+        {
+          "start": 10.2,
+          "end": 10.42,
+          "word": " Each",
+          "probability": 0.9941987991333008
+        },
+        {
+          "start": 10.42,
+          "end": 10.86,
+          "word": " crossing",
+          "probability": 0.9976750016212463
+        },
+        {
+          "start": 10.86,
           "end": 11.24,
-          "word": " electrodes.",
-          "probability": 0.998802900314331
+          "word": " holds",
+          "probability": 0.9970494508743286
         },
         {
-          "start": 11.86,
-          "end": 12.02,
-          "word": " A",
-          "probability": 0.9886291027069092
+          "start": 11.24,
+          "end": 11.56,
+          "word": " a",
+          "probability": 0.99811851978302
         },
         {
-          "start": 12.02,
+          "start": 11.56,
+          "end": 11.88,
+          "word": " tiny",
+          "probability": 0.9995530247688293
+        },
+        {
+          "start": 11.88,
           "end": 12.42,
-          "word": " small",
-          "probability": 0.9993724226951599
+          "word": " electric",
+          "probability": 0.9920834302902222
         },
         {
           "start": 12.42,
-          "end": 13.0,
-          "word": " electrical",
-          "probability": 0.987138569355011
+          "end": 12.86,
+          "word": " field.",
+          "probability": 0.9990308284759521
         },
         {
-          "start": 13.0,
-          "end": 13.46,
-          "word": " signal",
-          "probability": 0.9987567663192749
+          "start": 13.74,
+          "end": 13.9,
+          "word": " Watch",
+          "probability": 0.9930955767631531
         },
         {
-          "start": 13.46,
-          "end": 13.88,
-          "word": " moves",
-          "probability": 0.9986937642097473
-        },
-        {
-          "start": 13.88,
-          "end": 14.1,
-          "word": " through",
-          "probability": 0.9979731440544128
-        },
-        {
-          "start": 14.1,
-          "end": 14.44,
-          "word": " them.",
-          "probability": 0.9982507824897766
-        },
-        {
-          "start": 14.98,
-          "end": 15.24,
-          "word": " Your",
-          "probability": 0.9946097135543823
-        },
-        {
-          "start": 15.24,
-          "end": 15.54,
-          "word": " finger",
-          "probability": 0.9948118925094604
-        },
-        {
-          "start": 15.54,
-          "end": 16.16,
-          "word": " conducts",
-          "probability": 0.9956509470939636
-        },
-        {
-          "start": 16.16,
-          "end": 16.48,
-          "word": " a",
-          "probability": 0.9978759288787842
-        },
-        {
-          "start": 16.48,
-          "end": 16.7,
-          "word": " little",
-          "probability": 0.9993159770965576
-        },
-        {
-          "start": 16.7,
-          "end": 17.28,
-          "word": " charge",
-          "probability": 0.9983091354370117
-        },
-        {
-          "start": 17.28,
-          "end": 17.58,
-          "word": " and",
-          "probability": 0.9423930644989014
-        },
-        {
-          "start": 17.58,
-          "end": 18.18,
-          "word": " disturbs",
-          "probability": 0.996627539396286
-        },
-        {
-          "start": 18.18,
-          "end": 18.4,
+          "start": 13.9,
+          "end": 14.16,
           "word": " the",
-          "probability": 0.998799204826355
+          "probability": 0.9449920058250427
         },
         {
-          "start": 18.4,
-          "end": 18.66,
+          "start": 14.16,
+          "end": 14.48,
+          "word": " center",
+          "probability": 0.918648362159729
+        },
+        {
+          "start": 14.48,
+          "end": 14.9,
+          "word": " crossing.",
+          "probability": 0.9958174824714661
+        },
+        {
+          "start": 15.46,
+          "end": 15.66,
+          "word": " Your",
+          "probability": 0.99382084608078
+        },
+        {
+          "start": 15.66,
+          "end": 16.0,
+          "word": " finger",
+          "probability": 0.9929946064949036
+        },
+        {
+          "start": 16.0,
+          "end": 16.36,
+          "word": " draws",
+          "probability": 0.9981282353401184
+        },
+        {
+          "start": 16.36,
+          "end": 16.58,
+          "word": " a",
+          "probability": 0.9986178874969482
+        },
+        {
+          "start": 16.58,
+          "end": 16.76,
+          "word": " little",
+          "probability": 0.9992198944091797
+        },
+        {
+          "start": 16.76,
+          "end": 17.3,
+          "word": " charge",
+          "probability": 0.9959904551506042
+        },
+        {
+          "start": 17.3,
+          "end": 17.62,
+          "word": " so",
+          "probability": 0.47744250297546387
+        },
+        {
+          "start": 17.62,
+          "end": 17.86,
+          "word": " this",
+          "probability": 0.9885636568069458
+        },
+        {
+          "start": 17.86,
+          "end": 18.14,
           "word": " field",
-          "probability": 0.9985950589179993
+          "probability": 0.997057318687439
         },
         {
-          "start": 18.66,
-          "end": 19.1,
-          "word": " nearby.",
-          "probability": 0.9913766384124756
+          "start": 18.14,
+          "end": 18.64,
+          "word": " changes.",
+          "probability": 0.9991907477378845
+        },
+        {
+          "start": 19.1,
+          "end": 19.36,
+          "word": " The",
+          "probability": 0.9963524341583252
+        },
+        {
+          "start": 19.36,
+          "end": 19.54,
+          "word": " other",
+          "probability": 0.9990069270133972
+        },
+        {
+          "start": 19.54,
+          "end": 19.98,
+          "word": " crossings",
+          "probability": 0.9594590663909912
         },
         {
           "start": 19.98,
-          "end": 20.1,
+          "end": 20.38,
+          "word": " stay",
+          "probability": 0.986981213092804
+        },
+        {
+          "start": 20.38,
+          "end": 20.86,
+          "word": " nearly",
+          "probability": 0.995029628276825
+        },
+        {
+          "start": 20.86,
+          "end": 21.48,
+          "word": " unchanged.",
+          "probability": 0.9971067309379578
+        },
+        {
+          "start": 22.36,
+          "end": 22.52,
           "word": " The",
-          "probability": 0.9922351241111755
+          "probability": 0.9922766089439392
         },
         {
-          "start": 20.1,
-          "end": 20.54,
+          "start": 22.52,
+          "end": 22.98,
           "word": " controller",
-          "probability": 0.9952523708343506
+          "probability": 0.9870119690895081
         },
         {
-          "start": 20.54,
-          "end": 21.12,
-          "word": " measures",
-          "probability": 0.9962234497070312
+          "start": 22.98,
+          "end": 23.46,
+          "word": " finds",
+          "probability": 0.9971093535423279
         },
         {
-          "start": 21.12,
-          "end": 21.5,
-          "word": " which",
-          "probability": 0.9979344606399536
+          "start": 23.46,
+          "end": 23.7,
+          "word": " the",
+          "probability": 0.9986644983291626
         },
         {
-          "start": 21.5,
-          "end": 21.9,
-          "word": " rows",
-          "probability": 0.9962682127952576
+          "start": 23.7,
+          "end": 24.12,
+          "word": " changed",
+          "probability": 0.9952768087387085
         },
         {
-          "start": 21.9,
-          "end": 22.24,
+          "start": 24.12,
+          "end": 24.48,
+          "word": " row",
+          "probability": 0.9972785115242004
+        },
+        {
+          "start": 24.48,
+          "end": 24.78,
           "word": " and",
-          "probability": 0.9985644221305847
+          "probability": 0.997830331325531
         },
         {
-          "start": 22.24,
-          "end": 22.56,
-          "word": " columns",
-          "probability": 0.9971586465835571
+          "start": 24.78,
+          "end": 25.12,
+          "word": " column.",
+          "probability": 0.9983881711959839
         },
         {
-          "start": 22.56,
-          "end": 23.1,
-          "word": " change.",
-          "probability": 0.9982585310935974
-        },
-        {
-          "start": 23.58,
-          "end": 23.88,
+          "start": 25.48,
+          "end": 25.7,
           "word": " Their",
-          "probability": 0.9819068312644958
+          "probability": 0.9823305606842041
         },
         {
-          "start": 23.88,
-          "end": 24.24,
-          "word": " crossing",
-          "probability": 0.9982560276985168
+          "start": 25.7,
+          "end": 26.24,
+          "word": " intersection",
+          "probability": 0.9854068756103516
         },
         {
-          "start": 24.24,
-          "end": 24.6,
-          "word": " point",
-          "probability": 0.9912243485450745
-        },
-        {
-          "start": 24.6,
-          "end": 25.06,
+          "start": 26.24,
+          "end": 26.72,
           "word": " becomes",
-          "probability": 0.9962284564971924
+          "probability": 0.9927086234092712
         },
         {
-          "start": 25.06,
-          "end": 25.26,
-          "word": " your",
-          "probability": 0.998751163482666
-        },
-        {
-          "start": 25.26,
-          "end": 25.6,
-          "word": " touch.",
-          "probability": 0.9941415190696716
-        },
-        {
-          "start": 26.08,
-          "end": 26.52,
-          "word": " That",
-          "probability": 0.9913840293884277
-        },
-        {
-          "start": 26.52,
-          "end": 26.64,
-          "word": " is",
-          "probability": 0.9932202100753784
-        },
-        {
-          "start": 26.64,
-          "end": 26.88,
-          "word": " why",
-          "probability": 0.9994778037071228
-        },
-        {
-          "start": 26.88,
-          "end": 27.18,
-          "word": " a",
-          "probability": 0.9960502982139587
-        },
-        {
-          "start": 27.18,
-          "end": 27.46,
-          "word": " normal",
-          "probability": 0.9817635416984558
-        },
-        {
-          "start": 27.46,
-          "end": 27.76,
-          "word": " glove",
-          "probability": 0.989834189414978
-        },
-        {
-          "start": 27.76,
-          "end": 28.24,
-          "word": " blocks",
-          "probability": 0.9942432045936584
-        },
-        {
-          "start": 28.24,
-          "end": 28.5,
+          "start": 26.72,
+          "end": 26.94,
           "word": " the",
-          "probability": 0.9979454874992371
+          "probability": 0.9985637068748474
         },
         {
-          "start": 28.5,
-          "end": 28.84,
-          "word": " signal.",
-          "probability": 0.9988076686859131
+          "start": 26.94,
+          "end": 27.12,
+          "word": " touch",
+          "probability": 0.9871529936790466
+        },
+        {
+          "start": 27.12,
+          "end": 27.52,
+          "word": " position.",
+          "probability": 0.9985746145248413
         }
       ]
     },
     {
-      "start": 28.84,
-      "end": 32.92,
-      "text": "A conductive glove works because it lets the field reach your skin,",
-      "avg_logprob": -0.14824068993330003,
-      "no_speech_prob": 0.009225278161466122,
+      "start": 27.52,
+      "end": 34.24,
+      "text": "A normal glove stops this effect. Conductive thread lets it through, so the crossing responds",
+      "avg_logprob": -0.14485779175391564,
+      "no_speech_prob": 0.0012188152177259326,
       "words": [
         {
-          "start": 28.84,
-          "end": 29.48,
+          "start": 27.52,
+          "end": 28.56,
           "word": " A",
-          "probability": 0.579759955406189
+          "probability": 0.8897521495819092
         },
         {
-          "start": 29.48,
-          "end": 30.12,
-          "word": " conductive",
-          "probability": 0.9982919991016388
+          "start": 28.56,
+          "end": 29.02,
+          "word": " normal",
+          "probability": 0.9967408776283264
         },
         {
-          "start": 30.12,
-          "end": 30.28,
+          "start": 29.02,
+          "end": 29.42,
           "word": " glove",
-          "probability": 0.966552734375
+          "probability": 0.9812825918197632
         },
         {
-          "start": 30.28,
-          "end": 30.68,
-          "word": " works",
-          "probability": 0.9982183575630188
+          "start": 29.42,
+          "end": 30.0,
+          "word": " stops",
+          "probability": 0.9990070462226868
         },
         {
-          "start": 30.68,
-          "end": 31.0,
-          "word": " because",
-          "probability": 0.9495528340339661
+          "start": 30.0,
+          "end": 30.26,
+          "word": " this",
+          "probability": 0.9970046877861023
         },
         {
-          "start": 31.0,
-          "end": 31.16,
-          "word": " it",
-          "probability": 0.9978870749473572
+          "start": 30.26,
+          "end": 30.62,
+          "word": " effect.",
+          "probability": 0.9966161847114563
         },
         {
-          "start": 31.16,
-          "end": 31.42,
+          "start": 31.3,
+          "end": 31.82,
+          "word": " Conductive",
+          "probability": 0.9866936504840851
+        },
+        {
+          "start": 31.82,
+          "end": 32.18,
+          "word": " thread",
+          "probability": 0.9245792031288147
+        },
+        {
+          "start": 32.18,
+          "end": 32.46,
           "word": " lets",
-          "probability": 0.9676260948181152
+          "probability": 0.9142631888389587
         },
         {
-          "start": 31.42,
-          "end": 31.6,
-          "word": " the",
-          "probability": 0.9974855184555054
-        },
-        {
-          "start": 31.6,
-          "end": 31.92,
-          "word": " field",
-          "probability": 0.998284637928009
-        },
-        {
-          "start": 31.92,
-          "end": 32.28,
-          "word": " reach",
-          "probability": 0.9949690699577332
-        },
-        {
-          "start": 32.28,
-          "end": 32.54,
-          "word": " your",
-          "probability": 0.9963868856430054
-        },
-        {
-          "start": 32.54,
-          "end": 32.92,
-          "word": " skin,",
-          "probability": 0.9990444779396057
-        }
-      ]
-    },
-    {
-      "start": 33.46,
-      "end": 35.92,
-      "text": "so the glass is not just watching your finger,",
-      "avg_logprob": -0.14824068993330003,
-      "no_speech_prob": 0.009225278161466122,
-      "words": [
-        {
-          "start": 33.46,
-          "end": 33.76,
-          "word": " so",
-          "probability": 0.9828982353210449
-        },
-        {
-          "start": 33.76,
-          "end": 33.92,
-          "word": " the",
-          "probability": 0.9943056702613831
-        },
-        {
-          "start": 33.92,
-          "end": 34.16,
-          "word": " glass",
-          "probability": 0.9950013756752014
-        },
-        {
-          "start": 34.16,
-          "end": 34.4,
-          "word": " is",
-          "probability": 0.9961124062538147
-        },
-        {
-          "start": 34.4,
-          "end": 34.54,
-          "word": " not",
-          "probability": 0.9991759657859802
-        },
-        {
-          "start": 34.54,
-          "end": 34.78,
-          "word": " just",
-          "probability": 0.9987712502479553
-        },
-        {
-          "start": 34.78,
-          "end": 35.3,
-          "word": " watching",
-          "probability": 0.9875102043151855
-        },
-        {
-          "start": 35.3,
-          "end": 35.54,
-          "word": " your",
-          "probability": 0.9955078363418579
-        },
-        {
-          "start": 35.54,
-          "end": 35.92,
-          "word": " finger,",
-          "probability": 0.9972195625305176
-        }
-      ]
-    },
-    {
-      "start": 36.24,
-      "end": 39.16,
-      "text": "it is listening for a tiny electrical disturbance.",
-      "avg_logprob": -0.14824068993330003,
-      "no_speech_prob": 0.009225278161466122,
-      "words": [
-        {
-          "start": 36.24,
-          "end": 36.44,
+          "start": 32.46,
+          "end": 32.62,
           "word": " it",
-          "probability": 0.9908924102783203
+          "probability": 0.9975154399871826
         },
         {
-          "start": 36.44,
-          "end": 36.7,
+          "start": 32.62,
+          "end": 32.92,
+          "word": " through,",
+          "probability": 0.9944456815719604
+        },
+        {
+          "start": 33.12,
+          "end": 33.32,
+          "word": " so",
+          "probability": 0.9971810579299927
+        },
+        {
+          "start": 33.32,
+          "end": 33.5,
+          "word": " the",
+          "probability": 0.9968752861022949
+        },
+        {
+          "start": 33.5,
+          "end": 33.82,
+          "word": " crossing",
+          "probability": 0.9920761585235596
+        },
+        {
+          "start": 33.82,
+          "end": 34.24,
+          "word": " responds",
+          "probability": 0.9868825078010559
+        }
+      ]
+    },
+    {
+      "start": 34.24,
+      "end": 39.86,
+      "text": "again. That is how glass turns a changed electric field into a touch location.",
+      "avg_logprob": -0.14485779175391564,
+      "no_speech_prob": 0.0012188152177259326,
+      "words": [
+        {
+          "start": 34.24,
+          "end": 34.6,
+          "word": " again.",
+          "probability": 0.9988834261894226
+        },
+        {
+          "start": 35.56,
+          "end": 35.78,
+          "word": " That",
+          "probability": 0.9920673370361328
+        },
+        {
+          "start": 35.78,
+          "end": 35.98,
           "word": " is",
-          "probability": 0.9828976988792419
+          "probability": 0.985527515411377
         },
         {
-          "start": 36.7,
-          "end": 37.04,
-          "word": " listening",
-          "probability": 0.998666524887085
+          "start": 35.98,
+          "end": 36.16,
+          "word": " how",
+          "probability": 0.9992367029190063
         },
         {
-          "start": 37.04,
-          "end": 37.32,
-          "word": " for",
-          "probability": 0.9973940849304199
+          "start": 36.16,
+          "end": 36.58,
+          "word": " glass",
+          "probability": 0.7948362231254578
         },
         {
-          "start": 37.32,
-          "end": 37.6,
+          "start": 36.58,
+          "end": 36.94,
+          "word": " turns",
+          "probability": 0.9973620772361755
+        },
+        {
+          "start": 36.94,
+          "end": 37.26,
           "word": " a",
-          "probability": 0.9908542633056641
+          "probability": 0.9976571798324585
         },
         {
-          "start": 37.6,
-          "end": 37.92,
-          "word": " tiny",
-          "probability": 0.9993085861206055
+          "start": 37.26,
+          "end": 37.64,
+          "word": " changed",
+          "probability": 0.9982732534408569
         },
         {
-          "start": 37.92,
-          "end": 38.58,
-          "word": " electrical",
-          "probability": 0.9937646389007568
+          "start": 37.64,
+          "end": 38.1,
+          "word": " electric",
+          "probability": 0.9910133481025696
         },
         {
-          "start": 38.58,
-          "end": 39.16,
-          "word": " disturbance.",
-          "probability": 0.9988002777099609
+          "start": 38.1,
+          "end": 38.46,
+          "word": " field",
+          "probability": 0.9995192289352417
+        },
+        {
+          "start": 38.46,
+          "end": 38.88,
+          "word": " into",
+          "probability": 0.9955644607543945
+        },
+        {
+          "start": 38.88,
+          "end": 39.18,
+          "word": " a",
+          "probability": 0.9976921081542969
+        },
+        {
+          "start": 39.18,
+          "end": 39.34,
+          "word": " touch",
+          "probability": 0.9884127974510193
+        },
+        {
+          "start": 39.34,
+          "end": 39.86,
+          "word": " location.",
+          "probability": 0.9977860450744629
         }
       ]
     }

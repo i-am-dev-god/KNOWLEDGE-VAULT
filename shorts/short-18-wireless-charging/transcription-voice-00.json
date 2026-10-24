@@ -2,659 +2,634 @@
   "engine": "faster-whisper",
   "model": "medium.en",
   "voice_id": "voice-00",
-  "audio_sha256": "173a05e3150e8f76cb8713ce42e1bb0bd6cf0fc4a0901e53d2a7467022b9a638",
+  "audio_sha256": "8364ddc5136c03f76a959cb8f152b4612b1da57a138bfc5a2bb566c20138e91b",
   "language": "en",
   "language_probability": 1,
-  "text": "Wireless charging needs no metal plug between the pad and your phone. It passes energy through a magnetic field. Inside the pad, alternating current flows through a coil. That current makes the magnetic field rise and fall. A second coil inside your phone sits within that field. The changing magnetism induces a voltage in this coil. The phone turns that induced power into a form its battery can use. The coils work best when they are close and aligned. Distance and misalignment weaken the link and waste energy. So the cable disappears but a pair of coils still makes the connection.",
-  "mean_word_probability": 0.9749548756840205,
-  "low_confidence_words": [
-    {
-      "start": 29.92,
-      "end": 30.36,
-      "word": " close",
-      "probability": 0.4201865792274475
-    }
-  ],
+  "text": "Inside the pad, alternating current flows through this coil. Watch the current reverse direction. That makes the magnetic field expand and collapse. Now place a second coil inside that changing field. The field induces a voltage in the second coil. The coils do not touch. They are magnetically linked. The phone then rectifies and regulates that power for its battery. Move the coils apart or off-center. Less of the field links them, so the transfer weakens and wastes energy. Wireless charging is energy crossing a changing magnetic field between two coils.",
+  "mean_word_probability": 0.9857218722286432,
+  "low_confidence_words": [],
   "segments": [
     {
       "start": 0.0,
-      "end": 29.92,
-      "text": "Wireless charging needs no metal plug between the pad and your phone. It passes energy through a magnetic field. Inside the pad, alternating current flows through a coil. That current makes the magnetic field rise and fall. A second coil inside your phone sits within that field. The changing magnetism induces a voltage in this coil. The phone turns that induced power into a form its battery can use. The coils work best when they are",
-      "avg_logprob": -0.03768134716598467,
-      "no_speech_prob": 7.171625475166366e-05,
+      "end": 7.02,
+      "text": "Inside the pad, alternating current flows through this coil. Watch the current reverse direction.",
+      "avg_logprob": -0.07899048367896712,
+      "no_speech_prob": 6.982237391639501e-05,
       "words": [
         {
           "start": 0.0,
-          "end": 1.34,
-          "word": " Wireless",
-          "probability": 0.8431723713874817
-        },
-        {
-          "start": 1.34,
-          "end": 1.74,
-          "word": " charging",
-          "probability": 0.9582914113998413
-        },
-        {
-          "start": 1.74,
-          "end": 2.2,
-          "word": " needs",
-          "probability": 0.9564411044120789
-        },
-        {
-          "start": 2.2,
-          "end": 2.54,
-          "word": " no",
-          "probability": 0.9941324591636658
-        },
-        {
-          "start": 2.54,
-          "end": 3.0,
-          "word": " metal",
-          "probability": 0.9912770986557007
-        },
-        {
-          "start": 3.0,
-          "end": 3.26,
-          "word": " plug",
-          "probability": 0.982867956161499
-        },
-        {
-          "start": 3.26,
-          "end": 3.64,
-          "word": " between",
-          "probability": 0.9947486519813538
-        },
-        {
-          "start": 3.64,
-          "end": 3.88,
-          "word": " the",
-          "probability": 0.9877042770385742
-        },
-        {
-          "start": 3.88,
-          "end": 4.08,
-          "word": " pad",
-          "probability": 0.9826562404632568
-        },
-        {
-          "start": 4.08,
-          "end": 4.3,
-          "word": " and",
-          "probability": 0.9917228817939758
-        },
-        {
-          "start": 4.3,
-          "end": 4.5,
-          "word": " your",
-          "probability": 0.9822602868080139
-        },
-        {
-          "start": 4.5,
-          "end": 4.76,
-          "word": " phone.",
-          "probability": 0.9977083206176758
-        },
-        {
-          "start": 5.32,
-          "end": 5.42,
-          "word": " It",
-          "probability": 0.9896878600120544
-        },
-        {
-          "start": 5.42,
-          "end": 5.82,
-          "word": " passes",
-          "probability": 0.9965698719024658
-        },
-        {
-          "start": 5.82,
-          "end": 6.34,
-          "word": " energy",
-          "probability": 0.9954901337623596
-        },
-        {
-          "start": 6.34,
-          "end": 6.6,
-          "word": " through",
-          "probability": 0.996269702911377
-        },
-        {
-          "start": 6.6,
-          "end": 6.86,
-          "word": " a",
-          "probability": 0.9917632341384888
-        },
-        {
-          "start": 6.86,
-          "end": 7.26,
-          "word": " magnetic",
-          "probability": 0.9984084963798523
-        },
-        {
-          "start": 7.26,
-          "end": 7.66,
-          "word": " field.",
-          "probability": 0.9995459914207458
-        },
-        {
-          "start": 8.3,
-          "end": 8.64,
+          "end": 1.18,
           "word": " Inside",
-          "probability": 0.9960783123970032
+          "probability": 0.9576162099838257
         },
         {
-          "start": 8.64,
-          "end": 8.9,
+          "start": 1.18,
+          "end": 1.48,
           "word": " the",
-          "probability": 0.9892233610153198
+          "probability": 0.9969103932380676
+        },
+        {
+          "start": 1.48,
+          "end": 1.76,
+          "word": " pad,",
+          "probability": 0.9759683609008789
+        },
+        {
+          "start": 2.12,
+          "end": 2.58,
+          "word": " alternating",
+          "probability": 0.9951837658882141
+        },
+        {
+          "start": 2.58,
+          "end": 3.06,
+          "word": " current",
+          "probability": 0.9986257553100586
+        },
+        {
+          "start": 3.06,
+          "end": 3.6,
+          "word": " flows",
+          "probability": 0.9974101185798645
+        },
+        {
+          "start": 3.6,
+          "end": 3.92,
+          "word": " through",
+          "probability": 0.9958421587944031
+        },
+        {
+          "start": 3.92,
+          "end": 4.18,
+          "word": " this",
+          "probability": 0.991815984249115
+        },
+        {
+          "start": 4.18,
+          "end": 4.46,
+          "word": " coil.",
+          "probability": 0.9983205199241638
+        },
+        {
+          "start": 5.22,
+          "end": 5.46,
+          "word": " Watch",
+          "probability": 0.9979292154312134
+        },
+        {
+          "start": 5.46,
+          "end": 5.7,
+          "word": " the",
+          "probability": 0.9979453682899475
+        },
+        {
+          "start": 5.7,
+          "end": 5.98,
+          "word": " current",
+          "probability": 0.9983592629432678
+        },
+        {
+          "start": 5.98,
+          "end": 6.48,
+          "word": " reverse",
+          "probability": 0.9836744070053101
+        },
+        {
+          "start": 6.48,
+          "end": 7.02,
+          "word": " direction.",
+          "probability": 0.975452184677124
+        }
+      ]
+    },
+    {
+      "start": 7.7,
+      "end": 10.92,
+      "text": "That makes the magnetic field expand and collapse.",
+      "avg_logprob": -0.07899048367896712,
+      "no_speech_prob": 6.982237391639501e-05,
+      "words": [
+        {
+          "start": 7.7,
+          "end": 8.06,
+          "word": " That",
+          "probability": 0.9952142238616943
+        },
+        {
+          "start": 8.06,
+          "end": 8.32,
+          "word": " makes",
+          "probability": 0.997841477394104
+        },
+        {
+          "start": 8.32,
+          "end": 8.52,
+          "word": " the",
+          "probability": 0.9985197186470032
+        },
+        {
+          "start": 8.52,
+          "end": 8.9,
+          "word": " magnetic",
+          "probability": 0.9984594583511353
         },
         {
           "start": 8.9,
-          "end": 9.14,
-          "word": " pad,",
-          "probability": 0.9940074682235718
-        },
-        {
-          "start": 9.54,
-          "end": 10.04,
-          "word": " alternating",
-          "probability": 0.9853619337081909
-        },
-        {
-          "start": 10.04,
-          "end": 10.46,
-          "word": " current",
-          "probability": 0.9965574741363525
-        },
-        {
-          "start": 10.46,
-          "end": 11.02,
-          "word": " flows",
-          "probability": 0.9947686195373535
-        },
-        {
-          "start": 11.02,
-          "end": 11.28,
-          "word": " through",
-          "probability": 0.9960820078849792
-        },
-        {
-          "start": 11.28,
-          "end": 11.5,
-          "word": " a",
-          "probability": 0.9873092770576477
-        },
-        {
-          "start": 11.5,
-          "end": 11.66,
-          "word": " coil.",
-          "probability": 0.9993875026702881
-        },
-        {
-          "start": 12.2,
-          "end": 12.54,
-          "word": " That",
-          "probability": 0.9862702488899231
-        },
-        {
-          "start": 12.54,
-          "end": 12.9,
-          "word": " current",
-          "probability": 0.9978970289230347
-        },
-        {
-          "start": 12.9,
-          "end": 13.32,
-          "word": " makes",
-          "probability": 0.9930429458618164
-        },
-        {
-          "start": 13.32,
-          "end": 13.62,
-          "word": " the",
-          "probability": 0.9878246784210205
-        },
-        {
-          "start": 13.62,
-          "end": 14.04,
-          "word": " magnetic",
-          "probability": 0.9984732270240784
-        },
-        {
-          "start": 14.04,
-          "end": 14.42,
+          "end": 9.28,
           "word": " field",
-          "probability": 0.998241662979126
+          "probability": 0.9983863830566406
+        },
+        {
+          "start": 9.28,
+          "end": 9.96,
+          "word": " expand",
+          "probability": 0.9957396984100342
+        },
+        {
+          "start": 9.96,
+          "end": 10.48,
+          "word": " and",
+          "probability": 0.9898505210876465
+        },
+        {
+          "start": 10.48,
+          "end": 10.92,
+          "word": " collapse.",
+          "probability": 0.9992215633392334
+        }
+      ]
+    },
+    {
+      "start": 11.92,
+      "end": 18.68,
+      "text": "Now place a second coil inside that changing field. The field induces a voltage in the second coil.",
+      "avg_logprob": -0.07899048367896712,
+      "no_speech_prob": 6.982237391639501e-05,
+      "words": [
+        {
+          "start": 11.92,
+          "end": 12.22,
+          "word": " Now",
+          "probability": 0.9982540011405945
+        },
+        {
+          "start": 12.22,
+          "end": 12.6,
+          "word": " place",
+          "probability": 0.6907714605331421
+        },
+        {
+          "start": 12.6,
+          "end": 12.92,
+          "word": " a",
+          "probability": 0.995553195476532
+        },
+        {
+          "start": 12.92,
+          "end": 13.2,
+          "word": " second",
+          "probability": 0.9808639883995056
+        },
+        {
+          "start": 13.2,
+          "end": 13.54,
+          "word": " coil",
+          "probability": 0.9995483756065369
+        },
+        {
+          "start": 13.54,
+          "end": 14.12,
+          "word": " inside",
+          "probability": 0.9953954815864563
+        },
+        {
+          "start": 14.12,
+          "end": 14.42,
+          "word": " that",
+          "probability": 0.9915243983268738
         },
         {
           "start": 14.42,
-          "end": 14.8,
-          "word": " rise",
-          "probability": 0.9966728687286377
+          "end": 14.76,
+          "word": " changing",
+          "probability": 0.9985820055007935
         },
         {
-          "start": 14.8,
-          "end": 15.08,
-          "word": " and",
-          "probability": 0.9875970482826233
+          "start": 14.76,
+          "end": 15.12,
+          "word": " field.",
+          "probability": 0.9991461038589478
         },
         {
-          "start": 15.08,
-          "end": 15.36,
-          "word": " fall.",
-          "probability": 0.9987205862998962
+          "start": 15.72,
+          "end": 16.08,
+          "word": " The",
+          "probability": 0.9936409592628479
         },
         {
-          "start": 15.84,
-          "end": 16.12,
-          "word": " A",
-          "probability": 0.986277163028717
+          "start": 16.08,
+          "end": 16.4,
+          "word": " field",
+          "probability": 0.9961267113685608
         },
         {
-          "start": 16.12,
-          "end": 16.48,
-          "word": " second",
-          "probability": 0.9883667826652527
+          "start": 16.4,
+          "end": 17.02,
+          "word": " induces",
+          "probability": 0.9984643459320068
         },
         {
-          "start": 16.48,
-          "end": 16.74,
-          "word": " coil",
-          "probability": 0.9995915293693542
+          "start": 17.02,
+          "end": 17.32,
+          "word": " a",
+          "probability": 0.9935883283615112
         },
         {
-          "start": 16.74,
-          "end": 17.12,
-          "word": " inside",
-          "probability": 0.9941225647926331
-        },
-        {
-          "start": 17.12,
-          "end": 17.38,
-          "word": " your",
-          "probability": 0.978169322013855
-        },
-        {
-          "start": 17.38,
+          "start": 17.32,
           "end": 17.64,
-          "word": " phone",
-          "probability": 0.9983533620834351
+          "word": " voltage",
+          "probability": 0.9981663823127747
         },
         {
           "start": 17.64,
-          "end": 18.18,
-          "word": " sits",
-          "probability": 0.9670379161834717
-        },
-        {
-          "start": 18.18,
-          "end": 18.6,
-          "word": " within",
-          "probability": 0.9963057041168213
-        },
-        {
-          "start": 18.6,
-          "end": 18.88,
-          "word": " that",
-          "probability": 0.9810566306114197
-        },
-        {
-          "start": 18.88,
-          "end": 19.16,
-          "word": " field.",
-          "probability": 0.9968752861022949
-        },
-        {
-          "start": 19.62,
-          "end": 19.84,
-          "word": " The",
-          "probability": 0.9706010818481445
-        },
-        {
-          "start": 19.84,
-          "end": 20.42,
-          "word": " changing",
-          "probability": 0.9920514822006226
-        },
-        {
-          "start": 20.42,
-          "end": 21.14,
-          "word": " magnetism",
-          "probability": 0.9990986287593842
-        },
-        {
-          "start": 21.14,
-          "end": 21.76,
-          "word": " induces",
-          "probability": 0.9968234300613403
-        },
-        {
-          "start": 21.76,
-          "end": 22.08,
-          "word": " a",
-          "probability": 0.9819687008857727
-        },
-        {
-          "start": 22.08,
-          "end": 22.42,
-          "word": " voltage",
-          "probability": 0.9971662163734436
-        },
-        {
-          "start": 22.42,
-          "end": 22.7,
+          "end": 17.96,
           "word": " in",
-          "probability": 0.9970546960830688
+          "probability": 0.998717188835144
         },
         {
-          "start": 22.7,
-          "end": 22.86,
-          "word": " this",
-          "probability": 0.9871193170547485
+          "start": 17.96,
+          "end": 18.12,
+          "word": " the",
+          "probability": 0.9874910116195679
         },
         {
-          "start": 22.86,
-          "end": 23.1,
+          "start": 18.12,
+          "end": 18.4,
+          "word": " second",
+          "probability": 0.9966152310371399
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
           "word": " coil.",
-          "probability": 0.9991592168807983
-        },
+          "probability": 0.9996169805526733
+        }
+      ]
+    },
+    {
+      "start": 19.34,
+      "end": 22.36,
+      "text": "The coils do not touch. They are magnetically linked.",
+      "avg_logprob": -0.07899048367896712,
+      "no_speech_prob": 6.982237391639501e-05,
+      "words": [
         {
-          "start": 23.5,
-          "end": 23.86,
+          "start": 19.34,
+          "end": 19.5,
           "word": " The",
-          "probability": 0.9896551370620728
+          "probability": 0.997570812702179
         },
         {
-          "start": 23.86,
-          "end": 24.1,
+          "start": 19.5,
+          "end": 19.78,
+          "word": " coils",
+          "probability": 0.9972319006919861
+        },
+        {
+          "start": 19.78,
+          "end": 20.04,
+          "word": " do",
+          "probability": 0.9970418810844421
+        },
+        {
+          "start": 20.04,
+          "end": 20.28,
+          "word": " not",
+          "probability": 0.9987493753433228
+        },
+        {
+          "start": 20.28,
+          "end": 20.62,
+          "word": " touch.",
+          "probability": 0.9991620779037476
+        },
+        {
+          "start": 20.98,
+          "end": 21.18,
+          "word": " They",
+          "probability": 0.9947944283485413
+        },
+        {
+          "start": 21.18,
+          "end": 21.38,
+          "word": " are",
+          "probability": 0.9976443648338318
+        },
+        {
+          "start": 21.38,
+          "end": 22.0,
+          "word": " magnetically",
+          "probability": 0.9985217452049255
+        },
+        {
+          "start": 22.0,
+          "end": 22.36,
+          "word": " linked.",
+          "probability": 0.9961599111557007
+        }
+      ]
+    },
+    {
+      "start": 23.12,
+      "end": 26.52,
+      "text": "The phone then rectifies and regulates that power for its battery.",
+      "avg_logprob": -0.07899048367896712,
+      "no_speech_prob": 6.982237391639501e-05,
+      "words": [
+        {
+          "start": 23.12,
+          "end": 23.38,
+          "word": " The",
+          "probability": 0.9961865544319153
+        },
+        {
+          "start": 23.38,
+          "end": 23.68,
           "word": " phone",
-          "probability": 0.9970513582229614
+          "probability": 0.9967741370201111
         },
         {
-          "start": 24.1,
+          "start": 23.68,
+          "end": 23.92,
+          "word": " then",
+          "probability": 0.9922189712524414
+        },
+        {
+          "start": 23.92,
           "end": 24.56,
-          "word": " turns",
-          "probability": 0.9974225759506226
+          "word": " rectifies",
+          "probability": 0.9988117218017578
         },
         {
           "start": 24.56,
-          "end": 24.78,
+          "end": 24.82,
+          "word": " and",
+          "probability": 0.9973697662353516
+        },
+        {
+          "start": 24.82,
+          "end": 25.28,
+          "word": " regulates",
+          "probability": 0.9994744658470154
+        },
+        {
+          "start": 25.28,
+          "end": 25.56,
           "word": " that",
-          "probability": 0.9878374338150024
+          "probability": 0.9930741786956787
         },
         {
-          "start": 24.78,
-          "end": 25.34,
-          "word": " induced",
-          "probability": 0.9946405291557312
-        },
-        {
-          "start": 25.34,
-          "end": 25.7,
+          "start": 25.56,
+          "end": 25.82,
           "word": " power",
-          "probability": 0.9990528225898743
+          "probability": 0.9992081522941589
         },
         {
-          "start": 25.7,
-          "end": 26.04,
-          "word": " into",
-          "probability": 0.9940171241760254
+          "start": 25.82,
+          "end": 26.06,
+          "word": " for",
+          "probability": 0.9968090653419495
         },
         {
-          "start": 26.04,
-          "end": 26.36,
-          "word": " a",
-          "probability": 0.9934159517288208
-        },
-        {
-          "start": 26.36,
-          "end": 26.56,
-          "word": " form",
-          "probability": 0.9971946477890015
-        },
-        {
-          "start": 26.56,
-          "end": 26.7,
+          "start": 26.06,
+          "end": 26.16,
           "word": " its",
-          "probability": 0.953961193561554
+          "probability": 0.9863420128822327
         },
         {
-          "start": 26.7,
-          "end": 27.14,
-          "word": " battery",
-          "probability": 0.9959551095962524
+          "start": 26.16,
+          "end": 26.52,
+          "word": " battery.",
+          "probability": 0.9982419013977051
+        }
+      ]
+    },
+    {
+      "start": 26.52,
+      "end": 29.48,
+      "text": "Move the coils apart or off-center.",
+      "avg_logprob": -0.1453486098183526,
+      "no_speech_prob": 0.0027129785157740116,
+      "words": [
+        {
+          "start": 26.52,
+          "end": 27.62,
+          "word": " Move",
+          "probability": 0.9129376411437988
         },
         {
-          "start": 27.14,
-          "end": 27.4,
-          "word": " can",
-          "probability": 0.9988332390785217
+          "start": 27.62,
+          "end": 27.84,
+          "word": " the",
+          "probability": 0.994831919670105
         },
         {
-          "start": 27.4,
-          "end": 27.68,
-          "word": " use.",
-          "probability": 0.9990363121032715
-        },
-        {
-          "start": 28.22,
-          "end": 28.42,
-          "word": " The",
-          "probability": 0.9910933375358582
-        },
-        {
-          "start": 28.42,
-          "end": 28.7,
+          "start": 27.84,
+          "end": 28.1,
           "word": " coils",
-          "probability": 0.996862530708313
+          "probability": 0.995899498462677
         },
         {
-          "start": 28.7,
-          "end": 29.02,
-          "word": " work",
-          "probability": 0.9920925498008728
+          "start": 28.1,
+          "end": 28.48,
+          "word": " apart",
+          "probability": 0.9969056248664856
         },
         {
-          "start": 29.02,
-          "end": 29.42,
-          "word": " best",
-          "probability": 0.9958153367042542
+          "start": 28.48,
+          "end": 28.94,
+          "word": " or",
+          "probability": 0.7635713815689087
         },
         {
-          "start": 29.42,
-          "end": 29.68,
-          "word": " when",
-          "probability": 0.994164764881134
+          "start": 28.94,
+          "end": 29.26,
+          "word": " off",
+          "probability": 0.964332640171051
         },
         {
-          "start": 29.68,
-          "end": 29.84,
-          "word": " they",
-          "probability": 0.9867576956748962
-        },
-        {
-          "start": 29.84,
-          "end": 29.92,
-          "word": " are",
-          "probability": 0.9745358824729919
+          "start": 29.26,
+          "end": 29.48,
+          "word": "-center.",
+          "probability": 0.875970184803009
         }
       ]
     },
     {
-      "start": 29.92,
-      "end": 31.04,
-      "text": "close and aligned.",
-      "avg_logprob": -0.34089078774323334,
-      "no_speech_prob": 0.036939751356840134,
+      "start": 30.2,
+      "end": 34.0,
+      "text": "Less of the field links them, so the transfer weakens and wastes energy.",
+      "avg_logprob": -0.1453486098183526,
+      "no_speech_prob": 0.0027129785157740116,
       "words": [
         {
-          "start": 29.92,
-          "end": 30.36,
-          "word": " close",
-          "probability": 0.4201865792274475
+          "start": 30.2,
+          "end": 30.42,
+          "word": " Less",
+          "probability": 0.9974092841148376
         },
         {
-          "start": 30.36,
-          "end": 30.62,
-          "word": " and",
-          "probability": 0.9824827909469604
+          "start": 30.42,
+          "end": 30.64,
+          "word": " of",
+          "probability": 0.9976689219474792
         },
         {
-          "start": 30.62,
-          "end": 31.04,
-          "word": " aligned.",
-          "probability": 0.9890241622924805
-        }
-      ]
-    },
-    {
-      "start": 31.7,
-      "end": 34.92,
-      "text": "Distance and misalignment weaken the link and waste energy.",
-      "avg_logprob": -0.34089078774323334,
-      "no_speech_prob": 0.036939751356840134,
-      "words": [
-        {
-          "start": 31.7,
-          "end": 32.02,
-          "word": " Distance",
-          "probability": 0.9930100440979004
-        },
-        {
-          "start": 32.02,
-          "end": 32.3,
-          "word": " and",
-          "probability": 0.979955792427063
-        },
-        {
-          "start": 32.3,
-          "end": 32.9,
-          "word": " misalignment",
-          "probability": 0.9893686175346375
-        },
-        {
-          "start": 32.9,
-          "end": 33.42,
-          "word": " weaken",
-          "probability": 0.9974641799926758
-        },
-        {
-          "start": 33.42,
-          "end": 33.7,
+          "start": 30.64,
+          "end": 30.74,
           "word": " the",
-          "probability": 0.9942517280578613
+          "probability": 0.9983699917793274
         },
         {
-          "start": 33.7,
-          "end": 33.84,
-          "word": " link",
-          "probability": 0.9762815237045288
+          "start": 30.74,
+          "end": 30.96,
+          "word": " field",
+          "probability": 0.9771924614906311
         },
         {
-          "start": 33.84,
-          "end": 34.14,
+          "start": 30.96,
+          "end": 31.28,
+          "word": " links",
+          "probability": 0.9938405752182007
+        },
+        {
+          "start": 31.28,
+          "end": 31.52,
+          "word": " them,",
+          "probability": 0.9957975149154663
+        },
+        {
+          "start": 31.72,
+          "end": 31.9,
+          "word": " so",
+          "probability": 0.9961282014846802
+        },
+        {
+          "start": 31.9,
+          "end": 32.08,
+          "word": " the",
+          "probability": 0.9927114248275757
+        },
+        {
+          "start": 32.08,
+          "end": 32.42,
+          "word": " transfer",
+          "probability": 0.9981821775436401
+        },
+        {
+          "start": 32.42,
+          "end": 33.0,
+          "word": " weakens",
+          "probability": 0.9943391382694244
+        },
+        {
+          "start": 33.0,
+          "end": 33.2,
           "word": " and",
-          "probability": 0.9582945704460144
+          "probability": 0.993819534778595
         },
         {
-          "start": 34.14,
-          "end": 34.5,
-          "word": " waste",
-          "probability": 0.9913715124130249
+          "start": 33.2,
+          "end": 33.56,
+          "word": " wastes",
+          "probability": 0.9967778325080872
         },
         {
-          "start": 34.5,
-          "end": 34.92,
+          "start": 33.56,
+          "end": 34.0,
           "word": " energy.",
-          "probability": 0.9951938986778259
+          "probability": 0.9989513158798218
         }
       ]
     },
     {
-      "start": 35.4,
-      "end": 39.3,
-      "text": "So the cable disappears but a pair of coils still makes the connection.",
-      "avg_logprob": -0.34089078774323334,
-      "no_speech_prob": 0.036939751356840134,
+      "start": 35.06,
+      "end": 39.78,
+      "text": "Wireless charging is energy crossing a changing magnetic field between two coils.",
+      "avg_logprob": -0.1453486098183526,
+      "no_speech_prob": 0.0027129785157740116,
       "words": [
         {
-          "start": 35.4,
-          "end": 35.58,
-          "word": " So",
-          "probability": 0.9954649806022644
+          "start": 35.06,
+          "end": 35.36,
+          "word": " Wireless",
+          "probability": 0.9759012460708618
         },
         {
-          "start": 35.58,
+          "start": 35.36,
           "end": 35.78,
-          "word": " the",
-          "probability": 0.7169979810714722
+          "word": " charging",
+          "probability": 0.9698672890663147
         },
         {
           "start": 35.78,
-          "end": 36.12,
-          "word": " cable",
-          "probability": 0.9943787455558777
+          "end": 36.08,
+          "word": " is",
+          "probability": 0.9976523518562317
         },
         {
-          "start": 36.12,
-          "end": 36.64,
-          "word": " disappears",
-          "probability": 0.9928194880485535
+          "start": 36.08,
+          "end": 36.54,
+          "word": " energy",
+          "probability": 0.9943481087684631
         },
         {
-          "start": 36.64,
-          "end": 37.08,
-          "word": " but",
-          "probability": 0.6720647215843201
+          "start": 36.54,
+          "end": 37.02,
+          "word": " crossing",
+          "probability": 0.9968711733818054
         },
         {
-          "start": 37.08,
-          "end": 37.32,
+          "start": 37.02,
+          "end": 37.3,
           "word": " a",
-          "probability": 0.987522542476654
+          "probability": 0.9968532919883728
         },
         {
-          "start": 37.32,
-          "end": 37.46,
-          "word": " pair",
-          "probability": 0.9976054430007935
+          "start": 37.3,
+          "end": 37.68,
+          "word": " changing",
+          "probability": 0.9957892298698425
         },
         {
-          "start": 37.46,
-          "end": 37.74,
-          "word": " of",
-          "probability": 0.997553288936615
+          "start": 37.68,
+          "end": 38.1,
+          "word": " magnetic",
+          "probability": 0.9974935054779053
         },
         {
-          "start": 37.74,
-          "end": 38.08,
-          "word": " coils",
-          "probability": 0.8116573095321655
+          "start": 38.1,
+          "end": 38.56,
+          "word": " field",
+          "probability": 0.9995808005332947
         },
         {
-          "start": 38.08,
-          "end": 38.5,
-          "word": " still",
-          "probability": 0.9851380586624146
+          "start": 38.56,
+          "end": 39.02,
+          "word": " between",
+          "probability": 0.9954166412353516
         },
         {
-          "start": 38.5,
-          "end": 38.72,
-          "word": " makes",
-          "probability": 0.9281911253929138
+          "start": 39.02,
+          "end": 39.36,
+          "word": " two",
+          "probability": 0.9543684124946594
         },
         {
-          "start": 38.72,
-          "end": 38.92,
-          "word": " the",
-          "probability": 0.9786627888679504
-        },
-        {
-          "start": 38.92,
-          "end": 39.3,
-          "word": " connection.",
-          "probability": 0.9946714043617249
+          "start": 39.36,
+          "end": 39.78,
+          "word": " coils.",
+          "probability": 0.998892605304718
         }
       ]
     }

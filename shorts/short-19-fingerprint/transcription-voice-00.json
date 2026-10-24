@@ -2,694 +2,670 @@
   "engine": "faster-whisper",
   "model": "medium.en",
   "voice_id": "voice-00",
-  "audio_sha256": "5017a1110357eb03da0e6ed17096bb4cf7426a88c45a1e0ae2b9d5923c922efa",
+  "audio_sha256": "25b9a3dcef760de7ec8b0349835e01fa226a4b71165ffd18ad0e880541c4ce7e",
   "language": "en",
   "language_probability": 1,
-  "text": "Your phone does not need to remember a perfect photograph of your finger. It learns a pattern of distinguishing details. Many phones use a capacitive sensor to read ridges and valleys. Tiny electrical differences help map where each ridge sits. The system finds features such as ridge endings and splits. It stores a mathematical template, not an ordinary image you can open. When you try again, the new scan becomes another template. The phone compares features and their positions allowing for small shifts. A close match unlocks, a poor match fails. So your fingerprint becomes a pattern the phone can compare without expecting two touches to be identical.",
-  "mean_word_probability": 0.9763237284841361,
+  "text": "Look at this one tiny ridge, not the whole fingerprint. Here, the ridge ends. Here, another ridge splits into two. Details like these are called minutiae. A capacitive sensor maps them by measuring tiny electrical differences at many small points. The phone records which details are present and where they sit relative to one another. That is a mathematical template, not a photograph. On your next touch, the phone builds another template. It compares corresponding details, even if your finger shifted or rotated slightly. Enough matching features can unlock, too few cannot. Recognition means comparing patterns, not finding too identical pictures.",
+  "mean_word_probability": 0.9799992301479818,
   "low_confidence_words": [],
   "segments": [
     {
       "start": 0.0,
-      "end": 27.86,
-      "text": "Your phone does not need to remember a perfect photograph of your finger. It learns a pattern of distinguishing details. Many phones use a capacitive sensor to read ridges and valleys. Tiny electrical differences help map where each ridge sits. The system finds features such as ridge endings and splits. It stores a mathematical template, not an ordinary image you can open. When you try again, the new scan becomes another template.",
-      "avg_logprob": -0.0527545047156951,
-      "no_speech_prob": 0.0923645868897438,
+      "end": 11.54,
+      "text": "Look at this one tiny ridge, not the whole fingerprint. Here, the ridge ends. Here, another ridge splits into two. Details like these are called minutiae.",
+      "avg_logprob": -0.08758391816932035,
+      "no_speech_prob": 0.0054074726067483425,
       "words": [
         {
           "start": 0.0,
-          "end": 0.94,
-          "word": " Your",
-          "probability": 0.7045260071754456
+          "end": 0.96,
+          "word": " Look",
+          "probability": 0.9738151431083679
         },
         {
-          "start": 0.94,
-          "end": 1.28,
-          "word": " phone",
-          "probability": 0.9839300513267517
+          "start": 0.96,
+          "end": 1.12,
+          "word": " at",
+          "probability": 0.9965678453445435
         },
         {
-          "start": 1.28,
-          "end": 1.5,
-          "word": " does",
-          "probability": 0.9811804294586182
+          "start": 1.12,
+          "end": 1.3,
+          "word": " this",
+          "probability": 0.9922337532043457
         },
         {
-          "start": 1.5,
-          "end": 1.76,
+          "start": 1.3,
+          "end": 1.72,
+          "word": " one",
+          "probability": 0.9767342805862427
+        },
+        {
+          "start": 1.72,
+          "end": 2.3,
+          "word": " tiny",
+          "probability": 0.9528513550758362
+        },
+        {
+          "start": 2.3,
+          "end": 2.62,
+          "word": " ridge,",
+          "probability": 0.9698837399482727
+        },
+        {
+          "start": 2.98,
+          "end": 3.18,
           "word": " not",
-          "probability": 0.9980828762054443
+          "probability": 0.9852339625358582
         },
         {
-          "start": 1.76,
-          "end": 1.98,
-          "word": " need",
-          "probability": 0.9960100650787354
+          "start": 3.18,
+          "end": 3.4,
+          "word": " the",
+          "probability": 0.9827463626861572
         },
         {
-          "start": 1.98,
-          "end": 2.2,
-          "word": " to",
-          "probability": 0.9964027404785156
+          "start": 3.4,
+          "end": 3.64,
+          "word": " whole",
+          "probability": 0.9852347373962402
         },
         {
-          "start": 2.2,
-          "end": 2.68,
-          "word": " remember",
-          "probability": 0.9963807463645935
+          "start": 3.64,
+          "end": 4.06,
+          "word": " fingerprint.",
+          "probability": 0.9220272898674011
         },
         {
-          "start": 2.68,
-          "end": 3.1,
-          "word": " a",
-          "probability": 0.9850295186042786
+          "start": 4.66,
+          "end": 4.9,
+          "word": " Here,",
+          "probability": 0.9940367937088013
         },
         {
-          "start": 3.1,
-          "end": 3.48,
-          "word": " perfect",
-          "probability": 0.998489260673523
+          "start": 5.12,
+          "end": 5.24,
+          "word": " the",
+          "probability": 0.991541862487793
         },
         {
-          "start": 3.48,
-          "end": 3.98,
-          "word": " photograph",
-          "probability": 0.9924947023391724
+          "start": 5.24,
+          "end": 5.54,
+          "word": " ridge",
+          "probability": 0.9931066632270813
         },
         {
-          "start": 3.98,
-          "end": 4.2,
-          "word": " of",
-          "probability": 0.9894800186157227
+          "start": 5.54,
+          "end": 6.08,
+          "word": " ends.",
+          "probability": 0.9915281534194946
         },
         {
-          "start": 4.2,
-          "end": 4.34,
-          "word": " your",
-          "probability": 0.9957544803619385
+          "start": 6.44,
+          "end": 6.82,
+          "word": " Here,",
+          "probability": 0.9930805563926697
         },
         {
-          "start": 4.34,
-          "end": 4.64,
-          "word": " finger.",
-          "probability": 0.9948822259902954
+          "start": 7.04,
+          "end": 7.34,
+          "word": " another",
+          "probability": 0.9954130053520203
         },
         {
-          "start": 5.1,
-          "end": 5.22,
-          "word": " It",
-          "probability": 0.9826666116714478
+          "start": 7.34,
+          "end": 7.6,
+          "word": " ridge",
+          "probability": 0.9883284568786621
         },
         {
-          "start": 5.22,
-          "end": 5.6,
-          "word": " learns",
-          "probability": 0.9945021867752075
+          "start": 7.6,
+          "end": 7.98,
+          "word": " splits",
+          "probability": 0.9893198013305664
         },
         {
-          "start": 5.6,
-          "end": 5.98,
-          "word": " a",
-          "probability": 0.9907282590866089
+          "start": 7.98,
+          "end": 8.32,
+          "word": " into",
+          "probability": 0.9703146815299988
         },
         {
-          "start": 5.98,
-          "end": 6.32,
-          "word": " pattern",
-          "probability": 0.999075174331665
+          "start": 8.32,
+          "end": 8.6,
+          "word": " two.",
+          "probability": 0.9031156897544861
         },
         {
-          "start": 6.32,
-          "end": 6.6,
-          "word": " of",
-          "probability": 0.9984592199325562
+          "start": 9.24,
+          "end": 9.54,
+          "word": " Details",
+          "probability": 0.9954562187194824
         },
         {
-          "start": 6.6,
-          "end": 7.16,
-          "word": " distinguishing",
-          "probability": 0.9826013445854187
+          "start": 9.54,
+          "end": 9.84,
+          "word": " like",
+          "probability": 0.9878590703010559
         },
         {
-          "start": 7.16,
-          "end": 7.72,
-          "word": " details.",
-          "probability": 0.9955421090126038
+          "start": 9.84,
+          "end": 10.22,
+          "word": " these",
+          "probability": 0.9814515709877014
         },
         {
-          "start": 8.36,
-          "end": 8.54,
-          "word": " Many",
-          "probability": 0.9952954649925232
+          "start": 10.22,
+          "end": 10.48,
+          "word": " are",
+          "probability": 0.9893093109130859
         },
         {
-          "start": 8.54,
-          "end": 8.84,
-          "word": " phones",
-          "probability": 0.9935640692710876
+          "start": 10.48,
+          "end": 10.84,
+          "word": " called",
+          "probability": 0.9953452944755554
         },
         {
-          "start": 8.84,
-          "end": 9.08,
-          "word": " use",
-          "probability": 0.9962154030799866
+          "start": 10.84,
+          "end": 11.54,
+          "word": " minutiae.",
+          "probability": 0.952884296576182
+        }
+      ]
+    },
+    {
+      "start": 12.14,
+      "end": 26.4,
+      "text": "A capacitive sensor maps them by measuring tiny electrical differences at many small points. The phone records which details are present and where they sit relative to one another. That is a mathematical template, not a photograph.",
+      "avg_logprob": -0.08758391816932035,
+      "no_speech_prob": 0.0054074726067483425,
+      "words": [
+        {
+          "start": 12.14,
+          "end": 12.34,
+          "word": " A",
+          "probability": 0.9946181178092957
         },
         {
-          "start": 9.08,
-          "end": 9.32,
-          "word": " a",
-          "probability": 0.9905996918678284
-        },
-        {
-          "start": 9.32,
-          "end": 9.86,
+          "start": 12.34,
+          "end": 12.96,
           "word": " capacitive",
-          "probability": 0.9950306415557861
+          "probability": 0.9950251877307892
         },
         {
-          "start": 9.86,
-          "end": 10.18,
+          "start": 12.96,
+          "end": 13.34,
           "word": " sensor",
-          "probability": 0.9929304122924805
+          "probability": 0.9952292442321777
         },
         {
-          "start": 10.18,
-          "end": 10.56,
-          "word": " to",
-          "probability": 0.9507962465286255
+          "start": 13.34,
+          "end": 13.78,
+          "word": " maps",
+          "probability": 0.9928344488143921
         },
         {
-          "start": 10.56,
-          "end": 10.8,
-          "word": " read",
-          "probability": 0.9912543892860413
+          "start": 13.78,
+          "end": 14.08,
+          "word": " them",
+          "probability": 0.9953615069389343
         },
         {
-          "start": 10.8,
-          "end": 11.36,
-          "word": " ridges",
-          "probability": 0.9965145885944366
+          "start": 14.08,
+          "end": 14.32,
+          "word": " by",
+          "probability": 0.9858260750770569
         },
         {
-          "start": 11.36,
-          "end": 11.6,
-          "word": " and",
-          "probability": 0.9894507527351379
-        },
-        {
-          "start": 11.6,
-          "end": 11.94,
-          "word": " valleys.",
-          "probability": 0.9991795420646667
-        },
-        {
-          "start": 12.48,
-          "end": 12.8,
-          "word": " Tiny",
-          "probability": 0.9912795424461365
-        },
-        {
-          "start": 12.8,
-          "end": 13.32,
-          "word": " electrical",
-          "probability": 0.9880179166793823
-        },
-        {
-          "start": 13.32,
-          "end": 13.84,
-          "word": " differences",
-          "probability": 0.9936434030532837
-        },
-        {
-          "start": 13.84,
-          "end": 14.24,
-          "word": " help",
-          "probability": 0.9881321787834167
-        },
-        {
-          "start": 14.24,
+          "start": 14.32,
           "end": 14.7,
-          "word": " map",
-          "probability": 0.9832206964492798
+          "word": " measuring",
+          "probability": 0.9977166652679443
         },
         {
           "start": 14.7,
-          "end": 15.1,
-          "word": " where",
-          "probability": 0.9944801330566406
+          "end": 15.28,
+          "word": " tiny",
+          "probability": 0.9972359538078308
         },
         {
-          "start": 15.1,
-          "end": 15.5,
-          "word": " each",
-          "probability": 0.9955803751945496
+          "start": 15.28,
+          "end": 15.88,
+          "word": " electrical",
+          "probability": 0.9961853623390198
         },
         {
-          "start": 15.5,
-          "end": 15.78,
-          "word": " ridge",
-          "probability": 0.9727476239204407
+          "start": 15.88,
+          "end": 16.36,
+          "word": " differences",
+          "probability": 0.992358386516571
         },
         {
-          "start": 15.78,
-          "end": 16.16,
-          "word": " sits.",
-          "probability": 0.991435706615448
+          "start": 16.36,
+          "end": 16.66,
+          "word": " at",
+          "probability": 0.9962970614433289
         },
         {
-          "start": 16.7,
-          "end": 16.82,
-          "word": " The",
-          "probability": 0.9873352646827698
+          "start": 16.66,
+          "end": 17.04,
+          "word": " many",
+          "probability": 0.9964041709899902
         },
         {
-          "start": 16.82,
-          "end": 17.08,
-          "word": " system",
-          "probability": 0.9980134963989258
-        },
-        {
-          "start": 17.08,
-          "end": 17.46,
-          "word": " finds",
-          "probability": 0.9950992465019226
-        },
-        {
-          "start": 17.46,
-          "end": 17.86,
-          "word": " features",
-          "probability": 0.9947749376296997
-        },
-        {
-          "start": 17.86,
-          "end": 18.14,
-          "word": " such",
-          "probability": 0.9447569847106934
-        },
-        {
-          "start": 18.14,
-          "end": 18.56,
-          "word": " as",
-          "probability": 0.993060827255249
-        },
-        {
-          "start": 18.56,
-          "end": 18.74,
-          "word": " ridge",
-          "probability": 0.9635152220726013
-        },
-        {
-          "start": 18.74,
-          "end": 19.2,
-          "word": " endings",
-          "probability": 0.9753372073173523
-        },
-        {
-          "start": 19.2,
-          "end": 19.54,
-          "word": " and",
-          "probability": 0.9768151044845581
-        },
-        {
-          "start": 19.54,
-          "end": 19.88,
-          "word": " splits.",
-          "probability": 0.9967567324638367
-        },
-        {
-          "start": 20.5,
-          "end": 20.6,
-          "word": " It",
-          "probability": 0.992756187915802
-        },
-        {
-          "start": 20.6,
-          "end": 20.92,
-          "word": " stores",
-          "probability": 0.9896892309188843
-        },
-        {
-          "start": 20.92,
-          "end": 21.24,
-          "word": " a",
-          "probability": 0.9953343272209167
-        },
-        {
-          "start": 21.24,
-          "end": 21.74,
-          "word": " mathematical",
-          "probability": 0.997229278087616
-        },
-        {
-          "start": 21.74,
-          "end": 22.38,
-          "word": " template,",
-          "probability": 0.998374342918396
-        },
-        {
-          "start": 22.58,
-          "end": 22.78,
-          "word": " not",
-          "probability": 0.9938544034957886
-        },
-        {
-          "start": 22.78,
-          "end": 23.02,
-          "word": " an",
-          "probability": 0.9957836866378784
-        },
-        {
-          "start": 23.02,
-          "end": 23.38,
-          "word": " ordinary",
-          "probability": 0.9979324340820312
-        },
-        {
-          "start": 23.38,
-          "end": 23.76,
-          "word": " image",
-          "probability": 0.99891197681427
-        },
-        {
-          "start": 23.76,
-          "end": 23.92,
-          "word": " you",
-          "probability": 0.9549428820610046
-        },
-        {
-          "start": 23.92,
-          "end": 24.06,
-          "word": " can",
-          "probability": 0.9962683320045471
-        },
-        {
-          "start": 24.06,
-          "end": 24.3,
-          "word": " open.",
-          "probability": 0.9989728927612305
-        },
-        {
-          "start": 24.8,
-          "end": 25.0,
-          "word": " When",
-          "probability": 0.9943403005599976
-        },
-        {
-          "start": 25.0,
-          "end": 25.12,
-          "word": " you",
-          "probability": 0.9984329342842102
-        },
-        {
-          "start": 25.12,
-          "end": 25.3,
-          "word": " try",
-          "probability": 0.9991182684898376
-        },
-        {
-          "start": 25.3,
-          "end": 25.64,
-          "word": " again,",
-          "probability": 0.9966687560081482
-        },
-        {
-          "start": 25.94,
-          "end": 26.14,
-          "word": " the",
-          "probability": 0.9912174940109253
-        },
-        {
-          "start": 26.14,
-          "end": 26.34,
-          "word": " new",
-          "probability": 0.9708423614501953
-        },
-        {
-          "start": 26.34,
-          "end": 26.66,
-          "word": " scan",
-          "probability": 0.9765182137489319
-        },
-        {
-          "start": 26.66,
-          "end": 27.06,
-          "word": " becomes",
-          "probability": 0.9917608499526978
-        },
-        {
-          "start": 27.06,
-          "end": 27.44,
-          "word": " another",
-          "probability": 0.997267484664917
-        },
-        {
-          "start": 27.44,
-          "end": 27.86,
-          "word": " template.",
-          "probability": 0.9994325041770935
-        }
-      ]
-    },
-    {
-      "start": 27.86,
-      "end": 31.98,
-      "text": "The phone compares features and their positions allowing for small shifts.",
-      "avg_logprob": -0.17844961488500555,
-      "no_speech_prob": 0.008998619392514229,
-      "words": [
-        {
-          "start": 27.86,
-          "end": 28.44,
-          "word": " The",
-          "probability": 0.7214184403419495
-        },
-        {
-          "start": 28.44,
-          "end": 28.66,
-          "word": " phone",
-          "probability": 0.976978063583374
-        },
-        {
-          "start": 28.66,
-          "end": 29.18,
-          "word": " compares",
-          "probability": 0.9833031296730042
-        },
-        {
-          "start": 29.18,
-          "end": 29.54,
-          "word": " features",
-          "probability": 0.9831000566482544
-        },
-        {
-          "start": 29.54,
-          "end": 29.84,
-          "word": " and",
-          "probability": 0.9812142848968506
-        },
-        {
-          "start": 29.84,
-          "end": 30.0,
-          "word": " their",
-          "probability": 0.9935949444770813
-        },
-        {
-          "start": 30.0,
-          "end": 30.46,
-          "word": " positions",
-          "probability": 0.9786525964736938
-        },
-        {
-          "start": 30.46,
-          "end": 30.94,
-          "word": " allowing",
-          "probability": 0.5965436100959778
-        },
-        {
-          "start": 30.94,
-          "end": 31.24,
-          "word": " for",
-          "probability": 0.9919546246528625
-        },
-        {
-          "start": 31.24,
-          "end": 31.6,
+          "start": 17.04,
+          "end": 17.42,
           "word": " small",
-          "probability": 0.9943075776100159
+          "probability": 0.9959348440170288
         },
         {
-          "start": 31.6,
-          "end": 31.98,
-          "word": " shifts.",
-          "probability": 0.9932805895805359
-        }
-      ]
-    },
-    {
-      "start": 32.64,
-      "end": 35.34,
-      "text": "A close match unlocks, a poor match fails.",
-      "avg_logprob": -0.17844961488500555,
-      "no_speech_prob": 0.008998619392514229,
-      "words": [
-        {
-          "start": 32.64,
-          "end": 32.72,
-          "word": " A",
-          "probability": 0.9780732989311218
+          "start": 17.42,
+          "end": 17.86,
+          "word": " points.",
+          "probability": 0.9979348182678223
         },
         {
-          "start": 32.72,
-          "end": 33.08,
-          "word": " close",
-          "probability": 0.9665395021438599
+          "start": 18.46,
+          "end": 18.6,
+          "word": " The",
+          "probability": 0.9949347376823425
         },
         {
-          "start": 33.08,
-          "end": 33.34,
-          "word": " match",
-          "probability": 0.9858207702636719
-        },
-        {
-          "start": 33.34,
-          "end": 33.88,
-          "word": " unlocks,",
-          "probability": 0.9895339608192444
-        },
-        {
-          "start": 34.24,
-          "end": 34.3,
-          "word": " a",
-          "probability": 0.9386260509490967
-        },
-        {
-          "start": 34.3,
-          "end": 34.58,
-          "word": " poor",
-          "probability": 0.996955394744873
-        },
-        {
-          "start": 34.58,
-          "end": 34.86,
-          "word": " match",
-          "probability": 0.9961431622505188
-        },
-        {
-          "start": 34.86,
-          "end": 35.34,
-          "word": " fails.",
-          "probability": 0.9906848073005676
-        }
-      ]
-    },
-    {
-      "start": 35.94,
-      "end": 41.38,
-      "text": "So your fingerprint becomes a pattern the phone can compare without expecting two touches to be identical.",
-      "avg_logprob": -0.17844961488500555,
-      "no_speech_prob": 0.008998619392514229,
-      "words": [
-        {
-          "start": 35.94,
-          "end": 36.04,
-          "word": " So",
-          "probability": 0.9876177906990051
-        },
-        {
-          "start": 36.04,
-          "end": 36.24,
-          "word": " your",
-          "probability": 0.8537835478782654
-        },
-        {
-          "start": 36.24,
-          "end": 36.64,
-          "word": " fingerprint",
-          "probability": 0.9590145945549011
-        },
-        {
-          "start": 36.64,
-          "end": 37.08,
-          "word": " becomes",
-          "probability": 0.9874837398529053
-        },
-        {
-          "start": 37.08,
-          "end": 37.34,
-          "word": " a",
-          "probability": 0.9839058518409729
-        },
-        {
-          "start": 37.34,
-          "end": 37.7,
-          "word": " pattern",
-          "probability": 0.9989377856254578
-        },
-        {
-          "start": 37.7,
-          "end": 37.96,
-          "word": " the",
-          "probability": 0.9788594245910645
-        },
-        {
-          "start": 37.96,
-          "end": 38.16,
+          "start": 18.6,
+          "end": 18.8,
           "word": " phone",
-          "probability": 0.9964648485183716
+          "probability": 0.9972301125526428
         },
         {
-          "start": 38.16,
-          "end": 38.4,
-          "word": " can",
-          "probability": 0.9960058331489563
+          "start": 18.8,
+          "end": 19.24,
+          "word": " records",
+          "probability": 0.9979775547981262
         },
         {
-          "start": 38.4,
-          "end": 38.88,
-          "word": " compare",
-          "probability": 0.9971224665641785
+          "start": 19.24,
+          "end": 19.6,
+          "word": " which",
+          "probability": 0.9831773638725281
         },
         {
-          "start": 38.88,
-          "end": 39.44,
-          "word": " without",
-          "probability": 0.9230707883834839
+          "start": 19.6,
+          "end": 20.06,
+          "word": " details",
+          "probability": 0.9966261386871338
         },
         {
-          "start": 39.44,
-          "end": 40.0,
-          "word": " expecting",
-          "probability": 0.9975171089172363
+          "start": 20.06,
+          "end": 20.28,
+          "word": " are",
+          "probability": 0.9991382360458374
         },
         {
-          "start": 40.0,
-          "end": 40.32,
-          "word": " two",
-          "probability": 0.7571718692779541
+          "start": 20.28,
+          "end": 20.66,
+          "word": " present",
+          "probability": 0.999218225479126
         },
         {
-          "start": 40.32,
-          "end": 40.62,
-          "word": " touches",
-          "probability": 0.9981368780136108
+          "start": 20.66,
+          "end": 21.1,
+          "word": " and",
+          "probability": 0.9032079577445984
         },
         {
-          "start": 40.62,
-          "end": 40.8,
+          "start": 21.1,
+          "end": 21.42,
+          "word": " where",
+          "probability": 0.9981696605682373
+        },
+        {
+          "start": 21.42,
+          "end": 21.66,
+          "word": " they",
+          "probability": 0.996554970741272
+        },
+        {
+          "start": 21.66,
+          "end": 21.84,
+          "word": " sit",
+          "probability": 0.993339478969574
+        },
+        {
+          "start": 21.84,
+          "end": 22.26,
+          "word": " relative",
+          "probability": 0.9920701384544373
+        },
+        {
+          "start": 22.26,
+          "end": 22.5,
           "word": " to",
-          "probability": 0.9965903759002686
+          "probability": 0.9973148703575134
         },
         {
-          "start": 40.8,
-          "end": 40.94,
-          "word": " be",
-          "probability": 0.9989691972732544
+          "start": 22.5,
+          "end": 22.64,
+          "word": " one",
+          "probability": 0.9858331680297852
         },
         {
-          "start": 40.94,
-          "end": 41.38,
-          "word": " identical.",
-          "probability": 0.9988847374916077
+          "start": 22.64,
+          "end": 22.96,
+          "word": " another.",
+          "probability": 0.9941293001174927
+        },
+        {
+          "start": 23.36,
+          "end": 23.8,
+          "word": " That",
+          "probability": 0.9880011677742004
+        },
+        {
+          "start": 23.8,
+          "end": 24.0,
+          "word": " is",
+          "probability": 0.9850589036941528
+        },
+        {
+          "start": 24.0,
+          "end": 24.28,
+          "word": " a",
+          "probability": 0.9884862899780273
+        },
+        {
+          "start": 24.28,
+          "end": 24.78,
+          "word": " mathematical",
+          "probability": 0.9975442290306091
+        },
+        {
+          "start": 24.78,
+          "end": 25.42,
+          "word": " template,",
+          "probability": 0.9993234872817993
+        },
+        {
+          "start": 25.6,
+          "end": 25.88,
+          "word": " not",
+          "probability": 0.9973994493484497
+        },
+        {
+          "start": 25.88,
+          "end": 26.08,
+          "word": " a",
+          "probability": 0.997569739818573
+        },
+        {
+          "start": 26.08,
+          "end": 26.4,
+          "word": " photograph.",
+          "probability": 0.994500994682312
+        }
+      ]
+    },
+    {
+      "start": 26.4,
+      "end": 29.86,
+      "text": "On your next touch, the phone builds another template.",
+      "avg_logprob": -0.19491248364959443,
+      "no_speech_prob": 0.005293235648423433,
+      "words": [
+        {
+          "start": 26.4,
+          "end": 27.3,
+          "word": " On",
+          "probability": 0.7501862645149231
+        },
+        {
+          "start": 27.3,
+          "end": 27.5,
+          "word": " your",
+          "probability": 0.9727584719657898
+        },
+        {
+          "start": 27.5,
+          "end": 27.82,
+          "word": " next",
+          "probability": 0.9846113324165344
+        },
+        {
+          "start": 27.82,
+          "end": 28.1,
+          "word": " touch,",
+          "probability": 0.9951258301734924
+        },
+        {
+          "start": 28.38,
+          "end": 28.46,
+          "word": " the",
+          "probability": 0.975540816783905
+        },
+        {
+          "start": 28.46,
+          "end": 28.68,
+          "word": " phone",
+          "probability": 0.9886782765388489
+        },
+        {
+          "start": 28.68,
+          "end": 28.98,
+          "word": " builds",
+          "probability": 0.9942963719367981
+        },
+        {
+          "start": 28.98,
+          "end": 29.44,
+          "word": " another",
+          "probability": 0.9951463341712952
+        },
+        {
+          "start": 29.44,
+          "end": 29.86,
+          "word": " template.",
+          "probability": 0.9953621029853821
+        }
+      ]
+    },
+    {
+      "start": 30.44,
+      "end": 34.86,
+      "text": "It compares corresponding details, even if your finger shifted or rotated slightly.",
+      "avg_logprob": -0.19491248364959443,
+      "no_speech_prob": 0.005293235648423433,
+      "words": [
+        {
+          "start": 30.44,
+          "end": 30.48,
+          "word": " It",
+          "probability": 0.9902709722518921
+        },
+        {
+          "start": 30.48,
+          "end": 30.92,
+          "word": " compares",
+          "probability": 0.9943262934684753
+        },
+        {
+          "start": 30.92,
+          "end": 31.56,
+          "word": " corresponding",
+          "probability": 0.9861292243003845
+        },
+        {
+          "start": 31.56,
+          "end": 32.12,
+          "word": " details,",
+          "probability": 0.9978328347206116
+        },
+        {
+          "start": 32.34,
+          "end": 32.66,
+          "word": " even",
+          "probability": 0.994723916053772
+        },
+        {
+          "start": 32.66,
+          "end": 32.82,
+          "word": " if",
+          "probability": 0.9952492713928223
+        },
+        {
+          "start": 32.82,
+          "end": 32.96,
+          "word": " your",
+          "probability": 0.9761840105056763
+        },
+        {
+          "start": 32.96,
+          "end": 33.22,
+          "word": " finger",
+          "probability": 0.6195408701896667
+        },
+        {
+          "start": 33.22,
+          "end": 33.68,
+          "word": " shifted",
+          "probability": 0.8960210084915161
+        },
+        {
+          "start": 33.68,
+          "end": 33.94,
+          "word": " or",
+          "probability": 0.9852515459060669
+        },
+        {
+          "start": 33.94,
+          "end": 34.34,
+          "word": " rotated",
+          "probability": 0.9938733577728271
+        },
+        {
+          "start": 34.34,
+          "end": 34.86,
+          "word": " slightly.",
+          "probability": 0.9929924011230469
+        }
+      ]
+    },
+    {
+      "start": 35.48,
+      "end": 38.42,
+      "text": "Enough matching features can unlock, too few cannot.",
+      "avg_logprob": -0.19491248364959443,
+      "no_speech_prob": 0.005293235648423433,
+      "words": [
+        {
+          "start": 35.48,
+          "end": 35.8,
+          "word": " Enough",
+          "probability": 0.9856727123260498
+        },
+        {
+          "start": 35.8,
+          "end": 36.16,
+          "word": " matching",
+          "probability": 0.981918454170227
+        },
+        {
+          "start": 36.16,
+          "end": 36.58,
+          "word": " features",
+          "probability": 0.9891022443771362
+        },
+        {
+          "start": 36.58,
+          "end": 36.86,
+          "word": " can",
+          "probability": 0.9777919054031372
+        },
+        {
+          "start": 36.86,
+          "end": 37.24,
+          "word": " unlock,",
+          "probability": 0.9905461072921753
+        },
+        {
+          "start": 37.62,
+          "end": 37.76,
+          "word": " too",
+          "probability": 0.9742618799209595
+        },
+        {
+          "start": 37.76,
+          "end": 38.04,
+          "word": " few",
+          "probability": 0.9991241097450256
+        },
+        {
+          "start": 38.04,
+          "end": 38.42,
+          "word": " cannot.",
+          "probability": 0.9642401933670044
+        }
+      ]
+    },
+    {
+      "start": 39.12,
+      "end": 43.8,
+      "text": "Recognition means comparing patterns, not finding too identical pictures.",
+      "avg_logprob": -0.19491248364959443,
+      "no_speech_prob": 0.005293235648423433,
+      "words": [
+        {
+          "start": 39.12,
+          "end": 39.8,
+          "word": " Recognition",
+          "probability": 0.98839271068573
+        },
+        {
+          "start": 39.8,
+          "end": 40.12,
+          "word": " means",
+          "probability": 0.9946807026863098
+        },
+        {
+          "start": 40.12,
+          "end": 40.74,
+          "word": " comparing",
+          "probability": 0.9762845635414124
+        },
+        {
+          "start": 40.74,
+          "end": 41.44,
+          "word": " patterns,",
+          "probability": 0.9937025308609009
+        },
+        {
+          "start": 41.74,
+          "end": 41.9,
+          "word": " not",
+          "probability": 0.9944879412651062
+        },
+        {
+          "start": 41.9,
+          "end": 42.28,
+          "word": " finding",
+          "probability": 0.9985055923461914
+        },
+        {
+          "start": 42.28,
+          "end": 42.6,
+          "word": " too",
+          "probability": 0.9597586393356323
+        },
+        {
+          "start": 42.6,
+          "end": 43.3,
+          "word": " identical",
+          "probability": 0.9928035140037537
+        },
+        {
+          "start": 43.3,
+          "end": 43.8,
+          "word": " pictures.",
+          "probability": 0.9893590211868286
         }
       ]
     }
