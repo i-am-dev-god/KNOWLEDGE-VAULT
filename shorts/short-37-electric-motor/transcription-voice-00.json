@@ -1,0 +1,907 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "19848fa57094756b7969fa1220d773a86976a89fcc66ada3a2bd36807cafa494",
+  "language": "en",
+  "language_probability": 1,
+  "text": "An electric motor turns electrical energy into rotation to power fans, tools and machines. Inside the motor, the essential interaction is between electric current and a magnetic field. Two fixed magnets create a magnetic field across the motor's central space. A wire coil sits in that field, and the motor sends electric current through the coil. The current-carrying coil experiences opposite forces on its two sides, creating a turning force called torque. torque. Those forces rotate the coil and the shaft attached to it. But the coil would stall if the current stayed in the same direction. A split ring commutator reverses the current every half turn, keeping the torque in the same rotational direction. So the motor keeps spinning by repeatedly switching the coil's current so magnetic forces continue turning its shaft.",
+  "mean_word_probability": 0.9759685988005121,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.66,
+      "text": "An electric motor turns electrical energy into rotation to power fans, tools and machines.",
+      "avg_logprob": -0.06411362923297685,
+      "no_speech_prob": 0.04259416088461876,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "word": " An",
+          "probability": 0.8367166519165039
+        },
+        {
+          "start": 0.9,
+          "end": 1.3,
+          "word": " electric",
+          "probability": 0.9813379049301147
+        },
+        {
+          "start": 1.3,
+          "end": 1.66,
+          "word": " motor",
+          "probability": 0.9944919347763062
+        },
+        {
+          "start": 1.66,
+          "end": 2.16,
+          "word": " turns",
+          "probability": 0.9935686588287354
+        },
+        {
+          "start": 2.16,
+          "end": 2.74,
+          "word": " electrical",
+          "probability": 0.9928938746452332
+        },
+        {
+          "start": 2.74,
+          "end": 3.16,
+          "word": " energy",
+          "probability": 0.9994621872901917
+        },
+        {
+          "start": 3.16,
+          "end": 3.48,
+          "word": " into",
+          "probability": 0.9915739893913269
+        },
+        {
+          "start": 3.48,
+          "end": 4.02,
+          "word": " rotation",
+          "probability": 0.9880304932594299
+        },
+        {
+          "start": 4.02,
+          "end": 4.38,
+          "word": " to",
+          "probability": 0.960170567035675
+        },
+        {
+          "start": 4.38,
+          "end": 4.6,
+          "word": " power",
+          "probability": 0.9986034035682678
+        },
+        {
+          "start": 4.6,
+          "end": 5.22,
+          "word": " fans,",
+          "probability": 0.982579231262207
+        },
+        {
+          "start": 5.54,
+          "end": 5.84,
+          "word": " tools",
+          "probability": 0.993350088596344
+        },
+        {
+          "start": 5.84,
+          "end": 6.22,
+          "word": " and",
+          "probability": 0.7941356301307678
+        },
+        {
+          "start": 6.22,
+          "end": 6.66,
+          "word": " machines.",
+          "probability": 0.9973891377449036
+        }
+      ]
+    },
+    {
+      "start": 7.26,
+      "end": 12.34,
+      "text": "Inside the motor, the essential interaction is between electric current and a magnetic field.",
+      "avg_logprob": -0.06411362923297685,
+      "no_speech_prob": 0.04259416088461876,
+      "words": [
+        {
+          "start": 7.26,
+          "end": 7.58,
+          "word": " Inside",
+          "probability": 0.9753981828689575
+        },
+        {
+          "start": 7.58,
+          "end": 7.86,
+          "word": " the",
+          "probability": 0.9940809607505798
+        },
+        {
+          "start": 7.86,
+          "end": 8.14,
+          "word": " motor,",
+          "probability": 0.9955451488494873
+        },
+        {
+          "start": 8.5,
+          "end": 8.62,
+          "word": " the",
+          "probability": 0.991459846496582
+        },
+        {
+          "start": 8.62,
+          "end": 9.1,
+          "word": " essential",
+          "probability": 0.9978976249694824
+        },
+        {
+          "start": 9.1,
+          "end": 9.66,
+          "word": " interaction",
+          "probability": 0.9977734684944153
+        },
+        {
+          "start": 9.66,
+          "end": 9.92,
+          "word": " is",
+          "probability": 0.9946804642677307
+        },
+        {
+          "start": 9.92,
+          "end": 10.24,
+          "word": " between",
+          "probability": 0.9987181425094604
+        },
+        {
+          "start": 10.24,
+          "end": 10.8,
+          "word": " electric",
+          "probability": 0.9495596885681152
+        },
+        {
+          "start": 10.8,
+          "end": 11.06,
+          "word": " current",
+          "probability": 0.9980194568634033
+        },
+        {
+          "start": 11.06,
+          "end": 11.44,
+          "word": " and",
+          "probability": 0.9923931360244751
+        },
+        {
+          "start": 11.44,
+          "end": 11.6,
+          "word": " a",
+          "probability": 0.9470598101615906
+        },
+        {
+          "start": 11.6,
+          "end": 11.96,
+          "word": " magnetic",
+          "probability": 0.9987323880195618
+        },
+        {
+          "start": 11.96,
+          "end": 12.34,
+          "word": " field.",
+          "probability": 0.9995323419570923
+        }
+      ]
+    },
+    {
+      "start": 12.94,
+      "end": 17.1,
+      "text": "Two fixed magnets create a magnetic field across the motor's central space.",
+      "avg_logprob": -0.06411362923297685,
+      "no_speech_prob": 0.04259416088461876,
+      "words": [
+        {
+          "start": 12.94,
+          "end": 13.1,
+          "word": " Two",
+          "probability": 0.9520021677017212
+        },
+        {
+          "start": 13.1,
+          "end": 13.52,
+          "word": " fixed",
+          "probability": 0.9985426664352417
+        },
+        {
+          "start": 13.52,
+          "end": 13.94,
+          "word": " magnets",
+          "probability": 0.9957420229911804
+        },
+        {
+          "start": 13.94,
+          "end": 14.32,
+          "word": " create",
+          "probability": 0.9882431626319885
+        },
+        {
+          "start": 14.32,
+          "end": 14.56,
+          "word": " a",
+          "probability": 0.9918296933174133
+        },
+        {
+          "start": 14.56,
+          "end": 14.9,
+          "word": " magnetic",
+          "probability": 0.9992331266403198
+        },
+        {
+          "start": 14.9,
+          "end": 15.26,
+          "word": " field",
+          "probability": 0.9988296627998352
+        },
+        {
+          "start": 15.26,
+          "end": 15.72,
+          "word": " across",
+          "probability": 0.9973588585853577
+        },
+        {
+          "start": 15.72,
+          "end": 16.02,
+          "word": " the",
+          "probability": 0.9911587834358215
+        },
+        {
+          "start": 16.02,
+          "end": 16.42,
+          "word": " motor's",
+          "probability": 0.9603612422943115
+        },
+        {
+          "start": 16.42,
+          "end": 16.66,
+          "word": " central",
+          "probability": 0.9945170283317566
+        },
+        {
+          "start": 16.66,
+          "end": 17.1,
+          "word": " space.",
+          "probability": 0.99672532081604
+        }
+      ]
+    },
+    {
+      "start": 17.58,
+      "end": 22.3,
+      "text": "A wire coil sits in that field, and the motor sends electric current through the coil.",
+      "avg_logprob": -0.06411362923297685,
+      "no_speech_prob": 0.04259416088461876,
+      "words": [
+        {
+          "start": 17.58,
+          "end": 17.76,
+          "word": " A",
+          "probability": 0.9972352385520935
+        },
+        {
+          "start": 17.76,
+          "end": 18.06,
+          "word": " wire",
+          "probability": 0.9892135262489319
+        },
+        {
+          "start": 18.06,
+          "end": 18.44,
+          "word": " coil",
+          "probability": 0.9934276342391968
+        },
+        {
+          "start": 18.44,
+          "end": 18.8,
+          "word": " sits",
+          "probability": 0.9964625239372253
+        },
+        {
+          "start": 18.8,
+          "end": 19.0,
+          "word": " in",
+          "probability": 0.9972293972969055
+        },
+        {
+          "start": 19.0,
+          "end": 19.14,
+          "word": " that",
+          "probability": 0.982854962348938
+        },
+        {
+          "start": 19.14,
+          "end": 19.42,
+          "word": " field,",
+          "probability": 0.9973245859146118
+        },
+        {
+          "start": 19.5,
+          "end": 19.88,
+          "word": " and",
+          "probability": 0.9933630228042603
+        },
+        {
+          "start": 19.88,
+          "end": 20.04,
+          "word": " the",
+          "probability": 0.9927639365196228
+        },
+        {
+          "start": 20.04,
+          "end": 20.28,
+          "word": " motor",
+          "probability": 0.9972175359725952
+        },
+        {
+          "start": 20.28,
+          "end": 20.64,
+          "word": " sends",
+          "probability": 0.9981085062026978
+        },
+        {
+          "start": 20.64,
+          "end": 21.14,
+          "word": " electric",
+          "probability": 0.9800807237625122
+        },
+        {
+          "start": 21.14,
+          "end": 21.5,
+          "word": " current",
+          "probability": 0.9983345866203308
+        },
+        {
+          "start": 21.5,
+          "end": 21.86,
+          "word": " through",
+          "probability": 0.9971944093704224
+        },
+        {
+          "start": 21.86,
+          "end": 22.08,
+          "word": " the",
+          "probability": 0.9842004179954529
+        },
+        {
+          "start": 22.08,
+          "end": 22.3,
+          "word": " coil.",
+          "probability": 0.9985582232475281
+        }
+      ]
+    },
+    {
+      "start": 22.84,
+      "end": 28.84,
+      "text": "The current-carrying coil experiences opposite forces on its two sides, creating a turning force called torque.",
+      "avg_logprob": -0.06411362923297685,
+      "no_speech_prob": 0.04259416088461876,
+      "words": [
+        {
+          "start": 22.84,
+          "end": 22.98,
+          "word": " The",
+          "probability": 0.9915235042572021
+        },
+        {
+          "start": 22.98,
+          "end": 23.34,
+          "word": " current",
+          "probability": 0.9976838827133179
+        },
+        {
+          "start": 23.34,
+          "end": 23.76,
+          "word": "-carrying",
+          "probability": 0.897874673207601
+        },
+        {
+          "start": 23.76,
+          "end": 23.98,
+          "word": " coil",
+          "probability": 0.9983459711074829
+        },
+        {
+          "start": 23.98,
+          "end": 24.66,
+          "word": " experiences",
+          "probability": 0.9949504137039185
+        },
+        {
+          "start": 24.66,
+          "end": 25.24,
+          "word": " opposite",
+          "probability": 0.9966573715209961
+        },
+        {
+          "start": 25.24,
+          "end": 25.64,
+          "word": " forces",
+          "probability": 0.9967607855796814
+        },
+        {
+          "start": 25.64,
+          "end": 25.86,
+          "word": " on",
+          "probability": 0.9976039528846741
+        },
+        {
+          "start": 25.86,
+          "end": 26.0,
+          "word": " its",
+          "probability": 0.9930181503295898
+        },
+        {
+          "start": 26.0,
+          "end": 26.2,
+          "word": " two",
+          "probability": 0.9906126260757446
+        },
+        {
+          "start": 26.2,
+          "end": 26.52,
+          "word": " sides,",
+          "probability": 0.9990978240966797
+        },
+        {
+          "start": 26.84,
+          "end": 27.16,
+          "word": " creating",
+          "probability": 0.9969391822814941
+        },
+        {
+          "start": 27.16,
+          "end": 27.42,
+          "word": " a",
+          "probability": 0.9988691210746765
+        },
+        {
+          "start": 27.42,
+          "end": 27.7,
+          "word": " turning",
+          "probability": 0.9950253367424011
+        },
+        {
+          "start": 27.7,
+          "end": 28.08,
+          "word": " force",
+          "probability": 0.9962618947029114
+        },
+        {
+          "start": 28.08,
+          "end": 28.46,
+          "word": " called",
+          "probability": 0.9589153528213501
+        },
+        {
+          "start": 28.46,
+          "end": 28.84,
+          "word": " torque.",
+          "probability": 0.9885346293449402
+        }
+      ]
+    },
+    {
+      "start": 28.84,
+      "end": 34.06,
+      "text": "torque. Those forces rotate the coil and the shaft attached to it. But the coil would stall",
+      "avg_logprob": -0.10164508032493103,
+      "no_speech_prob": 0.0020276971627026796,
+      "words": [
+        {
+          "start": 28.84,
+          "end": 29.0,
+          "word": " torque.",
+          "probability": 0.740400493144989
+        },
+        {
+          "start": 29.34,
+          "end": 29.68,
+          "word": " Those",
+          "probability": 0.983116090297699
+        },
+        {
+          "start": 29.68,
+          "end": 30.04,
+          "word": " forces",
+          "probability": 0.9918791055679321
+        },
+        {
+          "start": 30.04,
+          "end": 30.5,
+          "word": " rotate",
+          "probability": 0.9931405186653137
+        },
+        {
+          "start": 30.5,
+          "end": 30.78,
+          "word": " the",
+          "probability": 0.9977432489395142
+        },
+        {
+          "start": 30.78,
+          "end": 31.0,
+          "word": " coil",
+          "probability": 0.9982183575630188
+        },
+        {
+          "start": 31.0,
+          "end": 31.32,
+          "word": " and",
+          "probability": 0.9899590611457825
+        },
+        {
+          "start": 31.32,
+          "end": 31.5,
+          "word": " the",
+          "probability": 0.9820594191551208
+        },
+        {
+          "start": 31.5,
+          "end": 31.72,
+          "word": " shaft",
+          "probability": 0.9995929598808289
+        },
+        {
+          "start": 31.72,
+          "end": 32.1,
+          "word": " attached",
+          "probability": 0.9848889112472534
+        },
+        {
+          "start": 32.1,
+          "end": 32.34,
+          "word": " to",
+          "probability": 0.9947562217712402
+        },
+        {
+          "start": 32.34,
+          "end": 32.56,
+          "word": " it.",
+          "probability": 0.9988577365875244
+        },
+        {
+          "start": 32.82,
+          "end": 33.08,
+          "word": " But",
+          "probability": 0.994707465171814
+        },
+        {
+          "start": 33.08,
+          "end": 33.28,
+          "word": " the",
+          "probability": 0.9599617123603821
+        },
+        {
+          "start": 33.28,
+          "end": 33.46,
+          "word": " coil",
+          "probability": 0.9978698492050171
+        },
+        {
+          "start": 33.46,
+          "end": 33.68,
+          "word": " would",
+          "probability": 0.9899742007255554
+        },
+        {
+          "start": 33.68,
+          "end": 34.06,
+          "word": " stall",
+          "probability": 0.9997579455375671
+        }
+      ]
+    },
+    {
+      "start": 34.06,
+      "end": 38.8,
+      "text": "if the current stayed in the same direction. A split ring commutator reverses the current",
+      "avg_logprob": -0.10164508032493103,
+      "no_speech_prob": 0.0020276971627026796,
+      "words": [
+        {
+          "start": 34.06,
+          "end": 34.34,
+          "word": " if",
+          "probability": 0.9824490547180176
+        },
+        {
+          "start": 34.34,
+          "end": 34.5,
+          "word": " the",
+          "probability": 0.9841221570968628
+        },
+        {
+          "start": 34.5,
+          "end": 34.7,
+          "word": " current",
+          "probability": 0.9957334399223328
+        },
+        {
+          "start": 34.7,
+          "end": 34.98,
+          "word": " stayed",
+          "probability": 0.9935693740844727
+        },
+        {
+          "start": 34.98,
+          "end": 35.16,
+          "word": " in",
+          "probability": 0.9909868836402893
+        },
+        {
+          "start": 35.16,
+          "end": 35.26,
+          "word": " the",
+          "probability": 0.9852801561355591
+        },
+        {
+          "start": 35.26,
+          "end": 35.52,
+          "word": " same",
+          "probability": 0.9983659386634827
+        },
+        {
+          "start": 35.52,
+          "end": 35.92,
+          "word": " direction.",
+          "probability": 0.9984849095344543
+        },
+        {
+          "start": 36.4,
+          "end": 36.58,
+          "word": " A",
+          "probability": 0.9954732060432434
+        },
+        {
+          "start": 36.58,
+          "end": 36.84,
+          "word": " split",
+          "probability": 0.9920237064361572
+        },
+        {
+          "start": 36.84,
+          "end": 37.08,
+          "word": " ring",
+          "probability": 0.7351202964782715
+        },
+        {
+          "start": 37.08,
+          "end": 37.76,
+          "word": " commutator",
+          "probability": 0.9809235334396362
+        },
+        {
+          "start": 37.76,
+          "end": 38.42,
+          "word": " reverses",
+          "probability": 0.9960199594497681
+        },
+        {
+          "start": 38.42,
+          "end": 38.56,
+          "word": " the",
+          "probability": 0.9940738081932068
+        },
+        {
+          "start": 38.56,
+          "end": 38.8,
+          "word": " current",
+          "probability": 0.9984766840934753
+        }
+      ]
+    },
+    {
+      "start": 38.8,
+      "end": 43.22,
+      "text": "every half turn, keeping the torque in the same rotational direction. So the motor",
+      "avg_logprob": -0.10164508032493103,
+      "no_speech_prob": 0.0020276971627026796,
+      "words": [
+        {
+          "start": 38.8,
+          "end": 39.24,
+          "word": " every",
+          "probability": 0.9936498999595642
+        },
+        {
+          "start": 39.24,
+          "end": 39.5,
+          "word": " half",
+          "probability": 0.9337232708930969
+        },
+        {
+          "start": 39.5,
+          "end": 39.76,
+          "word": " turn,",
+          "probability": 0.570476770401001
+        },
+        {
+          "start": 40.08,
+          "end": 40.3,
+          "word": " keeping",
+          "probability": 0.9966057538986206
+        },
+        {
+          "start": 40.3,
+          "end": 40.58,
+          "word": " the",
+          "probability": 0.986415445804596
+        },
+        {
+          "start": 40.58,
+          "end": 40.74,
+          "word": " torque",
+          "probability": 0.9986292123794556
+        },
+        {
+          "start": 40.74,
+          "end": 40.92,
+          "word": " in",
+          "probability": 0.996589183807373
+        },
+        {
+          "start": 40.92,
+          "end": 41.08,
+          "word": " the",
+          "probability": 0.9828305244445801
+        },
+        {
+          "start": 41.08,
+          "end": 41.32,
+          "word": " same",
+          "probability": 0.9970830082893372
+        },
+        {
+          "start": 41.32,
+          "end": 41.84,
+          "word": " rotational",
+          "probability": 0.9905153512954712
+        },
+        {
+          "start": 41.84,
+          "end": 42.3,
+          "word": " direction.",
+          "probability": 0.9988736510276794
+        },
+        {
+          "start": 42.52,
+          "end": 42.84,
+          "word": " So",
+          "probability": 0.9958863854408264
+        },
+        {
+          "start": 42.84,
+          "end": 43.02,
+          "word": " the",
+          "probability": 0.8182705640792847
+        },
+        {
+          "start": 43.02,
+          "end": 43.22,
+          "word": " motor",
+          "probability": 0.9954837560653687
+        }
+      ]
+    },
+    {
+      "start": 43.22,
+      "end": 47.86,
+      "text": "keeps spinning by repeatedly switching the coil's current so magnetic forces continue",
+      "avg_logprob": -0.10164508032493103,
+      "no_speech_prob": 0.0020276971627026796,
+      "words": [
+        {
+          "start": 43.22,
+          "end": 43.52,
+          "word": " keeps",
+          "probability": 0.9826219081878662
+        },
+        {
+          "start": 43.52,
+          "end": 43.94,
+          "word": " spinning",
+          "probability": 0.9983416795730591
+        },
+        {
+          "start": 43.94,
+          "end": 44.22,
+          "word": " by",
+          "probability": 0.9461144208908081
+        },
+        {
+          "start": 44.22,
+          "end": 44.78,
+          "word": " repeatedly",
+          "probability": 0.9971888661384583
+        },
+        {
+          "start": 44.78,
+          "end": 45.2,
+          "word": " switching",
+          "probability": 0.9985677003860474
+        },
+        {
+          "start": 45.2,
+          "end": 45.48,
+          "word": " the",
+          "probability": 0.9883537292480469
+        },
+        {
+          "start": 45.48,
+          "end": 45.82,
+          "word": " coil's",
+          "probability": 0.9699510633945465
+        },
+        {
+          "start": 45.82,
+          "end": 46.04,
+          "word": " current",
+          "probability": 0.9944016337394714
+        },
+        {
+          "start": 46.04,
+          "end": 46.42,
+          "word": " so",
+          "probability": 0.8457615375518799
+        },
+        {
+          "start": 46.42,
+          "end": 46.88,
+          "word": " magnetic",
+          "probability": 0.9113549590110779
+        },
+        {
+          "start": 46.88,
+          "end": 47.28,
+          "word": " forces",
+          "probability": 0.9869536757469177
+        },
+        {
+          "start": 47.28,
+          "end": 47.86,
+          "word": " continue",
+          "probability": 0.9912911653518677
+        }
+      ]
+    },
+    {
+      "start": 47.86,
+      "end": 48.82,
+      "text": "turning its shaft.",
+      "avg_logprob": -0.4720502921513149,
+      "no_speech_prob": 0.11640732735395432,
+      "words": [
+        {
+          "start": 47.86,
+          "end": 48.24,
+          "word": " turning",
+          "probability": 0.9727863669395447
+        },
+        {
+          "start": 48.24,
+          "end": 48.48,
+          "word": " its",
+          "probability": 0.8458725810050964
+        },
+        {
+          "start": 48.48,
+          "end": 48.82,
+          "word": " shaft.",
+          "probability": 0.9952697157859802
+        }
+      ]
+    }
+  ]
+}

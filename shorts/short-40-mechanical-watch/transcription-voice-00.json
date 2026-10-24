@@ -1,0 +1,914 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "ea5824c7210e274d52b4ac1b1db232c17c1b2d622832df78d07733936ebb8157",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A mechanical watch keeps time using stored spring energy instead of a battery. Its clever mechanism releases that energy in tiny, evenly timed steps. When you wind the watch, you tighten a mainspring inside a small drum called the barrel. The mainspring slowly unwinds, turning the barrel and feeding energy into a series of gears. This gear train carries rotation toward the watch hands while reducing the motion into useful speeds. But left alone, the spring would release its energy much too quickly. The escapement meters that energy, allowing the gears to advance one small step at a time. A balance wheel oscillates back and forth at a steady rate, telling the escapement when each step may happen. So the watch combines a steady oscillator, a controlled escapement and gears to turn spring energy into accurate time. Thank you.",
+  "mean_word_probability": 0.9637803238195676,
+  "low_confidence_words": [
+    {
+      "start": 24.1,
+      "end": 24.42,
+      "word": " toward",
+      "probability": 0.4967474043369293
+    },
+    {
+      "start": 58.58,
+      "end": 59.98,
+      "word": " Thank",
+      "probability": 0.005060416180640459
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.76,
+      "text": "A mechanical watch keeps time using stored spring energy instead of a battery. Its clever mechanism releases that energy in tiny, evenly timed steps. When you wind the watch, you tighten a mainspring inside a small drum called the barrel. The mainspring slowly unwinds, turning the barrel and feeding energy into a series of gears. This gear train carries rotation toward the watch hands while reducing the motion into useful speeds.",
+      "avg_logprob": -0.0629480318433937,
+      "no_speech_prob": 0.1726389229297638,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.88,
+          "word": " A",
+          "probability": 0.617393434047699
+        },
+        {
+          "start": 0.88,
+          "end": 1.44,
+          "word": " mechanical",
+          "probability": 0.9904604554176331
+        },
+        {
+          "start": 1.44,
+          "end": 1.84,
+          "word": " watch",
+          "probability": 0.9930186867713928
+        },
+        {
+          "start": 1.84,
+          "end": 2.24,
+          "word": " keeps",
+          "probability": 0.9964685440063477
+        },
+        {
+          "start": 2.24,
+          "end": 2.6,
+          "word": " time",
+          "probability": 0.9929736852645874
+        },
+        {
+          "start": 2.6,
+          "end": 2.96,
+          "word": " using",
+          "probability": 0.9741044044494629
+        },
+        {
+          "start": 2.96,
+          "end": 3.48,
+          "word": " stored",
+          "probability": 0.9231866002082825
+        },
+        {
+          "start": 3.48,
+          "end": 3.86,
+          "word": " spring",
+          "probability": 0.9841040372848511
+        },
+        {
+          "start": 3.86,
+          "end": 4.3,
+          "word": " energy",
+          "probability": 0.9949440360069275
+        },
+        {
+          "start": 4.3,
+          "end": 4.74,
+          "word": " instead",
+          "probability": 0.9657092094421387
+        },
+        {
+          "start": 4.74,
+          "end": 4.94,
+          "word": " of",
+          "probability": 0.9975433945655823
+        },
+        {
+          "start": 4.94,
+          "end": 5.04,
+          "word": " a",
+          "probability": 0.9381190538406372
+        },
+        {
+          "start": 5.04,
+          "end": 5.32,
+          "word": " battery.",
+          "probability": 0.998245120048523
+        },
+        {
+          "start": 5.88,
+          "end": 6.04,
+          "word": " Its",
+          "probability": 0.8398268818855286
+        },
+        {
+          "start": 6.04,
+          "end": 6.42,
+          "word": " clever",
+          "probability": 0.9944940209388733
+        },
+        {
+          "start": 6.42,
+          "end": 6.98,
+          "word": " mechanism",
+          "probability": 0.9895113110542297
+        },
+        {
+          "start": 6.98,
+          "end": 7.54,
+          "word": " releases",
+          "probability": 0.9824386239051819
+        },
+        {
+          "start": 7.54,
+          "end": 7.84,
+          "word": " that",
+          "probability": 0.9932952523231506
+        },
+        {
+          "start": 7.84,
+          "end": 8.18,
+          "word": " energy",
+          "probability": 0.9991412162780762
+        },
+        {
+          "start": 8.18,
+          "end": 8.46,
+          "word": " in",
+          "probability": 0.994080126285553
+        },
+        {
+          "start": 8.46,
+          "end": 8.98,
+          "word": " tiny,",
+          "probability": 0.9899835586547852
+        },
+        {
+          "start": 9.18,
+          "end": 9.54,
+          "word": " evenly",
+          "probability": 0.949960470199585
+        },
+        {
+          "start": 9.54,
+          "end": 9.84,
+          "word": " timed",
+          "probability": 0.9837676286697388
+        },
+        {
+          "start": 9.84,
+          "end": 10.24,
+          "word": " steps.",
+          "probability": 0.9949835538864136
+        },
+        {
+          "start": 10.86,
+          "end": 10.98,
+          "word": " When",
+          "probability": 0.9870613217353821
+        },
+        {
+          "start": 10.98,
+          "end": 11.2,
+          "word": " you",
+          "probability": 0.9975849390029907
+        },
+        {
+          "start": 11.2,
+          "end": 11.4,
+          "word": " wind",
+          "probability": 0.9975605010986328
+        },
+        {
+          "start": 11.4,
+          "end": 11.68,
+          "word": " the",
+          "probability": 0.9910147786140442
+        },
+        {
+          "start": 11.68,
+          "end": 11.86,
+          "word": " watch,",
+          "probability": 0.9937484264373779
+        },
+        {
+          "start": 12.18,
+          "end": 12.26,
+          "word": " you",
+          "probability": 0.9918767213821411
+        },
+        {
+          "start": 12.26,
+          "end": 12.62,
+          "word": " tighten",
+          "probability": 0.9987730383872986
+        },
+        {
+          "start": 12.62,
+          "end": 12.92,
+          "word": " a",
+          "probability": 0.9851911664009094
+        },
+        {
+          "start": 12.92,
+          "end": 13.4,
+          "word": " mainspring",
+          "probability": 0.9862616459528605
+        },
+        {
+          "start": 13.4,
+          "end": 13.84,
+          "word": " inside",
+          "probability": 0.9921066761016846
+        },
+        {
+          "start": 13.84,
+          "end": 14.08,
+          "word": " a",
+          "probability": 0.9892821311950684
+        },
+        {
+          "start": 14.08,
+          "end": 14.46,
+          "word": " small",
+          "probability": 0.9989194869995117
+        },
+        {
+          "start": 14.46,
+          "end": 14.8,
+          "word": " drum",
+          "probability": 0.9990756511688232
+        },
+        {
+          "start": 14.8,
+          "end": 15.16,
+          "word": " called",
+          "probability": 0.9852348566055298
+        },
+        {
+          "start": 15.16,
+          "end": 15.38,
+          "word": " the",
+          "probability": 0.9725281596183777
+        },
+        {
+          "start": 15.38,
+          "end": 15.58,
+          "word": " barrel.",
+          "probability": 0.9769195318222046
+        },
+        {
+          "start": 16.12,
+          "end": 16.34,
+          "word": " The",
+          "probability": 0.9853336811065674
+        },
+        {
+          "start": 16.34,
+          "end": 16.82,
+          "word": " mainspring",
+          "probability": 0.9930702447891235
+        },
+        {
+          "start": 16.82,
+          "end": 17.42,
+          "word": " slowly",
+          "probability": 0.9979933500289917
+        },
+        {
+          "start": 17.42,
+          "end": 18.22,
+          "word": " unwinds,",
+          "probability": 0.995281438032786
+        },
+        {
+          "start": 18.36,
+          "end": 18.6,
+          "word": " turning",
+          "probability": 0.9968003034591675
+        },
+        {
+          "start": 18.6,
+          "end": 18.82,
+          "word": " the",
+          "probability": 0.9984421133995056
+        },
+        {
+          "start": 18.82,
+          "end": 19.08,
+          "word": " barrel",
+          "probability": 0.9983540773391724
+        },
+        {
+          "start": 19.08,
+          "end": 19.48,
+          "word": " and",
+          "probability": 0.9321288466453552
+        },
+        {
+          "start": 19.48,
+          "end": 19.78,
+          "word": " feeding",
+          "probability": 0.9941589832305908
+        },
+        {
+          "start": 19.78,
+          "end": 20.26,
+          "word": " energy",
+          "probability": 0.9831436276435852
+        },
+        {
+          "start": 20.26,
+          "end": 20.52,
+          "word": " into",
+          "probability": 0.9921686053276062
+        },
+        {
+          "start": 20.52,
+          "end": 20.74,
+          "word": " a",
+          "probability": 0.9765419960021973
+        },
+        {
+          "start": 20.74,
+          "end": 21.04,
+          "word": " series",
+          "probability": 0.9982770681381226
+        },
+        {
+          "start": 21.04,
+          "end": 21.32,
+          "word": " of",
+          "probability": 0.9991238713264465
+        },
+        {
+          "start": 21.32,
+          "end": 21.54,
+          "word": " gears.",
+          "probability": 0.9947499632835388
+        },
+        {
+          "start": 22.3,
+          "end": 22.52,
+          "word": " This",
+          "probability": 0.9867385625839233
+        },
+        {
+          "start": 22.52,
+          "end": 22.86,
+          "word": " gear",
+          "probability": 0.9886748194694519
+        },
+        {
+          "start": 22.86,
+          "end": 23.16,
+          "word": " train",
+          "probability": 0.9251106977462769
+        },
+        {
+          "start": 23.16,
+          "end": 23.62,
+          "word": " carries",
+          "probability": 0.9917536973953247
+        },
+        {
+          "start": 23.62,
+          "end": 24.1,
+          "word": " rotation",
+          "probability": 0.9898627996444702
+        },
+        {
+          "start": 24.1,
+          "end": 24.42,
+          "word": " toward",
+          "probability": 0.4967474043369293
+        },
+        {
+          "start": 24.42,
+          "end": 24.68,
+          "word": " the",
+          "probability": 0.9688689708709717
+        },
+        {
+          "start": 24.68,
+          "end": 24.9,
+          "word": " watch",
+          "probability": 0.9925605654716492
+        },
+        {
+          "start": 24.9,
+          "end": 25.28,
+          "word": " hands",
+          "probability": 0.8886266350746155
+        },
+        {
+          "start": 25.28,
+          "end": 25.66,
+          "word": " while",
+          "probability": 0.8910008072853088
+        },
+        {
+          "start": 25.66,
+          "end": 26.18,
+          "word": " reducing",
+          "probability": 0.998377799987793
+        },
+        {
+          "start": 26.18,
+          "end": 26.42,
+          "word": " the",
+          "probability": 0.9766744375228882
+        },
+        {
+          "start": 26.42,
+          "end": 26.66,
+          "word": " motion",
+          "probability": 0.9961003065109253
+        },
+        {
+          "start": 26.66,
+          "end": 26.9,
+          "word": " into",
+          "probability": 0.9688771367073059
+        },
+        {
+          "start": 26.9,
+          "end": 27.3,
+          "word": " useful",
+          "probability": 0.9959291815757751
+        },
+        {
+          "start": 27.3,
+          "end": 27.76,
+          "word": " speeds.",
+          "probability": 0.9912780523300171
+        }
+      ]
+    },
+    {
+      "start": 27.76,
+      "end": 31.64,
+      "text": "But left alone, the spring would release its energy much too quickly.",
+      "avg_logprob": -0.08003198838495947,
+      "no_speech_prob": 0.004988325294107199,
+      "words": [
+        {
+          "start": 27.76,
+          "end": 28.44,
+          "word": " But",
+          "probability": 0.7024176716804504
+        },
+        {
+          "start": 28.44,
+          "end": 28.72,
+          "word": " left",
+          "probability": 0.7598021626472473
+        },
+        {
+          "start": 28.72,
+          "end": 29.1,
+          "word": " alone,",
+          "probability": 0.9908807277679443
+        },
+        {
+          "start": 29.44,
+          "end": 29.5,
+          "word": " the",
+          "probability": 0.9935103058815002
+        },
+        {
+          "start": 29.5,
+          "end": 29.72,
+          "word": " spring",
+          "probability": 0.9778173565864563
+        },
+        {
+          "start": 29.72,
+          "end": 29.94,
+          "word": " would",
+          "probability": 0.9923872947692871
+        },
+        {
+          "start": 29.94,
+          "end": 30.26,
+          "word": " release",
+          "probability": 0.9964644908905029
+        },
+        {
+          "start": 30.26,
+          "end": 30.44,
+          "word": " its",
+          "probability": 0.9809762239456177
+        },
+        {
+          "start": 30.44,
+          "end": 30.72,
+          "word": " energy",
+          "probability": 0.99846351146698
+        },
+        {
+          "start": 30.72,
+          "end": 31.1,
+          "word": " much",
+          "probability": 0.9925496578216553
+        },
+        {
+          "start": 31.1,
+          "end": 31.34,
+          "word": " too",
+          "probability": 0.9930605888366699
+        },
+        {
+          "start": 31.34,
+          "end": 31.64,
+          "word": " quickly.",
+          "probability": 0.9989748001098633
+        }
+      ]
+    },
+    {
+      "start": 32.24,
+      "end": 37.3,
+      "text": "The escapement meters that energy, allowing the gears to advance one small step at a time.",
+      "avg_logprob": -0.08003198838495947,
+      "no_speech_prob": 0.004988325294107199,
+      "words": [
+        {
+          "start": 32.24,
+          "end": 32.4,
+          "word": " The",
+          "probability": 0.9891125559806824
+        },
+        {
+          "start": 32.4,
+          "end": 33.14,
+          "word": " escapement",
+          "probability": 0.9859837690989176
+        },
+        {
+          "start": 33.14,
+          "end": 33.62,
+          "word": " meters",
+          "probability": 0.9254631400108337
+        },
+        {
+          "start": 33.62,
+          "end": 33.88,
+          "word": " that",
+          "probability": 0.990644097328186
+        },
+        {
+          "start": 33.88,
+          "end": 34.22,
+          "word": " energy,",
+          "probability": 0.9988617897033691
+        },
+        {
+          "start": 34.46,
+          "end": 34.78,
+          "word": " allowing",
+          "probability": 0.9975409507751465
+        },
+        {
+          "start": 34.78,
+          "end": 35.02,
+          "word": " the",
+          "probability": 0.9894129633903503
+        },
+        {
+          "start": 35.02,
+          "end": 35.18,
+          "word": " gears",
+          "probability": 0.9852150678634644
+        },
+        {
+          "start": 35.18,
+          "end": 35.4,
+          "word": " to",
+          "probability": 0.99660325050354
+        },
+        {
+          "start": 35.4,
+          "end": 35.7,
+          "word": " advance",
+          "probability": 0.9977337121963501
+        },
+        {
+          "start": 35.7,
+          "end": 36.14,
+          "word": " one",
+          "probability": 0.966486930847168
+        },
+        {
+          "start": 36.14,
+          "end": 36.56,
+          "word": " small",
+          "probability": 0.9970998764038086
+        },
+        {
+          "start": 36.56,
+          "end": 36.8,
+          "word": " step",
+          "probability": 0.998121440410614
+        },
+        {
+          "start": 36.8,
+          "end": 36.96,
+          "word": " at",
+          "probability": 0.9979143738746643
+        },
+        {
+          "start": 36.96,
+          "end": 37.04,
+          "word": " a",
+          "probability": 0.9848462343215942
+        },
+        {
+          "start": 37.04,
+          "end": 37.3,
+          "word": " time.",
+          "probability": 0.9998383522033691
+        }
+      ]
+    },
+    {
+      "start": 37.9,
+      "end": 43.64,
+      "text": "A balance wheel oscillates back and forth at a steady rate, telling the escapement when each step may happen.",
+      "avg_logprob": -0.08003198838495947,
+      "no_speech_prob": 0.004988325294107199,
+      "words": [
+        {
+          "start": 37.9,
+          "end": 38.14,
+          "word": " A",
+          "probability": 0.9933387637138367
+        },
+        {
+          "start": 38.14,
+          "end": 38.48,
+          "word": " balance",
+          "probability": 0.9819439649581909
+        },
+        {
+          "start": 38.48,
+          "end": 38.74,
+          "word": " wheel",
+          "probability": 0.9959217309951782
+        },
+        {
+          "start": 38.74,
+          "end": 39.44,
+          "word": " oscillates",
+          "probability": 0.995041161775589
+        },
+        {
+          "start": 39.44,
+          "end": 39.74,
+          "word": " back",
+          "probability": 0.9980979561805725
+        },
+        {
+          "start": 39.74,
+          "end": 39.92,
+          "word": " and",
+          "probability": 0.9783825278282166
+        },
+        {
+          "start": 39.92,
+          "end": 40.14,
+          "word": " forth",
+          "probability": 0.9982253909111023
+        },
+        {
+          "start": 40.14,
+          "end": 40.34,
+          "word": " at",
+          "probability": 0.9913235902786255
+        },
+        {
+          "start": 40.34,
+          "end": 40.46,
+          "word": " a",
+          "probability": 0.9497359991073608
+        },
+        {
+          "start": 40.46,
+          "end": 40.74,
+          "word": " steady",
+          "probability": 0.9992703795433044
+        },
+        {
+          "start": 40.74,
+          "end": 41.06,
+          "word": " rate,",
+          "probability": 0.9959737658500671
+        },
+        {
+          "start": 41.34,
+          "end": 41.54,
+          "word": " telling",
+          "probability": 0.9979686141014099
+        },
+        {
+          "start": 41.54,
+          "end": 41.76,
+          "word": " the",
+          "probability": 0.9934409260749817
+        },
+        {
+          "start": 41.76,
+          "end": 42.24,
+          "word": " escapement",
+          "probability": 0.9981393416722616
+        },
+        {
+          "start": 42.24,
+          "end": 42.58,
+          "word": " when",
+          "probability": 0.9949557185173035
+        },
+        {
+          "start": 42.58,
+          "end": 42.9,
+          "word": " each",
+          "probability": 0.9968173503875732
+        },
+        {
+          "start": 42.9,
+          "end": 43.12,
+          "word": " step",
+          "probability": 0.9977803826332092
+        },
+        {
+          "start": 43.12,
+          "end": 43.34,
+          "word": " may",
+          "probability": 0.98626708984375
+        },
+        {
+          "start": 43.34,
+          "end": 43.64,
+          "word": " happen.",
+          "probability": 0.9979885816574097
+        }
+      ]
+    },
+    {
+      "start": 44.08,
+      "end": 50.72,
+      "text": "So the watch combines a steady oscillator, a controlled escapement and gears to turn spring energy into accurate time.",
+      "avg_logprob": -0.08003198838495947,
+      "no_speech_prob": 0.004988325294107199,
+      "words": [
+        {
+          "start": 44.08,
+          "end": 44.3,
+          "word": " So",
+          "probability": 0.9946792125701904
+        },
+        {
+          "start": 44.3,
+          "end": 44.52,
+          "word": " the",
+          "probability": 0.700646162033081
+        },
+        {
+          "start": 44.52,
+          "end": 44.68,
+          "word": " watch",
+          "probability": 0.9872416257858276
+        },
+        {
+          "start": 44.68,
+          "end": 45.14,
+          "word": " combines",
+          "probability": 0.9962922930717468
+        },
+        {
+          "start": 45.14,
+          "end": 45.4,
+          "word": " a",
+          "probability": 0.9899707436561584
+        },
+        {
+          "start": 45.4,
+          "end": 45.68,
+          "word": " steady",
+          "probability": 0.9988683462142944
+        },
+        {
+          "start": 45.68,
+          "end": 46.26,
+          "word": " oscillator,",
+          "probability": 0.9985871315002441
+        },
+        {
+          "start": 46.6,
+          "end": 46.66,
+          "word": " a",
+          "probability": 0.9960330128669739
+        },
+        {
+          "start": 46.66,
+          "end": 47.04,
+          "word": " controlled",
+          "probability": 0.9964067339897156
+        },
+        {
+          "start": 47.04,
+          "end": 47.62,
+          "word": " escapement",
+          "probability": 0.998590350151062
+        },
+        {
+          "start": 47.62,
+          "end": 48.02,
+          "word": " and",
+          "probability": 0.6307589411735535
+        },
+        {
+          "start": 48.02,
+          "end": 48.38,
+          "word": " gears",
+          "probability": 0.9722477197647095
+        },
+        {
+          "start": 48.38,
+          "end": 48.62,
+          "word": " to",
+          "probability": 0.9941802024841309
+        },
+        {
+          "start": 48.62,
+          "end": 48.88,
+          "word": " turn",
+          "probability": 0.9940740466117859
+        },
+        {
+          "start": 48.88,
+          "end": 49.26,
+          "word": " spring",
+          "probability": 0.9629508852958679
+        },
+        {
+          "start": 49.26,
+          "end": 49.6,
+          "word": " energy",
+          "probability": 0.9968193769454956
+        },
+        {
+          "start": 49.6,
+          "end": 49.92,
+          "word": " into",
+          "probability": 0.9812224507331848
+        },
+        {
+          "start": 49.92,
+          "end": 50.38,
+          "word": " accurate",
+          "probability": 0.9849398732185364
+        },
+        {
+          "start": 50.38,
+          "end": 50.72,
+          "word": " time.",
+          "probability": 0.9982473850250244
+        }
+      ]
+    },
+    {
+      "start": 58.58,
+      "end": 59.98,
+      "text": "Thank you.",
+      "avg_logprob": -0.9666282931963602,
+      "no_speech_prob": 0.9312124848365784,
+      "words": [
+        {
+          "start": 58.58,
+          "end": 59.98,
+          "word": " Thank",
+          "probability": 0.005060416180640459
+        },
+        {
+          "start": 59.98,
+          "end": 59.98,
+          "word": " you.",
+          "probability": 0.9652091860771179
+        }
+      ]
+    }
+  ]
+}

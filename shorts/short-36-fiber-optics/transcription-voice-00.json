@@ -1,0 +1,898 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "b13b0adcd3d00bb16d0fd129a8fd4d5b29e1813adb7811089e2e2f2cbbb1747d",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A fiber optic cable carries internet data as flashes of light inside a strand of glass. Instead of sending electrical pulses through copper, it guides light from one end to the other. At the cable's transmitter, a laser or LED turns digital data into rapid pulses of light. Those pulses enter the cable's narrow core, the central path reserved for the light. The core is wrapped in cladding, which lets light reflect at the boundary instead of escaping. Each pulse follows the fiber by repeated total internal reflection even when the cable bends. At the destination, a photo detector senses the arriving pattern of light and darkness. The receiver converts that pattern back into electrical data for your computer or router. So fiber optic internet moves information by guiding coded light through glass, then decoding it at the far end.",
+  "mean_word_probability": 0.9627003005572727,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.26,
+      "text": "A fiber optic cable carries internet data as flashes of light inside a strand of glass. Instead of sending electrical pulses through copper, it guides light from one end to the other. At the cable's transmitter, a laser or LED turns digital data into rapid pulses of light. Those pulses enter the cable's narrow core, the central path reserved for the light. The core is wrapped in cladding, which lets light reflect at the boundary instead of escaping.",
+      "avg_logprob": -0.045261932658436504,
+      "no_speech_prob": 0.06444389373064041,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "word": " A",
+          "probability": 0.6292518973350525
+        },
+        {
+          "start": 0.9,
+          "end": 1.26,
+          "word": " fiber",
+          "probability": 0.5961215496063232
+        },
+        {
+          "start": 1.26,
+          "end": 1.52,
+          "word": " optic",
+          "probability": 0.8113548159599304
+        },
+        {
+          "start": 1.52,
+          "end": 1.9,
+          "word": " cable",
+          "probability": 0.9926261305809021
+        },
+        {
+          "start": 1.9,
+          "end": 2.4,
+          "word": " carries",
+          "probability": 0.9844691157341003
+        },
+        {
+          "start": 2.4,
+          "end": 2.86,
+          "word": " internet",
+          "probability": 0.8249281048774719
+        },
+        {
+          "start": 2.86,
+          "end": 3.26,
+          "word": " data",
+          "probability": 0.9972518086433411
+        },
+        {
+          "start": 3.26,
+          "end": 3.6,
+          "word": " as",
+          "probability": 0.9873383045196533
+        },
+        {
+          "start": 3.6,
+          "end": 4.06,
+          "word": " flashes",
+          "probability": 0.9957085847854614
+        },
+        {
+          "start": 4.06,
+          "end": 4.38,
+          "word": " of",
+          "probability": 0.9983727931976318
+        },
+        {
+          "start": 4.38,
+          "end": 4.64,
+          "word": " light",
+          "probability": 0.99378502368927
+        },
+        {
+          "start": 4.64,
+          "end": 5.06,
+          "word": " inside",
+          "probability": 0.973010778427124
+        },
+        {
+          "start": 5.06,
+          "end": 5.28,
+          "word": " a",
+          "probability": 0.9857569336891174
+        },
+        {
+          "start": 5.28,
+          "end": 5.58,
+          "word": " strand",
+          "probability": 0.9967543482780457
+        },
+        {
+          "start": 5.58,
+          "end": 5.78,
+          "word": " of",
+          "probability": 0.9982056617736816
+        },
+        {
+          "start": 5.78,
+          "end": 6.08,
+          "word": " glass.",
+          "probability": 0.9964975714683533
+        },
+        {
+          "start": 6.74,
+          "end": 6.96,
+          "word": " Instead",
+          "probability": 0.968038022518158
+        },
+        {
+          "start": 6.96,
+          "end": 7.12,
+          "word": " of",
+          "probability": 0.9984140396118164
+        },
+        {
+          "start": 7.12,
+          "end": 7.42,
+          "word": " sending",
+          "probability": 0.9974852800369263
+        },
+        {
+          "start": 7.42,
+          "end": 8.04,
+          "word": " electrical",
+          "probability": 0.9865087866783142
+        },
+        {
+          "start": 8.04,
+          "end": 8.42,
+          "word": " pulses",
+          "probability": 0.9971977472305298
+        },
+        {
+          "start": 8.42,
+          "end": 8.66,
+          "word": " through",
+          "probability": 0.9945728182792664
+        },
+        {
+          "start": 8.66,
+          "end": 9.04,
+          "word": " copper,",
+          "probability": 0.9906348586082458
+        },
+        {
+          "start": 9.48,
+          "end": 9.6,
+          "word": " it",
+          "probability": 0.9856892824172974
+        },
+        {
+          "start": 9.6,
+          "end": 9.92,
+          "word": " guides",
+          "probability": 0.993553876876831
+        },
+        {
+          "start": 9.92,
+          "end": 10.32,
+          "word": " light",
+          "probability": 0.9828236103057861
+        },
+        {
+          "start": 10.32,
+          "end": 10.64,
+          "word": " from",
+          "probability": 0.9959853291511536
+        },
+        {
+          "start": 10.64,
+          "end": 10.96,
+          "word": " one",
+          "probability": 0.9911079406738281
+        },
+        {
+          "start": 10.96,
+          "end": 11.2,
+          "word": " end",
+          "probability": 0.9977222084999084
+        },
+        {
+          "start": 11.2,
+          "end": 11.4,
+          "word": " to",
+          "probability": 0.9973491430282593
+        },
+        {
+          "start": 11.4,
+          "end": 11.56,
+          "word": " the",
+          "probability": 0.9431536793708801
+        },
+        {
+          "start": 11.56,
+          "end": 11.82,
+          "word": " other.",
+          "probability": 0.9984922409057617
+        },
+        {
+          "start": 12.48,
+          "end": 12.64,
+          "word": " At",
+          "probability": 0.9811844229698181
+        },
+        {
+          "start": 12.64,
+          "end": 12.82,
+          "word": " the",
+          "probability": 0.9944909811019897
+        },
+        {
+          "start": 12.82,
+          "end": 13.28,
+          "word": " cable's",
+          "probability": 0.9247172474861145
+        },
+        {
+          "start": 13.28,
+          "end": 13.68,
+          "word": " transmitter,",
+          "probability": 0.9961129426956177
+        },
+        {
+          "start": 14.14,
+          "end": 14.3,
+          "word": " a",
+          "probability": 0.9890750050544739
+        },
+        {
+          "start": 14.3,
+          "end": 14.62,
+          "word": " laser",
+          "probability": 0.9964972138404846
+        },
+        {
+          "start": 14.62,
+          "end": 14.9,
+          "word": " or",
+          "probability": 0.9788706302642822
+        },
+        {
+          "start": 14.9,
+          "end": 15.32,
+          "word": " LED",
+          "probability": 0.9633843898773193
+        },
+        {
+          "start": 15.32,
+          "end": 15.76,
+          "word": " turns",
+          "probability": 0.996547281742096
+        },
+        {
+          "start": 15.76,
+          "end": 16.18,
+          "word": " digital",
+          "probability": 0.9945270419120789
+        },
+        {
+          "start": 16.18,
+          "end": 16.5,
+          "word": " data",
+          "probability": 0.9989572763442993
+        },
+        {
+          "start": 16.5,
+          "end": 16.84,
+          "word": " into",
+          "probability": 0.9959957599639893
+        },
+        {
+          "start": 16.84,
+          "end": 17.26,
+          "word": " rapid",
+          "probability": 0.9827139973640442
+        },
+        {
+          "start": 17.26,
+          "end": 17.62,
+          "word": " pulses",
+          "probability": 0.9987843632698059
+        },
+        {
+          "start": 17.62,
+          "end": 17.86,
+          "word": " of",
+          "probability": 0.9979379773139954
+        },
+        {
+          "start": 17.86,
+          "end": 18.1,
+          "word": " light.",
+          "probability": 0.9972085356712341
+        },
+        {
+          "start": 18.66,
+          "end": 18.96,
+          "word": " Those",
+          "probability": 0.9606024622917175
+        },
+        {
+          "start": 18.96,
+          "end": 19.32,
+          "word": " pulses",
+          "probability": 0.997916042804718
+        },
+        {
+          "start": 19.32,
+          "end": 19.68,
+          "word": " enter",
+          "probability": 0.9920604228973389
+        },
+        {
+          "start": 19.68,
+          "end": 19.92,
+          "word": " the",
+          "probability": 0.9956910014152527
+        },
+        {
+          "start": 19.92,
+          "end": 20.4,
+          "word": " cable's",
+          "probability": 0.9764856100082397
+        },
+        {
+          "start": 20.4,
+          "end": 20.66,
+          "word": " narrow",
+          "probability": 0.9671239852905273
+        },
+        {
+          "start": 20.66,
+          "end": 20.94,
+          "word": " core,",
+          "probability": 0.9947734475135803
+        },
+        {
+          "start": 21.3,
+          "end": 21.46,
+          "word": " the",
+          "probability": 0.9963403940200806
+        },
+        {
+          "start": 21.46,
+          "end": 21.8,
+          "word": " central",
+          "probability": 0.9953397512435913
+        },
+        {
+          "start": 21.8,
+          "end": 22.1,
+          "word": " path",
+          "probability": 0.9821584224700928
+        },
+        {
+          "start": 22.1,
+          "end": 22.5,
+          "word": " reserved",
+          "probability": 0.9979548454284668
+        },
+        {
+          "start": 22.5,
+          "end": 22.78,
+          "word": " for",
+          "probability": 0.9990721940994263
+        },
+        {
+          "start": 22.78,
+          "end": 22.9,
+          "word": " the",
+          "probability": 0.9453668594360352
+        },
+        {
+          "start": 22.9,
+          "end": 23.1,
+          "word": " light.",
+          "probability": 0.998291552066803
+        },
+        {
+          "start": 23.66,
+          "end": 23.88,
+          "word": " The",
+          "probability": 0.9908959269523621
+        },
+        {
+          "start": 23.88,
+          "end": 24.1,
+          "word": " core",
+          "probability": 0.9961806535720825
+        },
+        {
+          "start": 24.1,
+          "end": 24.32,
+          "word": " is",
+          "probability": 0.997968852519989
+        },
+        {
+          "start": 24.32,
+          "end": 24.54,
+          "word": " wrapped",
+          "probability": 0.9988856911659241
+        },
+        {
+          "start": 24.54,
+          "end": 24.84,
+          "word": " in",
+          "probability": 0.9969207048416138
+        },
+        {
+          "start": 24.84,
+          "end": 25.14,
+          "word": " cladding,",
+          "probability": 0.9846853613853455
+        },
+        {
+          "start": 25.4,
+          "end": 25.64,
+          "word": " which",
+          "probability": 0.9966084957122803
+        },
+        {
+          "start": 25.64,
+          "end": 25.88,
+          "word": " lets",
+          "probability": 0.9476773738861084
+        },
+        {
+          "start": 25.88,
+          "end": 26.2,
+          "word": " light",
+          "probability": 0.9368187785148621
+        },
+        {
+          "start": 26.2,
+          "end": 26.66,
+          "word": " reflect",
+          "probability": 0.9950150847434998
+        },
+        {
+          "start": 26.66,
+          "end": 26.9,
+          "word": " at",
+          "probability": 0.9956731200218201
+        },
+        {
+          "start": 26.9,
+          "end": 27.06,
+          "word": " the",
+          "probability": 0.9925289154052734
+        },
+        {
+          "start": 27.06,
+          "end": 27.38,
+          "word": " boundary",
+          "probability": 0.9956772923469543
+        },
+        {
+          "start": 27.38,
+          "end": 27.78,
+          "word": " instead",
+          "probability": 0.9183773994445801
+        },
+        {
+          "start": 27.78,
+          "end": 27.94,
+          "word": " of",
+          "probability": 0.9973520040512085
+        },
+        {
+          "start": 27.94,
+          "end": 28.26,
+          "word": " escaping.",
+          "probability": 0.998828113079071
+        }
+      ]
+    },
+    {
+      "start": 28.26,
+      "end": 34.24,
+      "text": "Each pulse follows the fiber by repeated total internal reflection even when the cable bends.",
+      "avg_logprob": -0.12035642428831621,
+      "no_speech_prob": 0.009287064895033836,
+      "words": [
+        {
+          "start": 28.26,
+          "end": 29.3,
+          "word": " Each",
+          "probability": 0.7564725875854492
+        },
+        {
+          "start": 29.3,
+          "end": 29.66,
+          "word": " pulse",
+          "probability": 0.9869317412376404
+        },
+        {
+          "start": 29.66,
+          "end": 30.08,
+          "word": " follows",
+          "probability": 0.9918124675750732
+        },
+        {
+          "start": 30.08,
+          "end": 30.36,
+          "word": " the",
+          "probability": 0.9870190620422363
+        },
+        {
+          "start": 30.36,
+          "end": 30.56,
+          "word": " fiber",
+          "probability": 0.5716036558151245
+        },
+        {
+          "start": 30.56,
+          "end": 30.8,
+          "word": " by",
+          "probability": 0.9942452311515808
+        },
+        {
+          "start": 30.8,
+          "end": 31.3,
+          "word": " repeated",
+          "probability": 0.950525164604187
+        },
+        {
+          "start": 31.3,
+          "end": 31.78,
+          "word": " total",
+          "probability": 0.9599931240081787
+        },
+        {
+          "start": 31.78,
+          "end": 32.34,
+          "word": " internal",
+          "probability": 0.9961362481117249
+        },
+        {
+          "start": 32.34,
+          "end": 32.82,
+          "word": " reflection",
+          "probability": 0.9715642333030701
+        },
+        {
+          "start": 32.82,
+          "end": 33.36,
+          "word": " even",
+          "probability": 0.5018733739852905
+        },
+        {
+          "start": 33.36,
+          "end": 33.58,
+          "word": " when",
+          "probability": 0.9936569333076477
+        },
+        {
+          "start": 33.58,
+          "end": 33.7,
+          "word": " the",
+          "probability": 0.9777594208717346
+        },
+        {
+          "start": 33.7,
+          "end": 33.92,
+          "word": " cable",
+          "probability": 0.9858048558235168
+        },
+        {
+          "start": 33.92,
+          "end": 34.24,
+          "word": " bends.",
+          "probability": 0.9972906708717346
+        }
+      ]
+    },
+    {
+      "start": 35.06,
+      "end": 39.46,
+      "text": "At the destination, a photo detector senses the arriving pattern of light and darkness.",
+      "avg_logprob": -0.12035642428831621,
+      "no_speech_prob": 0.009287064895033836,
+      "words": [
+        {
+          "start": 35.06,
+          "end": 35.18,
+          "word": " At",
+          "probability": 0.9934996366500854
+        },
+        {
+          "start": 35.18,
+          "end": 35.34,
+          "word": " the",
+          "probability": 0.979820966720581
+        },
+        {
+          "start": 35.34,
+          "end": 35.8,
+          "word": " destination,",
+          "probability": 0.999556839466095
+        },
+        {
+          "start": 36.22,
+          "end": 36.36,
+          "word": " a",
+          "probability": 0.9804690480232239
+        },
+        {
+          "start": 36.36,
+          "end": 36.62,
+          "word": " photo",
+          "probability": 0.7378193140029907
+        },
+        {
+          "start": 36.62,
+          "end": 36.98,
+          "word": " detector",
+          "probability": 0.8130534887313843
+        },
+        {
+          "start": 36.98,
+          "end": 37.4,
+          "word": " senses",
+          "probability": 0.9952542781829834
+        },
+        {
+          "start": 37.4,
+          "end": 37.66,
+          "word": " the",
+          "probability": 0.9979992508888245
+        },
+        {
+          "start": 37.66,
+          "end": 37.98,
+          "word": " arriving",
+          "probability": 0.9971625208854675
+        },
+        {
+          "start": 37.98,
+          "end": 38.36,
+          "word": " pattern",
+          "probability": 0.9940024018287659
+        },
+        {
+          "start": 38.36,
+          "end": 38.62,
+          "word": " of",
+          "probability": 0.9980208873748779
+        },
+        {
+          "start": 38.62,
+          "end": 38.86,
+          "word": " light",
+          "probability": 0.9871829748153687
+        },
+        {
+          "start": 38.86,
+          "end": 39.12,
+          "word": " and",
+          "probability": 0.9871123433113098
+        },
+        {
+          "start": 39.12,
+          "end": 39.46,
+          "word": " darkness.",
+          "probability": 0.9978629946708679
+        }
+      ]
+    },
+    {
+      "start": 40.26,
+      "end": 44.54,
+      "text": "The receiver converts that pattern back into electrical data for your computer or router.",
+      "avg_logprob": -0.12035642428831621,
+      "no_speech_prob": 0.009287064895033836,
+      "words": [
+        {
+          "start": 40.26,
+          "end": 40.34,
+          "word": " The",
+          "probability": 0.9862492680549622
+        },
+        {
+          "start": 40.34,
+          "end": 40.64,
+          "word": " receiver",
+          "probability": 0.993811845779419
+        },
+        {
+          "start": 40.64,
+          "end": 41.1,
+          "word": " converts",
+          "probability": 0.9986748695373535
+        },
+        {
+          "start": 41.1,
+          "end": 41.3,
+          "word": " that",
+          "probability": 0.977380633354187
+        },
+        {
+          "start": 41.3,
+          "end": 41.64,
+          "word": " pattern",
+          "probability": 0.9957581162452698
+        },
+        {
+          "start": 41.64,
+          "end": 41.9,
+          "word": " back",
+          "probability": 0.9930349588394165
+        },
+        {
+          "start": 41.9,
+          "end": 42.16,
+          "word": " into",
+          "probability": 0.9822558164596558
+        },
+        {
+          "start": 42.16,
+          "end": 42.7,
+          "word": " electrical",
+          "probability": 0.9877574443817139
+        },
+        {
+          "start": 42.7,
+          "end": 43.06,
+          "word": " data",
+          "probability": 0.999072790145874
+        },
+        {
+          "start": 43.06,
+          "end": 43.44,
+          "word": " for",
+          "probability": 0.9915766716003418
+        },
+        {
+          "start": 43.44,
+          "end": 43.58,
+          "word": " your",
+          "probability": 0.9889768958091736
+        },
+        {
+          "start": 43.58,
+          "end": 44.0,
+          "word": " computer",
+          "probability": 0.9949374198913574
+        },
+        {
+          "start": 44.0,
+          "end": 44.28,
+          "word": " or",
+          "probability": 0.9935332536697388
+        },
+        {
+          "start": 44.28,
+          "end": 44.54,
+          "word": " router.",
+          "probability": 0.9782425761222839
+        }
+      ]
+    },
+    {
+      "start": 45.16,
+      "end": 50.9,
+      "text": "So fiber optic internet moves information by guiding coded light through glass, then decoding it at the far end.",
+      "avg_logprob": -0.12035642428831621,
+      "no_speech_prob": 0.009287064895033836,
+      "words": [
+        {
+          "start": 45.16,
+          "end": 45.32,
+          "word": " So",
+          "probability": 0.988710343837738
+        },
+        {
+          "start": 45.32,
+          "end": 45.74,
+          "word": " fiber",
+          "probability": 0.7906055450439453
+        },
+        {
+          "start": 45.74,
+          "end": 45.96,
+          "word": " optic",
+          "probability": 0.6564452052116394
+        },
+        {
+          "start": 45.96,
+          "end": 46.32,
+          "word": " internet",
+          "probability": 0.8762052059173584
+        },
+        {
+          "start": 46.32,
+          "end": 46.7,
+          "word": " moves",
+          "probability": 0.994407057762146
+        },
+        {
+          "start": 46.7,
+          "end": 47.26,
+          "word": " information",
+          "probability": 0.9925290942192078
+        },
+        {
+          "start": 47.26,
+          "end": 47.48,
+          "word": " by",
+          "probability": 0.9975670576095581
+        },
+        {
+          "start": 47.48,
+          "end": 47.88,
+          "word": " guiding",
+          "probability": 0.9976795315742493
+        },
+        {
+          "start": 47.88,
+          "end": 48.32,
+          "word": " coded",
+          "probability": 0.7917623519897461
+        },
+        {
+          "start": 48.32,
+          "end": 48.56,
+          "word": " light",
+          "probability": 0.9927452206611633
+        },
+        {
+          "start": 48.56,
+          "end": 48.8,
+          "word": " through",
+          "probability": 0.9967756867408752
+        },
+        {
+          "start": 48.8,
+          "end": 49.14,
+          "word": " glass,",
+          "probability": 0.9695612192153931
+        },
+        {
+          "start": 49.5,
+          "end": 49.56,
+          "word": " then",
+          "probability": 0.9741540551185608
+        },
+        {
+          "start": 49.56,
+          "end": 50.04,
+          "word": " decoding",
+          "probability": 0.9778926968574524
+        },
+        {
+          "start": 50.04,
+          "end": 50.24,
+          "word": " it",
+          "probability": 0.9903586506843567
+        },
+        {
+          "start": 50.24,
+          "end": 50.38,
+          "word": " at",
+          "probability": 0.9910536408424377
+        },
+        {
+          "start": 50.38,
+          "end": 50.48,
+          "word": " the",
+          "probability": 0.9902129769325256
+        },
+        {
+          "start": 50.48,
+          "end": 50.62,
+          "word": " far",
+          "probability": 0.9972298741340637
+        },
+        {
+          "start": 50.62,
+          "end": 50.9,
+          "word": " end.",
+          "probability": 0.9629402756690979
+        }
+      ]
+    }
+  ]
+}
