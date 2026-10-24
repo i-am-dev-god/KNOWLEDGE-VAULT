@@ -176,7 +176,7 @@
         {
           "id": "closing-summary",
           "scene": "closing",
-          "text": "So the heat pump moves heat indoors by repeatedly evaporating, compressing, and condensing refrigerant."
+          "text": "This repeating refrigeration cycle is how the heat pump moves heat indoors."
         }
       ],
       "scenes": [
@@ -403,7 +403,7 @@
         {
           "id": "stack-bond",
           "scene": "stack",
-          "text": "Each new layer fuses with the previous one, gradually turning separate paths into a solid shape."
+          "text": "Each new layer fuses with the previous one, gradually building a solid shape."
         },
         {
           "id": "closing-summary",
