@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-an-ssd-remembers-without-power.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short27SsdStorage.mp4",
+    "out": "RESULT/how-an-ssd-remembers-without-power.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 2.32,
+      "sfx_id": "pop-reveal",
+      "gain_db": -23,
+      "cue": "Data remains",
+      "sync_source": "hook-remain"
+    },
+    {
+      "at_s": 5.45,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -24,
+      "cue": "Charge trapped",
+      "sync_source": "cell-trap"
+    },
+    {
+      "at_s": 15.12,
+      "sfx_id": "scan-hum",
+      "gain_db": -24,
+      "cue": "Threshold read",
+      "sync_source": "read-test"
+    },
+    {
+      "at_s": 32.83,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -23,
+      "cue": "Distributed writes",
+      "sync_source": "wear-spread"
+    },
+    {
+      "at_s": 39.02,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

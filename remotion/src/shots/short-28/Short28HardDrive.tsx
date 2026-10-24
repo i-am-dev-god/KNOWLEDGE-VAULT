@@ -21,8 +21,8 @@ const sectorPath = (cx: number, cy: number, inner: number, outer: number, angle:
 };
 
 const Drive: React.FC<{
-  rotation: number; seek?: number; sectorAngle?: number; read?: number; actuator?: boolean; frame?: boolean; label?: boolean;
-}> = ({ rotation, seek = 0, sectorAngle = 0, read = 0, actuator = true, frame = true, label = true }) => {
+  rotation: number; seek?: number; sectorAngle?: number; read?: number; actuator?: boolean; frame?: boolean; label?: boolean; sectorOpacity?: number;
+}> = ({ rotation, seek = 0, sectorAngle = 0, read = 0, actuator = true, frame = true, label = true, sectorOpacity = 1 }) => {
   const cx = 410;
   const cy = 900;
   const r = 220;
@@ -42,7 +42,7 @@ const Drive: React.FC<{
       })}
       <circle cx={cx} cy={cy - r + 18} r={8} fill={C.indigo} />
     </g>
-    <path d={sectorPath(cx, cy, headRadius - 18, headRadius + 18, sectorAngle, 16)} fill={read > 0.2 ? C.mint : C.coral} opacity={0.85} />
+    <path d={sectorPath(cx, cy, headRadius - 18, headRadius + 18, sectorAngle, 16)} fill={read > 0.2 ? C.mint : C.coral} opacity={sectorOpacity * 0.85} />
     <circle cx={cx} cy={cy} r={48} fill={C.paper} stroke={C.ink} strokeWidth={5} /><circle cx={cx} cy={cy} r={13} fill={C.ink} />
     {actuator && <>
       <line x1={pivot.x} y1={pivot.y} x2={head.x} y2={head.y} stroke={C.indigo} strokeWidth={28} strokeLinecap="round" />
@@ -113,7 +113,7 @@ const Short28HardDrive: React.FC = () => {
         <Chip x={530} y={855} scale={0.43} label="MAP" opacity={locate} />
         <path d="M 425 855 L 465 855 M 595 855 L 630 855" stroke={C.teal} strokeWidth={5} strokeDasharray="7 7" opacity={locate} />
         <g transform="translate(404 142) scale(0.82)">
-          <Drive rotation={rotation} sectorAngle={sectorAngle} seek={0.65} actuator={false} frame={false} label={false} />
+          <Drive rotation={rotation} sectorAngle={sectorAngle} seek={0.65} actuator={false} frame={false} label={false} sectorOpacity={locate} />
         </g>
         <g opacity={locate} textAnchor="middle">
           <text x={740} y={1170} fill={C.coral} fontWeight={700} fontSize={22}>TRACK + SECTOR IDENTIFIED</text>
@@ -157,7 +157,7 @@ const Short28HardDrive: React.FC = () => {
         </g>)}
       </svg>
     </Scene>
-    <CalmCaptions lines={VO} accentWords={['where its data is stored', 'platters spin', 'magnetic regions', 'logical address', 'track and sector', 'actuator', 'rotate underneath', 'recover the bits']} />
+    <CalmCaptions lines={VO} accentWords={['where its data is stored', 'platters spin', 'magnetic regions', 'logical address', 'track and sector', 'actuator', 'rotate underneath', 'retrieve the bits']} />
     <CalmSound narration="voiceovers/hard-drive/narration.wav" music="cinematic-min" cues={SFX_CUES} narrationEnd={line(VO, 'closing-summary').end} duration={52} />
   </AbsoluteFill>;
 };
