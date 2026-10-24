@@ -1,6 +1,17 @@
 name: Verify following five voice-00 narrations
 
 on:
+  push:
+    branches:
+      - arena/94671a58-knowledge-vault
+    paths:
+      - .github/workflows/verify-following-five-voice-00.yml
+      - tools/following-five-projects.json
+      - media/voiceovers/speaker/narration.wav
+      - media/voiceovers/optical-mouse/narration.wav
+      - media/voiceovers/lithium-battery/narration.wav
+      - media/voiceovers/zip-compression/narration.wav
+      - media/voiceovers/microwave-heating/narration.wav
   workflow_dispatch:
 
 permissions:
