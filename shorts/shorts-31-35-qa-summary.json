@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "branch": "arena/c70bcfa1-knowledge-vault",
+  "voice": "voice-00",
+  "caption_progress_line": false,
+  "delivered_narration_offset_limit_seconds": 0.012,
+  "preserved_results": {
+    "how-a-camera-turns-light-into-a-photo.mp4": "a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51",
+    "how-a-hard-drive-finds-your-files.mp4": "af5e87436daaac94ab68fdb2e37f77a00a5fb57fe3ad5a33df68cf2fd0ff57ef",
+    "how-a-lithium-battery-powers-your-phone.mp4": "289304d405605d7c181a6d628a4e1b11c0b3ebf407571d5626ca73131f0cb8c2",
+    "how-a-microwave-oven-heats-food.mp4": "a9215550a8791de416a1995cd8ba757a7b6e79bdd9f0147f20b830913d68cbab",
+    "how-a-speaker-turns-electricity-into-sound.mp4": "32a52c2d00a64db5573bb316d212d4f682c4e062e2e883ba9c67df788d9b1bfc",
+    "how-an-optical-mouse-tracks-movement.mp4": "eb9dc3bf4769158a8ffcfe4f65e96b99aaa3762e20a59316e4d5822397b51b45",
+    "how-an-ssd-remembers-without-power.mp4": "66f3b4fcad505ae9df10c6d18096fde7107063666a1d07647cee47d13c2c4c14",
+    "how-bluetooth-sends-music-to-headphones.mp4": "3ea382bf948d32b506d6975a8ec1b7c354e378f1659cd3ba1a07552b6049f338",
+    "how-face-unlock-recognizes-you.mp4": "714a0d6682f739633bc8495095fca550d69eb714372ac8b60b5c359983c02ba3",
+    "how-gps-finds-you.mp4": "3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c",
+    "how-wifi-sends-data-through-air.mp4": "100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677",
+    "how-zip-files-make-data-smaller.mp4": "a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91"
+  },
+  "videos": [
+    {
+      "file": "RESULT/how-a-solar-panel-turns-sunlight-into-electricity.mp4",
+      "composition": "Short31SolarPanel",
+      "bytes": 9401430,
+      "sha256": "d1d15732e9b5c0345b1386cb115fa5059aba871e87c66b0c761fd9813feef7b1",
+      "decoded_frames": 1560,
+      "integrated_lufs": -16.17,
+      "true_peak_dbfs": -1.95,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-a-heat-pump-warms-your-home.mp4",
+      "composition": "Short32HeatPump",
+      "bytes": 11346300,
+      "sha256": "a90b6dbc8141e58bd996ef213ba07da70852578a2059b569af70486eb01725a7",
+      "decoded_frames": 1650,
+      "integrated_lufs": -16.19,
+      "true_peak_dbfs": -1.88,
+      "delivered_narration_offset_seconds": -0.001,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-an-accelerometer-counts-your-steps.mp4",
+      "composition": "Short33AccelerometerSteps",
+      "bytes": 11907762,
+      "sha256": "db389543db0f7a4f4039632cd4e9533debd99b684f323fe552d9177591970395",
+      "decoded_frames": 1650,
+      "integrated_lufs": -16.14,
+      "true_peak_dbfs": -1.96,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-a-3d-printer-builds-an-object.mp4",
+      "composition": "Short34Printer3D",
+      "bytes": 10227748,
+      "sha256": "e0094b7f44e3a9c29a4af465658d2b7e0bf49e40f3c903b72eb67588616f726c",
+      "decoded_frames": 1650,
+      "integrated_lufs": -16.04,
+      "true_peak_dbfs": -1.96,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-an-airbag-protects-you-in-a-crash.mp4",
+      "composition": "Short35Airbag",
+      "bytes": 10761232,
+      "sha256": "36b76b86ed68ec84a4eb5d4c0ebff5febfe54b0dad353918dfcbf64478351776",
+      "decoded_frames": 1650,
+      "integrated_lufs": -16.11,
+      "true_peak_dbfs": -1.85,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    }
+  ]
+}

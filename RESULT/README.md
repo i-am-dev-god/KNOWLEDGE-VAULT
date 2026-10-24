@@ -200,3 +200,88 @@ Production and QA: [`script.md`](../shorts/short-29-face-unlock/script.md) · [`
 **SHA-256:** `100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677`
 
 Production and QA: [`script.md`](../shorts/short-30-wifi-data/script.md) · [`qa.json`](../shorts/short-30-wifi-data/qa.json)
+
+## How a Solar Panel Turns Sunlight Into Electricity
+
+**Finished video:** [how-a-solar-panel-turns-sunlight-into-electricity.mp4](how-a-solar-panel-turns-sunlight-into-electricity.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.17 LUFS; true peak -1.95 dBTP; measured narration offset 0 ms
+
+**Size:** 9,401,430 bytes
+
+**SHA-256:** `d1d15732e9b5c0345b1386cb115fa5059aba871e87c66b0c761fd9813feef7b1`
+
+Production and QA: [`script.md`](../shorts/short-31-solar-panel/script.md) · [`qa.json`](../shorts/short-31-solar-panel/qa.json)
+
+## How a Heat Pump Warms Your Home
+
+**Finished video:** [how-a-heat-pump-warms-your-home.mp4](how-a-heat-pump-warms-your-home.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.920321403×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.19 LUFS; true peak -1.88 dBTP; measured narration offset -1 ms
+
+**Size:** 11,346,300 bytes
+
+**SHA-256:** `a90b6dbc8141e58bd996ef213ba07da70852578a2059b569af70486eb01725a7`
+
+Production and QA: [`script.md`](../shorts/short-32-heat-pump/script.md) · [`qa.json`](../shorts/short-32-heat-pump/qa.json)
+
+## How an Accelerometer Counts Your Steps
+
+**Finished video:** [how-an-accelerometer-counts-your-steps.mp4](how-an-accelerometer-counts-your-steps.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 7 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.14 LUFS; true peak -1.96 dBTP; measured narration offset 0 ms
+
+**Size:** 11,907,762 bytes
+
+**SHA-256:** `db389543db0f7a4f4039632cd4e9533debd99b684f323fe552d9177591970395`
+
+Production and QA: [`script.md`](../shorts/short-33-accelerometer-steps/script.md) · [`qa.json`](../shorts/short-33-accelerometer-steps/qa.json)
+
+## How a 3D Printer Builds an Object
+
+**Finished video:** [how-a-3d-printer-builds-an-object.mp4](how-a-3d-printer-builds-an-object.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.04 LUFS; true peak -1.96 dBTP; measured narration offset 0 ms
+
+**Size:** 10,227,748 bytes
+
+**SHA-256:** `e0094b7f44e3a9c29a4af465658d2b7e0bf49e40f3c903b72eb67588616f726c`
+
+Production and QA: [`script.md`](../shorts/short-34-3d-printer/script.md) · [`qa.json`](../shorts/short-34-3d-printer/qa.json)
+
+## How an Airbag Protects You in a Crash
+
+**Finished video:** [how-an-airbag-protects-you-in-a-crash.mp4](how-an-airbag-protects-you-in-a-crash.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.11 LUFS; true peak -1.85 dBTP; measured narration offset 0 ms
+
+**Size:** 10,761,232 bytes
+
+**SHA-256:** `36b76b86ed68ec84a4eb5d4c0ebff5febfe54b0dad353918dfcbf64478351776`
+
+Production and QA: [`script.md`](../shorts/short-35-airbag/script.md) · [`qa.json`](../shorts/short-35-airbag/qa.json)
