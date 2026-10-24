@@ -1,0 +1,582 @@
+{
+  "defaults": {
+    "duration_s": 52.0,
+    "initial_silence_s": 0.7,
+    "target_voice_end_s": 45.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-31-solar-panel",
+      "slug": "solar-panel",
+      "title": "How a Solar Panel Turns Sunlight Into Electricity",
+      "composition": "Short31SolarPanel",
+      "result": "how-a-solar-panel-turns-sunlight-into-electricity.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "Solar panel. Photons. Silicon. Electrons. Holes. Electric field. Direct current. Inverter.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-sun",
+          "scene": "hook",
+          "text": "A solar panel turns sunlight directly into electricity for your home."
+        },
+        {
+          "id": "hook-cell",
+          "scene": "hook",
+          "text": "The working part is not the glass cover; it is the thin solar cell underneath."
+        },
+        {
+          "id": "cell-photon",
+          "scene": "cell",
+          "text": "When sunlight enters the solar cell, photons transfer energy to electrons in the silicon."
+        },
+        {
+          "id": "cell-free",
+          "scene": "cell",
+          "text": "That energy frees some electrons, leaving behind positively charged vacancies called holes."
+        },
+        {
+          "id": "field-guide",
+          "scene": "field",
+          "text": "A built-in electric field inside the solar cell pushes the freed electrons in one direction."
+        },
+        {
+          "id": "circuit-dc",
+          "scene": "circuit",
+          "text": "Metal contacts collect those electrons and send their flow through an external circuit as direct current."
+        },
+        {
+          "id": "circuit-return",
+          "scene": "circuit",
+          "text": "The moving electrons can power a load before returning to the solar cell."
+        },
+        {
+          "id": "inverter-ac",
+          "scene": "inverter",
+          "text": "For many home appliances, an inverter changes the solar panel's direct current into alternating current."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the solar panel supplies electricity because sunlight frees charges and the cell guides their flow."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Sunlight enters the solar panel"
+        ],
+        [
+          "cell",
+          "Photons free charges in silicon"
+        ],
+        [
+          "field",
+          "The cell guides electrons"
+        ],
+        [
+          "circuit",
+          "Direct current flows through a load"
+        ],
+        [
+          "inverter",
+          "The inverter supplies alternating current"
+        ],
+        [
+          "closing",
+          "From sunlight to household electricity"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-cell",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "cell-free",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "inverter-ac",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Complete the process"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-32-heat-pump",
+      "slug": "heat-pump",
+      "title": "How a Heat Pump Warms Your Home",
+      "composition": "Short32HeatPump",
+      "result": "how-a-heat-pump-warms-your-home.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "Heat pump. Refrigerant. Outdoor coil. Evaporation. Compressor. Indoor coil. Expansion valve.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-move",
+          "scene": "hook",
+          "text": "A heat pump warms your home by moving heat from outdoor air, even when that air feels cold."
+        },
+        {
+          "id": "hook-existing",
+          "scene": "hook",
+          "text": "It transports existing heat rather than creating heat from nothing."
+        },
+        {
+          "id": "outside-absorb",
+          "scene": "outside",
+          "text": "Outside, cold refrigerant absorbs heat from the air and evaporates into a gas."
+        },
+        {
+          "id": "compress-raise",
+          "scene": "compress",
+          "text": "The heat pump's compressor squeezes this gas, raising its pressure and temperature."
+        },
+        {
+          "id": "inside-release",
+          "scene": "inside",
+          "text": "The hot gas enters the indoor coil and releases its heat into your home."
+        },
+        {
+          "id": "inside-fan",
+          "scene": "inside",
+          "text": "A fan blows across that coil, carrying the released heat into your rooms."
+        },
+        {
+          "id": "valve-condense",
+          "scene": "valve",
+          "text": "The refrigerant condenses into a liquid as it gives up heat."
+        },
+        {
+          "id": "valve-cool",
+          "scene": "valve",
+          "text": "An expansion valve then lowers its pressure, making it cold again for the outdoor coil."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the heat pump moves heat indoors by repeatedly evaporating, compressing, and condensing refrigerant."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "A heat pump moves existing heat"
+        ],
+        [
+          "outside",
+          "The outdoor coil absorbs heat"
+        ],
+        [
+          "compress",
+          "The compressor raises temperature"
+        ],
+        [
+          "inside",
+          "The indoor coil heats your rooms"
+        ],
+        [
+          "valve",
+          "The refrigerant resets for another cycle"
+        ],
+        [
+          "closing",
+          "A continuous heat-moving loop"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-existing",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "compress-raise",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "valve-cool",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Complete the process"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-33-accelerometer-steps",
+      "slug": "accelerometer-steps",
+      "title": "How an Accelerometer Counts Your Steps",
+      "composition": "Short33AccelerometerSteps",
+      "result": "how-an-accelerometer-counts-your-steps.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "Accelerometer. Proof mass. Springs. Capacitor fingers. Acceleration. Filter. Step counter.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-count",
+          "scene": "hook",
+          "text": "Your phone or fitness band can count steps with a tiny chip called an accelerometer."
+        },
+        {
+          "id": "mass-shift",
+          "scene": "mass",
+          "text": "Inside this accelerometer, a microscopic proof mass shifts slightly when your body moves."
+        },
+        {
+          "id": "mass-springs",
+          "scene": "mass",
+          "text": "Tiny flexible springs hold the mass inside the chip while allowing that small movement."
+        },
+        {
+          "id": "capacitor-gap",
+          "scene": "capacitor",
+          "text": "As the mass shifts, the spacing between interlocking capacitor fingers changes."
+        },
+        {
+          "id": "signal-convert",
+          "scene": "signal",
+          "text": "The accelerometer's electronics convert that spacing change into an acceleration signal."
+        },
+        {
+          "id": "walk-pattern",
+          "scene": "walk",
+          "text": "During walking, the signal contains a repeating pattern from each step and other body motion."
+        },
+        {
+          "id": "filter-noise",
+          "scene": "filter",
+          "text": "Software filters noise and looks for the rhythm and strength of genuine steps, rather than counting every bump."
+        },
+        {
+          "id": "filter-count",
+          "scene": "filter",
+          "text": "Each accepted step pattern advances the step counter by one."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So your step count begins with motion inside the accelerometer and ends with software recognizing a walking pattern."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "A tiny sensor inside your device"
+        ],
+        [
+          "mass",
+          "The proof mass responds to motion"
+        ],
+        [
+          "capacitor",
+          "Movement changes capacitance"
+        ],
+        [
+          "signal",
+          "The chip outputs acceleration"
+        ],
+        [
+          "walk",
+          "Walking creates a repeating pattern"
+        ],
+        [
+          "filter",
+          "Software accepts real steps"
+        ],
+        [
+          "closing",
+          "From microscopic motion to a step count"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "mass-shift",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "capacitor-gap",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "filter-count",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Complete the process"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-34-3d-printer",
+      "slug": "3d-printer",
+      "title": "How a 3D Printer Builds an Object",
+      "composition": "Short34Printer3D",
+      "result": "how-a-3d-printer-builds-an-object.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "3D printer. Slicer. Layers. Toolpath. Nozzle. Filament. Extrusion. Cooling. Layer bonding.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-build",
+          "scene": "hook",
+          "text": "A 3D printer builds a solid object by depositing material one thin layer at a time."
+        },
+        {
+          "id": "slice-model",
+          "scene": "slice",
+          "text": "First, slicing software divides a digital 3D model into a stack of printable layers."
+        },
+        {
+          "id": "slice-path",
+          "scene": "slice",
+          "text": "For each layer, the slicer calculates the nozzle's path around the outer walls and through the inner structure."
+        },
+        {
+          "id": "heat-filament",
+          "scene": "heat",
+          "text": "The printer heats the nozzle until the plastic filament can flow through its tip."
+        },
+        {
+          "id": "extrude-path",
+          "scene": "extrude",
+          "text": "Motors drive the nozzle along the calculated path while it extrudes a thin bead of melted plastic."
+        },
+        {
+          "id": "extrude-cool",
+          "scene": "extrude",
+          "text": "The deposited plastic cools and solidifies, forming the current layer of your object."
+        },
+        {
+          "id": "stack-next",
+          "scene": "stack",
+          "text": "The nozzle then rises by one layer height, or the bed lowers, and the printer repeats the process."
+        },
+        {
+          "id": "stack-bond",
+          "scene": "stack",
+          "text": "Each new layer fuses with the previous one, gradually turning separate paths into a solid shape."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So a 3D printer turns a digital model into an object through repeated extrusion, cooling, and layer bonding."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "An object built from thin layers"
+        ],
+        [
+          "slice",
+          "Software plans each layer"
+        ],
+        [
+          "heat",
+          "The nozzle prepares the filament"
+        ],
+        [
+          "extrude",
+          "The printer deposits and cools a layer"
+        ],
+        [
+          "stack",
+          "Layers stack and bond"
+        ],
+        [
+          "closing",
+          "From digital model to solid object"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "slice-model",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "heat-filament",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "stack-bond",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Complete the process"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-35-airbag",
+      "slug": "airbag",
+      "title": "How an Airbag Protects You in a Crash",
+      "composition": "Short35Airbag",
+      "result": "how-an-airbag-protects-you-in-a-crash.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "Airbag. Seat belt. Crash sensor. Deceleration. Control unit. Igniter. Gas generator. Cushion. Vents.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-protect",
+          "scene": "hook",
+          "text": "In a severe car crash, an airbag works with your seat belt to cushion you from hard interior surfaces."
+        },
+        {
+          "id": "hook-slow",
+          "scene": "hook",
+          "text": "This explanation slows the sequence down; in a real crash, the airbag responds in tens of milliseconds."
+        },
+        {
+          "id": "sense-decelerate",
+          "scene": "sense",
+          "text": "Crash sensors detect the vehicle's sudden deceleration and send that information to the airbag control unit."
+        },
+        {
+          "id": "sense-decide",
+          "scene": "sense",
+          "text": "The control unit triggers the airbag only when the crash pattern indicates a severe impact."
+        },
+        {
+          "id": "trigger-ignite",
+          "scene": "trigger",
+          "text": "A small igniter then activates a gas generator inside the folded airbag module."
+        },
+        {
+          "id": "trigger-gas",
+          "scene": "trigger",
+          "text": "The generator rapidly produces gas that flows into the woven fabric cushion."
+        },
+        {
+          "id": "cushion-spread",
+          "scene": "cushion",
+          "text": "The expanding airbag spreads out in front of the occupant, distributing force over a wider area."
+        },
+        {
+          "id": "cushion-vent",
+          "scene": "cushion",
+          "text": "As you press into the cushion, vents let gas escape so the airbag can absorb motion while deflating."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the airbag protects by sensing a crash, inflating quickly, and then yielding in a controlled way."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "An airbag cushions the occupant"
+        ],
+        [
+          "sense",
+          "Sensors and the control unit detect a severe crash"
+        ],
+        [
+          "trigger",
+          "The module generates gas"
+        ],
+        [
+          "cushion",
+          "The cushion spreads force and deflates"
+        ],
+        [
+          "closing",
+          "Sense, inflate, cushion, and yield"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-slow",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "sense-decide",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "cushion-vent",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Complete the process"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    }
+  ]
+}
