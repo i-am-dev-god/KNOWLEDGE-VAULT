@@ -8,15 +8,25 @@ import Shot4, { compositionConfig as cfg4 } from './shots/short-12/Short12Orbit'
 import Shot5, { compositionConfig as cfg5 } from './shots/short-13/Short13LivingLight';
 import Shot6, { compositionConfig as cfg6 } from './shots/short-14/Short14GpsExplainer';
 import Shot7, { compositionConfig as cfg7 } from './shots/short-15/Short15NoiseCancelling';
-import Shot8, { compositionConfig as cfg8 } from './shots/short-2/Short2Math';
-import Shot9, { compositionConfig as cfg9 } from './shots/short-3/Short3Algo';
-import Shot10, { compositionConfig as cfg10 } from './shots/short-4/Short4Reflog';
-import Shot11, { compositionConfig as cfg11 } from './shots/short-5/Short5Monty';
-import Shot12, { compositionConfig as cfg12 } from './shots/short-6/Short6Sheet';
-import Shot13, { compositionConfig as cfg13 } from './shots/short-7/Short7Kids';
-import Shot14, { compositionConfig as cfg14 } from './shots/short-8/Short8Phish';
-import Shot15, { compositionConfig as cfg15 } from './shots/short-9/Short9Chords';
-import Shot16, { compositionConfig as cfg16 } from './shots/vox-1/Vox1Coffee';
+import Shot8, { compositionConfig as cfg8 } from './shots/short-16/Short16Touchscreen';
+import Shot9, { compositionConfig as cfg9 } from './shots/short-17/Short17QrCode';
+import Shot10, { compositionConfig as cfg10 } from './shots/short-18/Short18WirelessCharging';
+import Shot11, { compositionConfig as cfg11 } from './shots/short-19/Short19Fingerprint';
+import Shot12, { compositionConfig as cfg12 } from './shots/short-2/Short2Math';
+import Shot13, { compositionConfig as cfg13 } from './shots/short-20/Short20DigitalPhoto';
+import Shot14, { compositionConfig as cfg14 } from './shots/short-21/Short21Speaker';
+import Shot15, { compositionConfig as cfg15 } from './shots/short-22/Short22OpticalMouse';
+import Shot16, { compositionConfig as cfg16 } from './shots/short-23/Short23LithiumBattery';
+import Shot17, { compositionConfig as cfg17 } from './shots/short-24/Short24ZipCompression';
+import Shot18, { compositionConfig as cfg18 } from './shots/short-25/Short25MicrowaveHeating';
+import Shot19, { compositionConfig as cfg19 } from './shots/short-3/Short3Algo';
+import Shot20, { compositionConfig as cfg20 } from './shots/short-4/Short4Reflog';
+import Shot21, { compositionConfig as cfg21 } from './shots/short-5/Short5Monty';
+import Shot22, { compositionConfig as cfg22 } from './shots/short-6/Short6Sheet';
+import Shot23, { compositionConfig as cfg23 } from './shots/short-7/Short7Kids';
+import Shot24, { compositionConfig as cfg24 } from './shots/short-8/Short8Phish';
+import Shot25, { compositionConfig as cfg25 } from './shots/short-9/Short9Chords';
+import Shot26, { compositionConfig as cfg26 } from './shots/vox-1/Vox1Coffee';
 
 export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot0 as React.FC, config: cfg0 },
@@ -36,4 +46,14 @@ export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot14 as React.FC, config: cfg14 },
   { Comp: Shot15 as React.FC, config: cfg15 },
   { Comp: Shot16 as React.FC, config: cfg16 },
+  { Comp: Shot17 as React.FC, config: cfg17 },
+  { Comp: Shot18 as React.FC, config: cfg18 },
+  { Comp: Shot19 as React.FC, config: cfg19 },
+  { Comp: Shot20 as React.FC, config: cfg20 },
+  { Comp: Shot21 as React.FC, config: cfg21 },
+  { Comp: Shot22 as React.FC, config: cfg22 },
+  { Comp: Shot23 as React.FC, config: cfg23 },
+  { Comp: Shot24 as React.FC, config: cfg24 },
+  { Comp: Shot25 as React.FC, config: cfg25 },
+  { Comp: Shot26 as React.FC, config: cfg26 },
 ];

@@ -1,0 +1,188 @@
+{
+  "id": "short-20-digital-photo",
+  "title": "How a Camera Turns Light Into a Photo",
+  "composition": "Short20DigitalPhoto",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 50.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-20-digital-photo/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "b626191a5d213a10390a637111a0f941b3ff30336bf45931f2f6819401e37325",
+    "raw_duration_seconds": 38.44,
+    "trimmed_duration_seconds": 37.976417,
+    "tempo_rate": 0.877053503,
+    "requested_tempo_rate": 0.877053503,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
+    "narration_file": "media/voiceovers/digital-photo/narration.wav",
+    "narration_sha256": "d8da27e2f3eecbc56695850f40b4dbc6fbbbd5f0e9676304ac079d04d41d307d",
+    "narration_duration_seconds": 50.0,
+    "paced_speech_end_seconds": 43.996417,
+    "script_sha256": "636dd215150c64f28c143625c22e70e65f1715d953efefd4a60bbeba03886c86",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9483627114115525,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.996417s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 50-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 43.9,
+  "scenes": [
+    {
+      "id": "photosite",
+      "title": "Follow one photosite",
+      "start": 0.0,
+      "end": 9.44
+    },
+    {
+      "id": "filter",
+      "title": "Add a color filter",
+      "start": 9.44,
+      "end": 19.3
+    },
+    {
+      "id": "neighbors",
+      "title": "Measure neighboring colors",
+      "start": 19.3,
+      "end": 23.22
+    },
+    {
+      "id": "demosaic",
+      "title": "Estimate missing colors",
+      "start": 23.22,
+      "end": 31.24
+    },
+    {
+      "id": "pixel",
+      "title": "Build one colored pixel",
+      "start": 31.24,
+      "end": 40.58
+    },
+    {
+      "id": "closing",
+      "title": "Repeat millions of times",
+      "start": 40.58,
+      "end": 50.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "photosite-focus",
+      "scene": "photosite",
+      "text": "Follow just one photosite on the sensor.",
+      "speak": "Follow just one photosite on the sensor.",
+      "start": 0.7,
+      "end": 3.38,
+      "duration": 2.68
+    },
+    {
+      "id": "photosite-signal",
+      "scene": "photosite",
+      "text": "Light enters it and becomes an electrical signal.",
+      "speak": "Light enters it and becomes an electrical signal.",
+      "start": 4.02,
+      "end": 6.82,
+      "duration": 2.8
+    },
+    {
+      "id": "photosite-more",
+      "scene": "photosite",
+      "text": "More light makes a larger signal.",
+      "speak": "More light makes a larger signal.",
+      "start": 7.4,
+      "end": 9.28,
+      "duration": 1.88
+    },
+    {
+      "id": "filter-brightness",
+      "scene": "filter",
+      "text": "But that signal is only a brightness measurement.",
+      "speak": "But that signal is only a brightness measurement.",
+      "start": 9.94,
+      "end": 12.54,
+      "duration": 2.6
+    },
+    {
+      "id": "filter-green",
+      "scene": "filter",
+      "text": "This site's filter passes mostly green light.",
+      "speak": "This site's filter passes mostly green light.",
+      "start": 13.28,
+      "end": 16.18,
+      "duration": 2.9
+    },
+    {
+      "id": "filter-value",
+      "scene": "filter",
+      "text": "So it records green brightness at this location.",
+      "speak": "So it records green brightness at this location.",
+      "start": 16.56,
+      "end": 19.06,
+      "duration": 2.5
+    },
+    {
+      "id": "neighbors-rgb",
+      "scene": "neighbors",
+      "text": "Neighboring sites record red or blue through their filters.",
+      "speak": "Neighboring sites record red or blue through their filters.",
+      "start": 19.8,
+      "end": 22.88,
+      "duration": 3.08
+    },
+    {
+      "id": "demosaic-estimate",
+      "scene": "demosaic",
+      "text": "The processor compares neighbors to estimate each site's missing color values.",
+      "speak": "The processor compares neighbors to estimate each site's missing color values.",
+      "start": 23.72,
+      "end": 28.54,
+      "duration": 4.82
+    },
+    {
+      "id": "demosaic-name",
+      "scene": "demosaic",
+      "text": "This step is called demosaicing.",
+      "speak": "This step is called demosaicing.",
+      "start": 28.54,
+      "end": 30.92,
+      "duration": 2.38
+    },
+    {
+      "id": "pixel-rgb",
+      "scene": "pixel",
+      "text": "Now red, green, and blue values describe one colored pixel.",
+      "speak": "Now red, green, and blue values describe one colored pixel.",
+      "start": 31.74,
+      "end": 35.68,
+      "duration": 3.94
+    },
+    {
+      "id": "pixel-repeat",
+      "scene": "pixel",
+      "text": "Repeat that millions of times, then reduce noise and adjust brightness.",
+      "speak": "Repeat that millions of times, then reduce noise and adjust brightness.",
+      "start": 36.3,
+      "end": 40.26,
+      "duration": 3.96
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Many tiny measurements become the photograph you see.",
+      "speak": "Many tiny measurements become the photograph you see.",
+      "start": 41.08,
+      "end": 43.9,
+      "duration": 2.82
+    }
+  ]
+}

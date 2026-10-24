@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-wireless-charging-works.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short18WirelessCharging.mp4",
+    "out": "RESULT/how-wireless-charging-works.mp4",
+    "end_s": 45.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.07,
+      "sfx_id": "scan-hum",
+      "gain_db": -22,
+      "cue": "Alternating current",
+      "sync_source": "drive-reverse"
+    },
+    {
+      "at_s": 11.72,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -20,
+      "cue": "Receiver enters field",
+      "sync_source": "receive-coil"
+    },
+    {
+      "at_s": 22.97,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -20,
+      "cue": "Power conditioning",
+      "sync_source": "condition-power"
+    },
+    {
+      "at_s": 26.37,
+      "sfx_id": "pop-reveal",
+      "gain_db": -21,
+      "cue": "Alignment test",
+      "sync_source": "alignment-move"
+    },
+    {
+      "at_s": 34.86,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "short-23-lithium-battery",
+  "title": "How a Lithium Battery Powers Your Phone",
+  "composition": "Short23LithiumBattery",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-23-lithium-battery/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "5e8e00c40768688c3bc71a8a619ad91bfca7e49acdbad1bca95f786b056b2d64",
+    "raw_duration_seconds": 36.88,
+    "trimmed_duration_seconds": 36.442042,
+    "tempo_rate": 0.84161759,
+    "requested_tempo_rate": 0.84161759,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
+    "narration_file": "media/voiceovers/lithium-battery/narration.wav",
+    "narration_sha256": "56ecba23fecf30b0cf3b2c8868799f518e585acf4ea01e15acd6be5c66fd4f68",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 43.982708,
+    "script_sha256": "14e8e4fa39740d27973fa8cb7c034c3bc80ab718194407255486c260ebf78c09",
+    "spoken_words": 96,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9623070741072297,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.982708s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 43.72,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Chemical energy, not an electricity tank",
+      "start": 0.0,
+      "end": 9.14
+    },
+    {
+      "id": "discharge",
+      "title": "Two paths during discharge",
+      "start": 9.14,
+      "end": 22.72
+    },
+    {
+      "id": "separator",
+      "title": "Separate the electrodes, guide the ions",
+      "start": 22.72,
+      "end": 31.18
+    },
+    {
+      "id": "charge",
+      "title": "Use external energy to reverse the shuttle",
+      "start": 31.18,
+      "end": 38.62
+    },
+    {
+      "id": "closing",
+      "title": "Ions inside, electrons outside",
+      "start": 38.62,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-tank",
+      "scene": "hook",
+      "text": "This battery is not a tank full of electricity.",
+      "speak": "This battery is not a tank full of electricity.",
+      "start": 0.7,
+      "end": 3.66,
+      "duration": 2.96
+    },
+    {
+      "id": "hook-chemical",
+      "scene": "hook",
+      "text": "It stores chemical energy by moving lithium ions between two materials.",
+      "speak": "It stores chemical energy by moving lithium ions between two materials.",
+      "start": 4.44,
+      "end": 8.86,
+      "duration": 4.42
+    },
+    {
+      "id": "discharge-leave",
+      "scene": "discharge",
+      "text": "During discharge, lithium ions leave the negative electrode.",
+      "speak": "During discharge, lithium ions leave the negative electrode.",
+      "start": 9.64,
+      "end": 13.34,
+      "duration": 3.7
+    },
+    {
+      "id": "discharge-ions",
+      "scene": "discharge",
+      "text": "They travel through the electrolyte toward the positive electrode.",
+      "speak": "They travel through the electrolyte toward the positive electrode.",
+      "start": 14.0,
+      "end": 17.26,
+      "duration": 3.26
+    },
+    {
+      "id": "discharge-electrons",
+      "scene": "discharge",
+      "text": "At the same time, electrons flow through the outside circuit, powering the phone.",
+      "speak": "At the same time, electrons flow through the outside circuit, powering the phone.",
+      "start": 17.86,
+      "end": 22.6,
+      "duration": 4.74
+    },
+    {
+      "id": "separator-pass",
+      "scene": "separator",
+      "text": "The separator lets ions pass, but keeps the electrodes from touching.",
+      "speak": "The separator lets ions pass, but keeps the electrodes from touching.",
+      "start": 23.22,
+      "end": 27.42,
+      "duration": 4.2
+    },
+    {
+      "id": "separator-path",
+      "scene": "separator",
+      "text": "The electrons must take the external path.",
+      "speak": "The electrons must take the external path.",
+      "start": 27.42,
+      "end": 30.96,
+      "duration": 3.54
+    },
+    {
+      "id": "charge-reverse",
+      "scene": "charge",
+      "text": "Plug in the charger, and the energy pushes ions and electrons back.",
+      "speak": "Plug in the charger, and the energy pushes ions and electrons back.",
+      "start": 31.68,
+      "end": 35.6,
+      "duration": 3.92
+    },
+    {
+      "id": "charge-ready",
+      "scene": "charge",
+      "text": "The battery is ready to discharge again.",
+      "speak": "The battery is ready to discharge again.",
+      "start": 36.2,
+      "end": 38.34,
+      "duration": 2.14
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "A battery controls this shuttle: ions inside, electrons outside.",
+      "speak": "A battery controls this shuttle: ions inside, electrons outside.",
+      "start": 39.12,
+      "end": 43.72,
+      "duration": 4.6
+    }
+  ]
+}

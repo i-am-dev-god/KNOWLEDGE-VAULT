@@ -1,0 +1,180 @@
+{
+  "id": "short-19-fingerprint",
+  "title": "How Fingerprint Sensors Recognize You",
+  "composition": "Short19Fingerprint",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 50.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-19-fingerprint/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "af2e68d67f20e8ff7872d74c382cd70954a1907ee333b2c8a4c6a84d85680062",
+    "raw_duration_seconds": 43.44,
+    "trimmed_duration_seconds": 43.1065,
+    "tempo_rate": 0.995531178,
+    "requested_tempo_rate": 0.995531178,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
+    "narration_file": "media/voiceovers/fingerprint/narration.wav",
+    "narration_sha256": "25b9a3dcef760de7ec8b0349835e01fa226a4b71165ffd18ad0e880541c4ce7e",
+    "narration_duration_seconds": 50.0,
+    "paced_speech_end_seconds": 43.986396,
+    "script_sha256": "c4a5bb2b6c46333fb84c2ea3e264ee27130441fecbce23872073c2ba4a56af1c",
+    "spoken_words": 101,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9799992301479818,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.986396s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [
+      {
+        "asr": "too",
+        "script": "two",
+        "start": 42.28,
+        "probability": 0.9597586393356323
+      }
+    ]
+  },
+  "pacing": "Calm 50-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 43.8,
+  "scenes": [
+    {
+      "id": "ridges",
+      "title": "Look at the details",
+      "start": 0.0,
+      "end": 11.64
+    },
+    {
+      "id": "sensor",
+      "title": "Map the ridges",
+      "start": 11.64,
+      "end": 17.96
+    },
+    {
+      "id": "template",
+      "title": "Record relative positions",
+      "start": 17.96,
+      "end": 25.9
+    },
+    {
+      "id": "match",
+      "title": "Compare two templates",
+      "start": 25.9,
+      "end": 38.62
+    },
+    {
+      "id": "closing",
+      "title": "Patterns, not identical pictures",
+      "start": 38.62,
+      "end": 50.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "ridges-focus",
+      "scene": "ridges",
+      "text": "Look at this one tiny ridge, not the whole fingerprint.",
+      "speak": "Look at this one tiny ridge, not the whole fingerprint.",
+      "start": 0.7,
+      "end": 4.06,
+      "duration": 3.36
+    },
+    {
+      "id": "ridges-ending",
+      "scene": "ridges",
+      "text": "Here, the ridge ends.",
+      "speak": "Here, the ridge ends.",
+      "start": 4.66,
+      "end": 6.08,
+      "duration": 1.42
+    },
+    {
+      "id": "ridges-split",
+      "scene": "ridges",
+      "text": "Here, another ridge splits into two.",
+      "speak": "Here, another ridge splits into two.",
+      "start": 6.44,
+      "end": 8.6,
+      "duration": 2.16
+    },
+    {
+      "id": "ridges-minutiae",
+      "scene": "ridges",
+      "text": "Details like these are called minutiae.",
+      "speak": "Details like these are called minutiae.",
+      "start": 9.24,
+      "end": 11.54,
+      "duration": 2.3
+    },
+    {
+      "id": "sensor-map",
+      "scene": "sensor",
+      "text": "A capacitive sensor maps them by measuring tiny electrical differences at many small points.",
+      "speak": "A capacitive sensor maps them by measuring tiny electrical differences at many small points.",
+      "start": 12.14,
+      "end": 17.86,
+      "duration": 5.72
+    },
+    {
+      "id": "template-position",
+      "scene": "template",
+      "text": "The phone records which details are present and where they sit relative to one another.",
+      "speak": "The phone records which details are present and where they sit relative to one another.",
+      "start": 18.46,
+      "end": 22.96,
+      "duration": 4.5
+    },
+    {
+      "id": "template-notphoto",
+      "scene": "template",
+      "text": "That is a mathematical template, not a photograph.",
+      "speak": "That is a mathematical template, not a photograph.",
+      "start": 23.36,
+      "end": 26.4,
+      "duration": 3.04
+    },
+    {
+      "id": "match-new",
+      "scene": "match",
+      "text": "On your next touch, the phone builds another template.",
+      "speak": "On your next touch, the phone builds another template.",
+      "start": 26.4,
+      "end": 29.86,
+      "duration": 3.46
+    },
+    {
+      "id": "match-compare",
+      "scene": "match",
+      "text": "It compares corresponding details, even if your finger shifted or rotated slightly.",
+      "speak": "It compares corresponding details, even if your finger shifted or rotated slightly.",
+      "start": 30.44,
+      "end": 34.86,
+      "duration": 4.42
+    },
+    {
+      "id": "match-result",
+      "scene": "match",
+      "text": "Enough matching features can unlock; too few cannot.",
+      "speak": "Enough matching features can unlock; too few cannot.",
+      "start": 35.48,
+      "end": 38.42,
+      "duration": 2.94
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Recognition means comparing patterns, not finding two identical pictures.",
+      "speak": "Recognition means comparing patterns, not finding two identical pictures.",
+      "start": 39.12,
+      "end": 43.8,
+      "duration": 4.68
+    }
+  ]
+}

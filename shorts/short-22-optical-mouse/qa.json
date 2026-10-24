@@ -1,0 +1,161 @@
+{
+  "file": "../../RESULT/how-an-optical-mouse-tracks-movement.mp4",
+  "production_copy": "output/how-an-optical-mouse-tracks-movement.mp4",
+  "status": "passed",
+  "bytes": 7088889,
+  "sha256": "eb9dc3bf4769158a8ffcfe4f65e96b99aaa3762e20a59316e4d5822397b51b45",
+  "md5": "6706205372251d8856f0d2c6a18d3316",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 884317,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 196744,
+    "integrated_lufs": -16.17,
+    "true_peak_dbfs": -1.46,
+    "loudness_range_lu": 9.6,
+    "mean_volume_db": -19.5,
+    "max_volume_db": -1.5,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 12,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.72,
+    "measured_speech_end_seconds": 44.988229,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.4146,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.850210685,
+    "source_sped_up": false,
+    "spoken_words": 98,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-22-optical-mouse/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "6c1cf6906989f2dd2126ad5434d3a80a35769ab787e916a815d6fdef09485289",
+    "raw_duration_seconds": 38.08,
+    "trimmed_duration_seconds": 37.664333,
+    "tempo_rate": 0.850210685,
+    "requested_tempo_rate": 0.850210685,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/optical-mouse/narration.wav",
+    "narration_sha256": "29b4ffb96c12bcba4478930e619da788060de728f629a503a23895cd1b0f0574",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.988229,
+    "script_sha256": "8c9c14b4c70b5f8db3e0fdce7ec2acd55c4a330a10b72a7e89444726e3d33fbb",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9800550825133616,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.988229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9800550825133616,
+    "low_confidence_words": [
+      {
+        "start": 28.16,
+        "end": 29.14,
+        "word": " That",
+        "probability": 0.34057337045669556
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 12,
+    "caption_midpoints_extracted": 12,
+    "narration_beat_samples_extracted": 25,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "previous_seven_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed_samples": 25,
+    "method": "Ordered onset, midpoint, and outro frames extracted from the actual delivered MP4 and inspected in contact-sheet order",
+    "caption_and_focus_match": "passed",
+    "safe_layout_and_legibility": "passed",
+    "caption_progress_line_absent": true,
+    "notes": "LED/camera exposure, identical shifting texture, measured X/Y displacement, inverse mouse/image direction, cursor response, and glossy-surface failure remain unambiguous.",
+    "samples": [
+      "output/qa/0026-hook-move-onset.jpg",
+      "output/qa/0043-hook-move-mid.jpg",
+      "output/qa/0089-hook-cursor-onset.jpg",
+      "output/qa/0121-hook-cursor-mid.jpg",
+      "output/qa/0186-sensor-led-onset.jpg",
+      "output/qa/0220-sensor-led-mid.jpg",
+      "output/qa/0283-sensor-camera-onset.jpg",
+      "output/qa/0326-sensor-camera-mid.jpg",
+      "output/qa/0403-compare-snapshots-onset.jpg",
+      "output/qa/0417-compare-snapshots-mid.jpg",
+      "output/qa/0466-compare-shift-onset.jpg",
+      "output/qa/0517-compare-shift-mid.jpg",
+      "output/qa/0601-compare-measure-onset.jpg",
+      "output/qa/0648-compare-measure-mid.jpg",
+      "output/qa/0722-motion-direction-onset.jpg",
+      "output/qa/0781-motion-direction-mid.jpg",
+      "output/qa/0850-motion-cursor-onset.jpg",
+      "output/qa/0900-motion-cursor-mid.jpg",
+      "output/qa/0983-surface-gloss-onset.jpg",
+      "output/qa/1044-surface-gloss-mid.jpg",
+      "output/qa/1132-surface-fail-onset.jpg",
+      "output/qa/1152-surface-fail-mid.jpg",
+      "output/qa/1206-closing-summary-onset.jpg",
+      "output/qa/1271-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-an-optical-mouse-tracks-movement.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "previous_seven_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

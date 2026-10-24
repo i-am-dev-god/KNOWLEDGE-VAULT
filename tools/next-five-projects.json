@@ -1,0 +1,665 @@
+{
+  "defaults": {
+    "duration_s": 45.0,
+    "initial_silence_s": 0.7,
+    "target_voice_end_s": 39.5,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-16-touchscreen",
+      "slug": "touchscreen",
+      "title": "How Touchscreens Sense Your Finger",
+      "composition": "Short16Touchscreen",
+      "result": "how-touchscreens-sense-your-finger.mp4",
+      "prompt": "Capacitive touchscreen. Transparent electrodes. Electric field. Conductive glove.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-touch",
+          "scene": "hook",
+          "text": "Touch this spot."
+        },
+        {
+          "id": "hook-question",
+          "scene": "hook",
+          "text": "How does the glass know where your finger landed?"
+        },
+        {
+          "id": "grid-electrodes",
+          "scene": "grid",
+          "text": "Beneath it, transparent electrodes cross in rows and columns."
+        },
+        {
+          "id": "grid-field",
+          "scene": "grid",
+          "text": "Each crossing holds a tiny electric field."
+        },
+        {
+          "id": "disturb-watch",
+          "scene": "disturb",
+          "text": "Watch the center crossing."
+        },
+        {
+          "id": "disturb-change",
+          "scene": "disturb",
+          "text": "Your finger draws a little charge, so this field changes."
+        },
+        {
+          "id": "disturb-others",
+          "scene": "disturb",
+          "text": "The other crossings stay nearly unchanged."
+        },
+        {
+          "id": "locate-read",
+          "scene": "locate",
+          "text": "The controller finds the changed row and column."
+        },
+        {
+          "id": "locate-position",
+          "scene": "locate",
+          "text": "Their intersection becomes the touch position."
+        },
+        {
+          "id": "gloves-normal",
+          "scene": "gloves",
+          "text": "A normal glove stops this effect."
+        },
+        {
+          "id": "gloves-conductive",
+          "scene": "gloves",
+          "text": "Conductive thread lets it through, so the crossing responds again."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "That is how glass turns a changed electric field into a touch location."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Where did you touch?"
+        ],
+        [
+          "grid",
+          "Crossings under glass"
+        ],
+        [
+          "disturb",
+          "Watch one crossing"
+        ],
+        [
+          "locate",
+          "Turn change into position"
+        ],
+        [
+          "gloves",
+          "Test the same field"
+        ],
+        [
+          "closing",
+          "A changed field becomes a location"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "grid-electrodes",
+          "offset_s": -0.2,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -19,
+          "cue": "Zoom beneath glass"
+        },
+        {
+          "sync_source": "disturb-watch",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Focus one crossing"
+        },
+        {
+          "sync_source": "locate-read",
+          "offset_s": -0.15,
+          "sfx_id": "pop-reveal",
+          "gain_db": -20,
+          "cue": "Coordinate readout"
+        },
+        {
+          "sync_source": "gloves-normal",
+          "offset_s": -0.15,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -20,
+          "cue": "Glove test"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ],
+      "target_voice_end_s": 40.0
+    },
+    {
+      "id": "short-17-qr-code",
+      "slug": "qr-code",
+      "title": "How QR Codes Survive Damage",
+      "composition": "Short17QrCode",
+      "result": "how-qr-codes-survive-damage.mp4",
+      "prompt": "QR code. Modules. Quiet zone. Error correction. Binary data.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "scan-message",
+          "scene": "scan",
+          "text": "This code stores the word HELLO."
+        },
+        {
+          "id": "scan-read",
+          "scene": "scan",
+          "text": "Scan it, and the reader rebuilds HELLO."
+        },
+        {
+          "id": "damage-cover",
+          "scene": "damage",
+          "text": "Now cover some of these central squares."
+        },
+        {
+          "id": "damage-question",
+          "scene": "damage",
+          "text": "How can the message survive?"
+        },
+        {
+          "id": "repair-extra",
+          "scene": "repair",
+          "text": "A QR code stores extra error-correction information alongside the message."
+        },
+        {
+          "id": "repair-rebuild",
+          "scene": "repair",
+          "text": "Watch the reader use that information to work out what the missing values should be."
+        },
+        {
+          "id": "repair-recovered",
+          "scene": "repair",
+          "text": "The reader fills in those missing values, and HELLO is recovered."
+        },
+        {
+          "id": "finders-role",
+          "scene": "finders",
+          "text": "The large corner patterns have another job: helping the reader find and align the code."
+        },
+        {
+          "id": "limit-heading",
+          "scene": "limit",
+          "text": "But repair has a limit."
+        },
+        {
+          "id": "limit-fail",
+          "scene": "limit",
+          "text": "Cover too much data, and the reader no longer has enough information to rebuild the message."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Error correction gives the reader a second chance to recover the message."
+        }
+      ],
+      "scenes": [
+        [
+          "scan",
+          "Start with a message"
+        ],
+        [
+          "damage",
+          "Damage the data"
+        ],
+        [
+          "repair",
+          "Reconstruct missing values"
+        ],
+        [
+          "finders",
+          "Finders do a different job"
+        ],
+        [
+          "limit",
+          "Recovery has a limit"
+        ],
+        [
+          "closing",
+          "A second chance"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "scan-read",
+          "offset_s": -0.15,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -20,
+          "cue": "Message scanned"
+        },
+        {
+          "sync_source": "damage-cover",
+          "offset_s": -0.15,
+          "sfx_id": "impact-soft",
+          "gain_db": -21,
+          "cue": "Central damage"
+        },
+        {
+          "sync_source": "repair-rebuild",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Reconstruction"
+        },
+        {
+          "sync_source": "repair-recovered",
+          "offset_s": -0.1,
+          "sfx_id": "chime-reward",
+          "gain_db": -21,
+          "cue": "Message recovered"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ],
+      "target_voice_end_s": 40.0
+    },
+    {
+      "id": "short-18-wireless-charging",
+      "slug": "wireless-charging",
+      "title": "How Wireless Charging Works",
+      "composition": "Short18WirelessCharging",
+      "result": "how-wireless-charging-works.mp4",
+      "prompt": "Wireless charging. Alternating current. Induction coils. Magnetic field. Induced voltage.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "drive-coil",
+          "scene": "drive",
+          "text": "Inside the pad, alternating current flows through this coil."
+        },
+        {
+          "id": "drive-reverse",
+          "scene": "drive",
+          "text": "Watch the current reverse direction."
+        },
+        {
+          "id": "field-change",
+          "scene": "field",
+          "text": "That makes the magnetic field expand and collapse."
+        },
+        {
+          "id": "receive-coil",
+          "scene": "receive",
+          "text": "Now place a second coil inside that changing field."
+        },
+        {
+          "id": "receive-voltage",
+          "scene": "receive",
+          "text": "The field induces a voltage in the second coil."
+        },
+        {
+          "id": "receive-link",
+          "scene": "receive",
+          "text": "The coils do not touch. They are magnetically linked."
+        },
+        {
+          "id": "condition-power",
+          "scene": "condition",
+          "text": "The phone then rectifies and regulates that power for its battery."
+        },
+        {
+          "id": "alignment-move",
+          "scene": "alignment",
+          "text": "Move the coils apart or off-center."
+        },
+        {
+          "id": "alignment-loss",
+          "scene": "alignment",
+          "text": "Less of the field links them, so the transfer weakens and wastes energy."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Wireless charging is energy crossing a changing magnetic field between two coils."
+        }
+      ],
+      "scenes": [
+        [
+          "drive",
+          "Drive one coil"
+        ],
+        [
+          "field",
+          "Make a changing field"
+        ],
+        [
+          "receive",
+          "Induce a voltage"
+        ],
+        [
+          "condition",
+          "Prepare battery power"
+        ],
+        [
+          "alignment",
+          "Change the coupling"
+        ],
+        [
+          "closing",
+          "Two coils, one transfer"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "drive-reverse",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Alternating current"
+        },
+        {
+          "sync_source": "receive-coil",
+          "offset_s": -0.2,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -20,
+          "cue": "Receiver enters field"
+        },
+        {
+          "sync_source": "condition-power",
+          "offset_s": -0.15,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -20,
+          "cue": "Power conditioning"
+        },
+        {
+          "sync_source": "alignment-move",
+          "offset_s": -0.15,
+          "sfx_id": "pop-reveal",
+          "gain_db": -21,
+          "cue": "Alignment test"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ],
+      "target_voice_end_s": 40.0
+    },
+    {
+      "id": "short-19-fingerprint",
+      "slug": "fingerprint",
+      "title": "How Fingerprint Sensors Recognize You",
+      "composition": "Short19Fingerprint",
+      "result": "how-fingerprint-sensors-recognize-you.mp4",
+      "prompt": "Capacitive fingerprint sensor. Ridges and valleys. Minutiae. Mathematical template.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "ridges-focus",
+          "scene": "ridges",
+          "text": "Look at this one tiny ridge, not the whole fingerprint."
+        },
+        {
+          "id": "ridges-ending",
+          "scene": "ridges",
+          "text": "Here, the ridge ends."
+        },
+        {
+          "id": "ridges-split",
+          "scene": "ridges",
+          "text": "Here, another ridge splits into two."
+        },
+        {
+          "id": "ridges-minutiae",
+          "scene": "ridges",
+          "text": "Details like these are called minutiae."
+        },
+        {
+          "id": "sensor-map",
+          "scene": "sensor",
+          "text": "A capacitive sensor maps them by measuring tiny electrical differences at many small points."
+        },
+        {
+          "id": "template-position",
+          "scene": "template",
+          "text": "The phone records which details are present and where they sit relative to one another."
+        },
+        {
+          "id": "template-notphoto",
+          "scene": "template",
+          "text": "That is a mathematical template, not a photograph."
+        },
+        {
+          "id": "match-new",
+          "scene": "match",
+          "text": "On your next touch, the phone builds another template."
+        },
+        {
+          "id": "match-compare",
+          "scene": "match",
+          "text": "It compares corresponding details, even if your finger shifted or rotated slightly."
+        },
+        {
+          "id": "match-result",
+          "scene": "match",
+          "text": "Enough matching features can unlock; too few cannot."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Recognition means comparing patterns, not finding two identical pictures."
+        }
+      ],
+      "scenes": [
+        [
+          "ridges",
+          "Look at the details"
+        ],
+        [
+          "sensor",
+          "Map the ridges"
+        ],
+        [
+          "template",
+          "Record relative positions"
+        ],
+        [
+          "match",
+          "Compare two templates"
+        ],
+        [
+          "closing",
+          "Patterns, not identical pictures"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "ridges-ending",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -22,
+          "cue": "Ridge ending"
+        },
+        {
+          "sync_source": "sensor-map",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Capacitive map"
+        },
+        {
+          "sync_source": "template-notphoto",
+          "offset_s": -0.2,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -20,
+          "cue": "Template formed"
+        },
+        {
+          "sync_source": "match-result",
+          "offset_s": -0.1,
+          "sfx_id": "chime-reward",
+          "gain_db": -21,
+          "cue": "Match result"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ],
+      "target_voice_end_s": 44.0,
+      "duration_s": 50.0
+    },
+    {
+      "id": "short-20-digital-photo",
+      "slug": "digital-photo",
+      "duration_s": 50.0,
+      "title": "How a Camera Turns Light Into a Photo",
+      "composition": "Short20DigitalPhoto",
+      "result": "how-a-camera-turns-light-into-a-photo.mp4",
+      "prompt": "Camera sensor. Photosites. Bayer color mosaic. Demosaicing. Digital photograph.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "photosite-focus",
+          "scene": "photosite",
+          "text": "Follow just one photosite on the sensor."
+        },
+        {
+          "id": "photosite-signal",
+          "scene": "photosite",
+          "text": "Light enters it and becomes an electrical signal."
+        },
+        {
+          "id": "photosite-more",
+          "scene": "photosite",
+          "text": "More light makes a larger signal."
+        },
+        {
+          "id": "filter-brightness",
+          "scene": "filter",
+          "text": "But that signal is only a brightness measurement."
+        },
+        {
+          "id": "filter-green",
+          "scene": "filter",
+          "text": "This site's filter passes mostly green light."
+        },
+        {
+          "id": "filter-value",
+          "scene": "filter",
+          "text": "So it records green brightness at this location."
+        },
+        {
+          "id": "neighbors-rgb",
+          "scene": "neighbors",
+          "text": "Neighboring sites record red or blue through their filters."
+        },
+        {
+          "id": "demosaic-estimate",
+          "scene": "demosaic",
+          "text": "The processor compares neighbors to estimate each site's missing color values."
+        },
+        {
+          "id": "demosaic-name",
+          "scene": "demosaic",
+          "text": "This step is called demosaicing."
+        },
+        {
+          "id": "pixel-rgb",
+          "scene": "pixel",
+          "text": "Now red, green, and blue values describe one colored pixel."
+        },
+        {
+          "id": "pixel-repeat",
+          "scene": "pixel",
+          "text": "Repeat that millions of times, then reduce noise and adjust brightness."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Many tiny measurements become the photograph you see."
+        }
+      ],
+      "scenes": [
+        [
+          "photosite",
+          "Follow one photosite"
+        ],
+        [
+          "filter",
+          "Add a color filter"
+        ],
+        [
+          "neighbors",
+          "Measure neighboring colors"
+        ],
+        [
+          "demosaic",
+          "Estimate missing colors"
+        ],
+        [
+          "pixel",
+          "Build one colored pixel"
+        ],
+        [
+          "closing",
+          "Repeat millions of times"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "photosite-signal",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Light becomes signal"
+        },
+        {
+          "sync_source": "filter-green",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -21,
+          "cue": "Green filter"
+        },
+        {
+          "sync_source": "demosaic-name",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -20,
+          "cue": "Demosaicing"
+        },
+        {
+          "sync_source": "pixel-rgb",
+          "offset_s": -0.1,
+          "sfx_id": "chime-reward",
+          "gain_db": -21,
+          "cue": "Color pixel"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ],
+      "target_voice_end_s": 44.0
+    }
+  ]
+}

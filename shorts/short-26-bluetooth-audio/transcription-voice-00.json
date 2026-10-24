@@ -1,0 +1,724 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "373e2d8f2742a2879dbca4782206d748ab22ba586295725b9197ecd87f638089",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Press play on your phone. The music reaches your headphones without a cable. First, the phone represents the music as digital audio samples. Bluetooth usually compresses those samples so they fit within the available data rate. The compressed stream is divided into small packets. Each packet carries control information alongside the audio data. The paired devices transmit these packets over short-range radio. They rapidly change frequencies in a coordinated pattern, helping avoid interference. Your headphones receive the packets and check that the data arrived correctly. They reassemble and decode the audio stream. Digital samples become radio packets, then become music again through the headphones converter and driver.",
+  "mean_word_probability": 0.9705291351786366,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 22.76,
+      "text": "Press play on your phone. The music reaches your headphones without a cable. First, the phone represents the music as digital audio samples. Bluetooth usually compresses those samples so they fit within the available data rate. The compressed stream is divided into small packets. Each packet carries control information alongside the audio data.",
+      "avg_logprob": -0.0777505227024593,
+      "no_speech_prob": 0.06497329473495483,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.02,
+          "word": " Press",
+          "probability": 0.7079530954360962
+        },
+        {
+          "start": 1.02,
+          "end": 1.32,
+          "word": " play",
+          "probability": 0.6066982746124268
+        },
+        {
+          "start": 1.32,
+          "end": 1.58,
+          "word": " on",
+          "probability": 0.9942469596862793
+        },
+        {
+          "start": 1.58,
+          "end": 1.76,
+          "word": " your",
+          "probability": 0.9906852841377258
+        },
+        {
+          "start": 1.76,
+          "end": 2.1,
+          "word": " phone.",
+          "probability": 0.981391429901123
+        },
+        {
+          "start": 2.58,
+          "end": 2.66,
+          "word": " The",
+          "probability": 0.9697086215019226
+        },
+        {
+          "start": 2.66,
+          "end": 3.0,
+          "word": " music",
+          "probability": 0.9946204423904419
+        },
+        {
+          "start": 3.0,
+          "end": 3.38,
+          "word": " reaches",
+          "probability": 0.9967515468597412
+        },
+        {
+          "start": 3.38,
+          "end": 3.64,
+          "word": " your",
+          "probability": 0.990587055683136
+        },
+        {
+          "start": 3.64,
+          "end": 4.06,
+          "word": " headphones",
+          "probability": 0.9788293838500977
+        },
+        {
+          "start": 4.06,
+          "end": 4.56,
+          "word": " without",
+          "probability": 0.9568668603897095
+        },
+        {
+          "start": 4.56,
+          "end": 4.8,
+          "word": " a",
+          "probability": 0.986012876033783
+        },
+        {
+          "start": 4.8,
+          "end": 5.06,
+          "word": " cable.",
+          "probability": 0.9990975856781006
+        },
+        {
+          "start": 5.82,
+          "end": 6.06,
+          "word": " First,",
+          "probability": 0.946647047996521
+        },
+        {
+          "start": 6.34,
+          "end": 6.46,
+          "word": " the",
+          "probability": 0.9894092082977295
+        },
+        {
+          "start": 6.46,
+          "end": 6.72,
+          "word": " phone",
+          "probability": 0.9938774704933167
+        },
+        {
+          "start": 6.72,
+          "end": 7.24,
+          "word": " represents",
+          "probability": 0.9950346946716309
+        },
+        {
+          "start": 7.24,
+          "end": 7.56,
+          "word": " the",
+          "probability": 0.9865100979804993
+        },
+        {
+          "start": 7.56,
+          "end": 7.82,
+          "word": " music",
+          "probability": 0.9988981485366821
+        },
+        {
+          "start": 7.82,
+          "end": 8.14,
+          "word": " as",
+          "probability": 0.9956753849983215
+        },
+        {
+          "start": 8.14,
+          "end": 8.62,
+          "word": " digital",
+          "probability": 0.9801158905029297
+        },
+        {
+          "start": 8.62,
+          "end": 9.06,
+          "word": " audio",
+          "probability": 0.9967604279518127
+        },
+        {
+          "start": 9.06,
+          "end": 9.64,
+          "word": " samples.",
+          "probability": 0.9961091876029968
+        },
+        {
+          "start": 10.36,
+          "end": 10.64,
+          "word": " Bluetooth",
+          "probability": 0.9857982993125916
+        },
+        {
+          "start": 10.64,
+          "end": 11.24,
+          "word": " usually",
+          "probability": 0.9894590377807617
+        },
+        {
+          "start": 11.24,
+          "end": 11.84,
+          "word": " compresses",
+          "probability": 0.9973343014717102
+        },
+        {
+          "start": 11.84,
+          "end": 12.12,
+          "word": " those",
+          "probability": 0.9867320656776428
+        },
+        {
+          "start": 12.12,
+          "end": 12.58,
+          "word": " samples",
+          "probability": 0.9969197511672974
+        },
+        {
+          "start": 12.58,
+          "end": 12.92,
+          "word": " so",
+          "probability": 0.540412962436676
+        },
+        {
+          "start": 12.92,
+          "end": 13.1,
+          "word": " they",
+          "probability": 0.9797979593276978
+        },
+        {
+          "start": 13.1,
+          "end": 13.3,
+          "word": " fit",
+          "probability": 0.9980410933494568
+        },
+        {
+          "start": 13.3,
+          "end": 13.6,
+          "word": " within",
+          "probability": 0.9902468919754028
+        },
+        {
+          "start": 13.6,
+          "end": 13.86,
+          "word": " the",
+          "probability": 0.9930203557014465
+        },
+        {
+          "start": 13.86,
+          "end": 14.24,
+          "word": " available",
+          "probability": 0.9976348876953125
+        },
+        {
+          "start": 14.24,
+          "end": 14.56,
+          "word": " data",
+          "probability": 0.9875451922416687
+        },
+        {
+          "start": 14.56,
+          "end": 14.9,
+          "word": " rate.",
+          "probability": 0.9780279994010925
+        },
+        {
+          "start": 15.52,
+          "end": 15.6,
+          "word": " The",
+          "probability": 0.9892407059669495
+        },
+        {
+          "start": 15.6,
+          "end": 16.1,
+          "word": " compressed",
+          "probability": 0.9988464117050171
+        },
+        {
+          "start": 16.1,
+          "end": 16.54,
+          "word": " stream",
+          "probability": 0.990064799785614
+        },
+        {
+          "start": 16.54,
+          "end": 16.82,
+          "word": " is",
+          "probability": 0.9981269240379333
+        },
+        {
+          "start": 16.82,
+          "end": 17.2,
+          "word": " divided",
+          "probability": 0.9978588223457336
+        },
+        {
+          "start": 17.2,
+          "end": 17.54,
+          "word": " into",
+          "probability": 0.9927904605865479
+        },
+        {
+          "start": 17.54,
+          "end": 17.98,
+          "word": " small",
+          "probability": 0.995725154876709
+        },
+        {
+          "start": 17.98,
+          "end": 18.46,
+          "word": " packets.",
+          "probability": 0.9966373443603516
+        },
+        {
+          "start": 19.08,
+          "end": 19.28,
+          "word": " Each",
+          "probability": 0.9950231313705444
+        },
+        {
+          "start": 19.28,
+          "end": 19.62,
+          "word": " packet",
+          "probability": 0.9966126084327698
+        },
+        {
+          "start": 19.62,
+          "end": 20.04,
+          "word": " carries",
+          "probability": 0.9948248863220215
+        },
+        {
+          "start": 20.04,
+          "end": 20.56,
+          "word": " control",
+          "probability": 0.9882330298423767
+        },
+        {
+          "start": 20.56,
+          "end": 21.16,
+          "word": " information",
+          "probability": 0.9985743761062622
+        },
+        {
+          "start": 21.16,
+          "end": 21.78,
+          "word": " alongside",
+          "probability": 0.9609487652778625
+        },
+        {
+          "start": 21.78,
+          "end": 22.14,
+          "word": " the",
+          "probability": 0.9814364314079285
+        },
+        {
+          "start": 22.14,
+          "end": 22.42,
+          "word": " audio",
+          "probability": 0.9990882873535156
+        },
+        {
+          "start": 22.42,
+          "end": 22.76,
+          "word": " data.",
+          "probability": 0.9986950755119324
+        }
+      ]
+    },
+    {
+      "start": 22.76,
+      "end": 27.04,
+      "text": "The paired devices transmit these packets over short-range radio.",
+      "avg_logprob": -0.19451901520768258,
+      "no_speech_prob": 0.013406874611973763,
+      "words": [
+        {
+          "start": 22.76,
+          "end": 23.54,
+          "word": " The",
+          "probability": 0.91444331407547
+        },
+        {
+          "start": 23.54,
+          "end": 23.88,
+          "word": " paired",
+          "probability": 0.9772564172744751
+        },
+        {
+          "start": 23.88,
+          "end": 24.34,
+          "word": " devices",
+          "probability": 0.9905241131782532
+        },
+        {
+          "start": 24.34,
+          "end": 24.94,
+          "word": " transmit",
+          "probability": 0.990993320941925
+        },
+        {
+          "start": 24.94,
+          "end": 25.26,
+          "word": " these",
+          "probability": 0.9945734143257141
+        },
+        {
+          "start": 25.26,
+          "end": 25.56,
+          "word": " packets",
+          "probability": 0.9974367022514343
+        },
+        {
+          "start": 25.56,
+          "end": 25.94,
+          "word": " over",
+          "probability": 0.9980958104133606
+        },
+        {
+          "start": 25.94,
+          "end": 26.3,
+          "word": " short",
+          "probability": 0.9740566611289978
+        },
+        {
+          "start": 26.3,
+          "end": 26.62,
+          "word": "-range",
+          "probability": 0.8577677011489868
+        },
+        {
+          "start": 26.62,
+          "end": 27.04,
+          "word": " radio.",
+          "probability": 0.9964375495910645
+        }
+      ]
+    },
+    {
+      "start": 27.66,
+      "end": 32.36,
+      "text": "They rapidly change frequencies in a coordinated pattern, helping avoid interference.",
+      "avg_logprob": -0.19451901520768258,
+      "no_speech_prob": 0.013406874611973763,
+      "words": [
+        {
+          "start": 27.66,
+          "end": 27.76,
+          "word": " They",
+          "probability": 0.9936251640319824
+        },
+        {
+          "start": 27.76,
+          "end": 28.22,
+          "word": " rapidly",
+          "probability": 0.9976237416267395
+        },
+        {
+          "start": 28.22,
+          "end": 28.66,
+          "word": " change",
+          "probability": 0.9973366856575012
+        },
+        {
+          "start": 28.66,
+          "end": 29.26,
+          "word": " frequencies",
+          "probability": 0.9909718036651611
+        },
+        {
+          "start": 29.26,
+          "end": 29.56,
+          "word": " in",
+          "probability": 0.9983556866645813
+        },
+        {
+          "start": 29.56,
+          "end": 29.76,
+          "word": " a",
+          "probability": 0.9951909780502319
+        },
+        {
+          "start": 29.76,
+          "end": 30.18,
+          "word": " coordinated",
+          "probability": 0.9353267550468445
+        },
+        {
+          "start": 30.18,
+          "end": 30.68,
+          "word": " pattern,",
+          "probability": 0.9978238344192505
+        },
+        {
+          "start": 30.86,
+          "end": 31.28,
+          "word": " helping",
+          "probability": 0.9964247345924377
+        },
+        {
+          "start": 31.28,
+          "end": 31.72,
+          "word": " avoid",
+          "probability": 0.9491661787033081
+        },
+        {
+          "start": 31.72,
+          "end": 32.36,
+          "word": " interference.",
+          "probability": 0.998623251914978
+        }
+      ]
+    },
+    {
+      "start": 33.18,
+      "end": 36.88,
+      "text": "Your headphones receive the packets and check that the data arrived correctly.",
+      "avg_logprob": -0.19451901520768258,
+      "no_speech_prob": 0.013406874611973763,
+      "words": [
+        {
+          "start": 33.18,
+          "end": 33.4,
+          "word": " Your",
+          "probability": 0.9910798668861389
+        },
+        {
+          "start": 33.4,
+          "end": 33.8,
+          "word": " headphones",
+          "probability": 0.9888555407524109
+        },
+        {
+          "start": 33.8,
+          "end": 34.28,
+          "word": " receive",
+          "probability": 0.9884562492370605
+        },
+        {
+          "start": 34.28,
+          "end": 34.52,
+          "word": " the",
+          "probability": 0.9932180047035217
+        },
+        {
+          "start": 34.52,
+          "end": 34.78,
+          "word": " packets",
+          "probability": 0.9979677796363831
+        },
+        {
+          "start": 34.78,
+          "end": 35.1,
+          "word": " and",
+          "probability": 0.9620196223258972
+        },
+        {
+          "start": 35.1,
+          "end": 35.34,
+          "word": " check",
+          "probability": 0.9977580904960632
+        },
+        {
+          "start": 35.34,
+          "end": 35.56,
+          "word": " that",
+          "probability": 0.9949594736099243
+        },
+        {
+          "start": 35.56,
+          "end": 35.68,
+          "word": " the",
+          "probability": 0.971875011920929
+        },
+        {
+          "start": 35.68,
+          "end": 35.94,
+          "word": " data",
+          "probability": 0.9994853734970093
+        },
+        {
+          "start": 35.94,
+          "end": 36.38,
+          "word": " arrived",
+          "probability": 0.990875244140625
+        },
+        {
+          "start": 36.38,
+          "end": 36.88,
+          "word": " correctly.",
+          "probability": 0.9982692003250122
+        }
+      ]
+    },
+    {
+      "start": 37.34,
+      "end": 39.86,
+      "text": "They reassemble and decode the audio stream.",
+      "avg_logprob": -0.19451901520768258,
+      "no_speech_prob": 0.013406874611973763,
+      "words": [
+        {
+          "start": 37.34,
+          "end": 37.6,
+          "word": " They",
+          "probability": 0.9934438467025757
+        },
+        {
+          "start": 37.6,
+          "end": 38.2,
+          "word": " reassemble",
+          "probability": 0.9836729168891907
+        },
+        {
+          "start": 38.2,
+          "end": 38.52,
+          "word": " and",
+          "probability": 0.9928970336914062
+        },
+        {
+          "start": 38.52,
+          "end": 38.94,
+          "word": " decode",
+          "probability": 0.9977849125862122
+        },
+        {
+          "start": 38.94,
+          "end": 39.22,
+          "word": " the",
+          "probability": 0.9976917505264282
+        },
+        {
+          "start": 39.22,
+          "end": 39.48,
+          "word": " audio",
+          "probability": 0.9913773536682129
+        },
+        {
+          "start": 39.48,
+          "end": 39.86,
+          "word": " stream.",
+          "probability": 0.99687260389328
+        }
+      ]
+    },
+    {
+      "start": 40.66,
+      "end": 44.92,
+      "text": "Digital samples become radio packets, then become music again through the headphones",
+      "avg_logprob": -0.19451901520768258,
+      "no_speech_prob": 0.013406874611973763,
+      "words": [
+        {
+          "start": 40.66,
+          "end": 40.92,
+          "word": " Digital",
+          "probability": 0.9912667870521545
+        },
+        {
+          "start": 40.92,
+          "end": 41.36,
+          "word": " samples",
+          "probability": 0.9964243769645691
+        },
+        {
+          "start": 41.36,
+          "end": 41.74,
+          "word": " become",
+          "probability": 0.9938268065452576
+        },
+        {
+          "start": 41.74,
+          "end": 42.14,
+          "word": " radio",
+          "probability": 0.9858681559562683
+        },
+        {
+          "start": 42.14,
+          "end": 42.54,
+          "word": " packets,",
+          "probability": 0.9983932375907898
+        },
+        {
+          "start": 42.78,
+          "end": 43.02,
+          "word": " then",
+          "probability": 0.9899975061416626
+        },
+        {
+          "start": 43.02,
+          "end": 43.34,
+          "word": " become",
+          "probability": 0.9629693627357483
+        },
+        {
+          "start": 43.34,
+          "end": 43.72,
+          "word": " music",
+          "probability": 0.9980668425559998
+        },
+        {
+          "start": 43.72,
+          "end": 44.06,
+          "word": " again",
+          "probability": 0.9966495633125305
+        },
+        {
+          "start": 44.06,
+          "end": 44.38,
+          "word": " through",
+          "probability": 0.9395060539245605
+        },
+        {
+          "start": 44.38,
+          "end": 44.6,
+          "word": " the",
+          "probability": 0.9781498312950134
+        },
+        {
+          "start": 44.6,
+          "end": 44.92,
+          "word": " headphones",
+          "probability": 0.7351122498512268
+        }
+      ]
+    },
+    {
+      "start": 44.92,
+      "end": 46.08,
+      "text": "converter and driver.",
+      "avg_logprob": -0.4122881974492754,
+      "no_speech_prob": 0.15461592376232147,
+      "words": [
+        {
+          "start": 44.92,
+          "end": 45.42,
+          "word": " converter",
+          "probability": 0.6378549933433533
+        },
+        {
+          "start": 45.42,
+          "end": 45.8,
+          "word": " and",
+          "probability": 0.9685140252113342
+        },
+        {
+          "start": 45.8,
+          "end": 46.08,
+          "word": " driver.",
+          "probability": 0.9477481245994568
+        }
+      ]
+    }
+  ]
+}

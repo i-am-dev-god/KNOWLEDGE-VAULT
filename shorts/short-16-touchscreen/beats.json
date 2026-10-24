@@ -1,0 +1,188 @@
+{
+  "id": "short-16-touchscreen",
+  "title": "How Touchscreens Sense Your Finger",
+  "composition": "Short16Touchscreen",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 45.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-16-touchscreen/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "867696087fff09a2bdf14e75d4442c4d9bc971250e63955c4ab6e12812b22816",
+    "raw_duration_seconds": 36.96,
+    "trimmed_duration_seconds": 36.4355,
+    "tempo_rate": 0.927111959,
+    "requested_tempo_rate": 0.927111959,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 40.0,
+    "narration_file": "media/voiceovers/touchscreen/narration.wav",
+    "narration_sha256": "4decae645a3931cb26127d217a1f7ee811db39ed8b9f629eab532dcea74c1ea5",
+    "narration_duration_seconds": 45.0,
+    "paced_speech_end_seconds": 39.993229,
+    "script_sha256": "81f658f63184b7c9bd89074ca7c54040cd20562d438705e7fe404f82021d862e",
+    "spoken_words": 91,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9808522688818502,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.993229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 45-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.86,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Where did you touch?",
+      "start": 0.0,
+      "end": 5.14
+    },
+    {
+      "id": "grid",
+      "title": "Crossings under glass",
+      "start": 5.14,
+      "end": 13.24
+    },
+    {
+      "id": "disturb",
+      "title": "Watch one crossing",
+      "start": 13.24,
+      "end": 21.86
+    },
+    {
+      "id": "locate",
+      "title": "Turn change into position",
+      "start": 21.86,
+      "end": 27.02
+    },
+    {
+      "id": "gloves",
+      "title": "Test the same field",
+      "start": 27.02,
+      "end": 35.06
+    },
+    {
+      "id": "closing",
+      "title": "A changed field becomes a location",
+      "start": 35.06,
+      "end": 45.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-touch",
+      "scene": "hook",
+      "text": "Touch this spot.",
+      "speak": "Touch this spot.",
+      "start": 0.7,
+      "end": 1.8,
+      "duration": 1.1
+    },
+    {
+      "id": "hook-question",
+      "scene": "hook",
+      "text": "How does the glass know where your finger landed?",
+      "speak": "How does the glass know where your finger landed?",
+      "start": 2.44,
+      "end": 4.78,
+      "duration": 2.34
+    },
+    {
+      "id": "grid-electrodes",
+      "scene": "grid",
+      "text": "Beneath it, transparent electrodes cross in rows and columns.",
+      "speak": "Beneath it, transparent electrodes cross in rows and columns.",
+      "start": 5.64,
+      "end": 9.5,
+      "duration": 3.86
+    },
+    {
+      "id": "grid-field",
+      "scene": "grid",
+      "text": "Each crossing holds a tiny electric field.",
+      "speak": "Each crossing holds a tiny electric field.",
+      "start": 10.2,
+      "end": 12.86,
+      "duration": 2.66
+    },
+    {
+      "id": "disturb-watch",
+      "scene": "disturb",
+      "text": "Watch the center crossing.",
+      "speak": "Watch the center crossing.",
+      "start": 13.74,
+      "end": 14.9,
+      "duration": 1.16
+    },
+    {
+      "id": "disturb-change",
+      "scene": "disturb",
+      "text": "Your finger draws a little charge, so this field changes.",
+      "speak": "Your finger draws a little charge, so this field changes.",
+      "start": 15.46,
+      "end": 18.64,
+      "duration": 3.18
+    },
+    {
+      "id": "disturb-others",
+      "scene": "disturb",
+      "text": "The other crossings stay nearly unchanged.",
+      "speak": "The other crossings stay nearly unchanged.",
+      "start": 19.1,
+      "end": 21.48,
+      "duration": 2.38
+    },
+    {
+      "id": "locate-read",
+      "scene": "locate",
+      "text": "The controller finds the changed row and column.",
+      "speak": "The controller finds the changed row and column.",
+      "start": 22.36,
+      "end": 25.12,
+      "duration": 2.76
+    },
+    {
+      "id": "locate-position",
+      "scene": "locate",
+      "text": "Their intersection becomes the touch position.",
+      "speak": "Their intersection becomes the touch position.",
+      "start": 25.48,
+      "end": 27.52,
+      "duration": 2.04
+    },
+    {
+      "id": "gloves-normal",
+      "scene": "gloves",
+      "text": "A normal glove stops this effect.",
+      "speak": "A normal glove stops this effect.",
+      "start": 27.52,
+      "end": 30.62,
+      "duration": 3.1
+    },
+    {
+      "id": "gloves-conductive",
+      "scene": "gloves",
+      "text": "Conductive thread lets it through, so the crossing responds again.",
+      "speak": "Conductive thread lets it through, so the crossing responds again.",
+      "start": 31.3,
+      "end": 34.6,
+      "duration": 3.3
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "That is how glass turns a changed electric field into a touch location.",
+      "speak": "That is how glass turns a changed electric field into a touch location.",
+      "start": 35.56,
+      "end": 39.86,
+      "duration": 4.3
+    }
+  ]
+}

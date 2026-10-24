@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "branch": "arena/94671a58-knowledge-vault",
+  "voice": "voice-00",
+  "caption_progress_line": false,
+  "delivered_narration_offset_limit_seconds": 0.012,
+  "preserved_results": {
+    "how-gps-finds-you.mp4": "3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c",
+    "how-noise-cancelling-headphones-work.mp4": "ef9e6020d7f60cdb4f24404e92f03e7d3938c9c7ba6a129e46a758bca60ef6d6",
+    "how-touchscreens-sense-your-finger.mp4": "3492847745db1ba6b490b18f0273c7866f1bfb7085128fbcce8785239e3623fa",
+    "how-qr-codes-survive-damage.mp4": "76ff8e25073f5358de4d0c991ec033064a0e5b0a408d4823c3ce66a3dd5db4e3",
+    "how-wireless-charging-works.mp4": "c3ceecb903eb86ad8982210e1420e023d124e4e0e16fb5ec04f388896e7f537e",
+    "how-fingerprint-sensors-recognize-you.mp4": "df60fa7265673e3fa63b70b058d5b75e3ee4a1bc5471e128f1e51f8e2ff8605c",
+    "how-a-camera-turns-light-into-a-photo.mp4": "a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51"
+  },
+  "videos": [
+    {
+      "file": "RESULT/how-a-speaker-turns-electricity-into-sound.mp4",
+      "composition": "Short21Speaker",
+      "bytes": 8854404,
+      "sha256": "32a52c2d00a64db5573bb316d212d4f682c4e062e2e883ba9c67df788d9b1bfc",
+      "decoded_frames": 1440,
+      "integrated_lufs": -16.13,
+      "true_peak_dbfs": -1.37,
+      "delivered_narration_offset_seconds": -0.001,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-an-optical-mouse-tracks-movement.mp4",
+      "composition": "Short22OpticalMouse",
+      "bytes": 7088889,
+      "sha256": "eb9dc3bf4769158a8ffcfe4f65e96b99aaa3762e20a59316e4d5822397b51b45",
+      "decoded_frames": 1560,
+      "integrated_lufs": -16.17,
+      "true_peak_dbfs": -1.46,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-a-lithium-battery-powers-your-phone.mp4",
+      "composition": "Short23LithiumBattery",
+      "bytes": 9201862,
+      "sha256": "289304d405605d7c181a6d628a4e1b11c0b3ebf407571d5626ca73131f0cb8c2",
+      "decoded_frames": 1560,
+      "integrated_lufs": -16.26,
+      "true_peak_dbfs": -1.39,
+      "delivered_narration_offset_seconds": -0.001,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-zip-files-make-data-smaller.mp4",
+      "composition": "Short24ZipCompression",
+      "bytes": 7934140,
+      "sha256": "a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91",
+      "decoded_frames": 1560,
+      "integrated_lufs": -16.1,
+      "true_peak_dbfs": -1.5,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-a-microwave-oven-heats-food.mp4",
+      "composition": "Short25MicrowaveHeating",
+      "bytes": 9803321,
+      "sha256": "a9215550a8791de416a1995cd8ba757a7b6e79bdd9f0147f20b830913d68cbab",
+      "decoded_frames": 1650,
+      "integrated_lufs": -16.15,
+      "true_peak_dbfs": -1.48,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    }
+  ]
+}

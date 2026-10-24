@@ -1,0 +1,165 @@
+{
+  "file": "../../RESULT/how-zip-files-make-data-smaller.mp4",
+  "production_copy": "output/how-zip-files-make-data-smaller.mp4",
+  "status": "passed",
+  "bytes": 7934140,
+  "sha256": "a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91",
+  "md5": "b4c9c6511c68a552906aacd301bb83f8",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 1014226,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 196900,
+    "integrated_lufs": -16.1,
+    "true_peak_dbfs": -1.5,
+    "loudness_range_lu": 13.7,
+    "mean_volume_db": -19.5,
+    "max_volume_db": -1.5,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 11,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.76,
+    "measured_speech_end_seconds": 44.986021,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.41595,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.85434067,
+    "source_sped_up": false,
+    "spoken_words": 100,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-24-zip-compression/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "9191b37ad9b6fb372eaaa0b85b9817980dbba764bc450270b0c27d7ffbf27f00",
+    "raw_duration_seconds": 38.32,
+    "trimmed_duration_seconds": 37.847292,
+    "tempo_rate": 0.85434067,
+    "requested_tempo_rate": 0.85434067,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/zip-compression/narration.wav",
+    "narration_sha256": "5ffd4bd4ed5904decf005377689c1af4256f53bfe3f07865a66950021a200180",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.986021,
+    "script_sha256": "beb3081cfb33ae3831113f145c674d3403bf827d29e23ded5be49aeb9ad2ad01",
+    "spoken_words": 100,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9688805714994669,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.986021s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9688805714994669,
+    "low_confidence_words": [
+      {
+        "start": 3.86,
+        "end": 4.58,
+        "word": " science",
+        "probability": 0.08658698946237564
+      },
+      {
+        "start": 35.98,
+        "end": 36.08,
+        "word": " Zip",
+        "probability": 0.4535716474056244
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 11,
+    "caption_midpoints_extracted": 11,
+    "narration_beat_samples_extracted": 23,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "previous_seven_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed_samples": 23,
+    "method": "Ordered onset, midpoint, and outro frames extracted from the actual delivered MP4 and inspected in contact-sheet order",
+    "caption_and_focus_match": "passed",
+    "safe_layout_and_legibility": "passed",
+    "caption_progress_line_absent": true,
+    "notes": "The exact 16-character phrase becomes BACK 16 / COPY 16 references; bit-length bars do not overlap; all three original phrases reconstruct exactly; useful-structure contrast returns to focus.",
+    "samples": [
+      "output/qa/0026-hook-repeat-onset.jpg",
+      "output/qa/0050-hook-repeat-mid.jpg",
+      "output/qa/0108-hook-phrase-onset.jpg",
+      "output/qa/0151-hook-phrase-mid.jpg",
+      "output/qa/0226-dictionary-once-onset.jpg",
+      "output/qa/0284-dictionary-once-mid.jpg",
+      "output/qa/0377-dictionary-reference-onset.jpg",
+      "output/qa/0420-dictionary-reference-mid.jpg",
+      "output/qa/0495-bits-translate-onset.jpg",
+      "output/qa/0534-bits-translate-mid.jpg",
+      "output/qa/0606-bits-common-onset.jpg",
+      "output/qa/0650-bits-common-mid.jpg",
+      "output/qa/0726-unpack-rebuild-onset.jpg",
+      "output/qa/0799-unpack-rebuild-mid.jpg",
+      "output/qa/0883-unpack-exact-onset.jpg",
+      "output/qa/0917-unpack-exact-mid.jpg",
+      "output/qa/0978-limit-random-onset.jpg",
+      "output/qa/1014-limit-random-mid.jpg",
+      "output/qa/1085-limit-structure-onset.jpg",
+      "output/qa/1126-limit-structure-mid.jpg",
+      "output/qa/1194-closing-summary-onset.jpg",
+      "output/qa/1266-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-zip-files-make-data-smaller.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "previous_seven_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

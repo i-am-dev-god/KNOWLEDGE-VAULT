@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "branch": "arena/94671a58-knowledge-vault",
+  "voice": "voice-00",
+  "caption_progress_line": false,
+  "delivered_narration_offset_limit_seconds": 0.012,
+  "preserved_results": {
+    "how-gps-finds-you.mp4": "3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c",
+    "how-noise-cancelling-headphones-work.mp4": "ef9e6020d7f60cdb4f24404e92f03e7d3938c9c7ba6a129e46a758bca60ef6d6"
+  },
+  "videos": [
+    {
+      "file": "RESULT/how-touchscreens-sense-your-finger.mp4",
+      "composition": "Short16Touchscreen",
+      "bytes": 6464289,
+      "sha256": "3492847745db1ba6b490b18f0273c7866f1bfb7085128fbcce8785239e3623fa",
+      "decoded_frames": 1350,
+      "integrated_lufs": -16.23,
+      "true_peak_dbfs": -1.34,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-qr-codes-survive-damage.mp4",
+      "composition": "Short17QrCode",
+      "bytes": 6548198,
+      "sha256": "76ff8e25073f5358de4d0c991ec033064a0e5b0a408d4823c3ce66a3dd5db4e3",
+      "decoded_frames": 1350,
+      "integrated_lufs": -16.15,
+      "true_peak_dbfs": -1.45,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-wireless-charging-works.mp4",
+      "composition": "Short18WirelessCharging",
+      "bytes": 7256912,
+      "sha256": "c3ceecb903eb86ad8982210e1420e023d124e4e0e16fb5ec04f388896e7f537e",
+      "decoded_frames": 1350,
+      "integrated_lufs": -16.19,
+      "true_peak_dbfs": -1.33,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-fingerprint-sensors-recognize-you.mp4",
+      "composition": "Short19Fingerprint",
+      "bytes": 6819274,
+      "sha256": "df60fa7265673e3fa63b70b058d5b75e3ee4a1bc5471e128f1e51f8e2ff8605c",
+      "decoded_frames": 1500,
+      "integrated_lufs": -16.02,
+      "true_peak_dbfs": -1.41,
+      "delivered_narration_offset_seconds": -0.001,
+      "visual_review": "passed",
+      "status": "passed"
+    },
+    {
+      "file": "RESULT/how-a-camera-turns-light-into-a-photo.mp4",
+      "composition": "Short20DigitalPhoto",
+      "bytes": 7381699,
+      "sha256": "a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51",
+      "decoded_frames": 1500,
+      "integrated_lufs": -16.14,
+      "true_peak_dbfs": -1.48,
+      "delivered_narration_offset_seconds": 0.0,
+      "visual_review": "passed",
+      "status": "passed"
+    }
+  ]
+}

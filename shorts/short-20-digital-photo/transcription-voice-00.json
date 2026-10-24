@@ -1,0 +1,659 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "d8da27e2f3eecbc56695850f40b4dbc6fbbbd5f0e9676304ac079d04d41d307d",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Follow just one photosite on the sensor. Light enters it and becomes an electrical signal. More light makes a larger signal. But that signal is only a brightness measurement. This site's filter passes mostly green light. So it records green brightness at this location. Neighbouring sites record red or blue through their filters. The processor compares neighbours to estimate each site's missing color values. This step is called Demosaicing. Now red, green and blue values describe one colored pixel. Repeat that millions of times, then reduce noise and adjust brightness. Many tiny measurements become the photograph you see.",
+  "mean_word_probability": 0.9483627114115525,
+  "low_confidence_words": [
+    {
+      "start": 2.02,
+      "end": 2.66,
+      "word": " photosite",
+      "probability": 0.35246095806360245
+    },
+    {
+      "start": 27.82,
+      "end": 28.12,
+      "word": " color",
+      "probability": 0.19469425082206726
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.54,
+      "text": "Follow just one photosite on the sensor. Light enters it and becomes an electrical signal. More light makes a larger signal. But that signal is only a brightness measurement. This site's filter passes mostly green light. So it records green brightness at this location. Neighbouring sites record red or blue through their filters. The processor compares neighbours to estimate each site's missing color values.",
+      "avg_logprob": -0.08070207905920246,
+      "no_speech_prob": 0.028478633612394333,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.14,
+          "word": " Follow",
+          "probability": 0.8232490420341492
+        },
+        {
+          "start": 1.14,
+          "end": 1.48,
+          "word": " just",
+          "probability": 0.9848981499671936
+        },
+        {
+          "start": 1.48,
+          "end": 2.02,
+          "word": " one",
+          "probability": 0.9543054103851318
+        },
+        {
+          "start": 2.02,
+          "end": 2.66,
+          "word": " photosite",
+          "probability": 0.35246095806360245
+        },
+        {
+          "start": 2.66,
+          "end": 2.88,
+          "word": " on",
+          "probability": 0.9901444911956787
+        },
+        {
+          "start": 2.88,
+          "end": 3.04,
+          "word": " the",
+          "probability": 0.9889683723449707
+        },
+        {
+          "start": 3.04,
+          "end": 3.38,
+          "word": " sensor.",
+          "probability": 0.9939484596252441
+        },
+        {
+          "start": 4.02,
+          "end": 4.24,
+          "word": " Light",
+          "probability": 0.9790709018707275
+        },
+        {
+          "start": 4.24,
+          "end": 4.68,
+          "word": " enters",
+          "probability": 0.996715784072876
+        },
+        {
+          "start": 4.68,
+          "end": 5.06,
+          "word": " it",
+          "probability": 0.9847538471221924
+        },
+        {
+          "start": 5.06,
+          "end": 5.32,
+          "word": " and",
+          "probability": 0.9159356951713562
+        },
+        {
+          "start": 5.32,
+          "end": 5.7,
+          "word": " becomes",
+          "probability": 0.9750890135765076
+        },
+        {
+          "start": 5.7,
+          "end": 5.98,
+          "word": " an",
+          "probability": 0.985461413860321
+        },
+        {
+          "start": 5.98,
+          "end": 6.38,
+          "word": " electrical",
+          "probability": 0.9937404990196228
+        },
+        {
+          "start": 6.38,
+          "end": 6.82,
+          "word": " signal.",
+          "probability": 0.9986248016357422
+        },
+        {
+          "start": 7.4,
+          "end": 7.68,
+          "word": " More",
+          "probability": 0.9907395839691162
+        },
+        {
+          "start": 7.68,
+          "end": 8.0,
+          "word": " light",
+          "probability": 0.990404486656189
+        },
+        {
+          "start": 8.0,
+          "end": 8.34,
+          "word": " makes",
+          "probability": 0.9758398532867432
+        },
+        {
+          "start": 8.34,
+          "end": 8.62,
+          "word": " a",
+          "probability": 0.9743372201919556
+        },
+        {
+          "start": 8.62,
+          "end": 8.88,
+          "word": " larger",
+          "probability": 0.9961115717887878
+        },
+        {
+          "start": 8.88,
+          "end": 9.28,
+          "word": " signal.",
+          "probability": 0.9951655864715576
+        },
+        {
+          "start": 9.94,
+          "end": 10.1,
+          "word": " But",
+          "probability": 0.9885066747665405
+        },
+        {
+          "start": 10.1,
+          "end": 10.3,
+          "word": " that",
+          "probability": 0.9681438207626343
+        },
+        {
+          "start": 10.3,
+          "end": 10.74,
+          "word": " signal",
+          "probability": 0.988014280796051
+        },
+        {
+          "start": 10.74,
+          "end": 11.08,
+          "word": " is",
+          "probability": 0.9947999715805054
+        },
+        {
+          "start": 11.08,
+          "end": 11.4,
+          "word": " only",
+          "probability": 0.9896530508995056
+        },
+        {
+          "start": 11.4,
+          "end": 11.66,
+          "word": " a",
+          "probability": 0.9904100894927979
+        },
+        {
+          "start": 11.66,
+          "end": 12.06,
+          "word": " brightness",
+          "probability": 0.9909857511520386
+        },
+        {
+          "start": 12.06,
+          "end": 12.54,
+          "word": " measurement.",
+          "probability": 0.9971080422401428
+        },
+        {
+          "start": 13.28,
+          "end": 13.48,
+          "word": " This",
+          "probability": 0.9737846255302429
+        },
+        {
+          "start": 13.48,
+          "end": 14.02,
+          "word": " site's",
+          "probability": 0.9547181725502014
+        },
+        {
+          "start": 14.02,
+          "end": 14.34,
+          "word": " filter",
+          "probability": 0.9858383536338806
+        },
+        {
+          "start": 14.34,
+          "end": 14.82,
+          "word": " passes",
+          "probability": 0.996131181716919
+        },
+        {
+          "start": 14.82,
+          "end": 15.38,
+          "word": " mostly",
+          "probability": 0.9972456693649292
+        },
+        {
+          "start": 15.38,
+          "end": 15.8,
+          "word": " green",
+          "probability": 0.9923489093780518
+        },
+        {
+          "start": 15.8,
+          "end": 16.18,
+          "word": " light.",
+          "probability": 0.9898292422294617
+        },
+        {
+          "start": 16.56,
+          "end": 16.74,
+          "word": " So",
+          "probability": 0.989590585231781
+        },
+        {
+          "start": 16.74,
+          "end": 16.9,
+          "word": " it",
+          "probability": 0.6663931012153625
+        },
+        {
+          "start": 16.9,
+          "end": 17.28,
+          "word": " records",
+          "probability": 0.9912459254264832
+        },
+        {
+          "start": 17.28,
+          "end": 17.68,
+          "word": " green",
+          "probability": 0.9855887293815613
+        },
+        {
+          "start": 17.68,
+          "end": 18.14,
+          "word": " brightness",
+          "probability": 0.9968430995941162
+        },
+        {
+          "start": 18.14,
+          "end": 18.4,
+          "word": " at",
+          "probability": 0.9927142262458801
+        },
+        {
+          "start": 18.4,
+          "end": 18.58,
+          "word": " this",
+          "probability": 0.9942440390586853
+        },
+        {
+          "start": 18.58,
+          "end": 19.06,
+          "word": " location.",
+          "probability": 0.9992855191230774
+        },
+        {
+          "start": 19.8,
+          "end": 20.2,
+          "word": " Neighbouring",
+          "probability": 0.8563942511876425
+        },
+        {
+          "start": 20.2,
+          "end": 20.5,
+          "word": " sites",
+          "probability": 0.9833810329437256
+        },
+        {
+          "start": 20.5,
+          "end": 20.96,
+          "word": " record",
+          "probability": 0.989287257194519
+        },
+        {
+          "start": 20.96,
+          "end": 21.3,
+          "word": " red",
+          "probability": 0.973944365978241
+        },
+        {
+          "start": 21.3,
+          "end": 21.64,
+          "word": " or",
+          "probability": 0.9820486903190613
+        },
+        {
+          "start": 21.64,
+          "end": 21.96,
+          "word": " blue",
+          "probability": 0.9986270666122437
+        },
+        {
+          "start": 21.96,
+          "end": 22.26,
+          "word": " through",
+          "probability": 0.9922299981117249
+        },
+        {
+          "start": 22.26,
+          "end": 22.5,
+          "word": " their",
+          "probability": 0.988170862197876
+        },
+        {
+          "start": 22.5,
+          "end": 22.88,
+          "word": " filters.",
+          "probability": 0.9963854551315308
+        },
+        {
+          "start": 23.72,
+          "end": 23.96,
+          "word": " The",
+          "probability": 0.9768379926681519
+        },
+        {
+          "start": 23.96,
+          "end": 24.4,
+          "word": " processor",
+          "probability": 0.9848828911781311
+        },
+        {
+          "start": 24.4,
+          "end": 25.1,
+          "word": " compares",
+          "probability": 0.9959596991539001
+        },
+        {
+          "start": 25.1,
+          "end": 25.52,
+          "word": " neighbours",
+          "probability": 0.9196295738220215
+        },
+        {
+          "start": 25.52,
+          "end": 25.92,
+          "word": " to",
+          "probability": 0.9962489008903503
+        },
+        {
+          "start": 25.92,
+          "end": 26.48,
+          "word": " estimate",
+          "probability": 0.9989608526229858
+        },
+        {
+          "start": 26.48,
+          "end": 26.92,
+          "word": " each",
+          "probability": 0.9986991882324219
+        },
+        {
+          "start": 26.92,
+          "end": 27.54,
+          "word": " site's",
+          "probability": 0.9744828939437866
+        },
+        {
+          "start": 27.54,
+          "end": 27.82,
+          "word": " missing",
+          "probability": 0.9938576817512512
+        },
+        {
+          "start": 27.82,
+          "end": 28.12,
+          "word": " color",
+          "probability": 0.19469425082206726
+        },
+        {
+          "start": 28.12,
+          "end": 28.54,
+          "word": " values.",
+          "probability": 0.9927809834480286
+        }
+      ]
+    },
+    {
+      "start": 28.54,
+      "end": 30.92,
+      "text": "This step is called Demosaicing.",
+      "avg_logprob": -0.21857927535094468,
+      "no_speech_prob": 0.025214551016688347,
+      "words": [
+        {
+          "start": 28.54,
+          "end": 29.36,
+          "word": " This",
+          "probability": 0.9030145406723022
+        },
+        {
+          "start": 29.36,
+          "end": 29.62,
+          "word": " step",
+          "probability": 0.9938143491744995
+        },
+        {
+          "start": 29.62,
+          "end": 29.9,
+          "word": " is",
+          "probability": 0.9963622689247131
+        },
+        {
+          "start": 29.9,
+          "end": 30.18,
+          "word": " called",
+          "probability": 0.9931647181510925
+        },
+        {
+          "start": 30.18,
+          "end": 30.92,
+          "word": " Demosaicing.",
+          "probability": 0.560347855091095
+        }
+      ]
+    },
+    {
+      "start": 31.74,
+      "end": 35.68,
+      "text": "Now red, green and blue values describe one colored pixel.",
+      "avg_logprob": -0.21857927535094468,
+      "no_speech_prob": 0.025214551016688347,
+      "words": [
+        {
+          "start": 31.74,
+          "end": 31.86,
+          "word": " Now",
+          "probability": 0.9794490337371826
+        },
+        {
+          "start": 31.86,
+          "end": 32.24,
+          "word": " red,",
+          "probability": 0.5513483881950378
+        },
+        {
+          "start": 32.58,
+          "end": 32.78,
+          "word": " green",
+          "probability": 0.9692822694778442
+        },
+        {
+          "start": 32.78,
+          "end": 33.14,
+          "word": " and",
+          "probability": 0.7925149202346802
+        },
+        {
+          "start": 33.14,
+          "end": 33.44,
+          "word": " blue",
+          "probability": 0.9947609305381775
+        },
+        {
+          "start": 33.44,
+          "end": 33.9,
+          "word": " values",
+          "probability": 0.9648783802986145
+        },
+        {
+          "start": 33.9,
+          "end": 34.48,
+          "word": " describe",
+          "probability": 0.9777431488037109
+        },
+        {
+          "start": 34.48,
+          "end": 34.98,
+          "word": " one",
+          "probability": 0.9078801274299622
+        },
+        {
+          "start": 34.98,
+          "end": 35.32,
+          "word": " colored",
+          "probability": 0.6231415867805481
+        },
+        {
+          "start": 35.32,
+          "end": 35.68,
+          "word": " pixel.",
+          "probability": 0.9792070388793945
+        }
+      ]
+    },
+    {
+      "start": 36.3,
+      "end": 40.26,
+      "text": "Repeat that millions of times, then reduce noise and adjust brightness.",
+      "avg_logprob": -0.21857927535094468,
+      "no_speech_prob": 0.025214551016688347,
+      "words": [
+        {
+          "start": 36.3,
+          "end": 36.56,
+          "word": " Repeat",
+          "probability": 0.9974192380905151
+        },
+        {
+          "start": 36.56,
+          "end": 36.86,
+          "word": " that",
+          "probability": 0.9822120070457458
+        },
+        {
+          "start": 36.86,
+          "end": 37.28,
+          "word": " millions",
+          "probability": 0.9694883227348328
+        },
+        {
+          "start": 37.28,
+          "end": 37.52,
+          "word": " of",
+          "probability": 0.9968945980072021
+        },
+        {
+          "start": 37.52,
+          "end": 37.9,
+          "word": " times,",
+          "probability": 0.995781421661377
+        },
+        {
+          "start": 38.1,
+          "end": 38.32,
+          "word": " then",
+          "probability": 0.9773348569869995
+        },
+        {
+          "start": 38.32,
+          "end": 38.68,
+          "word": " reduce",
+          "probability": 0.991872251033783
+        },
+        {
+          "start": 38.68,
+          "end": 39.12,
+          "word": " noise",
+          "probability": 0.9766896963119507
+        },
+        {
+          "start": 39.12,
+          "end": 39.48,
+          "word": " and",
+          "probability": 0.9621650576591492
+        },
+        {
+          "start": 39.48,
+          "end": 39.82,
+          "word": " adjust",
+          "probability": 0.9980472326278687
+        },
+        {
+          "start": 39.82,
+          "end": 40.26,
+          "word": " brightness.",
+          "probability": 0.9935945868492126
+        }
+      ]
+    },
+    {
+      "start": 41.08,
+      "end": 43.9,
+      "text": "Many tiny measurements become the photograph you see.",
+      "avg_logprob": -0.21857927535094468,
+      "no_speech_prob": 0.025214551016688347,
+      "words": [
+        {
+          "start": 41.08,
+          "end": 41.4,
+          "word": " Many",
+          "probability": 0.9939312934875488
+        },
+        {
+          "start": 41.4,
+          "end": 41.78,
+          "word": " tiny",
+          "probability": 0.9955908060073853
+        },
+        {
+          "start": 41.78,
+          "end": 42.28,
+          "word": " measurements",
+          "probability": 0.9940968751907349
+        },
+        {
+          "start": 42.28,
+          "end": 42.76,
+          "word": " become",
+          "probability": 0.981787919998169
+        },
+        {
+          "start": 42.76,
+          "end": 43.06,
+          "word": " the",
+          "probability": 0.9934343099594116
+        },
+        {
+          "start": 43.06,
+          "end": 43.48,
+          "word": " photograph",
+          "probability": 0.9477649927139282
+        },
+        {
+          "start": 43.48,
+          "end": 43.72,
+          "word": " you",
+          "probability": 0.9662140011787415
+        },
+        {
+          "start": 43.72,
+          "end": 43.9,
+          "word": " see.",
+          "probability": 0.9974246025085449
+        }
+      ]
+    }
+  ]
+}

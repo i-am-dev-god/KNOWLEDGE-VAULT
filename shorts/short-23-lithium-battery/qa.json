@@ -1,0 +1,157 @@
+{
+  "file": "../../RESULT/how-a-lithium-battery-powers-your-phone.mp4",
+  "production_copy": "output/how-a-lithium-battery-powers-your-phone.mp4",
+  "status": "passed",
+  "bytes": 9201862,
+  "sha256": "289304d405605d7c181a6d628a4e1b11c0b3ebf407571d5626ca73131f0cb8c2",
+  "md5": "888bf4bfe54db886c6d7c72530a2cefd",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 1211234,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 194965,
+    "integrated_lufs": -16.26,
+    "true_peak_dbfs": -1.39,
+    "loudness_range_lu": 10.1,
+    "mean_volume_db": -19.5,
+    "max_volume_db": -1.4,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 10,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 43.72,
+    "measured_speech_end_seconds": 43.982708,
+    "scenes": 5,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": -0.001,
+    "narration_mix_correlation": 0.44088,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.84161759,
+    "source_sped_up": false,
+    "spoken_words": 96,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-23-lithium-battery/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "5e8e00c40768688c3bc71a8a619ad91bfca7e49acdbad1bca95f786b056b2d64",
+    "raw_duration_seconds": 36.88,
+    "trimmed_duration_seconds": 36.442042,
+    "tempo_rate": 0.84161759,
+    "requested_tempo_rate": 0.84161759,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
+    "narration_file": "media/voiceovers/lithium-battery/narration.wav",
+    "narration_sha256": "56ecba23fecf30b0cf3b2c8868799f518e585acf4ea01e15acd6be5c66fd4f68",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 43.982708,
+    "script_sha256": "14e8e4fa39740d27973fa8cb7c034c3bc80ab718194407255486c260ebf78c09",
+    "spoken_words": 96,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9623070741072297,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.982708s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9623070741072297,
+    "low_confidence_words": [
+      {
+        "start": 27.42,
+        "end": 28.24,
+        "word": " The",
+        "probability": 0.46938928961753845
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 10,
+    "caption_midpoints_extracted": 10,
+    "narration_beat_samples_extracted": 21,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "previous_seven_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed_samples": 21,
+    "method": "Ordered onset, midpoint, and outro frames extracted from the actual delivered MP4 and inspected in contact-sheet order",
+    "caption_and_focus_match": "passed",
+    "safe_layout_and_legibility": "passed",
+    "caption_progress_line_absent": true,
+    "notes": "Internal Li+ and external electron paths are distinct; separator focus, phone load, charger reversal, and discharge-ready state match the corrected narration.",
+    "samples": [
+      "output/qa/0026-hook-tank-onset.jpg",
+      "output/qa/0065-hook-tank-mid.jpg",
+      "output/qa/0139-hook-chemical-onset.jpg",
+      "output/qa/0200-hook-chemical-mid.jpg",
+      "output/qa/0295-discharge-leave-onset.jpg",
+      "output/qa/0345-discharge-leave-mid.jpg",
+      "output/qa/0425-discharge-ions-onset.jpg",
+      "output/qa/0469-discharge-ions-mid.jpg",
+      "output/qa/0541-discharge-electrons-onset.jpg",
+      "output/qa/0607-discharge-electrons-mid.jpg",
+      "output/qa/0702-separator-pass-onset.jpg",
+      "output/qa/0760-separator-pass-mid.jpg",
+      "output/qa/0828-separator-path-onset.jpg",
+      "output/qa/0876-separator-path-mid.jpg",
+      "output/qa/0956-charge-reverse-onset.jpg",
+      "output/qa/1009-charge-reverse-mid.jpg",
+      "output/qa/1091-charge-ready-onset.jpg",
+      "output/qa/1118-charge-ready-mid.jpg",
+      "output/qa/1179-closing-summary-onset.jpg",
+      "output/qa/1243-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-lithium-battery-powers-your-phone.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "previous_seven_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

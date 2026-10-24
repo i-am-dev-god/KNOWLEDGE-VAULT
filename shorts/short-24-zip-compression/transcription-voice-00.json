@@ -1,0 +1,662 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "5ffd4bd4ed5904decf005377689c1af4256f53bfe3f07865a66950021a200180",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This sentence wastes space. The phrase science is fun appears three times. Instead of writing every repeat, a compressor can store a phrase once. Later repeats become short references to that earlier phrase. The remaining symbols are then translated into bits. Common symbols can use shorter bit patterns than rare ones. To open the file, the reader follows the references and rebuilds every original character. Nothing is guessed, nothing is lost. But already compressed data may barely shrink. Zip saves space only when it finds useful structure. Compression is not deleting information, it is writing the same information more efficiently.",
+  "mean_word_probability": 0.9688805714994669,
+  "low_confidence_words": [
+    {
+      "start": 3.86,
+      "end": 4.58,
+      "word": " science",
+      "probability": 0.08658698946237564
+    },
+    {
+      "start": 35.98,
+      "end": 36.08,
+      "word": " Zip",
+      "probability": 0.4535716474056244
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.24,
+      "text": "This sentence wastes space. The phrase science is fun appears three times. Instead of writing every repeat, a compressor can store a phrase once. Later repeats become short references to that earlier phrase. The remaining symbols are then translated into bits. Common symbols can use shorter bit patterns than rare ones. To open the file, the reader follows the references and rebuilds every original character.",
+      "avg_logprob": -0.05462126143566974,
+      "no_speech_prob": 0.02175203524529934,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.04,
+          "word": " This",
+          "probability": 0.8160111904144287
+        },
+        {
+          "start": 1.04,
+          "end": 1.58,
+          "word": " sentence",
+          "probability": 0.9919013381004333
+        },
+        {
+          "start": 1.58,
+          "end": 2.0,
+          "word": " wastes",
+          "probability": 0.9652425050735474
+        },
+        {
+          "start": 2.0,
+          "end": 2.62,
+          "word": " space.",
+          "probability": 0.9901068210601807
+        },
+        {
+          "start": 3.42,
+          "end": 3.52,
+          "word": " The",
+          "probability": 0.9457718133926392
+        },
+        {
+          "start": 3.52,
+          "end": 3.86,
+          "word": " phrase",
+          "probability": 0.9956499934196472
+        },
+        {
+          "start": 3.86,
+          "end": 4.58,
+          "word": " science",
+          "probability": 0.08658698946237564
+        },
+        {
+          "start": 4.58,
+          "end": 4.86,
+          "word": " is",
+          "probability": 0.9939559102058411
+        },
+        {
+          "start": 4.86,
+          "end": 5.26,
+          "word": " fun",
+          "probability": 0.9959253072738647
+        },
+        {
+          "start": 5.26,
+          "end": 5.74,
+          "word": " appears",
+          "probability": 0.9196730256080627
+        },
+        {
+          "start": 5.74,
+          "end": 6.14,
+          "word": " three",
+          "probability": 0.7532919049263
+        },
+        {
+          "start": 6.14,
+          "end": 6.62,
+          "word": " times.",
+          "probability": 0.9984340071678162
+        },
+        {
+          "start": 7.34,
+          "end": 7.6,
+          "word": " Instead",
+          "probability": 0.9876723885536194
+        },
+        {
+          "start": 7.6,
+          "end": 7.84,
+          "word": " of",
+          "probability": 0.9982951283454895
+        },
+        {
+          "start": 7.84,
+          "end": 8.12,
+          "word": " writing",
+          "probability": 0.9965884685516357
+        },
+        {
+          "start": 8.12,
+          "end": 8.54,
+          "word": " every",
+          "probability": 0.9956709146499634
+        },
+        {
+          "start": 8.54,
+          "end": 9.0,
+          "word": " repeat,",
+          "probability": 0.9963777661323547
+        },
+        {
+          "start": 9.5,
+          "end": 9.62,
+          "word": " a",
+          "probability": 0.9798567891120911
+        },
+        {
+          "start": 9.62,
+          "end": 10.04,
+          "word": " compressor",
+          "probability": 0.9869557619094849
+        },
+        {
+          "start": 10.04,
+          "end": 10.36,
+          "word": " can",
+          "probability": 0.9975711703300476
+        },
+        {
+          "start": 10.36,
+          "end": 10.7,
+          "word": " store",
+          "probability": 0.9973300695419312
+        },
+        {
+          "start": 10.7,
+          "end": 10.9,
+          "word": " a",
+          "probability": 0.9905845522880554
+        },
+        {
+          "start": 10.9,
+          "end": 11.16,
+          "word": " phrase",
+          "probability": 0.9977542757987976
+        },
+        {
+          "start": 11.16,
+          "end": 11.62,
+          "word": " once.",
+          "probability": 0.9953449368476868
+        },
+        {
+          "start": 12.38,
+          "end": 12.6,
+          "word": " Later",
+          "probability": 0.9894174933433533
+        },
+        {
+          "start": 12.6,
+          "end": 13.02,
+          "word": " repeats",
+          "probability": 0.9596183896064758
+        },
+        {
+          "start": 13.02,
+          "end": 13.4,
+          "word": " become",
+          "probability": 0.9773048162460327
+        },
+        {
+          "start": 13.4,
+          "end": 13.8,
+          "word": " short",
+          "probability": 0.9909228682518005
+        },
+        {
+          "start": 13.8,
+          "end": 14.38,
+          "word": " references",
+          "probability": 0.9859760999679565
+        },
+        {
+          "start": 14.38,
+          "end": 14.68,
+          "word": " to",
+          "probability": 0.9945960640907288
+        },
+        {
+          "start": 14.68,
+          "end": 14.86,
+          "word": " that",
+          "probability": 0.9745370149612427
+        },
+        {
+          "start": 14.86,
+          "end": 15.24,
+          "word": " earlier",
+          "probability": 0.9969303011894226
+        },
+        {
+          "start": 15.24,
+          "end": 15.62,
+          "word": " phrase.",
+          "probability": 0.9966977834701538
+        },
+        {
+          "start": 16.32,
+          "end": 16.5,
+          "word": " The",
+          "probability": 0.992901086807251
+        },
+        {
+          "start": 16.5,
+          "end": 16.86,
+          "word": " remaining",
+          "probability": 0.9976379871368408
+        },
+        {
+          "start": 16.86,
+          "end": 17.36,
+          "word": " symbols",
+          "probability": 0.9979749321937561
+        },
+        {
+          "start": 17.36,
+          "end": 17.64,
+          "word": " are",
+          "probability": 0.9953888654708862
+        },
+        {
+          "start": 17.64,
+          "end": 17.9,
+          "word": " then",
+          "probability": 0.9944027066230774
+        },
+        {
+          "start": 17.9,
+          "end": 18.5,
+          "word": " translated",
+          "probability": 0.9986773133277893
+        },
+        {
+          "start": 18.5,
+          "end": 18.92,
+          "word": " into",
+          "probability": 0.9910515546798706
+        },
+        {
+          "start": 18.92,
+          "end": 19.3,
+          "word": " bits.",
+          "probability": 0.9867493510246277
+        },
+        {
+          "start": 20.02,
+          "end": 20.32,
+          "word": " Common",
+          "probability": 0.9953224062919617
+        },
+        {
+          "start": 20.32,
+          "end": 20.76,
+          "word": " symbols",
+          "probability": 0.9967041611671448
+        },
+        {
+          "start": 20.76,
+          "end": 21.02,
+          "word": " can",
+          "probability": 0.9940240979194641
+        },
+        {
+          "start": 21.02,
+          "end": 21.26,
+          "word": " use",
+          "probability": 0.9978278279304504
+        },
+        {
+          "start": 21.26,
+          "end": 21.66,
+          "word": " shorter",
+          "probability": 0.9938282370567322
+        },
+        {
+          "start": 21.66,
+          "end": 21.94,
+          "word": " bit",
+          "probability": 0.9981998205184937
+        },
+        {
+          "start": 21.94,
+          "end": 22.3,
+          "word": " patterns",
+          "probability": 0.9542998671531677
+        },
+        {
+          "start": 22.3,
+          "end": 22.64,
+          "word": " than",
+          "probability": 0.9911226034164429
+        },
+        {
+          "start": 22.64,
+          "end": 22.88,
+          "word": " rare",
+          "probability": 0.9862226843833923
+        },
+        {
+          "start": 22.88,
+          "end": 23.28,
+          "word": " ones.",
+          "probability": 0.9933274984359741
+        },
+        {
+          "start": 24.02,
+          "end": 24.16,
+          "word": " To",
+          "probability": 0.9958261251449585
+        },
+        {
+          "start": 24.16,
+          "end": 24.56,
+          "word": " open",
+          "probability": 0.9991133809089661
+        },
+        {
+          "start": 24.56,
+          "end": 24.76,
+          "word": " the",
+          "probability": 0.9914690256118774
+        },
+        {
+          "start": 24.76,
+          "end": 24.98,
+          "word": " file,",
+          "probability": 0.9970492720603943
+        },
+        {
+          "start": 25.38,
+          "end": 25.48,
+          "word": " the",
+          "probability": 0.9929741621017456
+        },
+        {
+          "start": 25.48,
+          "end": 25.68,
+          "word": " reader",
+          "probability": 0.9972954392433167
+        },
+        {
+          "start": 25.68,
+          "end": 26.16,
+          "word": " follows",
+          "probability": 0.9974021911621094
+        },
+        {
+          "start": 26.16,
+          "end": 26.44,
+          "word": " the",
+          "probability": 0.9953469634056091
+        },
+        {
+          "start": 26.44,
+          "end": 26.88,
+          "word": " references",
+          "probability": 0.9886897206306458
+        },
+        {
+          "start": 26.88,
+          "end": 27.2,
+          "word": " and",
+          "probability": 0.9854565262794495
+        },
+        {
+          "start": 27.2,
+          "end": 27.9,
+          "word": " rebuilds",
+          "probability": 0.9493424892425537
+        },
+        {
+          "start": 27.9,
+          "end": 28.24,
+          "word": " every",
+          "probability": 0.9950460195541382
+        },
+        {
+          "start": 28.24,
+          "end": 28.76,
+          "word": " original",
+          "probability": 0.9963629841804504
+        },
+        {
+          "start": 28.76,
+          "end": 29.24,
+          "word": " character.",
+          "probability": 0.9935343265533447
+        }
+      ]
+    },
+    {
+      "start": 29.24,
+      "end": 35.16,
+      "text": "Nothing is guessed, nothing is lost. But already compressed data may barely shrink.",
+      "avg_logprob": -0.14385408771281338,
+      "no_speech_prob": 0.04401909187436104,
+      "words": [
+        {
+          "start": 29.24,
+          "end": 30.1,
+          "word": " Nothing",
+          "probability": 0.8778491616249084
+        },
+        {
+          "start": 30.1,
+          "end": 30.34,
+          "word": " is",
+          "probability": 0.9951884746551514
+        },
+        {
+          "start": 30.34,
+          "end": 30.72,
+          "word": " guessed,",
+          "probability": 0.9533960819244385
+        },
+        {
+          "start": 31.08,
+          "end": 31.3,
+          "word": " nothing",
+          "probability": 0.9720100164413452
+        },
+        {
+          "start": 31.3,
+          "end": 31.48,
+          "word": " is",
+          "probability": 0.9983853101730347
+        },
+        {
+          "start": 31.48,
+          "end": 31.88,
+          "word": " lost.",
+          "probability": 0.996953010559082
+        },
+        {
+          "start": 32.42,
+          "end": 32.68,
+          "word": " But",
+          "probability": 0.9905672669410706
+        },
+        {
+          "start": 32.68,
+          "end": 33.22,
+          "word": " already",
+          "probability": 0.9379964470863342
+        },
+        {
+          "start": 33.22,
+          "end": 33.7,
+          "word": " compressed",
+          "probability": 0.9649735689163208
+        },
+        {
+          "start": 33.7,
+          "end": 34.04,
+          "word": " data",
+          "probability": 0.9973926544189453
+        },
+        {
+          "start": 34.04,
+          "end": 34.3,
+          "word": " may",
+          "probability": 0.9851371049880981
+        },
+        {
+          "start": 34.3,
+          "end": 34.74,
+          "word": " barely",
+          "probability": 0.9877532124519348
+        },
+        {
+          "start": 34.74,
+          "end": 35.16,
+          "word": " shrink.",
+          "probability": 0.9943002462387085
+        }
+      ]
+    },
+    {
+      "start": 35.98,
+      "end": 39.06,
+      "text": "Zip saves space only when it finds useful structure.",
+      "avg_logprob": -0.14385408771281338,
+      "no_speech_prob": 0.04401909187436104,
+      "words": [
+        {
+          "start": 35.98,
+          "end": 36.08,
+          "word": " Zip",
+          "probability": 0.4535716474056244
+        },
+        {
+          "start": 36.08,
+          "end": 36.4,
+          "word": " saves",
+          "probability": 0.9465476274490356
+        },
+        {
+          "start": 36.4,
+          "end": 36.78,
+          "word": " space",
+          "probability": 0.9889426231384277
+        },
+        {
+          "start": 36.78,
+          "end": 37.26,
+          "word": " only",
+          "probability": 0.9938329458236694
+        },
+        {
+          "start": 37.26,
+          "end": 37.5,
+          "word": " when",
+          "probability": 0.9953532218933105
+        },
+        {
+          "start": 37.5,
+          "end": 37.68,
+          "word": " it",
+          "probability": 0.9972094893455505
+        },
+        {
+          "start": 37.68,
+          "end": 37.96,
+          "word": " finds",
+          "probability": 0.9934794902801514
+        },
+        {
+          "start": 37.96,
+          "end": 38.5,
+          "word": " useful",
+          "probability": 0.9815872311592102
+        },
+        {
+          "start": 38.5,
+          "end": 39.06,
+          "word": " structure.",
+          "probability": 0.993599534034729
+        }
+      ]
+    },
+    {
+      "start": 39.62,
+      "end": 44.76,
+      "text": "Compression is not deleting information, it is writing the same information more efficiently.",
+      "avg_logprob": -0.14385408771281338,
+      "no_speech_prob": 0.04401909187436104,
+      "words": [
+        {
+          "start": 39.62,
+          "end": 40.16,
+          "word": " Compression",
+          "probability": 0.9935638010501862
+        },
+        {
+          "start": 40.16,
+          "end": 40.38,
+          "word": " is",
+          "probability": 0.9971885085105896
+        },
+        {
+          "start": 40.38,
+          "end": 40.54,
+          "word": " not",
+          "probability": 0.999219536781311
+        },
+        {
+          "start": 40.54,
+          "end": 41.02,
+          "word": " deleting",
+          "probability": 0.9909535646438599
+        },
+        {
+          "start": 41.02,
+          "end": 41.62,
+          "word": " information,",
+          "probability": 0.9969115853309631
+        },
+        {
+          "start": 41.94,
+          "end": 42.22,
+          "word": " it",
+          "probability": 0.9759824275970459
+        },
+        {
+          "start": 42.22,
+          "end": 42.4,
+          "word": " is",
+          "probability": 0.9913397431373596
+        },
+        {
+          "start": 42.4,
+          "end": 42.74,
+          "word": " writing",
+          "probability": 0.9986298084259033
+        },
+        {
+          "start": 42.74,
+          "end": 42.94,
+          "word": " the",
+          "probability": 0.9934403300285339
+        },
+        {
+          "start": 42.94,
+          "end": 43.28,
+          "word": " same",
+          "probability": 0.9990897178649902
+        },
+        {
+          "start": 43.28,
+          "end": 43.8,
+          "word": " information",
+          "probability": 0.9980546236038208
+        },
+        {
+          "start": 43.8,
+          "end": 44.22,
+          "word": " more",
+          "probability": 0.9939742684364319
+        },
+        {
+          "start": 44.22,
+          "end": 44.76,
+          "word": " efficiently.",
+          "probability": 0.9945573806762695
+        }
+      ]
+    }
+  ]
+}

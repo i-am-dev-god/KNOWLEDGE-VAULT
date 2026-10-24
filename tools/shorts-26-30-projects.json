@@ -1,0 +1,647 @@
+{
+  "defaults": {
+    "duration_s": 52.0,
+    "initial_silence_s": 0.7,
+    "target_voice_end_s": 45.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-26-bluetooth-audio",
+      "slug": "bluetooth-audio",
+      "title": "How Bluetooth Sends Music to Your Headphones",
+      "composition": "Short26BluetoothAudio",
+      "result": "how-bluetooth-sends-music-to-headphones.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "Bluetooth. Digital audio. Compression. Packets. Radio. Frequency hopping. Headphones.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-play",
+          "scene": "hook",
+          "text": "Press play on your phone."
+        },
+        {
+          "id": "hook-travel",
+          "scene": "hook",
+          "text": "The music reaches your headphones without a cable."
+        },
+        {
+          "id": "encode-samples",
+          "scene": "encode",
+          "text": "First, the phone represents the music as digital audio samples."
+        },
+        {
+          "id": "encode-compress",
+          "scene": "encode",
+          "text": "Bluetooth usually compresses those samples so they fit within the available data rate."
+        },
+        {
+          "id": "packets-chop",
+          "scene": "packets",
+          "text": "The compressed stream is divided into small packets."
+        },
+        {
+          "id": "packets-control",
+          "scene": "packets",
+          "text": "Each packet carries control information alongside the audio data."
+        },
+        {
+          "id": "radio-pair",
+          "scene": "radio",
+          "text": "The paired devices transmit these packets over short-range radio."
+        },
+        {
+          "id": "radio-hop",
+          "scene": "radio",
+          "text": "They rapidly change frequencies in a coordinated pattern, helping avoid interference."
+        },
+        {
+          "id": "receive-check",
+          "scene": "receive",
+          "text": "Your headphones receive the packets and check that the data arrived correctly."
+        },
+        {
+          "id": "receive-decode",
+          "scene": "receive",
+          "text": "They reassemble and decode the audio stream."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Digital samples become radio packets, then become music again through the headphone's converter and driver."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Music without a cable"
+        ],
+        [
+          "encode",
+          "Prepare digital audio"
+        ],
+        [
+          "packets",
+          "Divide the stream into packets"
+        ],
+        [
+          "radio",
+          "Send coordinated radio transmissions"
+        ],
+        [
+          "receive",
+          "Rebuild and decode the stream"
+        ],
+        [
+          "closing",
+          "Samples become music again"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "encode-samples",
+          "offset_s": -0.15,
+          "sfx_id": "pencil-scribble",
+          "gain_db": -24,
+          "cue": "Sample the waveform"
+        },
+        {
+          "sync_source": "packets-chop",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -22,
+          "cue": "Packetize audio"
+        },
+        {
+          "sync_source": "radio-hop",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -24,
+          "cue": "Coordinated hopping"
+        },
+        {
+          "sync_source": "receive-decode",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Decode audio"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-27-ssd-storage",
+      "slug": "ssd-storage",
+      "title": "How an SSD Remembers Without Power",
+      "composition": "Short27SsdStorage",
+      "result": "how-an-ssd-remembers-without-power.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "SSD. Flash cell. Trapped charge. Threshold voltage. Controller. Pages. Blocks. Wear leveling.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-off",
+          "scene": "hook",
+          "text": "Switch off the power."
+        },
+        {
+          "id": "hook-remain",
+          "scene": "hook",
+          "text": "An SSD still remembers your files."
+        },
+        {
+          "id": "cell-trap",
+          "scene": "cell",
+          "text": "Inside each flash cell, a special region can trap electrical charge."
+        },
+        {
+          "id": "cell-state",
+          "scene": "cell",
+          "text": "The amount of charge changes the cell's threshold voltage."
+        },
+        {
+          "id": "read-test",
+          "scene": "read",
+          "text": "To read it, the controller applies a test voltage and checks whether the cell conducts."
+        },
+        {
+          "id": "read-value",
+          "scene": "read",
+          "text": "That response reveals the stored value."
+        },
+        {
+          "id": "organize-pages",
+          "scene": "organize",
+          "text": "Billions of cells are organized into pages and blocks."
+        },
+        {
+          "id": "wear-limit",
+          "scene": "wear",
+          "text": "Writing gradually wears the insulating material that holds the charge."
+        },
+        {
+          "id": "wear-spread",
+          "scene": "wear",
+          "text": "So the controller spreads new writes across different cells, a process called wear leveling."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Trapped charge preserves the data, while careful reading and wear leveling keep the SSD useful."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Data survives without power"
+        ],
+        [
+          "cell",
+          "Trap charge inside a flash cell"
+        ],
+        [
+          "read",
+          "Measure the threshold response"
+        ],
+        [
+          "organize",
+          "Organize cells into pages and blocks"
+        ],
+        [
+          "wear",
+          "Spread writes to reduce wear"
+        ],
+        [
+          "closing",
+          "Charge plus careful control"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-remain",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Data remains"
+        },
+        {
+          "sync_source": "cell-trap",
+          "offset_s": -0.15,
+          "sfx_id": "sparkle-soft",
+          "gain_db": -24,
+          "cue": "Charge trapped"
+        },
+        {
+          "sync_source": "read-test",
+          "offset_s": -0.1,
+          "sfx_id": "scan-hum",
+          "gain_db": -24,
+          "cue": "Threshold read"
+        },
+        {
+          "sync_source": "wear-spread",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -23,
+          "cue": "Distributed writes"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-28-hard-drive",
+      "slug": "hard-drive",
+      "title": "How a Hard Drive Finds Your Files",
+      "composition": "Short28HardDrive",
+      "result": "how-a-hard-drive-finds-your-files.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 46.5,
+      "prompt": "Hard drive. Platter. Magnetic domains. Logical address. Track. Sector. Actuator. Read head.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-file",
+          "scene": "hook",
+          "text": "Open a file on a hard drive."
+        },
+        {
+          "id": "hook-where",
+          "scene": "hook",
+          "text": "The drive must find where its data is stored."
+        },
+        {
+          "id": "platter-spin",
+          "scene": "platter",
+          "text": "Inside, circular platters spin at a steady speed."
+        },
+        {
+          "id": "platter-domains",
+          "scene": "platter",
+          "text": "Tiny magnetic regions on their surfaces represent the bits."
+        },
+        {
+          "id": "map-address",
+          "scene": "map",
+          "text": "The file system gives the drive a logical address for the requested data."
+        },
+        {
+          "id": "map-sector",
+          "scene": "map",
+          "text": "The controller translates that address into a track and sector on the platter."
+        },
+        {
+          "id": "seek-arm",
+          "scene": "seek",
+          "text": "An actuator swings the read and write head to the correct track."
+        },
+        {
+          "id": "seek-rotate",
+          "scene": "seek",
+          "text": "The head waits briefly for the right sector to rotate underneath."
+        },
+        {
+          "id": "read-sense",
+          "scene": "read",
+          "text": "As the magnetic regions pass, the head senses their changes and the electronics recover the bits."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "A quick movement of the arm, plus the platter's rotation, brings the stored data to the head."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Find the requested file"
+        ],
+        [
+          "platter",
+          "Spinning magnetic storage"
+        ],
+        [
+          "map",
+          "Translate an address into a location"
+        ],
+        [
+          "seek",
+          "Move the head and rotate the sector"
+        ],
+        [
+          "read",
+          "Sense magnetic changes"
+        ],
+        [
+          "closing",
+          "Arm movement plus rotation"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "platter-spin",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Platter spin"
+        },
+        {
+          "sync_source": "map-sector",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -22,
+          "cue": "Address translated"
+        },
+        {
+          "sync_source": "seek-arm",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -22,
+          "cue": "Actuator seek"
+        },
+        {
+          "sync_source": "read-sense",
+          "offset_s": -0.1,
+          "sfx_id": "pencil-scribble",
+          "gain_db": -24,
+          "cue": "Read bits"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-29-face-unlock",
+      "slug": "face-unlock",
+      "title": "How Face Unlock Recognizes You",
+      "composition": "Short29FaceUnlock",
+      "result": "how-face-unlock-recognizes-you.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "Face unlock. Infrared dots. Depth map. Face template. Enrollment. Liveness. Secure comparison.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-look",
+          "scene": "hook",
+          "text": "Look at your phone to unlock it."
+        },
+        {
+          "id": "hook-how",
+          "scene": "hook",
+          "text": "It is comparing your face with a stored representation."
+        },
+        {
+          "id": "illuminate-dots",
+          "scene": "illuminate",
+          "text": "Many phones project a pattern of infrared dots that your eyes cannot see."
+        },
+        {
+          "id": "illuminate-camera",
+          "scene": "illuminate",
+          "text": "An infrared camera reads how that pattern bends across your face."
+        },
+        {
+          "id": "depth-map",
+          "scene": "depth",
+          "text": "Those distortions become a depth map, describing shape rather than skin color."
+        },
+        {
+          "id": "template-build",
+          "scene": "template",
+          "text": "The system converts distinctive shape information into a mathematical face template."
+        },
+        {
+          "id": "match-compare",
+          "scene": "match",
+          "text": "It compares the new template with the template created during enrollment."
+        },
+        {
+          "id": "match-decision",
+          "scene": "match",
+          "text": "If they are close enough, and liveness checks pass, the phone unlocks."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "The phone is not simply matching a photograph; it is checking a secure representation of your face."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Compare with an enrolled representation"
+        ],
+        [
+          "illuminate",
+          "Project and read infrared structure"
+        ],
+        [
+          "depth",
+          "Turn distortion into depth"
+        ],
+        [
+          "template",
+          "Build a mathematical template"
+        ],
+        [
+          "match",
+          "Compare templates and check liveness"
+        ],
+        [
+          "closing",
+          "More than a photograph"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "illuminate-dots",
+          "offset_s": -0.15,
+          "sfx_id": "sparkle-soft",
+          "gain_db": -24,
+          "cue": "Infrared pattern"
+        },
+        {
+          "sync_source": "depth-map",
+          "offset_s": -0.1,
+          "sfx_id": "scan-hum",
+          "gain_db": -24,
+          "cue": "Depth map"
+        },
+        {
+          "sync_source": "template-build",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -22,
+          "cue": "Build template"
+        },
+        {
+          "sync_source": "match-decision",
+          "offset_s": -0.1,
+          "sfx_id": "chime-reward",
+          "gain_db": -23,
+          "cue": "Unlock decision"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-30-wifi-data",
+      "slug": "wifi-data",
+      "title": "How Wi-Fi Sends Data Through Air",
+      "composition": "Short30WifiData",
+      "result": "how-wifi-sends-data-through-air.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "Wi-Fi. Packets. Carrier wave. Subcarriers. OFDM. Channel. Receiver. Retransmission.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-send",
+          "scene": "hook",
+          "text": "Send a photo over Wi-Fi."
+        },
+        {
+          "id": "hook-invisible",
+          "scene": "hook",
+          "text": "The file travels through air as radio signals."
+        },
+        {
+          "id": "prepare-chop",
+          "scene": "prepare",
+          "text": "First, your device divides the data into packets."
+        },
+        {
+          "id": "prepare-check",
+          "scene": "prepare",
+          "text": "Each packet includes addressing and error-checking information."
+        },
+        {
+          "id": "modulate-bits",
+          "scene": "modulate",
+          "text": "The radio maps groups of bits onto changes in a carrier wave."
+        },
+        {
+          "id": "modulate-ofdm",
+          "scene": "modulate",
+          "text": "Wi-Fi also splits the data across many closely spaced subcarriers, using a method called OFDM."
+        },
+        {
+          "id": "air-share",
+          "scene": "air",
+          "text": "These radio signals share the available channel with other nearby devices."
+        },
+        {
+          "id": "air-listen",
+          "scene": "air",
+          "text": "A device listens before transmitting and adjusts when the channel is busy."
+        },
+        {
+          "id": "receive-check",
+          "scene": "receive",
+          "text": "The receiver decodes the subcarriers, checks the packets, and requests retransmission if needed."
+        },
+        {
+          "id": "receive-rebuild",
+          "scene": "receive",
+          "text": "Correct packets are reassembled into the original photo."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Wi-Fi turns data into carefully organized radio waves, then turns those waves back into data."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Send a file through air"
+        ],
+        [
+          "prepare",
+          "Packetize and protect the data"
+        ],
+        [
+          "modulate",
+          "Map bits onto radio subcarriers"
+        ],
+        [
+          "air",
+          "Share and listen to the channel"
+        ],
+        [
+          "receive",
+          "Check, recover, and rebuild"
+        ],
+        [
+          "closing",
+          "Data becomes radio and returns"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "prepare-chop",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -22,
+          "cue": "Packetize file"
+        },
+        {
+          "sync_source": "modulate-ofdm",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -24,
+          "cue": "OFDM subcarriers"
+        },
+        {
+          "sync_source": "air-listen",
+          "offset_s": -0.1,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -23,
+          "cue": "Listen before transmit"
+        },
+        {
+          "sync_source": "receive-rebuild",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Rebuild photo"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    }
+  ]
+}

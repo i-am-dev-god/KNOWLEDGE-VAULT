@@ -1,0 +1,170 @@
+{
+  "id": "short-18-wireless-charging",
+  "title": "How Wireless Charging Works",
+  "composition": "Short18WirelessCharging",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 45.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-18-wireless-charging/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "7bd80c6ab8a9098e2bd3a438e4dd08ec303ac0b8f2f466492fb8bb535dd32e81",
+    "raw_duration_seconds": 37.2,
+    "trimmed_duration_seconds": 36.834083,
+    "tempo_rate": 0.937254029,
+    "requested_tempo_rate": 0.937254029,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 40.0,
+    "narration_file": "media/voiceovers/wireless-charging/narration.wav",
+    "narration_sha256": "8364ddc5136c03f76a959cb8f152b4612b1da57a138bfc5a2bb566c20138e91b",
+    "narration_duration_seconds": 45.0,
+    "paced_speech_end_seconds": 39.984896,
+    "script_sha256": "e4c7729b5d69f18428b127defe270825d580de7bee8dd870df118a3dcc569874",
+    "spoken_words": 92,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9857218722286432,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.984896s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 45-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.78,
+  "scenes": [
+    {
+      "id": "drive",
+      "title": "Drive one coil",
+      "start": 0.0,
+      "end": 7.2
+    },
+    {
+      "id": "field",
+      "title": "Make a changing field",
+      "start": 7.2,
+      "end": 11.42
+    },
+    {
+      "id": "receive",
+      "title": "Induce a voltage",
+      "start": 11.42,
+      "end": 22.62
+    },
+    {
+      "id": "condition",
+      "title": "Prepare battery power",
+      "start": 22.62,
+      "end": 26.02
+    },
+    {
+      "id": "alignment",
+      "title": "Change the coupling",
+      "start": 26.02,
+      "end": 34.56
+    },
+    {
+      "id": "closing",
+      "title": "Two coils, one transfer",
+      "start": 34.56,
+      "end": 45.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "drive-coil",
+      "scene": "drive",
+      "text": "Inside the pad, alternating current flows through this coil.",
+      "speak": "Inside the pad, alternating current flows through this coil.",
+      "start": 0.7,
+      "end": 4.46,
+      "duration": 3.76
+    },
+    {
+      "id": "drive-reverse",
+      "scene": "drive",
+      "text": "Watch the current reverse direction.",
+      "speak": "Watch the current reverse direction.",
+      "start": 5.22,
+      "end": 7.02,
+      "duration": 1.8
+    },
+    {
+      "id": "field-change",
+      "scene": "field",
+      "text": "That makes the magnetic field expand and collapse.",
+      "speak": "That makes the magnetic field expand and collapse.",
+      "start": 7.7,
+      "end": 10.92,
+      "duration": 3.22
+    },
+    {
+      "id": "receive-coil",
+      "scene": "receive",
+      "text": "Now place a second coil inside that changing field.",
+      "speak": "Now place a second coil inside that changing field.",
+      "start": 11.92,
+      "end": 15.12,
+      "duration": 3.2
+    },
+    {
+      "id": "receive-voltage",
+      "scene": "receive",
+      "text": "The field induces a voltage in the second coil.",
+      "speak": "The field induces a voltage in the second coil.",
+      "start": 15.72,
+      "end": 18.68,
+      "duration": 2.96
+    },
+    {
+      "id": "receive-link",
+      "scene": "receive",
+      "text": "The coils do not touch. They are magnetically linked.",
+      "speak": "The coils do not touch. They are magnetically linked.",
+      "start": 19.34,
+      "end": 22.36,
+      "duration": 3.02
+    },
+    {
+      "id": "condition-power",
+      "scene": "condition",
+      "text": "The phone then rectifies and regulates that power for its battery.",
+      "speak": "The phone then rectifies and regulates that power for its battery.",
+      "start": 23.12,
+      "end": 26.52,
+      "duration": 3.4
+    },
+    {
+      "id": "alignment-move",
+      "scene": "alignment",
+      "text": "Move the coils apart or off-center.",
+      "speak": "Move the coils apart or off-center.",
+      "start": 26.52,
+      "end": 29.48,
+      "duration": 2.96
+    },
+    {
+      "id": "alignment-loss",
+      "scene": "alignment",
+      "text": "Less of the field links them, so the transfer weakens and wastes energy.",
+      "speak": "Less of the field links them, so the transfer weakens and wastes energy.",
+      "start": 30.2,
+      "end": 34.0,
+      "duration": 3.8
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Wireless charging is energy crossing a changing magnetic field between two coils.",
+      "speak": "Wireless charging is energy crossing a changing magnetic field between two coils.",
+      "start": 35.06,
+      "end": 39.78,
+      "duration": 4.72
+    }
+  ]
+}

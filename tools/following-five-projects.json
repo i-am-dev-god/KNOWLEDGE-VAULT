@@ -1,0 +1,664 @@
+{
+  "defaults": {
+    "duration_s": 52.0,
+    "initial_silence_s": 0.7,
+    "target_voice_end_s": 45.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-21-speaker",
+      "slug": "speaker",
+      "title": "How a Speaker Turns Electricity Into Sound",
+      "composition": "Short21Speaker",
+      "result": "how-a-speaker-turns-electricity-into-sound.mp4",
+      "duration_s": 48.0,
+      "target_voice_end_s": 42.0,
+      "prompt": "Speaker. Voice coil. Permanent magnet. Cone. Air pressure. Sound waves.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-cone",
+          "scene": "hook",
+          "text": "Watch this speaker cone."
+        },
+        {
+          "id": "hook-signal",
+          "scene": "hook",
+          "text": "A changing electrical signal will make it move."
+        },
+        {
+          "id": "driver-magnet",
+          "scene": "driver",
+          "text": "Inside, a coil sits in the field of a permanent magnet."
+        },
+        {
+          "id": "driver-current",
+          "scene": "driver",
+          "text": "The audio signal sends alternating current through that coil."
+        },
+        {
+          "id": "driver-force",
+          "scene": "driver",
+          "text": "The current reverses, so the magnetic force reverses too."
+        },
+        {
+          "id": "motion-inout",
+          "scene": "motion",
+          "text": "The coil pulls the cone inward, then pushes it outward."
+        },
+        {
+          "id": "motion-follow",
+          "scene": "motion",
+          "text": "Follow the cone, not the waveform."
+        },
+        {
+          "id": "air-compress",
+          "scene": "air",
+          "text": "As the cone moves out, it compresses the air in front."
+        },
+        {
+          "id": "air-rarefy",
+          "scene": "air",
+          "text": "As it moves back, it leaves a region of lower pressure."
+        },
+        {
+          "id": "air-travel",
+          "scene": "air",
+          "text": "Those pressure variations travel outward as sound."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Electrical variations become mechanical motion, and motion becomes sound."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Start with the moving cone"
+        ],
+        [
+          "driver",
+          "Current creates a reversing force"
+        ],
+        [
+          "motion",
+          "Force becomes cone movement"
+        ],
+        [
+          "air",
+          "Movement becomes pressure variations"
+        ],
+        [
+          "closing",
+          "Electricity becomes sound"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "driver-current",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -22,
+          "cue": "Alternating current"
+        },
+        {
+          "sync_source": "driver-force",
+          "offset_s": -0.1,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -21,
+          "cue": "Force reverses"
+        },
+        {
+          "sync_source": "motion-inout",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -22,
+          "cue": "Cone travel"
+        },
+        {
+          "sync_source": "air-travel",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-wind",
+          "gain_db": -23,
+          "cue": "Pressure waves"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-22-optical-mouse",
+      "slug": "optical-mouse",
+      "title": "How an Optical Mouse Tracks Movement",
+      "composition": "Short22OpticalMouse",
+      "result": "how-an-optical-mouse-tracks-movement.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "Optical mouse. LED. Surface texture. Image sensor. Snapshots. Motion estimation.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-move",
+          "scene": "hook",
+          "text": "Move the mouse a little."
+        },
+        {
+          "id": "hook-cursor",
+          "scene": "hook",
+          "text": "The cursor follows almost instantly."
+        },
+        {
+          "id": "sensor-led",
+          "scene": "sensor",
+          "text": "Underneath, an LED lights the surface."
+        },
+        {
+          "id": "sensor-camera",
+          "scene": "sensor",
+          "text": "A tiny camera takes rapid pictures of the texture."
+        },
+        {
+          "id": "compare-snapshots",
+          "scene": "compare",
+          "text": "Watch these two snapshots."
+        },
+        {
+          "id": "compare-shift",
+          "scene": "compare",
+          "text": "The dots have not changed. Their positions have shifted."
+        },
+        {
+          "id": "compare-measure",
+          "scene": "compare",
+          "text": "The processor compares the images and measures that shift."
+        },
+        {
+          "id": "motion-direction",
+          "scene": "motion",
+          "text": "If the texture moves left in the images, the mouse must have moved right."
+        },
+        {
+          "id": "motion-cursor",
+          "scene": "motion",
+          "text": "That measured movement becomes the cursor's motion."
+        },
+        {
+          "id": "surface-gloss",
+          "scene": "surface",
+          "text": "On a plain, glossy surface, there may be too little texture to compare."
+        },
+        {
+          "id": "surface-fail",
+          "scene": "surface",
+          "text": "That is why tracking can fail."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "An optical mouse does not feel direction. It measures changing pictures."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Movement becomes cursor motion"
+        ],
+        [
+          "sensor",
+          "Light the surface and take pictures"
+        ],
+        [
+          "compare",
+          "Measure the shift between snapshots"
+        ],
+        [
+          "motion",
+          "Turn image shift into direction"
+        ],
+        [
+          "surface",
+          "Why tracking can fail"
+        ],
+        [
+          "closing",
+          "Changing pictures reveal motion"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "sensor-camera",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -21,
+          "cue": "Snapshot"
+        },
+        {
+          "sync_source": "compare-snapshots",
+          "offset_s": -0.15,
+          "sfx_id": "page-flip",
+          "gain_db": -22,
+          "cue": "Two frames"
+        },
+        {
+          "sync_source": "compare-measure",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -23,
+          "cue": "Measure shift"
+        },
+        {
+          "sync_source": "motion-cursor",
+          "offset_s": -0.15,
+          "sfx_id": "ui-send",
+          "gain_db": -22,
+          "cue": "Cursor motion"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-23-lithium-battery",
+      "slug": "lithium-battery",
+      "title": "How a Lithium Battery Powers Your Phone",
+      "composition": "Short23LithiumBattery",
+      "result": "how-a-lithium-battery-powers-your-phone.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 44.0,
+      "prompt": "Lithium ion battery. Negative electrode. Positive electrode. Electrolyte. Separator. Electrons. Charger.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-tank",
+          "scene": "hook",
+          "text": "This battery is not a tank full of electricity."
+        },
+        {
+          "id": "hook-chemical",
+          "scene": "hook",
+          "text": "It stores chemical energy by moving lithium ions between two materials."
+        },
+        {
+          "id": "discharge-leave",
+          "scene": "discharge",
+          "text": "During discharge, lithium ions leave the negative electrode."
+        },
+        {
+          "id": "discharge-ions",
+          "scene": "discharge",
+          "text": "They travel through the electrolyte toward the positive electrode."
+        },
+        {
+          "id": "discharge-electrons",
+          "scene": "discharge",
+          "text": "At the same time, electrons flow through the outside circuit, powering the phone."
+        },
+        {
+          "id": "separator-pass",
+          "scene": "separator",
+          "text": "The separator lets ions pass, but keeps the electrodes from touching."
+        },
+        {
+          "id": "separator-path",
+          "scene": "separator",
+          "text": "The electrons must take the external path."
+        },
+        {
+          "id": "charge-reverse",
+          "scene": "charge",
+          "text": "Plug in the charger, and the energy pushes ions and electrons back."
+        },
+        {
+          "id": "charge-ready",
+          "scene": "charge",
+          "text": "The battery is ready to discharge again."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "A battery controls this shuttle: ions inside, electrons outside."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Chemical energy, not an electricity tank"
+        ],
+        [
+          "discharge",
+          "Two paths during discharge"
+        ],
+        [
+          "separator",
+          "Separate the electrodes, guide the ions"
+        ],
+        [
+          "charge",
+          "Use external energy to reverse the shuttle"
+        ],
+        [
+          "closing",
+          "Ions inside, electrons outside"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "discharge-leave",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -23,
+          "cue": "Discharge begins"
+        },
+        {
+          "sync_source": "discharge-electrons",
+          "offset_s": -0.15,
+          "sfx_id": "ui-toggle-on",
+          "gain_db": -21,
+          "cue": "Phone powered"
+        },
+        {
+          "sync_source": "separator-pass",
+          "offset_s": -0.15,
+          "sfx_id": "pop-reveal",
+          "gain_db": -22,
+          "cue": "Separator close-up"
+        },
+        {
+          "sync_source": "charge-reverse",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-reverse",
+          "gain_db": -22,
+          "cue": "Reverse shuttle"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-24-zip-compression",
+      "slug": "zip-compression",
+      "title": "How ZIP Files Make Data Smaller",
+      "composition": "Short24ZipCompression",
+      "result": "how-zip-files-make-data-smaller.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "ZIP compression. Repeated phrases. Back references. Huffman coding. Lossless decompression.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-repeat",
+          "scene": "hook",
+          "text": "This sentence wastes space."
+        },
+        {
+          "id": "hook-phrase",
+          "scene": "hook",
+          "text": "The phrase science is fun appears three times."
+        },
+        {
+          "id": "dictionary-once",
+          "scene": "dictionary",
+          "text": "Instead of writing every repeat, a compressor can store a phrase once."
+        },
+        {
+          "id": "dictionary-reference",
+          "scene": "dictionary",
+          "text": "Later repeats become short references to that earlier phrase."
+        },
+        {
+          "id": "bits-translate",
+          "scene": "bits",
+          "text": "The remaining symbols are then translated into bits."
+        },
+        {
+          "id": "bits-common",
+          "scene": "bits",
+          "text": "Common symbols can use shorter bit patterns than rare ones."
+        },
+        {
+          "id": "unpack-rebuild",
+          "scene": "unpack",
+          "text": "To open the file, the reader follows the references and rebuilds every original character."
+        },
+        {
+          "id": "unpack-exact",
+          "scene": "unpack",
+          "text": "Nothing is guessed. Nothing is lost."
+        },
+        {
+          "id": "limit-random",
+          "scene": "limit",
+          "text": "But already-compressed data may barely shrink."
+        },
+        {
+          "id": "limit-structure",
+          "scene": "limit",
+          "text": "ZIP saves space only when it finds useful structure."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Compression is not deleting information. It is writing the same information more efficiently."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Find repeated structure"
+        ],
+        [
+          "dictionary",
+          "Replace repeats with references"
+        ],
+        [
+          "bits",
+          "Use fewer bits for common symbols"
+        ],
+        [
+          "unpack",
+          "Rebuild the exact original"
+        ],
+        [
+          "limit",
+          "Compression needs useful structure"
+        ],
+        [
+          "closing",
+          "Same information, efficient representation"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-phrase",
+          "offset_s": -0.15,
+          "sfx_id": "pencil-scribble",
+          "gain_db": -23,
+          "cue": "Highlight repeats"
+        },
+        {
+          "sync_source": "dictionary-reference",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -23,
+          "cue": "References replace repeats"
+        },
+        {
+          "sync_source": "bits-translate",
+          "offset_s": -0.15,
+          "sfx_id": "keys-typing-soft",
+          "gain_db": -24,
+          "cue": "Symbols to bits"
+        },
+        {
+          "sync_source": "unpack-exact",
+          "offset_s": -0.1,
+          "sfx_id": "chime-reward",
+          "gain_db": -21,
+          "cue": "Exact match"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-25-microwave-heating",
+      "slug": "microwave-heating",
+      "title": "How a Microwave Oven Heats Food",
+      "composition": "Short25MicrowaveHeating",
+      "result": "how-a-microwave-oven-heats-food.mp4",
+      "duration_s": 55.0,
+      "target_voice_end_s": 47.5,
+      "prompt": "Microwave oven. Magnetron. Electromagnetic field. Water dipoles. Molecular motion. Turntable. Heat.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-plate",
+          "scene": "hook",
+          "text": "This plate turns for a reason."
+        },
+        {
+          "id": "hook-even",
+          "scene": "hook",
+          "text": "It helps food heat more evenly."
+        },
+        {
+          "id": "magnetron-source",
+          "scene": "magnetron",
+          "text": "A magnetron inside the oven generates microwaves."
+        },
+        {
+          "id": "magnetron-walls",
+          "scene": "magnetron",
+          "text": "The metal walls guide and reflect them around the cavity."
+        },
+        {
+          "id": "water-charge",
+          "scene": "water",
+          "text": "Water molecules have uneven electrical charge, so they behave like tiny dipoles."
+        },
+        {
+          "id": "water-rotate",
+          "scene": "water",
+          "text": "The changing field makes them rotate back and forth."
+        },
+        {
+          "id": "water-heat",
+          "scene": "water",
+          "text": "Their motion spreads energy to nearby molecules as heat."
+        },
+        {
+          "id": "standing-zones",
+          "scene": "standing",
+          "text": "The oven can have hotter and cooler regions."
+        },
+        {
+          "id": "standing-turn",
+          "scene": "standing",
+          "text": "The turntable moves food through those regions for more even heating."
+        },
+        {
+          "id": "safety-radioactive",
+          "scene": "safety",
+          "text": "The microwaves do not make the food radioactive."
+        },
+        {
+          "id": "safety-heat",
+          "scene": "safety",
+          "text": "Once the oven stops, the field is gone, but the heat remains."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "Microwave energy becomes molecular motion, and molecular motion becomes heat."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Why the plate turns"
+        ],
+        [
+          "magnetron",
+          "Generate and guide microwaves"
+        ],
+        [
+          "water",
+          "Field energy becomes molecular motion"
+        ],
+        [
+          "standing",
+          "Move food through hotter and cooler regions"
+        ],
+        [
+          "safety",
+          "The field stops, the heat remains"
+        ],
+        [
+          "closing",
+          "Molecular motion becomes heat"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "magnetron-source",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -23,
+          "cue": "Magnetron"
+        },
+        {
+          "sync_source": "water-rotate",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -24,
+          "cue": "Dipole rotation"
+        },
+        {
+          "sync_source": "water-heat",
+          "offset_s": -0.15,
+          "sfx_id": "sparkle-soft",
+          "gain_db": -23,
+          "cue": "Heat spreads"
+        },
+        {
+          "sync_source": "standing-turn",
+          "offset_s": -0.15,
+          "sfx_id": "whoosh-soft",
+          "gain_db": -23,
+          "cue": "Turntable"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "short-22-optical-mouse",
+  "title": "How an Optical Mouse Tracks Movement",
+  "composition": "Short22OpticalMouse",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-22-optical-mouse/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "6c1cf6906989f2dd2126ad5434d3a80a35769ab787e916a815d6fdef09485289",
+    "raw_duration_seconds": 38.08,
+    "trimmed_duration_seconds": 37.664333,
+    "tempo_rate": 0.850210685,
+    "requested_tempo_rate": 0.850210685,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/optical-mouse/narration.wav",
+    "narration_sha256": "29b4ffb96c12bcba4478930e619da788060de728f629a503a23895cd1b0f0574",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.988229,
+    "script_sha256": "8c9c14b4c70b5f8db3e0fdce7ec2acd55c4a330a10b72a7e89444726e3d33fbb",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9800550825133616,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.988229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.72,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Movement becomes cursor motion",
+      "start": 0.0,
+      "end": 5.52
+    },
+    {
+      "id": "sensor",
+      "title": "Light the surface and take pictures",
+      "start": 5.52,
+      "end": 12.74
+    },
+    {
+      "id": "compare",
+      "title": "Measure the shift between snapshots",
+      "start": 12.74,
+      "end": 23.38
+    },
+    {
+      "id": "motion",
+      "title": "Turn image shift into direction",
+      "start": 23.38,
+      "end": 32.1
+    },
+    {
+      "id": "surface",
+      "title": "Why tracking can fail",
+      "start": 32.1,
+      "end": 39.52
+    },
+    {
+      "id": "closing",
+      "title": "Changing pictures reveal motion",
+      "start": 39.52,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-move",
+      "scene": "hook",
+      "text": "Move the mouse a little.",
+      "speak": "Move the mouse a little.",
+      "start": 0.7,
+      "end": 2.14,
+      "duration": 1.44
+    },
+    {
+      "id": "hook-cursor",
+      "scene": "hook",
+      "text": "The cursor follows almost instantly.",
+      "speak": "The cursor follows almost instantly.",
+      "start": 2.78,
+      "end": 5.26,
+      "duration": 2.48
+    },
+    {
+      "id": "sensor-led",
+      "scene": "sensor",
+      "text": "Underneath, an LED lights the surface.",
+      "speak": "Underneath, an LED lights the surface.",
+      "start": 6.02,
+      "end": 8.66,
+      "duration": 2.64
+    },
+    {
+      "id": "sensor-camera",
+      "scene": "sensor",
+      "text": "A tiny camera takes rapid pictures of the texture.",
+      "speak": "A tiny camera takes rapid pictures of the texture.",
+      "start": 9.26,
+      "end": 12.44,
+      "duration": 3.18
+    },
+    {
+      "id": "compare-snapshots",
+      "scene": "compare",
+      "text": "Watch these two snapshots.",
+      "speak": "Watch these two snapshots.",
+      "start": 13.24,
+      "end": 14.54,
+      "duration": 1.3
+    },
+    {
+      "id": "compare-shift",
+      "scene": "compare",
+      "text": "The dots have not changed. Their positions have shifted.",
+      "speak": "The dots have not changed. Their positions have shifted.",
+      "start": 15.34,
+      "end": 19.12,
+      "duration": 3.78
+    },
+    {
+      "id": "compare-measure",
+      "scene": "compare",
+      "text": "The processor compares the images and measures that shift.",
+      "speak": "The processor compares the images and measures that shift.",
+      "start": 19.86,
+      "end": 23.36,
+      "duration": 3.5
+    },
+    {
+      "id": "motion-direction",
+      "scene": "motion",
+      "text": "If the texture moves left in the images, the mouse must have moved right.",
+      "speak": "If the texture moves left in the images, the mouse must have moved right.",
+      "start": 23.88,
+      "end": 28.16,
+      "duration": 4.28
+    },
+    {
+      "id": "motion-cursor",
+      "scene": "motion",
+      "text": "That measured movement becomes the cursor's motion.",
+      "speak": "That measured movement becomes the cursor's motion.",
+      "start": 28.16,
+      "end": 31.86,
+      "duration": 3.7
+    },
+    {
+      "id": "surface-gloss",
+      "scene": "surface",
+      "text": "On a plain, glossy surface, there may be too little texture to compare.",
+      "speak": "On a plain, glossy surface, there may be too little texture to compare.",
+      "start": 32.6,
+      "end": 37.0,
+      "duration": 4.4
+    },
+    {
+      "id": "surface-fail",
+      "scene": "surface",
+      "text": "That is why tracking can fail.",
+      "speak": "That is why tracking can fail.",
+      "start": 37.54,
+      "end": 39.26,
+      "duration": 1.72
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "An optical mouse does not feel direction. It measures changing pictures.",
+      "speak": "An optical mouse does not feel direction. It measures changing pictures.",
+      "start": 40.02,
+      "end": 44.72,
+      "duration": 4.7
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "file": "../../RESULT/how-a-camera-turns-light-into-a-photo.mp4",
+  "production_copy": "output/how-a-camera-turns-light-into-a-photo.mp4",
+  "status": "passed",
+  "bytes": 7381699,
+  "sha256": "a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51",
+  "md5": "511c249222f28984f7a02b53ccb06abb",
+  "container_duration_seconds": 50.0,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 50.0,
+    "bit_rate": 974534,
+    "decoded_frames": 1500
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 50.0,
+    "bit_rate": 197384,
+    "integrated_lufs": -16.14,
+    "true_peak_dbfs": -1.48,
+    "loudness_range_lu": 10.5,
+    "mean_volume_db": -19.5,
+    "max_volume_db": -1.5,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 12,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 43.9,
+    "measured_speech_end_seconds": 43.996417,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.3515,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.877053503,
+    "source_sped_up": false,
+    "spoken_words": 98,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-20-digital-photo/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "b626191a5d213a10390a637111a0f941b3ff30336bf45931f2f6819401e37325",
+    "raw_duration_seconds": 38.44,
+    "trimmed_duration_seconds": 37.976417,
+    "tempo_rate": 0.877053503,
+    "requested_tempo_rate": 0.877053503,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
+    "narration_file": "media/voiceovers/digital-photo/narration.wav",
+    "narration_sha256": "d8da27e2f3eecbc56695850f40b4dbc6fbbbd5f0e9676304ac079d04d41d307d",
+    "narration_duration_seconds": 50.0,
+    "paced_speech_end_seconds": 43.996417,
+    "script_sha256": "636dd215150c64f28c143625c22e70e65f1715d953efefd4a60bbeba03886c86",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9483627114115525,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.996417s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9483627114115525,
+    "low_confidence_words": [
+      {
+        "start": 2.02,
+        "end": 2.66,
+        "word": " photosite",
+        "probability": 0.35246095806360245
+      },
+      {
+        "start": 27.82,
+        "end": 28.12,
+        "word": " color",
+        "probability": 0.19469425082206726
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 12,
+    "caption_midpoints_extracted": 12,
+    "narration_beat_samples_extracted": 25,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "existing_gps_and_anc_sha256_unchanged": true,
+    "ordered_actual_mp4_visual_review": "passed"
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-photosite-focus-onset.jpg",
+      "output/qa/0061-photosite-focus-mid.jpg",
+      "output/qa/0126-photosite-signal-onset.jpg",
+      "output/qa/0163-photosite-signal-mid.jpg",
+      "output/qa/0227-photosite-more-onset.jpg",
+      "output/qa/0250-photosite-more-mid.jpg",
+      "output/qa/0304-filter-brightness-onset.jpg",
+      "output/qa/0337-filter-brightness-mid.jpg",
+      "output/qa/0404-filter-green-onset.jpg",
+      "output/qa/0442-filter-green-mid.jpg",
+      "output/qa/0502-filter-value-onset.jpg",
+      "output/qa/0534-filter-value-mid.jpg",
+      "output/qa/0599-neighbors-rgb-onset.jpg",
+      "output/qa/0640-neighbors-rgb-mid.jpg",
+      "output/qa/0717-demosaic-estimate-onset.jpg",
+      "output/qa/0784-demosaic-estimate-mid.jpg",
+      "output/qa/0862-demosaic-name-onset.jpg",
+      "output/qa/0892-demosaic-name-mid.jpg",
+      "output/qa/0958-pixel-rgb-onset.jpg",
+      "output/qa/1011-pixel-rgb-mid.jpg",
+      "output/qa/1094-pixel-repeat-onset.jpg",
+      "output/qa/1148-pixel-repeat-mid.jpg",
+      "output/qa/1238-closing-summary-onset.jpg",
+      "output/qa/1275-closing-summary-mid.jpg",
+      "output/qa/1485-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "source": "Actual delivered RESULT MP4; every narration-clause onset and midpoint plus the outro, in chronological order",
+    "samples_reviewed": 25,
+    "mechanism_check": "Photosite signal, neutral brightness before color, green filtering, neighbor measurements, demosaicing, RGB pixel, and noise-clearing final photograph",
+    "focal_hierarchy": "passed; the discussed component is emphasized and unrelated elements recede",
+    "caption_and_label_safe_areas": "passed",
+    "caption_progress_line_absent": true
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-camera-turns-light-into-a-photo.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "previous_gps_and_anc_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

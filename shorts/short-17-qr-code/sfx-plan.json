@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-qr-codes-survive-damage.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short17QrCode.mp4",
+    "out": "RESULT/how-qr-codes-survive-damage.mp4",
+    "end_s": 45.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 3.21,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -20,
+      "cue": "Message scanned",
+      "sync_source": "scan-read"
+    },
+    {
+      "at_s": 6.59,
+      "sfx_id": "impact-soft",
+      "gain_db": -21,
+      "cue": "Central damage",
+      "sync_source": "damage-cover"
+    },
+    {
+      "at_s": 16.49,
+      "sfx_id": "scan-hum",
+      "gain_db": -22,
+      "cue": "Reconstruction",
+      "sync_source": "repair-rebuild"
+    },
+    {
+      "at_s": 20.74,
+      "sfx_id": "chime-reward",
+      "gain_db": -21,
+      "cue": "Message recovered",
+      "sync_source": "repair-recovered"
+    },
+    {
+      "at_s": 37.94,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

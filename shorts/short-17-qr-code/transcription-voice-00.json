@@ -1,0 +1,745 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "7fc7bc4c7ad95e29880c2481a417b55c9cad1f9ef0866a38910687d86d36b89c",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This code stores the word HELLO, scan it, and the reader rebuilds HELLO. Now, cover some of these central squares. How can the message survive? A QR code stores extra error correction information alongside the message. Watch the reader use that information to work out what the missing values should be. The reader fills in those missing values, and HELLO is recovered. The large corner patterns have another job, helping the reader find and align the code. But repair has a limit. Cover too much data and the reader no longer has enough information to rebuild the message. Error correction gives the reader a second chance to recover the message.",
+  "mean_word_probability": 0.9765002252026038,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.96,
+      "text": "This code stores the word HELLO, scan it, and the reader rebuilds HELLO.",
+      "avg_logprob": -0.09435462985526431,
+      "no_speech_prob": 0.000315534183755517,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.02,
+          "word": " This",
+          "probability": 0.9809970855712891
+        },
+        {
+          "start": 1.02,
+          "end": 1.34,
+          "word": " code",
+          "probability": 0.9973293542861938
+        },
+        {
+          "start": 1.34,
+          "end": 1.74,
+          "word": " stores",
+          "probability": 0.9959322810173035
+        },
+        {
+          "start": 1.74,
+          "end": 1.96,
+          "word": " the",
+          "probability": 0.99834144115448
+        },
+        {
+          "start": 1.96,
+          "end": 2.24,
+          "word": " word",
+          "probability": 0.9955742359161377
+        },
+        {
+          "start": 2.24,
+          "end": 2.88,
+          "word": " HELLO,",
+          "probability": 0.5553475469350815
+        },
+        {
+          "start": 3.36,
+          "end": 3.68,
+          "word": " scan",
+          "probability": 0.8904610872268677
+        },
+        {
+          "start": 3.68,
+          "end": 3.98,
+          "word": " it,",
+          "probability": 0.9982032775878906
+        },
+        {
+          "start": 4.16,
+          "end": 4.3,
+          "word": " and",
+          "probability": 0.9960583448410034
+        },
+        {
+          "start": 4.3,
+          "end": 4.46,
+          "word": " the",
+          "probability": 0.9950762391090393
+        },
+        {
+          "start": 4.46,
+          "end": 4.62,
+          "word": " reader",
+          "probability": 0.986520528793335
+        },
+        {
+          "start": 4.62,
+          "end": 5.56,
+          "word": " rebuilds",
+          "probability": 0.9514211118221283
+        },
+        {
+          "start": 5.56,
+          "end": 5.96,
+          "word": " HELLO.",
+          "probability": 0.9741109013557434
+        }
+      ]
+    },
+    {
+      "start": 6.74,
+      "end": 10.7,
+      "text": "Now, cover some of these central squares. How can the message survive?",
+      "avg_logprob": -0.09435462985526431,
+      "no_speech_prob": 0.000315534183755517,
+      "words": [
+        {
+          "start": 6.74,
+          "end": 7.04,
+          "word": " Now,",
+          "probability": 0.9959698915481567
+        },
+        {
+          "start": 7.16,
+          "end": 7.46,
+          "word": " cover",
+          "probability": 0.9964424967765808
+        },
+        {
+          "start": 7.46,
+          "end": 7.72,
+          "word": " some",
+          "probability": 0.9949504137039185
+        },
+        {
+          "start": 7.72,
+          "end": 7.86,
+          "word": " of",
+          "probability": 0.997417688369751
+        },
+        {
+          "start": 7.86,
+          "end": 7.98,
+          "word": " these",
+          "probability": 0.9823188185691833
+        },
+        {
+          "start": 7.98,
+          "end": 8.38,
+          "word": " central",
+          "probability": 0.9933237433433533
+        },
+        {
+          "start": 8.38,
+          "end": 8.88,
+          "word": " squares.",
+          "probability": 0.9956592917442322
+        },
+        {
+          "start": 9.38,
+          "end": 9.76,
+          "word": " How",
+          "probability": 0.9974149465560913
+        },
+        {
+          "start": 9.76,
+          "end": 9.88,
+          "word": " can",
+          "probability": 0.9981549382209778
+        },
+        {
+          "start": 9.88,
+          "end": 10.04,
+          "word": " the",
+          "probability": 0.9737080931663513
+        },
+        {
+          "start": 10.04,
+          "end": 10.24,
+          "word": " message",
+          "probability": 0.9898990988731384
+        },
+        {
+          "start": 10.24,
+          "end": 10.7,
+          "word": " survive?",
+          "probability": 0.9993059635162354
+        }
+      ]
+    },
+    {
+      "start": 11.62,
+      "end": 16.0,
+      "text": "A QR code stores extra error correction information alongside the message.",
+      "avg_logprob": -0.09435462985526431,
+      "no_speech_prob": 0.000315534183755517,
+      "words": [
+        {
+          "start": 11.62,
+          "end": 11.92,
+          "word": " A",
+          "probability": 0.9935464262962341
+        },
+        {
+          "start": 11.92,
+          "end": 12.22,
+          "word": " QR",
+          "probability": 0.988848090171814
+        },
+        {
+          "start": 12.22,
+          "end": 12.58,
+          "word": " code",
+          "probability": 0.9786018133163452
+        },
+        {
+          "start": 12.58,
+          "end": 12.94,
+          "word": " stores",
+          "probability": 0.9961673617362976
+        },
+        {
+          "start": 12.94,
+          "end": 13.48,
+          "word": " extra",
+          "probability": 0.9943132400512695
+        },
+        {
+          "start": 13.48,
+          "end": 13.78,
+          "word": " error",
+          "probability": 0.9565200209617615
+        },
+        {
+          "start": 13.78,
+          "end": 14.18,
+          "word": " correction",
+          "probability": 0.8268981575965881
+        },
+        {
+          "start": 14.18,
+          "end": 14.74,
+          "word": " information",
+          "probability": 0.9978085160255432
+        },
+        {
+          "start": 14.74,
+          "end": 15.36,
+          "word": " alongside",
+          "probability": 0.9715896844863892
+        },
+        {
+          "start": 15.36,
+          "end": 15.68,
+          "word": " the",
+          "probability": 0.9960577487945557
+        },
+        {
+          "start": 15.68,
+          "end": 16.0,
+          "word": " message.",
+          "probability": 0.9984353184700012
+        }
+      ]
+    },
+    {
+      "start": 16.64,
+      "end": 20.5,
+      "text": "Watch the reader use that information to work out what the missing values should be.",
+      "avg_logprob": -0.09435462985526431,
+      "no_speech_prob": 0.000315534183755517,
+      "words": [
+        {
+          "start": 16.64,
+          "end": 16.84,
+          "word": " Watch",
+          "probability": 0.9985274076461792
+        },
+        {
+          "start": 16.84,
+          "end": 17.06,
+          "word": " the",
+          "probability": 0.9982072114944458
+        },
+        {
+          "start": 17.06,
+          "end": 17.22,
+          "word": " reader",
+          "probability": 0.9981308579444885
+        },
+        {
+          "start": 17.22,
+          "end": 17.56,
+          "word": " use",
+          "probability": 0.9972630739212036
+        },
+        {
+          "start": 17.56,
+          "end": 17.78,
+          "word": " that",
+          "probability": 0.9945141077041626
+        },
+        {
+          "start": 17.78,
+          "end": 18.22,
+          "word": " information",
+          "probability": 0.9990078806877136
+        },
+        {
+          "start": 18.22,
+          "end": 18.46,
+          "word": " to",
+          "probability": 0.9988885521888733
+        },
+        {
+          "start": 18.46,
+          "end": 18.6,
+          "word": " work",
+          "probability": 0.9957723021507263
+        },
+        {
+          "start": 18.6,
+          "end": 18.82,
+          "word": " out",
+          "probability": 0.9988625049591064
+        },
+        {
+          "start": 18.82,
+          "end": 19.02,
+          "word": " what",
+          "probability": 0.998490571975708
+        },
+        {
+          "start": 19.02,
+          "end": 19.24,
+          "word": " the",
+          "probability": 0.9923313856124878
+        },
+        {
+          "start": 19.24,
+          "end": 19.46,
+          "word": " missing",
+          "probability": 0.991940438747406
+        },
+        {
+          "start": 19.46,
+          "end": 19.84,
+          "word": " values",
+          "probability": 0.975284218788147
+        },
+        {
+          "start": 19.84,
+          "end": 20.14,
+          "word": " should",
+          "probability": 0.9983230233192444
+        },
+        {
+          "start": 20.14,
+          "end": 20.5,
+          "word": " be.",
+          "probability": 0.9997671246528625
+        }
+      ]
+    },
+    {
+      "start": 20.84,
+      "end": 24.18,
+      "text": "The reader fills in those missing values, and HELLO is recovered.",
+      "avg_logprob": -0.09435462985526431,
+      "no_speech_prob": 0.000315534183755517,
+      "words": [
+        {
+          "start": 20.84,
+          "end": 21.14,
+          "word": " The",
+          "probability": 0.9974472522735596
+        },
+        {
+          "start": 21.14,
+          "end": 21.3,
+          "word": " reader",
+          "probability": 0.9988239407539368
+        },
+        {
+          "start": 21.3,
+          "end": 21.62,
+          "word": " fills",
+          "probability": 0.9982560276985168
+        },
+        {
+          "start": 21.62,
+          "end": 21.84,
+          "word": " in",
+          "probability": 0.9892433881759644
+        },
+        {
+          "start": 21.84,
+          "end": 22.0,
+          "word": " those",
+          "probability": 0.9809256196022034
+        },
+        {
+          "start": 22.0,
+          "end": 22.28,
+          "word": " missing",
+          "probability": 0.9976465106010437
+        },
+        {
+          "start": 22.28,
+          "end": 22.68,
+          "word": " values,",
+          "probability": 0.9964834451675415
+        },
+        {
+          "start": 22.88,
+          "end": 23.14,
+          "word": " and",
+          "probability": 0.9978018403053284
+        },
+        {
+          "start": 23.14,
+          "end": 23.54,
+          "word": " HELLO",
+          "probability": 0.9835522174835205
+        },
+        {
+          "start": 23.54,
+          "end": 23.74,
+          "word": " is",
+          "probability": 0.9705787301063538
+        },
+        {
+          "start": 23.74,
+          "end": 24.18,
+          "word": " recovered.",
+          "probability": 0.9977627992630005
+        }
+      ]
+    },
+    {
+      "start": 24.18,
+      "end": 29.76,
+      "text": "The large corner patterns have another job, helping the reader find and align the code.",
+      "avg_logprob": -0.12166443765163422,
+      "no_speech_prob": 0.0029431611765176058,
+      "words": [
+        {
+          "start": 24.18,
+          "end": 25.26,
+          "word": " The",
+          "probability": 0.8381874561309814
+        },
+        {
+          "start": 25.26,
+          "end": 25.58,
+          "word": " large",
+          "probability": 0.9605823159217834
+        },
+        {
+          "start": 25.58,
+          "end": 25.96,
+          "word": " corner",
+          "probability": 0.9804690480232239
+        },
+        {
+          "start": 25.96,
+          "end": 26.34,
+          "word": " patterns",
+          "probability": 0.9907246232032776
+        },
+        {
+          "start": 26.34,
+          "end": 26.58,
+          "word": " have",
+          "probability": 0.9962483048439026
+        },
+        {
+          "start": 26.58,
+          "end": 26.88,
+          "word": " another",
+          "probability": 0.9977630376815796
+        },
+        {
+          "start": 26.88,
+          "end": 27.24,
+          "word": " job,",
+          "probability": 0.9984207153320312
+        },
+        {
+          "start": 27.58,
+          "end": 27.84,
+          "word": " helping",
+          "probability": 0.9965654015541077
+        },
+        {
+          "start": 27.84,
+          "end": 28.04,
+          "word": " the",
+          "probability": 0.9946911931037903
+        },
+        {
+          "start": 28.04,
+          "end": 28.2,
+          "word": " reader",
+          "probability": 0.9955311417579651
+        },
+        {
+          "start": 28.2,
+          "end": 28.62,
+          "word": " find",
+          "probability": 0.9856724739074707
+        },
+        {
+          "start": 28.62,
+          "end": 28.9,
+          "word": " and",
+          "probability": 0.9962199330329895
+        },
+        {
+          "start": 28.9,
+          "end": 29.24,
+          "word": " align",
+          "probability": 0.9971231818199158
+        },
+        {
+          "start": 29.24,
+          "end": 29.46,
+          "word": " the",
+          "probability": 0.9959514141082764
+        },
+        {
+          "start": 29.46,
+          "end": 29.76,
+          "word": " code.",
+          "probability": 0.9989742040634155
+        }
+      ]
+    },
+    {
+      "start": 30.7,
+      "end": 37.26,
+      "text": "But repair has a limit. Cover too much data and the reader no longer has enough information to rebuild the message.",
+      "avg_logprob": -0.12166443765163422,
+      "no_speech_prob": 0.0029431611765176058,
+      "words": [
+        {
+          "start": 30.7,
+          "end": 30.82,
+          "word": " But",
+          "probability": 0.983963668346405
+        },
+        {
+          "start": 30.82,
+          "end": 31.34,
+          "word": " repair",
+          "probability": 0.5895413160324097
+        },
+        {
+          "start": 31.34,
+          "end": 31.66,
+          "word": " has",
+          "probability": 0.9982402324676514
+        },
+        {
+          "start": 31.66,
+          "end": 31.84,
+          "word": " a",
+          "probability": 0.998443067073822
+        },
+        {
+          "start": 31.84,
+          "end": 32.08,
+          "word": " limit.",
+          "probability": 0.9992600083351135
+        },
+        {
+          "start": 32.74,
+          "end": 32.94,
+          "word": " Cover",
+          "probability": 0.9965083003044128
+        },
+        {
+          "start": 32.94,
+          "end": 33.24,
+          "word": " too",
+          "probability": 0.996297299861908
+        },
+        {
+          "start": 33.24,
+          "end": 33.52,
+          "word": " much",
+          "probability": 0.9996088147163391
+        },
+        {
+          "start": 33.52,
+          "end": 33.82,
+          "word": " data",
+          "probability": 0.9989057779312134
+        },
+        {
+          "start": 33.82,
+          "end": 34.26,
+          "word": " and",
+          "probability": 0.5730471014976501
+        },
+        {
+          "start": 34.26,
+          "end": 34.4,
+          "word": " the",
+          "probability": 0.9958316683769226
+        },
+        {
+          "start": 34.4,
+          "end": 34.54,
+          "word": " reader",
+          "probability": 0.998977541923523
+        },
+        {
+          "start": 34.54,
+          "end": 34.82,
+          "word": " no",
+          "probability": 0.9954675436019897
+        },
+        {
+          "start": 34.82,
+          "end": 35.12,
+          "word": " longer",
+          "probability": 0.9994159936904907
+        },
+        {
+          "start": 35.12,
+          "end": 35.38,
+          "word": " has",
+          "probability": 0.997778594493866
+        },
+        {
+          "start": 35.38,
+          "end": 35.6,
+          "word": " enough",
+          "probability": 0.996900200843811
+        },
+        {
+          "start": 35.6,
+          "end": 36.08,
+          "word": " information",
+          "probability": 0.9973159432411194
+        },
+        {
+          "start": 36.08,
+          "end": 36.34,
+          "word": " to",
+          "probability": 0.999136745929718
+        },
+        {
+          "start": 36.34,
+          "end": 36.7,
+          "word": " rebuild",
+          "probability": 0.9870195388793945
+        },
+        {
+          "start": 36.7,
+          "end": 36.92,
+          "word": " the",
+          "probability": 0.9977903366088867
+        },
+        {
+          "start": 36.92,
+          "end": 37.26,
+          "word": " message.",
+          "probability": 0.9982790946960449
+        }
+      ]
+    },
+    {
+      "start": 38.14,
+      "end": 41.56,
+      "text": "Error correction gives the reader a second chance to recover the message.",
+      "avg_logprob": -0.12166443765163422,
+      "no_speech_prob": 0.0029431611765176058,
+      "words": [
+        {
+          "start": 38.14,
+          "end": 38.42,
+          "word": " Error",
+          "probability": 0.9668182134628296
+        },
+        {
+          "start": 38.42,
+          "end": 38.84,
+          "word": " correction",
+          "probability": 0.882921040058136
+        },
+        {
+          "start": 38.84,
+          "end": 39.28,
+          "word": " gives",
+          "probability": 0.9911490678787231
+        },
+        {
+          "start": 39.28,
+          "end": 39.48,
+          "word": " the",
+          "probability": 0.9979864358901978
+        },
+        {
+          "start": 39.48,
+          "end": 39.66,
+          "word": " reader",
+          "probability": 0.9990854263305664
+        },
+        {
+          "start": 39.66,
+          "end": 39.98,
+          "word": " a",
+          "probability": 0.9959002137184143
+        },
+        {
+          "start": 39.98,
+          "end": 40.24,
+          "word": " second",
+          "probability": 0.9957301020622253
+        },
+        {
+          "start": 40.24,
+          "end": 40.56,
+          "word": " chance",
+          "probability": 0.9979509711265564
+        },
+        {
+          "start": 40.56,
+          "end": 40.8,
+          "word": " to",
+          "probability": 0.9992733597755432
+        },
+        {
+          "start": 40.8,
+          "end": 41.12,
+          "word": " recover",
+          "probability": 0.998134434223175
+        },
+        {
+          "start": 41.12,
+          "end": 41.3,
+          "word": " the",
+          "probability": 0.9976711869239807
+        },
+        {
+          "start": 41.3,
+          "end": 41.56,
+          "word": " message.",
+          "probability": 0.998993456363678
+        }
+      ]
+    }
+  ]
+}
