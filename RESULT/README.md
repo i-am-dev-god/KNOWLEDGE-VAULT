@@ -285,3 +285,88 @@ Production and QA: [`script.md`](../shorts/short-34-3d-printer/script.md) · [`q
 **SHA-256:** `36b76b86ed68ec84a4eb5d4c0ebff5febfe54b0dad353918dfcbf64478351776`
 
 Production and QA: [`script.md`](../shorts/short-35-airbag/script.md) · [`qa.json`](../shorts/short-35-airbag/qa.json)
+
+## How Fiber Optics Carry Internet Data
+
+**Finished video:** [how-fiber-optics-carry-internet-data.mp4](how-fiber-optics-carry-internet-data.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 56.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.969642147×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,680-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.15 LUFS; true peak -1.82 dBTP; measured narration offset 0 ms
+
+**Size:** 11,565,281 bytes
+
+**SHA-256:** `2a78d6d018d6b7c5bbc03a8cfd55a9fd589e31964d81b1f17ca6eab423b513a5`
+
+Production and QA: [`script.md`](../shorts/short-36-fiber-optics/script.md) · [`qa.json`](../shorts/short-36-fiber-optics/qa.json)
+
+## How an Electric Motor Spins
+
+**Finished video:** [how-an-electric-motor-spins.mp4](how-an-electric-motor-spins.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 58.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.958410110×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,740-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.05 LUFS; true peak -1.84 dBTP; measured narration offset -1 ms
+
+**Size:** 14,667,469 bytes
+
+**SHA-256:** `61219ffd5b9c0fc149741eee92dc948c7f9dbaa402a7f3665e93f344e1e9e910`
+
+Production and QA: [`script.md`](../shorts/short-37-electric-motor/script.md) · [`qa.json`](../shorts/short-37-electric-motor/qa.json)
+
+## How a Transformer Changes Voltage
+
+**Finished video:** [how-a-transformer-changes-voltage.mp4](how-a-transformer-changes-voltage.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.849188299×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.27 LUFS; true peak -1.71 dBTP; measured narration offset 0 ms
+
+**Size:** 13,161,477 bytes
+
+**SHA-256:** `baa691c774678b193ecb641ad2643b3088360427e7b435f8d09e1995677b991c`
+
+Production and QA: [`script.md`](../shorts/short-38-transformer/script.md) · [`qa.json`](../shorts/short-38-transformer/qa.json)
+
+## How Radar Finds Distant Objects
+
+**Finished video:** [how-radar-finds-distant-objects.mp4](how-radar-finds-distant-objects.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 56.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.944121670×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,680-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.08 LUFS; true peak -1.73 dBTP; measured narration offset -1 ms
+
+**Size:** 9,890,191 bytes
+
+**SHA-256:** `b20721da9b774707120a7f747bba2b5a30c6c56fff178c8658bd5e1552454138`
+
+Production and QA: [`script.md`](../shorts/short-39-radar/script.md) · [`qa.json`](../shorts/short-39-radar/qa.json)
+
+## How a Mechanical Watch Keeps Time
+
+**Finished video:** [how-a-mechanical-watch-keeps-time.mp4](how-a-mechanical-watch-keeps-time.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 60.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.955779490×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,800-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.06 LUFS; true peak -1.73 dBTP; measured narration offset -1 ms
+
+**Size:** 22,407,625 bytes
+
+**SHA-256:** `887d082a0d79fea3abf7a409cc383f3cfd19764ed521af66515fdf1ea5b0c143`
+
+Production and QA: [`script.md`](../shorts/short-40-mechanical-watch/script.md) · [`qa.json`](../shorts/short-40-mechanical-watch/qa.json)
