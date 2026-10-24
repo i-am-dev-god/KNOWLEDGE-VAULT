@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-face-unlock-recognizes-you.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short29FaceUnlock.mp4",
+    "out": "RESULT/how-face-unlock-recognizes-you.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 7.29,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -24,
+      "cue": "Infrared pattern",
+      "sync_source": "illuminate-dots"
+    },
+    {
+      "at_s": 17.6,
+      "sfx_id": "scan-hum",
+      "gain_db": -24,
+      "cue": "Depth map",
+      "sync_source": "depth-map"
+    },
+    {
+      "at_s": 23.52,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -22,
+      "cue": "Build template",
+      "sync_source": "template-build"
+    },
+    {
+      "at_s": 34.1,
+      "sfx_id": "chime-reward",
+      "gain_db": -23,
+      "cue": "Unlock decision",
+      "sync_source": "match-decision"
+    },
+    {
+      "at_s": 39.02,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "short-26-bluetooth-audio",
+  "title": "How Bluetooth Sends Music to Your Headphones",
+  "composition": "Short26BluetoothAudio",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-26-bluetooth-audio/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "1a18606275360bdd17c4c3a0c017c2a6a70b497257e27acdb139a75a36d848fe",
+    "raw_duration_seconds": 45.96,
+    "trimmed_duration_seconds": 45.527833,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.027716328,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/bluetooth-audio/narration.wav",
+    "narration_sha256": "373e2d8f2742a2879dbca4782206d748ab22ba586295725b9197ecd87f638089",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 46.221167,
+    "script_sha256": "e7f47798cbd6031b54204527cf5df6f985bce37fac6c307400de5b631ac4856e",
+    "spoken_words": 108,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9705291351786366,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 46.221167s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 46.08,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Music without a cable",
+      "start": 0.0,
+      "end": 5.32
+    },
+    {
+      "id": "encode",
+      "title": "Prepare digital audio",
+      "start": 5.32,
+      "end": 15.02
+    },
+    {
+      "id": "packets",
+      "title": "Divide the stream into packets",
+      "start": 15.02,
+      "end": 22.26
+    },
+    {
+      "id": "radio",
+      "title": "Send coordinated radio transmissions",
+      "start": 22.26,
+      "end": 32.68
+    },
+    {
+      "id": "receive",
+      "title": "Rebuild and decode the stream",
+      "start": 32.68,
+      "end": 40.16
+    },
+    {
+      "id": "closing",
+      "title": "Samples become music again",
+      "start": 40.16,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-play",
+      "scene": "hook",
+      "text": "Press play on your phone.",
+      "speak": "Press play on your phone.",
+      "start": 0.7,
+      "end": 2.1,
+      "duration": 1.4
+    },
+    {
+      "id": "hook-travel",
+      "scene": "hook",
+      "text": "The music reaches your headphones without a cable.",
+      "speak": "The music reaches your headphones without a cable.",
+      "start": 2.58,
+      "end": 5.06,
+      "duration": 2.48
+    },
+    {
+      "id": "encode-samples",
+      "scene": "encode",
+      "text": "First, the phone represents the music as digital audio samples.",
+      "speak": "First, the phone represents the music as digital audio samples.",
+      "start": 5.82,
+      "end": 9.64,
+      "duration": 3.82
+    },
+    {
+      "id": "encode-compress",
+      "scene": "encode",
+      "text": "Bluetooth usually compresses those samples so they fit within the available data rate.",
+      "speak": "Bluetooth usually compresses those samples so they fit within the available data rate.",
+      "start": 10.36,
+      "end": 14.9,
+      "duration": 4.54
+    },
+    {
+      "id": "packets-chop",
+      "scene": "packets",
+      "text": "The compressed stream is divided into small packets.",
+      "speak": "The compressed stream is divided into small packets.",
+      "start": 15.52,
+      "end": 18.46,
+      "duration": 2.94
+    },
+    {
+      "id": "packets-control",
+      "scene": "packets",
+      "text": "Each packet carries control information alongside the audio data.",
+      "speak": "Each packet carries control information alongside the audio data.",
+      "start": 19.08,
+      "end": 22.76,
+      "duration": 3.68
+    },
+    {
+      "id": "radio-pair",
+      "scene": "radio",
+      "text": "The paired devices transmit these packets over short-range radio.",
+      "speak": "The paired devices transmit these packets over short-range radio.",
+      "start": 22.76,
+      "end": 27.04,
+      "duration": 4.28
+    },
+    {
+      "id": "radio-hop",
+      "scene": "radio",
+      "text": "They rapidly change frequencies in a coordinated pattern, helping avoid interference.",
+      "speak": "They rapidly change frequencies in a coordinated pattern, helping avoid interference.",
+      "start": 27.66,
+      "end": 32.36,
+      "duration": 4.7
+    },
+    {
+      "id": "receive-check",
+      "scene": "receive",
+      "text": "Your headphones receive the packets and check that the data arrived correctly.",
+      "speak": "Your headphones receive the packets and check that the data arrived correctly.",
+      "start": 33.18,
+      "end": 36.88,
+      "duration": 3.7
+    },
+    {
+      "id": "receive-decode",
+      "scene": "receive",
+      "text": "They reassemble and decode the audio stream.",
+      "speak": "They reassemble and decode the audio stream.",
+      "start": 37.34,
+      "end": 39.86,
+      "duration": 2.52
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Digital samples become radio packets, then become music again through the headphone's converter and driver.",
+      "speak": "Digital samples become radio packets, then become music again through the headphone's converter and driver.",
+      "start": 40.66,
+      "end": 46.08,
+      "duration": 5.42
+    }
+  ]
+}

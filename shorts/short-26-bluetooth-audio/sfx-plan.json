@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-bluetooth-sends-music-to-headphones.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short26BluetoothAudio.mp4",
+    "out": "RESULT/how-bluetooth-sends-music-to-headphones.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.67,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -24,
+      "cue": "Sample the waveform",
+      "sync_source": "encode-samples"
+    },
+    {
+      "at_s": 15.42,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -22,
+      "cue": "Packetize audio",
+      "sync_source": "packets-chop"
+    },
+    {
+      "at_s": 27.51,
+      "sfx_id": "scan-hum",
+      "gain_db": -24,
+      "cue": "Coordinated hopping",
+      "sync_source": "radio-hop"
+    },
+    {
+      "at_s": 37.24,
+      "sfx_id": "pop-reveal",
+      "gain_db": -23,
+      "cue": "Decode audio",
+      "sync_source": "receive-decode"
+    },
+    {
+      "at_s": 40.46,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}
