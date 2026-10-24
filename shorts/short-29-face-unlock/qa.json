@@ -1,0 +1,158 @@
+{
+  "file": "../../RESULT/how-face-unlock-recognizes-you.mp4",
+  "production_copy": "output/how-face-unlock-recognizes-you.mp4",
+  "status": "passed",
+  "bytes": 8070187,
+  "sha256": "714a0d6682f739633bc8495095fca550d69eb714372ac8b60b5c359983c02ba3",
+  "md5": "62b36ebf64a2f67e39ffb0c187825790",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 1035044,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 196990,
+    "integrated_lufs": -16.23,
+    "true_peak_dbfs": -1.94,
+    "loudness_range_lu": 9.5,
+    "mean_volume_db": -19.4,
+    "max_volume_db": -1.9,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 9,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.8,
+    "measured_speech_end_seconds": 44.982438,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.3996,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.880268999,
+    "source_sped_up": false,
+    "spoken_words": 103,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-29-face-unlock/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "259ba1664d68dceb0ba5f4db2f428ada3f8bb39e7bc69be100ab4ae3be8e3a57",
+    "raw_duration_seconds": 39.32,
+    "trimmed_duration_seconds": 38.995917,
+    "tempo_rate": 0.880268999,
+    "requested_tempo_rate": 0.880268999,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/face-unlock/narration.wav",
+    "narration_sha256": "702b3a3a690cdfe2d9d133dbbfb03e58e7788b8cf069faa56f595a8d78cb7a39",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.982438,
+    "script_sha256": "f9755da34fc429e06f1c1b5f738d68ff57b70e09d0b3a311d5852825e990e093",
+    "spoken_words": 103,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9650240190399503,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.982438s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9650240190399503,
+    "low_confidence_words": [
+      {
+        "start": 20.02,
+        "end": 20.86,
+        "word": " describing",
+        "probability": 0.33974549174308777
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 9,
+    "caption_midpoints_extracted": 9,
+    "narration_beat_samples_extracted": 19,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-hook-look-onset.jpg",
+      "output/qa/0053-hook-look-mid.jpg",
+      "output/qa/0105-hook-how-onset.jpg",
+      "output/qa/0147-hook-how-mid.jpg",
+      "output/qa/0229-illuminate-dots-onset.jpg",
+      "output/qa/0292-illuminate-dots-mid.jpg",
+      "output/qa/0388-illuminate-camera-onset.jpg",
+      "output/qa/0444-illuminate-camera-mid.jpg",
+      "output/qa/0536-depth-map-onset.jpg",
+      "output/qa/0606-depth-map-mid.jpg",
+      "output/qa/0714-template-build-onset.jpg",
+      "output/qa/0785-template-build-mid.jpg",
+      "output/qa/0867-match-compare-onset.jpg",
+      "output/qa/0932-match-compare-mid.jpg",
+      "output/qa/1031-match-decision-onset.jpg",
+      "output/qa/1087-match-decision-mid.jpg",
+      "output/qa/1182-closing-summary-onset.jpg",
+      "output/qa/1260-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "ordered_actual_mp4_samples_reviewed": 19,
+    "review_method": "Every narration-clause onset and midpoint plus the outro, reviewed in chronological contact sheets decoded from the delivered MP4; critical focal frames also checked at 540x960",
+    "checkpoints": [
+      "Infrared projection precedes camera reading and the depth map",
+      "Depth becomes a mathematical template before enrollment comparison",
+      "Similarity, liveness, and the open lock appear for the decision",
+      "No caption timing or progress line appears"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-face-unlock-recognizes-you.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

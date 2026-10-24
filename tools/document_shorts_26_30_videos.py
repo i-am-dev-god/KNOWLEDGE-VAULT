@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write final script and RESULT records only after all following five videos pass QA."""
+"""Write final script and RESULT records only after all five new videos pass QA."""
 from __future__ import annotations
 
 import json
@@ -13,7 +13,7 @@ PICTURES = {
         "hook": "A phone sends digital audio toward headphones through animated short-range radio paths.",
         "encode": "A waveform is sampled at points on the actual curve, then a compressed stream appears as a separate step.",
         "packets": "The stream becomes discrete packets with distinct control and audio-data regions.",
-        "radio": "Packets move between phone and headphones on coordinated frequency lanes; both endpoints highlight the same active channel.",
+        "radio": "Packets move along coordinated frequency lanes; the active channel is highlighted and marked linked.",
         "receive": "Received packets are checked, reassembled, decoded, and routed toward the converter and animated headphone output.",
         "closing": "Digital samples, radio packets, decode-and-convert, and the headphone driver form the complete chain.",
     },
@@ -159,7 +159,7 @@ def main() -> None:
     heading = "## How Bluetooth Sends Music to Your Headphones"
     if heading in text:
         text = text.split(heading, 1)[0].rstrip()
-    # Append the new five while preserving GPS, ANC, and the accepted earlier five.
+    # Append the new five while preserving the seven retained deliveries.
     readme.write_text(text.rstrip() + "\n\n" + "\n".join(sections))
     print("Wrote five final script records and appended RESULT/README.md without replacing earlier masters")
 

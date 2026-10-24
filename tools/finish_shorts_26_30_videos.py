@@ -29,7 +29,7 @@ FFMPEG = os.environ.get("FFMPEG_BIN", "ffmpeg")
 # AAC/mastering stage adds about 5 ms. Remove that priming from the silent head;
 # QA subsequently measures the delivered narration offset instead of assuming it.
 PRE_FILTER = "atrim=start=0.048,asetpts=PTS-STARTPTS,highpass=f=70,alimiter=limit=0.841395:level=false"
-LOUDNESS = "loudnorm=I=-16:TP=-1.5:LRA=11"
+LOUDNESS = "loudnorm=I=-16:TP=-2.0:LRA=11"
 PRESERVED = {
     "how-gps-finds-you.mp4": "3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c",
     "how-a-camera-turns-light-into-a-photo.mp4": "a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51",
@@ -318,7 +318,7 @@ def qa_one(project: dict) -> dict:
         "audio": {
             **audio,
             "target_bitrate": "192k",
-            "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-1.5/LRA=11; H.264 stream copied without re-encoding",
+            "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding",
         },
         "synchronization": {
             "caption_segments": len(beats["vo"]),

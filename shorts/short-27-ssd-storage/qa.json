@@ -1,0 +1,166 @@
+{
+  "file": "../../RESULT/how-an-ssd-remembers-without-power.mp4",
+  "production_copy": "output/how-an-ssd-remembers-without-power.mp4",
+  "status": "passed",
+  "bytes": 7396172,
+  "sha256": "66f3b4fcad505ae9df10c6d18096fde7107063666a1d07647cee47d13c2c4c14",
+  "md5": "8cda47e1c70e296d9a4c4828035de7f1",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 933110,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 195276,
+    "integrated_lufs": -16.1,
+    "true_peak_dbfs": -1.98,
+    "loudness_range_lu": 12.2,
+    "mean_volume_db": -19.6,
+    "max_volume_db": -2.0,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 10,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.8,
+    "measured_speech_end_seconds": 44.986167,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.39314,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.861107035,
+    "source_sped_up": false,
+    "spoken_words": 99,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-27-ssd-storage/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "4d7d11ca547b00b560a2da23c556911e0a8e09f8ecb6c63c54b87a206f71bc3d",
+    "raw_duration_seconds": 38.64,
+    "trimmed_duration_seconds": 38.147042,
+    "tempo_rate": 0.861107035,
+    "requested_tempo_rate": 0.861107035,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/ssd-storage/narration.wav",
+    "narration_sha256": "1a86c57c750377b5d341cc905508a34b4b34752ddd9919b52452a07957187d02",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.986167,
+    "script_sha256": "5f7e56183bb8ea4cb59daaa5f01f1d52ec3e284f08ffd67d5eff5dac3a43261f",
+    "spoken_words": 99,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.963939384177879,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.986167s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.963939384177879,
+    "low_confidence_words": [
+      {
+        "start": 37.7,
+        "end": 37.9,
+        "word": " wear",
+        "probability": 0.4262828826904297
+      },
+      {
+        "start": 40.98,
+        "end": 41.48,
+        "word": " while",
+        "probability": 0.4851265251636505
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 10,
+    "caption_midpoints_extracted": 10,
+    "narration_beat_samples_extracted": 21,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-hook-off-onset.jpg",
+      "output/qa/0039-hook-off-mid.jpg",
+      "output/qa/0078-hook-remain-onset.jpg",
+      "output/qa/0109-hook-remain-mid.jpg",
+      "output/qa/0173-cell-trap-onset.jpg",
+      "output/qa/0239-cell-trap-mid.jpg",
+      "output/qa/0337-cell-state-onset.jpg",
+      "output/qa/0382-cell-state-mid.jpg",
+      "output/qa/0462-read-test-onset.jpg",
+      "output/qa/0534-read-test-mid.jpg",
+      "output/qa/0638-read-value-onset.jpg",
+      "output/qa/0667-read-value-mid.jpg",
+      "output/qa/0733-organize-pages-onset.jpg",
+      "output/qa/0777-organize-pages-mid.jpg",
+      "output/qa/0831-wear-limit-onset.jpg",
+      "output/qa/0897-wear-limit-mid.jpg",
+      "output/qa/0995-wear-spread-onset.jpg",
+      "output/qa/1075-wear-spread-mid.jpg",
+      "output/qa/1182-closing-summary-onset.jpg",
+      "output/qa/1260-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "ordered_actual_mp4_samples_reviewed": 21,
+    "review_method": "Every narration-clause onset and midpoint plus the outro, reviewed in chronological contact sheets decoded from the delivered MP4; critical focal frames also checked at 540x960",
+    "checkpoints": [
+      "Power-off state retains the cell pattern",
+      "Charge carriers and threshold marker precede the test-voltage read",
+      "Pages are labeled within the block and worn cells give way to distributed writes",
+      "No caption timing or progress line appears"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-an-ssd-remembers-without-power.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}
