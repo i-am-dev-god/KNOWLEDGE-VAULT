@@ -314,7 +314,7 @@
         {
           "id": "seek-rotate",
           "scene": "seek",
-          "text": "The head waits briefly for the right sector to rotate underneath."
+          "text": "The head waits briefly for the correct sector to rotate underneath."
         },
         {
           "id": "read-sense",
@@ -324,7 +324,7 @@
         {
           "id": "closing-summary",
           "scene": "closing",
-          "text": "A quick movement of the arm, plus the platter's rotation, brings the stored data to the head."
+          "text": "A quick movement of the arm, plus the spinning platter, brings the stored data to the head."
         }
       ],
       "scenes": [
