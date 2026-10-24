@@ -206,8 +206,37 @@ def align_one(project: dict) -> None:
         if index < len(expected_tokens) and expected_tokens[index] == "two" and token in {"too", "to"}:
             homophone_corrections.append({"asr": token, "script": "two", "start": word["start"], "probability": word["probability"]})
             asr_alignment[index] = ("two", word)
-    # Homophone correction is only accepted if every remaining normalized token
-    # still matches the complete script exactly in the same order.
+    # Whisper may spell a spoken compound as two words. Merge only the exact
+    # domain compounds expected at this position, preserving their full time span.
+    compound_parts = {"subcarriers": ("sub", "carriers"), "retransmission": ("re", "transmission")}
+    compound_corrections = []
+    merged_alignment = []
+    i = 0
+    j = 0
+    while i < len(asr_alignment):
+        expected = expected_tokens[j] if j < len(expected_tokens) else None
+        if expected in compound_parts and i + 1 < len(asr_alignment):
+            first_token, first_word = asr_alignment[i]
+            second_token, second_word = asr_alignment[i + 1]
+            if (first_token, second_token) == compound_parts[expected]:
+                merged_word = {
+                    **first_word, "word": expected, "end": second_word["end"],
+                    "probability": min(float(first_word["probability"]), float(second_word["probability"])),
+                }
+                merged_alignment.append((expected, merged_word))
+                compound_corrections.append({
+                    "asr": f"{first_token} {second_token}", "script": expected,
+                    "start": first_word["start"], "end": second_word["end"],
+                })
+                i += 2
+                j += 1
+                continue
+        merged_alignment.append(asr_alignment[i])
+        i += 1
+        j += 1
+    asr_alignment = merged_alignment
+    # Homophone/compound correction is only accepted if every remaining
+    # normalized token still matches the complete script exactly in order.
     asr_tokens = [token for token, _ in asr_alignment]
     if expected_tokens != asr_tokens:
         mismatch = next(
@@ -268,6 +297,7 @@ def align_one(project: dict) -> None:
             "asr_tail_filter": f"Excluded {len(ignored_tail_words)} ASR tokens beginning in digital silence at or after {speech_end:.6f}s",
             "asr_spurious_token_filter": f"Excluded {len(ignored_spurious_words)} ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
             "asr_homophone_corrections": homophone_corrections,
+            "asr_compound_corrections": compound_corrections,
         },
         "pacing": f"Calm {duration_s:g}-second explainer; source never sped up; no caption progress line",
         "voiceEnd": voice_end, "scenes": scenes, "vo": timed,
