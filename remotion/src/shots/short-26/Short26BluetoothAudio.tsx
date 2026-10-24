@@ -106,7 +106,7 @@ const Short26BluetoothAudio: React.FC = () => {
       <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <text x={230} y={590} textAnchor="middle" fill={C.paper} fontWeight={700} fontSize={21}>PHONE</text>
         <text x={850} y={590} textAnchor="middle" fill={C.paper} fontWeight={700} fontSize={21}>HEADPHONES</text>
-        {[0, 1, 2].map((i) => <g key={i} opacity={0.2 + hop * 0.8}>
+        {[0, 1, 2].map((i) => <g key={i} opacity={0.45 + hop * 0.55}>
           <rect x={150} y={650 + i * 155} width={780} height={120} rx={25} fill={hopIndex === i ? 'rgba(120,205,189,0.12)' : 'rgba(255,255,255,0.025)'} stroke={hopIndex === i ? C.mint : C.muted} strokeWidth={hopIndex === i ? 3 : 1} />
           <text x={200} y={720 + i * 155} fill={hopIndex === i ? C.mint : C.muted} fontWeight={700} fontSize={19}>CH {i + 1}</text>
           <text x={850} y={720 + i * 155} textAnchor="middle" fill={hopIndex === i ? C.mint : C.muted} fontWeight={700} fontSize={18}>{hopIndex === i ? 'LINKED' : 'WAIT'}</text>
