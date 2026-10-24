@@ -5,31 +5,31 @@ export type NextLine = { id: string; scene: string; text: string; start: number;
 export type NextScene = { id: string; title: string; start: number; end: number };
 
 export const VO: NextLine[] = [
-  { id: 'hook-plug', scene: 'hook', text: 'Wireless charging needs no metal plug between the pad and your phone.', start: 0.700, end: 4.760 },
-  { id: 'hook-field', scene: 'hook', text: 'It passes energy through a magnetic field.', start: 5.320, end: 7.660 },
-  { id: 'transmitter-current', scene: 'transmitter', text: 'Inside the pad, alternating current flows through a coil.', start: 8.300, end: 11.660 },
-  { id: 'transmitter-field', scene: 'transmitter', text: 'That current makes the magnetic field rise and fall.', start: 12.200, end: 15.360 },
-  { id: 'receiver-coil', scene: 'receiver', text: 'A second coil inside your phone sits within that field.', start: 15.840, end: 19.160 },
-  { id: 'receiver-voltage', scene: 'receiver', text: 'The changing magnetism induces a voltage in this coil.', start: 19.620, end: 23.100 },
-  { id: 'receiver-battery', scene: 'receiver', text: 'The phone turns that induced power into a form its battery can use.', start: 23.500, end: 27.680 },
-  { id: 'alignment-close', scene: 'alignment', text: 'The coils work best when they are close and aligned.', start: 28.220, end: 31.040 },
-  { id: 'alignment-distance', scene: 'alignment', text: 'Distance and misalignment weaken the link and waste energy.', start: 31.700, end: 34.920 },
-  { id: 'closing-link', scene: 'closing', text: 'So the cable disappears, but a pair of coils still makes the connection.', start: 35.400, end: 39.300 },
+  { id: 'drive-coil', scene: 'drive', text: 'Inside the pad, alternating current flows through this coil.', start: 0.700, end: 4.460 },
+  { id: 'drive-reverse', scene: 'drive', text: 'Watch the current reverse direction.', start: 5.220, end: 7.020 },
+  { id: 'field-change', scene: 'field', text: 'That makes the magnetic field expand and collapse.', start: 7.700, end: 10.920 },
+  { id: 'receive-coil', scene: 'receive', text: 'Now place a second coil inside that changing field.', start: 11.920, end: 15.120 },
+  { id: 'receive-voltage', scene: 'receive', text: 'The field induces a voltage in the second coil.', start: 15.720, end: 18.680 },
+  { id: 'receive-link', scene: 'receive', text: 'The coils do not touch. They are magnetically linked.', start: 19.340, end: 22.360 },
+  { id: 'condition-power', scene: 'condition', text: 'The phone then rectifies and regulates that power for its battery.', start: 23.120, end: 26.520 },
+  { id: 'alignment-move', scene: 'alignment', text: 'Move the coils apart or off-center.', start: 26.520, end: 29.480 },
+  { id: 'alignment-loss', scene: 'alignment', text: 'Less of the field links them, so the transfer weakens and wastes energy.', start: 30.200, end: 34.000 },
+  { id: 'closing-summary', scene: 'closing', text: 'Wireless charging is energy crossing a changing magnetic field between two coils.', start: 35.060, end: 39.780 },
 ];
 
 export const SCENES: NextScene[] = [
-  { id: 'hook', title: 'Power without a plug', start: 0.000, end: 7.800 },
-  { id: 'transmitter', title: 'The changing field', start: 7.800, end: 15.340 },
-  { id: 'receiver', title: 'A voltage is induced', start: 15.340, end: 27.720 },
-  { id: 'alignment', title: 'Close and aligned', start: 27.720, end: 34.900 },
-  { id: 'closing', title: 'Two coils, one link', start: 34.900, end: 45.000 },
+  { id: 'drive', title: 'Drive one coil', start: 0.000, end: 7.200 },
+  { id: 'field', title: 'Make a changing field', start: 7.200, end: 11.420 },
+  { id: 'receive', title: 'Induce a voltage', start: 11.420, end: 22.620 },
+  { id: 'condition', title: 'Prepare battery power', start: 22.620, end: 26.020 },
+  { id: 'alignment', title: 'Change the coupling', start: 26.020, end: 34.560 },
+  { id: 'closing', title: 'Two coils, one transfer', start: 34.560, end: 45.000 },
 ];
 
 export const SFX_CUES: { at: number; id: string; gain: number }[] = [
-  { at: 0.300, id: 'impact-soft', gain: 0.158489 },
-  { at: 8.050, id: 'whoosh-soft', gain: 0.125893 },
-  { at: 15.690, id: 'scan-hum', gain: 0.100000 },
-  { at: 28.020, id: 'ui-toggle-on', gain: 0.112202 },
-  { at: 35.150, id: 'warm-shimmer', gain: 0.112202 },
-  { at: 35.600, id: 'chime-reward', gain: 0.100000 },
+  { at: 5.070, id: 'scan-hum', gain: 0.079433 },
+  { at: 11.720, id: 'whoosh-soft', gain: 0.100000 },
+  { at: 22.970, id: 'ui-toggle-on', gain: 0.100000 },
+  { at: 26.370, id: 'pop-reveal', gain: 0.089125 },
+  { at: 34.860, id: 'warm-shimmer', gain: 0.089125 },
 ];

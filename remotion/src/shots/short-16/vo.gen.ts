@@ -5,31 +5,33 @@ export type NextLine = { id: string; scene: string; text: string; start: number;
 export type NextScene = { id: string; title: string; start: number; end: number };
 
 export const VO: NextLine[] = [
-  { id: 'hook-pressure', scene: 'hook', text: 'Your touchscreen does not need to feel pressure from your finger.', start: 0.700, end: 3.940 },
-  { id: 'hook-field', scene: 'hook', text: 'It senses a tiny change in an electric field.', start: 4.520, end: 7.420 },
-  { id: 'grid-electrodes', scene: 'grid', text: 'Under the glass sits a grid of transparent electrodes.', start: 8.140, end: 11.240 },
-  { id: 'grid-signal', scene: 'grid', text: 'A small electrical signal moves through them.', start: 11.860, end: 14.440 },
-  { id: 'detect-finger', scene: 'detect', text: 'Your finger conducts a little charge and disturbs the field nearby.', start: 14.980, end: 19.100 },
-  { id: 'detect-controller', scene: 'detect', text: 'The controller measures which rows and columns change.', start: 19.980, end: 23.100 },
-  { id: 'detect-crossing', scene: 'detect', text: 'Their crossing point becomes your touch.', start: 23.580, end: 25.600 },
-  { id: 'gloves-normal', scene: 'gloves', text: 'That is why a normal glove blocks the signal.', start: 26.080, end: 28.840 },
-  { id: 'gloves-conductive', scene: 'gloves', text: 'A conductive glove works because it lets the field reach your skin.', start: 28.840, end: 32.920 },
-  { id: 'closing-listen', scene: 'closing', text: 'So the glass is not just watching your finger. It is listening for a tiny electrical disturbance.', start: 33.460, end: 39.160 },
+  { id: 'hook-touch', scene: 'hook', text: 'Touch this spot.', start: 0.700, end: 1.800 },
+  { id: 'hook-question', scene: 'hook', text: 'How does the glass know where your finger landed?', start: 2.440, end: 4.780 },
+  { id: 'grid-electrodes', scene: 'grid', text: 'Beneath it, transparent electrodes cross in rows and columns.', start: 5.640, end: 9.500 },
+  { id: 'grid-field', scene: 'grid', text: 'Each crossing holds a tiny electric field.', start: 10.200, end: 12.860 },
+  { id: 'disturb-watch', scene: 'disturb', text: 'Watch the center crossing.', start: 13.740, end: 14.900 },
+  { id: 'disturb-change', scene: 'disturb', text: 'Your finger draws a little charge, so this field changes.', start: 15.460, end: 18.640 },
+  { id: 'disturb-others', scene: 'disturb', text: 'The other crossings stay nearly unchanged.', start: 19.100, end: 21.480 },
+  { id: 'locate-read', scene: 'locate', text: 'The controller finds the changed row and column.', start: 22.360, end: 25.120 },
+  { id: 'locate-position', scene: 'locate', text: 'Their intersection becomes the touch position.', start: 25.480, end: 27.520 },
+  { id: 'gloves-normal', scene: 'gloves', text: 'A normal glove stops this effect.', start: 27.520, end: 30.620 },
+  { id: 'gloves-conductive', scene: 'gloves', text: 'Conductive thread lets it through, so the crossing responds again.', start: 31.300, end: 34.600 },
+  { id: 'closing-summary', scene: 'closing', text: 'That is how glass turns a changed electric field into a touch location.', start: 35.560, end: 39.860 },
 ];
 
 export const SCENES: NextScene[] = [
-  { id: 'hook', title: 'Not pressure. Electric.', start: 0.000, end: 7.640 },
-  { id: 'grid', title: 'A grid under glass', start: 7.640, end: 14.480 },
-  { id: 'detect', title: 'Find the disturbance', start: 14.480, end: 25.580 },
-  { id: 'gloves', title: 'Why gloves matter', start: 25.580, end: 32.960 },
-  { id: 'closing', title: 'Listening to touch', start: 32.960, end: 45.000 },
+  { id: 'hook', title: 'Where did you touch?', start: 0.000, end: 5.140 },
+  { id: 'grid', title: 'Crossings under glass', start: 5.140, end: 13.240 },
+  { id: 'disturb', title: 'Watch one crossing', start: 13.240, end: 21.860 },
+  { id: 'locate', title: 'Turn change into position', start: 21.860, end: 27.020 },
+  { id: 'gloves', title: 'Test the same field', start: 27.020, end: 35.060 },
+  { id: 'closing', title: 'A changed field becomes a location', start: 35.060, end: 45.000 },
 ];
 
 export const SFX_CUES: { at: number; id: string; gain: number }[] = [
-  { at: 0.300, id: 'impact-soft', gain: 0.158489 },
-  { at: 7.890, id: 'whoosh-soft', gain: 0.125893 },
-  { at: 14.830, id: 'scan-hum', gain: 0.100000 },
-  { at: 25.880, id: 'ui-toggle-on', gain: 0.112202 },
-  { at: 33.210, id: 'warm-shimmer', gain: 0.112202 },
-  { at: 33.660, id: 'chime-reward', gain: 0.100000 },
+  { at: 5.440, id: 'whoosh-soft', gain: 0.112202 },
+  { at: 13.590, id: 'scan-hum', gain: 0.079433 },
+  { at: 22.210, id: 'pop-reveal', gain: 0.100000 },
+  { at: 27.370, id: 'ui-toggle-on', gain: 0.100000 },
+  { at: 35.360, id: 'warm-shimmer', gain: 0.089125 },
 ];

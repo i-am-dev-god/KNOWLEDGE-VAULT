@@ -11,51 +11,44 @@
   "render": {
     "composition": "remotion/out/Short19Fingerprint.mp4",
     "out": "RESULT/how-fingerprint-sensors-recognize-you.mp4",
-    "end_s": 45.0
+    "end_s": 50.0
   },
-  "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
   "events": [
     {
-      "at_s": 0.3,
-      "sfx_id": "impact-soft",
-      "gain_db": -16.0,
-      "cue": "Opening emphasis",
-      "sync_source": "hook-photo"
+      "at_s": 4.56,
+      "sfx_id": "pop-reveal",
+      "gain_db": -22,
+      "cue": "Ridge ending",
+      "sync_source": "ridges-ending"
     },
     {
-      "at_s": 8.11,
-      "sfx_id": "whoosh-soft",
-      "gain_db": -18.0,
-      "cue": "Sensor reveal",
-      "sync_source": "sensor-capacitive"
-    },
-    {
-      "at_s": 16.55,
+      "at_s": 11.99,
       "sfx_id": "scan-hum",
-      "gain_db": -20.0,
-      "cue": "Feature extraction",
-      "sync_source": "features-minutiae"
+      "gain_db": -22,
+      "cue": "Capacitive map",
+      "sync_source": "sensor-map"
     },
     {
-      "at_s": 24.6,
-      "sfx_id": "ui-toggle-on",
-      "gain_db": -19.0,
-      "cue": "Template comparison",
-      "sync_source": "match-rescan"
+      "at_s": 23.16,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -20,
+      "cue": "Template formed",
+      "sync_source": "template-notphoto"
     },
     {
-      "at_s": 35.69,
-      "sfx_id": "warm-shimmer",
-      "gain_db": -19.0,
-      "cue": "Closing recap",
-      "sync_source": "closing-pattern"
-    },
-    {
-      "at_s": 36.14,
+      "at_s": 35.38,
       "sfx_id": "chime-reward",
-      "gain_db": -20.0,
-      "cue": "Final idea",
-      "sync_source": "closing-pattern"
+      "gain_db": -21,
+      "cue": "Match result",
+      "sync_source": "match-result"
+    },
+    {
+      "at_s": 38.92,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
     }
   ]
 }

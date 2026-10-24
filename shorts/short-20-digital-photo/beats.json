@@ -14,149 +14,175 @@
     "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
     "take": "One continuous full-script take",
     "raw_file": "shorts/short-20-digital-photo/output/ai-speech/voice-00-full-raw.wav",
-    "raw_sha256": "8f3c7496be8f8cb2b73712df564d282bb1edee81de253a3783fa3e09de7b9069",
-    "raw_duration_seconds": 43.48,
-    "trimmed_duration_seconds": 43.04275,
-    "tempo_rate": 1.0,
-    "requested_tempo_rate": 1.109349227,
+    "raw_sha256": "b626191a5d213a10390a637111a0f941b3ff30336bf45931f2f6819401e37325",
+    "raw_duration_seconds": 38.44,
+    "trimmed_duration_seconds": 37.976417,
+    "tempo_rate": 0.877053503,
+    "requested_tempo_rate": 0.877053503,
     "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
     "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
     "narration_file": "media/voiceovers/digital-photo/narration.wav",
-    "narration_sha256": "d397c371ecc9fb7f5b787a98f1f9dc07f76d04890e11ceac9aa5bc01142bc331",
+    "narration_sha256": "d8da27e2f3eecbc56695850f40b4dbc6fbbbd5f0e9676304ac079d04d41d307d",
     "narration_duration_seconds": 50.0,
-    "paced_speech_end_seconds": 43.737771,
-    "script_sha256": "7a380626e88091d812ec12a5e67420c65dde714795f6e6cf87540ae775834bee",
-    "spoken_words": 97,
+    "paced_speech_end_seconds": 43.996417,
+    "script_sha256": "636dd215150c64f28c143625c22e70e65f1715d953efefd4a60bbeba03886c86",
+    "spoken_words": 98,
     "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
     "normalized_script_match": true,
-    "mean_word_probability": 0.9831315122826402,
-    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.737771s",
-    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+    "mean_word_probability": 0.9483627114115525,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.996417s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
   },
   "pacing": "Calm 50-second explainer; source never sped up; no caption progress line",
-  "voiceEnd": 43.66,
+  "voiceEnd": 43.9,
   "scenes": [
     {
-      "id": "hook",
-      "title": "Not a finished photo",
+      "id": "photosite",
+      "title": "Follow one photosite",
       "start": 0.0,
-      "end": 8.14
+      "end": 9.44
     },
     {
-      "id": "sensor",
-      "title": "Light becomes signal",
-      "start": 8.14,
-      "end": 12.62
+      "id": "filter",
+      "title": "Add a color filter",
+      "start": 9.44,
+      "end": 19.3
     },
     {
-      "id": "mosaic",
-      "title": "One color per site",
-      "start": 12.62,
-      "end": 24.42
+      "id": "neighbors",
+      "title": "Measure neighboring colors",
+      "start": 19.3,
+      "end": 23.22
     },
     {
-      "id": "process",
-      "title": "Fill in the colors",
-      "start": 24.42,
-      "end": 36.76
+      "id": "demosaic",
+      "title": "Estimate missing colors",
+      "start": 23.22,
+      "end": 31.24
+    },
+    {
+      "id": "pixel",
+      "title": "Build one colored pixel",
+      "start": 31.24,
+      "end": 40.58
     },
     {
       "id": "closing",
-      "title": "Measurements become an image",
-      "start": 36.76,
+      "title": "Repeat millions of times",
+      "start": 40.58,
       "end": 50.0
     }
   ],
   "vo": [
     {
-      "id": "hook-finished",
-      "scene": "hook",
-      "text": "A camera sensor does not see a finished photograph.",
-      "speak": "A camera sensor does not see a finished photograph.",
+      "id": "photosite-focus",
+      "scene": "photosite",
+      "text": "Follow just one photosite on the sensor.",
+      "speak": "Follow just one photosite on the sensor.",
       "start": 0.7,
-      "end": 3.94,
-      "duration": 3.24
+      "end": 3.38,
+      "duration": 2.68
     },
     {
-      "id": "hook-measure",
-      "scene": "hook",
-      "text": "It measures light with millions of tiny photosites.",
-      "speak": "It measures light with millions of tiny photosites.",
-      "start": 4.56,
-      "end": 7.94,
-      "duration": 3.38
+      "id": "photosite-signal",
+      "scene": "photosite",
+      "text": "Light enters it and becomes an electrical signal.",
+      "speak": "Light enters it and becomes an electrical signal.",
+      "start": 4.02,
+      "end": 6.82,
+      "duration": 2.8
     },
     {
-      "id": "sensor-signal",
-      "scene": "sensor",
-      "text": "Each photosite turns incoming light into an electrical signal.",
-      "speak": "Each photosite turns incoming light into an electrical signal.",
-      "start": 8.64,
-      "end": 12.3,
-      "duration": 3.66
+      "id": "photosite-more",
+      "scene": "photosite",
+      "text": "More light makes a larger signal.",
+      "speak": "More light makes a larger signal.",
+      "start": 7.4,
+      "end": 9.28,
+      "duration": 1.88
     },
     {
-      "id": "mosaic-filter",
-      "scene": "mosaic",
-      "text": "Most sensors place a color filter above each site.",
-      "speak": "Most sensors place a color filter above each site.",
-      "start": 13.12,
-      "end": 16.08,
-      "duration": 2.96
+      "id": "filter-brightness",
+      "scene": "filter",
+      "text": "But that signal is only a brightness measurement.",
+      "speak": "But that signal is only a brightness measurement.",
+      "start": 9.94,
+      "end": 12.54,
+      "duration": 2.6
     },
     {
-      "id": "mosaic-pattern",
-      "scene": "mosaic",
-      "text": "The filters follow a mosaic of red, green, and blue.",
-      "speak": "The filters follow a mosaic of red, green, and blue.",
-      "start": 16.7,
-      "end": 20.22,
-      "duration": 3.52
+      "id": "filter-green",
+      "scene": "filter",
+      "text": "This site's filter passes mostly green light.",
+      "speak": "This site's filter passes mostly green light.",
+      "start": 13.28,
+      "end": 16.18,
+      "duration": 2.9
     },
     {
-      "id": "mosaic-onecolor",
-      "scene": "mosaic",
-      "text": "So each site records only one color plus brightness.",
-      "speak": "So each site records only one color plus brightness.",
-      "start": 20.4,
-      "end": 24.04,
-      "duration": 3.64
+      "id": "filter-value",
+      "scene": "filter",
+      "text": "So it records green brightness at this location.",
+      "speak": "So it records green brightness at this location.",
+      "start": 16.56,
+      "end": 19.06,
+      "duration": 2.5
     },
     {
-      "id": "process-neighbors",
-      "scene": "process",
-      "text": "The processor compares neighboring sites to estimate the missing colors.",
-      "speak": "The processor compares neighboring sites to estimate the missing colors.",
-      "start": 24.92,
-      "end": 29.0,
-      "duration": 4.08
+      "id": "neighbors-rgb",
+      "scene": "neighbors",
+      "text": "Neighboring sites record red or blue through their filters.",
+      "speak": "Neighboring sites record red or blue through their filters.",
+      "start": 19.8,
+      "end": 22.88,
+      "duration": 3.08
     },
     {
-      "id": "process-demosaic",
-      "scene": "process",
+      "id": "demosaic-estimate",
+      "scene": "demosaic",
+      "text": "The processor compares neighbors to estimate each site's missing color values.",
+      "speak": "The processor compares neighbors to estimate each site's missing color values.",
+      "start": 23.72,
+      "end": 28.54,
+      "duration": 4.82
+    },
+    {
+      "id": "demosaic-name",
+      "scene": "demosaic",
       "text": "This step is called demosaicing.",
       "speak": "This step is called demosaicing.",
-      "start": 29.0,
-      "end": 31.7,
-      "duration": 2.7
+      "start": 28.54,
+      "end": 30.92,
+      "duration": 2.38
     },
     {
-      "id": "process-adjust",
-      "scene": "process",
-      "text": "It also adjusts brightness and reduces noise before saving the image.",
-      "speak": "It also adjusts brightness and reduces noise before saving the image.",
-      "start": 32.3,
-      "end": 36.48,
-      "duration": 4.18
+      "id": "pixel-rgb",
+      "scene": "pixel",
+      "text": "Now red, green, and blue values describe one colored pixel.",
+      "speak": "Now red, green, and blue values describe one colored pixel.",
+      "start": 31.74,
+      "end": 35.68,
+      "duration": 3.94
     },
     {
-      "id": "closing-weave",
+      "id": "pixel-repeat",
+      "scene": "pixel",
+      "text": "Repeat that millions of times, then reduce noise and adjust brightness.",
+      "speak": "Repeat that millions of times, then reduce noise and adjust brightness.",
+      "start": 36.3,
+      "end": 40.26,
+      "duration": 3.96
+    },
+    {
+      "id": "closing-summary",
       "scene": "closing",
-      "text": "A photo begins as many tiny light measurements, which the processor weaves into the colors you see.",
-      "speak": "A photo begins as many tiny light measurements, which the processor weaves into the colors you see.",
-      "start": 37.26,
-      "end": 43.66,
-      "duration": 6.4
+      "text": "Many tiny measurements become the photograph you see.",
+      "speak": "Many tiny measurements become the photograph you see.",
+      "start": 41.08,
+      "end": 43.9,
+      "duration": 2.82
     }
   ]
 }

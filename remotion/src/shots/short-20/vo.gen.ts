@@ -5,31 +5,33 @@ export type NextLine = { id: string; scene: string; text: string; start: number;
 export type NextScene = { id: string; title: string; start: number; end: number };
 
 export const VO: NextLine[] = [
-  { id: 'hook-finished', scene: 'hook', text: 'A camera sensor does not see a finished photograph.', start: 0.700, end: 3.940 },
-  { id: 'hook-measure', scene: 'hook', text: 'It measures light with millions of tiny photosites.', start: 4.560, end: 7.940 },
-  { id: 'sensor-signal', scene: 'sensor', text: 'Each photosite turns incoming light into an electrical signal.', start: 8.640, end: 12.300 },
-  { id: 'mosaic-filter', scene: 'mosaic', text: 'Most sensors place a color filter above each site.', start: 13.120, end: 16.080 },
-  { id: 'mosaic-pattern', scene: 'mosaic', text: 'The filters follow a mosaic of red, green, and blue.', start: 16.700, end: 20.220 },
-  { id: 'mosaic-onecolor', scene: 'mosaic', text: 'So each site records only one color plus brightness.', start: 20.400, end: 24.040 },
-  { id: 'process-neighbors', scene: 'process', text: 'The processor compares neighboring sites to estimate the missing colors.', start: 24.920, end: 29.000 },
-  { id: 'process-demosaic', scene: 'process', text: 'This step is called demosaicing.', start: 29.000, end: 31.700 },
-  { id: 'process-adjust', scene: 'process', text: 'It also adjusts brightness and reduces noise before saving the image.', start: 32.300, end: 36.480 },
-  { id: 'closing-weave', scene: 'closing', text: 'A photo begins as many tiny light measurements, which the processor weaves into the colors you see.', start: 37.260, end: 43.660 },
+  { id: 'photosite-focus', scene: 'photosite', text: 'Follow just one photosite on the sensor.', start: 0.700, end: 3.380 },
+  { id: 'photosite-signal', scene: 'photosite', text: 'Light enters it and becomes an electrical signal.', start: 4.020, end: 6.820 },
+  { id: 'photosite-more', scene: 'photosite', text: 'More light makes a larger signal.', start: 7.400, end: 9.280 },
+  { id: 'filter-brightness', scene: 'filter', text: 'But that signal is only a brightness measurement.', start: 9.940, end: 12.540 },
+  { id: 'filter-green', scene: 'filter', text: 'This site\'s filter passes mostly green light.', start: 13.280, end: 16.180 },
+  { id: 'filter-value', scene: 'filter', text: 'So it records green brightness at this location.', start: 16.560, end: 19.060 },
+  { id: 'neighbors-rgb', scene: 'neighbors', text: 'Neighboring sites record red or blue through their filters.', start: 19.800, end: 22.880 },
+  { id: 'demosaic-estimate', scene: 'demosaic', text: 'The processor compares neighbors to estimate each site\'s missing color values.', start: 23.720, end: 28.540 },
+  { id: 'demosaic-name', scene: 'demosaic', text: 'This step is called demosaicing.', start: 28.540, end: 30.920 },
+  { id: 'pixel-rgb', scene: 'pixel', text: 'Now red, green, and blue values describe one colored pixel.', start: 31.740, end: 35.680 },
+  { id: 'pixel-repeat', scene: 'pixel', text: 'Repeat that millions of times, then reduce noise and adjust brightness.', start: 36.300, end: 40.260 },
+  { id: 'closing-summary', scene: 'closing', text: 'Many tiny measurements become the photograph you see.', start: 41.080, end: 43.900 },
 ];
 
 export const SCENES: NextScene[] = [
-  { id: 'hook', title: 'Not a finished photo', start: 0.000, end: 8.140 },
-  { id: 'sensor', title: 'Light becomes signal', start: 8.140, end: 12.620 },
-  { id: 'mosaic', title: 'One color per site', start: 12.620, end: 24.420 },
-  { id: 'process', title: 'Fill in the colors', start: 24.420, end: 36.760 },
-  { id: 'closing', title: 'Measurements become an image', start: 36.760, end: 50.000 },
+  { id: 'photosite', title: 'Follow one photosite', start: 0.000, end: 9.440 },
+  { id: 'filter', title: 'Add a color filter', start: 9.440, end: 19.300 },
+  { id: 'neighbors', title: 'Measure neighboring colors', start: 19.300, end: 23.220 },
+  { id: 'demosaic', title: 'Estimate missing colors', start: 23.220, end: 31.240 },
+  { id: 'pixel', title: 'Build one colored pixel', start: 31.240, end: 40.580 },
+  { id: 'closing', title: 'Repeat millions of times', start: 40.580, end: 50.000 },
 ];
 
 export const SFX_CUES: { at: number; id: string; gain: number }[] = [
-  { at: 0.300, id: 'impact-soft', gain: 0.158489 },
-  { at: 8.390, id: 'whoosh-soft', gain: 0.125893 },
-  { at: 12.970, id: 'scan-hum', gain: 0.100000 },
-  { at: 24.720, id: 'pop-reveal', gain: 0.112202 },
-  { at: 37.010, id: 'warm-shimmer', gain: 0.112202 },
-  { at: 37.460, id: 'chime-reward', gain: 0.100000 },
+  { at: 3.870, id: 'scan-hum', gain: 0.079433 },
+  { at: 13.180, id: 'pop-reveal', gain: 0.089125 },
+  { at: 28.390, id: 'whoosh-soft', gain: 0.100000 },
+  { at: 31.640, id: 'chime-reward', gain: 0.089125 },
+  { at: 40.880, id: 'warm-shimmer', gain: 0.089125 },
 ];

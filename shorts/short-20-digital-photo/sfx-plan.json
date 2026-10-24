@@ -13,49 +13,42 @@
     "out": "RESULT/how-a-camera-turns-light-into-a-photo.mp4",
     "end_s": 50.0
   },
-  "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
   "events": [
     {
-      "at_s": 0.3,
-      "sfx_id": "impact-soft",
-      "gain_db": -16.0,
-      "cue": "Opening emphasis",
-      "sync_source": "hook-finished"
-    },
-    {
-      "at_s": 8.39,
-      "sfx_id": "whoosh-soft",
-      "gain_db": -18.0,
-      "cue": "Photosite signal",
-      "sync_source": "sensor-signal"
-    },
-    {
-      "at_s": 12.97,
+      "at_s": 3.87,
       "sfx_id": "scan-hum",
-      "gain_db": -20.0,
-      "cue": "Color mosaic",
-      "sync_source": "mosaic-filter"
+      "gain_db": -22,
+      "cue": "Light becomes signal",
+      "sync_source": "photosite-signal"
     },
     {
-      "at_s": 24.72,
+      "at_s": 13.18,
       "sfx_id": "pop-reveal",
-      "gain_db": -19.0,
+      "gain_db": -21,
+      "cue": "Green filter",
+      "sync_source": "filter-green"
+    },
+    {
+      "at_s": 28.39,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -20,
       "cue": "Demosaicing",
-      "sync_source": "process-neighbors"
+      "sync_source": "demosaic-name"
     },
     {
-      "at_s": 37.01,
-      "sfx_id": "warm-shimmer",
-      "gain_db": -19.0,
-      "cue": "Closing recap",
-      "sync_source": "closing-weave"
-    },
-    {
-      "at_s": 37.46,
+      "at_s": 31.64,
       "sfx_id": "chime-reward",
-      "gain_db": -20.0,
-      "cue": "Final idea",
-      "sync_source": "closing-weave"
+      "gain_db": -21,
+      "cue": "Color pixel",
+      "sync_source": "pixel-rgb"
+    },
+    {
+      "at_s": 40.88,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
     }
   ]
 }

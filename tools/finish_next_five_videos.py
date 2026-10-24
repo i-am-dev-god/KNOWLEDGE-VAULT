@@ -5,8 +5,8 @@
 
 `master` copies the validated Remotion H.264 stream and two-pass normalizes its
 mixed AAC audio. `qa` fully decodes each delivered video, measures its audio,
-and extracts every caption midpoint plus the outro from the actual MP4 into an
-ignored contact sheet for human visual review. PyAV, Pillow, and NumPy are required
+and extracts every narration-clause onset and midpoint plus the outro from the
+actual MP4 into ignored contact sheets for human visual review. PyAV, Pillow, and NumPy are required
 for QA. `summarize` aggregates the reports after human visual review and only marks
 the set `passed` when every report has passed. Existing GPS and ANC deliveries
 are hash-checked before and after delivery.
@@ -178,12 +178,20 @@ def decode_and_sample(path: Path, project: dict, beats: dict) -> tuple[dict, lis
     duration = float(project.get("duration_s", CONFIG["defaults"]["duration_s"]))
     expected_frames = round(duration * fps)
     qa_dir = ROOT / "shorts" / project["id"] / "output/qa"
+    if qa_dir.exists():
+        shutil.rmtree(qa_dir)
     qa_dir.mkdir(parents=True, exist_ok=True)
-    targets = {
-        min(expected_frames - 1, round(((line["start"] + line["end"]) / 2) * fps)): line["id"]
+    sample_specs = [
+        (min(expected_frames - 1, round((line["start"] + 0.18) * fps)), f"{line['id']}-onset")
         for line in beats["vo"]
-    }
-    targets[expected_frames - 15] = "outro"
+    ] + [
+        (min(expected_frames - 1, round(((line["start"] + line["end"]) / 2) * fps)), f"{line['id']}-mid")
+        for line in beats["vo"]
+    ]
+    sample_specs.append((expected_frames - 15, "outro"))
+    targets = dict(sample_specs)
+    if len(targets) != len(sample_specs):
+        raise RuntimeError(f"Duplicate QA sample frames for {project['id']}; use unique beat labels")
     saved: dict[int, Path] = {}
     with av.open(str(path)) as container:
         video = next(stream for stream in container.streams if stream.type == "video")
@@ -238,25 +246,35 @@ def decode_and_sample(path: Path, project: dict, beats: dict) -> tuple[dict, lis
     if (audio_info["codec"], audio_info["sample_rate"], audio_info["channels"]) != ("aac", 48000, 2):
         raise RuntimeError(f"Unexpected audio stream for {path}: {audio_info}")
 
-    sheet = Image.new("RGB", (1080, 1530), "#07111f")
-    draw = ImageDraw.Draw(sheet)
     try:
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 13)
     except OSError:
         font = ImageFont.load_default()
-    for position, index in enumerate(sorted(saved)):
-        image = Image.open(saved[index]).convert("RGB").resize((270, 480), Image.Resampling.LANCZOS)
-        x = (position % 4) * 270
-        y = (position // 4) * 510
-        sheet.paste(image, (x, y + 30))
-        draw.text((x + 6, y + 7), f"{index:04d}-{targets[index]}", fill="#d7e3f2", font=font)
-    contact_sheet = qa_dir / "contact-sheet.jpg"
-    sheet.save(contact_sheet, quality=92)
+    ordered = sorted(saved)
+    chunks = [ordered[:12], ordered[12:]]
+    contact_sheets = []
+    for sheet_number, chunk in enumerate(chunks, start=1):
+        if not chunk:
+            continue
+        rows = (len(chunk) + 3) // 4
+        sheet = Image.new("RGB", (1080, rows * 510), "#07111f")
+        draw = ImageDraw.Draw(sheet)
+        for position, index in enumerate(chunk):
+            image = Image.open(saved[index]).convert("RGB").resize((270, 480), Image.Resampling.LANCZOS)
+            x = (position % 4) * 270
+            y = (position // 4) * 510
+            sheet.paste(image, (x, y + 30))
+            draw.text((x + 5, y + 7), f"{index:04d}-{targets[index]}"[:39], fill="#d7e3f2", font=font)
+        contact_sheet = qa_dir / f"contact-sheet-{sheet_number}.jpg"
+        sheet.save(contact_sheet, quality=92)
+        contact_sheets.append(f"output/qa/{contact_sheet.name}")
     shutil.copy2(saved[expected_frames - 15], qa_dir / "outro.jpg")
     stream_info["validation"] = {
         "full_video_decode": "passed",
-        "actual_mp4_contact_sheet": "output/qa/contact-sheet.jpg",
+        "actual_mp4_contact_sheets": contact_sheets,
+        "caption_onsets_extracted": len(beats["vo"]),
         "caption_midpoints_extracted": len(beats["vo"]),
+        "narration_beat_samples_extracted": len(saved),
         "outro_extracted": True,
     }
     relative_samples = [f"output/qa/{saved[index].name}" for index in sorted(saved)]
@@ -316,7 +334,7 @@ def qa_one(project: dict) -> dict:
             "source_tempo_rate": beats["aiSpeech"]["tempo_rate"],
             "source_sped_up": beats["aiSpeech"]["tempo_rate"] > 1.0,
             "spoken_words": beats["aiSpeech"]["spoken_words"],
-            "style": "Calm scene holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro",
+            "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro",
         },
         "narration": beats["aiSpeech"],
         "transcription": {
@@ -336,7 +354,7 @@ def qa_one(project: dict) -> dict:
         "visual_review": {
             "status": "pending",
             "samples": visual_samples,
-            "required": "Review every extracted caption midpoint and the outro; confirm legibility, accurate visuals, safe areas, and no caption progress line",
+            "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
         },
         "delivery": {
             "github_path": f"RESULT/{project['result']}",

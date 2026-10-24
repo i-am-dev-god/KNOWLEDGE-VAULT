@@ -5,31 +5,31 @@ export type NextLine = { id: string; scene: string; text: string; start: number;
 export type NextScene = { id: string; title: string; start: number; end: number };
 
 export const VO: NextLine[] = [
-  { id: 'hook-photo', scene: 'hook', text: 'Your phone does not need to remember a perfect photograph of your finger.', start: 0.700, end: 4.640 },
-  { id: 'hook-pattern', scene: 'hook', text: 'It learns a pattern of distinguishing details.', start: 5.100, end: 7.720 },
-  { id: 'sensor-capacitive', scene: 'sensor', text: 'Many phones use a capacitive sensor to read ridges and valleys.', start: 8.360, end: 11.940 },
-  { id: 'sensor-charge', scene: 'sensor', text: 'Tiny electrical differences help map where each ridge sits.', start: 12.480, end: 16.160 },
-  { id: 'features-minutiae', scene: 'features', text: 'The system finds features such as ridge endings and splits.', start: 16.700, end: 19.880 },
-  { id: 'features-template', scene: 'features', text: 'It stores a mathematical template, not an ordinary image you can open.', start: 20.500, end: 24.300 },
-  { id: 'match-rescan', scene: 'match', text: 'When you try again, the new scan becomes another template.', start: 24.800, end: 27.860 },
-  { id: 'match-compare', scene: 'match', text: 'The phone compares features and their positions, allowing for small shifts.', start: 27.860, end: 31.980 },
-  { id: 'match-result', scene: 'match', text: 'A close match unlocks; a poor match fails.', start: 32.640, end: 35.340 },
-  { id: 'closing-pattern', scene: 'closing', text: 'So your fingerprint becomes a pattern the phone can compare without expecting two touches to be identical.', start: 35.940, end: 41.380 },
+  { id: 'ridges-focus', scene: 'ridges', text: 'Look at this one tiny ridge, not the whole fingerprint.', start: 0.700, end: 4.060 },
+  { id: 'ridges-ending', scene: 'ridges', text: 'Here, the ridge ends.', start: 4.660, end: 6.080 },
+  { id: 'ridges-split', scene: 'ridges', text: 'Here, another ridge splits into two.', start: 6.440, end: 8.600 },
+  { id: 'ridges-minutiae', scene: 'ridges', text: 'Details like these are called minutiae.', start: 9.240, end: 11.540 },
+  { id: 'sensor-map', scene: 'sensor', text: 'A capacitive sensor maps them by measuring tiny electrical differences at many small points.', start: 12.140, end: 17.860 },
+  { id: 'template-position', scene: 'template', text: 'The phone records which details are present and where they sit relative to one another.', start: 18.460, end: 22.960 },
+  { id: 'template-notphoto', scene: 'template', text: 'That is a mathematical template, not a photograph.', start: 23.360, end: 26.400 },
+  { id: 'match-new', scene: 'match', text: 'On your next touch, the phone builds another template.', start: 26.400, end: 29.860 },
+  { id: 'match-compare', scene: 'match', text: 'It compares corresponding details, even if your finger shifted or rotated slightly.', start: 30.440, end: 34.860 },
+  { id: 'match-result', scene: 'match', text: 'Enough matching features can unlock; too few cannot.', start: 35.480, end: 38.420 },
+  { id: 'closing-summary', scene: 'closing', text: 'Recognition means comparing patterns, not finding two identical pictures.', start: 39.120, end: 43.800 },
 ];
 
 export const SCENES: NextScene[] = [
-  { id: 'hook', title: 'More than a photo', start: 0.000, end: 7.860 },
-  { id: 'sensor', title: 'Reading the ridges', start: 7.860, end: 16.200 },
-  { id: 'features', title: 'Details become a template', start: 16.200, end: 24.300 },
-  { id: 'match', title: 'Compare, not copy', start: 24.300, end: 35.440 },
-  { id: 'closing', title: 'A pattern, not perfection', start: 35.440, end: 45.000 },
+  { id: 'ridges', title: 'Look at the details', start: 0.000, end: 11.640 },
+  { id: 'sensor', title: 'Map the ridges', start: 11.640, end: 17.960 },
+  { id: 'template', title: 'Record relative positions', start: 17.960, end: 25.900 },
+  { id: 'match', title: 'Compare two templates', start: 25.900, end: 38.620 },
+  { id: 'closing', title: 'Patterns, not identical pictures', start: 38.620, end: 50.000 },
 ];
 
 export const SFX_CUES: { at: number; id: string; gain: number }[] = [
-  { at: 0.300, id: 'impact-soft', gain: 0.158489 },
-  { at: 8.110, id: 'whoosh-soft', gain: 0.125893 },
-  { at: 16.550, id: 'scan-hum', gain: 0.100000 },
-  { at: 24.600, id: 'ui-toggle-on', gain: 0.112202 },
-  { at: 35.690, id: 'warm-shimmer', gain: 0.112202 },
-  { at: 36.140, id: 'chime-reward', gain: 0.100000 },
+  { at: 4.560, id: 'pop-reveal', gain: 0.079433 },
+  { at: 11.990, id: 'scan-hum', gain: 0.079433 },
+  { at: 23.160, id: 'whoosh-soft', gain: 0.100000 },
+  { at: 35.380, id: 'chime-reward', gain: 0.089125 },
+  { at: 38.920, id: 'warm-shimmer', gain: 0.089125 },
 ];

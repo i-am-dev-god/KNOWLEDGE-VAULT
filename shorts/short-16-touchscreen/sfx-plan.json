@@ -13,49 +13,42 @@
     "out": "RESULT/how-touchscreens-sense-your-finger.mp4",
     "end_s": 45.0
   },
-  "note": "Six restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
   "events": [
     {
-      "at_s": 0.3,
-      "sfx_id": "impact-soft",
-      "gain_db": -16.0,
-      "cue": "Opening emphasis",
-      "sync_source": "hook-pressure"
-    },
-    {
-      "at_s": 7.89,
+      "at_s": 5.44,
       "sfx_id": "whoosh-soft",
-      "gain_db": -18.0,
-      "cue": "Electrode grid reveal",
+      "gain_db": -19,
+      "cue": "Zoom beneath glass",
       "sync_source": "grid-electrodes"
     },
     {
-      "at_s": 14.83,
+      "at_s": 13.59,
       "sfx_id": "scan-hum",
-      "gain_db": -20.0,
-      "cue": "Finger disturbs field",
-      "sync_source": "detect-finger"
+      "gain_db": -22,
+      "cue": "Focus one crossing",
+      "sync_source": "disturb-watch"
     },
     {
-      "at_s": 25.88,
+      "at_s": 22.21,
+      "sfx_id": "pop-reveal",
+      "gain_db": -20,
+      "cue": "Coordinate readout",
+      "sync_source": "locate-read"
+    },
+    {
+      "at_s": 27.37,
       "sfx_id": "ui-toggle-on",
-      "gain_db": -19.0,
-      "cue": "Glove comparison",
+      "gain_db": -20,
+      "cue": "Glove test",
       "sync_source": "gloves-normal"
     },
     {
-      "at_s": 33.21,
+      "at_s": 35.36,
       "sfx_id": "warm-shimmer",
-      "gain_db": -19.0,
-      "cue": "Closing recap",
-      "sync_source": "closing-listen"
-    },
-    {
-      "at_s": 33.66,
-      "sfx_id": "chime-reward",
-      "gain_db": -20.0,
-      "cue": "Final idea",
-      "sync_source": "closing-listen"
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
     }
   ]
 }

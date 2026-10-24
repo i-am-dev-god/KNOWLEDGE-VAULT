@@ -204,7 +204,7 @@
         },
         {
           "id": "closing-summary",
-          "scene": "limit",
+          "scene": "closing",
           "text": "Error correction gives the reader a second chance to recover the message."
         }
       ],
@@ -228,6 +228,10 @@
         [
           "limit",
           "Recovery has a limit"
+        ],
+        [
+          "closing",
+          "A second chance"
         ]
       ],
       "cues": [
@@ -301,7 +305,7 @@
         {
           "id": "receive-voltage",
           "scene": "receive",
-          "text": "The field induces a voltage in this second coil."
+          "text": "The field induces a voltage in the second coil."
         },
         {
           "id": "receive-link",

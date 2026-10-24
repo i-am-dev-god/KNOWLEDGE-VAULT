@@ -5,31 +5,32 @@ export type NextLine = { id: string; scene: string; text: string; start: number;
 export type NextScene = { id: string; title: string; start: number; end: number };
 
 export const VO: NextLine[] = [
-  { id: 'hook-random', scene: 'hook', text: 'A QR code is not just a random pile of squares.', start: 0.700, end: 3.860 },
-  { id: 'hook-data', scene: 'hook', text: 'It is data written in black and white.', start: 4.460, end: 6.580 },
-  { id: 'pattern-module', scene: 'pattern', text: 'Each tiny module stands for a binary zero or one.', start: 7.180, end: 10.900 },
-  { id: 'pattern-corners', scene: 'pattern', text: 'The big corner squares help your camera find the code and its rotation.', start: 11.460, end: 15.520 },
-  { id: 'pattern-quiet', scene: 'pattern', text: 'A clear border called the quiet zone separates it from everything else.', start: 16.200, end: 20.400 },
-  { id: 'read-message', scene: 'read', text: 'Your phone reads the modules in a set order and rebuilds the message.', start: 20.860, end: 24.680 },
-  { id: 'repair-extra', scene: 'repair', text: 'Extra error-correction data is stored inside the pattern.', start: 25.400, end: 28.480 },
-  { id: 'repair-damage', scene: 'repair', text: 'It lets the reader repair missing or damaged parts.', start: 29.060, end: 31.760 },
-  { id: 'repair-limit', scene: 'repair', text: 'So scratches can be forgiven, but only up to a limit.', start: 32.360, end: 35.160 },
-  { id: 'closing-backup', scene: 'closing', text: 'The code carries a message, a reading guide, and a backup plan.', start: 35.820, end: 39.320 },
+  { id: 'scan-message', scene: 'scan', text: 'This code stores the word HELLO.', start: 0.700, end: 2.880 },
+  { id: 'scan-read', scene: 'scan', text: 'Scan it, and the reader rebuilds HELLO.', start: 3.360, end: 5.960 },
+  { id: 'damage-cover', scene: 'damage', text: 'Now cover some of these central squares.', start: 6.740, end: 8.880 },
+  { id: 'damage-question', scene: 'damage', text: 'How can the message survive?', start: 9.380, end: 10.700 },
+  { id: 'repair-extra', scene: 'repair', text: 'A QR code stores extra error-correction information alongside the message.', start: 11.620, end: 16.000 },
+  { id: 'repair-rebuild', scene: 'repair', text: 'Watch the reader use that information to work out what the missing values should be.', start: 16.640, end: 20.500 },
+  { id: 'repair-recovered', scene: 'repair', text: 'The reader fills in those missing values, and HELLO is recovered.', start: 20.840, end: 24.180 },
+  { id: 'finders-role', scene: 'finders', text: 'The large corner patterns have another job: helping the reader find and align the code.', start: 24.180, end: 29.760 },
+  { id: 'limit-heading', scene: 'limit', text: 'But repair has a limit.', start: 30.700, end: 32.080 },
+  { id: 'limit-fail', scene: 'limit', text: 'Cover too much data, and the reader no longer has enough information to rebuild the message.', start: 32.740, end: 37.260 },
+  { id: 'closing-summary', scene: 'closing', text: 'Error correction gives the reader a second chance to recover the message.', start: 38.140, end: 41.560 },
 ];
 
 export const SCENES: NextScene[] = [
-  { id: 'hook', title: 'Data in black and white', start: 0.000, end: 6.680 },
-  { id: 'pattern', title: 'A map inside the pattern', start: 6.680, end: 20.360 },
-  { id: 'read', title: 'Read in a set order', start: 20.360, end: 24.900 },
-  { id: 'repair', title: 'Built-in repair', start: 24.900, end: 35.320 },
-  { id: 'closing', title: 'Message plus backup', start: 35.320, end: 45.000 },
+  { id: 'scan', title: 'Start with a message', start: 0.000, end: 6.240 },
+  { id: 'damage', title: 'Damage the data', start: 6.240, end: 11.120 },
+  { id: 'repair', title: 'Reconstruct missing values', start: 11.120, end: 23.680 },
+  { id: 'finders', title: 'Finders do a different job', start: 23.680, end: 30.200 },
+  { id: 'limit', title: 'Recovery has a limit', start: 30.200, end: 37.640 },
+  { id: 'closing', title: 'A second chance', start: 37.640, end: 45.000 },
 ];
 
 export const SFX_CUES: { at: number; id: string; gain: number }[] = [
-  { at: 0.300, id: 'impact-soft', gain: 0.158489 },
-  { at: 6.930, id: 'whoosh-soft', gain: 0.125893 },
-  { at: 20.710, id: 'scan-hum', gain: 0.100000 },
-  { at: 25.200, id: 'pop-reveal', gain: 0.112202 },
-  { at: 35.570, id: 'warm-shimmer', gain: 0.112202 },
-  { at: 36.020, id: 'chime-reward', gain: 0.100000 },
+  { at: 3.210, id: 'ui-toggle-on', gain: 0.100000 },
+  { at: 6.590, id: 'impact-soft', gain: 0.089125 },
+  { at: 16.490, id: 'scan-hum', gain: 0.079433 },
+  { at: 20.740, id: 'chime-reward', gain: 0.089125 },
+  { at: 37.940, id: 'warm-shimmer', gain: 0.089125 },
 ];

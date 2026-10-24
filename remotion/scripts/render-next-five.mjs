@@ -4,7 +4,7 @@
 // Subset:  node scripts/render-next-five.mjs --video --only=Short16Touchscreen,Short17QrCode
 import { bundle } from '@remotion/bundler';
 import { renderMedia, renderStill, selectComposition } from '@remotion/renderer';
-import { mkdirSync, readFileSync } from 'fs';
+import { mkdirSync, readFileSync, rmSync } from 'fs';
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -74,11 +74,18 @@ for (const [id, shortId] of projects) {
   } else {
     const beats = JSON.parse(readFileSync(path.join(repo, 'shorts', shortId, 'beats.json'), 'utf8'));
     const previewDir = path.join(outDir, 'next-five-preview', id);
+    rmSync(previewDir, { recursive: true, force: true });
     mkdirSync(previewDir, { recursive: true });
-    const samples = beats.vo.map((line) => ({
-      label: line.id,
-      frame: Math.min(composition.durationInFrames - 1, Math.round(((line.start + line.end) / 2) * composition.fps)),
-    }));
+    const samples = beats.vo.flatMap((line) => [
+      {
+        label: `${line.id}-onset`,
+        frame: Math.min(composition.durationInFrames - 1, Math.round((line.start + 0.18) * composition.fps)),
+      },
+      {
+        label: `${line.id}-mid`,
+        frame: Math.min(composition.durationInFrames - 1, Math.round(((line.start + line.end) / 2) * composition.fps)),
+      },
+    ]);
     samples.push({ label: 'outro', frame: composition.durationInFrames - 15 });
     for (const sample of samples) {
       const output = path.join(previewDir, `${String(sample.frame).padStart(4, '0')}-${sample.label}.jpg`);

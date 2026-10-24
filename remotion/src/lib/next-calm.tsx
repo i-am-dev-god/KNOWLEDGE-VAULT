@@ -25,6 +25,11 @@ export const sceneTime = (scenes: NextScene[], id: string) => {
   if (!found) throw new Error(`Missing scene: ${id}`);
   return found;
 };
+export const reached = (t: number, lines: NextLine[], id: string) => t >= line(lines, id).start - 0.08;
+export const spoken = (t: number, lines: NextLine[], id: string) => {
+  const item = line(lines, id);
+  return prog(t, item.start, item.end);
+};
 export const seeded = (seed: number) => {
   const value = Math.sin(seed * 91.731 + 17.17) * 43758.5453;
   return value - Math.floor(value);
@@ -98,6 +103,26 @@ export const Pill: React.FC<{
   </div>
 );
 
+export const DemoPanel: React.FC<{ dark?: boolean; top?: number; height?: number }> = ({ dark = false, top = 500, height = 790 }) => (
+  <div style={{
+    position: 'absolute', left: 70, right: 70, top, height, borderRadius: 36,
+    background: dark ? 'rgba(255,255,255,0.045)' : 'rgba(255,254,249,0.86)',
+    border: `1px solid ${dark ? 'rgba(120,205,189,0.20)' : 'rgba(24,34,53,0.10)'}`,
+    boxShadow: dark ? 'none' : '0 20px 70px rgba(24,34,53,0.07)',
+  }} />
+);
+
+export const Callout: React.FC<{
+  x: number; y: number; targetX: number; targetY: number; text: string;
+  color?: string; anchor?: 'start' | 'middle' | 'end'; opacity?: number;
+}> = ({ x, y, targetX, targetY, text, color = C.teal, anchor = 'middle', opacity = 1 }) => (
+  <g opacity={opacity} fontFamily={FONT_MONO} fontSize={22} fontWeight={700} letterSpacing={1.2}>
+    <path d={`M ${x} ${y + 12} L ${targetX} ${targetY}`} stroke={color} strokeWidth={3} strokeDasharray="7 8" />
+    <circle cx={targetX} cy={targetY} r={6} fill={color} />
+    <text x={x} y={y} fill={color} textAnchor={anchor}>{text}</text>
+  </g>
+);
+
 export const Scene: React.FC<{ t: number; id: string; scenes: NextScene[]; children: React.ReactNode }> = ({ t, id, scenes, children }) => {
   const { start, end } = sceneTime(scenes, id);
   if (t < start || t > end + 0.32) return null;
@@ -156,7 +181,7 @@ export const CalmSound: React.FC<{
       <Audio src={staticFile(narration)} volume={0.94} />
       <Audio src={staticFile(`library/music/clips/${music}.mp3`)} volume={() => {
         const speaking = prog(t, 0.2, 1.2) * (1 - prog(t, narrationEnd - 0.2, narrationEnd + 0.8));
-        return (0.24 - speaking * 0.13 + release * 0.02) * endFade;
+        return (0.20 - speaking * 0.13 + release * 0.02) * endFade;
       }} />
       {cues.map((cue, index) => (
         <Sequence key={index} from={F(cue.at)}>

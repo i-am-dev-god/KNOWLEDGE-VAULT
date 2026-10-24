@@ -6,7 +6,7 @@
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "durationSec": 45.0
+    "durationSec": 50.0
   },
   "voiceStatus": "ai-speech:voice-00:user-selected:complete",
   "aiSpeech": {
@@ -14,149 +14,167 @@
     "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
     "take": "One continuous full-script take",
     "raw_file": "shorts/short-19-fingerprint/output/ai-speech/voice-00-full-raw.wav",
-    "raw_sha256": "e3725039b810213c9c282f43a5f95a0f6faf41f305214ba5bf474b59e98740a9",
-    "raw_duration_seconds": 41.28,
-    "trimmed_duration_seconds": 40.912792,
-    "tempo_rate": 1.0,
-    "requested_tempo_rate": 1.054453393,
+    "raw_sha256": "af2e68d67f20e8ff7872d74c382cd70954a1907ee333b2c8a4c6a84d85680062",
+    "raw_duration_seconds": 43.44,
+    "trimmed_duration_seconds": 43.1065,
+    "tempo_rate": 0.995531178,
+    "requested_tempo_rate": 0.995531178,
     "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
     "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 44.0,
     "narration_file": "media/voiceovers/fingerprint/narration.wav",
-    "narration_sha256": "5017a1110357eb03da0e6ed17096bb4cf7426a88c45a1e0ae2b9d5923c922efa",
-    "narration_duration_seconds": 45.0,
-    "paced_speech_end_seconds": 41.605167,
-    "script_sha256": "f26aecc43394305eec625636ff715dac87d9c28ed315860eb2d16b43496f8cab",
-    "spoken_words": 108,
+    "narration_sha256": "25b9a3dcef760de7ec8b0349835e01fa226a4b71165ffd18ad0e880541c4ce7e",
+    "narration_duration_seconds": 50.0,
+    "paced_speech_end_seconds": 43.986396,
+    "script_sha256": "c4a5bb2b6c46333fb84c2ea3e264ee27130441fecbce23872073c2ba4a56af1c",
+    "spoken_words": 101,
     "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
     "normalized_script_match": true,
-    "mean_word_probability": 0.9763237284841361,
-    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 41.605167s",
-    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required"
+    "mean_word_probability": 0.9799992301479818,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 43.986396s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [
+      {
+        "asr": "too",
+        "script": "two",
+        "start": 42.28,
+        "probability": 0.9597586393356323
+      }
+    ]
   },
-  "pacing": "Calm 45-second explainer; source never sped up; no caption progress line",
-  "voiceEnd": 41.38,
+  "pacing": "Calm 50-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 43.8,
   "scenes": [
     {
-      "id": "hook",
-      "title": "More than a photo",
+      "id": "ridges",
+      "title": "Look at the details",
       "start": 0.0,
-      "end": 7.86
+      "end": 11.64
     },
     {
       "id": "sensor",
-      "title": "Reading the ridges",
-      "start": 7.86,
-      "end": 16.2
+      "title": "Map the ridges",
+      "start": 11.64,
+      "end": 17.96
     },
     {
-      "id": "features",
-      "title": "Details become a template",
-      "start": 16.2,
-      "end": 24.3
+      "id": "template",
+      "title": "Record relative positions",
+      "start": 17.96,
+      "end": 25.9
     },
     {
       "id": "match",
-      "title": "Compare, not copy",
-      "start": 24.3,
-      "end": 35.44
+      "title": "Compare two templates",
+      "start": 25.9,
+      "end": 38.62
     },
     {
       "id": "closing",
-      "title": "A pattern, not perfection",
-      "start": 35.44,
-      "end": 45.0
+      "title": "Patterns, not identical pictures",
+      "start": 38.62,
+      "end": 50.0
     }
   ],
   "vo": [
     {
-      "id": "hook-photo",
-      "scene": "hook",
-      "text": "Your phone does not need to remember a perfect photograph of your finger.",
-      "speak": "Your phone does not need to remember a perfect photograph of your finger.",
+      "id": "ridges-focus",
+      "scene": "ridges",
+      "text": "Look at this one tiny ridge, not the whole fingerprint.",
+      "speak": "Look at this one tiny ridge, not the whole fingerprint.",
       "start": 0.7,
-      "end": 4.64,
-      "duration": 3.94
+      "end": 4.06,
+      "duration": 3.36
     },
     {
-      "id": "hook-pattern",
-      "scene": "hook",
-      "text": "It learns a pattern of distinguishing details.",
-      "speak": "It learns a pattern of distinguishing details.",
-      "start": 5.1,
-      "end": 7.72,
-      "duration": 2.62
+      "id": "ridges-ending",
+      "scene": "ridges",
+      "text": "Here, the ridge ends.",
+      "speak": "Here, the ridge ends.",
+      "start": 4.66,
+      "end": 6.08,
+      "duration": 1.42
     },
     {
-      "id": "sensor-capacitive",
+      "id": "ridges-split",
+      "scene": "ridges",
+      "text": "Here, another ridge splits into two.",
+      "speak": "Here, another ridge splits into two.",
+      "start": 6.44,
+      "end": 8.6,
+      "duration": 2.16
+    },
+    {
+      "id": "ridges-minutiae",
+      "scene": "ridges",
+      "text": "Details like these are called minutiae.",
+      "speak": "Details like these are called minutiae.",
+      "start": 9.24,
+      "end": 11.54,
+      "duration": 2.3
+    },
+    {
+      "id": "sensor-map",
       "scene": "sensor",
-      "text": "Many phones use a capacitive sensor to read ridges and valleys.",
-      "speak": "Many phones use a capacitive sensor to read ridges and valleys.",
-      "start": 8.36,
-      "end": 11.94,
-      "duration": 3.58
+      "text": "A capacitive sensor maps them by measuring tiny electrical differences at many small points.",
+      "speak": "A capacitive sensor maps them by measuring tiny electrical differences at many small points.",
+      "start": 12.14,
+      "end": 17.86,
+      "duration": 5.72
     },
     {
-      "id": "sensor-charge",
-      "scene": "sensor",
-      "text": "Tiny electrical differences help map where each ridge sits.",
-      "speak": "Tiny electrical differences help map where each ridge sits.",
-      "start": 12.48,
-      "end": 16.16,
-      "duration": 3.68
+      "id": "template-position",
+      "scene": "template",
+      "text": "The phone records which details are present and where they sit relative to one another.",
+      "speak": "The phone records which details are present and where they sit relative to one another.",
+      "start": 18.46,
+      "end": 22.96,
+      "duration": 4.5
     },
     {
-      "id": "features-minutiae",
-      "scene": "features",
-      "text": "The system finds features such as ridge endings and splits.",
-      "speak": "The system finds features such as ridge endings and splits.",
-      "start": 16.7,
-      "end": 19.88,
-      "duration": 3.18
+      "id": "template-notphoto",
+      "scene": "template",
+      "text": "That is a mathematical template, not a photograph.",
+      "speak": "That is a mathematical template, not a photograph.",
+      "start": 23.36,
+      "end": 26.4,
+      "duration": 3.04
     },
     {
-      "id": "features-template",
-      "scene": "features",
-      "text": "It stores a mathematical template, not an ordinary image you can open.",
-      "speak": "It stores a mathematical template, not an ordinary image you can open.",
-      "start": 20.5,
-      "end": 24.3,
-      "duration": 3.8
-    },
-    {
-      "id": "match-rescan",
+      "id": "match-new",
       "scene": "match",
-      "text": "When you try again, the new scan becomes another template.",
-      "speak": "When you try again, the new scan becomes another template.",
-      "start": 24.8,
-      "end": 27.86,
-      "duration": 3.06
+      "text": "On your next touch, the phone builds another template.",
+      "speak": "On your next touch, the phone builds another template.",
+      "start": 26.4,
+      "end": 29.86,
+      "duration": 3.46
     },
     {
       "id": "match-compare",
       "scene": "match",
-      "text": "The phone compares features and their positions, allowing for small shifts.",
-      "speak": "The phone compares features and their positions, allowing for small shifts.",
-      "start": 27.86,
-      "end": 31.98,
-      "duration": 4.12
+      "text": "It compares corresponding details, even if your finger shifted or rotated slightly.",
+      "speak": "It compares corresponding details, even if your finger shifted or rotated slightly.",
+      "start": 30.44,
+      "end": 34.86,
+      "duration": 4.42
     },
     {
       "id": "match-result",
       "scene": "match",
-      "text": "A close match unlocks; a poor match fails.",
-      "speak": "A close match unlocks; a poor match fails.",
-      "start": 32.64,
-      "end": 35.34,
-      "duration": 2.7
+      "text": "Enough matching features can unlock; too few cannot.",
+      "speak": "Enough matching features can unlock; too few cannot.",
+      "start": 35.48,
+      "end": 38.42,
+      "duration": 2.94
     },
     {
-      "id": "closing-pattern",
+      "id": "closing-summary",
       "scene": "closing",
-      "text": "So your fingerprint becomes a pattern the phone can compare without expecting two touches to be identical.",
-      "speak": "So your fingerprint becomes a pattern the phone can compare without expecting two touches to be identical.",
-      "start": 35.94,
-      "end": 41.38,
-      "duration": 5.44
+      "text": "Recognition means comparing patterns, not finding two identical pictures.",
+      "speak": "Recognition means comparing patterns, not finding two identical pictures.",
+      "start": 39.12,
+      "end": 43.8,
+      "duration": 4.68
     }
   ]
 }

@@ -54,7 +54,11 @@ def normalize_tokens(text: str) -> list[str]:
     text = text.replace("photo sites", "photosites").replace("photo site", "photosite")
     text = re.sub(r"\bde[- ]mosaicing\b", "demosaicing", text)
     tokens = re.findall(r"[a-z0-9]+", text.replace("'", ""))
-    aliases = {"0": "zero", "1": "one", "canceling": "cancelling"}
+    aliases = {
+        "0": "zero", "1": "one", "canceling": "cancelling",
+        "neighbour": "neighbor", "neighbours": "neighbors", "neighbouring": "neighboring",
+        "coloured": "colored",
+    }
     return [aliases.get(token, token) for token in tokens]
 
 
@@ -196,8 +200,15 @@ def align_one(project: dict) -> None:
     ignored_spurious_ids = {id(word) for word in ignored_spurious_words}
     words = [word for word in timed_words if id(word) not in ignored_spurious_ids]
     asr_alignment = [(token, word) for word in words for token in normalize_tokens(word["word"])]
-    asr_tokens = [token for token, _ in asr_alignment]
     expected_tokens = [token for _, token in expected_flat]
+    homophone_corrections = []
+    for index, (token, word) in enumerate(asr_alignment):
+        if index < len(expected_tokens) and expected_tokens[index] == "two" and token in {"too", "to"}:
+            homophone_corrections.append({"asr": token, "script": "two", "start": word["start"], "probability": word["probability"]})
+            asr_alignment[index] = ("two", word)
+    # Homophone correction is only accepted if every remaining normalized token
+    # still matches the complete script exactly in the same order.
+    asr_tokens = [token for token, _ in asr_alignment]
     if expected_tokens != asr_tokens:
         mismatch = next(
             (i for i, pair in enumerate(zip(expected_tokens, asr_tokens)) if pair[0] != pair[1]),
@@ -256,6 +267,7 @@ def align_one(project: dict) -> None:
             "mean_word_probability": result["mean_word_probability"],
             "asr_tail_filter": f"Excluded {len(ignored_tail_words)} ASR tokens beginning in digital silence at or after {speech_end:.6f}s",
             "asr_spurious_token_filter": f"Excluded {len(ignored_spurious_words)} ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+            "asr_homophone_corrections": homophone_corrections,
         },
         "pacing": f"Calm {duration_s:g}-second explainer; source never sped up; no caption progress line",
         "voiceEnd": voice_end, "scenes": scenes, "vo": timed,
