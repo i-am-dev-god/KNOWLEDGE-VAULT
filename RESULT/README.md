@@ -114,3 +114,88 @@ Production and QA: [`script.md`](../shorts/short-15-noise-cancelling/script.md) 
 **SHA-256:** `3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c`
 
 Production and QA: [`script.md`](../shorts/short-14-gps-explainer/script.md) · [`qa.json`](../shorts/short-14-gps-explainer/qa.json)
+
+## How a Speaker Turns Electricity Into Sound
+
+**Finished video:** [how-a-speaker-turns-electricity-into-sound.mp4](how-a-speaker-turns-electricity-into-sound.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 48.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.858514931×` with pitch preserved; never sped up
+- Calm pacing, 11 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,440-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.13 LUFS; true peak -1.37 dBTP; measured narration offset -1 ms
+
+**Size:** 8,854,404 bytes
+
+**SHA-256:** `32a52c2d00a64db5573bb316d212d4f682c4e062e2e883ba9c67df788d9b1bfc`
+
+Production and QA: [`script.md`](../shorts/short-21-speaker/script.md) · [`qa.json`](../shorts/short-21-speaker/qa.json)
+
+## How an Optical Mouse Tracks Movement
+
+**Finished video:** [how-an-optical-mouse-tracks-movement.mp4](how-an-optical-mouse-tracks-movement.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.850210685×` with pitch preserved; never sped up
+- Calm pacing, 12 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.17 LUFS; true peak -1.46 dBTP; measured narration offset 0 ms
+
+**Size:** 7,088,889 bytes
+
+**SHA-256:** `eb9dc3bf4769158a8ffcfe4f65e96b99aaa3762e20a59316e4d5822397b51b45`
+
+Production and QA: [`script.md`](../shorts/short-22-optical-mouse/script.md) · [`qa.json`](../shorts/short-22-optical-mouse/qa.json)
+
+## How a Lithium Battery Powers Your Phone
+
+**Finished video:** [how-a-lithium-battery-powers-your-phone.mp4](how-a-lithium-battery-powers-your-phone.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.841617590×` with pitch preserved; never sped up
+- Calm pacing, 10 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.26 LUFS; true peak -1.39 dBTP; measured narration offset -1 ms
+
+**Size:** 9,201,862 bytes
+
+**SHA-256:** `289304d405605d7c181a6d628a4e1b11c0b3ebf407571d5626ca73131f0cb8c2`
+
+Production and QA: [`script.md`](../shorts/short-23-lithium-battery/script.md) · [`qa.json`](../shorts/short-23-lithium-battery/qa.json)
+
+## How ZIP Files Make Data Smaller
+
+**Finished video:** [how-zip-files-make-data-smaller.mp4](how-zip-files-make-data-smaller.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.854340670×` with pitch preserved; never sped up
+- Calm pacing, 11 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.10 LUFS; true peak -1.50 dBTP; measured narration offset 0 ms
+
+**Size:** 7,934,140 bytes
+
+**SHA-256:** `a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91`
+
+Production and QA: [`script.md`](../shorts/short-24-zip-compression/script.md) · [`qa.json`](../shorts/short-24-zip-compression/qa.json)
+
+## How a Microwave Oven Heats Food
+
+**Finished video:** [how-a-microwave-oven-heats-food.mp4](how-a-microwave-oven-heats-food.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.877996795×` with pitch preserved; never sped up
+- Calm pacing, 12 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.15 LUFS; true peak -1.48 dBTP; measured narration offset 0 ms
+
+**Size:** 9,803,321 bytes
+
+**SHA-256:** `a9215550a8791de416a1995cd8ba757a7b6e79bdd9f0147f20b830913d68cbab`
+
+Production and QA: [`script.md`](../shorts/short-25-microwave-heating/script.md) · [`qa.json`](../shorts/short-25-microwave-heating/qa.json)
