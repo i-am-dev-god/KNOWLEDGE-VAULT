@@ -1,0 +1,85 @@
+name: Verify shorts 26-30 voice-00 narrations
+
+on:
+  push:
+    branches:
+      - arena/94671a58-knowledge-vault
+    paths:
+      - .github/workflows/verify-shorts-26-30-voice-00.yml
+      - tools/shorts-26-30-projects.json
+      - media/voiceovers/bluetooth-audio/narration.wav
+      - media/voiceovers/ssd-storage/narration.wav
+      - media/voiceovers/hard-drive/narration.wav
+      - media/voiceovers/face-unlock/narration.wav
+      - media/voiceovers/wifi-data/narration.wav
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --quiet faster-whisper
+      - name: Transcribe all five exact selected-voice masters
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          from faster_whisper import WhisperModel
+
+          config = json.loads(Path('tools/shorts-26-30-projects.json').read_text())
+          model = WhisperModel('medium.en', device='cpu', compute_type='int8')
+          for project in config['projects']:
+              audio_path = f"media/voiceovers/{project['slug']}/narration.wav"
+              print('TRANSCRIBING', project['id'], flush=True)
+              segments_iter, info = model.transcribe(
+                  audio_path, language='en', beam_size=5, vad_filter=False,
+                  word_timestamps=True, condition_on_previous_text=False,
+                  initial_prompt=project['prompt'],
+              )
+              segments = []
+              for segment in segments_iter:
+                  segments.append({
+                      'start': segment.start, 'end': segment.end, 'text': segment.text.strip(),
+                      'avg_logprob': segment.avg_logprob, 'no_speech_prob': segment.no_speech_prob,
+                      'words': [
+                          {'start': w.start, 'end': w.end, 'word': w.word, 'probability': w.probability}
+                          for w in (segment.words or [])
+                      ],
+                  })
+              words = [w for s in segments for w in s['words']]
+              result = {
+                  'engine': 'faster-whisper', 'model': 'medium.en', 'voice_id': 'voice-00',
+                  'audio_sha256': hashlib.sha256(Path(audio_path).read_bytes()).hexdigest(),
+                  'language': info.language, 'language_probability': info.language_probability,
+                  'text': ' '.join(s['text'] for s in segments),
+                  'mean_word_probability': sum(w['probability'] for w in words) / len(words),
+                  'low_confidence_words': [w for w in words if w['probability'] < 0.5],
+                  'segments': segments,
+              }
+              output = Path(f"shorts/{project['id']}/transcription-voice-00.json")
+              output.parent.mkdir(parents=True, exist_ok=True)
+              output.write_text(json.dumps(result, indent=2) + '\n')
+              print(result['text'], flush=True)
+              print('MEAN_WORD_PROBABILITY', result['mean_word_probability'], flush=True)
+          PY
+      - name: Commit verified transcripts to this branch
+        shell: bash
+        env:
+          BRANCH: arena/94671a58-knowledge-vault
+        run: |
+          git config user.name "arena-agent"
+          git config user.email "arena-agent@users.noreply.github.com"
+          git add shorts/short-26-bluetooth-audio/transcription-voice-00.json shorts/short-27-ssd-storage/transcription-voice-00.json shorts/short-28-hard-drive/transcription-voice-00.json shorts/short-29-face-unlock/transcription-voice-00.json shorts/short-30-wifi-data/transcription-voice-00.json
+          git commit -m "Verify shorts 26-30 voice-00 narrations [skip ci]"
+          git push origin "HEAD:refs/heads/$BRANCH"
