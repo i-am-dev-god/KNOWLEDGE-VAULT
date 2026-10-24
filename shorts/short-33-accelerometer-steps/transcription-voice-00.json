@@ -1,0 +1,862 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "0c698c9e85f10e5306722e256eb8cadf0e74cfd6de78bef00c2535cdf98f8664",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Your phone or fitness band can count steps with a tiny chip called an accelerometer. Inside this accelerometer, a microscopic proof mass shifts slightly when your body moves. Tiny flexible springs hold the mass inside the chip while allowing that small movement. As the mass shifts, the spacing between interlocking capacitor fingers changes. The accelerometer's electronics convert that spacing change into an acceleration signal. During walking, the signal contains a repeating pattern from each step and other body motion. Software filters noise and looks for the rhythm and strength of genuine steps rather than counting every bump. Each accepted step pattern advances the step counter by one. So your step count begins with motion inside the accelerometer and ends with software recognizing a walking pattern.",
+  "mean_word_probability": 0.9727773435115814,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.54,
+      "text": "Your phone or fitness band can count steps with a tiny chip called an accelerometer.",
+      "avg_logprob": -0.07441334511068734,
+      "no_speech_prob": 0.14045396447181702,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.98,
+          "word": " Your",
+          "probability": 0.7891510725021362
+        },
+        {
+          "start": 0.98,
+          "end": 1.4,
+          "word": " phone",
+          "probability": 0.9693517088890076
+        },
+        {
+          "start": 1.4,
+          "end": 1.66,
+          "word": " or",
+          "probability": 0.9859147071838379
+        },
+        {
+          "start": 1.66,
+          "end": 2.02,
+          "word": " fitness",
+          "probability": 0.9759390354156494
+        },
+        {
+          "start": 2.02,
+          "end": 2.4,
+          "word": " band",
+          "probability": 0.9902237057685852
+        },
+        {
+          "start": 2.4,
+          "end": 2.66,
+          "word": " can",
+          "probability": 0.9858156442642212
+        },
+        {
+          "start": 2.66,
+          "end": 2.96,
+          "word": " count",
+          "probability": 0.9976367950439453
+        },
+        {
+          "start": 2.96,
+          "end": 3.28,
+          "word": " steps",
+          "probability": 0.9944814443588257
+        },
+        {
+          "start": 3.28,
+          "end": 3.5,
+          "word": " with",
+          "probability": 0.99189293384552
+        },
+        {
+          "start": 3.5,
+          "end": 3.74,
+          "word": " a",
+          "probability": 0.9771840572357178
+        },
+        {
+          "start": 3.74,
+          "end": 4.06,
+          "word": " tiny",
+          "probability": 0.9921044111251831
+        },
+        {
+          "start": 4.06,
+          "end": 4.38,
+          "word": " chip",
+          "probability": 0.9922913908958435
+        },
+        {
+          "start": 4.38,
+          "end": 4.7,
+          "word": " called",
+          "probability": 0.9867967367172241
+        },
+        {
+          "start": 4.7,
+          "end": 4.88,
+          "word": " an",
+          "probability": 0.9798454642295837
+        },
+        {
+          "start": 4.88,
+          "end": 5.54,
+          "word": " accelerometer.",
+          "probability": 0.980842113494873
+        }
+      ]
+    },
+    {
+      "start": 6.2,
+      "end": 11.62,
+      "text": "Inside this accelerometer, a microscopic proof mass shifts slightly when your body moves.",
+      "avg_logprob": -0.07441334511068734,
+      "no_speech_prob": 0.14045396447181702,
+      "words": [
+        {
+          "start": 6.2,
+          "end": 6.48,
+          "word": " Inside",
+          "probability": 0.9660996198654175
+        },
+        {
+          "start": 6.48,
+          "end": 6.8,
+          "word": " this",
+          "probability": 0.9848244786262512
+        },
+        {
+          "start": 6.8,
+          "end": 7.52,
+          "word": " accelerometer,",
+          "probability": 0.9944462776184082
+        },
+        {
+          "start": 7.94,
+          "end": 8.16,
+          "word": " a",
+          "probability": 0.9934950470924377
+        },
+        {
+          "start": 8.16,
+          "end": 8.76,
+          "word": " microscopic",
+          "probability": 0.976535975933075
+        },
+        {
+          "start": 8.76,
+          "end": 9.2,
+          "word": " proof",
+          "probability": 0.850690484046936
+        },
+        {
+          "start": 9.2,
+          "end": 9.62,
+          "word": " mass",
+          "probability": 0.9638392329216003
+        },
+        {
+          "start": 9.62,
+          "end": 10.08,
+          "word": " shifts",
+          "probability": 0.9766701459884644
+        },
+        {
+          "start": 10.08,
+          "end": 10.64,
+          "word": " slightly",
+          "probability": 0.9954647421836853
+        },
+        {
+          "start": 10.64,
+          "end": 10.86,
+          "word": " when",
+          "probability": 0.9916903972625732
+        },
+        {
+          "start": 10.86,
+          "end": 11.04,
+          "word": " your",
+          "probability": 0.9898273944854736
+        },
+        {
+          "start": 11.04,
+          "end": 11.24,
+          "word": " body",
+          "probability": 0.999515175819397
+        },
+        {
+          "start": 11.24,
+          "end": 11.62,
+          "word": " moves.",
+          "probability": 0.9993364214897156
+        }
+      ]
+    },
+    {
+      "start": 12.3,
+      "end": 17.28,
+      "text": "Tiny flexible springs hold the mass inside the chip while allowing that small movement.",
+      "avg_logprob": -0.07441334511068734,
+      "no_speech_prob": 0.14045396447181702,
+      "words": [
+        {
+          "start": 12.3,
+          "end": 12.62,
+          "word": " Tiny",
+          "probability": 0.9836528301239014
+        },
+        {
+          "start": 12.62,
+          "end": 13.14,
+          "word": " flexible",
+          "probability": 0.6750587224960327
+        },
+        {
+          "start": 13.14,
+          "end": 13.66,
+          "word": " springs",
+          "probability": 0.9958470463752747
+        },
+        {
+          "start": 13.66,
+          "end": 14.04,
+          "word": " hold",
+          "probability": 0.9884949326515198
+        },
+        {
+          "start": 14.04,
+          "end": 14.26,
+          "word": " the",
+          "probability": 0.9870002865791321
+        },
+        {
+          "start": 14.26,
+          "end": 14.44,
+          "word": " mass",
+          "probability": 0.9990774393081665
+        },
+        {
+          "start": 14.44,
+          "end": 14.94,
+          "word": " inside",
+          "probability": 0.9986011385917664
+        },
+        {
+          "start": 14.94,
+          "end": 15.18,
+          "word": " the",
+          "probability": 0.9949508905410767
+        },
+        {
+          "start": 15.18,
+          "end": 15.36,
+          "word": " chip",
+          "probability": 0.9981982111930847
+        },
+        {
+          "start": 15.36,
+          "end": 15.82,
+          "word": " while",
+          "probability": 0.6881504654884338
+        },
+        {
+          "start": 15.82,
+          "end": 16.24,
+          "word": " allowing",
+          "probability": 0.9979415535926819
+        },
+        {
+          "start": 16.24,
+          "end": 16.44,
+          "word": " that",
+          "probability": 0.9845198392868042
+        },
+        {
+          "start": 16.44,
+          "end": 16.86,
+          "word": " small",
+          "probability": 0.9982898831367493
+        },
+        {
+          "start": 16.86,
+          "end": 17.28,
+          "word": " movement.",
+          "probability": 0.9976835250854492
+        }
+      ]
+    },
+    {
+      "start": 17.98,
+      "end": 22.22,
+      "text": "As the mass shifts, the spacing between interlocking capacitor fingers changes.",
+      "avg_logprob": -0.07441334511068734,
+      "no_speech_prob": 0.14045396447181702,
+      "words": [
+        {
+          "start": 17.98,
+          "end": 18.12,
+          "word": " As",
+          "probability": 0.9939232468605042
+        },
+        {
+          "start": 18.12,
+          "end": 18.34,
+          "word": " the",
+          "probability": 0.9959037899971008
+        },
+        {
+          "start": 18.34,
+          "end": 18.52,
+          "word": " mass",
+          "probability": 0.997255265712738
+        },
+        {
+          "start": 18.52,
+          "end": 18.9,
+          "word": " shifts,",
+          "probability": 0.9968470931053162
+        },
+        {
+          "start": 19.28,
+          "end": 19.36,
+          "word": " the",
+          "probability": 0.9960188269615173
+        },
+        {
+          "start": 19.36,
+          "end": 19.76,
+          "word": " spacing",
+          "probability": 0.9978653788566589
+        },
+        {
+          "start": 19.76,
+          "end": 20.12,
+          "word": " between",
+          "probability": 0.9990054965019226
+        },
+        {
+          "start": 20.12,
+          "end": 20.78,
+          "word": " interlocking",
+          "probability": 0.9826408624649048
+        },
+        {
+          "start": 20.78,
+          "end": 21.34,
+          "word": " capacitor",
+          "probability": 0.980529248714447
+        },
+        {
+          "start": 21.34,
+          "end": 21.7,
+          "word": " fingers",
+          "probability": 0.9863835573196411
+        },
+        {
+          "start": 21.7,
+          "end": 22.22,
+          "word": " changes.",
+          "probability": 0.9983221888542175
+        }
+      ]
+    },
+    {
+      "start": 22.86,
+      "end": 27.24,
+      "text": "The accelerometer's electronics convert that spacing change into an acceleration signal.",
+      "avg_logprob": -0.07441334511068734,
+      "no_speech_prob": 0.14045396447181702,
+      "words": [
+        {
+          "start": 22.86,
+          "end": 23.04,
+          "word": " The",
+          "probability": 0.9926608800888062
+        },
+        {
+          "start": 23.04,
+          "end": 23.9,
+          "word": " accelerometer's",
+          "probability": 0.970008909702301
+        },
+        {
+          "start": 23.9,
+          "end": 24.32,
+          "word": " electronics",
+          "probability": 0.9936848282814026
+        },
+        {
+          "start": 24.32,
+          "end": 24.8,
+          "word": " convert",
+          "probability": 0.9818040132522583
+        },
+        {
+          "start": 24.8,
+          "end": 25.08,
+          "word": " that",
+          "probability": 0.9924443364143372
+        },
+        {
+          "start": 25.08,
+          "end": 25.44,
+          "word": " spacing",
+          "probability": 0.9968873858451843
+        },
+        {
+          "start": 25.44,
+          "end": 25.78,
+          "word": " change",
+          "probability": 0.9972231388092041
+        },
+        {
+          "start": 25.78,
+          "end": 26.1,
+          "word": " into",
+          "probability": 0.9924261569976807
+        },
+        {
+          "start": 26.1,
+          "end": 26.32,
+          "word": " an",
+          "probability": 0.9927743673324585
+        },
+        {
+          "start": 26.32,
+          "end": 26.82,
+          "word": " acceleration",
+          "probability": 0.9964792132377625
+        },
+        {
+          "start": 26.82,
+          "end": 27.24,
+          "word": " signal.",
+          "probability": 0.9990569949150085
+        }
+      ]
+    },
+    {
+      "start": 27.24,
+      "end": 32.7,
+      "text": "During walking, the signal contains a repeating pattern from each step and other body motion.",
+      "avg_logprob": -0.11776518116931657,
+      "no_speech_prob": 0.004048471339046955,
+      "words": [
+        {
+          "start": 27.24,
+          "end": 28.14,
+          "word": " During",
+          "probability": 0.9095348119735718
+        },
+        {
+          "start": 28.14,
+          "end": 28.5,
+          "word": " walking,",
+          "probability": 0.9942650198936462
+        },
+        {
+          "start": 28.96,
+          "end": 29.1,
+          "word": " the",
+          "probability": 0.9930260181427002
+        },
+        {
+          "start": 29.1,
+          "end": 29.34,
+          "word": " signal",
+          "probability": 0.9959943294525146
+        },
+        {
+          "start": 29.34,
+          "end": 29.78,
+          "word": " contains",
+          "probability": 0.9983838796615601
+        },
+        {
+          "start": 29.78,
+          "end": 29.98,
+          "word": " a",
+          "probability": 0.9977139234542847
+        },
+        {
+          "start": 29.98,
+          "end": 30.32,
+          "word": " repeating",
+          "probability": 0.9986182451248169
+        },
+        {
+          "start": 30.32,
+          "end": 30.68,
+          "word": " pattern",
+          "probability": 0.9992840886116028
+        },
+        {
+          "start": 30.68,
+          "end": 30.98,
+          "word": " from",
+          "probability": 0.989261269569397
+        },
+        {
+          "start": 30.98,
+          "end": 31.32,
+          "word": " each",
+          "probability": 0.9987542629241943
+        },
+        {
+          "start": 31.32,
+          "end": 31.58,
+          "word": " step",
+          "probability": 0.9985674619674683
+        },
+        {
+          "start": 31.58,
+          "end": 31.86,
+          "word": " and",
+          "probability": 0.971016526222229
+        },
+        {
+          "start": 31.86,
+          "end": 32.12,
+          "word": " other",
+          "probability": 0.986742377281189
+        },
+        {
+          "start": 32.12,
+          "end": 32.36,
+          "word": " body",
+          "probability": 0.9893084168434143
+        },
+        {
+          "start": 32.36,
+          "end": 32.7,
+          "word": " motion.",
+          "probability": 0.9698565006256104
+        }
+      ]
+    },
+    {
+      "start": 33.24,
+      "end": 37.62,
+      "text": "Software filters noise and looks for the rhythm and strength of genuine steps rather",
+      "avg_logprob": -0.11776518116931657,
+      "no_speech_prob": 0.004048471339046955,
+      "words": [
+        {
+          "start": 33.24,
+          "end": 33.66,
+          "word": " Software",
+          "probability": 0.9935304522514343
+        },
+        {
+          "start": 33.66,
+          "end": 34.16,
+          "word": " filters",
+          "probability": 0.9973272085189819
+        },
+        {
+          "start": 34.16,
+          "end": 34.48,
+          "word": " noise",
+          "probability": 0.9927016496658325
+        },
+        {
+          "start": 34.48,
+          "end": 34.82,
+          "word": " and",
+          "probability": 0.9721859097480774
+        },
+        {
+          "start": 34.82,
+          "end": 35.04,
+          "word": " looks",
+          "probability": 0.996762752532959
+        },
+        {
+          "start": 35.04,
+          "end": 35.26,
+          "word": " for",
+          "probability": 0.9988969564437866
+        },
+        {
+          "start": 35.26,
+          "end": 35.42,
+          "word": " the",
+          "probability": 0.9922142624855042
+        },
+        {
+          "start": 35.42,
+          "end": 35.62,
+          "word": " rhythm",
+          "probability": 0.9755192399024963
+        },
+        {
+          "start": 35.62,
+          "end": 35.86,
+          "word": " and",
+          "probability": 0.9875783324241638
+        },
+        {
+          "start": 35.86,
+          "end": 36.1,
+          "word": " strength",
+          "probability": 0.9950668811798096
+        },
+        {
+          "start": 36.1,
+          "end": 36.3,
+          "word": " of",
+          "probability": 0.9977206587791443
+        },
+        {
+          "start": 36.3,
+          "end": 36.72,
+          "word": " genuine",
+          "probability": 0.9801441431045532
+        },
+        {
+          "start": 36.72,
+          "end": 37.1,
+          "word": " steps",
+          "probability": 0.9970110654830933
+        },
+        {
+          "start": 37.1,
+          "end": 37.62,
+          "word": " rather",
+          "probability": 0.7127878665924072
+        }
+      ]
+    },
+    {
+      "start": 37.62,
+      "end": 38.8,
+      "text": "than counting every bump.",
+      "avg_logprob": -0.11776518116931657,
+      "no_speech_prob": 0.004048471339046955,
+      "words": [
+        {
+          "start": 37.62,
+          "end": 37.86,
+          "word": " than",
+          "probability": 0.9965793490409851
+        },
+        {
+          "start": 37.86,
+          "end": 38.1,
+          "word": " counting",
+          "probability": 0.9975098371505737
+        },
+        {
+          "start": 38.1,
+          "end": 38.5,
+          "word": " every",
+          "probability": 0.9976809024810791
+        },
+        {
+          "start": 38.5,
+          "end": 38.8,
+          "word": " bump.",
+          "probability": 0.9972015619277954
+        }
+      ]
+    },
+    {
+      "start": 39.38,
+      "end": 42.6,
+      "text": "Each accepted step pattern advances the step counter by one.",
+      "avg_logprob": -0.11776518116931657,
+      "no_speech_prob": 0.004048471339046955,
+      "words": [
+        {
+          "start": 39.38,
+          "end": 39.6,
+          "word": " Each",
+          "probability": 0.9966357350349426
+        },
+        {
+          "start": 39.6,
+          "end": 40.2,
+          "word": " accepted",
+          "probability": 0.9943971633911133
+        },
+        {
+          "start": 40.2,
+          "end": 40.52,
+          "word": " step",
+          "probability": 0.9919667840003967
+        },
+        {
+          "start": 40.52,
+          "end": 40.88,
+          "word": " pattern",
+          "probability": 0.9953469634056091
+        },
+        {
+          "start": 40.88,
+          "end": 41.44,
+          "word": " advances",
+          "probability": 0.9938602447509766
+        },
+        {
+          "start": 41.44,
+          "end": 41.68,
+          "word": " the",
+          "probability": 0.9946030974388123
+        },
+        {
+          "start": 41.68,
+          "end": 41.88,
+          "word": " step",
+          "probability": 0.984431803226471
+        },
+        {
+          "start": 41.88,
+          "end": 42.16,
+          "word": " counter",
+          "probability": 0.9202561974525452
+        },
+        {
+          "start": 42.16,
+          "end": 42.34,
+          "word": " by",
+          "probability": 0.9987714886665344
+        },
+        {
+          "start": 42.34,
+          "end": 42.6,
+          "word": " one.",
+          "probability": 0.7762846350669861
+        }
+      ]
+    },
+    {
+      "start": 43.1,
+      "end": 47.56,
+      "text": "So your step count begins with motion inside the accelerometer and ends with software",
+      "avg_logprob": -0.11776518116931657,
+      "no_speech_prob": 0.004048471339046955,
+      "words": [
+        {
+          "start": 43.1,
+          "end": 43.24,
+          "word": " So",
+          "probability": 0.9910683631896973
+        },
+        {
+          "start": 43.24,
+          "end": 43.4,
+          "word": " your",
+          "probability": 0.5763151049613953
+        },
+        {
+          "start": 43.4,
+          "end": 43.66,
+          "word": " step",
+          "probability": 0.9923789501190186
+        },
+        {
+          "start": 43.66,
+          "end": 43.9,
+          "word": " count",
+          "probability": 0.9941977262496948
+        },
+        {
+          "start": 43.9,
+          "end": 44.2,
+          "word": " begins",
+          "probability": 0.9967970252037048
+        },
+        {
+          "start": 44.2,
+          "end": 44.44,
+          "word": " with",
+          "probability": 0.9993423819541931
+        },
+        {
+          "start": 44.44,
+          "end": 44.76,
+          "word": " motion",
+          "probability": 0.9762946963310242
+        },
+        {
+          "start": 44.76,
+          "end": 45.28,
+          "word": " inside",
+          "probability": 0.9968209266662598
+        },
+        {
+          "start": 45.28,
+          "end": 45.52,
+          "word": " the",
+          "probability": 0.9959796667098999
+        },
+        {
+          "start": 45.52,
+          "end": 46.12,
+          "word": " accelerometer",
+          "probability": 0.9762255847454071
+        },
+        {
+          "start": 46.12,
+          "end": 46.6,
+          "word": " and",
+          "probability": 0.9419988393783569
+        },
+        {
+          "start": 46.6,
+          "end": 46.92,
+          "word": " ends",
+          "probability": 0.9963123202323914
+        },
+        {
+          "start": 46.92,
+          "end": 47.14,
+          "word": " with",
+          "probability": 0.9978535771369934
+        },
+        {
+          "start": 47.14,
+          "end": 47.56,
+          "word": " software",
+          "probability": 0.9620975255966187
+        }
+      ]
+    },
+    {
+      "start": 47.56,
+      "end": 48.96,
+      "text": "recognizing a walking pattern.",
+      "avg_logprob": -0.3282863385975361,
+      "no_speech_prob": 0.03966937214136124,
+      "words": [
+        {
+          "start": 47.56,
+          "end": 48.1,
+          "word": " recognizing",
+          "probability": 0.8109844923019409
+        },
+        {
+          "start": 48.1,
+          "end": 48.36,
+          "word": " a",
+          "probability": 0.991936445236206
+        },
+        {
+          "start": 48.36,
+          "end": 48.62,
+          "word": " walking",
+          "probability": 0.9966626763343811
+        },
+        {
+          "start": 48.62,
+          "end": 48.96,
+          "word": " pattern.",
+          "probability": 0.9990828037261963
+        }
+      ]
+    }
+  ]
+}

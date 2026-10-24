@@ -1,0 +1,967 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "805e84876117c227159bc1317ea190df007d1a316d326c40c8fa553a6d9cd1a6",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A 3D printer builds a solid object by depositing material one thin layer at a time. First, slicing software divides a digital 3D model into a stack of printable layers. For each layer, the slicer calculates the nozzle's path around the outer walls and through the inner structure. The printer heats the nozzle until the plastic filament can flow through its tip. Motors drive the nozzle along the calculated path while it extrudes a thin bead of melted plastic. The deposited plastic cools and solidifies, forming the current layer of your object. The nozzle then rises by one layer height or the bed lowers and the printer repeats the process. Each new layer fuses with the previous one, gradually turning separate parts into a solid shape. So a 3D printer turns a digital model into an object through repeated extrusion, cooling and layer bonding.",
+  "mean_word_probability": 0.9682587219609154,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.32,
+      "text": "A 3D printer builds a solid object by depositing material one thin layer at a time. First, slicing",
+      "avg_logprob": -0.07830908641219139,
+      "no_speech_prob": 0.037235092371702194,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.88,
+          "word": " A",
+          "probability": 0.7813650965690613
+        },
+        {
+          "start": 0.88,
+          "end": 1.34,
+          "word": " 3D",
+          "probability": 0.9443364441394806
+        },
+        {
+          "start": 1.34,
+          "end": 1.66,
+          "word": " printer",
+          "probability": 0.90345299243927
+        },
+        {
+          "start": 1.66,
+          "end": 2.12,
+          "word": " builds",
+          "probability": 0.9916390776634216
+        },
+        {
+          "start": 2.12,
+          "end": 2.36,
+          "word": " a",
+          "probability": 0.9947078227996826
+        },
+        {
+          "start": 2.36,
+          "end": 2.64,
+          "word": " solid",
+          "probability": 0.9980056881904602
+        },
+        {
+          "start": 2.64,
+          "end": 3.0,
+          "word": " object",
+          "probability": 0.9981581568717957
+        },
+        {
+          "start": 3.0,
+          "end": 3.24,
+          "word": " by",
+          "probability": 0.9942259192466736
+        },
+        {
+          "start": 3.24,
+          "end": 3.82,
+          "word": " depositing",
+          "probability": 0.9984892904758453
+        },
+        {
+          "start": 3.82,
+          "end": 4.28,
+          "word": " material",
+          "probability": 0.9647175669670105
+        },
+        {
+          "start": 4.28,
+          "end": 4.62,
+          "word": " one",
+          "probability": 0.9268872737884521
+        },
+        {
+          "start": 4.62,
+          "end": 5.02,
+          "word": " thin",
+          "probability": 0.9909562468528748
+        },
+        {
+          "start": 5.02,
+          "end": 5.3,
+          "word": " layer",
+          "probability": 0.9983046054840088
+        },
+        {
+          "start": 5.3,
+          "end": 5.48,
+          "word": " at",
+          "probability": 0.9964224696159363
+        },
+        {
+          "start": 5.48,
+          "end": 5.58,
+          "word": " a",
+          "probability": 0.9915379285812378
+        },
+        {
+          "start": 5.58,
+          "end": 6.02,
+          "word": " time.",
+          "probability": 0.999796450138092
+        },
+        {
+          "start": 6.44,
+          "end": 6.66,
+          "word": " First,",
+          "probability": 0.9751063585281372
+        },
+        {
+          "start": 6.84,
+          "end": 7.32,
+          "word": " slicing",
+          "probability": 0.5039993524551392
+        }
+      ]
+    },
+    {
+      "start": 7.32,
+      "end": 12.84,
+      "text": "software divides a digital 3D model into a stack of printable layers. For each layer,",
+      "avg_logprob": -0.07830908641219139,
+      "no_speech_prob": 0.037235092371702194,
+      "words": [
+        {
+          "start": 7.32,
+          "end": 7.84,
+          "word": " software",
+          "probability": 0.9960846900939941
+        },
+        {
+          "start": 7.84,
+          "end": 8.42,
+          "word": " divides",
+          "probability": 0.9968698620796204
+        },
+        {
+          "start": 8.42,
+          "end": 8.66,
+          "word": " a",
+          "probability": 0.9856172204017639
+        },
+        {
+          "start": 8.66,
+          "end": 8.96,
+          "word": " digital",
+          "probability": 0.9887071847915649
+        },
+        {
+          "start": 8.96,
+          "end": 9.4,
+          "word": " 3D",
+          "probability": 0.9716356992721558
+        },
+        {
+          "start": 9.4,
+          "end": 9.66,
+          "word": " model",
+          "probability": 0.995680570602417
+        },
+        {
+          "start": 9.66,
+          "end": 9.98,
+          "word": " into",
+          "probability": 0.9936649799346924
+        },
+        {
+          "start": 9.98,
+          "end": 10.22,
+          "word": " a",
+          "probability": 0.9560155272483826
+        },
+        {
+          "start": 10.22,
+          "end": 10.48,
+          "word": " stack",
+          "probability": 0.9977454543113708
+        },
+        {
+          "start": 10.48,
+          "end": 10.8,
+          "word": " of",
+          "probability": 0.9983598589897156
+        },
+        {
+          "start": 10.8,
+          "end": 11.22,
+          "word": " printable",
+          "probability": 0.9912459850311279
+        },
+        {
+          "start": 11.22,
+          "end": 11.54,
+          "word": " layers.",
+          "probability": 0.9986238479614258
+        },
+        {
+          "start": 12.14,
+          "end": 12.26,
+          "word": " For",
+          "probability": 0.9939513206481934
+        },
+        {
+          "start": 12.26,
+          "end": 12.54,
+          "word": " each",
+          "probability": 0.9988559484481812
+        },
+        {
+          "start": 12.54,
+          "end": 12.84,
+          "word": " layer,",
+          "probability": 0.996953010559082
+        }
+      ]
+    },
+    {
+      "start": 13.12,
+      "end": 17.12,
+      "text": "the slicer calculates the nozzle's path around the outer walls and through the inner",
+      "avg_logprob": -0.07830908641219139,
+      "no_speech_prob": 0.037235092371702194,
+      "words": [
+        {
+          "start": 13.12,
+          "end": 13.22,
+          "word": " the",
+          "probability": 0.993013322353363
+        },
+        {
+          "start": 13.22,
+          "end": 13.6,
+          "word": " slicer",
+          "probability": 0.9981873631477356
+        },
+        {
+          "start": 13.6,
+          "end": 14.12,
+          "word": " calculates",
+          "probability": 0.9986572265625
+        },
+        {
+          "start": 14.12,
+          "end": 14.42,
+          "word": " the",
+          "probability": 0.9974130988121033
+        },
+        {
+          "start": 14.42,
+          "end": 14.88,
+          "word": " nozzle's",
+          "probability": 0.9527169167995453
+        },
+        {
+          "start": 14.88,
+          "end": 15.02,
+          "word": " path",
+          "probability": 0.9912482500076294
+        },
+        {
+          "start": 15.02,
+          "end": 15.3,
+          "word": " around",
+          "probability": 0.9951893091201782
+        },
+        {
+          "start": 15.3,
+          "end": 15.56,
+          "word": " the",
+          "probability": 0.9559603929519653
+        },
+        {
+          "start": 15.56,
+          "end": 15.82,
+          "word": " outer",
+          "probability": 0.9961752891540527
+        },
+        {
+          "start": 15.82,
+          "end": 16.06,
+          "word": " walls",
+          "probability": 0.9865548610687256
+        },
+        {
+          "start": 16.06,
+          "end": 16.46,
+          "word": " and",
+          "probability": 0.9676556587219238
+        },
+        {
+          "start": 16.46,
+          "end": 16.66,
+          "word": " through",
+          "probability": 0.9932422041893005
+        },
+        {
+          "start": 16.66,
+          "end": 16.88,
+          "word": " the",
+          "probability": 0.9817808866500854
+        },
+        {
+          "start": 16.88,
+          "end": 17.12,
+          "word": " inner",
+          "probability": 0.9988822340965271
+        }
+      ]
+    },
+    {
+      "start": 17.12,
+      "end": 21.36,
+      "text": "structure. The printer heats the nozzle until the plastic filament can flow through",
+      "avg_logprob": -0.07830908641219139,
+      "no_speech_prob": 0.037235092371702194,
+      "words": [
+        {
+          "start": 17.12,
+          "end": 17.48,
+          "word": " structure.",
+          "probability": 0.9867074489593506
+        },
+        {
+          "start": 18.06,
+          "end": 18.18,
+          "word": " The",
+          "probability": 0.9930877089500427
+        },
+        {
+          "start": 18.18,
+          "end": 18.48,
+          "word": " printer",
+          "probability": 0.9979645013809204
+        },
+        {
+          "start": 18.48,
+          "end": 18.86,
+          "word": " heats",
+          "probability": 0.9965069890022278
+        },
+        {
+          "start": 18.86,
+          "end": 19.1,
+          "word": " the",
+          "probability": 0.9982853531837463
+        },
+        {
+          "start": 19.1,
+          "end": 19.34,
+          "word": " nozzle",
+          "probability": 0.9987253546714783
+        },
+        {
+          "start": 19.34,
+          "end": 19.72,
+          "word": " until",
+          "probability": 0.9907900094985962
+        },
+        {
+          "start": 19.72,
+          "end": 19.94,
+          "word": " the",
+          "probability": 0.9670587778091431
+        },
+        {
+          "start": 19.94,
+          "end": 20.28,
+          "word": " plastic",
+          "probability": 0.9985036849975586
+        },
+        {
+          "start": 20.28,
+          "end": 20.56,
+          "word": " filament",
+          "probability": 0.996625542640686
+        },
+        {
+          "start": 20.56,
+          "end": 20.88,
+          "word": " can",
+          "probability": 0.9948992133140564
+        },
+        {
+          "start": 20.88,
+          "end": 21.14,
+          "word": " flow",
+          "probability": 0.9973927736282349
+        },
+        {
+          "start": 21.14,
+          "end": 21.36,
+          "word": " through",
+          "probability": 0.9949487447738647
+        }
+      ]
+    },
+    {
+      "start": 21.36,
+      "end": 26.2,
+      "text": "its tip. Motors drive the nozzle along the calculated path while it extrudes a thin",
+      "avg_logprob": -0.07830908641219139,
+      "no_speech_prob": 0.037235092371702194,
+      "words": [
+        {
+          "start": 21.36,
+          "end": 21.54,
+          "word": " its",
+          "probability": 0.9875981211662292
+        },
+        {
+          "start": 21.54,
+          "end": 21.74,
+          "word": " tip.",
+          "probability": 0.9859141111373901
+        },
+        {
+          "start": 22.36,
+          "end": 22.64,
+          "word": " Motors",
+          "probability": 0.9443213939666748
+        },
+        {
+          "start": 22.64,
+          "end": 23.02,
+          "word": " drive",
+          "probability": 0.9565269947052002
+        },
+        {
+          "start": 23.02,
+          "end": 23.24,
+          "word": " the",
+          "probability": 0.9974978566169739
+        },
+        {
+          "start": 23.24,
+          "end": 23.46,
+          "word": " nozzle",
+          "probability": 0.9992496371269226
+        },
+        {
+          "start": 23.46,
+          "end": 23.74,
+          "word": " along",
+          "probability": 0.9980839490890503
+        },
+        {
+          "start": 23.74,
+          "end": 23.94,
+          "word": " the",
+          "probability": 0.9928814172744751
+        },
+        {
+          "start": 23.94,
+          "end": 24.4,
+          "word": " calculated",
+          "probability": 0.9985242486000061
+        },
+        {
+          "start": 24.4,
+          "end": 24.68,
+          "word": " path",
+          "probability": 0.9980225563049316
+        },
+        {
+          "start": 24.68,
+          "end": 25.06,
+          "word": " while",
+          "probability": 0.8356954455375671
+        },
+        {
+          "start": 25.06,
+          "end": 25.28,
+          "word": " it",
+          "probability": 0.9945399165153503
+        },
+        {
+          "start": 25.28,
+          "end": 25.72,
+          "word": " extrudes",
+          "probability": 0.9908341765403748
+        },
+        {
+          "start": 25.72,
+          "end": 26.0,
+          "word": " a",
+          "probability": 0.9959971904754639
+        },
+        {
+          "start": 26.0,
+          "end": 26.2,
+          "word": " thin",
+          "probability": 0.9940651655197144
+        }
+      ]
+    },
+    {
+      "start": 26.2,
+      "end": 31.14,
+      "text": "bead of melted plastic. The deposited plastic cools and solidifies, forming the current",
+      "avg_logprob": -0.1230751359334556,
+      "no_speech_prob": 0.0046610040590167046,
+      "words": [
+        {
+          "start": 26.2,
+          "end": 26.46,
+          "word": " bead",
+          "probability": 0.6338616013526917
+        },
+        {
+          "start": 26.46,
+          "end": 26.64,
+          "word": " of",
+          "probability": 0.9972853660583496
+        },
+        {
+          "start": 26.64,
+          "end": 26.92,
+          "word": " melted",
+          "probability": 0.9523212313652039
+        },
+        {
+          "start": 26.92,
+          "end": 27.3,
+          "word": " plastic.",
+          "probability": 0.9960981607437134
+        },
+        {
+          "start": 27.94,
+          "end": 28.04,
+          "word": " The",
+          "probability": 0.9773189425468445
+        },
+        {
+          "start": 28.04,
+          "end": 28.48,
+          "word": " deposited",
+          "probability": 0.992750883102417
+        },
+        {
+          "start": 28.48,
+          "end": 28.88,
+          "word": " plastic",
+          "probability": 0.9970173835754395
+        },
+        {
+          "start": 28.88,
+          "end": 29.44,
+          "word": " cools",
+          "probability": 0.9901323616504669
+        },
+        {
+          "start": 29.44,
+          "end": 29.54,
+          "word": " and",
+          "probability": 0.9926056861877441
+        },
+        {
+          "start": 29.54,
+          "end": 30.12,
+          "word": " solidifies,",
+          "probability": 0.9986113607883453
+        },
+        {
+          "start": 30.34,
+          "end": 30.6,
+          "word": " forming",
+          "probability": 0.9970037341117859
+        },
+        {
+          "start": 30.6,
+          "end": 30.86,
+          "word": " the",
+          "probability": 0.9936502575874329
+        },
+        {
+          "start": 30.86,
+          "end": 31.14,
+          "word": " current",
+          "probability": 0.9704298377037048
+        }
+      ]
+    },
+    {
+      "start": 31.14,
+      "end": 35.86,
+      "text": "layer of your object. The nozzle then rises by one layer height or the bed lowers and",
+      "avg_logprob": -0.1230751359334556,
+      "no_speech_prob": 0.0046610040590167046,
+      "words": [
+        {
+          "start": 31.14,
+          "end": 31.36,
+          "word": " layer",
+          "probability": 0.9959119558334351
+        },
+        {
+          "start": 31.36,
+          "end": 31.52,
+          "word": " of",
+          "probability": 0.9855937361717224
+        },
+        {
+          "start": 31.52,
+          "end": 31.66,
+          "word": " your",
+          "probability": 0.9656845331192017
+        },
+        {
+          "start": 31.66,
+          "end": 31.98,
+          "word": " object.",
+          "probability": 0.9925928711891174
+        },
+        {
+          "start": 32.5,
+          "end": 32.68,
+          "word": " The",
+          "probability": 0.9823459982872009
+        },
+        {
+          "start": 32.68,
+          "end": 32.92,
+          "word": " nozzle",
+          "probability": 0.981411874294281
+        },
+        {
+          "start": 32.92,
+          "end": 33.12,
+          "word": " then",
+          "probability": 0.9236664772033691
+        },
+        {
+          "start": 33.12,
+          "end": 33.48,
+          "word": " rises",
+          "probability": 0.9978452920913696
+        },
+        {
+          "start": 33.48,
+          "end": 33.74,
+          "word": " by",
+          "probability": 0.9965713024139404
+        },
+        {
+          "start": 33.74,
+          "end": 33.98,
+          "word": " one",
+          "probability": 0.8530882596969604
+        },
+        {
+          "start": 33.98,
+          "end": 34.22,
+          "word": " layer",
+          "probability": 0.8869811296463013
+        },
+        {
+          "start": 34.22,
+          "end": 34.48,
+          "word": " height",
+          "probability": 0.9854296445846558
+        },
+        {
+          "start": 34.48,
+          "end": 34.82,
+          "word": " or",
+          "probability": 0.654768168926239
+        },
+        {
+          "start": 34.82,
+          "end": 34.96,
+          "word": " the",
+          "probability": 0.9815806746482849
+        },
+        {
+          "start": 34.96,
+          "end": 35.14,
+          "word": " bed",
+          "probability": 0.9964410662651062
+        },
+        {
+          "start": 35.14,
+          "end": 35.44,
+          "word": " lowers",
+          "probability": 0.9970338344573975
+        },
+        {
+          "start": 35.44,
+          "end": 35.86,
+          "word": " and",
+          "probability": 0.7735790610313416
+        }
+      ]
+    },
+    {
+      "start": 35.86,
+      "end": 40.5,
+      "text": "the printer repeats the process. Each new layer fuses with the previous one, gradually",
+      "avg_logprob": -0.1230751359334556,
+      "no_speech_prob": 0.0046610040590167046,
+      "words": [
+        {
+          "start": 35.86,
+          "end": 36.02,
+          "word": " the",
+          "probability": 0.9892385005950928
+        },
+        {
+          "start": 36.02,
+          "end": 36.24,
+          "word": " printer",
+          "probability": 0.9931685924530029
+        },
+        {
+          "start": 36.24,
+          "end": 36.66,
+          "word": " repeats",
+          "probability": 0.995078444480896
+        },
+        {
+          "start": 36.66,
+          "end": 36.86,
+          "word": " the",
+          "probability": 0.9898770451545715
+        },
+        {
+          "start": 36.86,
+          "end": 37.16,
+          "word": " process.",
+          "probability": 0.9986255168914795
+        },
+        {
+          "start": 37.76,
+          "end": 38.02,
+          "word": " Each",
+          "probability": 0.9954965114593506
+        },
+        {
+          "start": 38.02,
+          "end": 38.36,
+          "word": " new",
+          "probability": 0.9939707517623901
+        },
+        {
+          "start": 38.36,
+          "end": 38.58,
+          "word": " layer",
+          "probability": 0.9975442290306091
+        },
+        {
+          "start": 38.58,
+          "end": 38.98,
+          "word": " fuses",
+          "probability": 0.9890670478343964
+        },
+        {
+          "start": 38.98,
+          "end": 39.22,
+          "word": " with",
+          "probability": 0.9967164397239685
+        },
+        {
+          "start": 39.22,
+          "end": 39.36,
+          "word": " the",
+          "probability": 0.9927387833595276
+        },
+        {
+          "start": 39.36,
+          "end": 39.62,
+          "word": " previous",
+          "probability": 0.9977130889892578
+        },
+        {
+          "start": 39.62,
+          "end": 39.92,
+          "word": " one,",
+          "probability": 0.9936990737915039
+        },
+        {
+          "start": 40.14,
+          "end": 40.5,
+          "word": " gradually",
+          "probability": 0.9968990087509155
+        }
+      ]
+    },
+    {
+      "start": 40.5,
+      "end": 45.62,
+      "text": "turning separate parts into a solid shape. So a 3D printer turns a digital model into",
+      "avg_logprob": -0.1230751359334556,
+      "no_speech_prob": 0.0046610040590167046,
+      "words": [
+        {
+          "start": 40.5,
+          "end": 40.88,
+          "word": " turning",
+          "probability": 0.9946570992469788
+        },
+        {
+          "start": 40.88,
+          "end": 41.34,
+          "word": " separate",
+          "probability": 0.9926774501800537
+        },
+        {
+          "start": 41.34,
+          "end": 41.64,
+          "word": " parts",
+          "probability": 0.8319444060325623
+        },
+        {
+          "start": 41.64,
+          "end": 41.92,
+          "word": " into",
+          "probability": 0.9867755770683289
+        },
+        {
+          "start": 41.92,
+          "end": 42.14,
+          "word": " a",
+          "probability": 0.9762433171272278
+        },
+        {
+          "start": 42.14,
+          "end": 42.34,
+          "word": " solid",
+          "probability": 0.9980175495147705
+        },
+        {
+          "start": 42.34,
+          "end": 42.68,
+          "word": " shape.",
+          "probability": 0.9887670874595642
+        },
+        {
+          "start": 42.96,
+          "end": 43.24,
+          "word": " So",
+          "probability": 0.9903407692909241
+        },
+        {
+          "start": 43.24,
+          "end": 43.48,
+          "word": " a",
+          "probability": 0.6206038594245911
+        },
+        {
+          "start": 43.48,
+          "end": 43.84,
+          "word": " 3D",
+          "probability": 0.930668294429779
+        },
+        {
+          "start": 43.84,
+          "end": 44.12,
+          "word": " printer",
+          "probability": 0.9573376774787903
+        },
+        {
+          "start": 44.12,
+          "end": 44.54,
+          "word": " turns",
+          "probability": 0.9918070435523987
+        },
+        {
+          "start": 44.54,
+          "end": 44.76,
+          "word": " a",
+          "probability": 0.9940934777259827
+        },
+        {
+          "start": 44.76,
+          "end": 45.06,
+          "word": " digital",
+          "probability": 0.9912759065628052
+        },
+        {
+          "start": 45.06,
+          "end": 45.38,
+          "word": " model",
+          "probability": 0.998139500617981
+        },
+        {
+          "start": 45.38,
+          "end": 45.62,
+          "word": " into",
+          "probability": 0.9949458241462708
+        }
+      ]
+    },
+    {
+      "start": 45.62,
+      "end": 49.0,
+      "text": "an object through repeated extrusion, cooling and layer bonding.",
+      "avg_logprob": -0.1230751359334556,
+      "no_speech_prob": 0.0046610040590167046,
+      "words": [
+        {
+          "start": 45.62,
+          "end": 45.82,
+          "word": " an",
+          "probability": 0.9940314888954163
+        },
+        {
+          "start": 45.82,
+          "end": 46.12,
+          "word": " object",
+          "probability": 0.9989556074142456
+        },
+        {
+          "start": 46.12,
+          "end": 46.48,
+          "word": " through",
+          "probability": 0.9143441319465637
+        },
+        {
+          "start": 46.48,
+          "end": 46.92,
+          "word": " repeated",
+          "probability": 0.9984757304191589
+        },
+        {
+          "start": 46.92,
+          "end": 47.56,
+          "word": " extrusion,",
+          "probability": 0.9985023736953735
+        },
+        {
+          "start": 47.88,
+          "end": 48.08,
+          "word": " cooling",
+          "probability": 0.9971610307693481
+        },
+        {
+          "start": 48.08,
+          "end": 48.46,
+          "word": " and",
+          "probability": 0.7498347163200378
+        },
+        {
+          "start": 48.46,
+          "end": 48.7,
+          "word": " layer",
+          "probability": 0.9979652166366577
+        },
+        {
+          "start": 48.7,
+          "end": 49.0,
+          "word": " bonding.",
+          "probability": 0.9821999073028564
+        }
+      ]
+    }
+  ]
+}
