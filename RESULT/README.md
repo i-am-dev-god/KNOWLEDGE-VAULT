@@ -115,3 +115,88 @@ Production and QA: [`script.md`](../shorts/short-24-zip-compression/script.md) �
 **SHA-256:** `a9215550a8791de416a1995cd8ba757a7b6e79bdd9f0147f20b830913d68cbab`
 
 Production and QA: [`script.md`](../shorts/short-25-microwave-heating/script.md) · [`qa.json`](../shorts/short-25-microwave-heating/qa.json)
+
+## How Bluetooth Sends Music to Your Headphones
+
+**Finished video:** [how-bluetooth-sends-music-to-headphones.mp4](how-bluetooth-sends-music-to-headphones.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 11 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.22 LUFS; true peak -1.54 dBTP; measured narration offset 0 ms
+
+**Size:** 7,576,512 bytes
+
+**SHA-256:** `3ea382bf948d32b506d6975a8ec1b7c354e378f1659cd3ba1a07552b6049f338`
+
+Production and QA: [`script.md`](../shorts/short-26-bluetooth-audio/script.md) · [`qa.json`](../shorts/short-26-bluetooth-audio/qa.json)
+
+## How an SSD Remembers Without Power
+
+**Finished video:** [how-an-ssd-remembers-without-power.mp4](how-an-ssd-remembers-without-power.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.861107035×` with pitch preserved; never sped up
+- Calm pacing, 10 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.10 LUFS; true peak -1.98 dBTP; measured narration offset 0 ms
+
+**Size:** 7,396,172 bytes
+
+**SHA-256:** `66f3b4fcad505ae9df10c6d18096fde7107063666a1d07647cee47d13c2c4c14`
+
+Production and QA: [`script.md`](../shorts/short-27-ssd-storage/script.md) · [`qa.json`](../shorts/short-27-ssd-storage/qa.json)
+
+## How a Hard Drive Finds Your Files
+
+**Finished video:** [how-a-hard-drive-finds-your-files.mp4](how-a-hard-drive-finds-your-files.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.844936983×` with pitch preserved; never sped up
+- Calm pacing, 10 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.15 LUFS; true peak -1.87 dBTP; measured narration offset 0 ms
+
+**Size:** 11,991,162 bytes
+
+**SHA-256:** `af5e87436daaac94ab68fdb2e37f77a00a5fb57fe3ad5a33df68cf2fd0ff57ef`
+
+Production and QA: [`script.md`](../shorts/short-28-hard-drive/script.md) · [`qa.json`](../shorts/short-28-hard-drive/qa.json)
+
+## How Face Unlock Recognizes You
+
+**Finished video:** [how-face-unlock-recognizes-you.mp4](how-face-unlock-recognizes-you.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.880268999×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.23 LUFS; true peak -1.94 dBTP; measured narration offset 0 ms
+
+**Size:** 8,070,187 bytes
+
+**SHA-256:** `714a0d6682f739633bc8495095fca550d69eb714372ac8b60b5c359983c02ba3`
+
+Production and QA: [`script.md`](../shorts/short-29-face-unlock/script.md) · [`qa.json`](../shorts/short-29-face-unlock/qa.json)
+
+## How Wi-Fi Sends Data Through Air
+
+**Finished video:** [how-wifi-sends-data-through-air.mp4](how-wifi-sends-data-through-air.mp4)
+
+- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.951898148×` with pitch preserved; never sped up
+- Calm pacing, 11 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.14 LUFS; true peak -1.88 dBTP; measured narration offset 0 ms
+
+**Size:** 8,975,079 bytes
+
+**SHA-256:** `100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677`
+
+Production and QA: [`script.md`](../shorts/short-30-wifi-data/script.md) · [`qa.json`](../shorts/short-30-wifi-data/qa.json)

@@ -152,8 +152,48 @@
   "transparent": false
  },
  {
+  "id": "Short26BluetoothAudio",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short27SsdStorage",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short28HardDrive",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short29FaceUnlock",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short3Algo",
   "durationInSeconds": 42,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short30WifiData",
+  "durationInSeconds": 55,
   "fps": 30,
   "width": 1080,
   "height": 1920,

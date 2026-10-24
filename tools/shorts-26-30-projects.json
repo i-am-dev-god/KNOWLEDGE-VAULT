@@ -271,8 +271,8 @@
       "title": "How a Hard Drive Finds Your Files",
       "composition": "Short28HardDrive",
       "result": "how-a-hard-drive-finds-your-files.mp4",
-      "duration_s": 55.0,
-      "target_voice_end_s": 46.5,
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
       "prompt": "Hard drive. Platter. Magnetic domains. Logical address. Track. Sector. Actuator. Read head.",
       "music": "cinematic-min",
       "lines": [
@@ -314,17 +314,17 @@
         {
           "id": "seek-rotate",
           "scene": "seek",
-          "text": "The head waits briefly for the right sector to rotate underneath."
+          "text": "The head waits briefly for the correct sector to rotate underneath."
         },
         {
           "id": "read-sense",
           "scene": "read",
-          "text": "As the magnetic regions pass, the head senses their changes and the electronics recover the bits."
+          "text": "As the magnetic regions pass, the head senses their changes and the electronics retrieve the bits."
         },
         {
           "id": "closing-summary",
           "scene": "closing",
-          "text": "A quick movement of the arm, plus the platter's rotation, brings the stored data to the head."
+          "text": "A quick movement of the arm, plus the spinning platter, brings the stored data to the head."
         }
       ],
       "scenes": [

@@ -1,0 +1,161 @@
+{
+  "id": "short-29-face-unlock",
+  "title": "How Face Unlock Recognizes You",
+  "composition": "Short29FaceUnlock",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-29-face-unlock/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "259ba1664d68dceb0ba5f4db2f428ada3f8bb39e7bc69be100ab4ae3be8e3a57",
+    "raw_duration_seconds": 39.32,
+    "trimmed_duration_seconds": 38.995917,
+    "tempo_rate": 0.880268999,
+    "requested_tempo_rate": 0.880268999,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/face-unlock/narration.wav",
+    "narration_sha256": "702b3a3a690cdfe2d9d133dbbfb03e58e7788b8cf069faa56f595a8d78cb7a39",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.982438,
+    "script_sha256": "f9755da34fc429e06f1c1b5f738d68ff57b70e09d0b3a311d5852825e990e093",
+    "spoken_words": 103,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9650240190399503,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.982438s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.8,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Compare with an enrolled representation",
+      "start": 0.0,
+      "end": 6.94
+    },
+    {
+      "id": "illuminate",
+      "title": "Project and read infrared structure",
+      "start": 6.94,
+      "end": 17.2
+    },
+    {
+      "id": "depth",
+      "title": "Turn distortion into depth",
+      "start": 17.2,
+      "end": 23.12
+    },
+    {
+      "id": "template",
+      "title": "Build a mathematical template",
+      "start": 23.12,
+      "end": 28.22
+    },
+    {
+      "id": "match",
+      "title": "Compare templates and check liveness",
+      "start": 28.22,
+      "end": 38.72
+    },
+    {
+      "id": "closing",
+      "title": "More than a photograph",
+      "start": 38.72,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-look",
+      "scene": "hook",
+      "text": "Look at your phone to unlock it.",
+      "speak": "Look at your phone to unlock it.",
+      "start": 0.7,
+      "end": 2.82,
+      "duration": 2.12
+    },
+    {
+      "id": "hook-how",
+      "scene": "hook",
+      "text": "It is comparing your face with a stored representation.",
+      "speak": "It is comparing your face with a stored representation.",
+      "start": 3.32,
+      "end": 6.48,
+      "duration": 3.16
+    },
+    {
+      "id": "illuminate-dots",
+      "scene": "illuminate",
+      "text": "Many phones project a pattern of infrared dots that your eyes cannot see.",
+      "speak": "Many phones project a pattern of infrared dots that your eyes cannot see.",
+      "start": 7.44,
+      "end": 12.04,
+      "duration": 4.6
+    },
+    {
+      "id": "illuminate-camera",
+      "scene": "illuminate",
+      "text": "An infrared camera reads how that pattern bends across your face.",
+      "speak": "An infrared camera reads how that pattern bends across your face.",
+      "start": 12.74,
+      "end": 16.86,
+      "duration": 4.12
+    },
+    {
+      "id": "depth-map",
+      "scene": "depth",
+      "text": "Those distortions become a depth map, describing shape rather than skin color.",
+      "speak": "Those distortions become a depth map, describing shape rather than skin color.",
+      "start": 17.7,
+      "end": 22.68,
+      "duration": 4.98
+    },
+    {
+      "id": "template-build",
+      "scene": "template",
+      "text": "The system converts distinctive shape information into a mathematical face template.",
+      "speak": "The system converts distinctive shape information into a mathematical face template.",
+      "start": 23.62,
+      "end": 28.72,
+      "duration": 5.1
+    },
+    {
+      "id": "match-compare",
+      "scene": "match",
+      "text": "It compares the new template with the template created during enrollment.",
+      "speak": "It compares the new template with the template created during enrollment.",
+      "start": 28.72,
+      "end": 33.42,
+      "duration": 4.7
+    },
+    {
+      "id": "match-decision",
+      "scene": "match",
+      "text": "If they are close enough, and liveness checks pass, the phone unlocks.",
+      "speak": "If they are close enough, and liveness checks pass, the phone unlocks.",
+      "start": 34.2,
+      "end": 38.26,
+      "duration": 4.06
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "The phone is not simply matching a photograph; it is checking a secure representation of your face.",
+      "speak": "The phone is not simply matching a photograph; it is checking a secure representation of your face.",
+      "start": 39.22,
+      "end": 44.8,
+      "duration": 5.58
+    }
+  ]
+}

@@ -19,14 +19,19 @@ import Shot15, { compositionConfig as cfg15 } from './shots/short-22/Short22Opti
 import Shot16, { compositionConfig as cfg16 } from './shots/short-23/Short23LithiumBattery';
 import Shot17, { compositionConfig as cfg17 } from './shots/short-24/Short24ZipCompression';
 import Shot18, { compositionConfig as cfg18 } from './shots/short-25/Short25MicrowaveHeating';
-import Shot19, { compositionConfig as cfg19 } from './shots/short-3/Short3Algo';
-import Shot20, { compositionConfig as cfg20 } from './shots/short-4/Short4Reflog';
-import Shot21, { compositionConfig as cfg21 } from './shots/short-5/Short5Monty';
-import Shot22, { compositionConfig as cfg22 } from './shots/short-6/Short6Sheet';
-import Shot23, { compositionConfig as cfg23 } from './shots/short-7/Short7Kids';
-import Shot24, { compositionConfig as cfg24 } from './shots/short-8/Short8Phish';
-import Shot25, { compositionConfig as cfg25 } from './shots/short-9/Short9Chords';
-import Shot26, { compositionConfig as cfg26 } from './shots/vox-1/Vox1Coffee';
+import Shot19, { compositionConfig as cfg19 } from './shots/short-26/Short26BluetoothAudio';
+import Shot20, { compositionConfig as cfg20 } from './shots/short-27/Short27SsdStorage';
+import Shot21, { compositionConfig as cfg21 } from './shots/short-28/Short28HardDrive';
+import Shot22, { compositionConfig as cfg22 } from './shots/short-29/Short29FaceUnlock';
+import Shot23, { compositionConfig as cfg23 } from './shots/short-3/Short3Algo';
+import Shot24, { compositionConfig as cfg24 } from './shots/short-30/Short30WifiData';
+import Shot25, { compositionConfig as cfg25 } from './shots/short-4/Short4Reflog';
+import Shot26, { compositionConfig as cfg26 } from './shots/short-5/Short5Monty';
+import Shot27, { compositionConfig as cfg27 } from './shots/short-6/Short6Sheet';
+import Shot28, { compositionConfig as cfg28 } from './shots/short-7/Short7Kids';
+import Shot29, { compositionConfig as cfg29 } from './shots/short-8/Short8Phish';
+import Shot30, { compositionConfig as cfg30 } from './shots/short-9/Short9Chords';
+import Shot31, { compositionConfig as cfg31 } from './shots/vox-1/Vox1Coffee';
 
 export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot0 as React.FC, config: cfg0 },
@@ -56,4 +61,9 @@ export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot24 as React.FC, config: cfg24 },
   { Comp: Shot25 as React.FC, config: cfg25 },
   { Comp: Shot26 as React.FC, config: cfg26 },
+  { Comp: Shot27 as React.FC, config: cfg27 },
+  { Comp: Shot28 as React.FC, config: cfg28 },
+  { Comp: Shot29 as React.FC, config: cfg29 },
+  { Comp: Shot30 as React.FC, config: cfg30 },
+  { Comp: Shot31 as React.FC, config: cfg31 },
 ];

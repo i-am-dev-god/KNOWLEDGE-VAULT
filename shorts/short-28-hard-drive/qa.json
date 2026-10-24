@@ -1,0 +1,161 @@
+{
+  "file": "../../RESULT/how-a-hard-drive-finds-your-files.mp4",
+  "production_copy": "output/how-a-hard-drive-finds-your-files.mp4",
+  "status": "passed",
+  "bytes": 11991162,
+  "sha256": "af5e87436daaac94ab68fdb2e37f77a00a5fb57fe3ad5a33df68cf2fd0ff57ef",
+  "md5": "67c204be2fc7b1448bc30b06efd08c8e",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 1640398,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 195554,
+    "integrated_lufs": -16.15,
+    "true_peak_dbfs": -1.87,
+    "loudness_range_lu": 11.9,
+    "mean_volume_db": -19.6,
+    "max_volume_db": -1.9,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 10,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.82,
+    "measured_speech_end_seconds": 44.983771,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.38144,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.844936983,
+    "source_sped_up": false,
+    "spoken_words": 115,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-28-hard-drive/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "28760da89dd23d6a215d125fcba1d829a100555a68ece6cbc0883bb4c8e28c05",
+    "raw_duration_seconds": 38.0,
+    "trimmed_duration_seconds": 37.430708,
+    "tempo_rate": 0.844936983,
+    "requested_tempo_rate": 0.844936983,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/hard-drive/narration.wav",
+    "narration_sha256": "19bbb54c669ccb27e7dc3413dd38340731292193c2fa78a80d2b1c5fda3b9238",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.983771,
+    "script_sha256": "0bfef5c9df803cab53df924013bac15e96ab8e55ff4de215a8ebf3feb18787f9",
+    "spoken_words": 115,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.975283541109251,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.983771s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.975283541109251,
+    "low_confidence_words": [
+      {
+        "start": 6.94,
+        "end": 7.8,
+        "word": " circular",
+        "probability": 0.20903995633125305
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 10,
+    "caption_midpoints_extracted": 10,
+    "narration_beat_samples_extracted": 21,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-hook-file-onset.jpg",
+      "output/qa/0047-hook-file-mid.jpg",
+      "output/qa/0095-hook-where-onset.jpg",
+      "output/qa/0130-hook-where-mid.jpg",
+      "output/qa/0199-platter-spin-onset.jpg",
+      "output/qa/0245-platter-spin-mid.jpg",
+      "output/qa/0324-platter-domains-onset.jpg",
+      "output/qa/0371-platter-domains-mid.jpg",
+      "output/qa/0452-map-address-onset.jpg",
+      "output/qa/0508-map-address-mid.jpg",
+      "output/qa/0596-map-sector-onset.jpg",
+      "output/qa/0657-map-sector-mid.jpg",
+      "output/qa/0748-seek-arm-onset.jpg",
+      "output/qa/0796-seek-arm-mid.jpg",
+      "output/qa/0854-seek-rotate-onset.jpg",
+      "output/qa/0911-seek-rotate-mid.jpg",
+      "output/qa/1003-read-sense-onset.jpg",
+      "output/qa/1084-read-sense-mid.jpg",
+      "output/qa/1199-closing-summary-onset.jpg",
+      "output/qa/1269-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "ordered_actual_mp4_samples_reviewed": 21,
+    "review_method": "Every narration-clause onset and midpoint plus the outro, reviewed in chronological contact sheets decoded from the delivered MP4; critical focal frames also checked at 540x960",
+    "checkpoints": [
+      "Head and requested sector remain visually distinct",
+      "Logical address is translated before the highlighted track and sector appear",
+      "Sector reaches the head, then yields to the recovered-bit readout",
+      "Drive label is inside the frame and no caption progress line appears"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-hard-drive-finds-your-files.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

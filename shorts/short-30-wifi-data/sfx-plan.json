@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-wifi-sends-data-through-air.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short30WifiData.mp4",
+    "out": "RESULT/how-wifi-sends-data-through-air.mp4",
+    "end_s": 55.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 6.12,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -22,
+      "cue": "Packetize file",
+      "sync_source": "prepare-chop"
+    },
+    {
+      "at_s": 17.37,
+      "sfx_id": "scan-hum",
+      "gain_db": -24,
+      "cue": "OFDM subcarriers",
+      "sync_source": "modulate-ofdm"
+    },
+    {
+      "at_s": 27.98,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -23,
+      "cue": "Listen before transmit",
+      "sync_source": "air-listen"
+    },
+    {
+      "at_s": 38.72,
+      "sfx_id": "pop-reveal",
+      "gain_db": -23,
+      "cue": "Rebuild photo",
+      "sync_source": "receive-rebuild"
+    },
+    {
+      "at_s": 42.08,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

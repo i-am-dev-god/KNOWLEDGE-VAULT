@@ -1,0 +1,170 @@
+{
+  "id": "short-27-ssd-storage",
+  "title": "How an SSD Remembers Without Power",
+  "composition": "Short27SsdStorage",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-27-ssd-storage/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "4d7d11ca547b00b560a2da23c556911e0a8e09f8ecb6c63c54b87a206f71bc3d",
+    "raw_duration_seconds": 38.64,
+    "trimmed_duration_seconds": 38.147042,
+    "tempo_rate": 0.861107035,
+    "requested_tempo_rate": 0.861107035,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/ssd-storage/narration.wav",
+    "narration_sha256": "1a86c57c750377b5d341cc905508a34b4b34752ddd9919b52452a07957187d02",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.986167,
+    "script_sha256": "5f7e56183bb8ea4cb59daaa5f01f1d52ec3e284f08ffd67d5eff5dac3a43261f",
+    "spoken_words": 99,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.963939384177879,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.986167s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.8,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Data survives without power",
+      "start": 0.0,
+      "end": 5.1
+    },
+    {
+      "id": "cell",
+      "title": "Trap charge inside a flash cell",
+      "start": 5.1,
+      "end": 14.72
+    },
+    {
+      "id": "read",
+      "title": "Measure the threshold response",
+      "start": 14.72,
+      "end": 23.76
+    },
+    {
+      "id": "organize",
+      "title": "Organize cells into pages and blocks",
+      "start": 23.76,
+      "end": 27.02
+    },
+    {
+      "id": "wear",
+      "title": "Spread writes to reduce wear",
+      "start": 27.02,
+      "end": 38.72
+    },
+    {
+      "id": "closing",
+      "title": "Charge plus careful control",
+      "start": 38.72,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-off",
+      "scene": "hook",
+      "text": "Switch off the power.",
+      "speak": "Switch off the power.",
+      "start": 0.7,
+      "end": 1.88,
+      "duration": 1.18
+    },
+    {
+      "id": "hook-remain",
+      "scene": "hook",
+      "text": "An SSD still remembers your files.",
+      "speak": "An SSD still remembers your files.",
+      "start": 2.42,
+      "end": 4.82,
+      "duration": 2.4
+    },
+    {
+      "id": "cell-trap",
+      "scene": "cell",
+      "text": "Inside each flash cell, a special region can trap electrical charge.",
+      "speak": "Inside each flash cell, a special region can trap electrical charge.",
+      "start": 5.6,
+      "end": 10.34,
+      "duration": 4.74
+    },
+    {
+      "id": "cell-state",
+      "scene": "cell",
+      "text": "The amount of charge changes the cell's threshold voltage.",
+      "speak": "The amount of charge changes the cell's threshold voltage.",
+      "start": 11.06,
+      "end": 14.4,
+      "duration": 3.34
+    },
+    {
+      "id": "read-test",
+      "scene": "read",
+      "text": "To read it, the controller applies a test voltage and checks whether the cell conducts.",
+      "speak": "To read it, the controller applies a test voltage and checks whether the cell conducts.",
+      "start": 15.22,
+      "end": 20.38,
+      "duration": 5.16
+    },
+    {
+      "id": "read-value",
+      "scene": "read",
+      "text": "That response reveals the stored value.",
+      "speak": "That response reveals the stored value.",
+      "start": 21.08,
+      "end": 23.38,
+      "duration": 2.3
+    },
+    {
+      "id": "organize-pages",
+      "scene": "organize",
+      "text": "Billions of cells are organized into pages and blocks.",
+      "speak": "Billions of cells are organized into pages and blocks.",
+      "start": 24.26,
+      "end": 27.52,
+      "duration": 3.26
+    },
+    {
+      "id": "wear-limit",
+      "scene": "wear",
+      "text": "Writing gradually wears the insulating material that holds the charge.",
+      "speak": "Writing gradually wears the insulating material that holds the charge.",
+      "start": 27.52,
+      "end": 32.26,
+      "duration": 4.74
+    },
+    {
+      "id": "wear-spread",
+      "scene": "wear",
+      "text": "So the controller spreads new writes across different cells, a process called wear leveling.",
+      "speak": "So the controller spreads new writes across different cells, a process called wear leveling.",
+      "start": 32.98,
+      "end": 38.68,
+      "duration": 5.7
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Trapped charge preserves the data, while careful reading and wear leveling keep the SSD useful.",
+      "speak": "Trapped charge preserves the data, while careful reading and wear leveling keep the SSD useful.",
+      "start": 39.22,
+      "end": 44.8,
+      "duration": 5.58
+    }
+  ]
+}

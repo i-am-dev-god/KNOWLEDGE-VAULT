@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-a-hard-drive-finds-your-files.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short28HardDrive.mp4",
+    "out": "RESULT/how-a-hard-drive-finds-your-files.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 6.31,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Platter spin",
+      "sync_source": "platter-spin"
+    },
+    {
+      "at_s": 19.6,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -22,
+      "cue": "Address translated",
+      "sync_source": "map-sector"
+    },
+    {
+      "at_s": 24.61,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -22,
+      "cue": "Actuator seek",
+      "sync_source": "seek-arm"
+    },
+    {
+      "at_s": 33.14,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -24,
+      "cue": "Read bits",
+      "sync_source": "read-sense"
+    },
+    {
+      "at_s": 39.58,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

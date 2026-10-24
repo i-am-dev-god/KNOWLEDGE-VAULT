@@ -1,0 +1,182 @@
+{
+  "file": "../../RESULT/how-wifi-sends-data-through-air.mp4",
+  "production_copy": "output/how-wifi-sends-data-through-air.mp4",
+  "status": "passed",
+  "bytes": 8975079,
+  "sha256": "100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677",
+  "md5": "5549f78d531863911989d13f0aa02063",
+  "container_duration_seconds": 55.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 55.0,
+    "bit_rate": 1100529,
+    "decoded_frames": 1650
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 55.1,
+    "bit_rate": 195454,
+    "integrated_lufs": -16.14,
+    "true_peak_dbfs": -1.88,
+    "loudness_range_lu": 8.1,
+    "mean_volume_db": -19.2,
+    "max_volume_db": -1.9,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 11,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 47.28,
+    "measured_speech_end_seconds": 47.498771,
+    "scenes": 6,
+    "sfx_cues": 5,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.32939,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.951898148,
+    "source_sped_up": false,
+    "spoken_words": 118,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-30-wifi-data/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "e96b3926c4a58f95083f04d7227e9903c81c14f806a22b9f8ac6f1d323ab9e12",
+    "raw_duration_seconds": 44.92,
+    "trimmed_duration_seconds": 44.548833,
+    "tempo_rate": 0.951898148,
+    "requested_tempo_rate": 0.951898148,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/wifi-data/narration.wav",
+    "narration_sha256": "b1ad781d9e6ac6c40c8389b93f6d644309c6297324d653276e974f9f755d3fa2",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 47.498771,
+    "script_sha256": "29d9fa9aef9e55edd34bda54abd60bd95361926bfc4206701c22f1e13ef5ce9f",
+    "spoken_words": 118,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9565304403503736,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 47.498771s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": [
+      {
+        "asr": "sub carriers",
+        "script": "subcarriers",
+        "start": 34.4,
+        "end": 34.96
+      },
+      {
+        "asr": "re transmission",
+        "script": "retransmission",
+        "start": 36.88,
+        "end": 37.66
+      }
+    ]
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9565304403503736,
+    "low_confidence_words": [
+      {
+        "start": 36.88,
+        "end": 37.22,
+        "word": " re",
+        "probability": 0.3292229473590851
+      },
+      {
+        "start": 46.78,
+        "end": 47.02,
+        "word": " into",
+        "probability": 0.45125603675842285
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 11,
+    "caption_midpoints_extracted": 11,
+    "narration_beat_samples_extracted": 23,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-hook-send-onset.jpg",
+      "output/qa/0045-hook-send-mid.jpg",
+      "output/qa/0093-hook-invisible-onset.jpg",
+      "output/qa/0126-hook-invisible-mid.jpg",
+      "output/qa/0192-prepare-chop-onset.jpg",
+      "output/qa/0226-prepare-chop-mid.jpg",
+      "output/qa/0289-prepare-check-onset.jpg",
+      "output/qa/0329-prepare-check-mid.jpg",
+      "output/qa/0402-modulate-bits-onset.jpg",
+      "output/qa/0450-modulate-bits-mid.jpg",
+      "output/qa/0531-modulate-ofdm-onset.jpg",
+      "output/qa/0618-modulate-ofdm-mid.jpg",
+      "output/qa/0742-air-share-onset.jpg",
+      "output/qa/0789-air-share-mid.jpg",
+      "output/qa/0848-air-listen-onset.jpg",
+      "output/qa/0908-air-listen-mid.jpg",
+      "output/qa/1001-receive-check-onset.jpg",
+      "output/qa/1070-receive-check-mid.jpg",
+      "output/qa/1170-receive-rebuild-onset.jpg",
+      "output/qa/1204-receive-rebuild-mid.jpg",
+      "output/qa/1274-closing-summary-onset.jpg",
+      "output/qa/1343-closing-summary-mid.jpg",
+      "output/qa/1635-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "ordered_actual_mp4_samples_reviewed": 23,
+    "review_method": "Every narration-clause onset and midpoint plus the outro, reviewed in chronological contact sheets decoded from the delivered MP4; critical focal frames also checked at 540x960",
+    "checkpoints": [
+      "Address and CRC fields precede carrier and OFDM explanations",
+      "Busy channel waits and clear channel sends",
+      "Error packet is replaced by a resent packet before the original photo is restored",
+      "No caption timing or progress line appears"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-wifi-sends-data-through-air.mp4",
+    "branch": "arena/94671a58-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

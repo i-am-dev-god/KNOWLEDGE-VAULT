@@ -2,773 +2,743 @@
   "engine": "faster-whisper",
   "model": "medium.en",
   "voice_id": "voice-00",
-  "audio_sha256": "f628a0e374713f3d04cb14d78ba57637629605bafb3d3df2d1919e54b2dc9ec3",
+  "audio_sha256": "19bbb54c669ccb27e7dc3413dd38340731292193c2fa78a80d2b1c5fda3b9238",
   "language": "en",
   "language_probability": 1,
-  "text": "Open a file on a hard drive. The drive must find where its data is stored. Inside, circular platters spin at a steady speed. Tiny magnetic regions on their surfaces represent the bits. The file system gives the drive a logical address for the requested data. The controller translates that address into a track and sector on the platter. An actuator swings the read and write head to the correct track. The head waits briefly for the write sector to rotate underneath. As the magnetic regions pass, the head senses their changes and the electronics recover the bits. A quick movement of the arm plus the platter's brings the stored data to the head.",
-  "mean_word_probability": 0.9746763896175294,
+  "text": "Open a file on a hard drive. The drive must find where its data is stored. Inside circular platters spin at a steady speed. Tiny magnetic regions on their surfaces represent the bits. The file system gives the drive a logical address for the requested data. The controller translates that address into a track and sector on the platter. An actuator swings the read and write head to the correct track. The head waits briefly for the correct sector to rotate underneath. As the magnetic regions pass, the head senses their changes and the electronics retrieve the bits. A quick movement of the arm plus the spinning platter brings the stored data to the head.",
+  "mean_word_probability": 0.975283541109251,
   "low_confidence_words": [
     {
-      "start": 43.88,
-      "end": 44.84,
-      "word": " brings",
-      "probability": 0.4811594486236572
+      "start": 6.94,
+      "end": 7.8,
+      "word": " circular",
+      "probability": 0.20903995633125305
     }
   ],
   "segments": [
     {
       "start": 0.0,
-      "end": 8.16,
-      "text": "Open a file on a hard drive. The drive must find where its data is stored. Inside, circular",
-      "avg_logprob": -0.06645565025690126,
-      "no_speech_prob": 0.011520536616444588,
+      "end": 28.3,
+      "text": "Open a file on a hard drive. The drive must find where its data is stored. Inside circular platters spin at a steady speed. Tiny magnetic regions on their surfaces represent the bits. The file system gives the drive a logical address for the requested data. The controller translates that address into a track and sector on the platter. An actuator swings the read and write head to the correct track.",
+      "avg_logprob": -0.06164507747414601,
+      "no_speech_prob": 0.08816376328468323,
       "words": [
         {
           "start": 0.0,
-          "end": 1.1,
+          "end": 1.06,
           "word": " Open",
-          "probability": 0.9230815768241882
+          "probability": 0.8197658061981201
         },
         {
-          "start": 1.1,
-          "end": 1.32,
+          "start": 1.06,
+          "end": 1.28,
           "word": " a",
-          "probability": 0.9851363301277161
+          "probability": 0.9858452081680298
         },
         {
-          "start": 1.32,
-          "end": 1.6,
+          "start": 1.28,
+          "end": 1.56,
           "word": " file",
-          "probability": 0.9957230091094971
+          "probability": 0.9934123158454895
         },
         {
-          "start": 1.6,
-          "end": 1.92,
+          "start": 1.56,
+          "end": 1.76,
           "word": " on",
-          "probability": 0.9929183125495911
+          "probability": 0.9936943650245667
         },
         {
-          "start": 1.92,
-          "end": 2.14,
+          "start": 1.76,
+          "end": 1.96,
           "word": " a",
-          "probability": 0.971701979637146
+          "probability": 0.9758375287055969
         },
         {
-          "start": 2.14,
-          "end": 2.28,
+          "start": 1.96,
+          "end": 2.12,
           "word": " hard",
-          "probability": 0.9745954275131226
+          "probability": 0.976550281047821
         },
         {
-          "start": 2.28,
-          "end": 2.66,
+          "start": 2.12,
+          "end": 2.44,
           "word": " drive.",
-          "probability": 0.9833586812019348
+          "probability": 0.9827860593795776
         },
         {
-          "start": 3.2,
-          "end": 3.34,
+          "start": 3.0,
+          "end": 3.12,
           "word": " The",
-          "probability": 0.9910358190536499
+          "probability": 0.9881123900413513
         },
         {
-          "start": 3.34,
-          "end": 3.7,
+          "start": 3.12,
+          "end": 3.46,
           "word": " drive",
-          "probability": 0.9912448525428772
+          "probability": 0.9906691312789917
         },
         {
-          "start": 3.7,
-          "end": 3.98,
+          "start": 3.46,
+          "end": 3.78,
           "word": " must",
-          "probability": 0.9988709092140198
+          "probability": 0.9986288547515869
         },
         {
-          "start": 3.98,
-          "end": 4.52,
+          "start": 3.78,
+          "end": 4.22,
           "word": " find",
-          "probability": 0.9987813830375671
+          "probability": 0.9985853433609009
         },
         {
-          "start": 4.52,
-          "end": 4.86,
+          "start": 4.22,
+          "end": 4.56,
           "word": " where",
-          "probability": 0.9906987547874451
+          "probability": 0.9907783269882202
         },
         {
-          "start": 4.86,
-          "end": 5.06,
+          "start": 4.56,
+          "end": 4.78,
           "word": " its",
-          "probability": 0.9412370920181274
+          "probability": 0.9322235584259033
         },
         {
-          "start": 5.06,
-          "end": 5.42,
+          "start": 4.78,
+          "end": 5.1,
           "word": " data",
-          "probability": 0.9981430768966675
+          "probability": 0.9973300695419312
         },
         {
-          "start": 5.42,
-          "end": 5.62,
+          "start": 5.1,
+          "end": 5.3,
           "word": " is",
-          "probability": 0.9932061433792114
+          "probability": 0.9957538843154907
         },
         {
-          "start": 5.62,
-          "end": 6.02,
+          "start": 5.3,
+          "end": 5.68,
           "word": " stored.",
-          "probability": 0.9993614554405212
+          "probability": 0.9983501434326172
         },
         {
-          "start": 6.78,
-          "end": 7.28,
-          "word": " Inside,",
-          "probability": 0.995520830154419
+          "start": 6.46,
+          "end": 6.94,
+          "word": " Inside",
+          "probability": 0.9856410026550293
+        },
+        {
+          "start": 6.94,
+          "end": 7.8,
+          "word": " circular",
+          "probability": 0.20903995633125305
         },
         {
           "start": 7.8,
-          "end": 8.16,
-          "word": " circular",
-          "probability": 0.9878634214401245
-        }
-      ]
-    },
-    {
-      "start": 8.16,
-      "end": 14.66,
-      "text": "platters spin at a steady speed. Tiny magnetic regions on their surfaces represent the bits.",
-      "avg_logprob": -0.06645565025690126,
-      "no_speech_prob": 0.011520536616444588,
-      "words": [
-        {
-          "start": 8.16,
-          "end": 8.64,
+          "end": 8.22,
           "word": " platters",
-          "probability": 0.9090896844863892
+          "probability": 0.8324907720088959
+        },
+        {
+          "start": 8.22,
+          "end": 8.64,
+          "word": " spin",
+          "probability": 0.9708996415138245
         },
         {
           "start": 8.64,
-          "end": 9.14,
-          "word": " spin",
-          "probability": 0.9850917458534241
-        },
-        {
-          "start": 9.14,
-          "end": 9.42,
+          "end": 8.92,
           "word": " at",
-          "probability": 0.997490644454956
+          "probability": 0.9967421889305115
         },
         {
-          "start": 9.42,
-          "end": 9.62,
+          "start": 8.92,
+          "end": 9.06,
           "word": " a",
-          "probability": 0.9359623789787292
+          "probability": 0.9522700905799866
         },
         {
-          "start": 9.62,
-          "end": 9.88,
+          "start": 9.06,
+          "end": 9.4,
           "word": " steady",
-          "probability": 0.9993745684623718
+          "probability": 0.9992557168006897
         },
         {
-          "start": 9.88,
-          "end": 10.34,
+          "start": 9.4,
+          "end": 9.86,
           "word": " speed.",
-          "probability": 0.9909220337867737
+          "probability": 0.9903692603111267
         },
         {
-          "start": 11.04,
-          "end": 11.36,
+          "start": 10.62,
+          "end": 10.92,
           "word": " Tiny",
-          "probability": 0.9904187321662903
+          "probability": 0.9860163331031799
         },
         {
-          "start": 11.36,
-          "end": 11.86,
+          "start": 10.92,
+          "end": 11.44,
           "word": " magnetic",
-          "probability": 0.9783344268798828
+          "probability": 0.9864018559455872
         },
         {
-          "start": 11.86,
-          "end": 12.36,
+          "start": 11.44,
+          "end": 11.98,
           "word": " regions",
-          "probability": 0.9978759288787842
+          "probability": 0.9977001547813416
         },
         {
-          "start": 12.36,
-          "end": 12.6,
+          "start": 11.98,
+          "end": 12.22,
           "word": " on",
-          "probability": 0.9936677813529968
+          "probability": 0.991198718547821
         },
         {
-          "start": 12.6,
-          "end": 12.78,
+          "start": 12.22,
+          "end": 12.4,
           "word": " their",
-          "probability": 0.9865893125534058
+          "probability": 0.97971111536026
         },
         {
-          "start": 12.78,
-          "end": 13.28,
+          "start": 12.4,
+          "end": 12.86,
           "word": " surfaces",
-          "probability": 0.9857019186019897
+          "probability": 0.9890559911727905
         },
         {
-          "start": 13.28,
-          "end": 14.02,
+          "start": 12.86,
+          "end": 13.48,
           "word": " represent",
-          "probability": 0.9827334880828857
+          "probability": 0.9819644689559937
         },
         {
-          "start": 14.02,
-          "end": 14.3,
+          "start": 13.48,
+          "end": 13.74,
           "word": " the",
-          "probability": 0.9949138164520264
+          "probability": 0.9920787215232849
         },
         {
-          "start": 14.3,
-          "end": 14.66,
+          "start": 13.74,
+          "end": 14.1,
           "word": " bits.",
-          "probability": 0.980246901512146
-        }
-      ]
-    },
-    {
-      "start": 15.4,
-      "end": 21.06,
-      "text": "The file system gives the drive a logical address for the requested data. The controller",
-      "avg_logprob": -0.06645565025690126,
-      "no_speech_prob": 0.011520536616444588,
-      "words": [
+          "probability": 0.9815842509269714
+        },
         {
-          "start": 15.4,
-          "end": 15.64,
+          "start": 14.9,
+          "end": 15.1,
           "word": " The",
-          "probability": 0.9928654432296753
+          "probability": 0.99172443151474
         },
         {
-          "start": 15.64,
-          "end": 15.88,
+          "start": 15.1,
+          "end": 15.32,
           "word": " file",
-          "probability": 0.9045332670211792
+          "probability": 0.9589433073997498
         },
         {
-          "start": 15.88,
-          "end": 16.3,
+          "start": 15.32,
+          "end": 15.76,
           "word": " system",
-          "probability": 0.9897133111953735
+          "probability": 0.9901455044746399
         },
         {
-          "start": 16.3,
-          "end": 16.64,
+          "start": 15.76,
+          "end": 16.1,
           "word": " gives",
-          "probability": 0.9949560761451721
+          "probability": 0.9971311092376709
+        },
+        {
+          "start": 16.1,
+          "end": 16.34,
+          "word": " the",
+          "probability": 0.9967620372772217
+        },
+        {
+          "start": 16.34,
+          "end": 16.64,
+          "word": " drive",
+          "probability": 0.9943348169326782
         },
         {
           "start": 16.64,
-          "end": 16.88,
-          "word": " the",
-          "probability": 0.9974415302276611
-        },
-        {
-          "start": 16.88,
-          "end": 17.14,
-          "word": " drive",
-          "probability": 0.9941754937171936
-        },
-        {
-          "start": 17.14,
-          "end": 17.52,
+          "end": 16.98,
           "word": " a",
-          "probability": 0.9965366125106812
+          "probability": 0.994094967842102
         },
         {
-          "start": 17.52,
-          "end": 17.88,
+          "start": 16.98,
+          "end": 17.34,
           "word": " logical",
-          "probability": 0.9948181509971619
+          "probability": 0.997660756111145
         },
         {
-          "start": 17.88,
-          "end": 18.4,
+          "start": 17.34,
+          "end": 17.72,
           "word": " address",
-          "probability": 0.9971318244934082
+          "probability": 0.9984716773033142
         },
         {
-          "start": 18.4,
-          "end": 18.74,
+          "start": 17.72,
+          "end": 18.0,
           "word": " for",
-          "probability": 0.9969160556793213
+          "probability": 0.9952580332756042
         },
         {
-          "start": 18.74,
-          "end": 18.88,
+          "start": 18.0,
+          "end": 18.16,
           "word": " the",
-          "probability": 0.9885225296020508
+          "probability": 0.9895797371864319
         },
         {
-          "start": 18.88,
-          "end": 19.28,
+          "start": 18.16,
+          "end": 18.6,
           "word": " requested",
-          "probability": 0.9962413311004639
+          "probability": 0.9898237586021423
         },
         {
-          "start": 19.28,
-          "end": 19.68,
+          "start": 18.6,
+          "end": 19.0,
           "word": " data.",
-          "probability": 0.999208390712738
+          "probability": 0.999082088470459
         },
         {
-          "start": 20.38,
-          "end": 20.6,
+          "start": 19.7,
+          "end": 19.88,
           "word": " The",
-          "probability": 0.9971553087234497
+          "probability": 0.9958974123001099
         },
         {
-          "start": 20.6,
-          "end": 21.06,
+          "start": 19.88,
+          "end": 20.34,
           "word": " controller",
-          "probability": 0.9798898696899414
-        }
-      ]
-    },
-    {
-      "start": 21.06,
-      "end": 27.12,
-      "text": "translates that address into a track and sector on the platter. An actuator swings",
-      "avg_logprob": -0.06645565025690126,
-      "no_speech_prob": 0.011520536616444588,
-      "words": [
+          "probability": 0.9894608855247498
+        },
         {
-          "start": 21.06,
-          "end": 21.84,
+          "start": 20.34,
+          "end": 21.08,
           "word": " translates",
-          "probability": 0.9946517944335938
+          "probability": 0.9961431622505188
         },
         {
-          "start": 21.84,
-          "end": 22.16,
+          "start": 21.08,
+          "end": 21.4,
           "word": " that",
-          "probability": 0.9865874648094177
+          "probability": 0.9905111193656921
         },
         {
-          "start": 22.16,
-          "end": 22.52,
+          "start": 21.4,
+          "end": 21.74,
           "word": " address",
-          "probability": 0.9985517859458923
+          "probability": 0.9976436495780945
         },
         {
-          "start": 22.52,
-          "end": 22.88,
+          "start": 21.74,
+          "end": 22.08,
           "word": " into",
-          "probability": 0.9930965304374695
+          "probability": 0.9922358393669128
         },
         {
-          "start": 22.88,
-          "end": 23.24,
+          "start": 22.08,
+          "end": 22.44,
           "word": " a",
-          "probability": 0.9950897693634033
+          "probability": 0.9945849776268005
         },
         {
-          "start": 23.24,
-          "end": 23.38,
+          "start": 22.44,
+          "end": 22.6,
           "word": " track",
-          "probability": 0.9850441217422485
+          "probability": 0.9932048320770264
         },
         {
-          "start": 23.38,
-          "end": 23.68,
+          "start": 22.6,
+          "end": 22.9,
           "word": " and",
-          "probability": 0.9884690642356873
+          "probability": 0.9891068339347839
         },
         {
-          "start": 23.68,
-          "end": 24.14,
+          "start": 22.9,
+          "end": 23.28,
           "word": " sector",
-          "probability": 0.9875313639640808
+          "probability": 0.9903793334960938
         },
         {
-          "start": 24.14,
-          "end": 24.42,
+          "start": 23.28,
+          "end": 23.58,
           "word": " on",
-          "probability": 0.9950828552246094
+          "probability": 0.9949147701263428
         },
         {
-          "start": 24.42,
-          "end": 24.6,
+          "start": 23.58,
+          "end": 23.78,
           "word": " the",
-          "probability": 0.9966168999671936
+          "probability": 0.9980396628379822
         },
         {
-          "start": 24.6,
-          "end": 24.96,
+          "start": 23.78,
+          "end": 24.1,
           "word": " platter.",
-          "probability": 0.9971582591533661
+          "probability": 0.9975456595420837
         },
         {
-          "start": 25.54,
-          "end": 25.88,
+          "start": 24.76,
+          "end": 24.98,
           "word": " An",
-          "probability": 0.9933708906173706
+          "probability": 0.9883268475532532
         },
         {
-          "start": 25.88,
-          "end": 26.56,
+          "start": 24.98,
+          "end": 25.66,
           "word": " actuator",
-          "probability": 0.9961265623569489
+          "probability": 0.9955549538135529
         },
         {
-          "start": 26.56,
-          "end": 27.12,
+          "start": 25.66,
+          "end": 26.12,
           "word": " swings",
-          "probability": 0.9899024963378906
+          "probability": 0.9956146478652954
+        },
+        {
+          "start": 26.12,
+          "end": 26.4,
+          "word": " the",
+          "probability": 0.9965435862541199
+        },
+        {
+          "start": 26.4,
+          "end": 26.62,
+          "word": " read",
+          "probability": 0.8985723853111267
+        },
+        {
+          "start": 26.62,
+          "end": 26.8,
+          "word": " and",
+          "probability": 0.8772002458572388
+        },
+        {
+          "start": 26.8,
+          "end": 27.06,
+          "word": " write",
+          "probability": 0.9966781139373779
+        },
+        {
+          "start": 27.06,
+          "end": 27.3,
+          "word": " head",
+          "probability": 0.9932425618171692
+        },
+        {
+          "start": 27.3,
+          "end": 27.5,
+          "word": " to",
+          "probability": 0.9979724287986755
+        },
+        {
+          "start": 27.5,
+          "end": 27.68,
+          "word": " the",
+          "probability": 0.996173083782196
+        },
+        {
+          "start": 27.68,
+          "end": 27.9,
+          "word": " correct",
+          "probability": 0.9985490441322327
+        },
+        {
+          "start": 27.9,
+          "end": 28.3,
+          "word": " track.",
+          "probability": 0.9985112547874451
         }
       ]
     },
     {
-      "start": 27.12,
-      "end": 32.58,
-      "text": "the read and write head to the correct track. The head waits briefly for the write sector",
-      "avg_logprob": -0.11523187211004354,
-      "no_speech_prob": 0.012160132639110088,
+      "start": 28.3,
+      "end": 32.42,
+      "text": "The head waits briefly for the correct sector to rotate underneath.",
+      "avg_logprob": -0.10035053893391575,
+      "no_speech_prob": 0.008271905593574047,
       "words": [
         {
-          "start": 27.12,
-          "end": 27.34,
-          "word": " the",
-          "probability": 0.904766321182251
+          "start": 28.3,
+          "end": 29.04,
+          "word": " The",
+          "probability": 0.8146109580993652
         },
         {
-          "start": 27.34,
-          "end": 27.64,
-          "word": " read",
-          "probability": 0.9296584129333496
-        },
-        {
-          "start": 27.64,
-          "end": 27.86,
-          "word": " and",
-          "probability": 0.8782897591590881
-        },
-        {
-          "start": 27.86,
-          "end": 28.12,
-          "word": " write",
-          "probability": 0.990879237651825
-        },
-        {
-          "start": 28.12,
-          "end": 28.4,
+          "start": 29.04,
+          "end": 29.3,
           "word": " head",
-          "probability": 0.9879786968231201
+          "probability": 0.9925786852836609
         },
         {
-          "start": 28.4,
-          "end": 28.62,
-          "word": " to",
-          "probability": 0.9930275082588196
+          "start": 29.3,
+          "end": 29.68,
+          "word": " waits",
+          "probability": 0.9638116359710693
         },
         {
-          "start": 28.62,
-          "end": 28.82,
-          "word": " the",
-          "probability": 0.9918128252029419
-        },
-        {
-          "start": 28.82,
-          "end": 29.1,
-          "word": " correct",
-          "probability": 0.9976301193237305
-        },
-        {
-          "start": 29.1,
-          "end": 29.52,
-          "word": " track.",
-          "probability": 0.9969466328620911
+          "start": 29.68,
+          "end": 30.22,
+          "word": " briefly",
+          "probability": 0.9896057844161987
         },
         {
           "start": 30.22,
-          "end": 30.36,
-          "word": " The",
-          "probability": 0.9795709848403931
-        },
-        {
-          "start": 30.36,
-          "end": 30.58,
-          "word": " head",
-          "probability": 0.9899465441703796
-        },
-        {
-          "start": 30.58,
-          "end": 30.96,
-          "word": " waits",
-          "probability": 0.9703388214111328
-        },
-        {
-          "start": 30.96,
-          "end": 31.54,
-          "word": " briefly",
-          "probability": 0.9812146425247192
-        },
-        {
-          "start": 31.54,
-          "end": 31.82,
+          "end": 30.48,
           "word": " for",
-          "probability": 0.9966931343078613
+          "probability": 0.9985435009002686
         },
         {
-          "start": 31.82,
-          "end": 32.04,
+          "start": 30.48,
+          "end": 30.64,
           "word": " the",
-          "probability": 0.9899861216545105
+          "probability": 0.9921894073486328
         },
         {
-          "start": 32.04,
-          "end": 32.16,
-          "word": " write",
-          "probability": 0.7259553074836731
+          "start": 30.64,
+          "end": 30.94,
+          "word": " correct",
+          "probability": 0.9980323910713196
         },
         {
-          "start": 32.16,
-          "end": 32.58,
+          "start": 30.94,
+          "end": 31.32,
           "word": " sector",
-          "probability": 0.9875133633613586
-        }
-      ]
-    },
-    {
-      "start": 32.58,
-      "end": 38.58,
-      "text": "to rotate underneath. As the magnetic regions pass, the head senses their changes and",
-      "avg_logprob": -0.11523187211004354,
-      "no_speech_prob": 0.012160132639110088,
-      "words": [
+          "probability": 0.9947723746299744
+        },
         {
-          "start": 32.58,
-          "end": 32.82,
+          "start": 31.32,
+          "end": 31.58,
           "word": " to",
-          "probability": 0.9975833892822266
+          "probability": 0.9979016780853271
         },
         {
-          "start": 32.82,
-          "end": 33.14,
+          "start": 31.58,
+          "end": 31.92,
           "word": " rotate",
-          "probability": 0.9972482323646545
+          "probability": 0.9984489679336548
         },
         {
-          "start": 33.14,
-          "end": 33.62,
+          "start": 31.92,
+          "end": 32.42,
           "word": " underneath.",
-          "probability": 0.9757537841796875
-        },
-        {
-          "start": 34.44,
-          "end": 34.72,
-          "word": " As",
-          "probability": 0.9944368600845337
-        },
-        {
-          "start": 34.72,
-          "end": 34.92,
-          "word": " the",
-          "probability": 0.9860442876815796
-        },
-        {
-          "start": 34.92,
-          "end": 35.3,
-          "word": " magnetic",
-          "probability": 0.9950012564659119
-        },
-        {
-          "start": 35.3,
-          "end": 35.74,
-          "word": " regions",
-          "probability": 0.9802398085594177
-        },
-        {
-          "start": 35.74,
-          "end": 36.2,
-          "word": " pass,",
-          "probability": 0.9937283992767334
-        },
-        {
-          "start": 36.7,
-          "end": 36.82,
-          "word": " the",
-          "probability": 0.9937446713447571
-        },
-        {
-          "start": 36.82,
-          "end": 37.02,
-          "word": " head",
-          "probability": 0.9748400449752808
-        },
-        {
-          "start": 37.02,
-          "end": 37.54,
-          "word": " senses",
-          "probability": 0.9881786704063416
-        },
-        {
-          "start": 37.54,
-          "end": 37.8,
-          "word": " their",
-          "probability": 0.9804360866546631
-        },
-        {
-          "start": 37.8,
-          "end": 38.22,
-          "word": " changes",
-          "probability": 0.9951423406600952
-        },
-        {
-          "start": 38.22,
-          "end": 38.58,
-          "word": " and",
-          "probability": 0.935771644115448
+          "probability": 0.9767395257949829
         }
       ]
     },
     {
-      "start": 38.58,
-      "end": 43.88,
-      "text": "the electronics recover the bits. A quick movement of the arm plus the platter's",
-      "avg_logprob": -0.11523187211004354,
-      "no_speech_prob": 0.012160132639110088,
+      "start": 33.24,
+      "end": 39.04,
+      "text": "As the magnetic regions pass, the head senses their changes and the electronics retrieve the bits.",
+      "avg_logprob": -0.10035053893391575,
+      "no_speech_prob": 0.008271905593574047,
       "words": [
         {
-          "start": 38.58,
-          "end": 38.78,
+          "start": 33.24,
+          "end": 33.44,
+          "word": " As",
+          "probability": 0.9955335855484009
+        },
+        {
+          "start": 33.44,
+          "end": 33.64,
           "word": " the",
-          "probability": 0.9569419026374817
+          "probability": 0.9949074387550354
         },
         {
-          "start": 38.78,
-          "end": 39.32,
+          "start": 33.64,
+          "end": 34.04,
+          "word": " magnetic",
+          "probability": 0.9949296712875366
+        },
+        {
+          "start": 34.04,
+          "end": 34.5,
+          "word": " regions",
+          "probability": 0.9872732162475586
+        },
+        {
+          "start": 34.5,
+          "end": 34.9,
+          "word": " pass,",
+          "probability": 0.995452880859375
+        },
+        {
+          "start": 35.38,
+          "end": 35.48,
+          "word": " the",
+          "probability": 0.993506908416748
+        },
+        {
+          "start": 35.48,
+          "end": 35.72,
+          "word": " head",
+          "probability": 0.9837310314178467
+        },
+        {
+          "start": 35.72,
+          "end": 36.18,
+          "word": " senses",
+          "probability": 0.99517822265625
+        },
+        {
+          "start": 36.18,
+          "end": 36.48,
+          "word": " their",
+          "probability": 0.9836185574531555
+        },
+        {
+          "start": 36.48,
+          "end": 36.9,
+          "word": " changes",
+          "probability": 0.998359739780426
+        },
+        {
+          "start": 36.9,
+          "end": 37.28,
+          "word": " and",
+          "probability": 0.9301407933235168
+        },
+        {
+          "start": 37.28,
+          "end": 37.46,
+          "word": " the",
+          "probability": 0.9775488972663879
+        },
+        {
+          "start": 37.46,
+          "end": 38.02,
           "word": " electronics",
-          "probability": 0.9953391551971436
+          "probability": 0.9976779818534851
         },
         {
-          "start": 39.32,
-          "end": 39.78,
-          "word": " recover",
-          "probability": 0.9717364311218262
+          "start": 38.02,
+          "end": 38.5,
+          "word": " retrieve",
+          "probability": 0.8504443764686584
         },
+        {
+          "start": 38.5,
+          "end": 38.74,
+          "word": " the",
+          "probability": 0.9948470592498779
+        },
+        {
+          "start": 38.74,
+          "end": 39.04,
+          "word": " bits.",
+          "probability": 0.9933795928955078
+        }
+      ]
+    },
+    {
+      "start": 39.78,
+      "end": 44.82,
+      "text": "A quick movement of the arm plus the spinning platter brings the stored data to the head.",
+      "avg_logprob": -0.10035053893391575,
+      "no_speech_prob": 0.008271905593574047,
+      "words": [
         {
           "start": 39.78,
-          "end": 40.04,
-          "word": " the",
-          "probability": 0.9898109436035156
-        },
-        {
-          "start": 40.04,
-          "end": 40.28,
-          "word": " bits.",
-          "probability": 0.7953813076019287
-        },
-        {
-          "start": 40.98,
-          "end": 41.2,
+          "end": 39.9,
           "word": " A",
-          "probability": 0.9803591966629028
+          "probability": 0.9927917718887329
         },
         {
-          "start": 41.2,
-          "end": 41.48,
+          "start": 39.9,
+          "end": 40.2,
           "word": " quick",
-          "probability": 0.9983862638473511
+          "probability": 0.999384880065918
         },
         {
-          "start": 41.48,
-          "end": 41.9,
+          "start": 40.2,
+          "end": 40.62,
           "word": " movement",
-          "probability": 0.9919342994689941
+          "probability": 0.996716320514679
         },
         {
-          "start": 41.9,
-          "end": 42.14,
+          "start": 40.62,
+          "end": 40.86,
           "word": " of",
-          "probability": 0.997197151184082
+          "probability": 0.9983782768249512
         },
         {
-          "start": 42.14,
-          "end": 42.34,
+          "start": 40.86,
+          "end": 41.1,
           "word": " the",
-          "probability": 0.9819308519363403
+          "probability": 0.9922163486480713
+        },
+        {
+          "start": 41.1,
+          "end": 41.36,
+          "word": " arm",
+          "probability": 0.9921454787254333
+        },
+        {
+          "start": 41.36,
+          "end": 41.76,
+          "word": " plus",
+          "probability": 0.9060023427009583
+        },
+        {
+          "start": 41.76,
+          "end": 42.0,
+          "word": " the",
+          "probability": 0.993718147277832
+        },
+        {
+          "start": 42.0,
+          "end": 42.34,
+          "word": " spinning",
+          "probability": 0.9983345866203308
         },
         {
           "start": 42.34,
-          "end": 42.62,
-          "word": " arm",
-          "probability": 0.9893698692321777
+          "end": 42.78,
+          "word": " platter",
+          "probability": 0.9953610897064209
         },
         {
-          "start": 42.62,
-          "end": 43.02,
-          "word": " plus",
-          "probability": 0.8830633163452148
-        },
-        {
-          "start": 43.02,
-          "end": 43.28,
-          "word": " the",
-          "probability": 0.9949163198471069
-        },
-        {
-          "start": 43.28,
-          "end": 43.88,
-          "word": " platter's",
-          "probability": 0.9523650606473287
-        }
-      ]
-    },
-    {
-      "start": 43.88,
-      "end": 46.32,
-      "text": "brings the stored data to the head.",
-      "avg_logprob": -0.3677756677974354,
-      "no_speech_prob": 0.4038631021976471,
-      "words": [
-        {
-          "start": 43.88,
-          "end": 44.84,
+          "start": 42.78,
+          "end": 43.34,
           "word": " brings",
-          "probability": 0.4811594486236572
+          "probability": 0.9492316842079163
         },
         {
-          "start": 44.84,
-          "end": 45.06,
+          "start": 43.34,
+          "end": 43.58,
           "word": " the",
-          "probability": 0.9747114181518555
+          "probability": 0.9846909642219543
         },
         {
-          "start": 45.06,
-          "end": 45.46,
+          "start": 43.58,
+          "end": 43.92,
           "word": " stored",
-          "probability": 0.9871290922164917
+          "probability": 0.9968985319137573
         },
         {
-          "start": 45.46,
-          "end": 45.74,
+          "start": 43.92,
+          "end": 44.22,
           "word": " data",
-          "probability": 0.9990884065628052
+          "probability": 0.9988939166069031
         },
         {
-          "start": 45.74,
-          "end": 45.94,
+          "start": 44.22,
+          "end": 44.46,
           "word": " to",
-          "probability": 0.9984173774719238
+          "probability": 0.9982884526252747
         },
         {
-          "start": 45.94,
-          "end": 46.14,
+          "start": 44.46,
+          "end": 44.64,
           "word": " the",
-          "probability": 0.9861372709274292
+          "probability": 0.9961208701133728
         },
         {
-          "start": 46.14,
-          "end": 46.32,
+          "start": 44.64,
+          "end": 44.82,
           "word": " head.",
-          "probability": 0.9890979528427124
+          "probability": 0.9983056783676147
         }
       ]
     }
