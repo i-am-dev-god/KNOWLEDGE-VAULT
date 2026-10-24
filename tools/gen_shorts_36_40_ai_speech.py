@@ -55,7 +55,7 @@ def normalize_tokens(text: str) -> list[str]:
     text = re.sub(r"\bde[- ]mosaicing\b", "demosaicing", text)
     tokens = re.findall(r"[a-z0-9]+", text.replace("'", ""))
     aliases = {
-        "0": "zero", "1": "one", "canceling": "cancelling",
+        "0": "zero", "1": "one", "2": "two", "canceling": "cancelling",
         "neighbour": "neighbor", "neighbours": "neighbors", "neighbouring": "neighboring",
         "coloured": "colored",
     }
@@ -197,7 +197,25 @@ def align_one(project: dict) -> None:
         word for word in timed_words
         if float(word["probability"]) < 0.20 and float(word["end"]) - float(word["start"]) <= 0.10
     ]
-    ignored_spurious_ids = {id(word) for word in ignored_spurious_words}
+    # Whisper can duplicate the final word at a segment boundary as a tiny,
+    # lower-confidence fragment. Accept that exclusion only for an immediately
+    # repeated token followed by a real pause; full-script equality is still mandatory.
+    ignored_boundary_repeats = []
+    for index, word in enumerate(timed_words):
+        if index == 0 or index + 1 >= len(timed_words):
+            continue
+        current_tokens = normalize_tokens(word["word"])
+        previous_tokens = normalize_tokens(timed_words[index - 1]["word"])
+        duration = float(word["end"]) - float(word["start"])
+        following_pause = float(timed_words[index + 1]["start"]) - float(word["end"])
+        boundary_gap = abs(float(word["start"]) - float(timed_words[index - 1]["end"]))
+        if (
+            len(current_tokens) == 1 and previous_tokens and current_tokens[0] == previous_tokens[-1]
+            and float(word["probability"]) < 0.75 and duration <= 0.16
+            and following_pause >= 0.25 and boundary_gap <= 0.04
+        ):
+            ignored_boundary_repeats.append(word)
+    ignored_spurious_ids = {id(word) for word in ignored_spurious_words + ignored_boundary_repeats}
     words = [word for word in timed_words if id(word) not in ignored_spurious_ids]
     asr_alignment = [(token, word) for word in words for token in normalize_tokens(word["word"])]
     expected_tokens = [token for _, token in expected_flat]
@@ -296,6 +314,7 @@ def align_one(project: dict) -> None:
             "mean_word_probability": result["mean_word_probability"],
             "asr_tail_filter": f"Excluded {len(ignored_tail_words)} ASR tokens beginning in digital silence at or after {speech_end:.6f}s",
             "asr_spurious_token_filter": f"Excluded {len(ignored_spurious_words)} ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+            "asr_boundary_repeat_filter": f"Excluded {len(ignored_boundary_repeats)} immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
             "asr_homophone_corrections": homophone_corrections,
             "asr_compound_corrections": compound_corrections,
         },

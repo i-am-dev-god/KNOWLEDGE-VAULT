@@ -240,8 +240,48 @@
   "transparent": false
  },
  {
+  "id": "Short36FiberOptics",
+  "durationInSeconds": 56,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short37ElectricMotor",
+  "durationInSeconds": 58,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short38Transformer",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short39Radar",
+  "durationInSeconds": 56,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short4Reflog",
   "durationInSeconds": 34,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short40MechanicalWatch",
+  "durationInSeconds": 60,
   "fps": 30,
   "width": 1080,
   "height": 1920,

@@ -1,0 +1,170 @@
+{
+  "id": "short-36-fiber-optics",
+  "title": "How Fiber Optics Carry Internet Data",
+  "composition": "Short36FiberOptics",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 56.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-36-fiber-optics/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "4c6ebc265e364bad166e0b14d11f84fa77d4128ee2d52221fd505c6c25a6cd79",
+    "raw_duration_seconds": 49.6,
+    "trimmed_duration_seconds": 48.773,
+    "tempo_rate": 0.969642147,
+    "requested_tempo_rate": 0.969642147,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 51.0,
+    "narration_file": "media/voiceovers/fiber-optics/narration.wav",
+    "narration_sha256": "b13b0adcd3d00bb16d0fd129a8fd4d5b29e1813adb7811089e2e2f2cbbb1747d",
+    "narration_duration_seconds": 56.0,
+    "paced_speech_end_seconds": 50.994271,
+    "script_sha256": "1fcbd08df466f8a8d74e5378bc1cceeabcb5dec6770d84404dfd1ebd49cca6b3",
+    "spoken_words": 139,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9627003005572727,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 50.994271s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": [
+      {
+        "asr": "photo detector",
+        "script": "photodetector",
+        "start": 36.36,
+        "end": 36.98
+      }
+    ]
+  },
+  "pacing": "Calm 56-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 50.9,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Internet data becomes light",
+      "start": 0.0,
+      "end": 11.98
+    },
+    {
+      "id": "transmit",
+      "title": "The transmitter encodes light pulses",
+      "start": 11.98,
+      "end": 18.16
+    },
+    {
+      "id": "core",
+      "title": "Light enters the glass core",
+      "start": 18.16,
+      "end": 23.16
+    },
+    {
+      "id": "reflect",
+      "title": "The fiber confines and guides light",
+      "start": 23.16,
+      "end": 34.56
+    },
+    {
+      "id": "receive",
+      "title": "The receiver restores digital data",
+      "start": 34.56,
+      "end": 44.66
+    },
+    {
+      "id": "closing",
+      "title": "Coded light crosses the fiber",
+      "start": 44.66,
+      "end": 56.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-light",
+      "scene": "hook",
+      "text": "A fiber-optic cable carries internet data as flashes of light inside a strand of glass.",
+      "speak": "A fiber-optic cable carries internet data as flashes of light inside a strand of glass.",
+      "start": 0.7,
+      "end": 6.08,
+      "duration": 5.38
+    },
+    {
+      "id": "hook-copper",
+      "scene": "hook",
+      "text": "Instead of sending electrical pulses through copper, it guides light from one end to the other.",
+      "speak": "Instead of sending electrical pulses through copper, it guides light from one end to the other.",
+      "start": 6.74,
+      "end": 11.82,
+      "duration": 5.08
+    },
+    {
+      "id": "transmit-encode",
+      "scene": "transmit",
+      "text": "At the cable's transmitter, a laser or LED turns digital data into rapid pulses of light.",
+      "speak": "At the cable's transmitter, a laser or LED turns digital data into rapid pulses of light.",
+      "start": 12.48,
+      "end": 18.1,
+      "duration": 5.62
+    },
+    {
+      "id": "core-enter",
+      "scene": "core",
+      "text": "Those pulses enter the cable's narrow core, the central path reserved for the light.",
+      "speak": "Those pulses enter the cable's narrow core, the central path reserved for the light.",
+      "start": 18.66,
+      "end": 23.1,
+      "duration": 4.44
+    },
+    {
+      "id": "reflect-boundary",
+      "scene": "reflect",
+      "text": "The core is wrapped in cladding, which lets light reflect at the boundary instead of escaping.",
+      "speak": "The core is wrapped in cladding, which lets light reflect at the boundary instead of escaping.",
+      "start": 23.66,
+      "end": 28.26,
+      "duration": 4.6
+    },
+    {
+      "id": "reflect-zigzag",
+      "scene": "reflect",
+      "text": "Each pulse follows the fiber by repeated total internal reflection, even when the cable bends.",
+      "speak": "Each pulse follows the fiber by repeated total internal reflection, even when the cable bends.",
+      "start": 28.26,
+      "end": 34.24,
+      "duration": 5.98
+    },
+    {
+      "id": "receive-detect",
+      "scene": "receive",
+      "text": "At the destination, a photodetector senses the arriving pattern of light and darkness.",
+      "speak": "At the destination, a photodetector senses the arriving pattern of light and darkness.",
+      "start": 35.06,
+      "end": 39.46,
+      "duration": 4.4
+    },
+    {
+      "id": "receive-data",
+      "scene": "receive",
+      "text": "The receiver converts that pattern back into electrical data for your computer or router.",
+      "speak": "The receiver converts that pattern back into electrical data for your computer or router.",
+      "start": 40.26,
+      "end": 44.54,
+      "duration": 4.28
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So fiber-optic internet moves information by guiding coded light through glass, then decoding it at the far end.",
+      "speak": "So fiber-optic internet moves information by guiding coded light through glass, then decoding it at the far end.",
+      "start": 45.16,
+      "end": 50.9,
+      "duration": 5.74
+    }
+  ]
+}

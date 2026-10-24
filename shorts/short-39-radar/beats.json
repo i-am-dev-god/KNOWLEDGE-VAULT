@@ -1,0 +1,163 @@
+{
+  "id": "short-39-radar",
+  "title": "How Radar Finds Distant Objects",
+  "composition": "Short39Radar",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 56.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-39-radar/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "f95733d5c6ef6692c8949f195edcfe24aac1da70329d772a23a5bba9e5effd4c",
+    "raw_duration_seconds": 44.08,
+    "trimmed_duration_seconds": 43.712833,
+    "tempo_rate": 0.94412167,
+    "requested_tempo_rate": 0.94412167,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.0,
+    "narration_file": "media/voiceovers/radar/narration.wav",
+    "narration_sha256": "0e31244555746eda4fe04ff783ed7fdc206ee4fab2f4ca0bcf1595fdc48732ac",
+    "narration_duration_seconds": 56.0,
+    "paced_speech_end_seconds": 46.985375,
+    "script_sha256": "9eea9df34f3a9e65e502a2a6503905994f39fb9b4e072e563f8e7ecd1ff07a55",
+    "spoken_words": 130,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9661675377533986,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 46.985375s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 56-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 46.84,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Radar sends waves and receives echoes",
+      "start": 0.0,
+      "end": 10.22
+    },
+    {
+      "id": "transmit",
+      "title": "The antenna launches a radio pulse",
+      "start": 10.22,
+      "end": 22.18
+    },
+    {
+      "id": "echo",
+      "title": "The object reflects an echo",
+      "start": 22.18,
+      "end": 26.36
+    },
+    {
+      "id": "range",
+      "title": "Round-trip time becomes distance",
+      "start": 26.36,
+      "end": 35.4
+    },
+    {
+      "id": "scan",
+      "title": "Repeated scans build an echo map",
+      "start": 35.4,
+      "end": 41.48
+    },
+    {
+      "id": "closing",
+      "title": "Radio echoes reveal object locations",
+      "start": 41.48,
+      "end": 56.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-echo",
+      "scene": "hook",
+      "text": "A radar finds distant objects by sending out radio waves and listening for their echoes.",
+      "speak": "A radar finds distant objects by sending out radio waves and listening for their echoes.",
+      "start": 0.7,
+      "end": 5.7,
+      "duration": 5.0
+    },
+    {
+      "id": "hook-dark",
+      "scene": "hook",
+      "text": "This works in darkness because radio echoes do not need visible light.",
+      "speak": "This works in darkness because radio echoes do not need visible light.",
+      "start": 6.32,
+      "end": 10.04,
+      "duration": 3.72
+    },
+    {
+      "id": "transmit-pulse",
+      "scene": "transmit",
+      "text": "The radar's transmitter creates a short radio pulse, and its antenna sends that pulse into space.",
+      "speak": "The radar's transmitter creates a short radio pulse, and its antenna sends that pulse into space.",
+      "start": 10.72,
+      "end": 16.48,
+      "duration": 5.76
+    },
+    {
+      "id": "transmit-travel",
+      "scene": "transmit",
+      "text": "The pulse travels outward at the speed of light until it reaches an object such as an aircraft.",
+      "speak": "The pulse travels outward at the speed of light until it reaches an object such as an aircraft.",
+      "start": 17.1,
+      "end": 21.92,
+      "duration": 4.82
+    },
+    {
+      "id": "echo-return",
+      "scene": "echo",
+      "text": "Some radio energy reflects from the aircraft and returns toward the radar antenna.",
+      "speak": "Some radio energy reflects from the aircraft and returns toward the radar antenna.",
+      "start": 22.68,
+      "end": 26.86,
+      "duration": 4.18
+    },
+    {
+      "id": "range-time",
+      "scene": "range",
+      "text": "The radar measures the echo's round-trip time to calculate distance.",
+      "speak": "The radar measures the echo's round-trip time to calculate distance.",
+      "start": 26.86,
+      "end": 30.96,
+      "duration": 4.1
+    },
+    {
+      "id": "range-half",
+      "scene": "range",
+      "text": "Multiplying half that time by the speed of light gives the object's range.",
+      "speak": "Multiplying half that time by the speed of light gives the object's range.",
+      "start": 31.64,
+      "end": 35.16,
+      "duration": 3.52
+    },
+    {
+      "id": "scan-map",
+      "scene": "scan",
+      "text": "A rotating antenna repeats this process in different directions, building a map of echoes around the radar.",
+      "speak": "A rotating antenna repeats this process in different directions, building a map of echoes around the radar.",
+      "start": 35.9,
+      "end": 41.28,
+      "duration": 5.38
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So radar locates objects by timing radio-wave echoes rather than relying on visible light.",
+      "speak": "So radar locates objects by timing radio-wave echoes rather than relying on visible light.",
+      "start": 41.98,
+      "end": 46.84,
+      "duration": 4.86
+    }
+  ]
+}
