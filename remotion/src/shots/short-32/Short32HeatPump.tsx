@@ -36,7 +36,7 @@ const Short32HeatPump: React.FC = () => {
     <Scene t={t} id="hook" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="A heat pump is a heat mover" lines={['Warm your home', 'with outdoor heat']} accentIndex={1} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={95} y={690} width={290} height={310} rx={30} fill="#e5f1fb" stroke={C.blue} strokeWidth={4} /><text x={240} y={745} textAnchor="middle" fill={C.blue} fontWeight={700} fontSize={22}>COLD OUTDOOR AIR</text>
         <g opacity={0.35 + existing * 0.65}>{[150, 230, 310].map((x, i) => <circle key={x} cx={x} cy={835 + (i % 2) * 65} r={18} fill={C.amber} />)}<text x={240} y={955} textAnchor="middle" fill={C.amber} fontWeight={700} fontSize={20}>HEAT IS STILL PRESENT</text></g>
         <House x={790} y={865} />
@@ -47,7 +47,7 @@ const Short32HeatPump: React.FC = () => {
     <Scene t={t} id="outside" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="At the heat pump's outdoor coil" lines={['Cold refrigerant', 'collects heat']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <g opacity={0.35 + absorb * 0.65}><Coil x={540} y={860} color={C.blue} label="OUTDOOR COIL" /><FocusRing x={540} y={860} rx={240} ry={205} t={t} opacity={absorb} color={C.blue} /></g>
         <MovingDots x1={110} y1={720} x2={330} y2={790} t={t} color={C.amber} opacity={absorb} count={6} radius={12} /><MovingDots x1={970} y1={720} x2={750} y2={790} t={t} color={C.amber} opacity={absorb} count={6} radius={12} />
         <text x={180} y={650} fill={C.amber} fontWeight={700} fontSize={22} opacity={absorb}>HEAT FROM AIR</text><text x={760} y={650} fill={C.amber} fontWeight={700} fontSize={22} opacity={absorb}>HEAT FROM AIR</text>
@@ -57,7 +57,7 @@ const Short32HeatPump: React.FC = () => {
     <Scene t={t} id="compress" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="The heat pump raises the temperature" lines={['The compressor', 'squeezes the gas']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={250} y={660} width={580} height={390} rx={60} fill="#edf0f5" stroke={C.indigo} strokeWidth={7} /><rect x={330} y={730} width={420} height={210} rx={35} fill="#d5f0e9" stroke={C.teal} strokeWidth={4} />
         <g transform={`translate(0 ${Math.sin(t * 5) * 18 * compress})`}><rect x={390} y={610} width={300} height={95} rx={20} fill={C.indigo} /><text x={540} y={670} textAnchor="middle" fill={C.paper} fontWeight={700} fontSize={23}>PISTON</text></g>
         {Array.from({ length: 10 }, (_, i) => <circle key={i} cx={390 + (i % 5) * (75 - compress * 18)} cy={800 + Math.floor(i / 5) * 80} r={18} fill={compress > 0.55 ? C.coral : C.blue} opacity={0.4 + compress * 0.6} />)}
@@ -69,7 +69,7 @@ const Short32HeatPump: React.FC = () => {
     <Scene t={t} id="inside" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="Inside your home" lines={['The indoor coil', 'releases the heat']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <Coil x={370} y={850} color={C.coral} label="HOT INDOOR COIL" /><FocusRing x={370} y={850} rx={235} ry={205} t={t} opacity={release} color={C.coral} />
         <g opacity={0.3 + fan * 0.7}><Fan x={780} y={850} t={t} active={fan} /><FocusRing x={780} y={850} rx={145} ry={145} t={t} opacity={fan} /><text x={780} y={1050} textAnchor="middle" fill={C.mint} fontWeight={700} fontSize={22}>FAN</text></g>
         <MovingDots x1={535} y1={750} x2={700} y2={700} t={t} color={C.amber} opacity={release} count={5} radius={12} /><MovingDots x1={820} y1={700} x2={960} y2={650} t={t} color={C.amber} opacity={fan} count={4} radius={12} />
@@ -79,19 +79,31 @@ const Short32HeatPump: React.FC = () => {
     <Scene t={t} id="valve" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="The heat pump resets the refrigerant" lines={['Condense. Expand.', 'Repeat the cycle.']} accentIndex={2} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
-        <path d="M 260 720 L 790 720 L 790 1070 L 260 1070 Z" fill="none" stroke={C.muted} strokeWidth={12} opacity={0.45} />
-        <Coil x={270} y={720} color={C.blue} label="OUTDOOR" /><g opacity={0.45 + condense * 0.55}><Coil x={790} y={720} color={C.coral} label="INDOOR" />{[710, 790, 870].map((x) => <path key={x} d={`M ${x} 825 Q ${x - 22} 860 ${x} 875 Q ${x + 22} 860 ${x} 825`} fill={C.blue} opacity={condense} />)}</g>
-        <rect x={205} y={1010} width={110} height={120} rx={25} fill={C.indigo} /><text x={260} y={1080} textAnchor="middle" fill={C.paper} fontWeight={700} fontSize={18}>COMP.</text>
-        <g opacity={0.25 + valve * 0.75}><path d="M 720 1040 L 860 1100 M 720 1100 L 860 1040" stroke={C.amber} strokeWidth={12} /><FocusRing x={790} y={1070} rx={125} ry={95} t={t} opacity={valve} color={C.amber} /><text x={790} y={1200} textAnchor="middle" fill={C.amber} fontWeight={700} fontSize={21}>EXPANSION VALVE</text></g>
-        <MovingDots x1={330} y1={720} x2={650} y2={720} t={t} color={C.coral} opacity={condense} /><MovingDots x1={790} y1={830} x2={790} y2={960} t={t} color={C.blue} opacity={condense} /><MovingDots x1={710} y1={1070} x2={360} y2={1070} t={t} color={C.blue} opacity={valve} />
-        <FocusLabel x={440} y={1210} text="COLD AGAIN FOR OUTDOORS" color={C.blue} opacity={valve} />
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
+        <path d="M 270 720 H 790 V 1000 H 260 V 720 Z" fill="none" stroke={C.muted} strokeWidth={10} opacity={0.35} />
+        <Coil x={270} y={720} color={C.blue} label="OUTDOOR" />
+        <rect x={720} y={650} width={140} height={100} rx={25} fill={C.indigo} /><text x={790} y={795} textAnchor="middle" fill={C.indigo} fontWeight={700} fontSize={18}>COMPRESSOR</text>
+        <g opacity={0.45 + condense * 0.55}>
+          <Coil x={790} y={1000} color={C.coral} label="INDOOR" />
+          {[710, 790, 870].map((x) => <path key={x} d={`M ${x} 1100 Q ${x - 22} 1135 ${x} 1155 Q ${x + 22} 1135 ${x} 1100`} fill={C.blue} opacity={condense} />)}
+          <FocusRing x={790} y={1000} rx={235} ry={195} t={t} opacity={condense} color={C.coral} />
+        </g>
+        <g opacity={0.25 + valve * 0.75}>
+          <path d="M 200 960 L 320 1040 M 200 1040 L 320 960" stroke={C.amber} strokeWidth={12} />
+          <FocusRing x={260} y={1000} rx={115} ry={95} t={t} opacity={valve} color={C.amber} />
+          <text x={260} y={1160} textAnchor="middle" fill={C.amber} fontWeight={700} fontSize={20}>EXPANSION VALVE</text>
+        </g>
+        <MovingDots x1={450} y1={720} x2={690} y2={720} t={t} color={C.blue} opacity={0.55} />
+        <MovingDots x1={790} y1={780} x2={790} y2={840} t={t} color={C.coral} opacity={condense} count={3} />
+        <MovingDots x1={700} y1={1000} x2={360} y2={1000} t={t} color={C.blue} opacity={condense} />
+        <MovingDots x1={260} y1={930} x2={270} y2={820} t={t} color={C.blue} opacity={valve} count={4} />
+        <FocusLabel x={540} y={1250} text="COLD AGAIN FOR THE OUTDOOR COIL" color={C.blue} opacity={valve} />
       </svg>
     </Scene>
     <Scene t={t} id="closing" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="One refrigerant loop moves the heat" lines={['Absorb. Compress.', 'Release. Repeat.']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO} textAnchor="middle">
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO} textAnchor="middle">
         {[['OUTDOOR COIL ABSORBS HEAT', C.blue], ['COMPRESSOR RAISES TEMPERATURE', C.coral], ['INDOOR COIL HEATS YOUR HOME', C.amber], ['VALVE RESETS THE CYCLE', C.mint]].map(([label, color], i) => <g key={label} transform={`translate(540 ${640 + i * 155})`}><rect x={-350} y={-52} width={700} height={104} rx={24} fill="rgba(255,255,255,0.06)" stroke={color as string} strokeWidth={3} /><text y={8} fill={color as string} fontWeight={700} fontSize={21}>{label}</text>{i < 3 && <Arrow x1={0} y1={60} x2={0} y2={95} color={C.mint} width={4} />}</g>)}
       </svg>
     </Scene>

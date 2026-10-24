@@ -35,7 +35,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="hook" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="Inside a 3D printer" lines={['A solid object', 'one layer at a time']} accentIndex={1} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={190} y={1070} width={700} height={65} rx={22} fill={C.dark} /><LayerStack x={540} y={1030} count={7} active={Math.floor(t * 1.2) % 7} />
         <Nozzle x={540} y={620} heat={0.8} scale={0.65} /><Arrow x1={250} y1={1070} x2={250} y2={770} color={C.mint} /><text x={250} y={750} textAnchor="middle" fill={C.teal} fontWeight={700} fontSize={20}>THIN LAYERS</text>
         <FocusRing x={540} y={930} rx={205} ry={190} t={t} color={C.mint} /><FocusLabel x={540} y={1240} text="LAYERS BECOME THE OBJECT" color={C.teal} />
@@ -44,7 +44,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="slice" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="Before the 3D printer moves" lines={['Software slices', 'the model and path']} accentIndex={1} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <g opacity={0.8 - path * 0.45}><ellipse cx={270} cy={730} rx={125} ry={48} fill="none" stroke={C.indigo} strokeWidth={5} /><path d="M 145 730 L 145 980 Q 270 1070 395 980 L 395 730" fill="none" stroke={C.indigo} strokeWidth={5} /><ellipse cx={270} cy={980} rx={125} ry={48} fill="none" stroke={C.indigo} strokeWidth={5} /><text x={270} y={1110} textAnchor="middle" fill={C.indigo} fontWeight={700} fontSize={21}>DIGITAL 3D MODEL</text></g>
         <Chip x={540} y={760} scale={0.48} label="SLICE" opacity={slice} /><Arrow x1={410} y1={790} x2={475} y2={790} color={C.mint} opacity={slice} /><Arrow x1={610} y1={790} x2={675} y2={790} color={C.mint} opacity={slice} />
         <g opacity={slice}><LayerStack x={805} y={1000} count={6} active={Math.floor(path * 5)} scale={0.65} /><text x={805} y={1110} textAnchor="middle" fill={C.mint} fontWeight={700} fontSize={21}>PRINTABLE LAYERS</text></g>
@@ -59,7 +59,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="heat" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="The 3D printer prepares the material" lines={['Heat the nozzle.', 'Flow the filament.']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <Nozzle x={500} y={850} heat={heat} scale={1.25} /><FocusRing x={500} y={850} rx={190} ry={190} t={t} opacity={heat} color={C.coral} />
         <MovingDots x1={500} y1={580} x2={500} y2={800} t={t} color={C.indigo} opacity={heat} count={5} radius={11} /><text x={500} y={535} textAnchor="middle" fill={C.indigo} fontWeight={700} fontSize={22}>PLASTIC FILAMENT</text>
         <rect x={745} y={700} width={190} height={250} rx={30} fill={C.paper} stroke={C.coral} strokeWidth={5} /><text x={840} y={775} textAnchor="middle" fill={C.muted} fontWeight={700} fontSize={20}>NOZZLE</text><text x={840} y={875} textAnchor="middle" fill={C.coral} fontWeight={700} fontSize={52}>{Math.round(25 + heat * 180)}°C</text>
@@ -69,7 +69,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="extrude" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="The 3D printer makes the current layer" lines={['Follow the path.', 'Cool the plastic.']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <path d="M 265 780 H 815 V 1000 H 265 Z" fill="none" stroke={C.muted} strokeWidth={5} strokeDasharray="12 12" opacity={0.45} />
         <path d="M 265 780 H 815 V 1000 H 265 Z" fill="none" stroke={cool > 0.4 ? C.teal : C.coral} strokeWidth={18} strokeLinejoin="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - extrude} />
         <rect x={190} y={1050} width={700} height={65} rx={20} fill="#293448" /><text x={540} y={1170} textAnchor="middle" fill={C.mint} fontWeight={700} fontSize={22}>PRINT BED</text>
@@ -80,7 +80,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="stack" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="The 3D printer repeats and bonds" lines={['Rise. Print again.', 'Fuse the layers.']} accentIndex={2} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={190} y={1080} width={700} height={65} rx={22} fill={C.dark} />
         {Array.from({ length: 7 }, (_, i) => <g key={i} opacity={i < 3 ? 1 : prog(bond, (i - 3) * 0.18, (i - 3) * 0.18 + 0.35)}><rect x={330} y={1000 - i * 55} width={420} height={35} rx={15} fill={i === 6 ? C.mint : C.teal} stroke={C.paper} strokeWidth={2} /><ellipse cx={540} cy={1000 - i * 55} rx={210} ry={35} fill={i === 6 ? C.mint : '#61bcb1'} opacity={0.85} /></g>)}
         <g transform={`translate(0 ${-next * 55})`}><Nozzle x={540} y={590} heat={0.8} scale={0.65} /></g>
@@ -91,7 +91,7 @@ const Short34Printer3D: React.FC = () => {
     <Scene t={t} id="closing" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="The 3D printer's complete process" lines={['Slice. Extrude. Cool.', 'Bond every layer.']} accentIndex={1} size={60} />
-      <svg width={W} height={H} fontFamily={FONT_MONO} textAnchor="middle">
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO} textAnchor="middle">
         {[['DIGITAL MODEL IS SLICED', C.indigo], ['NOZZLE FOLLOWS THE PATH', C.coral], ['PLASTIC COOLS INTO A LAYER', C.mint], ['LAYERS BOND INTO THE OBJECT', C.teal]].map(([label, color], i) => <g key={label} transform={`translate(540 ${640 + i * 155})`}><rect x={-350} y={-52} width={700} height={104} rx={24} fill="rgba(255,255,255,0.06)" stroke={color as string} strokeWidth={3} /><text y={8} fill={color as string} fontWeight={700} fontSize={21}>{label}</text>{i < 3 && <Arrow x1={0} y1={60} x2={0} y2={95} color={C.mint} width={4} />}</g>)}
       </svg>
     </Scene>

@@ -28,7 +28,7 @@ const Short35Airbag: React.FC = () => {
     <Scene t={t} id="hook" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="An airbag works with your seat belt" lines={['A cushion', 'during a severe crash']} accentIndex={1} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <Occupant x={330} y={875} belt={1} /><Steering x={800} y={865} active={0.3} />
         <ellipse cx={590} cy={835} rx={165} ry={205} fill={C.mint} opacity={0.20} stroke={C.teal} strokeWidth={5} strokeDasharray="12 10" /><text x={590} y={835} textAnchor="middle" fill={C.teal} fontWeight={700} fontSize={22}>AIRBAG CUSHION</text>
         <FocusRing x={590} y={835} rx={195} ry={235} t={t} color={C.mint} />
@@ -38,7 +38,7 @@ const Short35Airbag: React.FC = () => {
     <Scene t={t} id="sense" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="The airbag system evaluates the crash" lines={['Sense deceleration.', 'Confirm severe impact.']} accentIndex={1} size={59} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={95} y={650} width={500} height={390} rx={30} fill="rgba(255,255,255,0.045)" stroke={C.coral} strokeWidth={4} /><text x={345} y={705} textAnchor="middle" fill={C.coral} fontWeight={700} fontSize={21}>SUDDEN DECELERATION</text>
         <path d="M 140 950 L 140 760 M 140 950 L 550 950" stroke={C.muted} strokeWidth={3} /><path d="M 150 900 L 240 900 L 285 890 L 320 735 L 355 890 L 430 900 L 540 900" fill="none" stroke={C.coral} strokeWidth={7} />
         <path d="M 140 810 L 550 810" stroke={C.amber} strokeWidth={3} strokeDasharray="9 9" opacity={decide} /><text x={535} y={795} textAnchor="end" fill={C.amber} fontWeight={700} fontSize={18} opacity={decide}>SEVERE CRASH THRESHOLD</text>
@@ -50,7 +50,7 @@ const Short35Airbag: React.FC = () => {
     <Scene t={t} id="trigger" scenes={SCENES}>
       <Background t={t} /><DemoPanel top={470} height={830} />
       <TitleBlock y={90} eyebrow="Inside the folded airbag module" lines={['Ignite the generator.', 'Fill the cushion.']} accentIndex={1} size={61} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <rect x={180} y={650} width={720} height={480} rx={45} fill={C.paper} stroke={C.ink} strokeWidth={6} /><text x={540} y={705} textAnchor="middle" fill={C.muted} fontWeight={700} fontSize={20}>AIRBAG MODULE · CUTAWAY</text>
         <g opacity={0.35 + gas * 0.65}><path d="M 350 790 L 730 790 L 680 950 L 400 950 Z" fill="#dce5f2" stroke={C.indigo} strokeWidth={5} /><path d="M 400 820 L 680 920 M 420 900 L 690 830" stroke={C.muted} strokeWidth={4} /><text x={540} y={865} textAnchor="middle" fill={C.indigo} fontWeight={700} fontSize={21}>FOLDED FABRIC</text></g>
         <rect x={400} y={975} width={280} height={105} rx={40} fill={C.dark} stroke={gas > 0.4 ? C.mint : C.muted} strokeWidth={5} /><text x={540} y={1040} textAnchor="middle" fill={C.paper} fontWeight={700} fontSize={20}>GAS GENERATOR</text>
@@ -63,7 +63,7 @@ const Short35Airbag: React.FC = () => {
     <Scene t={t} id="cushion" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="The airbag manages the occupant's motion" lines={['Spread the force.', 'Vent and yield.']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO}>
         <Occupant x={285} y={875} move={vent * 65} belt={0.8} /><Steering x={865} y={890} active={1} />
         <g transform={`translate(610 835) scale(${cushionScale})`}><ellipse rx={250} ry={270} fill="#dce5f2" stroke={C.mint} strokeWidth={9} /><ellipse rx={220} ry={240} fill="none" stroke={C.muted} strokeWidth={3} strokeDasharray="10 12" /></g>
         <FocusRing x={610} y={835} rx={250 * cushionScale + 30} ry={270 * cushionScale + 30} t={t} opacity={spread} color={C.mint} />
@@ -74,7 +74,7 @@ const Short35Airbag: React.FC = () => {
     <Scene t={t} id="closing" scenes={SCENES}>
       <Background t={t} dark /><DemoPanel dark top={470} height={830} />
       <TitleBlock dark y={90} eyebrow="The airbag's complete protective sequence" lines={['Sense. Inflate.', 'Cushion and yield.']} accentIndex={1} size={62} />
-      <svg width={W} height={H} fontFamily={FONT_MONO} textAnchor="middle">
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }} fontFamily={FONT_MONO} textAnchor="middle">
         {[['SENSOR + CONTROL UNIT', C.coral], ['IGNITER + GAS GENERATOR', C.amber], ['CUSHION SPREADS FORCE', C.mint], ['VENTS ALLOW CONTROLLED YIELD', C.teal]].map(([label, color], i) => <g key={label} transform={`translate(540 ${640 + i * 155})`}><rect x={-350} y={-52} width={700} height={104} rx={24} fill="rgba(255,255,255,0.06)" stroke={color as string} strokeWidth={3} /><text y={8} fill={color as string} fontWeight={700} fontSize={21}>{label}</text>{i < 3 && <Arrow x1={0} y1={60} x2={0} y2={95} color={C.mint} width={4} />}</g>)}
       </svg>
     </Scene>
