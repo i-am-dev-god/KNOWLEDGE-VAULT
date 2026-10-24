@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-a-speaker-turns-electricity-into-sound.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short21Speaker.mp4",
+    "out": "RESULT/how-a-speaker-turns-electricity-into-sound.mp4",
+    "end_s": 48.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 10.51,
+      "sfx_id": "scan-hum",
+      "gain_db": -22,
+      "cue": "Alternating current",
+      "sync_source": "driver-current"
+    },
+    {
+      "at_s": 14.54,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -21,
+      "cue": "Force reverses",
+      "sync_source": "driver-force"
+    },
+    {
+      "at_s": 18.43,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -22,
+      "cue": "Cone travel",
+      "sync_source": "motion-inout"
+    },
+    {
+      "at_s": 33.09,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -23,
+      "cue": "Pressure waves",
+      "sync_source": "air-travel"
+    },
+    {
+      "at_s": 36.98,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

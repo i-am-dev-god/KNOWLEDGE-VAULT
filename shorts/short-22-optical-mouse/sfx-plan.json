@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-an-optical-mouse-tracks-movement.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short22OpticalMouse.mp4",
+    "out": "RESULT/how-an-optical-mouse-tracks-movement.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 9.16,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "cue": "Snapshot",
+      "sync_source": "sensor-camera"
+    },
+    {
+      "at_s": 13.09,
+      "sfx_id": "page-flip",
+      "gain_db": -22,
+      "cue": "Two frames",
+      "sync_source": "compare-snapshots"
+    },
+    {
+      "at_s": 19.71,
+      "sfx_id": "scan-hum",
+      "gain_db": -23,
+      "cue": "Measure shift",
+      "sync_source": "compare-measure"
+    },
+    {
+      "at_s": 28.01,
+      "sfx_id": "ui-send",
+      "gain_db": -22,
+      "cue": "Cursor motion",
+      "sync_source": "motion-cursor"
+    },
+    {
+      "at_s": 39.82,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

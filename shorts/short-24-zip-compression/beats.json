@@ -1,0 +1,179 @@
+{
+  "id": "short-24-zip-compression",
+  "title": "How ZIP Files Make Data Smaller",
+  "composition": "Short24ZipCompression",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-24-zip-compression/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "9191b37ad9b6fb372eaaa0b85b9817980dbba764bc450270b0c27d7ffbf27f00",
+    "raw_duration_seconds": 38.32,
+    "trimmed_duration_seconds": 37.847292,
+    "tempo_rate": 0.85434067,
+    "requested_tempo_rate": 0.85434067,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/zip-compression/narration.wav",
+    "narration_sha256": "5ffd4bd4ed5904decf005377689c1af4256f53bfe3f07865a66950021a200180",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.986021,
+    "script_sha256": "beb3081cfb33ae3831113f145c674d3403bf827d29e23ded5be49aeb9ad2ad01",
+    "spoken_words": 100,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9688805714994669,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.986021s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.76,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Find repeated structure",
+      "start": 0.0,
+      "end": 6.84
+    },
+    {
+      "id": "dictionary",
+      "title": "Replace repeats with references",
+      "start": 6.84,
+      "end": 15.82
+    },
+    {
+      "id": "bits",
+      "title": "Use fewer bits for common symbols",
+      "start": 15.82,
+      "end": 23.52
+    },
+    {
+      "id": "unpack",
+      "title": "Rebuild the exact original",
+      "start": 23.52,
+      "end": 31.92
+    },
+    {
+      "id": "limit",
+      "title": "Compression needs useful structure",
+      "start": 31.92,
+      "end": 39.12
+    },
+    {
+      "id": "closing",
+      "title": "Same information, efficient representation",
+      "start": 39.12,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-repeat",
+      "scene": "hook",
+      "text": "This sentence wastes space.",
+      "speak": "This sentence wastes space.",
+      "start": 0.7,
+      "end": 2.62,
+      "duration": 1.92
+    },
+    {
+      "id": "hook-phrase",
+      "scene": "hook",
+      "text": "The phrase science is fun appears three times.",
+      "speak": "The phrase science is fun appears three times.",
+      "start": 3.42,
+      "end": 6.62,
+      "duration": 3.2
+    },
+    {
+      "id": "dictionary-once",
+      "scene": "dictionary",
+      "text": "Instead of writing every repeat, a compressor can store a phrase once.",
+      "speak": "Instead of writing every repeat, a compressor can store a phrase once.",
+      "start": 7.34,
+      "end": 11.62,
+      "duration": 4.28
+    },
+    {
+      "id": "dictionary-reference",
+      "scene": "dictionary",
+      "text": "Later repeats become short references to that earlier phrase.",
+      "speak": "Later repeats become short references to that earlier phrase.",
+      "start": 12.38,
+      "end": 15.62,
+      "duration": 3.24
+    },
+    {
+      "id": "bits-translate",
+      "scene": "bits",
+      "text": "The remaining symbols are then translated into bits.",
+      "speak": "The remaining symbols are then translated into bits.",
+      "start": 16.32,
+      "end": 19.3,
+      "duration": 2.98
+    },
+    {
+      "id": "bits-common",
+      "scene": "bits",
+      "text": "Common symbols can use shorter bit patterns than rare ones.",
+      "speak": "Common symbols can use shorter bit patterns than rare ones.",
+      "start": 20.02,
+      "end": 23.28,
+      "duration": 3.26
+    },
+    {
+      "id": "unpack-rebuild",
+      "scene": "unpack",
+      "text": "To open the file, the reader follows the references and rebuilds every original character.",
+      "speak": "To open the file, the reader follows the references and rebuilds every original character.",
+      "start": 24.02,
+      "end": 29.24,
+      "duration": 5.22
+    },
+    {
+      "id": "unpack-exact",
+      "scene": "unpack",
+      "text": "Nothing is guessed. Nothing is lost.",
+      "speak": "Nothing is guessed. Nothing is lost.",
+      "start": 29.24,
+      "end": 31.88,
+      "duration": 2.64
+    },
+    {
+      "id": "limit-random",
+      "scene": "limit",
+      "text": "But already-compressed data may barely shrink.",
+      "speak": "But already-compressed data may barely shrink.",
+      "start": 32.42,
+      "end": 35.16,
+      "duration": 2.74
+    },
+    {
+      "id": "limit-structure",
+      "scene": "limit",
+      "text": "ZIP saves space only when it finds useful structure.",
+      "speak": "ZIP saves space only when it finds useful structure.",
+      "start": 35.98,
+      "end": 39.06,
+      "duration": 3.08
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Compression is not deleting information. It is writing the same information more efficiently.",
+      "speak": "Compression is not deleting information. It is writing the same information more efficiently.",
+      "start": 39.62,
+      "end": 44.76,
+      "duration": 5.14
+    }
+  ]
+}

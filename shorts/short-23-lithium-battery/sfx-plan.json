@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-a-lithium-battery-powers-your-phone.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short23LithiumBattery.mp4",
+    "out": "RESULT/how-a-lithium-battery-powers-your-phone.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 9.49,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -23,
+      "cue": "Discharge begins",
+      "sync_source": "discharge-leave"
+    },
+    {
+      "at_s": 17.71,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -21,
+      "cue": "Phone powered",
+      "sync_source": "discharge-electrons"
+    },
+    {
+      "at_s": 23.07,
+      "sfx_id": "pop-reveal",
+      "gain_db": -22,
+      "cue": "Separator close-up",
+      "sync_source": "separator-pass"
+    },
+    {
+      "at_s": 31.53,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -22,
+      "cue": "Reverse shuttle",
+      "sync_source": "charge-reverse"
+    },
+    {
+      "at_s": 38.92,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

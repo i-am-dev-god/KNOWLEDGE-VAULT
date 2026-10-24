@@ -1,0 +1,188 @@
+{
+  "id": "short-25-microwave-heating",
+  "title": "How a Microwave Oven Heats Food",
+  "composition": "Short25MicrowaveHeating",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 55.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-25-microwave-heating/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "cd0afc76d87962d3a5dce4252b0f4811c67bd14d6e536a30c36c927182063b6a",
+    "raw_duration_seconds": 41.48,
+    "trimmed_duration_seconds": 41.09025,
+    "tempo_rate": 0.877996795,
+    "requested_tempo_rate": 0.877996795,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/microwave-heating/narration.wav",
+    "narration_sha256": "4ebdbf298bc955577ccf132cae978875844c7358fc1e89a15e2aa643e00144b5",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 47.485333,
+    "script_sha256": "d106ab89432dd653a7588e8504f5dd35d405d64b6cfd33b0bc02d56205553a02",
+    "spoken_words": 108,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9800143077233691,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 47.485333s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": []
+  },
+  "pacing": "Calm 55-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 47.28,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Why the plate turns",
+      "start": 0.0,
+      "end": 5.98
+    },
+    {
+      "id": "magnetron",
+      "title": "Generate and guide microwaves",
+      "start": 5.98,
+      "end": 13.94
+    },
+    {
+      "id": "water",
+      "title": "Field energy becomes molecular motion",
+      "start": 13.94,
+      "end": 26.4
+    },
+    {
+      "id": "standing",
+      "title": "Move food through hotter and cooler regions",
+      "start": 26.4,
+      "end": 35.14
+    },
+    {
+      "id": "safety",
+      "title": "The field stops, the heat remains",
+      "start": 35.14,
+      "end": 42.78
+    },
+    {
+      "id": "closing",
+      "title": "Molecular motion becomes heat",
+      "start": 42.78,
+      "end": 55.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-plate",
+      "scene": "hook",
+      "text": "This plate turns for a reason.",
+      "speak": "This plate turns for a reason.",
+      "start": 0.7,
+      "end": 2.82,
+      "duration": 2.12
+    },
+    {
+      "id": "hook-even",
+      "scene": "hook",
+      "text": "It helps food heat more evenly.",
+      "speak": "It helps food heat more evenly.",
+      "start": 3.4,
+      "end": 5.56,
+      "duration": 2.16
+    },
+    {
+      "id": "magnetron-source",
+      "scene": "magnetron",
+      "text": "A magnetron inside the oven generates microwaves.",
+      "speak": "A magnetron inside the oven generates microwaves.",
+      "start": 6.48,
+      "end": 9.58,
+      "duration": 3.1
+    },
+    {
+      "id": "magnetron-walls",
+      "scene": "magnetron",
+      "text": "The metal walls guide and reflect them around the cavity.",
+      "speak": "The metal walls guide and reflect them around the cavity.",
+      "start": 10.32,
+      "end": 13.5,
+      "duration": 3.18
+    },
+    {
+      "id": "water-charge",
+      "scene": "water",
+      "text": "Water molecules have uneven electrical charge, so they behave like tiny dipoles.",
+      "speak": "Water molecules have uneven electrical charge, so they behave like tiny dipoles.",
+      "start": 14.44,
+      "end": 19.24,
+      "duration": 4.8
+    },
+    {
+      "id": "water-rotate",
+      "scene": "water",
+      "text": "The changing field makes them rotate back and forth.",
+      "speak": "The changing field makes them rotate back and forth.",
+      "start": 20.04,
+      "end": 22.78,
+      "duration": 2.74
+    },
+    {
+      "id": "water-heat",
+      "scene": "water",
+      "text": "Their motion spreads energy to nearby molecules as heat.",
+      "speak": "Their motion spreads energy to nearby molecules as heat.",
+      "start": 23.48,
+      "end": 26.9,
+      "duration": 3.42
+    },
+    {
+      "id": "standing-zones",
+      "scene": "standing",
+      "text": "The oven can have hotter and cooler regions.",
+      "speak": "The oven can have hotter and cooler regions.",
+      "start": 26.9,
+      "end": 30.28,
+      "duration": 3.38
+    },
+    {
+      "id": "standing-turn",
+      "scene": "standing",
+      "text": "The turntable moves food through those regions for more even heating.",
+      "speak": "The turntable moves food through those regions for more even heating.",
+      "start": 31.02,
+      "end": 34.64,
+      "duration": 3.62
+    },
+    {
+      "id": "safety-radioactive",
+      "scene": "safety",
+      "text": "The microwaves do not make the food radioactive.",
+      "speak": "The microwaves do not make the food radioactive.",
+      "start": 35.64,
+      "end": 38.02,
+      "duration": 2.38
+    },
+    {
+      "id": "safety-heat",
+      "scene": "safety",
+      "text": "Once the oven stops, the field is gone, but the heat remains.",
+      "speak": "Once the oven stops, the field is gone, but the heat remains.",
+      "start": 38.88,
+      "end": 42.28,
+      "duration": 3.4
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "Microwave energy becomes molecular motion, and molecular motion becomes heat.",
+      "speak": "Microwave energy becomes molecular motion, and molecular motion becomes heat.",
+      "start": 43.28,
+      "end": 47.28,
+      "duration": 4.0
+    }
+  ]
+}

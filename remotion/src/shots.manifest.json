@@ -112,6 +112,46 @@
   "transparent": false
  },
  {
+  "id": "Short21Speaker",
+  "durationInSeconds": 48,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short22OpticalMouse",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short23LithiumBattery",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short24ZipCompression",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short25MicrowaveHeating",
+  "durationInSeconds": 55,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short3Algo",
   "durationInSeconds": 42,
   "fps": 30,

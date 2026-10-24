@@ -1,0 +1,54 @@
+{
+  "master": "RESULT/how-zip-files-make-data-smaller.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short24ZipCompression.mp4",
+    "out": "RESULT/how-zip-files-make-data-smaller.mp4",
+    "end_s": 52.0
+  },
+  "note": "5 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 3.27,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -23,
+      "cue": "Highlight repeats",
+      "sync_source": "hook-phrase"
+    },
+    {
+      "at_s": 12.23,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -23,
+      "cue": "References replace repeats",
+      "sync_source": "dictionary-reference"
+    },
+    {
+      "at_s": 16.17,
+      "sfx_id": "keys-typing-soft",
+      "gain_db": -24,
+      "cue": "Symbols to bits",
+      "sync_source": "bits-translate"
+    },
+    {
+      "at_s": 29.14,
+      "sfx_id": "chime-reward",
+      "gain_db": -21,
+      "cue": "Exact match",
+      "sync_source": "unpack-exact"
+    },
+    {
+      "at_s": 39.42,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}
