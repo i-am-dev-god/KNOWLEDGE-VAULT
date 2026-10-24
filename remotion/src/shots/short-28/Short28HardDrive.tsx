@@ -48,11 +48,11 @@ const Drive: React.FC<{
       <line x1={pivot.x} y1={pivot.y} x2={head.x} y2={head.y} stroke={C.indigo} strokeWidth={28} strokeLinecap="round" />
       <circle cx={pivot.x} cy={pivot.y} r={47} fill={C.dark} stroke={C.indigo} strokeWidth={7} />
       <g transform={`translate(${head.x} ${head.y}) rotate(-25)`}>
-        <rect x={-24} y={-20} width={48} height={40} rx={9} fill={read > 0.2 ? C.mint : C.coral} stroke={C.ink} strokeWidth={4} />
+        <rect x={-24} y={-20} width={48} height={40} rx={9} fill={read > 0.2 ? C.mint : C.indigo} stroke={C.ink} strokeWidth={4} />
         <text x={0} y={-35} textAnchor="middle" fill={C.muted} fontWeight={700} fontSize={17}>HEAD</text>
       </g>
     </>}
-    {label && <text x={cx} y={1230} textAnchor="middle" fill={C.teal} fontWeight={700} fontSize={21}>SPINNING PLATTER · TRACKS + SECTORS</text>}
+    {label && <text x={cx} y={1190} textAnchor="middle" fill={C.teal} fontWeight={700} fontSize={21}>SPINNING PLATTER · TRACKS + SECTORS</text>}
   </g>;
 };
 
@@ -137,7 +137,7 @@ const Short28HardDrive: React.FC = () => {
       <Background t={t} dark /><Header label="TECH EXPLAINED · STORAGE" seconds={52} dark /><DemoPanel dark />
       <TitleBlock dark eyebrow="The sector passes the head" lines={['Magnetic changes', 'become bits']} accentIndex={1} size={62} />
       <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
-        <Drive rotation={rotation} sectorAngle={sectorAngle} seek={1} read={read} />
+        <Drive rotation={rotation} sectorAngle={sectorAngle} seek={1} read={read} sectorOpacity={1 - read} />
         <g opacity={read} fontFamily={FONT_MONO} textAnchor="middle">
           <rect x={595} y={650} width={350} height={130} rx={25} fill="rgba(255,255,255,0.07)" stroke={C.mint} strokeWidth={3} />
           <text x={770} y={705} fill={C.mint} fontWeight={700} fontSize={24}>0 1 0 1 1 0 0 1</text>

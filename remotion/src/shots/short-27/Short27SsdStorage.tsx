@@ -30,7 +30,7 @@ const FlashCell: React.FC<{ x: number; y: number; scale?: number; charge?: numbe
       return <circle key={i} cx={targetX} cy={targetY - (1 - p) * 190} r={10} fill={C.amber} stroke={C.paper} strokeWidth={2} opacity={p} />;
     })}
     {wear > 0.2 && <g stroke={C.coral} strokeWidth={5} opacity={wear}><path d="M -180 85 L -130 120 L -165 155" /><path d="M 180 90 L 135 125 L 165 165" /></g>}
-    <text x={0} y={120} textAnchor="middle" fill={C.mint} fontWeight={700} fontSize={18}>TRAPPED CHARGE</text>
+    <text x={0} y={120} textAnchor="middle" fill={C.teal} fontWeight={700} fontSize={18}>TRAPPED CHARGE</text>
   </g>
 );
 
