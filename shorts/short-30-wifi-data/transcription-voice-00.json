@@ -1,0 +1,809 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "b1ad781d9e6ac6c40c8389b93f6d644309c6297324d653276e974f9f755d3fa2",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Send a photo over Wi-Fi. The file travels through air as radio signals. First, your device divides the data into packets. Each packet includes addressing and error checking information. The radio maps groups of bits onto changes in a carrier wave. Wi-Fi also splits the data across many closely spaced subcarriers using a method called OFDM. These radio signals share the available channel with other nearby devices. A device listens before transmitting and adjusts when the channel is busy. The receiver decodes the sub-carriers, checks the packets, and requests re-transmission if needed. Correct packets are reassembled into the original photo. Wi-Fi turns data into carefully organized radio waves, then turns those waves back into data.",
+  "mean_word_probability": 0.9565304403503736,
+  "low_confidence_words": [
+    {
+      "start": 36.88,
+      "end": 37.22,
+      "word": " re",
+      "probability": 0.3292229473590851
+    },
+    {
+      "start": 46.78,
+      "end": 47.02,
+      "word": " into",
+      "probability": 0.45125603675842285
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.08,
+      "text": "Send a photo over Wi-Fi. The file travels through air as radio signals. First, your device divides the data into packets. Each packet includes addressing and error checking information. The radio maps groups of bits onto changes in a carrier wave. Wi-Fi also splits the data across many closely spaced subcarriers using a method called OFDM. These radio signals share the available channel with other nearby devices.",
+      "avg_logprob": -0.06134648200904214,
+      "no_speech_prob": 0.12531772255897522,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.04,
+          "word": " Send",
+          "probability": 0.6502313613891602
+        },
+        {
+          "start": 1.04,
+          "end": 1.24,
+          "word": " a",
+          "probability": 0.9930498600006104
+        },
+        {
+          "start": 1.24,
+          "end": 1.52,
+          "word": " photo",
+          "probability": 0.992456316947937
+        },
+        {
+          "start": 1.52,
+          "end": 1.9,
+          "word": " over",
+          "probability": 0.9934518337249756
+        },
+        {
+          "start": 1.9,
+          "end": 2.14,
+          "word": " Wi",
+          "probability": 0.5628537535667419
+        },
+        {
+          "start": 2.14,
+          "end": 2.28,
+          "word": "-Fi.",
+          "probability": 0.9949284493923187
+        },
+        {
+          "start": 2.92,
+          "end": 3.0,
+          "word": " The",
+          "probability": 0.9719171524047852
+        },
+        {
+          "start": 3.0,
+          "end": 3.28,
+          "word": " file",
+          "probability": 0.9846895933151245
+        },
+        {
+          "start": 3.28,
+          "end": 3.76,
+          "word": " travels",
+          "probability": 0.9989402890205383
+        },
+        {
+          "start": 3.76,
+          "end": 4.06,
+          "word": " through",
+          "probability": 0.9955912828445435
+        },
+        {
+          "start": 4.06,
+          "end": 4.4,
+          "word": " air",
+          "probability": 0.9252928495407104
+        },
+        {
+          "start": 4.4,
+          "end": 4.68,
+          "word": " as",
+          "probability": 0.9889832139015198
+        },
+        {
+          "start": 4.68,
+          "end": 5.04,
+          "word": " radio",
+          "probability": 0.9908146262168884
+        },
+        {
+          "start": 5.04,
+          "end": 5.46,
+          "word": " signals.",
+          "probability": 0.998394787311554
+        },
+        {
+          "start": 6.22,
+          "end": 6.4,
+          "word": " First,",
+          "probability": 0.9513726234436035
+        },
+        {
+          "start": 6.72,
+          "end": 6.86,
+          "word": " your",
+          "probability": 0.9875547289848328
+        },
+        {
+          "start": 6.86,
+          "end": 7.18,
+          "word": " device",
+          "probability": 0.9965747594833374
+        },
+        {
+          "start": 7.18,
+          "end": 7.66,
+          "word": " divides",
+          "probability": 0.998286783695221
+        },
+        {
+          "start": 7.66,
+          "end": 7.9,
+          "word": " the",
+          "probability": 0.9897593259811401
+        },
+        {
+          "start": 7.9,
+          "end": 8.12,
+          "word": " data",
+          "probability": 0.9992166757583618
+        },
+        {
+          "start": 8.12,
+          "end": 8.4,
+          "word": " into",
+          "probability": 0.997368335723877
+        },
+        {
+          "start": 8.4,
+          "end": 8.82,
+          "word": " packets.",
+          "probability": 0.9889743328094482
+        },
+        {
+          "start": 9.46,
+          "end": 9.66,
+          "word": " Each",
+          "probability": 0.9880474805831909
+        },
+        {
+          "start": 9.66,
+          "end": 10.02,
+          "word": " packet",
+          "probability": 0.9958837628364563
+        },
+        {
+          "start": 10.02,
+          "end": 10.52,
+          "word": " includes",
+          "probability": 0.9949948787689209
+        },
+        {
+          "start": 10.52,
+          "end": 11.04,
+          "word": " addressing",
+          "probability": 0.9921278953552246
+        },
+        {
+          "start": 11.04,
+          "end": 11.38,
+          "word": " and",
+          "probability": 0.9497683048248291
+        },
+        {
+          "start": 11.38,
+          "end": 11.66,
+          "word": " error",
+          "probability": 0.9853662252426147
+        },
+        {
+          "start": 11.66,
+          "end": 11.92,
+          "word": " checking",
+          "probability": 0.6799538135528564
+        },
+        {
+          "start": 11.92,
+          "end": 12.46,
+          "word": " information.",
+          "probability": 0.9965760111808777
+        },
+        {
+          "start": 13.22,
+          "end": 13.3,
+          "word": " The",
+          "probability": 0.9881937503814697
+        },
+        {
+          "start": 13.3,
+          "end": 13.66,
+          "word": " radio",
+          "probability": 0.992875337600708
+        },
+        {
+          "start": 13.66,
+          "end": 14.12,
+          "word": " maps",
+          "probability": 0.9903755784034729
+        },
+        {
+          "start": 14.12,
+          "end": 14.48,
+          "word": " groups",
+          "probability": 0.9909680485725403
+        },
+        {
+          "start": 14.48,
+          "end": 14.7,
+          "word": " of",
+          "probability": 0.9981821775436401
+        },
+        {
+          "start": 14.7,
+          "end": 15.0,
+          "word": " bits",
+          "probability": 0.9966075420379639
+        },
+        {
+          "start": 15.0,
+          "end": 15.34,
+          "word": " onto",
+          "probability": 0.8774337768554688
+        },
+        {
+          "start": 15.34,
+          "end": 15.78,
+          "word": " changes",
+          "probability": 0.9947677850723267
+        },
+        {
+          "start": 15.78,
+          "end": 16.04,
+          "word": " in",
+          "probability": 0.9976997971534729
+        },
+        {
+          "start": 16.04,
+          "end": 16.24,
+          "word": " a",
+          "probability": 0.9927195310592651
+        },
+        {
+          "start": 16.24,
+          "end": 16.5,
+          "word": " carrier",
+          "probability": 0.9870017766952515
+        },
+        {
+          "start": 16.5,
+          "end": 16.8,
+          "word": " wave.",
+          "probability": 0.9833828806877136
+        },
+        {
+          "start": 17.52,
+          "end": 17.68,
+          "word": " Wi",
+          "probability": 0.9816777110099792
+        },
+        {
+          "start": 17.68,
+          "end": 17.84,
+          "word": "-Fi",
+          "probability": 0.9929914176464081
+        },
+        {
+          "start": 17.84,
+          "end": 18.3,
+          "word": " also",
+          "probability": 0.9981517195701599
+        },
+        {
+          "start": 18.3,
+          "end": 18.66,
+          "word": " splits",
+          "probability": 0.9976722598075867
+        },
+        {
+          "start": 18.66,
+          "end": 18.88,
+          "word": " the",
+          "probability": 0.9936005473136902
+        },
+        {
+          "start": 18.88,
+          "end": 19.12,
+          "word": " data",
+          "probability": 0.999264657497406
+        },
+        {
+          "start": 19.12,
+          "end": 19.5,
+          "word": " across",
+          "probability": 0.9973401427268982
+        },
+        {
+          "start": 19.5,
+          "end": 19.94,
+          "word": " many",
+          "probability": 0.9979799389839172
+        },
+        {
+          "start": 19.94,
+          "end": 20.44,
+          "word": " closely",
+          "probability": 0.9948791265487671
+        },
+        {
+          "start": 20.44,
+          "end": 20.86,
+          "word": " spaced",
+          "probability": 0.8459689617156982
+        },
+        {
+          "start": 20.86,
+          "end": 21.64,
+          "word": " subcarriers",
+          "probability": 0.7342629035313925
+        },
+        {
+          "start": 21.64,
+          "end": 22.28,
+          "word": " using",
+          "probability": 0.6833387017250061
+        },
+        {
+          "start": 22.28,
+          "end": 22.44,
+          "word": " a",
+          "probability": 0.9916003942489624
+        },
+        {
+          "start": 22.44,
+          "end": 22.72,
+          "word": " method",
+          "probability": 0.9987890124320984
+        },
+        {
+          "start": 22.72,
+          "end": 23.1,
+          "word": " called",
+          "probability": 0.9967435002326965
+        },
+        {
+          "start": 23.1,
+          "end": 23.7,
+          "word": " OFDM.",
+          "probability": 0.984326034784317
+        },
+        {
+          "start": 24.54,
+          "end": 24.78,
+          "word": " These",
+          "probability": 0.9925481677055359
+        },
+        {
+          "start": 24.78,
+          "end": 25.14,
+          "word": " radio",
+          "probability": 0.9960005879402161
+        },
+        {
+          "start": 25.14,
+          "end": 25.5,
+          "word": " signals",
+          "probability": 0.9962790608406067
+        },
+        {
+          "start": 25.5,
+          "end": 25.86,
+          "word": " share",
+          "probability": 0.9947741627693176
+        },
+        {
+          "start": 25.86,
+          "end": 26.1,
+          "word": " the",
+          "probability": 0.9985411167144775
+        },
+        {
+          "start": 26.1,
+          "end": 26.42,
+          "word": " available",
+          "probability": 0.9982203841209412
+        },
+        {
+          "start": 26.42,
+          "end": 26.76,
+          "word": " channel",
+          "probability": 0.980342447757721
+        },
+        {
+          "start": 26.76,
+          "end": 27.0,
+          "word": " with",
+          "probability": 0.9976669549942017
+        },
+        {
+          "start": 27.0,
+          "end": 27.32,
+          "word": " other",
+          "probability": 0.9910961389541626
+        },
+        {
+          "start": 27.32,
+          "end": 27.66,
+          "word": " nearby",
+          "probability": 0.9909989833831787
+        },
+        {
+          "start": 27.66,
+          "end": 28.08,
+          "word": " devices.",
+          "probability": 0.9989206790924072
+        }
+      ]
+    },
+    {
+      "start": 28.08,
+      "end": 32.42,
+      "text": "A device listens before transmitting and adjusts when the channel is busy.",
+      "avg_logprob": -0.1458661749556258,
+      "no_speech_prob": 0.018665025010704994,
+      "words": [
+        {
+          "start": 28.08,
+          "end": 28.84,
+          "word": " A",
+          "probability": 0.8680744767189026
+        },
+        {
+          "start": 28.84,
+          "end": 29.18,
+          "word": " device",
+          "probability": 0.9968029260635376
+        },
+        {
+          "start": 29.18,
+          "end": 29.64,
+          "word": " listens",
+          "probability": 0.995158851146698
+        },
+        {
+          "start": 29.64,
+          "end": 29.98,
+          "word": " before",
+          "probability": 0.9982380867004395
+        },
+        {
+          "start": 29.98,
+          "end": 30.52,
+          "word": " transmitting",
+          "probability": 0.9945551156997681
+        },
+        {
+          "start": 30.52,
+          "end": 30.88,
+          "word": " and",
+          "probability": 0.9422897100448608
+        },
+        {
+          "start": 30.88,
+          "end": 31.38,
+          "word": " adjusts",
+          "probability": 0.9936862587928772
+        },
+        {
+          "start": 31.38,
+          "end": 31.6,
+          "word": " when",
+          "probability": 0.994074285030365
+        },
+        {
+          "start": 31.6,
+          "end": 31.78,
+          "word": " the",
+          "probability": 0.9927946925163269
+        },
+        {
+          "start": 31.78,
+          "end": 31.96,
+          "word": " channel",
+          "probability": 0.9960928559303284
+        },
+        {
+          "start": 31.96,
+          "end": 32.16,
+          "word": " is",
+          "probability": 0.9990718364715576
+        },
+        {
+          "start": 32.16,
+          "end": 32.42,
+          "word": " busy.",
+          "probability": 0.998420238494873
+        }
+      ]
+    },
+    {
+      "start": 33.18,
+      "end": 37.66,
+      "text": "The receiver decodes the sub-carriers, checks the packets, and requests re-transmission",
+      "avg_logprob": -0.1458661749556258,
+      "no_speech_prob": 0.018665025010704994,
+      "words": [
+        {
+          "start": 33.18,
+          "end": 33.28,
+          "word": " The",
+          "probability": 0.9868675470352173
+        },
+        {
+          "start": 33.28,
+          "end": 33.6,
+          "word": " receiver",
+          "probability": 0.9853851199150085
+        },
+        {
+          "start": 33.6,
+          "end": 34.18,
+          "word": " decodes",
+          "probability": 0.9854929149150848
+        },
+        {
+          "start": 34.18,
+          "end": 34.4,
+          "word": " the",
+          "probability": 0.9946251511573792
+        },
+        {
+          "start": 34.4,
+          "end": 34.58,
+          "word": " sub",
+          "probability": 0.9934940934181213
+        },
+        {
+          "start": 34.58,
+          "end": 34.96,
+          "word": "-carriers,",
+          "probability": 0.8365255196889242
+        },
+        {
+          "start": 35.28,
+          "end": 35.48,
+          "word": " checks",
+          "probability": 0.9946877956390381
+        },
+        {
+          "start": 35.48,
+          "end": 35.7,
+          "word": " the",
+          "probability": 0.9936741590499878
+        },
+        {
+          "start": 35.7,
+          "end": 36.0,
+          "word": " packets,",
+          "probability": 0.9955872297286987
+        },
+        {
+          "start": 36.32,
+          "end": 36.46,
+          "word": " and",
+          "probability": 0.9921236634254456
+        },
+        {
+          "start": 36.46,
+          "end": 36.88,
+          "word": " requests",
+          "probability": 0.9929297566413879
+        },
+        {
+          "start": 36.88,
+          "end": 37.22,
+          "word": " re",
+          "probability": 0.3292229473590851
+        },
+        {
+          "start": 37.22,
+          "end": 37.66,
+          "word": "-transmission",
+          "probability": 0.9749324520428976
+        }
+      ]
+    },
+    {
+      "start": 37.66,
+      "end": 38.18,
+      "text": "if needed.",
+      "avg_logprob": -0.1458661749556258,
+      "no_speech_prob": 0.018665025010704994,
+      "words": [
+        {
+          "start": 37.66,
+          "end": 37.86,
+          "word": " if",
+          "probability": 0.9137197732925415
+        },
+        {
+          "start": 37.86,
+          "end": 38.18,
+          "word": " needed.",
+          "probability": 0.9976267218589783
+        }
+      ]
+    },
+    {
+      "start": 38.82,
+      "end": 41.48,
+      "text": "Correct packets are reassembled into the original photo.",
+      "avg_logprob": -0.1458661749556258,
+      "no_speech_prob": 0.018665025010704994,
+      "words": [
+        {
+          "start": 38.82,
+          "end": 39.1,
+          "word": " Correct",
+          "probability": 0.9691044688224792
+        },
+        {
+          "start": 39.1,
+          "end": 39.48,
+          "word": " packets",
+          "probability": 0.9963098168373108
+        },
+        {
+          "start": 39.48,
+          "end": 39.74,
+          "word": " are",
+          "probability": 0.9984331727027893
+        },
+        {
+          "start": 39.74,
+          "end": 40.22,
+          "word": " reassembled",
+          "probability": 0.9244614541530609
+        },
+        {
+          "start": 40.22,
+          "end": 40.58,
+          "word": " into",
+          "probability": 0.9806890487670898
+        },
+        {
+          "start": 40.58,
+          "end": 40.8,
+          "word": " the",
+          "probability": 0.9969323873519897
+        },
+        {
+          "start": 40.8,
+          "end": 41.14,
+          "word": " original",
+          "probability": 0.9966609477996826
+        },
+        {
+          "start": 41.14,
+          "end": 41.48,
+          "word": " photo.",
+          "probability": 0.9968053102493286
+        }
+      ]
+    },
+    {
+      "start": 42.28,
+      "end": 46.78,
+      "text": "Wi-Fi turns data into carefully organized radio waves, then turns those waves back",
+      "avg_logprob": -0.1458661749556258,
+      "no_speech_prob": 0.018665025010704994,
+      "words": [
+        {
+          "start": 42.28,
+          "end": 42.44,
+          "word": " Wi",
+          "probability": 0.7817255854606628
+        },
+        {
+          "start": 42.44,
+          "end": 42.56,
+          "word": "-Fi",
+          "probability": 0.9731825590133667
+        },
+        {
+          "start": 42.56,
+          "end": 42.98,
+          "word": " turns",
+          "probability": 0.9973637461662292
+        },
+        {
+          "start": 42.98,
+          "end": 43.3,
+          "word": " data",
+          "probability": 0.9899674654006958
+        },
+        {
+          "start": 43.3,
+          "end": 43.56,
+          "word": " into",
+          "probability": 0.9969283938407898
+        },
+        {
+          "start": 43.56,
+          "end": 44.08,
+          "word": " carefully",
+          "probability": 0.9960252046585083
+        },
+        {
+          "start": 44.08,
+          "end": 44.52,
+          "word": " organized",
+          "probability": 0.6833747625350952
+        },
+        {
+          "start": 44.52,
+          "end": 44.94,
+          "word": " radio",
+          "probability": 0.9833548665046692
+        },
+        {
+          "start": 44.94,
+          "end": 45.2,
+          "word": " waves,",
+          "probability": 0.9893520474433899
+        },
+        {
+          "start": 45.44,
+          "end": 45.62,
+          "word": " then",
+          "probability": 0.9909358620643616
+        },
+        {
+          "start": 45.62,
+          "end": 45.96,
+          "word": " turns",
+          "probability": 0.9956488013267517
+        },
+        {
+          "start": 45.96,
+          "end": 46.2,
+          "word": " those",
+          "probability": 0.9855412840843201
+        },
+        {
+          "start": 46.2,
+          "end": 46.5,
+          "word": " waves",
+          "probability": 0.9900730848312378
+        },
+        {
+          "start": 46.5,
+          "end": 46.78,
+          "word": " back",
+          "probability": 0.9958165287971497
+        }
+      ]
+    },
+    {
+      "start": 46.78,
+      "end": 47.28,
+      "text": "into data.",
+      "avg_logprob": -0.7199313739935557,
+      "no_speech_prob": 0.2754635512828827,
+      "words": [
+        {
+          "start": 46.78,
+          "end": 47.02,
+          "word": " into",
+          "probability": 0.45125603675842285
+        },
+        {
+          "start": 47.02,
+          "end": 47.28,
+          "word": " data.",
+          "probability": 0.9399508237838745
+        }
+      ]
+    }
+  ]
+}
