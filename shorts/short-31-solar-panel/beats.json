@@ -1,0 +1,162 @@
+{
+  "id": "short-31-solar-panel",
+  "title": "How a Solar Panel Turns Sunlight Into Electricity",
+  "composition": "Short31SolarPanel",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-31-solar-panel/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "6b4ba4f659d5e8a3dc0ac98f68b692353f49a738273818b7c705a117e165ed4f",
+    "raw_duration_seconds": 46.88,
+    "trimmed_duration_seconds": 46.359417,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.046487961,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/solar-panel/narration.wav",
+    "narration_sha256": "07e49cc657bc4b36b716be4549143ced02f3270b610ab238cf8f7f032de621bd",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 47.048208,
+    "script_sha256": "728a7e528d84dce9c9cd5954e9e503aa47de6523e22a5a904af2cdcb8a29b019",
+    "spoken_words": 128,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9788733031600714,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 47.048208s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 46.94,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Sunlight enters the solar panel",
+      "start": 0.0,
+      "end": 9.24
+    },
+    {
+      "id": "cell",
+      "title": "Photons free charges in silicon",
+      "start": 9.24,
+      "end": 20.52
+    },
+    {
+      "id": "field",
+      "title": "The cell guides electrons",
+      "start": 20.52,
+      "end": 25.24
+    },
+    {
+      "id": "circuit",
+      "title": "Direct current flows through a load",
+      "start": 25.24,
+      "end": 35.4
+    },
+    {
+      "id": "inverter",
+      "title": "The inverter supplies alternating current",
+      "start": 35.4,
+      "end": 41.18
+    },
+    {
+      "id": "closing",
+      "title": "From sunlight to household electricity",
+      "start": 41.18,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-sun",
+      "scene": "hook",
+      "text": "A solar panel turns sunlight directly into electricity for your home.",
+      "speak": "A solar panel turns sunlight directly into electricity for your home.",
+      "start": 0.7,
+      "end": 4.7,
+      "duration": 4.0
+    },
+    {
+      "id": "hook-cell",
+      "scene": "hook",
+      "text": "The working part is not the glass cover; it is the thin solar cell underneath.",
+      "speak": "The working part is not the glass cover; it is the thin solar cell underneath.",
+      "start": 5.22,
+      "end": 9.12,
+      "duration": 3.9
+    },
+    {
+      "id": "cell-photon",
+      "scene": "cell",
+      "text": "When sunlight enters the solar cell, photons transfer energy to electrons in the silicon.",
+      "speak": "When sunlight enters the solar cell, photons transfer energy to electrons in the silicon.",
+      "start": 9.74,
+      "end": 14.58,
+      "duration": 4.84
+    },
+    {
+      "id": "cell-free",
+      "scene": "cell",
+      "text": "That energy frees some electrons, leaving behind positively charged vacancies called holes.",
+      "speak": "That energy frees some electrons, leaving behind positively charged vacancies called holes.",
+      "start": 15.16,
+      "end": 20.38,
+      "duration": 5.22
+    },
+    {
+      "id": "field-guide",
+      "scene": "field",
+      "text": "A built-in electric field inside the solar cell pushes the freed electrons in one direction.",
+      "speak": "A built-in electric field inside the solar cell pushes the freed electrons in one direction.",
+      "start": 21.02,
+      "end": 25.74,
+      "duration": 4.72
+    },
+    {
+      "id": "circuit-dc",
+      "scene": "circuit",
+      "text": "Metal contacts collect those electrons and send their flow through an external circuit as direct current.",
+      "speak": "Metal contacts collect those electrons and send their flow through an external circuit as direct current.",
+      "start": 25.74,
+      "end": 31.4,
+      "duration": 5.66
+    },
+    {
+      "id": "circuit-return",
+      "scene": "circuit",
+      "text": "The moving electrons can power a load before returning to the solar cell.",
+      "speak": "The moving electrons can power a load before returning to the solar cell.",
+      "start": 32.02,
+      "end": 35.48,
+      "duration": 3.46
+    },
+    {
+      "id": "inverter-ac",
+      "scene": "inverter",
+      "text": "For many home appliances, an inverter changes the solar panel's direct current into alternating current.",
+      "speak": "For many home appliances, an inverter changes the solar panel's direct current into alternating current.",
+      "start": 35.9,
+      "end": 41.3,
+      "duration": 5.4
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the solar panel supplies electricity because sunlight frees charges and the cell guides their flow.",
+      "speak": "So the solar panel supplies electricity because sunlight frees charges and the cell guides their flow.",
+      "start": 41.68,
+      "end": 46.94,
+      "duration": 5.26
+    }
+  ]
+}

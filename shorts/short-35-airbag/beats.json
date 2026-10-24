@@ -1,0 +1,156 @@
+{
+  "id": "short-35-airbag",
+  "title": "How an Airbag Protects You in a Crash",
+  "composition": "Short35Airbag",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 55.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-35-airbag/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "3a81cdb8313b7fb94e281826ea65d705ad142406e25b91b4d0aeab12d4bcd464",
+    "raw_duration_seconds": 50.48,
+    "trimmed_duration_seconds": 50.019792,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.068798967,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/airbag/narration.wav",
+    "narration_sha256": "3a941f8b94405ac23639bc6fccaab6a745d9e883006acf641c7dc0d8fb0a0890",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 50.710479,
+    "script_sha256": "d051c87a270533ff805fbb8a9a8d052709250e5ae4dfb4ce8733f8cf9101e8e6",
+    "spoken_words": 143,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9758585601141957,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 50.710479s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 55-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 50.64,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "An airbag cushions the occupant",
+      "start": 0.0,
+      "end": 12.72
+    },
+    {
+      "id": "sense",
+      "title": "Sensors and the control unit detect a severe crash",
+      "start": 12.72,
+      "end": 23.96
+    },
+    {
+      "id": "trigger",
+      "title": "The module generates gas",
+      "start": 23.96,
+      "end": 33.54
+    },
+    {
+      "id": "cushion",
+      "title": "The cushion spreads force and deflates",
+      "start": 33.54,
+      "end": 45.0
+    },
+    {
+      "id": "closing",
+      "title": "Sense, inflate, cushion, and yield",
+      "start": 45.0,
+      "end": 55.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-protect",
+      "scene": "hook",
+      "text": "In a severe car crash, an airbag works with your seat belt to cushion you from hard interior surfaces.",
+      "speak": "In a severe car crash, an airbag works with your seat belt to cushion you from hard interior surfaces.",
+      "start": 0.7,
+      "end": 6.24,
+      "duration": 5.54
+    },
+    {
+      "id": "hook-slow",
+      "scene": "hook",
+      "text": "This explanation slows the sequence down; in a real crash, the airbag responds in tens of milliseconds.",
+      "speak": "This explanation slows the sequence down; in a real crash, the airbag responds in tens of milliseconds.",
+      "start": 6.94,
+      "end": 12.54,
+      "duration": 5.6
+    },
+    {
+      "id": "sense-decelerate",
+      "scene": "sense",
+      "text": "Crash sensors detect the vehicle's sudden deceleration and send that information to the airbag control unit.",
+      "speak": "Crash sensors detect the vehicle's sudden deceleration and send that information to the airbag control unit.",
+      "start": 13.22,
+      "end": 18.76,
+      "duration": 5.54
+    },
+    {
+      "id": "sense-decide",
+      "scene": "sense",
+      "text": "The control unit triggers the airbag only when the crash pattern indicates a severe impact.",
+      "speak": "The control unit triggers the airbag only when the crash pattern indicates a severe impact.",
+      "start": 19.3,
+      "end": 23.94,
+      "duration": 4.64
+    },
+    {
+      "id": "trigger-ignite",
+      "scene": "trigger",
+      "text": "A small igniter then activates a gas generator inside the folded airbag module.",
+      "speak": "A small igniter then activates a gas generator inside the folded airbag module.",
+      "start": 24.46,
+      "end": 28.96,
+      "duration": 4.5
+    },
+    {
+      "id": "trigger-gas",
+      "scene": "trigger",
+      "text": "The generator rapidly produces gas that flows into the woven fabric cushion.",
+      "speak": "The generator rapidly produces gas that flows into the woven fabric cushion.",
+      "start": 28.96,
+      "end": 33.34,
+      "duration": 4.38
+    },
+    {
+      "id": "cushion-spread",
+      "scene": "cushion",
+      "text": "The expanding airbag spreads out in front of the occupant, distributing force over a wider area.",
+      "speak": "The expanding airbag spreads out in front of the occupant, distributing force over a wider area.",
+      "start": 34.04,
+      "end": 39.08,
+      "duration": 5.04
+    },
+    {
+      "id": "cushion-vent",
+      "scene": "cushion",
+      "text": "As you press into the cushion, vents let gas escape so the airbag can absorb motion while deflating.",
+      "speak": "As you press into the cushion, vents let gas escape so the airbag can absorb motion while deflating.",
+      "start": 39.6,
+      "end": 44.98,
+      "duration": 5.38
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the airbag protects by sensing a crash, inflating quickly, and then yielding in a controlled way.",
+      "speak": "So the airbag protects by sensing a crash, inflating quickly, and then yielding in a controlled way.",
+      "start": 45.5,
+      "end": 50.64,
+      "duration": 5.14
+    }
+  ]
+}

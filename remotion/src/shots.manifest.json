@@ -200,6 +200,46 @@
   "transparent": false
  },
  {
+  "id": "Short31SolarPanel",
+  "durationInSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short32HeatPump",
+  "durationInSeconds": 55,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short33AccelerometerSteps",
+  "durationInSeconds": 55,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short34Printer3D",
+  "durationInSeconds": 55,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short35Airbag",
+  "durationInSeconds": 55,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short4Reflog",
   "durationInSeconds": 34,
   "fps": 30,
