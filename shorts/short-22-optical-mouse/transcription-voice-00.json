@@ -1,0 +1,662 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "29b4ffb96c12bcba4478930e619da788060de728f629a503a23895cd1b0f0574",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Move the mouse a little. The cursor follows almost instantly. Underneath, an LED lights the surface. A tiny camera takes rapid pictures of the texture. Watch these two snapshots. The dots have not changed. Their positions have shifted. The processor compares the images and measures that shift. If the texture moves left in the images, the mouse must have moved right. That measured movement becomes the cursor's motion. On a plain, glossy surface, there may be too little texture to compare. That is why tracking can fail. An optical mouse does not feel direction. It measures changing pictures.",
+  "mean_word_probability": 0.9800550825133616,
+  "low_confidence_words": [
+    {
+      "start": 28.16,
+      "end": 29.14,
+      "word": " That",
+      "probability": 0.34057337045669556
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.16,
+      "text": "Move the mouse a little. The cursor follows almost instantly. Underneath, an LED lights the surface. A tiny camera takes rapid pictures of the texture. Watch these two snapshots. The dots have not changed. Their positions have shifted. The processor compares the images and measures that shift. If the texture moves left in the images, the mouse must have moved right.",
+      "avg_logprob": -0.06084269195795059,
+      "no_speech_prob": 0.02349557913839817,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.1,
+          "word": " Move",
+          "probability": 0.9063760042190552
+        },
+        {
+          "start": 1.1,
+          "end": 1.4,
+          "word": " the",
+          "probability": 0.9923837780952454
+        },
+        {
+          "start": 1.4,
+          "end": 1.64,
+          "word": " mouse",
+          "probability": 0.993320107460022
+        },
+        {
+          "start": 1.64,
+          "end": 1.86,
+          "word": " a",
+          "probability": 0.9900708794593811
+        },
+        {
+          "start": 1.86,
+          "end": 2.14,
+          "word": " little.",
+          "probability": 0.9977647066116333
+        },
+        {
+          "start": 2.78,
+          "end": 2.88,
+          "word": " The",
+          "probability": 0.9802913665771484
+        },
+        {
+          "start": 2.88,
+          "end": 3.28,
+          "word": " cursor",
+          "probability": 0.9990622401237488
+        },
+        {
+          "start": 3.28,
+          "end": 3.8,
+          "word": " follows",
+          "probability": 0.9923101663589478
+        },
+        {
+          "start": 3.8,
+          "end": 4.46,
+          "word": " almost",
+          "probability": 0.9919216632843018
+        },
+        {
+          "start": 4.46,
+          "end": 5.26,
+          "word": " instantly.",
+          "probability": 0.997054934501648
+        },
+        {
+          "start": 6.02,
+          "end": 6.66,
+          "word": " Underneath,",
+          "probability": 0.9920899569988251
+        },
+        {
+          "start": 7.02,
+          "end": 7.14,
+          "word": " an",
+          "probability": 0.9820490479469299
+        },
+        {
+          "start": 7.14,
+          "end": 7.62,
+          "word": " LED",
+          "probability": 0.9864259958267212
+        },
+        {
+          "start": 7.62,
+          "end": 8.04,
+          "word": " lights",
+          "probability": 0.997503936290741
+        },
+        {
+          "start": 8.04,
+          "end": 8.3,
+          "word": " the",
+          "probability": 0.9956380724906921
+        },
+        {
+          "start": 8.3,
+          "end": 8.66,
+          "word": " surface.",
+          "probability": 0.9948845505714417
+        },
+        {
+          "start": 9.26,
+          "end": 9.44,
+          "word": " A",
+          "probability": 0.9857860207557678
+        },
+        {
+          "start": 9.44,
+          "end": 9.86,
+          "word": " tiny",
+          "probability": 0.9977521300315857
+        },
+        {
+          "start": 9.86,
+          "end": 10.32,
+          "word": " camera",
+          "probability": 0.9974715709686279
+        },
+        {
+          "start": 10.32,
+          "end": 10.72,
+          "word": " takes",
+          "probability": 0.9963927865028381
+        },
+        {
+          "start": 10.72,
+          "end": 11.24,
+          "word": " rapid",
+          "probability": 0.9931672215461731
+        },
+        {
+          "start": 11.24,
+          "end": 11.7,
+          "word": " pictures",
+          "probability": 0.9813923239707947
+        },
+        {
+          "start": 11.7,
+          "end": 11.96,
+          "word": " of",
+          "probability": 0.9976696372032166
+        },
+        {
+          "start": 11.96,
+          "end": 12.1,
+          "word": " the",
+          "probability": 0.989071249961853
+        },
+        {
+          "start": 12.1,
+          "end": 12.44,
+          "word": " texture.",
+          "probability": 0.9923989176750183
+        },
+        {
+          "start": 13.24,
+          "end": 13.5,
+          "word": " Watch",
+          "probability": 0.9871469736099243
+        },
+        {
+          "start": 13.5,
+          "end": 13.86,
+          "word": " these",
+          "probability": 0.9893525838851929
+        },
+        {
+          "start": 13.86,
+          "end": 14.08,
+          "word": " two",
+          "probability": 0.8673145174980164
+        },
+        {
+          "start": 14.08,
+          "end": 14.54,
+          "word": " snapshots.",
+          "probability": 0.9821940660476685
+        },
+        {
+          "start": 15.34,
+          "end": 15.48,
+          "word": " The",
+          "probability": 0.959447979927063
+        },
+        {
+          "start": 15.48,
+          "end": 15.9,
+          "word": " dots",
+          "probability": 0.9986095428466797
+        },
+        {
+          "start": 15.9,
+          "end": 16.14,
+          "word": " have",
+          "probability": 0.993546187877655
+        },
+        {
+          "start": 16.14,
+          "end": 16.42,
+          "word": " not",
+          "probability": 0.9981714487075806
+        },
+        {
+          "start": 16.42,
+          "end": 16.92,
+          "word": " changed.",
+          "probability": 0.9982666969299316
+        },
+        {
+          "start": 17.4,
+          "end": 17.58,
+          "word": " Their",
+          "probability": 0.9828770756721497
+        },
+        {
+          "start": 17.58,
+          "end": 18.22,
+          "word": " positions",
+          "probability": 0.9866373538970947
+        },
+        {
+          "start": 18.22,
+          "end": 18.64,
+          "word": " have",
+          "probability": 0.9949581027030945
+        },
+        {
+          "start": 18.64,
+          "end": 19.12,
+          "word": " shifted.",
+          "probability": 0.9978142976760864
+        },
+        {
+          "start": 19.86,
+          "end": 20.12,
+          "word": " The",
+          "probability": 0.993725597858429
+        },
+        {
+          "start": 20.12,
+          "end": 20.54,
+          "word": " processor",
+          "probability": 0.9891545176506042
+        },
+        {
+          "start": 20.54,
+          "end": 21.16,
+          "word": " compares",
+          "probability": 0.9947015047073364
+        },
+        {
+          "start": 21.16,
+          "end": 21.48,
+          "word": " the",
+          "probability": 0.9939660429954529
+        },
+        {
+          "start": 21.48,
+          "end": 21.84,
+          "word": " images",
+          "probability": 0.9935365319252014
+        },
+        {
+          "start": 21.84,
+          "end": 22.3,
+          "word": " and",
+          "probability": 0.9495061635971069
+        },
+        {
+          "start": 22.3,
+          "end": 22.7,
+          "word": " measures",
+          "probability": 0.9958930015563965
+        },
+        {
+          "start": 22.7,
+          "end": 23.04,
+          "word": " that",
+          "probability": 0.9704889059066772
+        },
+        {
+          "start": 23.04,
+          "end": 23.36,
+          "word": " shift.",
+          "probability": 0.9981095790863037
+        },
+        {
+          "start": 23.88,
+          "end": 24.16,
+          "word": " If",
+          "probability": 0.9952691197395325
+        },
+        {
+          "start": 24.16,
+          "end": 24.38,
+          "word": " the",
+          "probability": 0.9934515953063965
+        },
+        {
+          "start": 24.38,
+          "end": 24.68,
+          "word": " texture",
+          "probability": 0.9957742094993591
+        },
+        {
+          "start": 24.68,
+          "end": 25.06,
+          "word": " moves",
+          "probability": 0.9961032867431641
+        },
+        {
+          "start": 25.06,
+          "end": 25.4,
+          "word": " left",
+          "probability": 0.9967175126075745
+        },
+        {
+          "start": 25.4,
+          "end": 25.66,
+          "word": " in",
+          "probability": 0.9961397051811218
+        },
+        {
+          "start": 25.66,
+          "end": 25.82,
+          "word": " the",
+          "probability": 0.9871577620506287
+        },
+        {
+          "start": 25.82,
+          "end": 26.18,
+          "word": " images,",
+          "probability": 0.9892844557762146
+        },
+        {
+          "start": 26.48,
+          "end": 26.78,
+          "word": " the",
+          "probability": 0.9905468225479126
+        },
+        {
+          "start": 26.78,
+          "end": 27.0,
+          "word": " mouse",
+          "probability": 0.9987329840660095
+        },
+        {
+          "start": 27.0,
+          "end": 27.34,
+          "word": " must",
+          "probability": 0.9978669285774231
+        },
+        {
+          "start": 27.34,
+          "end": 27.6,
+          "word": " have",
+          "probability": 0.9851318001747131
+        },
+        {
+          "start": 27.6,
+          "end": 27.88,
+          "word": " moved",
+          "probability": 0.9972187280654907
+        },
+        {
+          "start": 27.88,
+          "end": 28.16,
+          "word": " right.",
+          "probability": 0.9956258535385132
+        }
+      ]
+    },
+    {
+      "start": 28.16,
+      "end": 31.86,
+      "text": "That measured movement becomes the cursor's motion.",
+      "avg_logprob": -0.11896838101425342,
+      "no_speech_prob": 0.013560889288783073,
+      "words": [
+        {
+          "start": 28.16,
+          "end": 29.14,
+          "word": " That",
+          "probability": 0.34057337045669556
+        },
+        {
+          "start": 29.14,
+          "end": 29.76,
+          "word": " measured",
+          "probability": 0.95505291223526
+        },
+        {
+          "start": 29.76,
+          "end": 30.24,
+          "word": " movement",
+          "probability": 0.9941734671592712
+        },
+        {
+          "start": 30.24,
+          "end": 30.78,
+          "word": " becomes",
+          "probability": 0.9798853993415833
+        },
+        {
+          "start": 30.78,
+          "end": 31.04,
+          "word": " the",
+          "probability": 0.9867249727249146
+        },
+        {
+          "start": 31.04,
+          "end": 31.6,
+          "word": " cursor's",
+          "probability": 0.9905354380607605
+        },
+        {
+          "start": 31.6,
+          "end": 31.86,
+          "word": " motion.",
+          "probability": 0.997822642326355
+        }
+      ]
+    },
+    {
+      "start": 32.6,
+      "end": 37.0,
+      "text": "On a plain, glossy surface, there may be too little texture to compare.",
+      "avg_logprob": -0.11896838101425342,
+      "no_speech_prob": 0.013560889288783073,
+      "words": [
+        {
+          "start": 32.6,
+          "end": 32.88,
+          "word": " On",
+          "probability": 0.9929953217506409
+        },
+        {
+          "start": 32.88,
+          "end": 33.16,
+          "word": " a",
+          "probability": 0.9947265982627869
+        },
+        {
+          "start": 33.16,
+          "end": 33.48,
+          "word": " plain,",
+          "probability": 0.9295701384544373
+        },
+        {
+          "start": 33.76,
+          "end": 33.96,
+          "word": " glossy",
+          "probability": 0.9934229254722595
+        },
+        {
+          "start": 33.96,
+          "end": 34.5,
+          "word": " surface,",
+          "probability": 0.9974321722984314
+        },
+        {
+          "start": 34.94,
+          "end": 35.06,
+          "word": " there",
+          "probability": 0.9965452551841736
+        },
+        {
+          "start": 35.06,
+          "end": 35.2,
+          "word": " may",
+          "probability": 0.9819692969322205
+        },
+        {
+          "start": 35.2,
+          "end": 35.4,
+          "word": " be",
+          "probability": 0.9969841837882996
+        },
+        {
+          "start": 35.4,
+          "end": 35.64,
+          "word": " too",
+          "probability": 0.9901638627052307
+        },
+        {
+          "start": 35.64,
+          "end": 36.0,
+          "word": " little",
+          "probability": 0.998176097869873
+        },
+        {
+          "start": 36.0,
+          "end": 36.4,
+          "word": " texture",
+          "probability": 0.9945459365844727
+        },
+        {
+          "start": 36.4,
+          "end": 36.64,
+          "word": " to",
+          "probability": 0.9974493384361267
+        },
+        {
+          "start": 36.64,
+          "end": 37.0,
+          "word": " compare.",
+          "probability": 0.9994574189186096
+        }
+      ]
+    },
+    {
+      "start": 37.54,
+      "end": 39.26,
+      "text": "That is why tracking can fail.",
+      "avg_logprob": -0.11896838101425342,
+      "no_speech_prob": 0.013560889288783073,
+      "words": [
+        {
+          "start": 37.54,
+          "end": 37.82,
+          "word": " That",
+          "probability": 0.9916850328445435
+        },
+        {
+          "start": 37.82,
+          "end": 38.0,
+          "word": " is",
+          "probability": 0.9360446929931641
+        },
+        {
+          "start": 38.0,
+          "end": 38.2,
+          "word": " why",
+          "probability": 0.9979096055030823
+        },
+        {
+          "start": 38.2,
+          "end": 38.68,
+          "word": " tracking",
+          "probability": 0.9659035801887512
+        },
+        {
+          "start": 38.68,
+          "end": 38.98,
+          "word": " can",
+          "probability": 0.9966206550598145
+        },
+        {
+          "start": 38.98,
+          "end": 39.26,
+          "word": " fail.",
+          "probability": 0.9996507167816162
+        }
+      ]
+    },
+    {
+      "start": 40.02,
+      "end": 42.5,
+      "text": "An optical mouse does not feel direction.",
+      "avg_logprob": -0.11896838101425342,
+      "no_speech_prob": 0.013560889288783073,
+      "words": [
+        {
+          "start": 40.02,
+          "end": 40.18,
+          "word": " An",
+          "probability": 0.9930599927902222
+        },
+        {
+          "start": 40.18,
+          "end": 40.74,
+          "word": " optical",
+          "probability": 0.981642484664917
+        },
+        {
+          "start": 40.74,
+          "end": 41.1,
+          "word": " mouse",
+          "probability": 0.9974209070205688
+        },
+        {
+          "start": 41.1,
+          "end": 41.34,
+          "word": " does",
+          "probability": 0.9716485142707825
+        },
+        {
+          "start": 41.34,
+          "end": 41.6,
+          "word": " not",
+          "probability": 0.9989798665046692
+        },
+        {
+          "start": 41.6,
+          "end": 41.98,
+          "word": " feel",
+          "probability": 0.9389230608940125
+        },
+        {
+          "start": 41.98,
+          "end": 42.5,
+          "word": " direction.",
+          "probability": 0.9453859329223633
+        }
+      ]
+    },
+    {
+      "start": 42.9,
+      "end": 44.72,
+      "text": "It measures changing pictures.",
+      "avg_logprob": -0.11896838101425342,
+      "no_speech_prob": 0.013560889288783073,
+      "words": [
+        {
+          "start": 42.9,
+          "end": 43.14,
+          "word": " It",
+          "probability": 0.9921045303344727
+        },
+        {
+          "start": 43.14,
+          "end": 43.62,
+          "word": " measures",
+          "probability": 0.9932259917259216
+        },
+        {
+          "start": 43.62,
+          "end": 44.2,
+          "word": " changing",
+          "probability": 0.9943962097167969
+        },
+        {
+          "start": 44.2,
+          "end": 44.72,
+          "word": " pictures.",
+          "probability": 0.9919008612632751
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "1f612eb5f6fced6ac64537f3aeaab87d027eb7dc1cc2a8c9252e89add95f85ee",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This battery is not a tank full of electricity. It stores chemical energy by moving lithium ions between two materials. During discharge, lithium ions leave the negative electrode. They travel through the electrolyte toward the positive electrode. At the same time, electrons flow through the outside circuit powering the phone. The separator lets ions pass but keeps the electrodes from touching. The electrons must take the external path. Plug in the charger and the energy pushes ions and electrons back. The battery is ready to discharge again. A battery is a control shuttle. Ions inside, electrons outside.",
+  "mean_word_probability": 0.9576613445257404,
+  "low_confidence_words": [
+    {
+      "start": 22.36,
+      "end": 23.0,
+      "word": " powering",
+      "probability": 0.4811515808105469
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.52,
+      "text": "This battery is not a tank full of electricity. It stores chemical energy by moving lithium ions between two materials. During discharge, lithium ions leave the negative electrode. They travel through the electrolyte toward the positive electrode. At the same time, electrons flow through the outside circuit powering the phone. The separator lets ions pass but keeps the electrodes from touching.",
+      "avg_logprob": -0.059517872660127404,
+      "no_speech_prob": 0.12256494909524918,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.12,
+          "word": " This",
+          "probability": 0.5605897903442383
+        },
+        {
+          "start": 1.12,
+          "end": 1.64,
+          "word": " battery",
+          "probability": 0.9916661381721497
+        },
+        {
+          "start": 1.64,
+          "end": 1.94,
+          "word": " is",
+          "probability": 0.987495481967926
+        },
+        {
+          "start": 1.94,
+          "end": 2.16,
+          "word": " not",
+          "probability": 0.9942538142204285
+        },
+        {
+          "start": 2.16,
+          "end": 2.52,
+          "word": " a",
+          "probability": 0.9891910552978516
+        },
+        {
+          "start": 2.52,
+          "end": 2.78,
+          "word": " tank",
+          "probability": 0.9953071475028992
+        },
+        {
+          "start": 2.78,
+          "end": 3.04,
+          "word": " full",
+          "probability": 0.963169276714325
+        },
+        {
+          "start": 3.04,
+          "end": 3.28,
+          "word": " of",
+          "probability": 0.9985737800598145
+        },
+        {
+          "start": 3.28,
+          "end": 3.78,
+          "word": " electricity.",
+          "probability": 0.99191814661026
+        },
+        {
+          "start": 4.64,
+          "end": 4.64,
+          "word": " It",
+          "probability": 0.9759132862091064
+        },
+        {
+          "start": 4.64,
+          "end": 5.1,
+          "word": " stores",
+          "probability": 0.9869150519371033
+        },
+        {
+          "start": 5.1,
+          "end": 5.64,
+          "word": " chemical",
+          "probability": 0.9635158777236938
+        },
+        {
+          "start": 5.64,
+          "end": 6.18,
+          "word": " energy",
+          "probability": 0.9984679818153381
+        },
+        {
+          "start": 6.18,
+          "end": 6.64,
+          "word": " by",
+          "probability": 0.9831045269966125
+        },
+        {
+          "start": 6.64,
+          "end": 7.08,
+          "word": " moving",
+          "probability": 0.9966413974761963
+        },
+        {
+          "start": 7.08,
+          "end": 7.6,
+          "word": " lithium",
+          "probability": 0.8381127119064331
+        },
+        {
+          "start": 7.6,
+          "end": 8.02,
+          "word": " ions",
+          "probability": 0.91669762134552
+        },
+        {
+          "start": 8.02,
+          "end": 8.44,
+          "word": " between",
+          "probability": 0.9923689365386963
+        },
+        {
+          "start": 8.44,
+          "end": 8.82,
+          "word": " two",
+          "probability": 0.8758158683776855
+        },
+        {
+          "start": 8.82,
+          "end": 9.44,
+          "word": " materials.",
+          "probability": 0.9942651391029358
+        },
+        {
+          "start": 10.24,
+          "end": 10.52,
+          "word": " During",
+          "probability": 0.9865348935127258
+        },
+        {
+          "start": 10.52,
+          "end": 11.18,
+          "word": " discharge,",
+          "probability": 0.9790376424789429
+        },
+        {
+          "start": 11.66,
+          "end": 11.96,
+          "word": " lithium",
+          "probability": 0.9252720475196838
+        },
+        {
+          "start": 11.96,
+          "end": 12.38,
+          "word": " ions",
+          "probability": 0.9896861910820007
+        },
+        {
+          "start": 12.38,
+          "end": 12.8,
+          "word": " leave",
+          "probability": 0.9856123924255371
+        },
+        {
+          "start": 12.8,
+          "end": 13.06,
+          "word": " the",
+          "probability": 0.991599440574646
+        },
+        {
+          "start": 13.06,
+          "end": 13.4,
+          "word": " negative",
+          "probability": 0.9986116886138916
+        },
+        {
+          "start": 13.4,
+          "end": 13.96,
+          "word": " electrode.",
+          "probability": 0.9979477524757385
+        },
+        {
+          "start": 14.54,
+          "end": 14.68,
+          "word": " They",
+          "probability": 0.9771754741668701
+        },
+        {
+          "start": 14.68,
+          "end": 15.08,
+          "word": " travel",
+          "probability": 0.9975997805595398
+        },
+        {
+          "start": 15.08,
+          "end": 15.4,
+          "word": " through",
+          "probability": 0.9903745651245117
+        },
+        {
+          "start": 15.4,
+          "end": 15.7,
+          "word": " the",
+          "probability": 0.9835088849067688
+        },
+        {
+          "start": 15.7,
+          "end": 16.44,
+          "word": " electrolyte",
+          "probability": 0.9861789643764496
+        },
+        {
+          "start": 16.44,
+          "end": 16.76,
+          "word": " toward",
+          "probability": 0.6262977123260498
+        },
+        {
+          "start": 16.76,
+          "end": 17.12,
+          "word": " the",
+          "probability": 0.9837100505828857
+        },
+        {
+          "start": 17.12,
+          "end": 17.46,
+          "word": " positive",
+          "probability": 0.9976882934570312
+        },
+        {
+          "start": 17.46,
+          "end": 18.04,
+          "word": " electrode.",
+          "probability": 0.9965125918388367
+        },
+        {
+          "start": 18.62,
+          "end": 18.84,
+          "word": " At",
+          "probability": 0.9964471459388733
+        },
+        {
+          "start": 18.84,
+          "end": 19.0,
+          "word": " the",
+          "probability": 0.9951262474060059
+        },
+        {
+          "start": 19.0,
+          "end": 19.24,
+          "word": " same",
+          "probability": 0.9987769722938538
+        },
+        {
+          "start": 19.24,
+          "end": 19.74,
+          "word": " time,",
+          "probability": 0.9976382255554199
+        },
+        {
+          "start": 19.96,
+          "end": 20.5,
+          "word": " electrons",
+          "probability": 0.96684730052948
+        },
+        {
+          "start": 20.5,
+          "end": 20.86,
+          "word": " flow",
+          "probability": 0.9891881346702576
+        },
+        {
+          "start": 20.86,
+          "end": 21.12,
+          "word": " through",
+          "probability": 0.9938080906867981
+        },
+        {
+          "start": 21.12,
+          "end": 21.42,
+          "word": " the",
+          "probability": 0.9826512932777405
+        },
+        {
+          "start": 21.42,
+          "end": 21.86,
+          "word": " outside",
+          "probability": 0.9972435235977173
+        },
+        {
+          "start": 21.86,
+          "end": 22.36,
+          "word": " circuit",
+          "probability": 0.9927967190742493
+        },
+        {
+          "start": 22.36,
+          "end": 23.0,
+          "word": " powering",
+          "probability": 0.4811515808105469
+        },
+        {
+          "start": 23.0,
+          "end": 23.26,
+          "word": " the",
+          "probability": 0.9971195459365845
+        },
+        {
+          "start": 23.26,
+          "end": 23.5,
+          "word": " phone.",
+          "probability": 0.9952202439308167
+        },
+        {
+          "start": 24.2,
+          "end": 24.46,
+          "word": " The",
+          "probability": 0.9736088514328003
+        },
+        {
+          "start": 24.46,
+          "end": 25.04,
+          "word": " separator",
+          "probability": 0.9910359680652618
+        },
+        {
+          "start": 25.04,
+          "end": 25.32,
+          "word": " lets",
+          "probability": 0.9556400179862976
+        },
+        {
+          "start": 25.32,
+          "end": 25.84,
+          "word": " ions",
+          "probability": 0.8806017637252808
+        },
+        {
+          "start": 25.84,
+          "end": 26.26,
+          "word": " pass",
+          "probability": 0.9946704506874084
+        },
+        {
+          "start": 26.26,
+          "end": 26.72,
+          "word": " but",
+          "probability": 0.8937563896179199
+        },
+        {
+          "start": 26.72,
+          "end": 27.1,
+          "word": " keeps",
+          "probability": 0.9936202168464661
+        },
+        {
+          "start": 27.1,
+          "end": 27.4,
+          "word": " the",
+          "probability": 0.9949591159820557
+        },
+        {
+          "start": 27.4,
+          "end": 27.82,
+          "word": " electrodes",
+          "probability": 0.9730174541473389
+        },
+        {
+          "start": 27.82,
+          "end": 28.14,
+          "word": " from",
+          "probability": 0.9981314539909363
+        },
+        {
+          "start": 28.14,
+          "end": 28.52,
+          "word": " touching.",
+          "probability": 0.998481810092926
+        }
+      ]
+    },
+    {
+      "start": 28.52,
+      "end": 31.76,
+      "text": "The electrons must take the external path.",
+      "avg_logprob": -0.12234793506838658,
+      "no_speech_prob": 0.05702555924654007,
+      "words": [
+        {
+          "start": 28.52,
+          "end": 29.34,
+          "word": " The",
+          "probability": 0.5131831169128418
+        },
+        {
+          "start": 29.34,
+          "end": 29.86,
+          "word": " electrons",
+          "probability": 0.9662529230117798
+        },
+        {
+          "start": 29.86,
+          "end": 30.34,
+          "word": " must",
+          "probability": 0.9940859079360962
+        },
+        {
+          "start": 30.34,
+          "end": 30.68,
+          "word": " take",
+          "probability": 0.9963311553001404
+        },
+        {
+          "start": 30.68,
+          "end": 30.9,
+          "word": " the",
+          "probability": 0.9736499786376953
+        },
+        {
+          "start": 30.9,
+          "end": 31.36,
+          "word": " external",
+          "probability": 0.9964339733123779
+        },
+        {
+          "start": 31.36,
+          "end": 31.76,
+          "word": " path.",
+          "probability": 0.9452245831489563
+        }
+      ]
+    },
+    {
+      "start": 32.5,
+      "end": 36.54,
+      "text": "Plug in the charger and the energy pushes ions and electrons back.",
+      "avg_logprob": -0.12234793506838658,
+      "no_speech_prob": 0.05702555924654007,
+      "words": [
+        {
+          "start": 32.5,
+          "end": 32.64,
+          "word": " Plug",
+          "probability": 0.9899245500564575
+        },
+        {
+          "start": 32.64,
+          "end": 32.86,
+          "word": " in",
+          "probability": 0.947765588760376
+        },
+        {
+          "start": 32.86,
+          "end": 33.02,
+          "word": " the",
+          "probability": 0.9913029670715332
+        },
+        {
+          "start": 33.02,
+          "end": 33.32,
+          "word": " charger",
+          "probability": 0.9833059906959534
+        },
+        {
+          "start": 33.32,
+          "end": 33.86,
+          "word": " and",
+          "probability": 0.8569343090057373
+        },
+        {
+          "start": 33.86,
+          "end": 34.04,
+          "word": " the",
+          "probability": 0.9492030143737793
+        },
+        {
+          "start": 34.04,
+          "end": 34.38,
+          "word": " energy",
+          "probability": 0.9980389475822449
+        },
+        {
+          "start": 34.38,
+          "end": 34.84,
+          "word": " pushes",
+          "probability": 0.9896243214607239
+        },
+        {
+          "start": 34.84,
+          "end": 35.36,
+          "word": " ions",
+          "probability": 0.8731858134269714
+        },
+        {
+          "start": 35.36,
+          "end": 35.66,
+          "word": " and",
+          "probability": 0.9834926128387451
+        },
+        {
+          "start": 35.66,
+          "end": 36.12,
+          "word": " electrons",
+          "probability": 0.9890669584274292
+        },
+        {
+          "start": 36.12,
+          "end": 36.54,
+          "word": " back.",
+          "probability": 0.9959186911582947
+        }
+      ]
+    },
+    {
+      "start": 37.14,
+      "end": 39.36,
+      "text": "The battery is ready to discharge again.",
+      "avg_logprob": -0.12234793506838658,
+      "no_speech_prob": 0.05702555924654007,
+      "words": [
+        {
+          "start": 37.14,
+          "end": 37.32,
+          "word": " The",
+          "probability": 0.9811313152313232
+        },
+        {
+          "start": 37.32,
+          "end": 37.68,
+          "word": " battery",
+          "probability": 0.9953517913818359
+        },
+        {
+          "start": 37.68,
+          "end": 37.96,
+          "word": " is",
+          "probability": 0.9960182309150696
+        },
+        {
+          "start": 37.96,
+          "end": 38.22,
+          "word": " ready",
+          "probability": 0.998863935470581
+        },
+        {
+          "start": 38.22,
+          "end": 38.48,
+          "word": " to",
+          "probability": 0.9989742040634155
+        },
+        {
+          "start": 38.48,
+          "end": 38.94,
+          "word": " discharge",
+          "probability": 0.9919973015785217
+        },
+        {
+          "start": 38.94,
+          "end": 39.36,
+          "word": " again.",
+          "probability": 0.9909206628799438
+        }
+      ]
+    },
+    {
+      "start": 40.08,
+      "end": 42.02,
+      "text": "A battery is a control shuttle.",
+      "avg_logprob": -0.12234793506838658,
+      "no_speech_prob": 0.05702555924654007,
+      "words": [
+        {
+          "start": 40.08,
+          "end": 40.22,
+          "word": " A",
+          "probability": 0.9442188143730164
+        },
+        {
+          "start": 40.22,
+          "end": 40.66,
+          "word": " battery",
+          "probability": 0.9972678422927856
+        },
+        {
+          "start": 40.66,
+          "end": 40.9,
+          "word": " is",
+          "probability": 0.9975265860557556
+        },
+        {
+          "start": 40.9,
+          "end": 41.12,
+          "word": " a",
+          "probability": 0.987567663192749
+        },
+        {
+          "start": 41.12,
+          "end": 41.54,
+          "word": " control",
+          "probability": 0.8155099749565125
+        },
+        {
+          "start": 41.54,
+          "end": 42.02,
+          "word": " shuttle.",
+          "probability": 0.9702722430229187
+        }
+      ]
+    },
+    {
+      "start": 42.58,
+      "end": 44.7,
+      "text": "Ions inside, electrons outside.",
+      "avg_logprob": -0.12234793506838658,
+      "no_speech_prob": 0.05702555924654007,
+      "words": [
+        {
+          "start": 42.58,
+          "end": 42.92,
+          "word": " Ions",
+          "probability": 0.9667822420597076
+        },
+        {
+          "start": 42.92,
+          "end": 43.42,
+          "word": " inside,",
+          "probability": 0.9904781579971313
+        },
+        {
+          "start": 43.82,
+          "end": 44.2,
+          "word": " electrons",
+          "probability": 0.9200714826583862
+        },
+        {
+          "start": 44.2,
+          "end": 44.7,
+          "word": " outside.",
+          "probability": 0.9984026551246643
+        }
+      ]
+    }
+  ]
+}
