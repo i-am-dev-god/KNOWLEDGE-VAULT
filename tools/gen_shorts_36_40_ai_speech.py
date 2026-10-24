@@ -208,7 +208,7 @@ def align_one(project: dict) -> None:
             asr_alignment[index] = ("two", word)
     # Whisper may spell a spoken compound as two words. Merge only the exact
     # domain compounds expected at this position, preserving their full time span.
-    compound_parts = {"subcarriers": ("sub", "carriers"), "retransmission": ("re", "transmission")}
+    compound_parts = {"subcarriers": ("sub", "carriers"), "retransmission": ("re", "transmission"), "photodetector": ("photo", "detector")}
     compound_corrections = []
     merged_alignment = []
     i = 0

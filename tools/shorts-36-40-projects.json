@@ -156,7 +156,7 @@
         {
           "id": "force-torque",
           "scene": "torque",
-          "text": "The current-carrying coil experiences opposite forces on its two sides, creating a turning force called torque."
+          "text": "Current in the coil produces opposite forces on its two sides, creating a turning force called torque."
         },
         {
           "id": "force-rotate",
@@ -242,8 +242,8 @@
       "title": "How a Transformer Changes Voltage",
       "composition": "Short38Transformer",
       "result": "how-a-transformer-changes-voltage.mp4",
-      "duration_s": 56.0,
-      "target_voice_end_s": 47.0,
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
       "prompt": "Transformer. AC voltage. Primary coil. Secondary coil. Alternating magnetic field. Iron core. Induction. Turns ratio.",
       "music": "ambient-pad",
       "lines": [
@@ -265,7 +265,7 @@
         {
           "id": "core-flux",
           "scene": "core",
-          "text": "The iron core guides that changing magnetic field around a closed loop."
+          "text": "The iron core guides this changing magnetic field around a closed loop."
         },
         {
           "id": "core-link",
