@@ -1,0 +1,625 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "4d4e36f91aa17545d384e6eb873781fcf4d70e7b33f4fefb3112abd740cc3a96",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This pan heats on an induction cooktop without a directly heated burner. The cooktop sends energy into the pan using a changing magnetic field. Below the glass, high frequency alternating current flows through a copper coil. That field drives circular electric currents inside the magnetic metal pan. Electrical resistance turns their energy into heat so the pan itself gets hot. The pan then conducts that heat into the food. A suitable magnetic pan is essential. Ordinary glass or copper alone will not work. So the coil creates the field but the resistant pan becomes the heater.",
+  "mean_word_probability": 0.963524580001831,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.72,
+      "text": "This pan heats on an induction cooktop without a directly heated burner. The cooktop sends energy into the pan using a changing magnetic field. Below the glass, high frequency alternating current flows through a copper coil. That field drives circular electric currents inside the magnetic metal pan. Electrical resistance turns their energy into heat so the pan itself gets hot. The pan then conducts that heat into the food.",
+      "avg_logprob": -0.04160398286767304,
+      "no_speech_prob": 0.02221752144396305,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " This",
+          "probability": 0.7533416152000427
+        },
+        {
+          "start": 0.52,
+          "end": 0.84,
+          "word": " pan",
+          "probability": 0.9697127938270569
+        },
+        {
+          "start": 0.84,
+          "end": 1.2,
+          "word": " heats",
+          "probability": 0.9873560667037964
+        },
+        {
+          "start": 1.2,
+          "end": 1.44,
+          "word": " on",
+          "probability": 0.9854119420051575
+        },
+        {
+          "start": 1.44,
+          "end": 1.62,
+          "word": " an",
+          "probability": 0.981089174747467
+        },
+        {
+          "start": 1.62,
+          "end": 2.14,
+          "word": " induction",
+          "probability": 0.9968764781951904
+        },
+        {
+          "start": 2.14,
+          "end": 2.66,
+          "word": " cooktop",
+          "probability": 0.9060100317001343
+        },
+        {
+          "start": 2.66,
+          "end": 3.16,
+          "word": " without",
+          "probability": 0.9137425422668457
+        },
+        {
+          "start": 3.16,
+          "end": 3.48,
+          "word": " a",
+          "probability": 0.9919928312301636
+        },
+        {
+          "start": 3.48,
+          "end": 3.94,
+          "word": " directly",
+          "probability": 0.996093213558197
+        },
+        {
+          "start": 3.94,
+          "end": 4.28,
+          "word": " heated",
+          "probability": 0.9537482857704163
+        },
+        {
+          "start": 4.28,
+          "end": 4.68,
+          "word": " burner.",
+          "probability": 0.9983114004135132
+        },
+        {
+          "start": 5.4,
+          "end": 5.44,
+          "word": " The",
+          "probability": 0.9786348342895508
+        },
+        {
+          "start": 5.44,
+          "end": 5.84,
+          "word": " cooktop",
+          "probability": 0.988938719034195
+        },
+        {
+          "start": 5.84,
+          "end": 6.24,
+          "word": " sends",
+          "probability": 0.9933075904846191
+        },
+        {
+          "start": 6.24,
+          "end": 6.68,
+          "word": " energy",
+          "probability": 0.9951653480529785
+        },
+        {
+          "start": 6.68,
+          "end": 6.94,
+          "word": " into",
+          "probability": 0.9850998520851135
+        },
+        {
+          "start": 6.94,
+          "end": 7.16,
+          "word": " the",
+          "probability": 0.9965996146202087
+        },
+        {
+          "start": 7.16,
+          "end": 7.38,
+          "word": " pan",
+          "probability": 0.9975437521934509
+        },
+        {
+          "start": 7.38,
+          "end": 7.78,
+          "word": " using",
+          "probability": 0.966164231300354
+        },
+        {
+          "start": 7.78,
+          "end": 8.04,
+          "word": " a",
+          "probability": 0.988716185092926
+        },
+        {
+          "start": 8.04,
+          "end": 8.42,
+          "word": " changing",
+          "probability": 0.991071879863739
+        },
+        {
+          "start": 8.42,
+          "end": 8.94,
+          "word": " magnetic",
+          "probability": 0.9973394274711609
+        },
+        {
+          "start": 8.94,
+          "end": 9.36,
+          "word": " field.",
+          "probability": 0.9990984201431274
+        },
+        {
+          "start": 10.12,
+          "end": 10.32,
+          "word": " Below",
+          "probability": 0.9796452522277832
+        },
+        {
+          "start": 10.32,
+          "end": 10.56,
+          "word": " the",
+          "probability": 0.9970439076423645
+        },
+        {
+          "start": 10.56,
+          "end": 10.84,
+          "word": " glass,",
+          "probability": 0.9972658157348633
+        },
+        {
+          "start": 11.2,
+          "end": 11.38,
+          "word": " high",
+          "probability": 0.9506435394287109
+        },
+        {
+          "start": 11.38,
+          "end": 11.94,
+          "word": " frequency",
+          "probability": 0.6256682276725769
+        },
+        {
+          "start": 11.94,
+          "end": 12.58,
+          "word": " alternating",
+          "probability": 0.9943337440490723
+        },
+        {
+          "start": 12.58,
+          "end": 13.0,
+          "word": " current",
+          "probability": 0.9950906038284302
+        },
+        {
+          "start": 13.0,
+          "end": 13.4,
+          "word": " flows",
+          "probability": 0.9923731684684753
+        },
+        {
+          "start": 13.4,
+          "end": 13.66,
+          "word": " through",
+          "probability": 0.9958673715591431
+        },
+        {
+          "start": 13.66,
+          "end": 13.9,
+          "word": " a",
+          "probability": 0.9794341921806335
+        },
+        {
+          "start": 13.9,
+          "end": 14.1,
+          "word": " copper",
+          "probability": 0.9944543242454529
+        },
+        {
+          "start": 14.1,
+          "end": 14.42,
+          "word": " coil.",
+          "probability": 0.9814471006393433
+        },
+        {
+          "start": 15.12,
+          "end": 15.32,
+          "word": " That",
+          "probability": 0.9768492579460144
+        },
+        {
+          "start": 15.32,
+          "end": 15.68,
+          "word": " field",
+          "probability": 0.9953433275222778
+        },
+        {
+          "start": 15.68,
+          "end": 16.16,
+          "word": " drives",
+          "probability": 0.9948940277099609
+        },
+        {
+          "start": 16.16,
+          "end": 16.76,
+          "word": " circular",
+          "probability": 0.9864752888679504
+        },
+        {
+          "start": 16.76,
+          "end": 17.28,
+          "word": " electric",
+          "probability": 0.9788067936897278
+        },
+        {
+          "start": 17.28,
+          "end": 17.64,
+          "word": " currents",
+          "probability": 0.9875587224960327
+        },
+        {
+          "start": 17.64,
+          "end": 18.2,
+          "word": " inside",
+          "probability": 0.9917049407958984
+        },
+        {
+          "start": 18.2,
+          "end": 18.46,
+          "word": " the",
+          "probability": 0.9942318797111511
+        },
+        {
+          "start": 18.46,
+          "end": 18.84,
+          "word": " magnetic",
+          "probability": 0.9846189618110657
+        },
+        {
+          "start": 18.84,
+          "end": 19.14,
+          "word": " metal",
+          "probability": 0.9731507301330566
+        },
+        {
+          "start": 19.14,
+          "end": 19.52,
+          "word": " pan.",
+          "probability": 0.9950906038284302
+        },
+        {
+          "start": 20.16,
+          "end": 20.62,
+          "word": " Electrical",
+          "probability": 0.9839202761650085
+        },
+        {
+          "start": 20.62,
+          "end": 21.16,
+          "word": " resistance",
+          "probability": 0.9960817694664001
+        },
+        {
+          "start": 21.16,
+          "end": 21.64,
+          "word": " turns",
+          "probability": 0.996927797794342
+        },
+        {
+          "start": 21.64,
+          "end": 21.86,
+          "word": " their",
+          "probability": 0.9652186036109924
+        },
+        {
+          "start": 21.86,
+          "end": 22.26,
+          "word": " energy",
+          "probability": 0.9993777275085449
+        },
+        {
+          "start": 22.26,
+          "end": 22.52,
+          "word": " into",
+          "probability": 0.9941476583480835
+        },
+        {
+          "start": 22.52,
+          "end": 22.88,
+          "word": " heat",
+          "probability": 0.9938942790031433
+        },
+        {
+          "start": 22.88,
+          "end": 23.26,
+          "word": " so",
+          "probability": 0.5061508417129517
+        },
+        {
+          "start": 23.26,
+          "end": 23.44,
+          "word": " the",
+          "probability": 0.97194504737854
+        },
+        {
+          "start": 23.44,
+          "end": 23.66,
+          "word": " pan",
+          "probability": 0.9931588768959045
+        },
+        {
+          "start": 23.66,
+          "end": 24.16,
+          "word": " itself",
+          "probability": 0.9966155886650085
+        },
+        {
+          "start": 24.16,
+          "end": 24.44,
+          "word": " gets",
+          "probability": 0.9954383969306946
+        },
+        {
+          "start": 24.44,
+          "end": 24.74,
+          "word": " hot.",
+          "probability": 0.9989011287689209
+        },
+        {
+          "start": 25.3,
+          "end": 25.52,
+          "word": " The",
+          "probability": 0.9919062852859497
+        },
+        {
+          "start": 25.52,
+          "end": 25.78,
+          "word": " pan",
+          "probability": 0.9932661056518555
+        },
+        {
+          "start": 25.78,
+          "end": 26.02,
+          "word": " then",
+          "probability": 0.9929601550102234
+        },
+        {
+          "start": 26.02,
+          "end": 26.48,
+          "word": " conducts",
+          "probability": 0.9920638203620911
+        },
+        {
+          "start": 26.48,
+          "end": 26.74,
+          "word": " that",
+          "probability": 0.982322633266449
+        },
+        {
+          "start": 26.74,
+          "end": 26.98,
+          "word": " heat",
+          "probability": 0.9983381032943726
+        },
+        {
+          "start": 26.98,
+          "end": 27.3,
+          "word": " into",
+          "probability": 0.9923209547996521
+        },
+        {
+          "start": 27.3,
+          "end": 27.48,
+          "word": " the",
+          "probability": 0.9918328523635864
+        },
+        {
+          "start": 27.48,
+          "end": 27.72,
+          "word": " food.",
+          "probability": 0.9965949654579163
+        }
+      ]
+    },
+    {
+      "start": 27.72,
+      "end": 30.58,
+      "text": "A suitable magnetic pan is essential.",
+      "avg_logprob": -0.17005111669239245,
+      "no_speech_prob": 0.0025915992446243763,
+      "words": [
+        {
+          "start": 27.72,
+          "end": 28.52,
+          "word": " A",
+          "probability": 0.9484043717384338
+        },
+        {
+          "start": 28.52,
+          "end": 28.98,
+          "word": " suitable",
+          "probability": 0.9981197714805603
+        },
+        {
+          "start": 28.98,
+          "end": 29.48,
+          "word": " magnetic",
+          "probability": 0.9841735363006592
+        },
+        {
+          "start": 29.48,
+          "end": 29.78,
+          "word": " pan",
+          "probability": 0.8351873159408569
+        },
+        {
+          "start": 29.78,
+          "end": 30.0,
+          "word": " is",
+          "probability": 0.997119665145874
+        },
+        {
+          "start": 30.0,
+          "end": 30.58,
+          "word": " essential.",
+          "probability": 0.9953228831291199
+        }
+      ]
+    },
+    {
+      "start": 31.06,
+      "end": 33.46,
+      "text": "Ordinary glass or copper alone will not work.",
+      "avg_logprob": -0.17005111669239245,
+      "no_speech_prob": 0.0025915992446243763,
+      "words": [
+        {
+          "start": 31.06,
+          "end": 31.44,
+          "word": " Ordinary",
+          "probability": 0.9741427004337311
+        },
+        {
+          "start": 31.44,
+          "end": 31.82,
+          "word": " glass",
+          "probability": 0.9498722553253174
+        },
+        {
+          "start": 31.82,
+          "end": 32.04,
+          "word": " or",
+          "probability": 0.9731178879737854
+        },
+        {
+          "start": 32.04,
+          "end": 32.38,
+          "word": " copper",
+          "probability": 0.9943190217018127
+        },
+        {
+          "start": 32.38,
+          "end": 32.7,
+          "word": " alone",
+          "probability": 0.9820968508720398
+        },
+        {
+          "start": 32.7,
+          "end": 32.92,
+          "word": " will",
+          "probability": 0.9828304052352905
+        },
+        {
+          "start": 32.92,
+          "end": 33.14,
+          "word": " not",
+          "probability": 0.997927188873291
+        },
+        {
+          "start": 33.14,
+          "end": 33.46,
+          "word": " work.",
+          "probability": 0.9982883334159851
+        }
+      ]
+    },
+    {
+      "start": 34.1,
+      "end": 37.88,
+      "text": "So the coil creates the field but the resistant pan becomes the heater.",
+      "avg_logprob": -0.17005111669239245,
+      "no_speech_prob": 0.0025915992446243763,
+      "words": [
+        {
+          "start": 34.1,
+          "end": 34.2,
+          "word": " So",
+          "probability": 0.9870443940162659
+        },
+        {
+          "start": 34.2,
+          "end": 34.44,
+          "word": " the",
+          "probability": 0.7555772066116333
+        },
+        {
+          "start": 34.44,
+          "end": 34.66,
+          "word": " coil",
+          "probability": 0.9889779686927795
+        },
+        {
+          "start": 34.66,
+          "end": 35.14,
+          "word": " creates",
+          "probability": 0.9931920170783997
+        },
+        {
+          "start": 35.14,
+          "end": 35.32,
+          "word": " the",
+          "probability": 0.9770852327346802
+        },
+        {
+          "start": 35.32,
+          "end": 35.6,
+          "word": " field",
+          "probability": 0.9913647174835205
+        },
+        {
+          "start": 35.6,
+          "end": 35.98,
+          "word": " but",
+          "probability": 0.5100959539413452
+        },
+        {
+          "start": 35.98,
+          "end": 36.18,
+          "word": " the",
+          "probability": 0.9812599420547485
+        },
+        {
+          "start": 36.18,
+          "end": 36.58,
+          "word": " resistant",
+          "probability": 0.8278669714927673
+        },
+        {
+          "start": 36.58,
+          "end": 36.96,
+          "word": " pan",
+          "probability": 0.9579247236251831
+        },
+        {
+          "start": 36.96,
+          "end": 37.46,
+          "word": " becomes",
+          "probability": 0.9769085049629211
+        },
+        {
+          "start": 37.46,
+          "end": 37.64,
+          "word": " the",
+          "probability": 0.9748719930648804
+        },
+        {
+          "start": 37.64,
+          "end": 37.88,
+          "word": " heater.",
+          "probability": 0.9885259866714478
+        }
+      ]
+    }
+  ]
+}
