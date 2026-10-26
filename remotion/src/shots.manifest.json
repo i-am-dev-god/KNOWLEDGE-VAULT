@@ -288,6 +288,46 @@
   "transparent": false
  },
  {
+  "id": "Short41InductionCooktop",
+  "durationInSeconds": 39,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short42SmokeDetector",
+  "durationInSeconds": 43.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short43HydraulicLift",
+  "durationInSeconds": 43.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short44PressureCooker",
+  "durationInSeconds": 40,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short45ElectricKettle",
+  "durationInSeconds": 36,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short5Monty",
   "durationInSeconds": 43,
   "fps": 30,

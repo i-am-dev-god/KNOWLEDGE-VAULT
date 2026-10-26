@@ -1,0 +1,148 @@
+{
+  "id": "short-44-pressure-cooker",
+  "title": "How a Pressure Cooker Cooks Faster",
+  "composition": "Short44PressureCooker",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 40.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-44-pressure-cooker/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "7b376e1e76398e07b791e0aace0abdba58a895156f8174648fe2d4cecc5fd255",
+    "raw_duration_seconds": 36.28,
+    "trimmed_duration_seconds": 35.799625,
+    "tempo_rate": 0.919117458,
+    "requested_tempo_rate": 0.919117458,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.1,
+    "narration_file": "media/voiceovers/pressure-cooker/narration.wav",
+    "narration_sha256": "96e494b2ce34270df85b5fc89facb6dae9debc366e25021e8690dcd1560dbbcd",
+    "narration_duration_seconds": 40.0,
+    "paced_speech_end_seconds": 39.084292,
+    "script_sha256": "79ae40422976277afc9181b204f38626b74f6e1b3d6cbfcbf476fe75a9bd242a",
+    "spoken_words": 101,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.979070624404221,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.084292s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 40-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.02,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Trapped steam enables faster cooking",
+      "start": 0.0,
+      "end": 9.24
+    },
+    {
+      "id": "pressure",
+      "title": "Steam raises the pressure",
+      "start": 9.24,
+      "end": 17.32
+    },
+    {
+      "id": "heat",
+      "title": "Higher pressure raises the boiling point",
+      "start": 17.32,
+      "end": 26.02
+    },
+    {
+      "id": "safety",
+      "title": "Pressure is limited and released",
+      "start": 26.02,
+      "end": 33.44
+    },
+    {
+      "id": "closing",
+      "title": "Hotter water and steam cook faster",
+      "start": 33.44,
+      "end": 40.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-faster",
+      "scene": "hook",
+      "text": "This pressure cooker cooks faster by making water boil at a higher temperature.",
+      "speak": "This pressure cooker cooks faster by making water boil at a higher temperature.",
+      "start": 0.15,
+      "end": 4.86,
+      "duration": 4.71
+    },
+    {
+      "id": "hook-seal",
+      "scene": "hook",
+      "text": "Its sealed lid traps steam, so pressure builds above the food.",
+      "speak": "Its sealed lid traps steam, so pressure builds above the food.",
+      "start": 5.54,
+      "end": 9.18,
+      "duration": 3.64
+    },
+    {
+      "id": "steam-form",
+      "scene": "pressure",
+      "text": "Heating turns some water into steam inside the limited space.",
+      "speak": "Heating turns some water into steam inside the limited space.",
+      "start": 9.74,
+      "end": 13.3,
+      "duration": 3.56
+    },
+    {
+      "id": "steam-regulate",
+      "scene": "pressure",
+      "text": "The regulator holds the pressure at its designed cooking level.",
+      "speak": "The regulator holds the pressure at its designed cooking level.",
+      "start": 13.86,
+      "end": 17.2,
+      "duration": 3.34
+    },
+    {
+      "id": "heat-boiling",
+      "scene": "heat",
+      "text": "At that higher pressure, water can stay liquid beyond its normal boiling point.",
+      "speak": "At that higher pressure, water can stay liquid beyond its normal boiling point.",
+      "start": 17.82,
+      "end": 22.18,
+      "duration": 4.36
+    },
+    {
+      "id": "heat-food",
+      "scene": "heat",
+      "text": "The hotter water and steam transfer energy into food more quickly.",
+      "speak": "The hotter water and steam transfer energy into food more quickly.",
+      "start": 22.66,
+      "end": 26.52,
+      "duration": 3.86
+    },
+    {
+      "id": "safety-release",
+      "scene": "safety",
+      "text": "A locking lid and safety valve help control excess pressure, and the cooker must depressurize before opening.",
+      "speak": "A locking lid and safety valve help control excess pressure, and the cooker must depressurize before opening.",
+      "start": 26.52,
+      "end": 33.3,
+      "duration": 6.78
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So trapped steam raises the boiling temperature, and the hotter cooking medium speeds up the meal.",
+      "speak": "So trapped steam raises the boiling temperature, and the hotter cooking medium speeds up the meal.",
+      "start": 33.94,
+      "end": 39.02,
+      "duration": 5.08
+    }
+  ]
+}

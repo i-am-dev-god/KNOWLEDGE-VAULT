@@ -1,0 +1,47 @@
+{
+  "master": "RESULT/how-a-smoke-detector-senses-smoke.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short42SmokeDetector.mp4",
+    "out": "RESULT/how-a-smoke-detector-senses-smoke.mp4",
+    "end_s": 43.5
+  },
+  "note": "4 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 4.98,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Reveal the optical chamber",
+      "sync_source": "hook-scatter"
+    },
+    {
+      "at_s": 21.86,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -24,
+      "cue": "Scatter light onto the sensor",
+      "sync_source": "smoke-scatter"
+    },
+    {
+      "at_s": 26.58,
+      "sfx_id": "pop-reveal",
+      "gain_db": -23,
+      "cue": "Trigger the alarm",
+      "sync_source": "smoke-alarm"
+    },
+    {
+      "at_s": 36.98,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -22,
+      "cue": "Resolve the sensing chain",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

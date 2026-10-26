@@ -53,11 +53,14 @@ def normalize_tokens(text: str) -> list[str]:
     text = re.sub(r"\bq[.\s-]*r\b", "qr", text)
     text = text.replace("photo sites", "photosites").replace("photo site", "photosite")
     text = re.sub(r"\bde[- ]mosaicing\b", "demosaicing", text)
+    # Whisper often transcribes a spoken singular possessive without the apostrophe-s.
+    # Normalize that written distinction on both sides; all remaining words must still match.
+    text = re.sub(r"'s\b", "", text)
     tokens = re.findall(r"[a-z0-9]+", text.replace("'", ""))
     aliases = {
         "0": "zero", "1": "one", "2": "two", "canceling": "cancelling",
         "neighbour": "neighbor", "neighbours": "neighbors", "neighbouring": "neighboring",
-        "coloured": "colored",
+        "coloured": "colored", "smoldering": "smouldering",
     }
     return [aliases.get(token, token) for token in tokens]
 
@@ -226,7 +229,11 @@ def align_one(project: dict) -> None:
             asr_alignment[index] = ("two", word)
     # Whisper may spell a spoken compound as two words. Merge only the exact
     # domain compounds expected at this position, preserving their full time span.
-    compound_parts = {"subcarriers": ("sub", "carriers"), "retransmission": ("re", "transmission"), "photodetector": ("photo", "detector")}
+    compound_parts = {
+        "subcarriers": ("sub", "carriers"), "retransmission": ("re", "transmission"),
+        "photodetector": ("photo", "detector"), "cooktop": ("cook", "top"),
+        "photoelectric": ("photo", "electric"), "bimetallic": ("bi", "metallic"),
+    }
     compound_corrections = []
     merged_alignment = []
     i = 0
@@ -282,8 +289,10 @@ def align_one(project: dict) -> None:
     if cursor != len(asr_alignment):
         raise SystemExit(f"Not all ASR tokens aligned for {project['id']}")
     voice_end = timed[-1]["end"]
-    if voice_end > duration_s - 2.5:
-        raise SystemExit(f"Narration ends too late for calm outro: {project['id']} {voice_end}")
+    # Result-first retention plan: finish shortly after the final useful sentence.
+    # Do not restore a long static recap tail merely to satisfy an older template.
+    if voice_end > duration_s - 0.65:
+        raise SystemExit(f"Narration ends too late for the trimmed outro: {project['id']} {voice_end}")
 
     scenes = []
     for index, (scene_id, title) in enumerate(project["scenes"]):
