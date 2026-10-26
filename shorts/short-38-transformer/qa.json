@@ -1,0 +1,162 @@
+{
+  "file": "../../RESULT/how-a-transformer-changes-voltage.mp4",
+  "production_copy": "output/how-a-transformer-changes-voltage.mp4",
+  "status": "passed",
+  "bytes": 13161477,
+  "sha256": "baa691c774678b193ecb641ad2643b3088360427e7b435f8d09e1995677b991c",
+  "md5": "270f99dac2398e92adfe1c226dc22f18",
+  "container_duration_seconds": 52.1,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 52.0,
+    "bit_rate": 1819128,
+    "decoded_frames": 1560
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 52.1,
+    "bit_rate": 196177,
+    "integrated_lufs": -16.27,
+    "true_peak_dbfs": -1.71,
+    "loudness_range_lu": 9.3,
+    "mean_volume_db": -19.3,
+    "max_volume_db": -1.7,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 9,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.7,
+    "asr_voice_end_seconds": 44.76,
+    "measured_speech_end_seconds": 44.983271,
+    "scenes": 6,
+    "sfx_cues": 4,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "ambient-pad",
+      "file": "media/library/music/clips/ambient-pad.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.32273,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.849188299,
+    "source_sped_up": false,
+    "spoken_words": 107,
+    "style": "Demonstration-led scenes, calm holds, complete-clause captions, restrained cues, ducked instrumental bed, and a proper outro"
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-38-transformer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "42aae617e4100161c430826d959c065733b114f7139c600173acc02080faa0ce",
+    "raw_duration_seconds": 38.0,
+    "trimmed_duration_seconds": 37.619042,
+    "tempo_rate": 0.849188299,
+    "requested_tempo_rate": 0.849188299,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/transformer/narration.wav",
+    "narration_sha256": "ae7f8ddc714939f6c6f42bff0934ddcc3018914d123dadc27d3544cf20ad776f",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.983271,
+    "script_sha256": "93706dac6f8a5624d3ef0a589a4148e6fd07f6c5968dc03523ca966d63842cb9",
+    "spoken_words": 107,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9638067645447277,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.983271s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9638067645447277,
+    "low_confidence_words": [
+      {
+        "start": 7.78,
+        "end": 8.14,
+        "word": " 2",
+        "probability": 0.3519720137119293
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 9,
+    "caption_midpoints_extracted": 9,
+    "narration_beat_samples_extracted": 19,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true,
+    "top_left_title_and_top_right_duration_removed": true,
+    "focus_guidance_system_present": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0026-hook-voltage-onset.jpg",
+      "output/qa/0088-hook-voltage-mid.jpg",
+      "output/qa/0178-hook-transfer-onset.jpg",
+      "output/qa/0243-hook-transfer-mid.jpg",
+      "output/qa/0341-primary-ac-onset.jpg",
+      "output/qa/0412-primary-ac-mid.jpg",
+      "output/qa/0513-core-flux-onset.jpg",
+      "output/qa/0569-core-flux-mid.jpg",
+      "output/qa/0655-core-link-onset.jpg",
+      "output/qa/0700-core-link-mid.jpg",
+      "output/qa/0770-secondary-induce-onset.jpg",
+      "output/qa/0839-secondary-induce-mid.jpg",
+      "output/qa/0938-turns-ratio-onset.jpg",
+      "output/qa/0970-turns-ratio-mid.jpg",
+      "output/qa/1028-turns-up-down-onset.jpg",
+      "output/qa/1088-turns-up-down-mid.jpg",
+      "output/qa/1168-closing-summary-onset.jpg",
+      "output/qa/1252-closing-summary-mid.jpg",
+      "output/qa/1545-outro.jpg"
+    ],
+    "required": "Review every narration-clause onset and midpoint plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "ordered_actual_mp4_samples_reviewed": 19,
+    "review_method": "Every narration-clause onset and midpoint plus the outro, reviewed in chronological contact sheets decoded from the delivered MP4; one critical detailed cutaway per video also checked at 540x960",
+    "checkpoints": [
+      "Primary AC drives changing flux along the actual closed iron-core path",
+      "The linked secondary winding produces an alternating output without a direct wire connection",
+      "Step-up and step-down turn counts are legible, unclipped, and matched to their voltage labels",
+      "No corner topic/duration labels or caption timing/progress line appears"
+    ]
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-transformer-changes-voltage.mp4",
+    "branch": "arena/c70bcfa1-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

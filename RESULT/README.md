@@ -1,22 +1,5 @@
 # Finished videos
 
-## How a Camera Turns Light Into a Photo
-
-**Finished video:** [how-a-camera-turns-light-into-a-photo.mp4](how-a-camera-turns-light-into-a-photo.mp4)
-
-- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
-- 50.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
-- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.877053503×` with pitch preserved; never sped up
-- Calm pacing, 12 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
-- Full 1,500-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
-- Integrated loudness -16.14 LUFS; true peak -1.48 dBTP; measured narration offset 0 ms
-
-**Size:** 7,381,699 bytes
-
-**SHA-256:** `a1703e903858641e9b1d2a1b7e218f93a6406382b3b2ade74a38c054f4552e51`
-
-Production and QA: [`script.md`](../shorts/short-20-digital-photo/script.md) · [`qa.json`](../shorts/short-20-digital-photo/qa.json)
-
 ## How GPS Finds You
 
 **Finished video:** [how-gps-finds-you.mp4](how-gps-finds-you.mp4)
@@ -30,57 +13,6 @@ Production and QA: [`script.md`](../shorts/short-20-digital-photo/script.md) · 
 **SHA-256:** `3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c`
 
 Production and QA: [`script.md`](../shorts/short-14-gps-explainer/script.md) · [`qa.json`](../shorts/short-14-gps-explainer/qa.json)
-
-## How a Speaker Turns Electricity Into Sound
-
-**Finished video:** [how-a-speaker-turns-electricity-into-sound.mp4](how-a-speaker-turns-electricity-into-sound.mp4)
-
-- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
-- 48.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
-- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.858514931×` with pitch preserved; never sped up
-- Calm pacing, 11 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
-- Full 1,440-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
-- Integrated loudness -16.13 LUFS; true peak -1.37 dBTP; measured narration offset -1 ms
-
-**Size:** 8,854,404 bytes
-
-**SHA-256:** `32a52c2d00a64db5573bb316d212d4f682c4e062e2e883ba9c67df788d9b1bfc`
-
-Production and QA: [`script.md`](../shorts/short-21-speaker/script.md) · [`qa.json`](../shorts/short-21-speaker/qa.json)
-
-## How an Optical Mouse Tracks Movement
-
-**Finished video:** [how-an-optical-mouse-tracks-movement.mp4](how-an-optical-mouse-tracks-movement.mp4)
-
-- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
-- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
-- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.850210685×` with pitch preserved; never sped up
-- Calm pacing, 12 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
-- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
-- Integrated loudness -16.17 LUFS; true peak -1.46 dBTP; measured narration offset 0 ms
-
-**Size:** 7,088,889 bytes
-
-**SHA-256:** `eb9dc3bf4769158a8ffcfe4f65e96b99aaa3762e20a59316e4d5822397b51b45`
-
-Production and QA: [`script.md`](../shorts/short-22-optical-mouse/script.md) · [`qa.json`](../shorts/short-22-optical-mouse/qa.json)
-
-## How a Lithium Battery Powers Your Phone
-
-**Finished video:** [how-a-lithium-battery-powers-your-phone.mp4](how-a-lithium-battery-powers-your-phone.mp4)
-
-- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
-- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
-- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.841617590×` with pitch preserved; never sped up
-- Calm pacing, 10 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
-- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
-- Integrated loudness -16.26 LUFS; true peak -1.39 dBTP; measured narration offset -1 ms
-
-**Size:** 9,201,862 bytes
-
-**SHA-256:** `289304d405605d7c181a6d628a4e1b11c0b3ebf407571d5626ca73131f0cb8c2`
-
-Production and QA: [`script.md`](../shorts/short-23-lithium-battery/script.md) · [`qa.json`](../shorts/short-23-lithium-battery/qa.json)
 
 ## How ZIP Files Make Data Smaller
 
@@ -98,23 +30,6 @@ Production and QA: [`script.md`](../shorts/short-23-lithium-battery/script.md) �
 **SHA-256:** `a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91`
 
 Production and QA: [`script.md`](../shorts/short-24-zip-compression/script.md) · [`qa.json`](../shorts/short-24-zip-compression/qa.json)
-
-## How a Microwave Oven Heats Food
-
-**Finished video:** [how-a-microwave-oven-heats-food.mp4](how-a-microwave-oven-heats-food.mp4)
-
-- Demonstration-led original science-and-technology explainer; visible actions and focal components follow the narration
-- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
-- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.877996795×` with pitch preserved; never sped up
-- Calm pacing, 12 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
-- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
-- Integrated loudness -16.15 LUFS; true peak -1.48 dBTP; measured narration offset 0 ms
-
-**Size:** 9,803,321 bytes
-
-**SHA-256:** `a9215550a8791de416a1995cd8ba757a7b6e79bdd9f0147f20b830913d68cbab`
-
-Production and QA: [`script.md`](../shorts/short-25-microwave-heating/script.md) · [`qa.json`](../shorts/short-25-microwave-heating/qa.json)
 
 ## How Bluetooth Sends Music to Your Headphones
 
@@ -200,3 +115,258 @@ Production and QA: [`script.md`](../shorts/short-29-face-unlock/script.md) · [`
 **SHA-256:** `100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677`
 
 Production and QA: [`script.md`](../shorts/short-30-wifi-data/script.md) · [`qa.json`](../shorts/short-30-wifi-data/qa.json)
+
+## How a Solar Panel Turns Sunlight Into Electricity
+
+**Finished video:** [how-a-solar-panel-turns-sunlight-into-electricity.mp4](how-a-solar-panel-turns-sunlight-into-electricity.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.17 LUFS; true peak -1.95 dBTP; measured narration offset 0 ms
+
+**Size:** 9,401,430 bytes
+
+**SHA-256:** `d1d15732e9b5c0345b1386cb115fa5059aba871e87c66b0c761fd9813feef7b1`
+
+Production and QA: [`script.md`](../shorts/short-31-solar-panel/script.md) · [`qa.json`](../shorts/short-31-solar-panel/qa.json)
+
+## How a Heat Pump Warms Your Home
+
+**Finished video:** [how-a-heat-pump-warms-your-home.mp4](how-a-heat-pump-warms-your-home.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.920321403×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.19 LUFS; true peak -1.88 dBTP; measured narration offset -1 ms
+
+**Size:** 11,346,300 bytes
+
+**SHA-256:** `a90b6dbc8141e58bd996ef213ba07da70852578a2059b569af70486eb01725a7`
+
+Production and QA: [`script.md`](../shorts/short-32-heat-pump/script.md) · [`qa.json`](../shorts/short-32-heat-pump/qa.json)
+
+## How an Accelerometer Counts Your Steps
+
+**Finished video:** [how-an-accelerometer-counts-your-steps.mp4](how-an-accelerometer-counts-your-steps.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 7 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.14 LUFS; true peak -1.96 dBTP; measured narration offset 0 ms
+
+**Size:** 11,907,762 bytes
+
+**SHA-256:** `db389543db0f7a4f4039632cd4e9533debd99b684f323fe552d9177591970395`
+
+Production and QA: [`script.md`](../shorts/short-33-accelerometer-steps/script.md) · [`qa.json`](../shorts/short-33-accelerometer-steps/qa.json)
+
+## How a 3D Printer Builds an Object
+
+**Finished video:** [how-a-3d-printer-builds-an-object.mp4](how-a-3d-printer-builds-an-object.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.04 LUFS; true peak -1.96 dBTP; measured narration offset 0 ms
+
+**Size:** 10,227,748 bytes
+
+**SHA-256:** `e0094b7f44e3a9c29a4af465658d2b7e0bf49e40f3c903b72eb67588616f726c`
+
+Production and QA: [`script.md`](../shorts/short-34-3d-printer/script.md) · [`qa.json`](../shorts/short-34-3d-printer/qa.json)
+
+## How an Airbag Protects You in a Crash
+
+**Finished video:** [how-an-airbag-protects-you-in-a-crash.mp4](how-an-airbag-protects-you-in-a-crash.mp4)
+
+- Demonstration-led original science-and-technology explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 55.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, kept at its natural `1.0×` tempo; never sped up
+- Calm pacing, 9 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,650-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.11 LUFS; true peak -1.85 dBTP; measured narration offset 0 ms
+
+**Size:** 10,761,232 bytes
+
+**SHA-256:** `36b76b86ed68ec84a4eb5d4c0ebff5febfe54b0dad353918dfcbf64478351776`
+
+Production and QA: [`script.md`](../shorts/short-35-airbag/script.md) · [`qa.json`](../shorts/short-35-airbag/qa.json)
+
+## How Fiber Optics Carry Internet Data
+
+**Finished video:** [how-fiber-optics-carry-internet-data.mp4](how-fiber-optics-carry-internet-data.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 56.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.969642147×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,680-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.15 LUFS; true peak -1.82 dBTP; measured narration offset 0 ms
+
+**Size:** 11,565,281 bytes
+
+**SHA-256:** `2a78d6d018d6b7c5bbc03a8cfd55a9fd589e31964d81b1f17ca6eab423b513a5`
+
+Production and QA: [`script.md`](../shorts/short-36-fiber-optics/script.md) · [`qa.json`](../shorts/short-36-fiber-optics/qa.json)
+
+## How an Electric Motor Spins
+
+**Finished video:** [how-an-electric-motor-spins.mp4](how-an-electric-motor-spins.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 58.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.958410110×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,740-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.05 LUFS; true peak -1.84 dBTP; measured narration offset -1 ms
+
+**Size:** 14,667,469 bytes
+
+**SHA-256:** `61219ffd5b9c0fc149741eee92dc948c7f9dbaa402a7f3665e93f344e1e9e910`
+
+Production and QA: [`script.md`](../shorts/short-37-electric-motor/script.md) · [`qa.json`](../shorts/short-37-electric-motor/qa.json)
+
+## How a Transformer Changes Voltage
+
+**Finished video:** [how-a-transformer-changes-voltage.mp4](how-a-transformer-changes-voltage.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 52.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.849188299×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,560-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.27 LUFS; true peak -1.71 dBTP; measured narration offset 0 ms
+
+**Size:** 13,161,477 bytes
+
+**SHA-256:** `baa691c774678b193ecb641ad2643b3088360427e7b435f8d09e1995677b991c`
+
+Production and QA: [`script.md`](../shorts/short-38-transformer/script.md) · [`qa.json`](../shorts/short-38-transformer/qa.json)
+
+## How Radar Finds Distant Objects
+
+**Finished video:** [how-radar-finds-distant-objects.mp4](how-radar-finds-distant-objects.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 56.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.944121670×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,680-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.08 LUFS; true peak -1.73 dBTP; measured narration offset -1 ms
+
+**Size:** 9,890,191 bytes
+
+**SHA-256:** `b20721da9b774707120a7f747bba2b5a30c6c56fff178c8658bd5e1552454138`
+
+Production and QA: [`script.md`](../shorts/short-39-radar/script.md) · [`qa.json`](../shorts/short-39-radar/qa.json)
+
+## How a Mechanical Watch Keeps Time
+
+**Finished video:** [how-a-mechanical-watch-keeps-time.mp4](how-a-mechanical-watch-keeps-time.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 60.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.955779490×` with pitch preserved; never sped up
+- Calm pacing, 9 complete-clause captions, 6 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,800-frame decode, loudness and delivered-sync checks, and ordered narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.06 LUFS; true peak -1.73 dBTP; measured narration offset -1 ms
+
+**Size:** 22,407,625 bytes
+
+**SHA-256:** `887d082a0d79fea3abf7a409cc383f3cfd19764ed521af66515fdf1ea5b0c143`
+
+Production and QA: [`script.md`](../shorts/short-40-mechanical-watch/script.md) · [`qa.json`](../shorts/short-40-mechanical-watch/qa.json)
+
+## How an Induction Cooktop Heats a Pan
+
+**Finished video:** [how-an-induction-cooktop-heats-a-pan.mp4](how-an-induction-cooktop-heats-a-pan.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 39.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.929355512×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,170-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.13 LUFS; true peak -1.90 dBTP; measured narration offset -1 ms
+
+**Size:** 12,083,731 bytes
+
+**SHA-256:** `5d51a534d58780eda8e74a882eea018d13c19ef24936fde1679951ee3198163c`
+
+Production and QA: [`script.md`](../shorts/short-41-induction-cooktop/script.md) · [`qa.json`](../shorts/short-41-induction-cooktop/qa.json)
+
+## How a Smoke Detector Senses Smoke
+
+**Finished video:** [how-a-smoke-detector-senses-smoke.mp4](how-a-smoke-detector-senses-smoke.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 43.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.921483117×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,305-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.14 LUFS; true peak -1.95 dBTP; measured narration offset -1 ms
+
+**Size:** 11,016,479 bytes
+
+**SHA-256:** `016640322581d4788c63b8cb91e088eca678eac9957365c68da802e9d232651a`
+
+Production and QA: [`script.md`](../shorts/short-42-smoke-detector/script.md) · [`qa.json`](../shorts/short-42-smoke-detector/qa.json)
+
+## How a Hydraulic Lift Raises a Car
+
+**Finished video:** [how-a-hydraulic-lift-raises-a-car.mp4](how-a-hydraulic-lift-raises-a-car.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 43.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.927124068×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,305-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.06 LUFS; true peak -1.91 dBTP; measured narration offset 0 ms
+
+**Size:** 9,228,229 bytes
+
+**SHA-256:** `b0ded3e9b9cef622c35fbae0080292cc163775fbe609b541109a95d9d5b2358a`
+
+Production and QA: [`script.md`](../shorts/short-43-hydraulic-lift/script.md) · [`qa.json`](../shorts/short-43-hydraulic-lift/qa.json)
+
+## How a Pressure Cooker Cooks Faster
+
+**Finished video:** [how-a-pressure-cooker-cooks-faster.mp4](how-a-pressure-cooker-cooks-faster.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 40.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.919117458×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,200-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.09 LUFS; true peak -1.88 dBTP; measured narration offset 0 ms
+
+**Size:** 9,593,078 bytes
+
+**SHA-256:** `a72b57877c4f6dad9a3eab5f70875f14dbb0b6cd5a7bf183b981d79d85e5d28f`
+
+Production and QA: [`script.md`](../shorts/short-44-pressure-cooker/script.md) · [`qa.json`](../shorts/short-44-pressure-cooker/qa.json)
+
+## How an Electric Kettle Switches Off
+
+**Finished video:** [how-an-electric-kettle-switches-off.mp4](how-an-electric-kettle-switches-off.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 36.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.921431807×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 4 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,080-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.11 LUFS; true peak -1.94 dBTP; measured narration offset 0 ms
+
+**Size:** 7,465,843 bytes
+
+**SHA-256:** `11c1f7a9541fe24db6ee23c2c2c60e2914b163eafc837d84e8bd1ce736916189`
+
+Production and QA: [`script.md`](../shorts/short-45-electric-kettle/script.md) · [`qa.json`](../shorts/short-45-electric-kettle/qa.json)

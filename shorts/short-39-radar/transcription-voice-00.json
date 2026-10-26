@@ -1,0 +1,847 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "0e31244555746eda4fe04ff783ed7fdc206ee4fab2f4ca0bcf1595fdc48732ac",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A radar finds distant objects by sending out radio waves and listening for their echoes. This works in darkness because radio echoes do not need visible light. The radar's transmitter creates a short radio pulse and its antenna sends that pulse into space. The pulse travels outward at the speed of light until it reaches an object, such as an aircraft. Some radio energy reflects from the aircraft and returns toward the radar antenna. The radar measures the echo's round-trip time to calculate distance. Multiplying half that time by the speed of light gives the objects range. A rotating antenna repeats this process in different directions, building a map of echoes around the radar. So radar locates objects by timing radio wave echoes rather than relying on visible light.",
+  "mean_word_probability": 0.9661675377533986,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.86,
+      "text": "A radar finds distant objects by sending out radio waves and listening for their echoes. This works in darkness because radio echoes do not need visible light. The radar's transmitter creates a short radio pulse and its antenna sends that pulse into space. The pulse travels outward at the speed of light until it reaches an object, such as an aircraft. Some radio energy reflects from the aircraft and returns toward the radar antenna.",
+      "avg_logprob": -0.06117377923913749,
+      "no_speech_prob": 0.19976063072681427,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "word": " A",
+          "probability": 0.5822961330413818
+        },
+        {
+          "start": 0.9,
+          "end": 1.26,
+          "word": " radar",
+          "probability": 0.9739813208580017
+        },
+        {
+          "start": 1.26,
+          "end": 1.74,
+          "word": " finds",
+          "probability": 0.989661693572998
+        },
+        {
+          "start": 1.74,
+          "end": 2.26,
+          "word": " distant",
+          "probability": 0.9857387542724609
+        },
+        {
+          "start": 2.26,
+          "end": 2.82,
+          "word": " objects",
+          "probability": 0.9968048334121704
+        },
+        {
+          "start": 2.82,
+          "end": 3.06,
+          "word": " by",
+          "probability": 0.973102331161499
+        },
+        {
+          "start": 3.06,
+          "end": 3.42,
+          "word": " sending",
+          "probability": 0.9987568855285645
+        },
+        {
+          "start": 3.42,
+          "end": 3.66,
+          "word": " out",
+          "probability": 0.997663140296936
+        },
+        {
+          "start": 3.66,
+          "end": 4.06,
+          "word": " radio",
+          "probability": 0.9817666411399841
+        },
+        {
+          "start": 4.06,
+          "end": 4.38,
+          "word": " waves",
+          "probability": 0.9909680485725403
+        },
+        {
+          "start": 4.38,
+          "end": 4.64,
+          "word": " and",
+          "probability": 0.98017418384552
+        },
+        {
+          "start": 4.64,
+          "end": 4.96,
+          "word": " listening",
+          "probability": 0.9951077699661255
+        },
+        {
+          "start": 4.96,
+          "end": 5.2,
+          "word": " for",
+          "probability": 0.9945387244224548
+        },
+        {
+          "start": 5.2,
+          "end": 5.42,
+          "word": " their",
+          "probability": 0.9825594425201416
+        },
+        {
+          "start": 5.42,
+          "end": 5.7,
+          "word": " echoes.",
+          "probability": 0.9841617345809937
+        },
+        {
+          "start": 6.32,
+          "end": 6.46,
+          "word": " This",
+          "probability": 0.9913941025733948
+        },
+        {
+          "start": 6.46,
+          "end": 6.72,
+          "word": " works",
+          "probability": 0.9980244636535645
+        },
+        {
+          "start": 6.72,
+          "end": 6.96,
+          "word": " in",
+          "probability": 0.99828040599823
+        },
+        {
+          "start": 6.96,
+          "end": 7.32,
+          "word": " darkness",
+          "probability": 0.9916352033615112
+        },
+        {
+          "start": 7.32,
+          "end": 7.86,
+          "word": " because",
+          "probability": 0.7040784955024719
+        },
+        {
+          "start": 7.86,
+          "end": 8.3,
+          "word": " radio",
+          "probability": 0.9845491647720337
+        },
+        {
+          "start": 8.3,
+          "end": 8.6,
+          "word": " echoes",
+          "probability": 0.9832807779312134
+        },
+        {
+          "start": 8.6,
+          "end": 8.84,
+          "word": " do",
+          "probability": 0.9915707111358643
+        },
+        {
+          "start": 8.84,
+          "end": 9.02,
+          "word": " not",
+          "probability": 0.9992406368255615
+        },
+        {
+          "start": 9.02,
+          "end": 9.24,
+          "word": " need",
+          "probability": 0.9985163807868958
+        },
+        {
+          "start": 9.24,
+          "end": 9.66,
+          "word": " visible",
+          "probability": 0.9961251616477966
+        },
+        {
+          "start": 9.66,
+          "end": 10.04,
+          "word": " light.",
+          "probability": 0.9978245496749878
+        },
+        {
+          "start": 10.72,
+          "end": 10.88,
+          "word": " The",
+          "probability": 0.9855923652648926
+        },
+        {
+          "start": 10.88,
+          "end": 11.4,
+          "word": " radar's",
+          "probability": 0.9886795878410339
+        },
+        {
+          "start": 11.4,
+          "end": 11.82,
+          "word": " transmitter",
+          "probability": 0.9967309236526489
+        },
+        {
+          "start": 11.82,
+          "end": 12.4,
+          "word": " creates",
+          "probability": 0.9946110248565674
+        },
+        {
+          "start": 12.4,
+          "end": 12.58,
+          "word": " a",
+          "probability": 0.9981058835983276
+        },
+        {
+          "start": 12.58,
+          "end": 12.9,
+          "word": " short",
+          "probability": 0.9929474592208862
+        },
+        {
+          "start": 12.9,
+          "end": 13.32,
+          "word": " radio",
+          "probability": 0.9552496671676636
+        },
+        {
+          "start": 13.32,
+          "end": 13.62,
+          "word": " pulse",
+          "probability": 0.9939448237419128
+        },
+        {
+          "start": 13.62,
+          "end": 14.12,
+          "word": " and",
+          "probability": 0.6141461730003357
+        },
+        {
+          "start": 14.12,
+          "end": 14.26,
+          "word": " its",
+          "probability": 0.976500928401947
+        },
+        {
+          "start": 14.26,
+          "end": 14.72,
+          "word": " antenna",
+          "probability": 0.9960842132568359
+        },
+        {
+          "start": 14.72,
+          "end": 15.28,
+          "word": " sends",
+          "probability": 0.9623063206672668
+        },
+        {
+          "start": 15.28,
+          "end": 15.52,
+          "word": " that",
+          "probability": 0.9836028814315796
+        },
+        {
+          "start": 15.52,
+          "end": 15.74,
+          "word": " pulse",
+          "probability": 0.9981508851051331
+        },
+        {
+          "start": 15.74,
+          "end": 16.06,
+          "word": " into",
+          "probability": 0.9890278577804565
+        },
+        {
+          "start": 16.06,
+          "end": 16.48,
+          "word": " space.",
+          "probability": 0.9929482936859131
+        },
+        {
+          "start": 17.1,
+          "end": 17.3,
+          "word": " The",
+          "probability": 0.9870805144309998
+        },
+        {
+          "start": 17.3,
+          "end": 17.56,
+          "word": " pulse",
+          "probability": 0.9977220892906189
+        },
+        {
+          "start": 17.56,
+          "end": 17.96,
+          "word": " travels",
+          "probability": 0.9991883635520935
+        },
+        {
+          "start": 17.96,
+          "end": 18.44,
+          "word": " outward",
+          "probability": 0.9894256591796875
+        },
+        {
+          "start": 18.44,
+          "end": 18.7,
+          "word": " at",
+          "probability": 0.9951807260513306
+        },
+        {
+          "start": 18.7,
+          "end": 18.84,
+          "word": " the",
+          "probability": 0.9945704340934753
+        },
+        {
+          "start": 18.84,
+          "end": 19.02,
+          "word": " speed",
+          "probability": 0.9992825388908386
+        },
+        {
+          "start": 19.02,
+          "end": 19.22,
+          "word": " of",
+          "probability": 0.9993510842323303
+        },
+        {
+          "start": 19.22,
+          "end": 19.5,
+          "word": " light",
+          "probability": 0.995323121547699
+        },
+        {
+          "start": 19.5,
+          "end": 19.86,
+          "word": " until",
+          "probability": 0.9671682119369507
+        },
+        {
+          "start": 19.86,
+          "end": 20.06,
+          "word": " it",
+          "probability": 0.9984017014503479
+        },
+        {
+          "start": 20.06,
+          "end": 20.26,
+          "word": " reaches",
+          "probability": 0.9991704225540161
+        },
+        {
+          "start": 20.26,
+          "end": 20.56,
+          "word": " an",
+          "probability": 0.997227132320404
+        },
+        {
+          "start": 20.56,
+          "end": 20.94,
+          "word": " object,",
+          "probability": 0.9991329312324524
+        },
+        {
+          "start": 21.04,
+          "end": 21.28,
+          "word": " such",
+          "probability": 0.9978975057601929
+        },
+        {
+          "start": 21.28,
+          "end": 21.42,
+          "word": " as",
+          "probability": 0.9939770698547363
+        },
+        {
+          "start": 21.42,
+          "end": 21.58,
+          "word": " an",
+          "probability": 0.9935089945793152
+        },
+        {
+          "start": 21.58,
+          "end": 21.92,
+          "word": " aircraft.",
+          "probability": 0.9985535740852356
+        },
+        {
+          "start": 22.68,
+          "end": 22.94,
+          "word": " Some",
+          "probability": 0.9959360361099243
+        },
+        {
+          "start": 22.94,
+          "end": 23.26,
+          "word": " radio",
+          "probability": 0.9974402189254761
+        },
+        {
+          "start": 23.26,
+          "end": 23.62,
+          "word": " energy",
+          "probability": 0.9969078898429871
+        },
+        {
+          "start": 23.62,
+          "end": 24.12,
+          "word": " reflects",
+          "probability": 0.9886985421180725
+        },
+        {
+          "start": 24.12,
+          "end": 24.4,
+          "word": " from",
+          "probability": 0.9985278844833374
+        },
+        {
+          "start": 24.4,
+          "end": 24.58,
+          "word": " the",
+          "probability": 0.9957323670387268
+        },
+        {
+          "start": 24.58,
+          "end": 24.9,
+          "word": " aircraft",
+          "probability": 0.9988318085670471
+        },
+        {
+          "start": 24.9,
+          "end": 25.18,
+          "word": " and",
+          "probability": 0.9918393492698669
+        },
+        {
+          "start": 25.18,
+          "end": 25.58,
+          "word": " returns",
+          "probability": 0.9939623475074768
+        },
+        {
+          "start": 25.58,
+          "end": 25.92,
+          "word": " toward",
+          "probability": 0.7448796629905701
+        },
+        {
+          "start": 25.92,
+          "end": 26.22,
+          "word": " the",
+          "probability": 0.9953176975250244
+        },
+        {
+          "start": 26.22,
+          "end": 26.48,
+          "word": " radar",
+          "probability": 0.9992697834968567
+        },
+        {
+          "start": 26.48,
+          "end": 26.86,
+          "word": " antenna.",
+          "probability": 0.9795786142349243
+        }
+      ]
+    },
+    {
+      "start": 26.86,
+      "end": 30.96,
+      "text": "The radar measures the echo's round-trip time to calculate distance.",
+      "avg_logprob": -0.11242468984096081,
+      "no_speech_prob": 0.010988808237016201,
+      "words": [
+        {
+          "start": 26.86,
+          "end": 27.68,
+          "word": " The",
+          "probability": 0.9145672917366028
+        },
+        {
+          "start": 27.68,
+          "end": 27.96,
+          "word": " radar",
+          "probability": 0.989080548286438
+        },
+        {
+          "start": 27.96,
+          "end": 28.4,
+          "word": " measures",
+          "probability": 0.9895015358924866
+        },
+        {
+          "start": 28.4,
+          "end": 28.7,
+          "word": " the",
+          "probability": 0.9928406476974487
+        },
+        {
+          "start": 28.7,
+          "end": 29.14,
+          "word": " echo's",
+          "probability": 0.8927558362483978
+        },
+        {
+          "start": 29.14,
+          "end": 29.32,
+          "word": " round",
+          "probability": 0.9944873452186584
+        },
+        {
+          "start": 29.32,
+          "end": 29.5,
+          "word": "-trip",
+          "probability": 0.7373040616512299
+        },
+        {
+          "start": 29.5,
+          "end": 29.78,
+          "word": " time",
+          "probability": 0.9913592338562012
+        },
+        {
+          "start": 29.78,
+          "end": 29.98,
+          "word": " to",
+          "probability": 0.9927532076835632
+        },
+        {
+          "start": 29.98,
+          "end": 30.4,
+          "word": " calculate",
+          "probability": 0.9986249208450317
+        },
+        {
+          "start": 30.4,
+          "end": 30.96,
+          "word": " distance.",
+          "probability": 0.9641503095626831
+        }
+      ]
+    },
+    {
+      "start": 31.64,
+      "end": 35.16,
+      "text": "Multiplying half that time by the speed of light gives the objects range.",
+      "avg_logprob": -0.11242468984096081,
+      "no_speech_prob": 0.010988808237016201,
+      "words": [
+        {
+          "start": 31.64,
+          "end": 32.1,
+          "word": " Multiplying",
+          "probability": 0.9869493246078491
+        },
+        {
+          "start": 32.1,
+          "end": 32.4,
+          "word": " half",
+          "probability": 0.9921119213104248
+        },
+        {
+          "start": 32.4,
+          "end": 32.66,
+          "word": " that",
+          "probability": 0.9595852494239807
+        },
+        {
+          "start": 32.66,
+          "end": 32.88,
+          "word": " time",
+          "probability": 0.9980102181434631
+        },
+        {
+          "start": 32.88,
+          "end": 33.06,
+          "word": " by",
+          "probability": 0.9947299957275391
+        },
+        {
+          "start": 33.06,
+          "end": 33.24,
+          "word": " the",
+          "probability": 0.9875927567481995
+        },
+        {
+          "start": 33.24,
+          "end": 33.42,
+          "word": " speed",
+          "probability": 0.9987494945526123
+        },
+        {
+          "start": 33.42,
+          "end": 33.64,
+          "word": " of",
+          "probability": 0.9987861514091492
+        },
+        {
+          "start": 33.64,
+          "end": 33.86,
+          "word": " light",
+          "probability": 0.9723756313323975
+        },
+        {
+          "start": 33.86,
+          "end": 34.18,
+          "word": " gives",
+          "probability": 0.8810850381851196
+        },
+        {
+          "start": 34.18,
+          "end": 34.4,
+          "word": " the",
+          "probability": 0.9891046285629272
+        },
+        {
+          "start": 34.4,
+          "end": 34.72,
+          "word": " objects",
+          "probability": 0.672450065612793
+        },
+        {
+          "start": 34.72,
+          "end": 35.16,
+          "word": " range.",
+          "probability": 0.9596655368804932
+        }
+      ]
+    },
+    {
+      "start": 35.9,
+      "end": 38.92,
+      "text": "A rotating antenna repeats this process in different directions,",
+      "avg_logprob": -0.11242468984096081,
+      "no_speech_prob": 0.010988808237016201,
+      "words": [
+        {
+          "start": 35.9,
+          "end": 36.08,
+          "word": " A",
+          "probability": 0.9918656945228577
+        },
+        {
+          "start": 36.08,
+          "end": 36.5,
+          "word": " rotating",
+          "probability": 0.9973026514053345
+        },
+        {
+          "start": 36.5,
+          "end": 36.88,
+          "word": " antenna",
+          "probability": 0.9982593655586243
+        },
+        {
+          "start": 36.88,
+          "end": 37.32,
+          "word": " repeats",
+          "probability": 0.9980373978614807
+        },
+        {
+          "start": 37.32,
+          "end": 37.56,
+          "word": " this",
+          "probability": 0.9822763800621033
+        },
+        {
+          "start": 37.56,
+          "end": 37.88,
+          "word": " process",
+          "probability": 0.9976314306259155
+        },
+        {
+          "start": 37.88,
+          "end": 38.12,
+          "word": " in",
+          "probability": 0.9980502128601074
+        },
+        {
+          "start": 38.12,
+          "end": 38.44,
+          "word": " different",
+          "probability": 0.9967036843299866
+        },
+        {
+          "start": 38.44,
+          "end": 38.92,
+          "word": " directions,",
+          "probability": 0.9911549091339111
+        }
+      ]
+    },
+    {
+      "start": 39.32,
+      "end": 41.28,
+      "text": "building a map of echoes around the radar.",
+      "avg_logprob": -0.11242468984096081,
+      "no_speech_prob": 0.010988808237016201,
+      "words": [
+        {
+          "start": 39.32,
+          "end": 39.54,
+          "word": " building",
+          "probability": 0.9979730248451233
+        },
+        {
+          "start": 39.54,
+          "end": 39.76,
+          "word": " a",
+          "probability": 0.9951310157775879
+        },
+        {
+          "start": 39.76,
+          "end": 39.92,
+          "word": " map",
+          "probability": 0.9991907477378845
+        },
+        {
+          "start": 39.92,
+          "end": 40.16,
+          "word": " of",
+          "probability": 0.9981899857521057
+        },
+        {
+          "start": 40.16,
+          "end": 40.38,
+          "word": " echoes",
+          "probability": 0.7999225854873657
+        },
+        {
+          "start": 40.38,
+          "end": 40.8,
+          "word": " around",
+          "probability": 0.9972623586654663
+        },
+        {
+          "start": 40.8,
+          "end": 40.98,
+          "word": " the",
+          "probability": 0.9951347708702087
+        },
+        {
+          "start": 40.98,
+          "end": 41.28,
+          "word": " radar.",
+          "probability": 0.997288703918457
+        }
+      ]
+    },
+    {
+      "start": 41.98,
+      "end": 46.84,
+      "text": "So radar locates objects by timing radio wave echoes rather than relying on visible light.",
+      "avg_logprob": -0.11242468984096081,
+      "no_speech_prob": 0.010988808237016201,
+      "words": [
+        {
+          "start": 41.98,
+          "end": 42.12,
+          "word": " So",
+          "probability": 0.9895787835121155
+        },
+        {
+          "start": 42.12,
+          "end": 42.46,
+          "word": " radar",
+          "probability": 0.5406277775764465
+        },
+        {
+          "start": 42.46,
+          "end": 42.96,
+          "word": " locates",
+          "probability": 0.9988094866275787
+        },
+        {
+          "start": 42.96,
+          "end": 43.42,
+          "word": " objects",
+          "probability": 0.9880884289741516
+        },
+        {
+          "start": 43.42,
+          "end": 43.64,
+          "word": " by",
+          "probability": 0.9972453117370605
+        },
+        {
+          "start": 43.64,
+          "end": 44.02,
+          "word": " timing",
+          "probability": 0.9973483085632324
+        },
+        {
+          "start": 44.02,
+          "end": 44.48,
+          "word": " radio",
+          "probability": 0.930785059928894
+        },
+        {
+          "start": 44.48,
+          "end": 44.68,
+          "word": " wave",
+          "probability": 0.7284716367721558
+        },
+        {
+          "start": 44.68,
+          "end": 45.0,
+          "word": " echoes",
+          "probability": 0.9650336503982544
+        },
+        {
+          "start": 45.0,
+          "end": 45.42,
+          "word": " rather",
+          "probability": 0.8691346049308777
+        },
+        {
+          "start": 45.42,
+          "end": 45.66,
+          "word": " than",
+          "probability": 0.9945204854011536
+        },
+        {
+          "start": 45.66,
+          "end": 45.92,
+          "word": " relying",
+          "probability": 0.9951241612434387
+        },
+        {
+          "start": 45.92,
+          "end": 46.18,
+          "word": " on",
+          "probability": 0.9979863166809082
+        },
+        {
+          "start": 46.18,
+          "end": 46.46,
+          "word": " visible",
+          "probability": 0.9925258159637451
+        },
+        {
+          "start": 46.46,
+          "end": 46.84,
+          "word": " light.",
+          "probability": 0.9969889521598816
+        }
+      ]
+    }
+  ]
+}

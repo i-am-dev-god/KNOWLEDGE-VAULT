@@ -1,0 +1,163 @@
+{
+  "id": "short-38-transformer",
+  "title": "How a Transformer Changes Voltage",
+  "composition": "Short38Transformer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 52.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-38-transformer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "42aae617e4100161c430826d959c065733b114f7139c600173acc02080faa0ce",
+    "raw_duration_seconds": 38.0,
+    "trimmed_duration_seconds": 37.619042,
+    "tempo_rate": 0.849188299,
+    "requested_tempo_rate": 0.849188299,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 45.0,
+    "narration_file": "media/voiceovers/transformer/narration.wav",
+    "narration_sha256": "ae7f8ddc714939f6c6f42bff0934ddcc3018914d123dadc27d3544cf20ad776f",
+    "narration_duration_seconds": 52.0,
+    "paced_speech_end_seconds": 44.983271,
+    "script_sha256": "93706dac6f8a5624d3ef0a589a4148e6fd07f6c5968dc03523ca966d63842cb9",
+    "spoken_words": 107,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9638067645447277,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.983271s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 52-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.76,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Two coils exchange energy",
+      "start": 0.0,
+      "end": 10.68
+    },
+    {
+      "id": "primary",
+      "title": "AC drives the primary winding",
+      "start": 10.68,
+      "end": 16.42
+    },
+    {
+      "id": "core",
+      "title": "The core carries changing magnetic flux",
+      "start": 16.42,
+      "end": 25.0
+    },
+    {
+      "id": "secondary",
+      "title": "Changing flux induces secondary voltage",
+      "start": 25.0,
+      "end": 30.58
+    },
+    {
+      "id": "turns",
+      "title": "The turns ratio sets the voltage",
+      "start": 30.58,
+      "end": 38.24
+    },
+    {
+      "id": "closing",
+      "title": "Magnetic induction changes voltage",
+      "start": 38.24,
+      "end": 52.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-voltage",
+      "scene": "hook",
+      "text": "A transformer changes AC voltage for the power grid and your home.",
+      "speak": "A transformer changes AC voltage for the power grid and your home.",
+      "start": 0.7,
+      "end": 5.16,
+      "duration": 4.46
+    },
+    {
+      "id": "hook-transfer",
+      "scene": "hook",
+      "text": "It transfers electrical energy between two coils without a direct wire connection.",
+      "speak": "It transfers electrical energy between two coils without a direct wire connection.",
+      "start": 5.74,
+      "end": 10.44,
+      "duration": 4.7
+    },
+    {
+      "id": "primary-ac",
+      "scene": "primary",
+      "text": "Alternating current enters the primary coil, so its magnetic field continually changes.",
+      "speak": "Alternating current enters the primary coil, so its magnetic field continually changes.",
+      "start": 11.18,
+      "end": 16.26,
+      "duration": 5.08
+    },
+    {
+      "id": "core-flux",
+      "scene": "core",
+      "text": "The iron core guides this changing magnetic field around a closed loop.",
+      "speak": "The iron core guides this changing magnetic field around a closed loop.",
+      "start": 16.92,
+      "end": 21.0,
+      "duration": 4.08
+    },
+    {
+      "id": "core-link",
+      "scene": "core",
+      "text": "The field then passes through the secondary coil on the other side.",
+      "speak": "The field then passes through the secondary coil on the other side.",
+      "start": 21.66,
+      "end": 25.0,
+      "duration": 3.34
+    },
+    {
+      "id": "secondary-induce",
+      "scene": "secondary",
+      "text": "Because the field keeps changing, it induces an alternating voltage in this second coil.",
+      "speak": "Because the field keeps changing, it induces an alternating voltage in this second coil.",
+      "start": 25.5,
+      "end": 30.44,
+      "duration": 4.94
+    },
+    {
+      "id": "turns-ratio",
+      "scene": "turns",
+      "text": "The number of wire turns controls the result.",
+      "speak": "The number of wire turns controls the result.",
+      "start": 31.08,
+      "end": 33.58,
+      "duration": 2.5
+    },
+    {
+      "id": "turns-up-down",
+      "scene": "turns",
+      "text": "More secondary turns increase voltage; fewer secondary turns decrease it.",
+      "speak": "More secondary turns increase voltage; fewer secondary turns decrease it.",
+      "start": 34.1,
+      "end": 38.4,
+      "duration": 4.3
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the transformer uses magnetic induction to change voltage while transferring power between its coils.",
+      "speak": "So the transformer uses magnetic induction to change voltage while transferring power between its coils.",
+      "start": 38.74,
+      "end": 44.76,
+      "duration": 6.02
+    }
+  ]
+}

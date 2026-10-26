@@ -1,0 +1,533 @@
+{
+  "defaults": {
+    "duration_s": 46.0,
+    "initial_silence_s": 0.15,
+    "target_voice_end_s": 45.1,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-41-induction-cooktop",
+      "slug": "induction-cooktop",
+      "title": "How an Induction Cooktop Heats a Pan",
+      "composition": "Short41InductionCooktop",
+      "result": "how-an-induction-cooktop-heats-a-pan.mp4",
+      "duration_s": 39.0,
+      "target_voice_end_s": 38.1,
+      "prompt": "Induction cooktop. Copper coil. Alternating current. Magnetic field. Eddy currents. Resistance. Ferromagnetic pan.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-heat",
+          "scene": "hook",
+          "text": "This pan heats on an induction cooktop without a directly heated burner."
+        },
+        {
+          "id": "hook-field",
+          "scene": "hook",
+          "text": "The cooktop sends energy into the pan using a changing magnetic field."
+        },
+        {
+          "id": "coil-current",
+          "scene": "coil",
+          "text": "Below the glass, high-frequency alternating current flows through a copper coil."
+        },
+        {
+          "id": "pan-currents",
+          "scene": "currents",
+          "text": "That field drives circular electric currents inside the magnetic metal pan."
+        },
+        {
+          "id": "pan-resistance",
+          "scene": "currents",
+          "text": "Electrical resistance turns their energy into heat, so the pan itself gets hot."
+        },
+        {
+          "id": "food-conduction",
+          "scene": "control",
+          "text": "The pan then conducts that heat into the food."
+        },
+        {
+          "id": "pan-requirement",
+          "scene": "control",
+          "text": "A suitable magnetic pan is essential; ordinary glass or copper alone will not work."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the coil creates the field, but the resistant pan becomes the heater."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "The pan is the heater"
+        ],
+        [
+          "coil",
+          "The coil creates a changing field"
+        ],
+        [
+          "currents",
+          "The pan produces heat"
+        ],
+        [
+          "control",
+          "Heat reaches the food"
+        ],
+        [
+          "closing",
+          "Field in the coil, heat in the pan"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-field",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the hidden energy transfer"
+        },
+        {
+          "sync_source": "coil-current",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Expose the induction coil"
+        },
+        {
+          "sync_source": "pan-currents",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Start the pan currents"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the heating chain"
+        }
+      ]
+    },
+    {
+      "id": "short-42-smoke-detector",
+      "slug": "smoke-detector",
+      "title": "How a Smoke Detector Senses Smoke",
+      "composition": "Short42SmokeDetector",
+      "result": "how-a-smoke-detector-senses-smoke.mp4",
+      "duration_s": 43.5,
+      "target_voice_end_s": 42.6,
+      "prompt": "Photoelectric smoke detector. LED. Dark chamber. Light sensor. Smoke particles. Scattering. Alarm.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-alarm",
+          "scene": "hook",
+          "text": "This smoke detector can sound the alarm before flames are visible."
+        },
+        {
+          "id": "hook-scatter",
+          "scene": "hook",
+          "text": "Inside this photoelectric detector, smoke reveals itself by scattering a hidden beam of light."
+        },
+        {
+          "id": "clear-beam",
+          "scene": "chamber",
+          "text": "In clear air, an LED sends light across a dark chamber."
+        },
+        {
+          "id": "clear-sensor",
+          "scene": "chamber",
+          "text": "The light sensor sits off to one side, so the straight beam normally misses it."
+        },
+        {
+          "id": "smoke-scatter",
+          "scene": "smoke",
+          "text": "When smoke enters, tiny particles scatter some of that light toward the sensor."
+        },
+        {
+          "id": "smoke-alarm",
+          "scene": "smoke",
+          "text": "The sensor's signal rises, and the electronics trigger the loud alarm."
+        },
+        {
+          "id": "smouldering-use",
+          "scene": "use",
+          "text": "It is especially useful for slow, smouldering fires that produce visible smoke."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the detector does not smell smoke; it notices smoke scattering light into its sensor."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Smoke triggers the alarm"
+        ],
+        [
+          "chamber",
+          "Clear air keeps the sensor dark"
+        ],
+        [
+          "smoke",
+          "Smoke redirects the light"
+        ],
+        [
+          "use",
+          "A useful warning for smouldering fires"
+        ],
+        [
+          "closing",
+          "Scattered light becomes a warning"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-scatter",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the optical chamber"
+        },
+        {
+          "sync_source": "smoke-scatter",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Scatter light onto the sensor"
+        },
+        {
+          "sync_source": "smoke-alarm",
+          "offset_s": 0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Trigger the alarm"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the sensing chain"
+        }
+      ]
+    },
+    {
+      "id": "short-43-hydraulic-lift",
+      "slug": "hydraulic-lift",
+      "title": "How a Hydraulic Lift Raises a Car",
+      "composition": "Short43HydraulicLift",
+      "result": "how-a-hydraulic-lift-raises-a-car.mp4",
+      "duration_s": 43.5,
+      "target_voice_end_s": 42.6,
+      "prompt": "Hydraulic car lift. Pump. Input piston. Oil. Pressure. Lifting piston. Force. Valve.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-lift",
+          "scene": "hook",
+          "text": "This hydraulic lift raises a heavy car using pressure in trapped oil."
+        },
+        {
+          "id": "hook-area",
+          "scene": "hook",
+          "text": "A small input piston can multiply force because the lifting piston has a much larger area."
+        },
+        {
+          "id": "pump-oil",
+          "scene": "pump",
+          "text": "The pump pushes nearly incompressible oil into the lift cylinder."
+        },
+        {
+          "id": "pump-pressure",
+          "scene": "pump",
+          "text": "Pressure spreads through the fluid and acts across the large piston."
+        },
+        {
+          "id": "lift-force",
+          "scene": "lift",
+          "text": "Force equals pressure times area, so that piston produces a powerful upward push."
+        },
+        {
+          "id": "lift-motion",
+          "scene": "lift",
+          "text": "As oil enters, the piston and lift arms rise together, carrying the car."
+        },
+        {
+          "id": "valve-control",
+          "scene": "control",
+          "text": "A closed valve traps the oil to hold the car; opening it allows a controlled descent."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So confined oil turns a compact pump into smooth, controlled lifting power."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Oil pressure lifts the car"
+        ],
+        [
+          "pump",
+          "The pump pressurizes confined oil"
+        ],
+        [
+          "lift",
+          "Pressure becomes lifting force"
+        ],
+        [
+          "control",
+          "The valve controls holding and descent"
+        ],
+        [
+          "closing",
+          "Pressure becomes controlled motion"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-area",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the two piston sizes"
+        },
+        {
+          "sync_source": "pump-oil",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Push oil into the cylinder"
+        },
+        {
+          "sync_source": "lift-force",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Raise the lifting piston"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the hydraulic chain"
+        }
+      ]
+    },
+    {
+      "id": "short-44-pressure-cooker",
+      "slug": "pressure-cooker",
+      "title": "How a Pressure Cooker Cooks Faster",
+      "composition": "Short44PressureCooker",
+      "result": "how-a-pressure-cooker-cooks-faster.mp4",
+      "duration_s": 40.0,
+      "target_voice_end_s": 39.1,
+      "prompt": "Pressure cooker. Sealed lid. Steam. Pressure regulator. Boiling point. Safety valve. Heat.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-faster",
+          "scene": "hook",
+          "text": "This pressure cooker cooks faster by making water boil at a higher temperature."
+        },
+        {
+          "id": "hook-seal",
+          "scene": "hook",
+          "text": "Its sealed lid traps steam, so pressure builds above the food."
+        },
+        {
+          "id": "steam-form",
+          "scene": "pressure",
+          "text": "Heating turns some water into steam inside the limited space."
+        },
+        {
+          "id": "steam-regulate",
+          "scene": "pressure",
+          "text": "The regulator holds the pressure at its designed cooking level."
+        },
+        {
+          "id": "heat-boiling",
+          "scene": "heat",
+          "text": "At that higher pressure, water can stay liquid beyond its normal boiling point."
+        },
+        {
+          "id": "heat-food",
+          "scene": "heat",
+          "text": "The hotter water and steam transfer energy into food more quickly."
+        },
+        {
+          "id": "safety-release",
+          "scene": "safety",
+          "text": "A locking lid and safety valve help control excess pressure, and the cooker must depressurize before opening."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So trapped steam raises the boiling temperature, and the hotter cooking medium speeds up the meal."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Trapped steam enables faster cooking"
+        ],
+        [
+          "pressure",
+          "Steam raises the pressure"
+        ],
+        [
+          "heat",
+          "Higher pressure raises the boiling point"
+        ],
+        [
+          "safety",
+          "Pressure is limited and released"
+        ],
+        [
+          "closing",
+          "Hotter water and steam cook faster"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-seal",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Seal the cooking chamber"
+        },
+        {
+          "sync_source": "steam-regulate",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Regulate the steam pressure"
+        },
+        {
+          "sync_source": "heat-boiling",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Compare the boiling temperatures"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the cooking chain"
+        }
+      ]
+    },
+    {
+      "id": "short-45-electric-kettle",
+      "slug": "electric-kettle",
+      "title": "How an Electric Kettle Switches Off",
+      "composition": "Short45ElectricKettle",
+      "result": "how-an-electric-kettle-switches-off.mp4",
+      "duration_s": 36.0,
+      "target_voice_end_s": 35.1,
+      "prompt": "Electric kettle. Boiling water. Steam channel. Thermostat. Bimetallic strip. Mechanical switch. Heating element.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-off",
+          "scene": "hook",
+          "text": "This electric kettle switches itself off when the water boils."
+        },
+        {
+          "id": "hook-thermostat",
+          "scene": "hook",
+          "text": "A small steam-activated thermostat makes that automatic decision."
+        },
+        {
+          "id": "element-heat",
+          "scene": "steam",
+          "text": "While heating, an electric element sends heat into the water."
+        },
+        {
+          "id": "steam-travel",
+          "scene": "steam",
+          "text": "When the water boils, steam rises through a small channel toward the thermostat."
+        },
+        {
+          "id": "steam-bimetal",
+          "scene": "steam",
+          "text": "Inside it, a bimetallic strip made of two metals bends as steam heats it."
+        },
+        {
+          "id": "switch-expand",
+          "scene": "switch",
+          "text": "The two metals expand by different amounts, forcing the strip to curve."
+        },
+        {
+          "id": "switch-open",
+          "scene": "switch",
+          "text": "That movement trips a mechanical switch and disconnects the heating element."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So boiling water creates the steam signal that physically cuts the kettle's power."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Boiling water cuts the power"
+        ],
+        [
+          "steam",
+          "Steam carries the boil signal"
+        ],
+        [
+          "switch",
+          "The thermostat opens the switch"
+        ],
+        [
+          "closing",
+          "Steam becomes an automatic shutoff"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-thermostat",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the steam thermostat"
+        },
+        {
+          "sync_source": "steam-travel",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Send steam through the channel"
+        },
+        {
+          "sync_source": "switch-open",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Trip the power switch"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the shutoff chain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "3eef40ca7f27f88fa6a2240548b224cf18e3b2dc4f0dae7fb1cb4002f2511ad6",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A heat pump warms your home by moving heat from outdoor air even when that air feels cold. It transports existing heat rather than creating heat from nothing. Outside, cold refrigerant absorbs heat from the air and evaporates into a gas. The heat pump's compressor squeezes this gas, raising its pressure and temperature. The hot gas enters the indoor coil and releases its heat into your home. A fan blows across that coil, carrying the released heat into your rooms. The refrigerant condenses into a liquid as it gives up heat. An expansion valve then lowers its pressure, making it cold again for the outdoor coil. This repeating refrigeration cycle is how the heat pump moves heat indoors.",
+  "mean_word_probability": 0.9836725239026345,
+  "low_confidence_words": [
+    {
+      "start": 4.74,
+      "end": 5.28,
+      "word": " even",
+      "probability": 0.4135313034057617
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.66,
+      "text": "A heat pump warms your home by moving heat from outdoor air even when that air feels cold. It transports existing heat rather than creating heat from nothing. Outside, cold refrigerant absorbs heat from the air and evaporates into a gas. The heat pump's compressor squeezes this gas, raising its pressure and temperature. The hot gas enters the indoor coil and releases its heat into your home.",
+      "avg_logprob": -0.05721218792008765,
+      "no_speech_prob": 0.00755712017416954,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "word": " A",
+          "probability": 0.7832396030426025
+        },
+        {
+          "start": 0.9,
+          "end": 1.18,
+          "word": " heat",
+          "probability": 0.9808260798454285
+        },
+        {
+          "start": 1.18,
+          "end": 1.54,
+          "word": " pump",
+          "probability": 0.989925742149353
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "word": " warms",
+          "probability": 0.9983280301094055
+        },
+        {
+          "start": 2.06,
+          "end": 2.22,
+          "word": " your",
+          "probability": 0.9964571595191956
+        },
+        {
+          "start": 2.22,
+          "end": 2.56,
+          "word": " home",
+          "probability": 0.9975589513778687
+        },
+        {
+          "start": 2.56,
+          "end": 2.8,
+          "word": " by",
+          "probability": 0.9919160008430481
+        },
+        {
+          "start": 2.8,
+          "end": 3.18,
+          "word": " moving",
+          "probability": 0.9969723224639893
+        },
+        {
+          "start": 3.18,
+          "end": 3.58,
+          "word": " heat",
+          "probability": 0.9970364570617676
+        },
+        {
+          "start": 3.58,
+          "end": 3.84,
+          "word": " from",
+          "probability": 0.9976740479469299
+        },
+        {
+          "start": 3.84,
+          "end": 4.34,
+          "word": " outdoor",
+          "probability": 0.9957239627838135
+        },
+        {
+          "start": 4.34,
+          "end": 4.74,
+          "word": " air",
+          "probability": 0.9991896748542786
+        },
+        {
+          "start": 4.74,
+          "end": 5.28,
+          "word": " even",
+          "probability": 0.4135313034057617
+        },
+        {
+          "start": 5.28,
+          "end": 5.5,
+          "word": " when",
+          "probability": 0.9957762360572815
+        },
+        {
+          "start": 5.5,
+          "end": 5.62,
+          "word": " that",
+          "probability": 0.9541003704071045
+        },
+        {
+          "start": 5.62,
+          "end": 5.88,
+          "word": " air",
+          "probability": 0.996580183506012
+        },
+        {
+          "start": 5.88,
+          "end": 6.28,
+          "word": " feels",
+          "probability": 0.9962015748023987
+        },
+        {
+          "start": 6.28,
+          "end": 6.78,
+          "word": " cold.",
+          "probability": 0.9987282156944275
+        },
+        {
+          "start": 7.44,
+          "end": 7.46,
+          "word": " It",
+          "probability": 0.9923796653747559
+        },
+        {
+          "start": 7.46,
+          "end": 8.06,
+          "word": " transports",
+          "probability": 0.993606448173523
+        },
+        {
+          "start": 8.06,
+          "end": 8.74,
+          "word": " existing",
+          "probability": 0.9912240505218506
+        },
+        {
+          "start": 8.74,
+          "end": 9.12,
+          "word": " heat",
+          "probability": 0.9986456036567688
+        },
+        {
+          "start": 9.12,
+          "end": 9.58,
+          "word": " rather",
+          "probability": 0.9091311693191528
+        },
+        {
+          "start": 9.58,
+          "end": 9.84,
+          "word": " than",
+          "probability": 0.9918482303619385
+        },
+        {
+          "start": 9.84,
+          "end": 10.3,
+          "word": " creating",
+          "probability": 0.9975990653038025
+        },
+        {
+          "start": 10.3,
+          "end": 10.6,
+          "word": " heat",
+          "probability": 0.9975664615631104
+        },
+        {
+          "start": 10.6,
+          "end": 10.8,
+          "word": " from",
+          "probability": 0.9972478747367859
+        },
+        {
+          "start": 10.8,
+          "end": 11.18,
+          "word": " nothing.",
+          "probability": 0.9991902709007263
+        },
+        {
+          "start": 12.06,
+          "end": 12.6,
+          "word": " Outside,",
+          "probability": 0.9827556014060974
+        },
+        {
+          "start": 12.98,
+          "end": 13.26,
+          "word": " cold",
+          "probability": 0.9935651421546936
+        },
+        {
+          "start": 13.26,
+          "end": 13.94,
+          "word": " refrigerant",
+          "probability": 0.9975456595420837
+        },
+        {
+          "start": 13.94,
+          "end": 14.44,
+          "word": " absorbs",
+          "probability": 0.9991002082824707
+        },
+        {
+          "start": 14.44,
+          "end": 14.86,
+          "word": " heat",
+          "probability": 0.9982373714447021
+        },
+        {
+          "start": 14.86,
+          "end": 15.12,
+          "word": " from",
+          "probability": 0.998235821723938
+        },
+        {
+          "start": 15.12,
+          "end": 15.3,
+          "word": " the",
+          "probability": 0.9892359375953674
+        },
+        {
+          "start": 15.3,
+          "end": 15.56,
+          "word": " air",
+          "probability": 0.9993854761123657
+        },
+        {
+          "start": 15.56,
+          "end": 15.84,
+          "word": " and",
+          "probability": 0.9843189120292664
+        },
+        {
+          "start": 15.84,
+          "end": 16.48,
+          "word": " evaporates",
+          "probability": 0.9985643923282623
+        },
+        {
+          "start": 16.48,
+          "end": 16.72,
+          "word": " into",
+          "probability": 0.9969726800918579
+        },
+        {
+          "start": 16.72,
+          "end": 16.94,
+          "word": " a",
+          "probability": 0.9957841038703918
+        },
+        {
+          "start": 16.94,
+          "end": 17.24,
+          "word": " gas.",
+          "probability": 0.9994285702705383
+        },
+        {
+          "start": 17.92,
+          "end": 18.08,
+          "word": " The",
+          "probability": 0.994408130645752
+        },
+        {
+          "start": 18.08,
+          "end": 18.32,
+          "word": " heat",
+          "probability": 0.9969252943992615
+        },
+        {
+          "start": 18.32,
+          "end": 18.66,
+          "word": " pump's",
+          "probability": 0.9484248459339142
+        },
+        {
+          "start": 18.66,
+          "end": 19.16,
+          "word": " compressor",
+          "probability": 0.9913856983184814
+        },
+        {
+          "start": 19.16,
+          "end": 19.96,
+          "word": " squeezes",
+          "probability": 0.9945541024208069
+        },
+        {
+          "start": 19.96,
+          "end": 20.18,
+          "word": " this",
+          "probability": 0.9875639081001282
+        },
+        {
+          "start": 20.18,
+          "end": 20.56,
+          "word": " gas,",
+          "probability": 0.9985136389732361
+        },
+        {
+          "start": 20.8,
+          "end": 21.24,
+          "word": " raising",
+          "probability": 0.9960197806358337
+        },
+        {
+          "start": 21.24,
+          "end": 21.48,
+          "word": " its",
+          "probability": 0.9825349450111389
+        },
+        {
+          "start": 21.48,
+          "end": 21.88,
+          "word": " pressure",
+          "probability": 0.9959539175033569
+        },
+        {
+          "start": 21.88,
+          "end": 22.14,
+          "word": " and",
+          "probability": 0.9980528354644775
+        },
+        {
+          "start": 22.14,
+          "end": 22.52,
+          "word": " temperature.",
+          "probability": 0.9991657733917236
+        },
+        {
+          "start": 23.26,
+          "end": 23.48,
+          "word": " The",
+          "probability": 0.9964740872383118
+        },
+        {
+          "start": 23.48,
+          "end": 23.72,
+          "word": " hot",
+          "probability": 0.9990519881248474
+        },
+        {
+          "start": 23.72,
+          "end": 24.02,
+          "word": " gas",
+          "probability": 0.9923785924911499
+        },
+        {
+          "start": 24.02,
+          "end": 24.46,
+          "word": " enters",
+          "probability": 0.9993677735328674
+        },
+        {
+          "start": 24.46,
+          "end": 24.78,
+          "word": " the",
+          "probability": 0.9982524514198303
+        },
+        {
+          "start": 24.78,
+          "end": 25.16,
+          "word": " indoor",
+          "probability": 0.9987130165100098
+        },
+        {
+          "start": 25.16,
+          "end": 25.56,
+          "word": " coil",
+          "probability": 0.9969039559364319
+        },
+        {
+          "start": 25.56,
+          "end": 25.98,
+          "word": " and",
+          "probability": 0.9752413630485535
+        },
+        {
+          "start": 25.98,
+          "end": 26.44,
+          "word": " releases",
+          "probability": 0.9980345368385315
+        },
+        {
+          "start": 26.44,
+          "end": 26.72,
+          "word": " its",
+          "probability": 0.9854226112365723
+        },
+        {
+          "start": 26.72,
+          "end": 26.88,
+          "word": " heat",
+          "probability": 0.9990209341049194
+        },
+        {
+          "start": 26.88,
+          "end": 27.18,
+          "word": " into",
+          "probability": 0.9967343807220459
+        },
+        {
+          "start": 27.18,
+          "end": 27.38,
+          "word": " your",
+          "probability": 0.9980036616325378
+        },
+        {
+          "start": 27.38,
+          "end": 27.66,
+          "word": " home.",
+          "probability": 0.9989728927612305
+        }
+      ]
+    },
+    {
+      "start": 27.66,
+      "end": 32.6,
+      "text": "A fan blows across that coil, carrying the released heat into your rooms.",
+      "avg_logprob": -0.08155988826267961,
+      "no_speech_prob": 0.001936822198331356,
+      "words": [
+        {
+          "start": 27.66,
+          "end": 28.4,
+          "word": " A",
+          "probability": 0.6384854316711426
+        },
+        {
+          "start": 28.4,
+          "end": 28.82,
+          "word": " fan",
+          "probability": 0.9981939196586609
+        },
+        {
+          "start": 28.82,
+          "end": 29.2,
+          "word": " blows",
+          "probability": 0.9925606846809387
+        },
+        {
+          "start": 29.2,
+          "end": 29.58,
+          "word": " across",
+          "probability": 0.9974198341369629
+        },
+        {
+          "start": 29.58,
+          "end": 29.9,
+          "word": " that",
+          "probability": 0.9639337062835693
+        },
+        {
+          "start": 29.9,
+          "end": 30.2,
+          "word": " coil,",
+          "probability": 0.9985622763633728
+        },
+        {
+          "start": 30.52,
+          "end": 30.9,
+          "word": " carrying",
+          "probability": 0.9974588751792908
+        },
+        {
+          "start": 30.9,
+          "end": 31.14,
+          "word": " the",
+          "probability": 0.9946816563606262
+        },
+        {
+          "start": 31.14,
+          "end": 31.52,
+          "word": " released",
+          "probability": 0.9960528612136841
+        },
+        {
+          "start": 31.52,
+          "end": 31.78,
+          "word": " heat",
+          "probability": 0.9993261098861694
+        },
+        {
+          "start": 31.78,
+          "end": 32.08,
+          "word": " into",
+          "probability": 0.9958957433700562
+        },
+        {
+          "start": 32.08,
+          "end": 32.3,
+          "word": " your",
+          "probability": 0.9933761954307556
+        },
+        {
+          "start": 32.3,
+          "end": 32.6,
+          "word": " rooms.",
+          "probability": 0.9904809594154358
+        }
+      ]
+    },
+    {
+      "start": 33.44,
+      "end": 36.74,
+      "text": "The refrigerant condenses into a liquid as it gives up heat.",
+      "avg_logprob": -0.08155988826267961,
+      "no_speech_prob": 0.001936822198331356,
+      "words": [
+        {
+          "start": 33.44,
+          "end": 33.62,
+          "word": " The",
+          "probability": 0.9949184060096741
+        },
+        {
+          "start": 33.62,
+          "end": 34.2,
+          "word": " refrigerant",
+          "probability": 0.9975588619709015
+        },
+        {
+          "start": 34.2,
+          "end": 34.76,
+          "word": " condenses",
+          "probability": 0.9981259405612946
+        },
+        {
+          "start": 34.76,
+          "end": 35.12,
+          "word": " into",
+          "probability": 0.9967052340507507
+        },
+        {
+          "start": 35.12,
+          "end": 35.36,
+          "word": " a",
+          "probability": 0.9938714504241943
+        },
+        {
+          "start": 35.36,
+          "end": 35.62,
+          "word": " liquid",
+          "probability": 0.9994505047798157
+        },
+        {
+          "start": 35.62,
+          "end": 35.9,
+          "word": " as",
+          "probability": 0.9726177453994751
+        },
+        {
+          "start": 35.9,
+          "end": 36.06,
+          "word": " it",
+          "probability": 0.9983136653900146
+        },
+        {
+          "start": 36.06,
+          "end": 36.26,
+          "word": " gives",
+          "probability": 0.9984109401702881
+        },
+        {
+          "start": 36.26,
+          "end": 36.46,
+          "word": " up",
+          "probability": 0.9974876642227173
+        },
+        {
+          "start": 36.46,
+          "end": 36.74,
+          "word": " heat.",
+          "probability": 0.9974790215492249
+        }
+      ]
+    },
+    {
+      "start": 37.14,
+      "end": 42.16,
+      "text": "An expansion valve then lowers its pressure, making it cold again for the outdoor coil.",
+      "avg_logprob": -0.08155988826267961,
+      "no_speech_prob": 0.001936822198331356,
+      "words": [
+        {
+          "start": 37.14,
+          "end": 37.5,
+          "word": " An",
+          "probability": 0.992992639541626
+        },
+        {
+          "start": 37.5,
+          "end": 38.0,
+          "word": " expansion",
+          "probability": 0.9978013634681702
+        },
+        {
+          "start": 38.0,
+          "end": 38.38,
+          "word": " valve",
+          "probability": 0.9988738894462585
+        },
+        {
+          "start": 38.38,
+          "end": 38.66,
+          "word": " then",
+          "probability": 0.9925678968429565
+        },
+        {
+          "start": 38.66,
+          "end": 39.1,
+          "word": " lowers",
+          "probability": 0.998281717300415
+        },
+        {
+          "start": 39.1,
+          "end": 39.32,
+          "word": " its",
+          "probability": 0.9804534912109375
+        },
+        {
+          "start": 39.32,
+          "end": 39.74,
+          "word": " pressure,",
+          "probability": 0.9984006285667419
+        },
+        {
+          "start": 40.0,
+          "end": 40.3,
+          "word": " making",
+          "probability": 0.9983888864517212
+        },
+        {
+          "start": 40.3,
+          "end": 40.5,
+          "word": " it",
+          "probability": 0.9990997314453125
+        },
+        {
+          "start": 40.5,
+          "end": 40.8,
+          "word": " cold",
+          "probability": 0.9938341379165649
+        },
+        {
+          "start": 40.8,
+          "end": 41.06,
+          "word": " again",
+          "probability": 0.9986182451248169
+        },
+        {
+          "start": 41.06,
+          "end": 41.3,
+          "word": " for",
+          "probability": 0.9979610443115234
+        },
+        {
+          "start": 41.3,
+          "end": 41.44,
+          "word": " the",
+          "probability": 0.9922676682472229
+        },
+        {
+          "start": 41.44,
+          "end": 41.76,
+          "word": " outdoor",
+          "probability": 0.9992443323135376
+        },
+        {
+          "start": 41.76,
+          "end": 42.16,
+          "word": " coil.",
+          "probability": 0.9985069632530212
+        }
+      ]
+    },
+    {
+      "start": 42.9,
+      "end": 47.22,
+      "text": "This repeating refrigeration cycle is how the heat pump moves heat indoors.",
+      "avg_logprob": -0.08155988826267961,
+      "no_speech_prob": 0.001936822198331356,
+      "words": [
+        {
+          "start": 42.9,
+          "end": 43.12,
+          "word": " This",
+          "probability": 0.995027482509613
+        },
+        {
+          "start": 43.12,
+          "end": 43.64,
+          "word": " repeating",
+          "probability": 0.9934707880020142
+        },
+        {
+          "start": 43.64,
+          "end": 44.5,
+          "word": " refrigeration",
+          "probability": 0.9965602159500122
+        },
+        {
+          "start": 44.5,
+          "end": 44.78,
+          "word": " cycle",
+          "probability": 0.9989410042762756
+        },
+        {
+          "start": 44.78,
+          "end": 45.08,
+          "word": " is",
+          "probability": 0.9977502226829529
+        },
+        {
+          "start": 45.08,
+          "end": 45.24,
+          "word": " how",
+          "probability": 0.999150276184082
+        },
+        {
+          "start": 45.24,
+          "end": 45.42,
+          "word": " the",
+          "probability": 0.9954426288604736
+        },
+        {
+          "start": 45.42,
+          "end": 45.6,
+          "word": " heat",
+          "probability": 0.9722898006439209
+        },
+        {
+          "start": 45.6,
+          "end": 45.88,
+          "word": " pump",
+          "probability": 0.994746208190918
+        },
+        {
+          "start": 45.88,
+          "end": 46.34,
+          "word": " moves",
+          "probability": 0.9989665746688843
+        },
+        {
+          "start": 46.34,
+          "end": 46.68,
+          "word": " heat",
+          "probability": 0.9971632361412048
+        },
+        {
+          "start": 46.68,
+          "end": 47.22,
+          "word": " indoors.",
+          "probability": 0.9977793097496033
+        }
+      ]
+    }
+  ]
+}

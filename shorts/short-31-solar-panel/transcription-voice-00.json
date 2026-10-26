@@ -1,0 +1,826 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "07e49cc657bc4b36b716be4549143ced02f3270b610ab238cf8f7f032de621bd",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A solar panel turns sunlight directly into electricity for your home. The working part is not the glass cover. It is the thin solar cell underneath. When sunlight enters the solar cell, photons transfer energy to electrons in the silicon. That energy frees some electrons, leaving behind positively charged vacancies called holes. A built-in electric field inside the solar cell pushes the freed electrons in one direction. Metal contacts collect those electrons and send their flow through an external circuit as direct current. The moving electrons can power a load before returning to the solar cell. For many home appliances, an inverter changes the solar panel's direct current into alternating current. So the solar panel supplies electricity because sunlight frees charges and the cell guides their flow.",
+  "mean_word_probability": 0.9788733031600714,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 25.74,
+      "text": "A solar panel turns sunlight directly into electricity for your home. The working part is not the glass cover. It is the thin solar cell underneath. When sunlight enters the solar cell, photons transfer energy to electrons in the silicon. That energy frees some electrons, leaving behind positively charged vacancies called holes. A built-in electric field inside the solar cell pushes the freed electrons in one direction.",
+      "avg_logprob": -0.04951132689602673,
+      "no_speech_prob": 0.09820038825273514,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.88,
+          "word": " A",
+          "probability": 0.57822585105896
+        },
+        {
+          "start": 0.88,
+          "end": 1.2,
+          "word": " solar",
+          "probability": 0.9606238007545471
+        },
+        {
+          "start": 1.2,
+          "end": 1.54,
+          "word": " panel",
+          "probability": 0.9949890971183777
+        },
+        {
+          "start": 1.54,
+          "end": 1.94,
+          "word": " turns",
+          "probability": 0.9917001128196716
+        },
+        {
+          "start": 1.94,
+          "end": 2.44,
+          "word": " sunlight",
+          "probability": 0.9222009181976318
+        },
+        {
+          "start": 2.44,
+          "end": 3.12,
+          "word": " directly",
+          "probability": 0.9818819165229797
+        },
+        {
+          "start": 3.12,
+          "end": 3.48,
+          "word": " into",
+          "probability": 0.9915034770965576
+        },
+        {
+          "start": 3.48,
+          "end": 3.96,
+          "word": " electricity",
+          "probability": 0.9910953044891357
+        },
+        {
+          "start": 3.96,
+          "end": 4.32,
+          "word": " for",
+          "probability": 0.9857456684112549
+        },
+        {
+          "start": 4.32,
+          "end": 4.46,
+          "word": " your",
+          "probability": 0.9943872690200806
+        },
+        {
+          "start": 4.46,
+          "end": 4.7,
+          "word": " home.",
+          "probability": 0.9983751773834229
+        },
+        {
+          "start": 5.22,
+          "end": 5.32,
+          "word": " The",
+          "probability": 0.9735448956489563
+        },
+        {
+          "start": 5.32,
+          "end": 5.62,
+          "word": " working",
+          "probability": 0.9980399012565613
+        },
+        {
+          "start": 5.62,
+          "end": 5.9,
+          "word": " part",
+          "probability": 0.997738242149353
+        },
+        {
+          "start": 5.9,
+          "end": 6.04,
+          "word": " is",
+          "probability": 0.9966523051261902
+        },
+        {
+          "start": 6.04,
+          "end": 6.2,
+          "word": " not",
+          "probability": 0.9988904595375061
+        },
+        {
+          "start": 6.2,
+          "end": 6.38,
+          "word": " the",
+          "probability": 0.9838498830795288
+        },
+        {
+          "start": 6.38,
+          "end": 6.62,
+          "word": " glass",
+          "probability": 0.9986860156059265
+        },
+        {
+          "start": 6.62,
+          "end": 6.88,
+          "word": " cover.",
+          "probability": 0.9915508031845093
+        },
+        {
+          "start": 7.32,
+          "end": 7.34,
+          "word": " It",
+          "probability": 0.9784426093101501
+        },
+        {
+          "start": 7.34,
+          "end": 7.48,
+          "word": " is",
+          "probability": 0.9801676273345947
+        },
+        {
+          "start": 7.48,
+          "end": 7.64,
+          "word": " the",
+          "probability": 0.991891622543335
+        },
+        {
+          "start": 7.64,
+          "end": 7.9,
+          "word": " thin",
+          "probability": 0.996187150478363
+        },
+        {
+          "start": 7.9,
+          "end": 8.3,
+          "word": " solar",
+          "probability": 0.9937235713005066
+        },
+        {
+          "start": 8.3,
+          "end": 8.62,
+          "word": " cell",
+          "probability": 0.9959326386451721
+        },
+        {
+          "start": 8.62,
+          "end": 9.12,
+          "word": " underneath.",
+          "probability": 0.9902977347373962
+        },
+        {
+          "start": 9.74,
+          "end": 9.88,
+          "word": " When",
+          "probability": 0.9875807762145996
+        },
+        {
+          "start": 9.88,
+          "end": 10.28,
+          "word": " sunlight",
+          "probability": 0.9889675974845886
+        },
+        {
+          "start": 10.28,
+          "end": 10.72,
+          "word": " enters",
+          "probability": 0.9991877675056458
+        },
+        {
+          "start": 10.72,
+          "end": 11.0,
+          "word": " the",
+          "probability": 0.995609700679779
+        },
+        {
+          "start": 11.0,
+          "end": 11.24,
+          "word": " solar",
+          "probability": 0.9973061084747314
+        },
+        {
+          "start": 11.24,
+          "end": 11.54,
+          "word": " cell,",
+          "probability": 0.9971586465835571
+        },
+        {
+          "start": 11.92,
+          "end": 12.24,
+          "word": " photons",
+          "probability": 0.990321695804596
+        },
+        {
+          "start": 12.24,
+          "end": 12.76,
+          "word": " transfer",
+          "probability": 0.9961341619491577
+        },
+        {
+          "start": 12.76,
+          "end": 13.2,
+          "word": " energy",
+          "probability": 0.9964788556098938
+        },
+        {
+          "start": 13.2,
+          "end": 13.4,
+          "word": " to",
+          "probability": 0.9954597353935242
+        },
+        {
+          "start": 13.4,
+          "end": 13.86,
+          "word": " electrons",
+          "probability": 0.9929410219192505
+        },
+        {
+          "start": 13.86,
+          "end": 14.14,
+          "word": " in",
+          "probability": 0.9969858527183533
+        },
+        {
+          "start": 14.14,
+          "end": 14.3,
+          "word": " the",
+          "probability": 0.9680898785591125
+        },
+        {
+          "start": 14.3,
+          "end": 14.58,
+          "word": " silicon.",
+          "probability": 0.9860236644744873
+        },
+        {
+          "start": 15.16,
+          "end": 15.3,
+          "word": " That",
+          "probability": 0.9849609136581421
+        },
+        {
+          "start": 15.3,
+          "end": 15.74,
+          "word": " energy",
+          "probability": 0.9987278580665588
+        },
+        {
+          "start": 15.74,
+          "end": 16.18,
+          "word": " frees",
+          "probability": 0.9648840427398682
+        },
+        {
+          "start": 16.18,
+          "end": 16.5,
+          "word": " some",
+          "probability": 0.9967781901359558
+        },
+        {
+          "start": 16.5,
+          "end": 16.98,
+          "word": " electrons,",
+          "probability": 0.9966425895690918
+        },
+        {
+          "start": 17.26,
+          "end": 17.5,
+          "word": " leaving",
+          "probability": 0.99739009141922
+        },
+        {
+          "start": 17.5,
+          "end": 17.94,
+          "word": " behind",
+          "probability": 0.9991917014122009
+        },
+        {
+          "start": 17.94,
+          "end": 18.5,
+          "word": " positively",
+          "probability": 0.9875084757804871
+        },
+        {
+          "start": 18.5,
+          "end": 18.92,
+          "word": " charged",
+          "probability": 0.9086822271347046
+        },
+        {
+          "start": 18.92,
+          "end": 19.5,
+          "word": " vacancies",
+          "probability": 0.9970268607139587
+        },
+        {
+          "start": 19.5,
+          "end": 20.0,
+          "word": " called",
+          "probability": 0.8169026374816895
+        },
+        {
+          "start": 20.0,
+          "end": 20.38,
+          "word": " holes.",
+          "probability": 0.89057856798172
+        },
+        {
+          "start": 21.02,
+          "end": 21.14,
+          "word": " A",
+          "probability": 0.9942147135734558
+        },
+        {
+          "start": 21.14,
+          "end": 21.38,
+          "word": " built",
+          "probability": 0.9961544871330261
+        },
+        {
+          "start": 21.38,
+          "end": 21.54,
+          "word": "-in",
+          "probability": 0.9428650438785553
+        },
+        {
+          "start": 21.54,
+          "end": 21.92,
+          "word": " electric",
+          "probability": 0.9959757924079895
+        },
+        {
+          "start": 21.92,
+          "end": 22.26,
+          "word": " field",
+          "probability": 0.9993267059326172
+        },
+        {
+          "start": 22.26,
+          "end": 22.68,
+          "word": " inside",
+          "probability": 0.9950855374336243
+        },
+        {
+          "start": 22.68,
+          "end": 22.94,
+          "word": " the",
+          "probability": 0.9976935982704163
+        },
+        {
+          "start": 22.94,
+          "end": 23.16,
+          "word": " solar",
+          "probability": 0.9985753297805786
+        },
+        {
+          "start": 23.16,
+          "end": 23.42,
+          "word": " cell",
+          "probability": 0.9970566034317017
+        },
+        {
+          "start": 23.42,
+          "end": 23.9,
+          "word": " pushes",
+          "probability": 0.9881325364112854
+        },
+        {
+          "start": 23.9,
+          "end": 24.16,
+          "word": " the",
+          "probability": 0.9936733245849609
+        },
+        {
+          "start": 24.16,
+          "end": 24.38,
+          "word": " freed",
+          "probability": 0.8800058960914612
+        },
+        {
+          "start": 24.38,
+          "end": 24.78,
+          "word": " electrons",
+          "probability": 0.9974096417427063
+        },
+        {
+          "start": 24.78,
+          "end": 25.08,
+          "word": " in",
+          "probability": 0.9983981251716614
+        },
+        {
+          "start": 25.08,
+          "end": 25.34,
+          "word": " one",
+          "probability": 0.9966617822647095
+        },
+        {
+          "start": 25.34,
+          "end": 25.74,
+          "word": " direction.",
+          "probability": 0.9989272952079773
+        }
+      ]
+    },
+    {
+      "start": 25.74,
+      "end": 31.4,
+      "text": "Metal contacts collect those electrons and send their flow through an external circuit as direct current.",
+      "avg_logprob": -0.08629903893966179,
+      "no_speech_prob": 0.004033415578305721,
+      "words": [
+        {
+          "start": 25.74,
+          "end": 26.52,
+          "word": " Metal",
+          "probability": 0.9236121773719788
+        },
+        {
+          "start": 26.52,
+          "end": 27.02,
+          "word": " contacts",
+          "probability": 0.9968919157981873
+        },
+        {
+          "start": 27.02,
+          "end": 27.42,
+          "word": " collect",
+          "probability": 0.9926659464836121
+        },
+        {
+          "start": 27.42,
+          "end": 27.68,
+          "word": " those",
+          "probability": 0.9758927226066589
+        },
+        {
+          "start": 27.68,
+          "end": 28.08,
+          "word": " electrons",
+          "probability": 0.9944201111793518
+        },
+        {
+          "start": 28.08,
+          "end": 28.52,
+          "word": " and",
+          "probability": 0.9285165071487427
+        },
+        {
+          "start": 28.52,
+          "end": 28.8,
+          "word": " send",
+          "probability": 0.9914748668670654
+        },
+        {
+          "start": 28.8,
+          "end": 29.0,
+          "word": " their",
+          "probability": 0.9951115250587463
+        },
+        {
+          "start": 29.0,
+          "end": 29.2,
+          "word": " flow",
+          "probability": 0.9857242703437805
+        },
+        {
+          "start": 29.2,
+          "end": 29.42,
+          "word": " through",
+          "probability": 0.9966080188751221
+        },
+        {
+          "start": 29.42,
+          "end": 29.62,
+          "word": " an",
+          "probability": 0.9917984008789062
+        },
+        {
+          "start": 29.62,
+          "end": 30.08,
+          "word": " external",
+          "probability": 0.9987685084342957
+        },
+        {
+          "start": 30.08,
+          "end": 30.44,
+          "word": " circuit",
+          "probability": 0.9987008571624756
+        },
+        {
+          "start": 30.44,
+          "end": 30.74,
+          "word": " as",
+          "probability": 0.9926274418830872
+        },
+        {
+          "start": 30.74,
+          "end": 31.04,
+          "word": " direct",
+          "probability": 0.9763734340667725
+        },
+        {
+          "start": 31.04,
+          "end": 31.4,
+          "word": " current.",
+          "probability": 0.9966232776641846
+        }
+      ]
+    },
+    {
+      "start": 32.02,
+      "end": 35.48,
+      "text": "The moving electrons can power a load before returning to the solar cell.",
+      "avg_logprob": -0.08629903893966179,
+      "no_speech_prob": 0.004033415578305721,
+      "words": [
+        {
+          "start": 32.02,
+          "end": 32.12,
+          "word": " The",
+          "probability": 0.9817277193069458
+        },
+        {
+          "start": 32.12,
+          "end": 32.4,
+          "word": " moving",
+          "probability": 0.9988093376159668
+        },
+        {
+          "start": 32.4,
+          "end": 32.8,
+          "word": " electrons",
+          "probability": 0.9962522387504578
+        },
+        {
+          "start": 32.8,
+          "end": 33.06,
+          "word": " can",
+          "probability": 0.9964635968208313
+        },
+        {
+          "start": 33.06,
+          "end": 33.38,
+          "word": " power",
+          "probability": 0.9984293580055237
+        },
+        {
+          "start": 33.38,
+          "end": 33.66,
+          "word": " a",
+          "probability": 0.9962069988250732
+        },
+        {
+          "start": 33.66,
+          "end": 33.94,
+          "word": " load",
+          "probability": 0.9976771473884583
+        },
+        {
+          "start": 33.94,
+          "end": 34.3,
+          "word": " before",
+          "probability": 0.9924811124801636
+        },
+        {
+          "start": 34.3,
+          "end": 34.7,
+          "word": " returning",
+          "probability": 0.9991010427474976
+        },
+        {
+          "start": 34.7,
+          "end": 34.9,
+          "word": " to",
+          "probability": 0.9982061386108398
+        },
+        {
+          "start": 34.9,
+          "end": 35.04,
+          "word": " the",
+          "probability": 0.9940181970596313
+        },
+        {
+          "start": 35.04,
+          "end": 35.2,
+          "word": " solar",
+          "probability": 0.9875602126121521
+        },
+        {
+          "start": 35.2,
+          "end": 35.48,
+          "word": " cell.",
+          "probability": 0.9964926838874817
+        }
+      ]
+    },
+    {
+      "start": 35.9,
+      "end": 41.3,
+      "text": "For many home appliances, an inverter changes the solar panel's direct current into alternating current.",
+      "avg_logprob": -0.08629903893966179,
+      "no_speech_prob": 0.004033415578305721,
+      "words": [
+        {
+          "start": 35.9,
+          "end": 36.12,
+          "word": " For",
+          "probability": 0.9941402077674866
+        },
+        {
+          "start": 36.12,
+          "end": 36.4,
+          "word": " many",
+          "probability": 0.9974811673164368
+        },
+        {
+          "start": 36.4,
+          "end": 36.64,
+          "word": " home",
+          "probability": 0.9950212240219116
+        },
+        {
+          "start": 36.64,
+          "end": 37.12,
+          "word": " appliances,",
+          "probability": 0.9981582760810852
+        },
+        {
+          "start": 37.46,
+          "end": 37.62,
+          "word": " an",
+          "probability": 0.9947235584259033
+        },
+        {
+          "start": 37.62,
+          "end": 38.12,
+          "word": " inverter",
+          "probability": 0.9978216290473938
+        },
+        {
+          "start": 38.12,
+          "end": 38.44,
+          "word": " changes",
+          "probability": 0.9982806444168091
+        },
+        {
+          "start": 38.44,
+          "end": 38.68,
+          "word": " the",
+          "probability": 0.9954734444618225
+        },
+        {
+          "start": 38.68,
+          "end": 38.94,
+          "word": " solar",
+          "probability": 0.9963502883911133
+        },
+        {
+          "start": 38.94,
+          "end": 39.42,
+          "word": " panel's",
+          "probability": 0.849911093711853
+        },
+        {
+          "start": 39.42,
+          "end": 39.64,
+          "word": " direct",
+          "probability": 0.9941058158874512
+        },
+        {
+          "start": 39.64,
+          "end": 40.0,
+          "word": " current",
+          "probability": 0.998410701751709
+        },
+        {
+          "start": 40.0,
+          "end": 40.32,
+          "word": " into",
+          "probability": 0.9892130494117737
+        },
+        {
+          "start": 40.32,
+          "end": 40.84,
+          "word": " alternating",
+          "probability": 0.988664448261261
+        },
+        {
+          "start": 40.84,
+          "end": 41.3,
+          "word": " current.",
+          "probability": 0.9988369345664978
+        }
+      ]
+    },
+    {
+      "start": 41.68,
+      "end": 46.94,
+      "text": "So the solar panel supplies electricity because sunlight frees charges and the cell guides their flow.",
+      "avg_logprob": -0.08629903893966179,
+      "no_speech_prob": 0.004033415578305721,
+      "words": [
+        {
+          "start": 41.68,
+          "end": 41.84,
+          "word": " So",
+          "probability": 0.9873138070106506
+        },
+        {
+          "start": 41.84,
+          "end": 42.0,
+          "word": " the",
+          "probability": 0.8167137503623962
+        },
+        {
+          "start": 42.0,
+          "end": 42.24,
+          "word": " solar",
+          "probability": 0.9962903261184692
+        },
+        {
+          "start": 42.24,
+          "end": 42.5,
+          "word": " panel",
+          "probability": 0.9302298426628113
+        },
+        {
+          "start": 42.5,
+          "end": 42.94,
+          "word": " supplies",
+          "probability": 0.9949601888656616
+        },
+        {
+          "start": 42.94,
+          "end": 43.58,
+          "word": " electricity",
+          "probability": 0.9981096982955933
+        },
+        {
+          "start": 43.58,
+          "end": 44.08,
+          "word": " because",
+          "probability": 0.8975136876106262
+        },
+        {
+          "start": 44.08,
+          "end": 44.52,
+          "word": " sunlight",
+          "probability": 0.9801974296569824
+        },
+        {
+          "start": 44.52,
+          "end": 44.96,
+          "word": " frees",
+          "probability": 0.8988095819950104
+        },
+        {
+          "start": 44.96,
+          "end": 45.36,
+          "word": " charges",
+          "probability": 0.9562371969223022
+        },
+        {
+          "start": 45.36,
+          "end": 45.76,
+          "word": " and",
+          "probability": 0.9506432414054871
+        },
+        {
+          "start": 45.76,
+          "end": 45.94,
+          "word": " the",
+          "probability": 0.9972744584083557
+        },
+        {
+          "start": 45.94,
+          "end": 46.12,
+          "word": " cell",
+          "probability": 0.9942635893821716
+        },
+        {
+          "start": 46.12,
+          "end": 46.52,
+          "word": " guides",
+          "probability": 0.9979225993156433
+        },
+        {
+          "start": 46.52,
+          "end": 46.76,
+          "word": " their",
+          "probability": 0.9931284189224243
+        },
+        {
+          "start": 46.76,
+          "end": 46.94,
+          "word": " flow.",
+          "probability": 0.996346652507782
+        }
+      ]
+    }
+  ]
+}

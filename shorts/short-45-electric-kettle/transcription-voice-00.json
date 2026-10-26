@@ -1,0 +1,610 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "07f790e4e6acf1bd77f37f0c53dabd867e41eecabebae088e55d3fa208bd1d1e",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This electric kettle switches itself off when the water boils. A small steam-activated thermostat makes that automatic decision. While heating, an electric element sends heat into the water. When the water boils, steam rises through a small channel toward the thermostat. Inside it, a bimetallic strip made of two metals bends as steam heats it. The two metals expand by different amounts, forcing the strip to curve. That movement trips a mechanical switch and disconnects the heating element. So boiling water creates the steam signal that physically cuts the kettle's power.",
+  "mean_word_probability": 0.977102225781351,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.54,
+      "text": "This electric kettle switches itself off when the water boils. A small steam-activated thermostat makes that automatic decision.",
+      "avg_logprob": -0.07356602978962724,
+      "no_speech_prob": 0.01111309789121151,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " This",
+          "probability": 0.8247750997543335
+        },
+        {
+          "start": 0.5,
+          "end": 1.04,
+          "word": " electric",
+          "probability": 0.9715202450752258
+        },
+        {
+          "start": 1.04,
+          "end": 1.3,
+          "word": " kettle",
+          "probability": 0.9881274104118347
+        },
+        {
+          "start": 1.3,
+          "end": 1.74,
+          "word": " switches",
+          "probability": 0.9960320591926575
+        },
+        {
+          "start": 1.74,
+          "end": 2.18,
+          "word": " itself",
+          "probability": 0.9966632723808289
+        },
+        {
+          "start": 2.18,
+          "end": 2.44,
+          "word": " off",
+          "probability": 0.9447174072265625
+        },
+        {
+          "start": 2.44,
+          "end": 2.7,
+          "word": " when",
+          "probability": 0.984276294708252
+        },
+        {
+          "start": 2.7,
+          "end": 2.86,
+          "word": " the",
+          "probability": 0.9711161255836487
+        },
+        {
+          "start": 2.86,
+          "end": 3.1,
+          "word": " water",
+          "probability": 0.9984304308891296
+        },
+        {
+          "start": 3.1,
+          "end": 3.5,
+          "word": " boils.",
+          "probability": 0.9955736398696899
+        },
+        {
+          "start": 4.02,
+          "end": 4.1,
+          "word": " A",
+          "probability": 0.9679544568061829
+        },
+        {
+          "start": 4.1,
+          "end": 4.5,
+          "word": " small",
+          "probability": 0.9968637228012085
+        },
+        {
+          "start": 4.5,
+          "end": 4.88,
+          "word": " steam",
+          "probability": 0.9734498858451843
+        },
+        {
+          "start": 4.88,
+          "end": 5.42,
+          "word": "-activated",
+          "probability": 0.8114998936653137
+        },
+        {
+          "start": 5.42,
+          "end": 6.12,
+          "word": " thermostat",
+          "probability": 0.9976798494656881
+        },
+        {
+          "start": 6.12,
+          "end": 6.48,
+          "word": " makes",
+          "probability": 0.9966481328010559
+        },
+        {
+          "start": 6.48,
+          "end": 6.68,
+          "word": " that",
+          "probability": 0.9679449796676636
+        },
+        {
+          "start": 6.68,
+          "end": 7.1,
+          "word": " automatic",
+          "probability": 0.9926274418830872
+        },
+        {
+          "start": 7.1,
+          "end": 7.54,
+          "word": " decision.",
+          "probability": 0.9973235726356506
+        }
+      ]
+    },
+    {
+      "start": 8.28,
+      "end": 16.38,
+      "text": "While heating, an electric element sends heat into the water. When the water boils, steam rises through a small channel toward the thermostat.",
+      "avg_logprob": -0.07356602978962724,
+      "no_speech_prob": 0.01111309789121151,
+      "words": [
+        {
+          "start": 8.28,
+          "end": 8.46,
+          "word": " While",
+          "probability": 0.9808850884437561
+        },
+        {
+          "start": 8.46,
+          "end": 8.84,
+          "word": " heating,",
+          "probability": 0.9980054497718811
+        },
+        {
+          "start": 9.2,
+          "end": 9.34,
+          "word": " an",
+          "probability": 0.9968749284744263
+        },
+        {
+          "start": 9.34,
+          "end": 9.74,
+          "word": " electric",
+          "probability": 0.9853869676589966
+        },
+        {
+          "start": 9.74,
+          "end": 10.1,
+          "word": " element",
+          "probability": 0.9971924424171448
+        },
+        {
+          "start": 10.1,
+          "end": 10.46,
+          "word": " sends",
+          "probability": 0.9965445399284363
+        },
+        {
+          "start": 10.46,
+          "end": 10.74,
+          "word": " heat",
+          "probability": 0.9937357306480408
+        },
+        {
+          "start": 10.74,
+          "end": 10.98,
+          "word": " into",
+          "probability": 0.9875490665435791
+        },
+        {
+          "start": 10.98,
+          "end": 11.18,
+          "word": " the",
+          "probability": 0.9857134819030762
+        },
+        {
+          "start": 11.18,
+          "end": 11.4,
+          "word": " water.",
+          "probability": 0.9992951154708862
+        },
+        {
+          "start": 11.96,
+          "end": 12.08,
+          "word": " When",
+          "probability": 0.993645429611206
+        },
+        {
+          "start": 12.08,
+          "end": 12.24,
+          "word": " the",
+          "probability": 0.9818854928016663
+        },
+        {
+          "start": 12.24,
+          "end": 12.46,
+          "word": " water",
+          "probability": 0.9989088773727417
+        },
+        {
+          "start": 12.46,
+          "end": 12.9,
+          "word": " boils,",
+          "probability": 0.997929573059082
+        },
+        {
+          "start": 13.28,
+          "end": 13.5,
+          "word": " steam",
+          "probability": 0.9955293536186218
+        },
+        {
+          "start": 13.5,
+          "end": 13.96,
+          "word": " rises",
+          "probability": 0.9986463189125061
+        },
+        {
+          "start": 13.96,
+          "end": 14.22,
+          "word": " through",
+          "probability": 0.9944702386856079
+        },
+        {
+          "start": 14.22,
+          "end": 14.44,
+          "word": " a",
+          "probability": 0.9950954914093018
+        },
+        {
+          "start": 14.44,
+          "end": 14.76,
+          "word": " small",
+          "probability": 0.9987795948982239
+        },
+        {
+          "start": 14.76,
+          "end": 15.16,
+          "word": " channel",
+          "probability": 0.9982839226722717
+        },
+        {
+          "start": 15.16,
+          "end": 15.52,
+          "word": " toward",
+          "probability": 0.6701410412788391
+        },
+        {
+          "start": 15.52,
+          "end": 15.76,
+          "word": " the",
+          "probability": 0.9937606453895569
+        },
+        {
+          "start": 15.76,
+          "end": 16.38,
+          "word": " thermostat.",
+          "probability": 0.9981009165445963
+        }
+      ]
+    },
+    {
+      "start": 16.88,
+      "end": 25.94,
+      "text": "Inside it, a bimetallic strip made of two metals bends as steam heats it. The two metals expand by different amounts, forcing the strip to curve.",
+      "avg_logprob": -0.07356602978962724,
+      "no_speech_prob": 0.01111309789121151,
+      "words": [
+        {
+          "start": 16.88,
+          "end": 17.26,
+          "word": " Inside",
+          "probability": 0.9956526756286621
+        },
+        {
+          "start": 17.26,
+          "end": 17.72,
+          "word": " it,",
+          "probability": 0.9936210513114929
+        },
+        {
+          "start": 17.86,
+          "end": 18.0,
+          "word": " a",
+          "probability": 0.9973430037498474
+        },
+        {
+          "start": 18.0,
+          "end": 18.64,
+          "word": " bimetallic",
+          "probability": 0.9632125695546468
+        },
+        {
+          "start": 18.64,
+          "end": 18.92,
+          "word": " strip",
+          "probability": 0.9996181726455688
+        },
+        {
+          "start": 18.92,
+          "end": 19.18,
+          "word": " made",
+          "probability": 0.9898495674133301
+        },
+        {
+          "start": 19.18,
+          "end": 19.36,
+          "word": " of",
+          "probability": 0.9915933609008789
+        },
+        {
+          "start": 19.36,
+          "end": 19.62,
+          "word": " two",
+          "probability": 0.8498859405517578
+        },
+        {
+          "start": 19.62,
+          "end": 20.06,
+          "word": " metals",
+          "probability": 0.965200662612915
+        },
+        {
+          "start": 20.06,
+          "end": 20.64,
+          "word": " bends",
+          "probability": 0.9953426122665405
+        },
+        {
+          "start": 20.64,
+          "end": 20.96,
+          "word": " as",
+          "probability": 0.9954609274864197
+        },
+        {
+          "start": 20.96,
+          "end": 21.28,
+          "word": " steam",
+          "probability": 0.9714478850364685
+        },
+        {
+          "start": 21.28,
+          "end": 21.56,
+          "word": " heats",
+          "probability": 0.9988247752189636
+        },
+        {
+          "start": 21.56,
+          "end": 21.86,
+          "word": " it.",
+          "probability": 0.996650755405426
+        },
+        {
+          "start": 22.3,
+          "end": 22.48,
+          "word": " The",
+          "probability": 0.994087815284729
+        },
+        {
+          "start": 22.48,
+          "end": 22.74,
+          "word": " two",
+          "probability": 0.9888839721679688
+        },
+        {
+          "start": 22.74,
+          "end": 23.02,
+          "word": " metals",
+          "probability": 0.985325038433075
+        },
+        {
+          "start": 23.02,
+          "end": 23.44,
+          "word": " expand",
+          "probability": 0.9981818199157715
+        },
+        {
+          "start": 23.44,
+          "end": 23.64,
+          "word": " by",
+          "probability": 0.9979134202003479
+        },
+        {
+          "start": 23.64,
+          "end": 24.04,
+          "word": " different",
+          "probability": 0.9956108927726746
+        },
+        {
+          "start": 24.04,
+          "end": 24.44,
+          "word": " amounts,",
+          "probability": 0.9969602227210999
+        },
+        {
+          "start": 24.72,
+          "end": 25.0,
+          "word": " forcing",
+          "probability": 0.9991872906684875
+        },
+        {
+          "start": 25.0,
+          "end": 25.26,
+          "word": " the",
+          "probability": 0.99703049659729
+        },
+        {
+          "start": 25.26,
+          "end": 25.42,
+          "word": " strip",
+          "probability": 0.9969865679740906
+        },
+        {
+          "start": 25.42,
+          "end": 25.68,
+          "word": " to",
+          "probability": 0.9991753697395325
+        },
+        {
+          "start": 25.68,
+          "end": 25.94,
+          "word": " curve.",
+          "probability": 0.9974616765975952
+        }
+      ]
+    },
+    {
+      "start": 25.94,
+      "end": 30.38,
+      "text": "That movement trips a mechanical switch and disconnects the heating element.",
+      "avg_logprob": -0.13553375186342181,
+      "no_speech_prob": 0.013233073055744171,
+      "words": [
+        {
+          "start": 25.94,
+          "end": 26.84,
+          "word": " That",
+          "probability": 0.776714026927948
+        },
+        {
+          "start": 26.84,
+          "end": 27.26,
+          "word": " movement",
+          "probability": 0.9834235906600952
+        },
+        {
+          "start": 27.26,
+          "end": 27.62,
+          "word": " trips",
+          "probability": 0.9847314357757568
+        },
+        {
+          "start": 27.62,
+          "end": 27.82,
+          "word": " a",
+          "probability": 0.9609626531600952
+        },
+        {
+          "start": 27.82,
+          "end": 28.22,
+          "word": " mechanical",
+          "probability": 0.9982486963272095
+        },
+        {
+          "start": 28.22,
+          "end": 28.64,
+          "word": " switch",
+          "probability": 0.9989582300186157
+        },
+        {
+          "start": 28.64,
+          "end": 29.0,
+          "word": " and",
+          "probability": 0.9770903587341309
+        },
+        {
+          "start": 29.0,
+          "end": 29.68,
+          "word": " disconnects",
+          "probability": 0.9966614246368408
+        },
+        {
+          "start": 29.68,
+          "end": 29.76,
+          "word": " the",
+          "probability": 0.9932264685630798
+        },
+        {
+          "start": 29.76,
+          "end": 29.98,
+          "word": " heating",
+          "probability": 0.9949740171432495
+        },
+        {
+          "start": 29.98,
+          "end": 30.38,
+          "word": " element.",
+          "probability": 0.996708869934082
+        }
+      ]
+    },
+    {
+      "start": 31.0,
+      "end": 34.9,
+      "text": "So boiling water creates the steam signal that physically cuts the kettle's power.",
+      "avg_logprob": -0.13553375186342181,
+      "no_speech_prob": 0.013233073055744171,
+      "words": [
+        {
+          "start": 31.0,
+          "end": 31.06,
+          "word": " So",
+          "probability": 0.9923233985900879
+        },
+        {
+          "start": 31.06,
+          "end": 31.46,
+          "word": " boiling",
+          "probability": 0.815319836139679
+        },
+        {
+          "start": 31.46,
+          "end": 31.76,
+          "word": " water",
+          "probability": 0.996253252029419
+        },
+        {
+          "start": 31.76,
+          "end": 32.22,
+          "word": " creates",
+          "probability": 0.994121253490448
+        },
+        {
+          "start": 32.22,
+          "end": 32.42,
+          "word": " the",
+          "probability": 0.9542962908744812
+        },
+        {
+          "start": 32.42,
+          "end": 32.74,
+          "word": " steam",
+          "probability": 0.9753760695457458
+        },
+        {
+          "start": 32.74,
+          "end": 33.1,
+          "word": " signal",
+          "probability": 0.994292140007019
+        },
+        {
+          "start": 33.1,
+          "end": 33.34,
+          "word": " that",
+          "probability": 0.9934170246124268
+        },
+        {
+          "start": 33.34,
+          "end": 33.82,
+          "word": " physically",
+          "probability": 0.9966825842857361
+        },
+        {
+          "start": 33.82,
+          "end": 34.18,
+          "word": " cuts",
+          "probability": 0.9936580061912537
+        },
+        {
+          "start": 34.18,
+          "end": 34.34,
+          "word": " the",
+          "probability": 0.9937918782234192
+        },
+        {
+          "start": 34.34,
+          "end": 34.74,
+          "word": " kettle's",
+          "probability": 0.974314957857132
+        },
+        {
+          "start": 34.74,
+          "end": 34.9,
+          "word": " power.",
+          "probability": 0.9977661371231079
+        }
+      ]
+    }
+  ]
+}

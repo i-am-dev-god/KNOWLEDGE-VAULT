@@ -1,0 +1,148 @@
+{
+  "id": "short-41-induction-cooktop",
+  "title": "How an Induction Cooktop Heats a Pan",
+  "composition": "Short41InductionCooktop",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 39.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-41-induction-cooktop/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "f3a5e1a3434bf80a1295f12319db030735b209f421c3b39f0022c3bda98876d6",
+    "raw_duration_seconds": 35.8,
+    "trimmed_duration_seconds": 35.269042,
+    "tempo_rate": 0.929355512,
+    "requested_tempo_rate": 0.929355512,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 38.1,
+    "narration_file": "media/voiceovers/induction-cooktop/narration.wav",
+    "narration_sha256": "4d4e36f91aa17545d384e6eb873781fcf4d70e7b33f4fefb3112abd740cc3a96",
+    "narration_duration_seconds": 39.0,
+    "paced_speech_end_seconds": 38.088292,
+    "script_sha256": "1d9ff7785afc32b8dcf37a34db8db93ee97af8cfa0ed23ca81bbf5fd45f56991",
+    "spoken_words": 96,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.963524580001831,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 38.088292s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 39-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 37.88,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "The pan is the heater",
+      "start": 0.0,
+      "end": 9.62
+    },
+    {
+      "id": "coil",
+      "title": "The coil creates a changing field",
+      "start": 9.62,
+      "end": 14.62
+    },
+    {
+      "id": "currents",
+      "title": "The pan produces heat",
+      "start": 14.62,
+      "end": 24.8
+    },
+    {
+      "id": "control",
+      "title": "Heat reaches the food",
+      "start": 24.8,
+      "end": 33.6
+    },
+    {
+      "id": "closing",
+      "title": "Field in the coil, heat in the pan",
+      "start": 33.6,
+      "end": 39.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-heat",
+      "scene": "hook",
+      "text": "This pan heats on an induction cooktop without a directly heated burner.",
+      "speak": "This pan heats on an induction cooktop without a directly heated burner.",
+      "start": 0.15,
+      "end": 4.68,
+      "duration": 4.53
+    },
+    {
+      "id": "hook-field",
+      "scene": "hook",
+      "text": "The cooktop sends energy into the pan using a changing magnetic field.",
+      "speak": "The cooktop sends energy into the pan using a changing magnetic field.",
+      "start": 5.4,
+      "end": 9.36,
+      "duration": 3.96
+    },
+    {
+      "id": "coil-current",
+      "scene": "coil",
+      "text": "Below the glass, high-frequency alternating current flows through a copper coil.",
+      "speak": "Below the glass, high-frequency alternating current flows through a copper coil.",
+      "start": 10.12,
+      "end": 14.42,
+      "duration": 4.3
+    },
+    {
+      "id": "pan-currents",
+      "scene": "currents",
+      "text": "That field drives circular electric currents inside the magnetic metal pan.",
+      "speak": "That field drives circular electric currents inside the magnetic metal pan.",
+      "start": 15.12,
+      "end": 19.52,
+      "duration": 4.4
+    },
+    {
+      "id": "pan-resistance",
+      "scene": "currents",
+      "text": "Electrical resistance turns their energy into heat, so the pan itself gets hot.",
+      "speak": "Electrical resistance turns their energy into heat, so the pan itself gets hot.",
+      "start": 20.16,
+      "end": 24.74,
+      "duration": 4.58
+    },
+    {
+      "id": "food-conduction",
+      "scene": "control",
+      "text": "The pan then conducts that heat into the food.",
+      "speak": "The pan then conducts that heat into the food.",
+      "start": 25.3,
+      "end": 27.72,
+      "duration": 2.42
+    },
+    {
+      "id": "pan-requirement",
+      "scene": "control",
+      "text": "A suitable magnetic pan is essential; ordinary glass or copper alone will not work.",
+      "speak": "A suitable magnetic pan is essential; ordinary glass or copper alone will not work.",
+      "start": 27.72,
+      "end": 33.46,
+      "duration": 5.74
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the coil creates the field, but the resistant pan becomes the heater.",
+      "speak": "So the coil creates the field, but the resistant pan becomes the heater.",
+      "start": 34.1,
+      "end": 37.88,
+      "duration": 3.78
+    }
+  ]
+}

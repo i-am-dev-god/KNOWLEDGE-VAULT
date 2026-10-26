@@ -1,0 +1,47 @@
+{
+  "master": "RESULT/how-a-mechanical-watch-keeps-time.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short40MechanicalWatch.mp4",
+    "out": "RESULT/how-a-mechanical-watch-keeps-time.mp4",
+    "end_s": 60.0
+  },
+  "note": "4 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.73,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Reveal the mechanism",
+      "sync_source": "hook-meter"
+    },
+    {
+      "at_s": 16.02,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -24,
+      "cue": "Focus the active component",
+      "sync_source": "wind-release"
+    },
+    {
+      "at_s": 37.8,
+      "sfx_id": "pop-reveal",
+      "gain_db": -24,
+      "cue": "Resolve the mechanism",
+      "sync_source": "balance-regulate"
+    },
+    {
+      "at_s": 43.88,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -21,
+      "cue": "Summary",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

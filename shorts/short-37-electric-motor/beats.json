@@ -1,0 +1,163 @@
+{
+  "id": "short-37-electric-motor",
+  "title": "How an Electric Motor Spins",
+  "composition": "Short37ElectricMotor",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 58.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-37-electric-motor/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "c227914db487cf45af01201a3b257c5e072a088ba7337389391936da9369d995",
+    "raw_duration_seconds": 46.68,
+    "trimmed_duration_seconds": 46.291208,
+    "tempo_rate": 0.95841011,
+    "requested_tempo_rate": 0.95841011,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 49.0,
+    "narration_file": "media/voiceovers/electric-motor/narration.wav",
+    "narration_sha256": "bcfd0941448baa8824a649be0bf9d27d274e27cb4771a372160360f210a6f8c4",
+    "narration_duration_seconds": 58.0,
+    "paced_speech_end_seconds": 48.98975,
+    "script_sha256": "093aae86d3e69fe7e75589eb24f26fd051e805c804c9ae7fbe268e3e39058a32",
+    "spoken_words": 133,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9757534989077061,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 48.989750s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 1 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 58-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 48.8,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Electricity becomes mechanical rotation",
+      "start": 0.0,
+      "end": 12.76
+    },
+    {
+      "id": "field",
+      "title": "Fixed magnets establish a field",
+      "start": 12.76,
+      "end": 17.56
+    },
+    {
+      "id": "coil",
+      "title": "Current flows through the moving coil",
+      "start": 17.56,
+      "end": 22.76
+    },
+    {
+      "id": "torque",
+      "title": "Opposite forces turn the shaft",
+      "start": 22.76,
+      "end": 32.38
+    },
+    {
+      "id": "switch",
+      "title": "The commutator reverses current",
+      "start": 32.38,
+      "end": 42.34
+    },
+    {
+      "id": "closing",
+      "title": "Repeated switching sustains rotation",
+      "start": 42.34,
+      "end": 58.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-spin",
+      "scene": "hook",
+      "text": "An electric motor turns electrical energy into rotation to power fans, tools, and machines.",
+      "speak": "An electric motor turns electrical energy into rotation to power fans, tools, and machines.",
+      "start": 0.7,
+      "end": 6.66,
+      "duration": 5.96
+    },
+    {
+      "id": "hook-interaction",
+      "scene": "hook",
+      "text": "Inside the motor, the essential interaction is between electric current and a magnetic field.",
+      "speak": "Inside the motor, the essential interaction is between electric current and a magnetic field.",
+      "start": 7.4,
+      "end": 12.5,
+      "duration": 5.1
+    },
+    {
+      "id": "field-magnets",
+      "scene": "field",
+      "text": "Two fixed magnets create a magnetic field across the motor's central space.",
+      "speak": "Two fixed magnets create a magnetic field across the motor's central space.",
+      "start": 13.26,
+      "end": 17.44,
+      "duration": 4.18
+    },
+    {
+      "id": "coil-current",
+      "scene": "coil",
+      "text": "A wire coil sits in that field, and the motor sends electric current through the coil.",
+      "speak": "A wire coil sits in that field, and the motor sends electric current through the coil.",
+      "start": 18.06,
+      "end": 22.54,
+      "duration": 4.48
+    },
+    {
+      "id": "force-torque",
+      "scene": "torque",
+      "text": "Current in the coil produces opposite forces on its two sides, creating a turning force called torque.",
+      "speak": "Current in the coil produces opposite forces on its two sides, creating a turning force called torque.",
+      "start": 23.26,
+      "end": 28.74,
+      "duration": 5.48
+    },
+    {
+      "id": "force-rotate",
+      "scene": "torque",
+      "text": "Those forces rotate the coil and the shaft attached to it.",
+      "speak": "Those forces rotate the coil and the shaft attached to it.",
+      "start": 29.38,
+      "end": 32.56,
+      "duration": 3.18
+    },
+    {
+      "id": "switch-stall",
+      "scene": "switch",
+      "text": "But the coil would stall if the current stayed in the same direction.",
+      "speak": "But the coil would stall if the current stayed in the same direction.",
+      "start": 32.88,
+      "end": 35.9,
+      "duration": 3.02
+    },
+    {
+      "id": "switch-reverse",
+      "scene": "switch",
+      "text": "A split-ring commutator reverses the current every half turn, keeping the torque in the same rotational direction.",
+      "speak": "A split-ring commutator reverses the current every half turn, keeping the torque in the same rotational direction.",
+      "start": 36.58,
+      "end": 42.48,
+      "duration": 5.9
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the motor keeps spinning by repeatedly switching the coil's current so magnetic forces continue turning its shaft.",
+      "speak": "So the motor keeps spinning by repeatedly switching the coil's current so magnetic forces continue turning its shaft.",
+      "start": 42.84,
+      "end": 48.8,
+      "duration": 5.96
+    }
+  ]
+}

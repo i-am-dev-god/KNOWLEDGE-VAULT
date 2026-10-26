@@ -1,0 +1,162 @@
+{
+  "id": "short-32-heat-pump",
+  "title": "How a Heat Pump Warms Your Home",
+  "composition": "Short32HeatPump",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 55.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-32-heat-pump/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "1613a61fa2e07b62085e7335f96ee94cfaaf3aeeb5664e2f8b17cf3ad22c7a2b",
+    "raw_duration_seconds": 43.48,
+    "trimmed_duration_seconds": 43.071042,
+    "tempo_rate": 0.920321403,
+    "requested_tempo_rate": 0.920321403,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/heat-pump/narration.wav",
+    "narration_sha256": "3eef40ca7f27f88fa6a2240548b224cf18e3b2dc4f0dae7fb1cb4002f2511ad6",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 47.485833,
+    "script_sha256": "a180aad9a44f8b2f3f3f992908d8d939c7e8ce9edf67b64940458cb5a0097ffe",
+    "spoken_words": 118,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9836725239026345,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 47.485833s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 55-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 47.22,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "A heat pump moves existing heat",
+      "start": 0.0,
+      "end": 11.56
+    },
+    {
+      "id": "outside",
+      "title": "The outdoor coil absorbs heat",
+      "start": 11.56,
+      "end": 17.42
+    },
+    {
+      "id": "compress",
+      "title": "The compressor raises temperature",
+      "start": 17.42,
+      "end": 22.76
+    },
+    {
+      "id": "inside",
+      "title": "The indoor coil heats your rooms",
+      "start": 22.76,
+      "end": 32.94
+    },
+    {
+      "id": "valve",
+      "title": "The refrigerant resets for another cycle",
+      "start": 32.94,
+      "end": 42.4
+    },
+    {
+      "id": "closing",
+      "title": "A continuous heat-moving loop",
+      "start": 42.4,
+      "end": 55.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-move",
+      "scene": "hook",
+      "text": "A heat pump warms your home by moving heat from outdoor air, even when that air feels cold.",
+      "speak": "A heat pump warms your home by moving heat from outdoor air, even when that air feels cold.",
+      "start": 0.7,
+      "end": 6.78,
+      "duration": 6.08
+    },
+    {
+      "id": "hook-existing",
+      "scene": "hook",
+      "text": "It transports existing heat rather than creating heat from nothing.",
+      "speak": "It transports existing heat rather than creating heat from nothing.",
+      "start": 7.44,
+      "end": 11.18,
+      "duration": 3.74
+    },
+    {
+      "id": "outside-absorb",
+      "scene": "outside",
+      "text": "Outside, cold refrigerant absorbs heat from the air and evaporates into a gas.",
+      "speak": "Outside, cold refrigerant absorbs heat from the air and evaporates into a gas.",
+      "start": 12.06,
+      "end": 17.24,
+      "duration": 5.18
+    },
+    {
+      "id": "compress-raise",
+      "scene": "compress",
+      "text": "The heat pump's compressor squeezes this gas, raising its pressure and temperature.",
+      "speak": "The heat pump's compressor squeezes this gas, raising its pressure and temperature.",
+      "start": 17.92,
+      "end": 22.52,
+      "duration": 4.6
+    },
+    {
+      "id": "inside-release",
+      "scene": "inside",
+      "text": "The hot gas enters the indoor coil and releases its heat into your home.",
+      "speak": "The hot gas enters the indoor coil and releases its heat into your home.",
+      "start": 23.26,
+      "end": 27.66,
+      "duration": 4.4
+    },
+    {
+      "id": "inside-fan",
+      "scene": "inside",
+      "text": "A fan blows across that coil, carrying the released heat into your rooms.",
+      "speak": "A fan blows across that coil, carrying the released heat into your rooms.",
+      "start": 27.66,
+      "end": 32.6,
+      "duration": 4.94
+    },
+    {
+      "id": "valve-condense",
+      "scene": "valve",
+      "text": "The refrigerant condenses into a liquid as it gives up heat.",
+      "speak": "The refrigerant condenses into a liquid as it gives up heat.",
+      "start": 33.44,
+      "end": 36.74,
+      "duration": 3.3
+    },
+    {
+      "id": "valve-cool",
+      "scene": "valve",
+      "text": "An expansion valve then lowers its pressure, making it cold again for the outdoor coil.",
+      "speak": "An expansion valve then lowers its pressure, making it cold again for the outdoor coil.",
+      "start": 37.14,
+      "end": 42.16,
+      "duration": 5.02
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "This repeating refrigeration cycle is how the heat pump moves heat indoors.",
+      "speak": "This repeating refrigeration cycle is how the heat pump moves heat indoors.",
+      "start": 42.9,
+      "end": 47.22,
+      "duration": 4.32
+    }
+  ]
+}

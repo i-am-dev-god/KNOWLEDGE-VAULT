@@ -1,0 +1,688 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "d5436a88edbc00f02af09b5627861841f469e1fe9f25520717e534ef3567eb5c",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This smoke detector can sound the alarm before flames are visible. Inside this photoelectric detector, smoke reveals itself by scattering a hidden beam of light. In clear air, an LED sends light across a dark chamber. The light sensor sits off to one side, so the straight beam normally misses it. When smoke enters, tiny particles scatter some of that light toward the sensor. The sensor signal rises and the electronics trigger the loud alarm. It is especially useful for slow, smoldering fires that produce visible smoke. So the detector does not smell smoke, it notices smoke scattering light into its sensor.",
+  "mean_word_probability": 0.9793650016091228,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.18,
+      "text": "This smoke detector can sound the alarm before flames are visible.",
+      "avg_logprob": -0.07207695190750417,
+      "no_speech_prob": 0.00285451952368021,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " This",
+          "probability": 0.8852459192276001
+        },
+        {
+          "start": 0.48,
+          "end": 0.8,
+          "word": " smoke",
+          "probability": 0.9615960121154785
+        },
+        {
+          "start": 0.8,
+          "end": 1.34,
+          "word": " detector",
+          "probability": 0.9976310729980469
+        },
+        {
+          "start": 1.34,
+          "end": 1.64,
+          "word": " can",
+          "probability": 0.994110643863678
+        },
+        {
+          "start": 1.64,
+          "end": 1.96,
+          "word": " sound",
+          "probability": 0.9974715709686279
+        },
+        {
+          "start": 1.96,
+          "end": 2.16,
+          "word": " the",
+          "probability": 0.9984744191169739
+        },
+        {
+          "start": 2.16,
+          "end": 2.58,
+          "word": " alarm",
+          "probability": 0.9984490871429443
+        },
+        {
+          "start": 2.58,
+          "end": 3.08,
+          "word": " before",
+          "probability": 0.9887220859527588
+        },
+        {
+          "start": 3.08,
+          "end": 3.62,
+          "word": " flames",
+          "probability": 0.9917681217193604
+        },
+        {
+          "start": 3.62,
+          "end": 3.82,
+          "word": " are",
+          "probability": 0.9976773858070374
+        },
+        {
+          "start": 3.82,
+          "end": 4.18,
+          "word": " visible.",
+          "probability": 0.9970062375068665
+        }
+      ]
+    },
+    {
+      "start": 5.06,
+      "end": 11.06,
+      "text": "Inside this photoelectric detector, smoke reveals itself by scattering a hidden beam of light.",
+      "avg_logprob": -0.07207695190750417,
+      "no_speech_prob": 0.00285451952368021,
+      "words": [
+        {
+          "start": 5.06,
+          "end": 5.42,
+          "word": " Inside",
+          "probability": 0.9677006602287292
+        },
+        {
+          "start": 5.42,
+          "end": 5.74,
+          "word": " this",
+          "probability": 0.9928968548774719
+        },
+        {
+          "start": 5.74,
+          "end": 6.44,
+          "word": " photoelectric",
+          "probability": 0.9652679860591888
+        },
+        {
+          "start": 6.44,
+          "end": 7.0,
+          "word": " detector,",
+          "probability": 0.9987713694572449
+        },
+        {
+          "start": 7.48,
+          "end": 7.74,
+          "word": " smoke",
+          "probability": 0.9927318692207336
+        },
+        {
+          "start": 7.74,
+          "end": 8.26,
+          "word": " reveals",
+          "probability": 0.99846351146698
+        },
+        {
+          "start": 8.26,
+          "end": 8.72,
+          "word": " itself",
+          "probability": 0.998468816280365
+        },
+        {
+          "start": 8.72,
+          "end": 8.96,
+          "word": " by",
+          "probability": 0.9971000552177429
+        },
+        {
+          "start": 8.96,
+          "end": 9.56,
+          "word": " scattering",
+          "probability": 0.9974495768547058
+        },
+        {
+          "start": 9.56,
+          "end": 9.98,
+          "word": " a",
+          "probability": 0.998138427734375
+        },
+        {
+          "start": 9.98,
+          "end": 10.24,
+          "word": " hidden",
+          "probability": 0.9962669014930725
+        },
+        {
+          "start": 10.24,
+          "end": 10.54,
+          "word": " beam",
+          "probability": 0.9991430044174194
+        },
+        {
+          "start": 10.54,
+          "end": 10.78,
+          "word": " of",
+          "probability": 0.9994674324989319
+        },
+        {
+          "start": 10.78,
+          "end": 11.06,
+          "word": " light.",
+          "probability": 0.998921275138855
+        }
+      ]
+    },
+    {
+      "start": 11.94,
+      "end": 21.24,
+      "text": "In clear air, an LED sends light across a dark chamber. The light sensor sits off to one side, so the straight beam normally misses it.",
+      "avg_logprob": -0.07207695190750417,
+      "no_speech_prob": 0.00285451952368021,
+      "words": [
+        {
+          "start": 11.94,
+          "end": 12.1,
+          "word": " In",
+          "probability": 0.9875634908676147
+        },
+        {
+          "start": 12.1,
+          "end": 12.44,
+          "word": " clear",
+          "probability": 0.982662558555603
+        },
+        {
+          "start": 12.44,
+          "end": 12.8,
+          "word": " air,",
+          "probability": 0.9947254061698914
+        },
+        {
+          "start": 13.16,
+          "end": 13.32,
+          "word": " an",
+          "probability": 0.9804878830909729
+        },
+        {
+          "start": 13.32,
+          "end": 13.7,
+          "word": " LED",
+          "probability": 0.9902423024177551
+        },
+        {
+          "start": 13.7,
+          "end": 14.16,
+          "word": " sends",
+          "probability": 0.9969813227653503
+        },
+        {
+          "start": 14.16,
+          "end": 14.48,
+          "word": " light",
+          "probability": 0.9918882250785828
+        },
+        {
+          "start": 14.48,
+          "end": 14.82,
+          "word": " across",
+          "probability": 0.9992306232452393
+        },
+        {
+          "start": 14.82,
+          "end": 15.08,
+          "word": " a",
+          "probability": 0.9968384504318237
+        },
+        {
+          "start": 15.08,
+          "end": 15.36,
+          "word": " dark",
+          "probability": 0.9984652996063232
+        },
+        {
+          "start": 15.36,
+          "end": 15.82,
+          "word": " chamber.",
+          "probability": 0.9988559484481812
+        },
+        {
+          "start": 16.7,
+          "end": 16.84,
+          "word": " The",
+          "probability": 0.994126558303833
+        },
+        {
+          "start": 16.84,
+          "end": 17.06,
+          "word": " light",
+          "probability": 0.9902998208999634
+        },
+        {
+          "start": 17.06,
+          "end": 17.38,
+          "word": " sensor",
+          "probability": 0.9971613883972168
+        },
+        {
+          "start": 17.38,
+          "end": 17.7,
+          "word": " sits",
+          "probability": 0.9949592351913452
+        },
+        {
+          "start": 17.7,
+          "end": 17.94,
+          "word": " off",
+          "probability": 0.9972436428070068
+        },
+        {
+          "start": 17.94,
+          "end": 18.12,
+          "word": " to",
+          "probability": 0.9965733289718628
+        },
+        {
+          "start": 18.12,
+          "end": 18.32,
+          "word": " one",
+          "probability": 0.9987964630126953
+        },
+        {
+          "start": 18.32,
+          "end": 18.76,
+          "word": " side,",
+          "probability": 0.9994662404060364
+        },
+        {
+          "start": 18.92,
+          "end": 19.16,
+          "word": " so",
+          "probability": 0.9959677457809448
+        },
+        {
+          "start": 19.16,
+          "end": 19.36,
+          "word": " the",
+          "probability": 0.996160626411438
+        },
+        {
+          "start": 19.36,
+          "end": 19.62,
+          "word": " straight",
+          "probability": 0.992572546005249
+        },
+        {
+          "start": 19.62,
+          "end": 19.9,
+          "word": " beam",
+          "probability": 0.9970109462738037
+        },
+        {
+          "start": 19.9,
+          "end": 20.44,
+          "word": " normally",
+          "probability": 0.9975820779800415
+        },
+        {
+          "start": 20.44,
+          "end": 20.78,
+          "word": " misses",
+          "probability": 0.9906813502311707
+        },
+        {
+          "start": 20.78,
+          "end": 21.24,
+          "word": " it.",
+          "probability": 0.9990763664245605
+        }
+      ]
+    },
+    {
+      "start": 21.94,
+      "end": 26.48,
+      "text": "When smoke enters, tiny particles scatter some of that light toward the sensor.",
+      "avg_logprob": -0.07207695190750417,
+      "no_speech_prob": 0.00285451952368021,
+      "words": [
+        {
+          "start": 21.94,
+          "end": 22.1,
+          "word": " When",
+          "probability": 0.9958170056343079
+        },
+        {
+          "start": 22.1,
+          "end": 22.46,
+          "word": " smoke",
+          "probability": 0.9924864768981934
+        },
+        {
+          "start": 22.46,
+          "end": 22.9,
+          "word": " enters,",
+          "probability": 0.9996873140335083
+        },
+        {
+          "start": 23.38,
+          "end": 23.62,
+          "word": " tiny",
+          "probability": 0.9988694787025452
+        },
+        {
+          "start": 23.62,
+          "end": 24.18,
+          "word": " particles",
+          "probability": 0.9990978240966797
+        },
+        {
+          "start": 24.18,
+          "end": 24.68,
+          "word": " scatter",
+          "probability": 0.997738242149353
+        },
+        {
+          "start": 24.68,
+          "end": 24.98,
+          "word": " some",
+          "probability": 0.9989867806434631
+        },
+        {
+          "start": 24.98,
+          "end": 25.12,
+          "word": " of",
+          "probability": 0.9972422122955322
+        },
+        {
+          "start": 25.12,
+          "end": 25.3,
+          "word": " that",
+          "probability": 0.982391893863678
+        },
+        {
+          "start": 25.3,
+          "end": 25.56,
+          "word": " light",
+          "probability": 0.998782217502594
+        },
+        {
+          "start": 25.56,
+          "end": 25.96,
+          "word": " toward",
+          "probability": 0.9792918562889099
+        },
+        {
+          "start": 25.96,
+          "end": 26.18,
+          "word": " the",
+          "probability": 0.998769223690033
+        },
+        {
+          "start": 26.18,
+          "end": 26.48,
+          "word": " sensor.",
+          "probability": 0.9989418387413025
+        }
+      ]
+    },
+    {
+      "start": 26.48,
+      "end": 31.16,
+      "text": "The sensor signal rises and the electronics trigger the loud alarm.",
+      "avg_logprob": -0.1198151049992213,
+      "no_speech_prob": 0.0024002071004360914,
+      "words": [
+        {
+          "start": 26.48,
+          "end": 27.4,
+          "word": " The",
+          "probability": 0.5441365242004395
+        },
+        {
+          "start": 27.4,
+          "end": 27.74,
+          "word": " sensor",
+          "probability": 0.993958592414856
+        },
+        {
+          "start": 27.74,
+          "end": 28.1,
+          "word": " signal",
+          "probability": 0.9128665328025818
+        },
+        {
+          "start": 28.1,
+          "end": 28.56,
+          "word": " rises",
+          "probability": 0.9993361830711365
+        },
+        {
+          "start": 28.56,
+          "end": 29.06,
+          "word": " and",
+          "probability": 0.557703971862793
+        },
+        {
+          "start": 29.06,
+          "end": 29.18,
+          "word": " the",
+          "probability": 0.9861764311790466
+        },
+        {
+          "start": 29.18,
+          "end": 29.72,
+          "word": " electronics",
+          "probability": 0.996692419052124
+        },
+        {
+          "start": 29.72,
+          "end": 30.16,
+          "word": " trigger",
+          "probability": 0.9848411679267883
+        },
+        {
+          "start": 30.16,
+          "end": 30.38,
+          "word": " the",
+          "probability": 0.9955297112464905
+        },
+        {
+          "start": 30.38,
+          "end": 30.7,
+          "word": " loud",
+          "probability": 0.9933972358703613
+        },
+        {
+          "start": 30.7,
+          "end": 31.16,
+          "word": " alarm.",
+          "probability": 0.9980455636978149
+        }
+      ]
+    },
+    {
+      "start": 32.06,
+      "end": 36.5,
+      "text": "It is especially useful for slow, smoldering fires that produce visible smoke.",
+      "avg_logprob": -0.1198151049992213,
+      "no_speech_prob": 0.0024002071004360914,
+      "words": [
+        {
+          "start": 32.06,
+          "end": 32.12,
+          "word": " It",
+          "probability": 0.9922717809677124
+        },
+        {
+          "start": 32.12,
+          "end": 32.28,
+          "word": " is",
+          "probability": 0.9949437975883484
+        },
+        {
+          "start": 32.28,
+          "end": 32.7,
+          "word": " especially",
+          "probability": 0.9961637258529663
+        },
+        {
+          "start": 32.7,
+          "end": 33.1,
+          "word": " useful",
+          "probability": 0.9989145994186401
+        },
+        {
+          "start": 33.1,
+          "end": 33.42,
+          "word": " for",
+          "probability": 0.9988418221473694
+        },
+        {
+          "start": 33.42,
+          "end": 33.86,
+          "word": " slow,",
+          "probability": 0.9919379353523254
+        },
+        {
+          "start": 34.1,
+          "end": 34.62,
+          "word": " smoldering",
+          "probability": 0.9261451562245687
+        },
+        {
+          "start": 34.62,
+          "end": 35.06,
+          "word": " fires",
+          "probability": 0.9922115802764893
+        },
+        {
+          "start": 35.06,
+          "end": 35.28,
+          "word": " that",
+          "probability": 0.9880229234695435
+        },
+        {
+          "start": 35.28,
+          "end": 35.56,
+          "word": " produce",
+          "probability": 0.9920341372489929
+        },
+        {
+          "start": 35.56,
+          "end": 36.06,
+          "word": " visible",
+          "probability": 0.9968425035476685
+        },
+        {
+          "start": 36.06,
+          "end": 36.5,
+          "word": " smoke.",
+          "probability": 0.9992582201957703
+        }
+      ]
+    },
+    {
+      "start": 37.1,
+      "end": 42.4,
+      "text": "So the detector does not smell smoke, it notices smoke scattering light into its sensor.",
+      "avg_logprob": -0.1198151049992213,
+      "no_speech_prob": 0.0024002071004360914,
+      "words": [
+        {
+          "start": 37.1,
+          "end": 37.34,
+          "word": " So",
+          "probability": 0.9900103211402893
+        },
+        {
+          "start": 37.34,
+          "end": 37.54,
+          "word": " the",
+          "probability": 0.709721565246582
+        },
+        {
+          "start": 37.54,
+          "end": 37.88,
+          "word": " detector",
+          "probability": 0.9943385720252991
+        },
+        {
+          "start": 37.88,
+          "end": 38.08,
+          "word": " does",
+          "probability": 0.9893536567687988
+        },
+        {
+          "start": 38.08,
+          "end": 38.28,
+          "word": " not",
+          "probability": 0.9992105960845947
+        },
+        {
+          "start": 38.28,
+          "end": 38.74,
+          "word": " smell",
+          "probability": 0.9884417057037354
+        },
+        {
+          "start": 38.74,
+          "end": 39.2,
+          "word": " smoke,",
+          "probability": 0.9930718541145325
+        },
+        {
+          "start": 39.52,
+          "end": 39.66,
+          "word": " it",
+          "probability": 0.9926576018333435
+        },
+        {
+          "start": 39.66,
+          "end": 40.16,
+          "word": " notices",
+          "probability": 0.9956088662147522
+        },
+        {
+          "start": 40.16,
+          "end": 40.56,
+          "word": " smoke",
+          "probability": 0.9772223830223083
+        },
+        {
+          "start": 40.56,
+          "end": 41.18,
+          "word": " scattering",
+          "probability": 0.9894049763679504
+        },
+        {
+          "start": 41.18,
+          "end": 41.58,
+          "word": " light",
+          "probability": 0.9942623972892761
+        },
+        {
+          "start": 41.58,
+          "end": 41.88,
+          "word": " into",
+          "probability": 0.9935702085494995
+        },
+        {
+          "start": 41.88,
+          "end": 42.04,
+          "word": " its",
+          "probability": 0.9603609442710876
+        },
+        {
+          "start": 42.04,
+          "end": 42.4,
+          "word": " sensor.",
+          "probability": 0.9950594902038574
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "master": "RESULT/how-an-induction-cooktop-heats-a-pan.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short41InductionCooktop.mp4",
+    "out": "RESULT/how-an-induction-cooktop-heats-a-pan.mp4",
+    "end_s": 39.0
+  },
+  "note": "4 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.32,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Reveal the hidden energy transfer",
+      "sync_source": "hook-field"
+    },
+    {
+      "at_s": 10.04,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -25,
+      "cue": "Expose the induction coil",
+      "sync_source": "coil-current"
+    },
+    {
+      "at_s": 15.04,
+      "sfx_id": "pop-reveal",
+      "gain_db": -24,
+      "cue": "Start the pan currents",
+      "sync_source": "pan-currents"
+    },
+    {
+      "at_s": 33.98,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -22,
+      "cue": "Resolve the heating chain",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

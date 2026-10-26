@@ -1,0 +1,664 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "96e494b2ce34270df85b5fc89facb6dae9debc366e25021e8690dcd1560dbbcd",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This pressure cooker cooks faster by making water boil at a higher temperature. Its sealed lid traps steam, so pressure builds above the food. Heating turns some water into steam inside the limited space. The regulator holds the pressure at its designed cooking level. At that higher pressure, water can stay liquid beyond its normal boiling point. The hotter water and steam transfer energy into food more quickly. A locking lid and safety valve help control excess pressure and the cooker must depressurize before opening. So trapped steam raises the boiling temperature and the hotter cooking medium speeds up the meal.",
+  "mean_word_probability": 0.979070624404221,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.52,
+      "text": "This pressure cooker cooks faster by making water boil at a higher temperature. Its sealed lid traps steam, so pressure builds above the food. Heating turns some water into steam inside the limited space. The regulator holds the pressure at its designed cooking level. At that higher pressure, water can stay liquid beyond its normal boiling point. The hotter water and steam transfer energy into food more quickly.",
+      "avg_logprob": -0.03352189460132696,
+      "no_speech_prob": 0.016530577093362808,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " This",
+          "probability": 0.7914385795593262
+        },
+        {
+          "start": 0.5,
+          "end": 0.96,
+          "word": " pressure",
+          "probability": 0.9605464935302734
+        },
+        {
+          "start": 0.96,
+          "end": 1.22,
+          "word": " cooker",
+          "probability": 0.978477954864502
+        },
+        {
+          "start": 1.22,
+          "end": 1.54,
+          "word": " cooks",
+          "probability": 0.9896330833435059
+        },
+        {
+          "start": 1.54,
+          "end": 2.14,
+          "word": " faster",
+          "probability": 0.9971925616264343
+        },
+        {
+          "start": 2.14,
+          "end": 2.54,
+          "word": " by",
+          "probability": 0.9544615745544434
+        },
+        {
+          "start": 2.54,
+          "end": 2.9,
+          "word": " making",
+          "probability": 0.9986273050308228
+        },
+        {
+          "start": 2.9,
+          "end": 3.3,
+          "word": " water",
+          "probability": 0.9909582138061523
+        },
+        {
+          "start": 3.3,
+          "end": 3.66,
+          "word": " boil",
+          "probability": 0.9942119717597961
+        },
+        {
+          "start": 3.66,
+          "end": 3.88,
+          "word": " at",
+          "probability": 0.9969634413719177
+        },
+        {
+          "start": 3.88,
+          "end": 4.08,
+          "word": " a",
+          "probability": 0.9713897109031677
+        },
+        {
+          "start": 4.08,
+          "end": 4.32,
+          "word": " higher",
+          "probability": 0.9952216744422913
+        },
+        {
+          "start": 4.32,
+          "end": 4.86,
+          "word": " temperature.",
+          "probability": 0.9942286014556885
+        },
+        {
+          "start": 5.54,
+          "end": 5.66,
+          "word": " Its",
+          "probability": 0.9264124035835266
+        },
+        {
+          "start": 5.66,
+          "end": 6.1,
+          "word": " sealed",
+          "probability": 0.9914958477020264
+        },
+        {
+          "start": 6.1,
+          "end": 6.44,
+          "word": " lid",
+          "probability": 0.9917141795158386
+        },
+        {
+          "start": 6.44,
+          "end": 6.82,
+          "word": " traps",
+          "probability": 0.9969403743743896
+        },
+        {
+          "start": 6.82,
+          "end": 7.22,
+          "word": " steam,",
+          "probability": 0.9951672554016113
+        },
+        {
+          "start": 7.48,
+          "end": 7.68,
+          "word": " so",
+          "probability": 0.9932250380516052
+        },
+        {
+          "start": 7.68,
+          "end": 8.02,
+          "word": " pressure",
+          "probability": 0.9881503582000732
+        },
+        {
+          "start": 8.02,
+          "end": 8.38,
+          "word": " builds",
+          "probability": 0.9940797090530396
+        },
+        {
+          "start": 8.38,
+          "end": 8.72,
+          "word": " above",
+          "probability": 0.9939794540405273
+        },
+        {
+          "start": 8.72,
+          "end": 8.94,
+          "word": " the",
+          "probability": 0.9931535720825195
+        },
+        {
+          "start": 8.94,
+          "end": 9.18,
+          "word": " food.",
+          "probability": 0.994890570640564
+        },
+        {
+          "start": 9.74,
+          "end": 10.14,
+          "word": " Heating",
+          "probability": 0.9833646714687347
+        },
+        {
+          "start": 10.14,
+          "end": 10.52,
+          "word": " turns",
+          "probability": 0.9958791732788086
+        },
+        {
+          "start": 10.52,
+          "end": 10.88,
+          "word": " some",
+          "probability": 0.9974493384361267
+        },
+        {
+          "start": 10.88,
+          "end": 11.12,
+          "word": " water",
+          "probability": 0.998052716255188
+        },
+        {
+          "start": 11.12,
+          "end": 11.42,
+          "word": " into",
+          "probability": 0.9841815233230591
+        },
+        {
+          "start": 11.42,
+          "end": 11.8,
+          "word": " steam",
+          "probability": 0.9969788789749146
+        },
+        {
+          "start": 11.8,
+          "end": 12.36,
+          "word": " inside",
+          "probability": 0.9862116575241089
+        },
+        {
+          "start": 12.36,
+          "end": 12.6,
+          "word": " the",
+          "probability": 0.9799990057945251
+        },
+        {
+          "start": 12.6,
+          "end": 12.86,
+          "word": " limited",
+          "probability": 0.992131769657135
+        },
+        {
+          "start": 12.86,
+          "end": 13.3,
+          "word": " space.",
+          "probability": 0.9965770840644836
+        },
+        {
+          "start": 13.86,
+          "end": 14.08,
+          "word": " The",
+          "probability": 0.9888757467269897
+        },
+        {
+          "start": 14.08,
+          "end": 14.48,
+          "word": " regulator",
+          "probability": 0.9394055604934692
+        },
+        {
+          "start": 14.48,
+          "end": 15.02,
+          "word": " holds",
+          "probability": 0.9984239339828491
+        },
+        {
+          "start": 15.02,
+          "end": 15.26,
+          "word": " the",
+          "probability": 0.9820271134376526
+        },
+        {
+          "start": 15.26,
+          "end": 15.56,
+          "word": " pressure",
+          "probability": 0.9976745247840881
+        },
+        {
+          "start": 15.56,
+          "end": 15.84,
+          "word": " at",
+          "probability": 0.9967061877250671
+        },
+        {
+          "start": 15.84,
+          "end": 16.02,
+          "word": " its",
+          "probability": 0.9854180812835693
+        },
+        {
+          "start": 16.02,
+          "end": 16.52,
+          "word": " designed",
+          "probability": 0.9473028182983398
+        },
+        {
+          "start": 16.52,
+          "end": 16.86,
+          "word": " cooking",
+          "probability": 0.9977203011512756
+        },
+        {
+          "start": 16.86,
+          "end": 17.2,
+          "word": " level.",
+          "probability": 0.996926486492157
+        },
+        {
+          "start": 17.82,
+          "end": 18.02,
+          "word": " At",
+          "probability": 0.9935097098350525
+        },
+        {
+          "start": 18.02,
+          "end": 18.2,
+          "word": " that",
+          "probability": 0.9832494258880615
+        },
+        {
+          "start": 18.2,
+          "end": 18.56,
+          "word": " higher",
+          "probability": 0.9858448505401611
+        },
+        {
+          "start": 18.56,
+          "end": 18.92,
+          "word": " pressure,",
+          "probability": 0.9973590970039368
+        },
+        {
+          "start": 19.3,
+          "end": 19.5,
+          "word": " water",
+          "probability": 0.9891373515129089
+        },
+        {
+          "start": 19.5,
+          "end": 19.74,
+          "word": " can",
+          "probability": 0.998069703578949
+        },
+        {
+          "start": 19.74,
+          "end": 20.04,
+          "word": " stay",
+          "probability": 0.9955739974975586
+        },
+        {
+          "start": 20.04,
+          "end": 20.42,
+          "word": " liquid",
+          "probability": 0.9959511756896973
+        },
+        {
+          "start": 20.42,
+          "end": 20.84,
+          "word": " beyond",
+          "probability": 0.9968330264091492
+        },
+        {
+          "start": 20.84,
+          "end": 21.16,
+          "word": " its",
+          "probability": 0.9859445095062256
+        },
+        {
+          "start": 21.16,
+          "end": 21.46,
+          "word": " normal",
+          "probability": 0.9991611242294312
+        },
+        {
+          "start": 21.46,
+          "end": 21.76,
+          "word": " boiling",
+          "probability": 0.9990590214729309
+        },
+        {
+          "start": 21.76,
+          "end": 22.18,
+          "word": " point.",
+          "probability": 0.9971956014633179
+        },
+        {
+          "start": 22.66,
+          "end": 22.9,
+          "word": " The",
+          "probability": 0.9935410022735596
+        },
+        {
+          "start": 22.9,
+          "end": 23.16,
+          "word": " hotter",
+          "probability": 0.9939660429954529
+        },
+        {
+          "start": 23.16,
+          "end": 23.58,
+          "word": " water",
+          "probability": 0.9969672560691833
+        },
+        {
+          "start": 23.58,
+          "end": 23.86,
+          "word": " and",
+          "probability": 0.9865279793739319
+        },
+        {
+          "start": 23.86,
+          "end": 24.18,
+          "word": " steam",
+          "probability": 0.99724942445755
+        },
+        {
+          "start": 24.18,
+          "end": 24.76,
+          "word": " transfer",
+          "probability": 0.9837020635604858
+        },
+        {
+          "start": 24.76,
+          "end": 25.22,
+          "word": " energy",
+          "probability": 0.9953685998916626
+        },
+        {
+          "start": 25.22,
+          "end": 25.52,
+          "word": " into",
+          "probability": 0.992489218711853
+        },
+        {
+          "start": 25.52,
+          "end": 25.8,
+          "word": " food",
+          "probability": 0.9678358435630798
+        },
+        {
+          "start": 25.8,
+          "end": 26.1,
+          "word": " more",
+          "probability": 0.9944467544555664
+        },
+        {
+          "start": 26.1,
+          "end": 26.52,
+          "word": " quickly.",
+          "probability": 0.9991481304168701
+        }
+      ]
+    },
+    {
+      "start": 26.52,
+      "end": 32.6,
+      "text": "A locking lid and safety valve help control excess pressure and the cooker must depressurize",
+      "avg_logprob": -0.16926524593778278,
+      "no_speech_prob": 0.006477483082562685,
+      "words": [
+        {
+          "start": 26.52,
+          "end": 27.24,
+          "word": " A",
+          "probability": 0.9357895851135254
+        },
+        {
+          "start": 27.24,
+          "end": 27.68,
+          "word": " locking",
+          "probability": 0.9974537491798401
+        },
+        {
+          "start": 27.68,
+          "end": 27.98,
+          "word": " lid",
+          "probability": 0.978063702583313
+        },
+        {
+          "start": 27.98,
+          "end": 28.24,
+          "word": " and",
+          "probability": 0.9889128804206848
+        },
+        {
+          "start": 28.24,
+          "end": 28.58,
+          "word": " safety",
+          "probability": 0.9431830644607544
+        },
+        {
+          "start": 28.58,
+          "end": 28.92,
+          "word": " valve",
+          "probability": 0.9897902607917786
+        },
+        {
+          "start": 28.92,
+          "end": 29.26,
+          "word": " help",
+          "probability": 0.9811367392539978
+        },
+        {
+          "start": 29.26,
+          "end": 29.72,
+          "word": " control",
+          "probability": 0.9924352765083313
+        },
+        {
+          "start": 29.72,
+          "end": 30.08,
+          "word": " excess",
+          "probability": 0.95787113904953
+        },
+        {
+          "start": 30.08,
+          "end": 30.48,
+          "word": " pressure",
+          "probability": 0.9982057809829712
+        },
+        {
+          "start": 30.48,
+          "end": 31.04,
+          "word": " and",
+          "probability": 0.5839287042617798
+        },
+        {
+          "start": 31.04,
+          "end": 31.2,
+          "word": " the",
+          "probability": 0.9802960753440857
+        },
+        {
+          "start": 31.2,
+          "end": 31.42,
+          "word": " cooker",
+          "probability": 0.985824704170227
+        },
+        {
+          "start": 31.42,
+          "end": 31.82,
+          "word": " must",
+          "probability": 0.9975232481956482
+        },
+        {
+          "start": 31.82,
+          "end": 32.6,
+          "word": " depressurize",
+          "probability": 0.9004067977269491
+        }
+      ]
+    },
+    {
+      "start": 32.6,
+      "end": 33.3,
+      "text": "before opening.",
+      "avg_logprob": -0.16926524593778278,
+      "no_speech_prob": 0.006477483082562685,
+      "words": [
+        {
+          "start": 32.6,
+          "end": 32.9,
+          "word": " before",
+          "probability": 0.9930625557899475
+        },
+        {
+          "start": 32.9,
+          "end": 33.3,
+          "word": " opening.",
+          "probability": 0.9988206028938293
+        }
+      ]
+    },
+    {
+      "start": 33.94,
+      "end": 38.86,
+      "text": "So trapped steam raises the boiling temperature and the hotter cooking medium speeds up the",
+      "avg_logprob": -0.16926524593778278,
+      "no_speech_prob": 0.006477483082562685,
+      "words": [
+        {
+          "start": 33.94,
+          "end": 34.0,
+          "word": " So",
+          "probability": 0.965561032295227
+        },
+        {
+          "start": 34.0,
+          "end": 34.46,
+          "word": " trapped",
+          "probability": 0.8326489925384521
+        },
+        {
+          "start": 34.46,
+          "end": 34.84,
+          "word": " steam",
+          "probability": 0.9984086155891418
+        },
+        {
+          "start": 34.84,
+          "end": 35.32,
+          "word": " raises",
+          "probability": 0.9891083240509033
+        },
+        {
+          "start": 35.32,
+          "end": 35.56,
+          "word": " the",
+          "probability": 0.9899197816848755
+        },
+        {
+          "start": 35.56,
+          "end": 35.82,
+          "word": " boiling",
+          "probability": 0.9970647692680359
+        },
+        {
+          "start": 35.82,
+          "end": 36.3,
+          "word": " temperature",
+          "probability": 0.9911032915115356
+        },
+        {
+          "start": 36.3,
+          "end": 36.82,
+          "word": " and",
+          "probability": 0.9481988549232483
+        },
+        {
+          "start": 36.82,
+          "end": 36.98,
+          "word": " the",
+          "probability": 0.9792693257331848
+        },
+        {
+          "start": 36.98,
+          "end": 37.22,
+          "word": " hotter",
+          "probability": 0.9929592609405518
+        },
+        {
+          "start": 37.22,
+          "end": 37.62,
+          "word": " cooking",
+          "probability": 0.9893746376037598
+        },
+        {
+          "start": 37.62,
+          "end": 38.04,
+          "word": " medium",
+          "probability": 0.9989653825759888
+        },
+        {
+          "start": 38.04,
+          "end": 38.5,
+          "word": " speeds",
+          "probability": 0.9940558671951294
+        },
+        {
+          "start": 38.5,
+          "end": 38.72,
+          "word": " up",
+          "probability": 0.9939515590667725
+        },
+        {
+          "start": 38.72,
+          "end": 38.86,
+          "word": " the",
+          "probability": 0.9954679012298584
+        }
+      ]
+    },
+    {
+      "start": 38.86,
+      "end": 39.02,
+      "text": "meal.",
+      "avg_logprob": -0.16926524593778278,
+      "no_speech_prob": 0.006477483082562685,
+      "words": [
+        {
+          "start": 38.86,
+          "end": 39.02,
+          "word": " meal.",
+          "probability": 0.9953731894493103
+        }
+      ]
+    }
+  ]
+}

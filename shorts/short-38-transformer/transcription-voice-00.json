@@ -1,0 +1,734 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "ae7f8ddc714939f6c6f42bff0934ddcc3018914d123dadc27d3544cf20ad776f",
+  "language": "en",
+  "language_probability": 1,
+  "text": "A transformer changes AC voltage for the power grid and your home. It transfers electrical energy between 2 coils without a direct wire connection. Alternating current enters the primary coil so its magnetic field continually changes. The iron core guides this changing magnetic field around a closed loop. The field then passes through the secondary coil on the other side. Because the field keeps changing, it induces an alternating voltage in this second coil. The number of wire turns controls the result. More secondary turns increase voltage, fewer secondary turns decrease it. So the transformer uses magnetic induction to change voltage while transferring power between its coils.",
+  "mean_word_probability": 0.9638067645447277,
+  "low_confidence_words": [
+    {
+      "start": 7.78,
+      "end": 8.14,
+      "word": " 2",
+      "probability": 0.3519720137119293
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.98,
+      "text": "A transformer changes AC voltage for the power grid and your home. It transfers electrical",
+      "avg_logprob": -0.06814854609018023,
+      "no_speech_prob": 0.056914057582616806,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.02,
+          "word": " A",
+          "probability": 0.6573211550712585
+        },
+        {
+          "start": 1.02,
+          "end": 1.64,
+          "word": " transformer",
+          "probability": 0.9937719702720642
+        },
+        {
+          "start": 1.64,
+          "end": 2.32,
+          "word": " changes",
+          "probability": 0.9925462603569031
+        },
+        {
+          "start": 2.32,
+          "end": 2.82,
+          "word": " AC",
+          "probability": 0.8390429019927979
+        },
+        {
+          "start": 2.82,
+          "end": 3.28,
+          "word": " voltage",
+          "probability": 0.9600540995597839
+        },
+        {
+          "start": 3.28,
+          "end": 3.62,
+          "word": " for",
+          "probability": 0.9895374774932861
+        },
+        {
+          "start": 3.62,
+          "end": 3.78,
+          "word": " the",
+          "probability": 0.9854486584663391
+        },
+        {
+          "start": 3.78,
+          "end": 4.04,
+          "word": " power",
+          "probability": 0.9915385842323303
+        },
+        {
+          "start": 4.04,
+          "end": 4.34,
+          "word": " grid",
+          "probability": 0.9933011531829834
+        },
+        {
+          "start": 4.34,
+          "end": 4.68,
+          "word": " and",
+          "probability": 0.9788730144500732
+        },
+        {
+          "start": 4.68,
+          "end": 4.88,
+          "word": " your",
+          "probability": 0.9848729372024536
+        },
+        {
+          "start": 4.88,
+          "end": 5.16,
+          "word": " home.",
+          "probability": 0.995699405670166
+        },
+        {
+          "start": 5.74,
+          "end": 5.8,
+          "word": " It",
+          "probability": 0.9740732908248901
+        },
+        {
+          "start": 5.8,
+          "end": 6.34,
+          "word": " transfers",
+          "probability": 0.9928961396217346
+        },
+        {
+          "start": 6.34,
+          "end": 6.98,
+          "word": " electrical",
+          "probability": 0.995881199836731
+        }
+      ]
+    },
+    {
+      "start": 6.98,
+      "end": 12.86,
+      "text": "energy between 2 coils without a direct wire connection. Alternating current enters the",
+      "avg_logprob": -0.06814854609018023,
+      "no_speech_prob": 0.056914057582616806,
+      "words": [
+        {
+          "start": 6.98,
+          "end": 7.44,
+          "word": " energy",
+          "probability": 0.998454213142395
+        },
+        {
+          "start": 7.44,
+          "end": 7.78,
+          "word": " between",
+          "probability": 0.9966213703155518
+        },
+        {
+          "start": 7.78,
+          "end": 8.14,
+          "word": " 2",
+          "probability": 0.3519720137119293
+        },
+        {
+          "start": 8.14,
+          "end": 8.56,
+          "word": " coils",
+          "probability": 0.9955081939697266
+        },
+        {
+          "start": 8.56,
+          "end": 9.02,
+          "word": " without",
+          "probability": 0.9233694076538086
+        },
+        {
+          "start": 9.02,
+          "end": 9.34,
+          "word": " a",
+          "probability": 0.9806384444236755
+        },
+        {
+          "start": 9.34,
+          "end": 9.64,
+          "word": " direct",
+          "probability": 0.9969369173049927
+        },
+        {
+          "start": 9.64,
+          "end": 9.9,
+          "word": " wire",
+          "probability": 0.988344669342041
+        },
+        {
+          "start": 9.9,
+          "end": 10.44,
+          "word": " connection.",
+          "probability": 0.9965903759002686
+        },
+        {
+          "start": 11.18,
+          "end": 11.74,
+          "word": " Alternating",
+          "probability": 0.9712714850902557
+        },
+        {
+          "start": 11.74,
+          "end": 12.06,
+          "word": " current",
+          "probability": 0.9925113916397095
+        },
+        {
+          "start": 12.06,
+          "end": 12.52,
+          "word": " enters",
+          "probability": 0.9972078204154968
+        },
+        {
+          "start": 12.52,
+          "end": 12.86,
+          "word": " the",
+          "probability": 0.9901571273803711
+        }
+      ]
+    },
+    {
+      "start": 12.86,
+      "end": 18.94,
+      "text": "primary coil so its magnetic field continually changes. The iron core guides this changing",
+      "avg_logprob": -0.06814854609018023,
+      "no_speech_prob": 0.056914057582616806,
+      "words": [
+        {
+          "start": 12.86,
+          "end": 13.22,
+          "word": " primary",
+          "probability": 0.9965426325798035
+        },
+        {
+          "start": 13.22,
+          "end": 13.6,
+          "word": " coil",
+          "probability": 0.9965628981590271
+        },
+        {
+          "start": 13.6,
+          "end": 14.0,
+          "word": " so",
+          "probability": 0.6075981259346008
+        },
+        {
+          "start": 14.0,
+          "end": 14.18,
+          "word": " its",
+          "probability": 0.9236144423484802
+        },
+        {
+          "start": 14.18,
+          "end": 14.66,
+          "word": " magnetic",
+          "probability": 0.9982894062995911
+        },
+        {
+          "start": 14.66,
+          "end": 15.02,
+          "word": " field",
+          "probability": 0.9961090683937073
+        },
+        {
+          "start": 15.02,
+          "end": 15.72,
+          "word": " continually",
+          "probability": 0.9362929463386536
+        },
+        {
+          "start": 15.72,
+          "end": 16.26,
+          "word": " changes.",
+          "probability": 0.9980103373527527
+        },
+        {
+          "start": 16.92,
+          "end": 17.16,
+          "word": " The",
+          "probability": 0.9803394675254822
+        },
+        {
+          "start": 17.16,
+          "end": 17.46,
+          "word": " iron",
+          "probability": 0.933194637298584
+        },
+        {
+          "start": 17.46,
+          "end": 17.74,
+          "word": " core",
+          "probability": 0.9973080158233643
+        },
+        {
+          "start": 17.74,
+          "end": 18.26,
+          "word": " guides",
+          "probability": 0.9946216344833374
+        },
+        {
+          "start": 18.26,
+          "end": 18.52,
+          "word": " this",
+          "probability": 0.9774565100669861
+        },
+        {
+          "start": 18.52,
+          "end": 18.94,
+          "word": " changing",
+          "probability": 0.9825473427772522
+        }
+      ]
+    },
+    {
+      "start": 18.94,
+      "end": 24.02,
+      "text": "magnetic field around a closed loop. The field then passes through the secondary coil",
+      "avg_logprob": -0.06814854609018023,
+      "no_speech_prob": 0.056914057582616806,
+      "words": [
+        {
+          "start": 18.94,
+          "end": 19.42,
+          "word": " magnetic",
+          "probability": 0.9982483386993408
+        },
+        {
+          "start": 19.42,
+          "end": 19.82,
+          "word": " field",
+          "probability": 0.9987026453018188
+        },
+        {
+          "start": 19.82,
+          "end": 20.16,
+          "word": " around",
+          "probability": 0.9936228394508362
+        },
+        {
+          "start": 20.16,
+          "end": 20.46,
+          "word": " a",
+          "probability": 0.9893261194229126
+        },
+        {
+          "start": 20.46,
+          "end": 20.72,
+          "word": " closed",
+          "probability": 0.9983012080192566
+        },
+        {
+          "start": 20.72,
+          "end": 21.0,
+          "word": " loop.",
+          "probability": 0.993368923664093
+        },
+        {
+          "start": 21.66,
+          "end": 21.82,
+          "word": " The",
+          "probability": 0.957001268863678
+        },
+        {
+          "start": 21.82,
+          "end": 22.08,
+          "word": " field",
+          "probability": 0.997187077999115
+        },
+        {
+          "start": 22.08,
+          "end": 22.36,
+          "word": " then",
+          "probability": 0.9823030829429626
+        },
+        {
+          "start": 22.36,
+          "end": 22.74,
+          "word": " passes",
+          "probability": 0.9979907274246216
+        },
+        {
+          "start": 22.74,
+          "end": 23.04,
+          "word": " through",
+          "probability": 0.9924202561378479
+        },
+        {
+          "start": 23.04,
+          "end": 23.3,
+          "word": " the",
+          "probability": 0.9635221362113953
+        },
+        {
+          "start": 23.3,
+          "end": 23.68,
+          "word": " secondary",
+          "probability": 0.9946537017822266
+        },
+        {
+          "start": 23.68,
+          "end": 24.02,
+          "word": " coil",
+          "probability": 0.9962496161460876
+        }
+      ]
+    },
+    {
+      "start": 24.02,
+      "end": 28.92,
+      "text": "on the other side. Because the field keeps changing, it induces an alternating",
+      "avg_logprob": -0.06814854609018023,
+      "no_speech_prob": 0.056914057582616806,
+      "words": [
+        {
+          "start": 24.02,
+          "end": 24.3,
+          "word": " on",
+          "probability": 0.9883416295051575
+        },
+        {
+          "start": 24.3,
+          "end": 24.42,
+          "word": " the",
+          "probability": 0.9925591945648193
+        },
+        {
+          "start": 24.42,
+          "end": 24.62,
+          "word": " other",
+          "probability": 0.9980432987213135
+        },
+        {
+          "start": 24.62,
+          "end": 25.0,
+          "word": " side.",
+          "probability": 0.9978727102279663
+        },
+        {
+          "start": 25.5,
+          "end": 25.86,
+          "word": " Because",
+          "probability": 0.9879629015922546
+        },
+        {
+          "start": 25.86,
+          "end": 26.06,
+          "word": " the",
+          "probability": 0.9784521460533142
+        },
+        {
+          "start": 26.06,
+          "end": 26.32,
+          "word": " field",
+          "probability": 0.9940715432167053
+        },
+        {
+          "start": 26.32,
+          "end": 26.64,
+          "word": " keeps",
+          "probability": 0.9965535402297974
+        },
+        {
+          "start": 26.64,
+          "end": 27.16,
+          "word": " changing,",
+          "probability": 0.9958621263504028
+        },
+        {
+          "start": 27.44,
+          "end": 27.58,
+          "word": " it",
+          "probability": 0.9916332960128784
+        },
+        {
+          "start": 27.58,
+          "end": 28.1,
+          "word": " induces",
+          "probability": 0.9976517558097839
+        },
+        {
+          "start": 28.1,
+          "end": 28.4,
+          "word": " an",
+          "probability": 0.9892760515213013
+        },
+        {
+          "start": 28.4,
+          "end": 28.92,
+          "word": " alternating",
+          "probability": 0.997593343257904
+        }
+      ]
+    },
+    {
+      "start": 28.92,
+      "end": 34.84,
+      "text": "voltage in this second coil. The number of wire turns controls the result. More secondary",
+      "avg_logprob": -0.11784812659025193,
+      "no_speech_prob": 0.003828423796221614,
+      "words": [
+        {
+          "start": 28.92,
+          "end": 29.5,
+          "word": " voltage",
+          "probability": 0.985235333442688
+        },
+        {
+          "start": 29.5,
+          "end": 29.76,
+          "word": " in",
+          "probability": 0.9911990761756897
+        },
+        {
+          "start": 29.76,
+          "end": 29.9,
+          "word": " this",
+          "probability": 0.8473924398422241
+        },
+        {
+          "start": 29.9,
+          "end": 30.2,
+          "word": " second",
+          "probability": 0.9729357361793518
+        },
+        {
+          "start": 30.2,
+          "end": 30.44,
+          "word": " coil.",
+          "probability": 0.9868271350860596
+        },
+        {
+          "start": 31.08,
+          "end": 31.24,
+          "word": " The",
+          "probability": 0.9459299445152283
+        },
+        {
+          "start": 31.24,
+          "end": 31.52,
+          "word": " number",
+          "probability": 0.9859988689422607
+        },
+        {
+          "start": 31.52,
+          "end": 31.84,
+          "word": " of",
+          "probability": 0.9984209537506104
+        },
+        {
+          "start": 31.84,
+          "end": 32.04,
+          "word": " wire",
+          "probability": 0.9546639323234558
+        },
+        {
+          "start": 32.04,
+          "end": 32.44,
+          "word": " turns",
+          "probability": 0.9922905564308167
+        },
+        {
+          "start": 32.44,
+          "end": 32.98,
+          "word": " controls",
+          "probability": 0.9591254591941833
+        },
+        {
+          "start": 32.98,
+          "end": 33.24,
+          "word": " the",
+          "probability": 0.9858474135398865
+        },
+        {
+          "start": 33.24,
+          "end": 33.58,
+          "word": " result.",
+          "probability": 0.981187641620636
+        },
+        {
+          "start": 34.1,
+          "end": 34.38,
+          "word": " More",
+          "probability": 0.9847316741943359
+        },
+        {
+          "start": 34.38,
+          "end": 34.84,
+          "word": " secondary",
+          "probability": 0.99607253074646
+        }
+      ]
+    },
+    {
+      "start": 34.84,
+      "end": 40.74,
+      "text": "turns increase voltage, fewer secondary turns decrease it. So the transformer uses magnetic",
+      "avg_logprob": -0.11784812659025193,
+      "no_speech_prob": 0.003828423796221614,
+      "words": [
+        {
+          "start": 34.84,
+          "end": 35.2,
+          "word": " turns",
+          "probability": 0.9913582801818848
+        },
+        {
+          "start": 35.2,
+          "end": 35.68,
+          "word": " increase",
+          "probability": 0.9884828925132751
+        },
+        {
+          "start": 35.68,
+          "end": 36.22,
+          "word": " voltage,",
+          "probability": 0.9232343435287476
+        },
+        {
+          "start": 36.62,
+          "end": 36.84,
+          "word": " fewer",
+          "probability": 0.8907560706138611
+        },
+        {
+          "start": 36.84,
+          "end": 37.3,
+          "word": " secondary",
+          "probability": 0.9917997121810913
+        },
+        {
+          "start": 37.3,
+          "end": 37.68,
+          "word": " turns",
+          "probability": 0.9895902276039124
+        },
+        {
+          "start": 37.68,
+          "end": 38.08,
+          "word": " decrease",
+          "probability": 0.985355794429779
+        },
+        {
+          "start": 38.08,
+          "end": 38.4,
+          "word": " it.",
+          "probability": 0.984062671661377
+        },
+        {
+          "start": 38.74,
+          "end": 39.04,
+          "word": " So",
+          "probability": 0.9884793162345886
+        },
+        {
+          "start": 39.04,
+          "end": 39.24,
+          "word": " the",
+          "probability": 0.5180988311767578
+        },
+        {
+          "start": 39.24,
+          "end": 39.68,
+          "word": " transformer",
+          "probability": 0.9892374277114868
+        },
+        {
+          "start": 39.68,
+          "end": 40.2,
+          "word": " uses",
+          "probability": 0.9931465983390808
+        },
+        {
+          "start": 40.2,
+          "end": 40.74,
+          "word": " magnetic",
+          "probability": 0.961201012134552
+        }
+      ]
+    },
+    {
+      "start": 40.74,
+      "end": 44.76,
+      "text": "induction to change voltage while transferring power between its coils.",
+      "avg_logprob": -0.11784812659025193,
+      "no_speech_prob": 0.003828423796221614,
+      "words": [
+        {
+          "start": 40.74,
+          "end": 41.42,
+          "word": " induction",
+          "probability": 0.998701810836792
+        },
+        {
+          "start": 41.42,
+          "end": 41.7,
+          "word": " to",
+          "probability": 0.9978266358375549
+        },
+        {
+          "start": 41.7,
+          "end": 41.98,
+          "word": " change",
+          "probability": 0.9988371729850769
+        },
+        {
+          "start": 41.98,
+          "end": 42.46,
+          "word": " voltage",
+          "probability": 0.9583581686019897
+        },
+        {
+          "start": 42.46,
+          "end": 42.82,
+          "word": " while",
+          "probability": 0.8951646685600281
+        },
+        {
+          "start": 42.82,
+          "end": 43.36,
+          "word": " transferring",
+          "probability": 0.9926635026931763
+        },
+        {
+          "start": 43.36,
+          "end": 43.76,
+          "word": " power",
+          "probability": 0.9882246255874634
+        },
+        {
+          "start": 43.76,
+          "end": 44.2,
+          "word": " between",
+          "probability": 0.9956470131874084
+        },
+        {
+          "start": 44.2,
+          "end": 44.38,
+          "word": " its",
+          "probability": 0.96675705909729
+        },
+        {
+          "start": 44.38,
+          "end": 44.76,
+          "word": " coils.",
+          "probability": 0.9907806515693665
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "short-33-accelerometer-steps",
+  "title": "How an Accelerometer Counts Your Steps",
+  "composition": "Short33AccelerometerSteps",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 55.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-33-accelerometer-steps/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "7ffca34d85af159fed949c365bb25bb4dc8d5055515f076cb53a210df907f8a8",
+    "raw_duration_seconds": 49.0,
+    "trimmed_duration_seconds": 48.45025,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.035261752,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/accelerometer-steps/narration.wav",
+    "narration_sha256": "0c698c9e85f10e5306722e256eb8cadf0e74cfd6de78bef00c2535cdf98f8664",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 49.137979,
+    "script_sha256": "c46b8ab8babe40f8580ac7b0e84b0ee6367d73a4f0ff25f4c966b2c9b5c37afc",
+    "spoken_words": 125,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9727773435115814,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 49.137979s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 55-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 48.96,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "A tiny sensor inside your device",
+      "start": 0.0,
+      "end": 5.7
+    },
+    {
+      "id": "mass",
+      "title": "The proof mass responds to motion",
+      "start": 5.7,
+      "end": 17.48
+    },
+    {
+      "id": "capacitor",
+      "title": "Movement changes capacitance",
+      "start": 17.48,
+      "end": 22.36
+    },
+    {
+      "id": "signal",
+      "title": "The chip outputs acceleration",
+      "start": 22.36,
+      "end": 26.74
+    },
+    {
+      "id": "walk",
+      "title": "Walking creates a repeating pattern",
+      "start": 26.74,
+      "end": 32.74
+    },
+    {
+      "id": "filter",
+      "title": "Software accepts real steps",
+      "start": 32.74,
+      "end": 42.6
+    },
+    {
+      "id": "closing",
+      "title": "From microscopic motion to a step count",
+      "start": 42.6,
+      "end": 55.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-count",
+      "scene": "hook",
+      "text": "Your phone or fitness band can count steps with a tiny chip called an accelerometer.",
+      "speak": "Your phone or fitness band can count steps with a tiny chip called an accelerometer.",
+      "start": 0.7,
+      "end": 5.54,
+      "duration": 4.84
+    },
+    {
+      "id": "mass-shift",
+      "scene": "mass",
+      "text": "Inside this accelerometer, a microscopic proof mass shifts slightly when your body moves.",
+      "speak": "Inside this accelerometer, a microscopic proof mass shifts slightly when your body moves.",
+      "start": 6.2,
+      "end": 11.62,
+      "duration": 5.42
+    },
+    {
+      "id": "mass-springs",
+      "scene": "mass",
+      "text": "Tiny flexible springs hold the mass inside the chip while allowing that small movement.",
+      "speak": "Tiny flexible springs hold the mass inside the chip while allowing that small movement.",
+      "start": 12.3,
+      "end": 17.28,
+      "duration": 4.98
+    },
+    {
+      "id": "capacitor-gap",
+      "scene": "capacitor",
+      "text": "As the mass shifts, the spacing between interlocking capacitor fingers changes.",
+      "speak": "As the mass shifts, the spacing between interlocking capacitor fingers changes.",
+      "start": 17.98,
+      "end": 22.22,
+      "duration": 4.24
+    },
+    {
+      "id": "signal-convert",
+      "scene": "signal",
+      "text": "The accelerometer's electronics convert that spacing change into an acceleration signal.",
+      "speak": "The accelerometer's electronics convert that spacing change into an acceleration signal.",
+      "start": 22.86,
+      "end": 27.24,
+      "duration": 4.38
+    },
+    {
+      "id": "walk-pattern",
+      "scene": "walk",
+      "text": "During walking, the signal contains a repeating pattern from each step and other body motion.",
+      "speak": "During walking, the signal contains a repeating pattern from each step and other body motion.",
+      "start": 27.24,
+      "end": 32.7,
+      "duration": 5.46
+    },
+    {
+      "id": "filter-noise",
+      "scene": "filter",
+      "text": "Software filters noise and looks for the rhythm and strength of genuine steps, rather than counting every bump.",
+      "speak": "Software filters noise and looks for the rhythm and strength of genuine steps, rather than counting every bump.",
+      "start": 33.24,
+      "end": 38.8,
+      "duration": 5.56
+    },
+    {
+      "id": "filter-count",
+      "scene": "filter",
+      "text": "Each accepted step pattern advances the step counter by one.",
+      "speak": "Each accepted step pattern advances the step counter by one.",
+      "start": 39.38,
+      "end": 42.6,
+      "duration": 3.22
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So your step count begins with motion inside the accelerometer and ends with software recognizing a walking pattern.",
+      "speak": "So your step count begins with motion inside the accelerometer and ends with software recognizing a walking pattern.",
+      "start": 43.1,
+      "end": 48.96,
+      "duration": 5.86
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "3a941f8b94405ac23639bc6fccaab6a745d9e883006acf641c7dc0d8fb0a0890",
+  "language": "en",
+  "language_probability": 1,
+  "text": "In a severe car crash, an airbag works with your seat belt to cushion you from hard interior surfaces. This explanation slows the sequence down. In a real crash, the airbag responds in tens of milliseconds. Crash sensors detect the vehicle's sudden deceleration and send that information to the airbag control unit. The control unit triggers the airbag only when the crash pattern indicates a severe impact. A small igniter then activates a gas generator inside the folded airbag module. The generator rapidly produces gas that flows into the woven fabric cushion. The expanding airbag spreads out in front of the occupant, distributing force over a wider area. As you press into the cushion, vents let gas escape, so the airbag can absorb motion while deflating. So the airbag protects by sensing a crash, inflating quickly and then yielding in a controlled way.",
+  "mean_word_probability": 0.9758585601141957,
+  "low_confidence_words": [
+    {
+      "start": 3.9,
+      "end": 4.06,
+      "word": " belt",
+      "probability": 0.47064337134361267
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.96,
+      "text": "In a severe car crash, an airbag works with your seat belt to cushion you from hard interior surfaces. This explanation slows the sequence down. In a real crash, the airbag responds in tens of milliseconds. Crash sensors detect the vehicle's sudden deceleration and send that information to the airbag control unit. The control unit triggers the airbag only when the crash pattern indicates a severe impact. A small igniter then activates a gas generator inside the folded airbag module.",
+      "avg_logprob": -0.037559871947524526,
+      "no_speech_prob": 0.0504106730222702,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.86,
+          "word": " In",
+          "probability": 0.8117226362228394
+        },
+        {
+          "start": 0.86,
+          "end": 1.04,
+          "word": " a",
+          "probability": 0.9860613346099854
+        },
+        {
+          "start": 1.04,
+          "end": 1.36,
+          "word": " severe",
+          "probability": 0.9587615132331848
+        },
+        {
+          "start": 1.36,
+          "end": 1.66,
+          "word": " car",
+          "probability": 0.9937415719032288
+        },
+        {
+          "start": 1.66,
+          "end": 2.02,
+          "word": " crash,",
+          "probability": 0.9980199337005615
+        },
+        {
+          "start": 2.36,
+          "end": 2.58,
+          "word": " an",
+          "probability": 0.9808238744735718
+        },
+        {
+          "start": 2.58,
+          "end": 2.9,
+          "word": " airbag",
+          "probability": 0.9713511168956757
+        },
+        {
+          "start": 2.9,
+          "end": 3.26,
+          "word": " works",
+          "probability": 0.994966447353363
+        },
+        {
+          "start": 3.26,
+          "end": 3.48,
+          "word": " with",
+          "probability": 0.9968768358230591
+        },
+        {
+          "start": 3.48,
+          "end": 3.64,
+          "word": " your",
+          "probability": 0.9876070618629456
+        },
+        {
+          "start": 3.64,
+          "end": 3.9,
+          "word": " seat",
+          "probability": 0.9982016086578369
+        },
+        {
+          "start": 3.9,
+          "end": 4.06,
+          "word": " belt",
+          "probability": 0.47064337134361267
+        },
+        {
+          "start": 4.06,
+          "end": 4.36,
+          "word": " to",
+          "probability": 0.9819846749305725
+        },
+        {
+          "start": 4.36,
+          "end": 4.6,
+          "word": " cushion",
+          "probability": 0.9987351298332214
+        },
+        {
+          "start": 4.6,
+          "end": 4.8,
+          "word": " you",
+          "probability": 0.9954387545585632
+        },
+        {
+          "start": 4.8,
+          "end": 5.0,
+          "word": " from",
+          "probability": 0.9971566200256348
+        },
+        {
+          "start": 5.0,
+          "end": 5.38,
+          "word": " hard",
+          "probability": 0.9812417030334473
+        },
+        {
+          "start": 5.38,
+          "end": 5.74,
+          "word": " interior",
+          "probability": 0.9910793900489807
+        },
+        {
+          "start": 5.74,
+          "end": 6.24,
+          "word": " surfaces.",
+          "probability": 0.9970169067382812
+        },
+        {
+          "start": 6.94,
+          "end": 7.1,
+          "word": " This",
+          "probability": 0.9874354600906372
+        },
+        {
+          "start": 7.1,
+          "end": 7.62,
+          "word": " explanation",
+          "probability": 0.994249701499939
+        },
+        {
+          "start": 7.62,
+          "end": 8.04,
+          "word": " slows",
+          "probability": 0.9970682263374329
+        },
+        {
+          "start": 8.04,
+          "end": 8.28,
+          "word": " the",
+          "probability": 0.9879717230796814
+        },
+        {
+          "start": 8.28,
+          "end": 8.6,
+          "word": " sequence",
+          "probability": 0.9978737831115723
+        },
+        {
+          "start": 8.6,
+          "end": 8.9,
+          "word": " down.",
+          "probability": 0.9978176355361938
+        },
+        {
+          "start": 9.3,
+          "end": 9.4,
+          "word": " In",
+          "probability": 0.9872214198112488
+        },
+        {
+          "start": 9.4,
+          "end": 9.56,
+          "word": " a",
+          "probability": 0.9880920648574829
+        },
+        {
+          "start": 9.56,
+          "end": 9.76,
+          "word": " real",
+          "probability": 0.996675968170166
+        },
+        {
+          "start": 9.76,
+          "end": 10.1,
+          "word": " crash,",
+          "probability": 0.996961772441864
+        },
+        {
+          "start": 10.36,
+          "end": 10.54,
+          "word": " the",
+          "probability": 0.9925712943077087
+        },
+        {
+          "start": 10.54,
+          "end": 10.84,
+          "word": " airbag",
+          "probability": 0.9849186837673187
+        },
+        {
+          "start": 10.84,
+          "end": 11.3,
+          "word": " responds",
+          "probability": 0.9852708578109741
+        },
+        {
+          "start": 11.3,
+          "end": 11.52,
+          "word": " in",
+          "probability": 0.997150719165802
+        },
+        {
+          "start": 11.52,
+          "end": 11.78,
+          "word": " tens",
+          "probability": 0.8906678557395935
+        },
+        {
+          "start": 11.78,
+          "end": 12.06,
+          "word": " of",
+          "probability": 0.9971616268157959
+        },
+        {
+          "start": 12.06,
+          "end": 12.54,
+          "word": " milliseconds.",
+          "probability": 0.9754341840744019
+        },
+        {
+          "start": 13.22,
+          "end": 13.5,
+          "word": " Crash",
+          "probability": 0.968515932559967
+        },
+        {
+          "start": 13.5,
+          "end": 13.94,
+          "word": " sensors",
+          "probability": 0.9912653565406799
+        },
+        {
+          "start": 13.94,
+          "end": 14.4,
+          "word": " detect",
+          "probability": 0.9875156879425049
+        },
+        {
+          "start": 14.4,
+          "end": 14.64,
+          "word": " the",
+          "probability": 0.9923055768013
+        },
+        {
+          "start": 14.64,
+          "end": 15.0,
+          "word": " vehicle's",
+          "probability": 0.9693536758422852
+        },
+        {
+          "start": 15.0,
+          "end": 15.24,
+          "word": " sudden",
+          "probability": 0.9992539286613464
+        },
+        {
+          "start": 15.24,
+          "end": 15.98,
+          "word": " deceleration",
+          "probability": 0.9968105951944987
+        },
+        {
+          "start": 15.98,
+          "end": 16.42,
+          "word": " and",
+          "probability": 0.7862765789031982
+        },
+        {
+          "start": 16.42,
+          "end": 16.68,
+          "word": " send",
+          "probability": 0.9866129755973816
+        },
+        {
+          "start": 16.68,
+          "end": 16.88,
+          "word": " that",
+          "probability": 0.9906319379806519
+        },
+        {
+          "start": 16.88,
+          "end": 17.32,
+          "word": " information",
+          "probability": 0.9974422454833984
+        },
+        {
+          "start": 17.32,
+          "end": 17.56,
+          "word": " to",
+          "probability": 0.9980618357658386
+        },
+        {
+          "start": 17.56,
+          "end": 17.76,
+          "word": " the",
+          "probability": 0.9887063503265381
+        },
+        {
+          "start": 17.76,
+          "end": 18.04,
+          "word": " airbag",
+          "probability": 0.9840662479400635
+        },
+        {
+          "start": 18.04,
+          "end": 18.42,
+          "word": " control",
+          "probability": 0.9816077947616577
+        },
+        {
+          "start": 18.42,
+          "end": 18.76,
+          "word": " unit.",
+          "probability": 0.9988325238227844
+        },
+        {
+          "start": 19.3,
+          "end": 19.44,
+          "word": " The",
+          "probability": 0.9886370301246643
+        },
+        {
+          "start": 19.44,
+          "end": 19.8,
+          "word": " control",
+          "probability": 0.995788037776947
+        },
+        {
+          "start": 19.8,
+          "end": 20.06,
+          "word": " unit",
+          "probability": 0.9980126619338989
+        },
+        {
+          "start": 20.06,
+          "end": 20.42,
+          "word": " triggers",
+          "probability": 0.9978099465370178
+        },
+        {
+          "start": 20.42,
+          "end": 20.7,
+          "word": " the",
+          "probability": 0.9981462955474854
+        },
+        {
+          "start": 20.7,
+          "end": 21.06,
+          "word": " airbag",
+          "probability": 0.9925203621387482
+        },
+        {
+          "start": 21.06,
+          "end": 21.44,
+          "word": " only",
+          "probability": 0.9935901165008545
+        },
+        {
+          "start": 21.44,
+          "end": 21.64,
+          "word": " when",
+          "probability": 0.9985604882240295
+        },
+        {
+          "start": 21.64,
+          "end": 21.84,
+          "word": " the",
+          "probability": 0.9938809871673584
+        },
+        {
+          "start": 21.84,
+          "end": 22.08,
+          "word": " crash",
+          "probability": 0.9974978566169739
+        },
+        {
+          "start": 22.08,
+          "end": 22.42,
+          "word": " pattern",
+          "probability": 0.9980387091636658
+        },
+        {
+          "start": 22.42,
+          "end": 22.92,
+          "word": " indicates",
+          "probability": 0.995293915271759
+        },
+        {
+          "start": 22.92,
+          "end": 23.22,
+          "word": " a",
+          "probability": 0.9800505042076111
+        },
+        {
+          "start": 23.22,
+          "end": 23.44,
+          "word": " severe",
+          "probability": 0.9965077042579651
+        },
+        {
+          "start": 23.44,
+          "end": 23.94,
+          "word": " impact.",
+          "probability": 0.999295711517334
+        },
+        {
+          "start": 24.46,
+          "end": 24.68,
+          "word": " A",
+          "probability": 0.9939159750938416
+        },
+        {
+          "start": 24.68,
+          "end": 25.02,
+          "word": " small",
+          "probability": 0.9977728724479675
+        },
+        {
+          "start": 25.02,
+          "end": 25.62,
+          "word": " igniter",
+          "probability": 0.8911299705505371
+        },
+        {
+          "start": 25.62,
+          "end": 25.94,
+          "word": " then",
+          "probability": 0.9627133011817932
+        },
+        {
+          "start": 25.94,
+          "end": 26.34,
+          "word": " activates",
+          "probability": 0.9971596002578735
+        },
+        {
+          "start": 26.34,
+          "end": 26.62,
+          "word": " a",
+          "probability": 0.9908450245857239
+        },
+        {
+          "start": 26.62,
+          "end": 26.82,
+          "word": " gas",
+          "probability": 0.9932721257209778
+        },
+        {
+          "start": 26.82,
+          "end": 27.26,
+          "word": " generator",
+          "probability": 0.9986636638641357
+        },
+        {
+          "start": 27.26,
+          "end": 27.76,
+          "word": " inside",
+          "probability": 0.9930030703544617
+        },
+        {
+          "start": 27.76,
+          "end": 28.0,
+          "word": " the",
+          "probability": 0.9928796887397766
+        },
+        {
+          "start": 28.0,
+          "end": 28.3,
+          "word": " folded",
+          "probability": 0.9952355027198792
+        },
+        {
+          "start": 28.3,
+          "end": 28.58,
+          "word": " airbag",
+          "probability": 0.9915966987609863
+        },
+        {
+          "start": 28.58,
+          "end": 28.96,
+          "word": " module.",
+          "probability": 0.9954923391342163
+        }
+      ]
+    },
+    {
+      "start": 28.96,
+      "end": 33.34,
+      "text": "The generator rapidly produces gas that flows into the woven fabric cushion.",
+      "avg_logprob": -0.10622124555845593,
+      "no_speech_prob": 0.004056739620864391,
+      "words": [
+        {
+          "start": 28.96,
+          "end": 29.64,
+          "word": " The",
+          "probability": 0.7318990230560303
+        },
+        {
+          "start": 29.64,
+          "end": 30.08,
+          "word": " generator",
+          "probability": 0.9768421053886414
+        },
+        {
+          "start": 30.08,
+          "end": 30.6,
+          "word": " rapidly",
+          "probability": 0.9970102310180664
+        },
+        {
+          "start": 30.6,
+          "end": 31.1,
+          "word": " produces",
+          "probability": 0.9933562874794006
+        },
+        {
+          "start": 31.1,
+          "end": 31.4,
+          "word": " gas",
+          "probability": 0.9729559421539307
+        },
+        {
+          "start": 31.4,
+          "end": 31.66,
+          "word": " that",
+          "probability": 0.991758406162262
+        },
+        {
+          "start": 31.66,
+          "end": 32.0,
+          "word": " flows",
+          "probability": 0.9923740029335022
+        },
+        {
+          "start": 32.0,
+          "end": 32.28,
+          "word": " into",
+          "probability": 0.9870644807815552
+        },
+        {
+          "start": 32.28,
+          "end": 32.46,
+          "word": " the",
+          "probability": 0.9470734000205994
+        },
+        {
+          "start": 32.46,
+          "end": 32.68,
+          "word": " woven",
+          "probability": 0.9962765574455261
+        },
+        {
+          "start": 32.68,
+          "end": 33.02,
+          "word": " fabric",
+          "probability": 0.9859256148338318
+        },
+        {
+          "start": 33.02,
+          "end": 33.34,
+          "word": " cushion.",
+          "probability": 0.9671136140823364
+        }
+      ]
+    },
+    {
+      "start": 34.04,
+      "end": 39.08,
+      "text": "The expanding airbag spreads out in front of the occupant, distributing force over a wider area.",
+      "avg_logprob": -0.10622124555845593,
+      "no_speech_prob": 0.004056739620864391,
+      "words": [
+        {
+          "start": 34.04,
+          "end": 34.1,
+          "word": " The",
+          "probability": 0.9839187860488892
+        },
+        {
+          "start": 34.1,
+          "end": 34.7,
+          "word": " expanding",
+          "probability": 0.9383324980735779
+        },
+        {
+          "start": 34.7,
+          "end": 35.12,
+          "word": " airbag",
+          "probability": 0.856022447347641
+        },
+        {
+          "start": 35.12,
+          "end": 35.52,
+          "word": " spreads",
+          "probability": 0.9904780387878418
+        },
+        {
+          "start": 35.52,
+          "end": 35.8,
+          "word": " out",
+          "probability": 0.9973547458648682
+        },
+        {
+          "start": 35.8,
+          "end": 36.02,
+          "word": " in",
+          "probability": 0.9891237020492554
+        },
+        {
+          "start": 36.02,
+          "end": 36.18,
+          "word": " front",
+          "probability": 0.9808086156845093
+        },
+        {
+          "start": 36.18,
+          "end": 36.4,
+          "word": " of",
+          "probability": 0.9944384098052979
+        },
+        {
+          "start": 36.4,
+          "end": 36.52,
+          "word": " the",
+          "probability": 0.9950931072235107
+        },
+        {
+          "start": 36.52,
+          "end": 36.88,
+          "word": " occupant,",
+          "probability": 0.9960386753082275
+        },
+        {
+          "start": 37.22,
+          "end": 37.64,
+          "word": " distributing",
+          "probability": 0.9959754347801208
+        },
+        {
+          "start": 37.64,
+          "end": 38.02,
+          "word": " force",
+          "probability": 0.9957685470581055
+        },
+        {
+          "start": 38.02,
+          "end": 38.3,
+          "word": " over",
+          "probability": 0.9964950680732727
+        },
+        {
+          "start": 38.3,
+          "end": 38.44,
+          "word": " a",
+          "probability": 0.9619181156158447
+        },
+        {
+          "start": 38.44,
+          "end": 38.7,
+          "word": " wider",
+          "probability": 0.9979238510131836
+        },
+        {
+          "start": 38.7,
+          "end": 39.08,
+          "word": " area.",
+          "probability": 0.9979532957077026
+        }
+      ]
+    },
+    {
+      "start": 39.6,
+      "end": 44.98,
+      "text": "As you press into the cushion, vents let gas escape, so the airbag can absorb motion while deflating.",
+      "avg_logprob": -0.10622124555845593,
+      "no_speech_prob": 0.004056739620864391,
+      "words": [
+        {
+          "start": 39.6,
+          "end": 39.78,
+          "word": " As",
+          "probability": 0.9971402883529663
+        },
+        {
+          "start": 39.78,
+          "end": 39.92,
+          "word": " you",
+          "probability": 0.997465968132019
+        },
+        {
+          "start": 39.92,
+          "end": 40.16,
+          "word": " press",
+          "probability": 0.994534969329834
+        },
+        {
+          "start": 40.16,
+          "end": 40.4,
+          "word": " into",
+          "probability": 0.9805991649627686
+        },
+        {
+          "start": 40.4,
+          "end": 40.58,
+          "word": " the",
+          "probability": 0.9950242638587952
+        },
+        {
+          "start": 40.58,
+          "end": 40.84,
+          "word": " cushion,",
+          "probability": 0.9864685535430908
+        },
+        {
+          "start": 41.24,
+          "end": 41.38,
+          "word": " vents",
+          "probability": 0.995595395565033
+        },
+        {
+          "start": 41.38,
+          "end": 41.66,
+          "word": " let",
+          "probability": 0.9754019379615784
+        },
+        {
+          "start": 41.66,
+          "end": 41.94,
+          "word": " gas",
+          "probability": 0.9660186171531677
+        },
+        {
+          "start": 41.94,
+          "end": 42.34,
+          "word": " escape,",
+          "probability": 0.9968103766441345
+        },
+        {
+          "start": 42.58,
+          "end": 42.72,
+          "word": " so",
+          "probability": 0.9931001663208008
+        },
+        {
+          "start": 42.72,
+          "end": 42.94,
+          "word": " the",
+          "probability": 0.9809634685516357
+        },
+        {
+          "start": 42.94,
+          "end": 43.2,
+          "word": " airbag",
+          "probability": 0.9755822718143463
+        },
+        {
+          "start": 43.2,
+          "end": 43.42,
+          "word": " can",
+          "probability": 0.9946634769439697
+        },
+        {
+          "start": 43.42,
+          "end": 43.86,
+          "word": " absorb",
+          "probability": 0.9947420358657837
+        },
+        {
+          "start": 43.86,
+          "end": 44.24,
+          "word": " motion",
+          "probability": 0.9831467270851135
+        },
+        {
+          "start": 44.24,
+          "end": 44.46,
+          "word": " while",
+          "probability": 0.9904256463050842
+        },
+        {
+          "start": 44.46,
+          "end": 44.98,
+          "word": " deflating.",
+          "probability": 0.990980843702952
+        }
+      ]
+    },
+    {
+      "start": 45.5,
+      "end": 50.64,
+      "text": "So the airbag protects by sensing a crash, inflating quickly and then yielding in a controlled way.",
+      "avg_logprob": -0.10622124555845593,
+      "no_speech_prob": 0.004056739620864391,
+      "words": [
+        {
+          "start": 45.5,
+          "end": 45.64,
+          "word": " So",
+          "probability": 0.9716024994850159
+        },
+        {
+          "start": 45.64,
+          "end": 45.84,
+          "word": " the",
+          "probability": 0.800740659236908
+        },
+        {
+          "start": 45.84,
+          "end": 46.16,
+          "word": " airbag",
+          "probability": 0.9752521812915802
+        },
+        {
+          "start": 46.16,
+          "end": 46.54,
+          "word": " protects",
+          "probability": 0.9974350333213806
+        },
+        {
+          "start": 46.54,
+          "end": 46.72,
+          "word": " by",
+          "probability": 0.9951933026313782
+        },
+        {
+          "start": 46.72,
+          "end": 47.12,
+          "word": " sensing",
+          "probability": 0.9970324039459229
+        },
+        {
+          "start": 47.12,
+          "end": 47.38,
+          "word": " a",
+          "probability": 0.9960024952888489
+        },
+        {
+          "start": 47.38,
+          "end": 47.6,
+          "word": " crash,",
+          "probability": 0.9983300566673279
+        },
+        {
+          "start": 47.94,
+          "end": 48.38,
+          "word": " inflating",
+          "probability": 0.9840601980686188
+        },
+        {
+          "start": 48.38,
+          "end": 48.78,
+          "word": " quickly",
+          "probability": 0.997473418712616
+        },
+        {
+          "start": 48.78,
+          "end": 49.24,
+          "word": " and",
+          "probability": 0.7391477227210999
+        },
+        {
+          "start": 49.24,
+          "end": 49.34,
+          "word": " then",
+          "probability": 0.9474372267723083
+        },
+        {
+          "start": 49.34,
+          "end": 49.76,
+          "word": " yielding",
+          "probability": 0.9933575987815857
+        },
+        {
+          "start": 49.76,
+          "end": 49.92,
+          "word": " in",
+          "probability": 0.9956948757171631
+        },
+        {
+          "start": 49.92,
+          "end": 50.08,
+          "word": " a",
+          "probability": 0.9934945702552795
+        },
+        {
+          "start": 50.08,
+          "end": 50.38,
+          "word": " controlled",
+          "probability": 0.9926503300666809
+        },
+        {
+          "start": 50.38,
+          "end": 50.64,
+          "word": " way.",
+          "probability": 0.996369481086731
+        }
+      ]
+    }
+  ]
+}

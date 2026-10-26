@@ -1,0 +1,47 @@
+{
+  "master": "RESULT/how-a-hydraulic-lift-raises-a-car.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "cinematic-min",
+    "file": "media/library/music/clips/cinematic-min.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short43HydraulicLift.mp4",
+    "out": "RESULT/how-a-hydraulic-lift-raises-a-car.mp4",
+    "end_s": 43.5
+  },
+  "note": "4 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.56,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Reveal the two piston sizes",
+      "sync_source": "hook-area"
+    },
+    {
+      "at_s": 11.8,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -25,
+      "cue": "Push oil into the cylinder",
+      "sync_source": "pump-oil"
+    },
+    {
+      "at_s": 20.72,
+      "sfx_id": "pop-reveal",
+      "gain_db": -24,
+      "cue": "Raise the lifting piston",
+      "sync_source": "lift-force"
+    },
+    {
+      "at_s": 37.54,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -22,
+      "cue": "Resolve the hydraulic chain",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

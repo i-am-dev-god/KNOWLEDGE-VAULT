@@ -1,0 +1,582 @@
+{
+  "defaults": {
+    "duration_s": 56.0,
+    "initial_silence_s": 0.7,
+    "target_voice_end_s": 47.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-36-fiber-optics",
+      "slug": "fiber-optics",
+      "title": "How Fiber Optics Carry Internet Data",
+      "composition": "Short36FiberOptics",
+      "result": "how-fiber-optics-carry-internet-data.mp4",
+      "duration_s": 56.0,
+      "target_voice_end_s": 51.0,
+      "prompt": "Fiber-optic cable. Internet data. Laser. Core. Cladding. Total internal reflection. Photodetector.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-light",
+          "scene": "hook",
+          "text": "A fiber-optic cable carries internet data as flashes of light inside a strand of glass."
+        },
+        {
+          "id": "hook-copper",
+          "scene": "hook",
+          "text": "Instead of sending electrical pulses through copper, it guides light from one end to the other."
+        },
+        {
+          "id": "transmit-encode",
+          "scene": "transmit",
+          "text": "At the cable's transmitter, a laser or LED turns digital data into rapid pulses of light."
+        },
+        {
+          "id": "core-enter",
+          "scene": "core",
+          "text": "Those pulses enter the cable's narrow core, the central path reserved for the light."
+        },
+        {
+          "id": "reflect-boundary",
+          "scene": "reflect",
+          "text": "The core is wrapped in cladding, which lets light reflect at the boundary instead of escaping."
+        },
+        {
+          "id": "reflect-zigzag",
+          "scene": "reflect",
+          "text": "Each pulse follows the fiber by repeated total internal reflection, even when the cable bends."
+        },
+        {
+          "id": "receive-detect",
+          "scene": "receive",
+          "text": "At the destination, a photodetector senses the arriving pattern of light and darkness."
+        },
+        {
+          "id": "receive-data",
+          "scene": "receive",
+          "text": "The receiver converts that pattern back into electrical data for your computer or router."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So fiber-optic internet moves information by guiding coded light through glass, then decoding it at the far end."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Internet data becomes light"
+        ],
+        [
+          "transmit",
+          "The transmitter encodes light pulses"
+        ],
+        [
+          "core",
+          "Light enters the glass core"
+        ],
+        [
+          "reflect",
+          "The fiber confines and guides light"
+        ],
+        [
+          "receive",
+          "The receiver restores digital data"
+        ],
+        [
+          "closing",
+          "Coded light crosses the fiber"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-copper",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "core-enter",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "receive-detect",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Resolve the mechanism"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-37-electric-motor",
+      "slug": "electric-motor",
+      "title": "How an Electric Motor Spins",
+      "composition": "Short37ElectricMotor",
+      "result": "how-an-electric-motor-spins.mp4",
+      "duration_s": 58.0,
+      "target_voice_end_s": 49.0,
+      "prompt": "Electric motor. Magnetic field. Wire coil. Current. Torque. Shaft. Split-ring commutator. Brushes.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-spin",
+          "scene": "hook",
+          "text": "An electric motor turns electrical energy into rotation to power fans, tools, and machines."
+        },
+        {
+          "id": "hook-interaction",
+          "scene": "hook",
+          "text": "Inside the motor, the essential interaction is between electric current and a magnetic field."
+        },
+        {
+          "id": "field-magnets",
+          "scene": "field",
+          "text": "Two fixed magnets create a magnetic field across the motor's central space."
+        },
+        {
+          "id": "coil-current",
+          "scene": "coil",
+          "text": "A wire coil sits in that field, and the motor sends electric current through the coil."
+        },
+        {
+          "id": "force-torque",
+          "scene": "torque",
+          "text": "Current in the coil produces opposite forces on its two sides, creating a turning force called torque."
+        },
+        {
+          "id": "force-rotate",
+          "scene": "torque",
+          "text": "Those forces rotate the coil and the shaft attached to it."
+        },
+        {
+          "id": "switch-stall",
+          "scene": "switch",
+          "text": "But the coil would stall if the current stayed in the same direction."
+        },
+        {
+          "id": "switch-reverse",
+          "scene": "switch",
+          "text": "A split-ring commutator reverses the current every half turn, keeping the torque in the same rotational direction."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the motor keeps spinning by repeatedly switching the coil's current so magnetic forces continue turning its shaft."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Electricity becomes mechanical rotation"
+        ],
+        [
+          "field",
+          "Fixed magnets establish a field"
+        ],
+        [
+          "coil",
+          "Current flows through the moving coil"
+        ],
+        [
+          "torque",
+          "Opposite forces turn the shaft"
+        ],
+        [
+          "switch",
+          "The commutator reverses current"
+        ],
+        [
+          "closing",
+          "Repeated switching sustains rotation"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-interaction",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "coil-current",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "switch-reverse",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Resolve the mechanism"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-38-transformer",
+      "slug": "transformer",
+      "title": "How a Transformer Changes Voltage",
+      "composition": "Short38Transformer",
+      "result": "how-a-transformer-changes-voltage.mp4",
+      "duration_s": 52.0,
+      "target_voice_end_s": 45.0,
+      "prompt": "Transformer. AC voltage. Primary coil. Secondary coil. Alternating magnetic field. Iron core. Induction. Turns ratio.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-voltage",
+          "scene": "hook",
+          "text": "A transformer changes AC voltage for the power grid and your home."
+        },
+        {
+          "id": "hook-transfer",
+          "scene": "hook",
+          "text": "It transfers electrical energy between two coils without a direct wire connection."
+        },
+        {
+          "id": "primary-ac",
+          "scene": "primary",
+          "text": "Alternating current enters the primary coil, so its magnetic field continually changes."
+        },
+        {
+          "id": "core-flux",
+          "scene": "core",
+          "text": "The iron core guides this changing magnetic field around a closed loop."
+        },
+        {
+          "id": "core-link",
+          "scene": "core",
+          "text": "The field then passes through the secondary coil on the other side."
+        },
+        {
+          "id": "secondary-induce",
+          "scene": "secondary",
+          "text": "Because the field keeps changing, it induces an alternating voltage in this second coil."
+        },
+        {
+          "id": "turns-ratio",
+          "scene": "turns",
+          "text": "The number of wire turns controls the result."
+        },
+        {
+          "id": "turns-up-down",
+          "scene": "turns",
+          "text": "More secondary turns increase voltage; fewer secondary turns decrease it."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the transformer uses magnetic induction to change voltage while transferring power between its coils."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Two coils exchange energy"
+        ],
+        [
+          "primary",
+          "AC drives the primary winding"
+        ],
+        [
+          "core",
+          "The core carries changing magnetic flux"
+        ],
+        [
+          "secondary",
+          "Changing flux induces secondary voltage"
+        ],
+        [
+          "turns",
+          "The turns ratio sets the voltage"
+        ],
+        [
+          "closing",
+          "Magnetic induction changes voltage"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-transfer",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "core-flux",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "turns-up-down",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Resolve the mechanism"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-39-radar",
+      "slug": "radar",
+      "title": "How Radar Finds Distant Objects",
+      "composition": "Short39Radar",
+      "result": "how-radar-finds-distant-objects.mp4",
+      "duration_s": 56.0,
+      "target_voice_end_s": 47.0,
+      "prompt": "Radar. Radio pulse. Antenna. Aircraft. Echo. Round-trip time. Speed of light. Range. Rotating antenna.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-echo",
+          "scene": "hook",
+          "text": "A radar finds distant objects by sending out radio waves and listening for their echoes."
+        },
+        {
+          "id": "hook-dark",
+          "scene": "hook",
+          "text": "This works in darkness because radio echoes do not need visible light."
+        },
+        {
+          "id": "transmit-pulse",
+          "scene": "transmit",
+          "text": "The radar's transmitter creates a short radio pulse, and its antenna sends that pulse into space."
+        },
+        {
+          "id": "transmit-travel",
+          "scene": "transmit",
+          "text": "The pulse travels outward at the speed of light until it reaches an object such as an aircraft."
+        },
+        {
+          "id": "echo-return",
+          "scene": "echo",
+          "text": "Some radio energy reflects from the aircraft and returns toward the radar antenna."
+        },
+        {
+          "id": "range-time",
+          "scene": "range",
+          "text": "The radar measures the echo's round-trip time to calculate distance."
+        },
+        {
+          "id": "range-half",
+          "scene": "range",
+          "text": "Multiplying half that time by the speed of light gives the object's range."
+        },
+        {
+          "id": "scan-map",
+          "scene": "scan",
+          "text": "A rotating antenna repeats this process in different directions, building a map of echoes around the radar."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So radar locates objects by timing radio-wave echoes rather than relying on visible light."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Radar sends waves and receives echoes"
+        ],
+        [
+          "transmit",
+          "The antenna launches a radio pulse"
+        ],
+        [
+          "echo",
+          "The object reflects an echo"
+        ],
+        [
+          "range",
+          "Round-trip time becomes distance"
+        ],
+        [
+          "scan",
+          "Repeated scans build an echo map"
+        ],
+        [
+          "closing",
+          "Radio echoes reveal object locations"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-dark",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "transmit-travel",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "range-half",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Resolve the mechanism"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "short-40-mechanical-watch",
+      "slug": "mechanical-watch",
+      "title": "How a Mechanical Watch Keeps Time",
+      "composition": "Short40MechanicalWatch",
+      "result": "how-a-mechanical-watch-keeps-time.mp4",
+      "duration_s": 60.0,
+      "target_voice_end_s": 51.0,
+      "prompt": "Mechanical watch. Mainspring. Barrel. Gear train. Watch hands. Escapement. Balance wheel. Hairspring.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-spring",
+          "scene": "hook",
+          "text": "A mechanical watch keeps time using stored spring energy instead of a battery."
+        },
+        {
+          "id": "hook-meter",
+          "scene": "hook",
+          "text": "Its clever mechanism releases that energy in tiny, evenly timed steps."
+        },
+        {
+          "id": "wind-store",
+          "scene": "wind",
+          "text": "When you wind the watch, you tighten a mainspring inside a small drum called the barrel."
+        },
+        {
+          "id": "wind-release",
+          "scene": "wind",
+          "text": "The mainspring slowly unwinds, turning the barrel and feeding energy into a series of gears."
+        },
+        {
+          "id": "gears-hands",
+          "scene": "gears",
+          "text": "This gear train carries rotation toward the watch hands while reducing the motion into useful speeds."
+        },
+        {
+          "id": "escape-fast",
+          "scene": "escape",
+          "text": "But left alone, the spring would release its energy much too quickly."
+        },
+        {
+          "id": "escape-meter",
+          "scene": "escape",
+          "text": "The escapement meters that energy, allowing the gears to advance one small step at a time."
+        },
+        {
+          "id": "balance-regulate",
+          "scene": "balance",
+          "text": "A balance wheel oscillates back and forth at a steady rate, telling the escapement when each step may happen."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the watch combines a steady oscillator, a controlled escapement, and gears to turn spring energy into accurate time."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "A watch meters stored spring energy"
+        ],
+        [
+          "wind",
+          "The mainspring stores and releases energy"
+        ],
+        [
+          "gears",
+          "The gear train carries motion to the hands"
+        ],
+        [
+          "escape",
+          "The escapement releases discrete steps"
+        ],
+        [
+          "balance",
+          "The balance wheel sets a steady rhythm"
+        ],
+        [
+          "closing",
+          "Regulated energy becomes accurate time"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-meter",
+          "offset_s": -0.15,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the mechanism"
+        },
+        {
+          "sync_source": "wind-release",
+          "offset_s": -0.1,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -24,
+          "cue": "Focus the active component"
+        },
+        {
+          "sync_source": "balance-regulate",
+          "offset_s": -0.1,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Resolve the mechanism"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.2,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -21,
+          "cue": "Summary"
+        }
+      ]
+    }
+  ]
+}

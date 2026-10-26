@@ -1,0 +1,163 @@
+{
+  "id": "short-40-mechanical-watch",
+  "title": "How a Mechanical Watch Keeps Time",
+  "composition": "Short40MechanicalWatch",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 60.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-40-mechanical-watch/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "74d96db2ce58acd251cfbd49acec75a2e66cd567186794da50614c297e529fd7",
+    "raw_duration_seconds": 48.28,
+    "trimmed_duration_seconds": 48.075708,
+    "tempo_rate": 0.95577949,
+    "requested_tempo_rate": 0.95577949,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 51.0,
+    "narration_file": "media/voiceovers/mechanical-watch/narration.wav",
+    "narration_sha256": "ea5824c7210e274d52b4ac1b1db232c17c1b2d622832df78d07733936ebb8157",
+    "narration_duration_seconds": 60.0,
+    "paced_speech_end_seconds": 50.985208,
+    "script_sha256": "33362586c5d6a54372b4120d709fae9e85536b6db0d398dd8a5391afc7ecf660",
+    "spoken_words": 137,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9637803238195676,
+    "asr_tail_filter": "Excluded 2 ASR tokens beginning in digital silence at or after 50.985208s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 60-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 50.72,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "A watch meters stored spring energy",
+      "start": 0.0,
+      "end": 10.36
+    },
+    {
+      "id": "wind",
+      "title": "The mainspring stores and releases energy",
+      "start": 10.36,
+      "end": 21.8
+    },
+    {
+      "id": "gears",
+      "title": "The gear train carries motion to the hands",
+      "start": 21.8,
+      "end": 27.26
+    },
+    {
+      "id": "escape",
+      "title": "The escapement releases discrete steps",
+      "start": 27.26,
+      "end": 37.4
+    },
+    {
+      "id": "balance",
+      "title": "The balance wheel sets a steady rhythm",
+      "start": 37.4,
+      "end": 43.58
+    },
+    {
+      "id": "closing",
+      "title": "Regulated energy becomes accurate time",
+      "start": 43.58,
+      "end": 60.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-spring",
+      "scene": "hook",
+      "text": "A mechanical watch keeps time using stored spring energy instead of a battery.",
+      "speak": "A mechanical watch keeps time using stored spring energy instead of a battery.",
+      "start": 0.7,
+      "end": 5.32,
+      "duration": 4.62
+    },
+    {
+      "id": "hook-meter",
+      "scene": "hook",
+      "text": "Its clever mechanism releases that energy in tiny, evenly timed steps.",
+      "speak": "Its clever mechanism releases that energy in tiny, evenly timed steps.",
+      "start": 5.88,
+      "end": 10.24,
+      "duration": 4.36
+    },
+    {
+      "id": "wind-store",
+      "scene": "wind",
+      "text": "When you wind the watch, you tighten a mainspring inside a small drum called the barrel.",
+      "speak": "When you wind the watch, you tighten a mainspring inside a small drum called the barrel.",
+      "start": 10.86,
+      "end": 15.58,
+      "duration": 4.72
+    },
+    {
+      "id": "wind-release",
+      "scene": "wind",
+      "text": "The mainspring slowly unwinds, turning the barrel and feeding energy into a series of gears.",
+      "speak": "The mainspring slowly unwinds, turning the barrel and feeding energy into a series of gears.",
+      "start": 16.12,
+      "end": 21.54,
+      "duration": 5.42
+    },
+    {
+      "id": "gears-hands",
+      "scene": "gears",
+      "text": "This gear train carries rotation toward the watch hands while reducing the motion into useful speeds.",
+      "speak": "This gear train carries rotation toward the watch hands while reducing the motion into useful speeds.",
+      "start": 22.3,
+      "end": 27.76,
+      "duration": 5.46
+    },
+    {
+      "id": "escape-fast",
+      "scene": "escape",
+      "text": "But left alone, the spring would release its energy much too quickly.",
+      "speak": "But left alone, the spring would release its energy much too quickly.",
+      "start": 27.76,
+      "end": 31.64,
+      "duration": 3.88
+    },
+    {
+      "id": "escape-meter",
+      "scene": "escape",
+      "text": "The escapement meters that energy, allowing the gears to advance one small step at a time.",
+      "speak": "The escapement meters that energy, allowing the gears to advance one small step at a time.",
+      "start": 32.24,
+      "end": 37.3,
+      "duration": 5.06
+    },
+    {
+      "id": "balance-regulate",
+      "scene": "balance",
+      "text": "A balance wheel oscillates back and forth at a steady rate, telling the escapement when each step may happen.",
+      "speak": "A balance wheel oscillates back and forth at a steady rate, telling the escapement when each step may happen.",
+      "start": 37.9,
+      "end": 43.64,
+      "duration": 5.74
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the watch combines a steady oscillator, a controlled escapement, and gears to turn spring energy into accurate time.",
+      "speak": "So the watch combines a steady oscillator, a controlled escapement, and gears to turn spring energy into accurate time.",
+      "start": 44.08,
+      "end": 50.72,
+      "duration": 6.64
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "short-43-hydraulic-lift",
+  "title": "How a Hydraulic Lift Raises a Car",
+  "composition": "Short43HydraulicLift",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 43.5
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-43-hydraulic-lift/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "63fac2631c8c1eb6b145bcb7d29f055a8c71a4a03caa7a9ed56f9d4b9b98a925",
+    "raw_duration_seconds": 39.76,
+    "trimmed_duration_seconds": 39.356417,
+    "tempo_rate": 0.927124068,
+    "requested_tempo_rate": 0.927124068,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 42.6,
+    "narration_file": "media/voiceovers/hydraulic-lift/narration.wav",
+    "narration_sha256": "cad916d3209467a027c09a5305b1fda03bb543f387c923367c362e34a8e82601",
+    "narration_duration_seconds": 43.5,
+    "paced_speech_end_seconds": 42.59025,
+    "script_sha256": "2ec2fbc87f743da9d17d77f83d8da2c016572db16e60ad0cb42eb02938906700",
+    "spoken_words": 103,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9770289069240533,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 42.590250s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 43.5-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 42.46,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Oil pressure lifts the car",
+      "start": 0.0,
+      "end": 11.38
+    },
+    {
+      "id": "pump",
+      "title": "The pump pressurizes confined oil",
+      "start": 11.38,
+      "end": 20.3
+    },
+    {
+      "id": "lift",
+      "title": "Pressure becomes lifting force",
+      "start": 20.3,
+      "end": 31.26
+    },
+    {
+      "id": "control",
+      "title": "The valve controls holding and descent",
+      "start": 31.26,
+      "end": 37.16
+    },
+    {
+      "id": "closing",
+      "title": "Pressure becomes controlled motion",
+      "start": 37.16,
+      "end": 43.5
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-lift",
+      "scene": "hook",
+      "text": "This hydraulic lift raises a heavy car using pressure in trapped oil.",
+      "speak": "This hydraulic lift raises a heavy car using pressure in trapped oil.",
+      "start": 0.15,
+      "end": 4.98,
+      "duration": 4.83
+    },
+    {
+      "id": "hook-area",
+      "scene": "hook",
+      "text": "A small input piston can multiply force because the lifting piston has a much larger area.",
+      "speak": "A small input piston can multiply force because the lifting piston has a much larger area.",
+      "start": 5.64,
+      "end": 11.16,
+      "duration": 5.52
+    },
+    {
+      "id": "pump-oil",
+      "scene": "pump",
+      "text": "The pump pushes nearly incompressible oil into the lift cylinder.",
+      "speak": "The pump pushes nearly incompressible oil into the lift cylinder.",
+      "start": 11.88,
+      "end": 15.74,
+      "duration": 3.86
+    },
+    {
+      "id": "pump-pressure",
+      "scene": "pump",
+      "text": "Pressure spreads through the fluid and acts across the large piston.",
+      "speak": "Pressure spreads through the fluid and acts across the large piston.",
+      "start": 16.34,
+      "end": 20.04,
+      "duration": 3.7
+    },
+    {
+      "id": "lift-force",
+      "scene": "lift",
+      "text": "Force equals pressure times area, so that piston produces a powerful upward push.",
+      "speak": "Force equals pressure times area, so that piston produces a powerful upward push.",
+      "start": 20.8,
+      "end": 25.92,
+      "duration": 5.12
+    },
+    {
+      "id": "lift-motion",
+      "scene": "lift",
+      "text": "As oil enters, the piston and lift arms rise together, carrying the car.",
+      "speak": "As oil enters, the piston and lift arms rise together, carrying the car.",
+      "start": 25.92,
+      "end": 31.16,
+      "duration": 5.24
+    },
+    {
+      "id": "valve-control",
+      "scene": "control",
+      "text": "A closed valve traps the oil to hold the car; opening it allows a controlled descent.",
+      "speak": "A closed valve traps the oil to hold the car; opening it allows a controlled descent.",
+      "start": 31.76,
+      "end": 37.04,
+      "duration": 5.28
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So confined oil turns a compact pump into smooth, controlled lifting power.",
+      "speak": "So confined oil turns a compact pump into smooth, controlled lifting power.",
+      "start": 37.66,
+      "end": 42.46,
+      "duration": 4.8
+    }
+  ]
+}

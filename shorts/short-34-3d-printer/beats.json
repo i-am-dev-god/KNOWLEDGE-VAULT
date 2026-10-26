@@ -1,0 +1,162 @@
+{
+  "id": "short-34-3d-printer",
+  "title": "How a 3D Printer Builds an Object",
+  "composition": "Short34Printer3D",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 55.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-34-3d-printer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "39caaf9ca2db20dea45cce4ac3ecb272e05d36c868385d75156252e996bb8150",
+    "raw_duration_seconds": 48.8,
+    "trimmed_duration_seconds": 48.392375,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.034025107,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.7,
+    "target_voice_end_seconds": 47.5,
+    "narration_file": "media/voiceovers/3d-printer/narration.wav",
+    "narration_sha256": "aa8aeb79e50ab9fb45212a16bfc7c8a9f2f09f35e905828221d4663a2b45031a",
+    "narration_duration_seconds": 55.0,
+    "paced_speech_end_seconds": 49.09075,
+    "script_sha256": "424e5b8ace00ef3454e5edc32a6e299f40c26b193cb898a27620bb130370bba1",
+    "spoken_words": 141,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9776598870331514,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 49.090750s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 55-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 48.92,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "An object built from thin layers",
+      "start": 0.0,
+      "end": 5.92
+    },
+    {
+      "id": "slice",
+      "title": "Software plans each layer",
+      "start": 5.92,
+      "end": 17.58
+    },
+    {
+      "id": "heat",
+      "title": "The nozzle prepares the filament",
+      "start": 17.58,
+      "end": 22.04
+    },
+    {
+      "id": "extrude",
+      "title": "The printer deposits and cools a layer",
+      "start": 22.04,
+      "end": 32.8
+    },
+    {
+      "id": "stack",
+      "title": "Layers stack and bond",
+      "start": 32.8,
+      "end": 42.7
+    },
+    {
+      "id": "closing",
+      "title": "From digital model to solid object",
+      "start": 42.7,
+      "end": 55.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-build",
+      "scene": "hook",
+      "text": "A 3D printer builds a solid object by depositing material one thin layer at a time.",
+      "speak": "A 3D printer builds a solid object by depositing material one thin layer at a time.",
+      "start": 0.7,
+      "end": 6.04,
+      "duration": 5.34
+    },
+    {
+      "id": "slice-model",
+      "scene": "slice",
+      "text": "First, slicing software divides a digital 3D model into a stack of printable layers.",
+      "speak": "First, slicing software divides a digital 3D model into a stack of printable layers.",
+      "start": 6.42,
+      "end": 11.32,
+      "duration": 4.9
+    },
+    {
+      "id": "slice-path",
+      "scene": "slice",
+      "text": "For each layer, the slicer calculates the nozzle's path around the outer walls and through the inner structure.",
+      "speak": "For each layer, the slicer calculates the nozzle's path around the outer walls and through the inner structure.",
+      "start": 11.88,
+      "end": 17.46,
+      "duration": 5.58
+    },
+    {
+      "id": "heat-filament",
+      "scene": "heat",
+      "text": "The printer heats the nozzle until the plastic filament can flow through its tip.",
+      "speak": "The printer heats the nozzle until the plastic filament can flow through its tip.",
+      "start": 18.08,
+      "end": 21.84,
+      "duration": 3.76
+    },
+    {
+      "id": "extrude-path",
+      "scene": "extrude",
+      "text": "Motors drive the nozzle along the calculated path while it extrudes a thin bead of melted plastic.",
+      "speak": "Motors drive the nozzle along the calculated path while it extrudes a thin bead of melted plastic.",
+      "start": 22.54,
+      "end": 27.82,
+      "duration": 5.28
+    },
+    {
+      "id": "extrude-cool",
+      "scene": "extrude",
+      "text": "The deposited plastic cools and solidifies, forming the current layer of your object.",
+      "speak": "The deposited plastic cools and solidifies, forming the current layer of your object.",
+      "start": 27.82,
+      "end": 32.68,
+      "duration": 4.86
+    },
+    {
+      "id": "stack-next",
+      "scene": "stack",
+      "text": "The nozzle then rises by one layer height, or the bed lowers, and the printer repeats the process.",
+      "speak": "The nozzle then rises by one layer height, or the bed lowers, and the printer repeats the process.",
+      "start": 33.3,
+      "end": 38.1,
+      "duration": 4.8
+    },
+    {
+      "id": "stack-bond",
+      "scene": "stack",
+      "text": "Each new layer fuses with the previous one, gradually building a solid shape.",
+      "speak": "Each new layer fuses with the previous one, gradually building a solid shape.",
+      "start": 38.7,
+      "end": 42.68,
+      "duration": 3.98
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So a 3D printer turns a digital model into an object through repeated extrusion, cooling, and layer bonding.",
+      "speak": "So a 3D printer turns a digital model into an object through repeated extrusion, cooling, and layer bonding.",
+      "start": 43.2,
+      "end": 48.92,
+      "duration": 5.72
+    }
+  ]
+}
