@@ -30,6 +30,18 @@ FFMPEG = os.environ.get("FFMPEG_BIN", "ffmpeg")
 # QA subsequently measures the delivered narration offset instead of assuming it.
 PRE_FILTER = "atrim=start=0.048,asetpts=PTS-STARTPTS,highpass=f=70,alimiter=limit=0.841395:level=false"
 LOUDNESS = "loudnorm=I=-16:TP=-2.0:LRA=11"
+REMOVED = (
+    'how-touchscreens-sense-your-finger.mp4',
+    'how-qr-codes-survive-damage.mp4',
+    'how-wireless-charging-works.mp4',
+    'how-fingerprint-sensors-recognize-you.mp4',
+    'how-noise-cancelling-headphones-work.mp4',
+    'how-a-microwave-oven-heats-food.mp4',
+    'how-a-camera-turns-light-into-a-photo.mp4',
+    'how-a-speaker-turns-electricity-into-sound.mp4',
+    'how-a-lithium-battery-powers-your-phone.mp4',
+    'how-an-optical-mouse-tracks-movement.mp4',
+)
 PRESERVED = {'how-a-3d-printer-builds-an-object.mp4': 'e0094b7f44e3a9c29a4af465658d2b7e0bf49e40f3c903b72eb67588616f726c', 'how-a-hard-drive-finds-your-files.mp4': 'af5e87436daaac94ab68fdb2e37f77a00a5fb57fe3ad5a33df68cf2fd0ff57ef', 'how-a-heat-pump-warms-your-home.mp4': 'a90b6dbc8141e58bd996ef213ba07da70852578a2059b569af70486eb01725a7', 'how-a-mechanical-watch-keeps-time.mp4': '887d082a0d79fea3abf7a409cc383f3cfd19764ed521af66515fdf1ea5b0c143', 'how-a-solar-panel-turns-sunlight-into-electricity.mp4': 'd1d15732e9b5c0345b1386cb115fa5059aba871e87c66b0c761fd9813feef7b1', 'how-a-transformer-changes-voltage.mp4': 'baa691c774678b193ecb641ad2643b3088360427e7b435f8d09e1995677b991c', 'how-an-accelerometer-counts-your-steps.mp4': 'db389543db0f7a4f4039632cd4e9533debd99b684f323fe552d9177591970395', 'how-an-airbag-protects-you-in-a-crash.mp4': '36b76b86ed68ec84a4eb5d4c0ebff5febfe54b0dad353918dfcbf64478351776', 'how-an-electric-motor-spins.mp4': '61219ffd5b9c0fc149741eee92dc948c7f9dbaa402a7f3665e93f344e1e9e910', 'how-an-ssd-remembers-without-power.mp4': '66f3b4fcad505ae9df10c6d18096fde7107063666a1d07647cee47d13c2c4c14', 'how-bluetooth-sends-music-to-headphones.mp4': '3ea382bf948d32b506d6975a8ec1b7c354e378f1659cd3ba1a07552b6049f338', 'how-face-unlock-recognizes-you.mp4': '714a0d6682f739633bc8495095fca550d69eb714372ac8b60b5c359983c02ba3', 'how-fiber-optics-carry-internet-data.mp4': '2a78d6d018d6b7c5bbc03a8cfd55a9fd589e31964d81b1f17ca6eab423b513a5', 'how-gps-finds-you.mp4': '3c50813629ad228ae8951a1586b42d943a150112fc95976819d83a9e4e527a6c', 'how-radar-finds-distant-objects.mp4': 'b20721da9b774707120a7f747bba2b5a30c6c56fff178c8658bd5e1552454138', 'how-wifi-sends-data-through-air.mp4': '100b7a0dcad872cc89ed9ac71650ca589c4139fef14519051007a4756ffc8677', 'how-zip-files-make-data-smaller.mp4': 'a26a658fc0e31c4ae4c973014309020e97342664385f43100a9b421c0ad07c91'}
 
 
@@ -64,6 +76,10 @@ def assert_preserved() -> None:
         path = ROOT / "RESULT" / filename
         if not path.is_file() or sha(path) != expected:
             raise RuntimeError(f"Existing delivery changed or missing: {path}")
+    for filename in REMOVED:
+        path = ROOT / "RESULT" / filename
+        if path.exists():
+            raise RuntimeError(f"Intentionally removed delivery was restored: {path}")
 
 
 def master_one(project: dict) -> None:
@@ -189,6 +205,9 @@ def decode_and_sample(path: Path, project: dict, beats: dict) -> tuple[dict, lis
         (min(expected_frames - 1, round((line["end"] - 0.35) * fps)), f"{line['id']}-late")
         for line in beats["vo"] if line["id"] in {"valve-control", "safety-release"}
     ]
+    # Keep contact sheets chronological even when a targeted late-action sample
+    # falls between the penultimate and closing narration beats.
+    sample_specs.sort(key=lambda item: item[0])
     sample_specs.append((expected_frames - 15, "outro"))
     targets = dict(sample_specs)
     if len(targets) != len(sample_specs):
@@ -285,6 +304,8 @@ def decode_and_sample(path: Path, project: dict, beats: dict) -> tuple[dict, lis
 def qa_one(project: dict) -> dict:
     short_root = ROOT / "shorts" / project["id"]
     beats = json.loads((short_root / "beats.json").read_text())
+    if beats["aiSpeech"]["voice_id"] != "voice-00" or not beats["aiSpeech"]["normalized_script_match"]:
+        raise RuntimeError(f"Selected-voice or exact-script narration lineage failed for {project['id']}")
     transcription = json.loads((short_root / "transcription-voice-00.json").read_text())
     sfx = json.loads((short_root / "sfx-plan.json").read_text())
     delivered = ROOT / "RESULT" / project["result"]
@@ -367,6 +388,8 @@ def qa_one(project: dict) -> dict:
             "typescript": "npx tsc --noEmit passed in remotion/",
             "delivery_and_production_copy_sha256_match": True,
             "retained_results_sha256_unchanged": True,
+            "ten_intentionally_removed_result_masters_absent": True,
+            "selected_voice_00_and_exact_normalized_script_match": True,
             "top_left_title_and_top_right_duration_removed": True,
             "focus_guidance_system_present": True,
             "result_first_narration_onset_within_300ms": True,
@@ -375,7 +398,7 @@ def qa_one(project: dict) -> dict:
         "visual_review": {
             "status": "pending",
             "samples": visual_samples,
-            "required": "Review frame zero, every narration-clause onset and midpoint, plus the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+            "required": "Review frame zero, every narration-clause onset and midpoint, targeted late hydraulic-valve/pressure-release actions, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
         },
         "delivery": {
             "github_path": f"RESULT/{project['result']}",
@@ -401,7 +424,10 @@ def write_summary(projects: list[dict], reports: list[dict]) -> None:
         "voice": "voice-00",
         "caption_progress_line": False,
         "delivered_narration_offset_limit_seconds": 0.012,
+        "total_decoded_frames": sum(report["video"]["decoded_frames"] for report in reports),
+        "total_actual_mp4_samples": sum(report["validation"]["narration_beat_samples_extracted"] for report in reports),
         "preserved_results": PRESERVED,
+        "removed_results_confirmed_absent": list(REMOVED),
         "videos": [
             {
                 "file": f"RESULT/{project['result']}",

@@ -109,7 +109,7 @@ def write_script(project: dict, beats: dict, sfx: dict, qa: dict) -> None:
         f"- **Synchronization:** `faster-whisper medium.en` word timestamps on the exact master match the complete normalized script. Mean raw ASR word confidence is {qa['transcription']['mean_word_probability'] * 100:.2f}%.",
         f"- **Caption treatment:** {len(beats['vo'])} complete clauses fade in and out. There is no moving underline, progress bar, per-caption timer, or word-pop animation.", "",
         "## Sound and provenance", "",
-        "- Original code-drawn SVG/CSS artwork created for this topic; no GPS, ANC, aquatic-life, stock-footage, or third-party logo material is reused.",
+        "- Original code-drawn SVG/CSS artwork created for this topic; no stock footage, third-party logos, or external raster artwork is reused.",
         f"- `{sfx['music']['id']}` instrumental bed, ducked beneath narration and faded out during the trimmed ending; {len(sfx['events'])} quiet catalog cues support meaningful reveals only.",
         f"- Existing music and sound-effect catalog provenance is retained. {asset_note}", "",
         "## Final master and QA", "",
@@ -123,7 +123,7 @@ def write_script(project: dict, beats: dict, sfx: dict, qa: dict) -> None:
         f"- **Size:** {qa['bytes']:,} bytes.",
         f"- **SHA-256:** `{qa['sha256']}`.",
         f"- **MD5:** `{qa['md5']}`.",
-        f"- **Visual review:** Passed on the actual delivered MP4 at frame zero, every narration-clause onset and midpoint, targeted late control actions, and the outro ({qa['validation']['narration_beat_samples_extracted']} ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.",
+        f"- **Visual review:** Passed on the actual delivered MP4 at frame zero, every narration-clause onset and midpoint, targeted late control actions where applicable, and the outro ({qa['validation']['narration_beat_samples_extracted']} ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.",
         "- **Existing versions:** All seventeen retained delivery hashes are verified unchanged, and existing Drive deliverables are left untouched.", "",
     ])
     (ROOT / "shorts" / project["id"] / "script.md").write_text("\n".join(lines))

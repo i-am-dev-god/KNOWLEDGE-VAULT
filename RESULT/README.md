@@ -285,3 +285,88 @@ Production and QA: [`script.md`](../shorts/short-39-radar/script.md) · [`qa.jso
 **SHA-256:** `887d082a0d79fea3abf7a409cc383f3cfd19764ed521af66515fdf1ea5b0c143`
 
 Production and QA: [`script.md`](../shorts/short-40-mechanical-watch/script.md) · [`qa.json`](../shorts/short-40-mechanical-watch/qa.json)
+
+## How an Induction Cooktop Heats a Pan
+
+**Finished video:** [how-an-induction-cooktop-heats-a-pan.mp4](how-an-induction-cooktop-heats-a-pan.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 39.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.929355512×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,170-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.13 LUFS; true peak -1.90 dBTP; measured narration offset -1 ms
+
+**Size:** 12,083,731 bytes
+
+**SHA-256:** `5d51a534d58780eda8e74a882eea018d13c19ef24936fde1679951ee3198163c`
+
+Production and QA: [`script.md`](../shorts/short-41-induction-cooktop/script.md) · [`qa.json`](../shorts/short-41-induction-cooktop/qa.json)
+
+## How a Smoke Detector Senses Smoke
+
+**Finished video:** [how-a-smoke-detector-senses-smoke.mp4](how-a-smoke-detector-senses-smoke.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 43.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.921483117×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,305-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.14 LUFS; true peak -1.95 dBTP; measured narration offset -1 ms
+
+**Size:** 11,016,479 bytes
+
+**SHA-256:** `016640322581d4788c63b8cb91e088eca678eac9957365c68da802e9d232651a`
+
+Production and QA: [`script.md`](../shorts/short-42-smoke-detector/script.md) · [`qa.json`](../shorts/short-42-smoke-detector/qa.json)
+
+## How a Hydraulic Lift Raises a Car
+
+**Finished video:** [how-a-hydraulic-lift-raises-a-car.mp4](how-a-hydraulic-lift-raises-a-car.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 43.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.927124068×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,305-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.06 LUFS; true peak -1.91 dBTP; measured narration offset 0 ms
+
+**Size:** 9,228,229 bytes
+
+**SHA-256:** `b0ded3e9b9cef622c35fbae0080292cc163775fbe609b541109a95d9d5b2358a`
+
+Production and QA: [`script.md`](../shorts/short-43-hydraulic-lift/script.md) · [`qa.json`](../shorts/short-43-hydraulic-lift/qa.json)
+
+## How a Pressure Cooker Cooks Faster
+
+**Finished video:** [how-a-pressure-cooker-cooks-faster.mp4](how-a-pressure-cooker-cooks-faster.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 40.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.919117458×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,200-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.09 LUFS; true peak -1.88 dBTP; measured narration offset 0 ms
+
+**Size:** 9,593,078 bytes
+
+**SHA-256:** `a72b57877c4f6dad9a3eab5f70875f14dbb0b6cd5a7bf183b981d79d85e5d28f`
+
+Production and QA: [`script.md`](../shorts/short-44-pressure-cooker/script.md) · [`qa.json`](../shorts/short-44-pressure-cooker/qa.json)
+
+## How an Electric Kettle Switches Off
+
+**Finished video:** [how-an-electric-kettle-switches-off.mp4](how-an-electric-kettle-switches-off.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 36.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.921431807×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 4 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,080-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.11 LUFS; true peak -1.94 dBTP; measured narration offset 0 ms
+
+**Size:** 7,465,843 bytes
+
+**SHA-256:** `11c1f7a9541fe24db6ee23c2c2c60e2914b163eafc837d84e8bd1ce736916189`
+
+Production and QA: [`script.md`](../shorts/short-45-electric-kettle/script.md) · [`qa.json`](../shorts/short-45-electric-kettle/qa.json)
