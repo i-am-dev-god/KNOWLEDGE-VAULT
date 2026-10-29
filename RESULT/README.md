@@ -370,3 +370,88 @@ Production and QA: [`script.md`](../shorts/short-44-pressure-cooker/script.md) �
 **SHA-256:** `11c1f7a9541fe24db6ee23c2c2c60e2914b163eafc837d84e8bd1ce736916189`
 
 Production and QA: [`script.md`](../shorts/short-45-electric-kettle/script.md) · [`qa.json`](../shorts/short-45-electric-kettle/qa.json)
+
+## How a Vacuum Cleaner Pulls Up Dirt
+
+**Finished video:** [how-a-vacuum-cleaner-pulls-up-dirt.mp4](how-a-vacuum-cleaner-pulls-up-dirt.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 42.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.910459910×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,260-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.10 LUFS; true peak -1.75 dBTP; measured narration offset 0 ms
+
+**Size:** 12,145,432 bytes
+
+**SHA-256:** `9902fd35fb1268de23cc0f8431bedb60294e5c6b2b841318d58e57e9641b48d4`
+
+Production and QA: [`script.md`](../shorts/short-46-vacuum-cleaner/script.md) · [`qa.json`](../shorts/short-46-vacuum-cleaner/qa.json)
+
+## How a Digital Scale Measures Weight
+
+**Finished video:** [how-a-digital-scale-measures-weight.mp4](how-a-digital-scale-measures-weight.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 40.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.916207224×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,215-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.08 LUFS; true peak -1.99 dBTP; measured narration offset 0 ms
+
+**Size:** 7,339,399 bytes
+
+**SHA-256:** `5ffb8e8fbbec290c026d5db1d30725e11bf4bee407321fde01011df1fa586606`
+
+Production and QA: [`script.md`](../shorts/short-47-digital-scale/script.md) · [`qa.json`](../shorts/short-47-digital-scale/qa.json)
+
+## How an Automatic Faucet Senses Your Hands
+
+**Finished video:** [how-an-automatic-faucet-senses-your-hands.mp4](how-an-automatic-faucet-senses-your-hands.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 39.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.910613351×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,185-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.17 LUFS; true peak -1.99 dBTP; measured narration offset 0 ms
+
+**Size:** 8,810,306 bytes
+
+**SHA-256:** `e113cdc62672e2378400afbfc272db13338c79bec1c10ce03e92f1893285c30f`
+
+Production and QA: [`script.md`](../shorts/short-48-automatic-faucet/script.md) · [`qa.json`](../shorts/short-48-automatic-faucet/qa.json)
+
+## How a Washing Machine Spins Water Out of Clothes
+
+**Finished video:** [how-a-washing-machine-spins-water-out-of-clothes.mp4](how-a-washing-machine-spins-water-out-of-clothes.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 40.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.917107403×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,200-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.00 LUFS; true peak -1.88 dBTP; measured narration offset 0 ms
+
+**Size:** 14,393,461 bytes
+
+**SHA-256:** `94bebb8f69b6fa0f49d18350889f6126db03f909f9f12414f587dd6a29673287`
+
+Production and QA: [`script.md`](../shorts/short-49-washing-machine/script.md) · [`qa.json`](../shorts/short-49-washing-machine/qa.json)
+
+## How an LED Bulb Makes Light
+
+**Finished video:** [how-an-led-bulb-makes-light.mp4](how-an-led-bulb-makes-light.mp4)
+
+- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- 45.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
+- User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.919359768×` with pitch preserved; never sped up
+- Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
+- Full 1,365-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
+- Integrated loudness -16.12 LUFS; true peak -1.84 dBTP; measured narration offset 0 ms
+
+**Size:** 11,232,203 bytes
+
+**SHA-256:** `89f82ac217f5001ed249f672e2289249136204bd7e8ac606d5853f02706fe1a4`
+
+Production and QA: [`script.md`](../shorts/short-50-led-bulb/script.md) · [`qa.json`](../shorts/short-50-led-bulb/qa.json)

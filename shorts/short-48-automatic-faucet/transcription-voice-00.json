@@ -1,0 +1,685 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "8b9c90029a49fac35a2334866010074ac0056f8e59687efa045d53c32c535a68",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Put your hands under this automatic faucet and water starts without a touch. A small infrared sensor near the spout detects that your hands are there. An infrared LED sends out pulses of light that people cannot see. With no hands nearby, that light travels away and little returns to the receiver. Your hands reflect some of the infrared light back toward the sensor. When the return signal is strong enough, a controller opens a solenoid valve. Remove your hands, the reflection disappears and the valve closes again. So the faucet turns reflected infrared light into water flow without touch.",
+  "mean_word_probability": 0.9765697865684827,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.9,
+      "text": "Put your hands under this automatic faucet and water starts without a touch.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " Put",
+          "probability": 0.9429035186767578
+        },
+        {
+          "start": 0.38,
+          "end": 0.64,
+          "word": " your",
+          "probability": 0.9905076026916504
+        },
+        {
+          "start": 0.64,
+          "end": 0.94,
+          "word": " hands",
+          "probability": 0.9790578484535217
+        },
+        {
+          "start": 0.94,
+          "end": 1.26,
+          "word": " under",
+          "probability": 0.9968035221099854
+        },
+        {
+          "start": 1.26,
+          "end": 1.48,
+          "word": " this",
+          "probability": 0.9834820032119751
+        },
+        {
+          "start": 1.48,
+          "end": 2.08,
+          "word": " automatic",
+          "probability": 0.982774019241333
+        },
+        {
+          "start": 2.08,
+          "end": 2.64,
+          "word": " faucet",
+          "probability": 0.9866036375363668
+        },
+        {
+          "start": 2.64,
+          "end": 3.04,
+          "word": " and",
+          "probability": 0.8266462087631226
+        },
+        {
+          "start": 3.04,
+          "end": 3.44,
+          "word": " water",
+          "probability": 0.9892982244491577
+        },
+        {
+          "start": 3.44,
+          "end": 3.94,
+          "word": " starts",
+          "probability": 0.9984095692634583
+        },
+        {
+          "start": 3.94,
+          "end": 4.38,
+          "word": " without",
+          "probability": 0.9870468378067017
+        },
+        {
+          "start": 4.38,
+          "end": 4.62,
+          "word": " a",
+          "probability": 0.9942149519920349
+        },
+        {
+          "start": 4.62,
+          "end": 4.9,
+          "word": " touch.",
+          "probability": 0.9992045760154724
+        }
+      ]
+    },
+    {
+      "start": 5.42,
+      "end": 9.6,
+      "text": "A small infrared sensor near the spout detects that your hands are there.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 5.42,
+          "end": 5.52,
+          "word": " A",
+          "probability": 0.9753478765487671
+        },
+        {
+          "start": 5.52,
+          "end": 5.94,
+          "word": " small",
+          "probability": 0.9976033568382263
+        },
+        {
+          "start": 5.94,
+          "end": 6.52,
+          "word": " infrared",
+          "probability": 0.9365168213844299
+        },
+        {
+          "start": 6.52,
+          "end": 6.98,
+          "word": " sensor",
+          "probability": 0.9968194961547852
+        },
+        {
+          "start": 6.98,
+          "end": 7.28,
+          "word": " near",
+          "probability": 0.9920454025268555
+        },
+        {
+          "start": 7.28,
+          "end": 7.48,
+          "word": " the",
+          "probability": 0.995305061340332
+        },
+        {
+          "start": 7.48,
+          "end": 7.84,
+          "word": " spout",
+          "probability": 0.9800310432910919
+        },
+        {
+          "start": 7.84,
+          "end": 8.44,
+          "word": " detects",
+          "probability": 0.9655468463897705
+        },
+        {
+          "start": 8.44,
+          "end": 8.72,
+          "word": " that",
+          "probability": 0.9958944320678711
+        },
+        {
+          "start": 8.72,
+          "end": 8.9,
+          "word": " your",
+          "probability": 0.9927080273628235
+        },
+        {
+          "start": 8.9,
+          "end": 9.18,
+          "word": " hands",
+          "probability": 0.9910422563552856
+        },
+        {
+          "start": 9.18,
+          "end": 9.36,
+          "word": " are",
+          "probability": 0.998823344707489
+        },
+        {
+          "start": 9.36,
+          "end": 9.6,
+          "word": " there.",
+          "probability": 0.9972865581512451
+        }
+      ]
+    },
+    {
+      "start": 10.1,
+      "end": 14.28,
+      "text": "An infrared LED sends out pulses of light that people cannot see.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 10.1,
+          "end": 10.26,
+          "word": " An",
+          "probability": 0.9908842444419861
+        },
+        {
+          "start": 10.26,
+          "end": 10.8,
+          "word": " infrared",
+          "probability": 0.9693608283996582
+        },
+        {
+          "start": 10.8,
+          "end": 11.3,
+          "word": " LED",
+          "probability": 0.9611319899559021
+        },
+        {
+          "start": 11.3,
+          "end": 11.8,
+          "word": " sends",
+          "probability": 0.9957156777381897
+        },
+        {
+          "start": 11.8,
+          "end": 12.04,
+          "word": " out",
+          "probability": 0.9975676536560059
+        },
+        {
+          "start": 12.04,
+          "end": 12.44,
+          "word": " pulses",
+          "probability": 0.9981562495231628
+        },
+        {
+          "start": 12.44,
+          "end": 12.72,
+          "word": " of",
+          "probability": 0.9986152648925781
+        },
+        {
+          "start": 12.72,
+          "end": 12.94,
+          "word": " light",
+          "probability": 0.9925222992897034
+        },
+        {
+          "start": 12.94,
+          "end": 13.26,
+          "word": " that",
+          "probability": 0.9912198185920715
+        },
+        {
+          "start": 13.26,
+          "end": 13.58,
+          "word": " people",
+          "probability": 0.99626225233078
+        },
+        {
+          "start": 13.58,
+          "end": 13.9,
+          "word": " cannot",
+          "probability": 0.9283703565597534
+        },
+        {
+          "start": 13.9,
+          "end": 14.28,
+          "word": " see.",
+          "probability": 0.9989323019981384
+        }
+      ]
+    },
+    {
+      "start": 14.86,
+      "end": 19.5,
+      "text": "With no hands nearby, that light travels away and little returns to the receiver.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 14.86,
+          "end": 15.02,
+          "word": " With",
+          "probability": 0.9915162324905396
+        },
+        {
+          "start": 15.02,
+          "end": 15.32,
+          "word": " no",
+          "probability": 0.9987413287162781
+        },
+        {
+          "start": 15.32,
+          "end": 15.64,
+          "word": " hands",
+          "probability": 0.9958177208900452
+        },
+        {
+          "start": 15.64,
+          "end": 16.1,
+          "word": " nearby,",
+          "probability": 0.9860559701919556
+        },
+        {
+          "start": 16.52,
+          "end": 16.62,
+          "word": " that",
+          "probability": 0.9871029257774353
+        },
+        {
+          "start": 16.62,
+          "end": 16.88,
+          "word": " light",
+          "probability": 0.9964156150817871
+        },
+        {
+          "start": 16.88,
+          "end": 17.26,
+          "word": " travels",
+          "probability": 0.9981390237808228
+        },
+        {
+          "start": 17.26,
+          "end": 17.64,
+          "word": " away",
+          "probability": 0.998206615447998
+        },
+        {
+          "start": 17.64,
+          "end": 18.04,
+          "word": " and",
+          "probability": 0.9617964625358582
+        },
+        {
+          "start": 18.04,
+          "end": 18.34,
+          "word": " little",
+          "probability": 0.9956884980201721
+        },
+        {
+          "start": 18.34,
+          "end": 18.8,
+          "word": " returns",
+          "probability": 0.9939080476760864
+        },
+        {
+          "start": 18.8,
+          "end": 19.04,
+          "word": " to",
+          "probability": 0.9976947903633118
+        },
+        {
+          "start": 19.04,
+          "end": 19.2,
+          "word": " the",
+          "probability": 0.9968260526657104
+        },
+        {
+          "start": 19.2,
+          "end": 19.5,
+          "word": " receiver.",
+          "probability": 0.9981175661087036
+        }
+      ]
+    },
+    {
+      "start": 20.2,
+      "end": 23.88,
+      "text": "Your hands reflect some of the infrared light back toward the sensor.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 20.2,
+          "end": 20.38,
+          "word": " Your",
+          "probability": 0.9864223003387451
+        },
+        {
+          "start": 20.38,
+          "end": 20.78,
+          "word": " hands",
+          "probability": 0.991534411907196
+        },
+        {
+          "start": 20.78,
+          "end": 21.24,
+          "word": " reflect",
+          "probability": 0.9724980592727661
+        },
+        {
+          "start": 21.24,
+          "end": 21.56,
+          "word": " some",
+          "probability": 0.9984204769134521
+        },
+        {
+          "start": 21.56,
+          "end": 21.68,
+          "word": " of",
+          "probability": 0.9927762746810913
+        },
+        {
+          "start": 21.68,
+          "end": 21.88,
+          "word": " the",
+          "probability": 0.995293915271759
+        },
+        {
+          "start": 21.88,
+          "end": 22.26,
+          "word": " infrared",
+          "probability": 0.9931870698928833
+        },
+        {
+          "start": 22.26,
+          "end": 22.6,
+          "word": " light",
+          "probability": 0.9934686422348022
+        },
+        {
+          "start": 22.6,
+          "end": 22.98,
+          "word": " back",
+          "probability": 0.9947861433029175
+        },
+        {
+          "start": 22.98,
+          "end": 23.32,
+          "word": " toward",
+          "probability": 0.7294134497642517
+        },
+        {
+          "start": 23.32,
+          "end": 23.56,
+          "word": " the",
+          "probability": 0.9955505132675171
+        },
+        {
+          "start": 23.56,
+          "end": 23.88,
+          "word": " sensor.",
+          "probability": 0.9975824356079102
+        }
+      ]
+    },
+    {
+      "start": 24.44,
+      "end": 28.72,
+      "text": "When the return signal is strong enough, a controller opens a solenoid valve.",
+      "avg_logprob": -0.06612890536108842,
+      "no_speech_prob": 0.0018974242266267538,
+      "words": [
+        {
+          "start": 24.44,
+          "end": 24.62,
+          "word": " When",
+          "probability": 0.9956443309783936
+        },
+        {
+          "start": 24.62,
+          "end": 24.8,
+          "word": " the",
+          "probability": 0.9966663718223572
+        },
+        {
+          "start": 24.8,
+          "end": 25.12,
+          "word": " return",
+          "probability": 0.9590783715248108
+        },
+        {
+          "start": 25.12,
+          "end": 25.46,
+          "word": " signal",
+          "probability": 0.9973766803741455
+        },
+        {
+          "start": 25.46,
+          "end": 25.66,
+          "word": " is",
+          "probability": 0.9990966320037842
+        },
+        {
+          "start": 25.66,
+          "end": 26.0,
+          "word": " strong",
+          "probability": 0.9989757537841797
+        },
+        {
+          "start": 26.0,
+          "end": 26.3,
+          "word": " enough,",
+          "probability": 0.9989014863967896
+        },
+        {
+          "start": 26.6,
+          "end": 26.78,
+          "word": " a",
+          "probability": 0.9930197596549988
+        },
+        {
+          "start": 26.78,
+          "end": 27.2,
+          "word": " controller",
+          "probability": 0.9969307780265808
+        },
+        {
+          "start": 27.2,
+          "end": 27.68,
+          "word": " opens",
+          "probability": 0.998924195766449
+        },
+        {
+          "start": 27.68,
+          "end": 27.94,
+          "word": " a",
+          "probability": 0.9857149720191956
+        },
+        {
+          "start": 27.94,
+          "end": 28.42,
+          "word": " solenoid",
+          "probability": 0.9984947244326273
+        },
+        {
+          "start": 28.42,
+          "end": 28.72,
+          "word": " valve.",
+          "probability": 0.9972234964370728
+        }
+      ]
+    },
+    {
+      "start": 28.72,
+      "end": 33.22,
+      "text": "Remove your hands, the reflection disappears and the valve closes again.",
+      "avg_logprob": -0.1944282560637503,
+      "no_speech_prob": 0.005427014082670212,
+      "words": [
+        {
+          "start": 28.72,
+          "end": 29.56,
+          "word": " Remove",
+          "probability": 0.905361533164978
+        },
+        {
+          "start": 29.56,
+          "end": 29.84,
+          "word": " your",
+          "probability": 0.9841894507408142
+        },
+        {
+          "start": 29.84,
+          "end": 30.12,
+          "word": " hands,",
+          "probability": 0.9783892631530762
+        },
+        {
+          "start": 30.44,
+          "end": 30.52,
+          "word": " the",
+          "probability": 0.9700254201889038
+        },
+        {
+          "start": 30.52,
+          "end": 30.92,
+          "word": " reflection",
+          "probability": 0.9858048558235168
+        },
+        {
+          "start": 30.92,
+          "end": 31.44,
+          "word": " disappears",
+          "probability": 0.9918014407157898
+        },
+        {
+          "start": 31.44,
+          "end": 31.92,
+          "word": " and",
+          "probability": 0.8269095420837402
+        },
+        {
+          "start": 31.92,
+          "end": 32.06,
+          "word": " the",
+          "probability": 0.9865108728408813
+        },
+        {
+          "start": 32.06,
+          "end": 32.3,
+          "word": " valve",
+          "probability": 0.9699769616127014
+        },
+        {
+          "start": 32.3,
+          "end": 32.72,
+          "word": " closes",
+          "probability": 0.997811496257782
+        },
+        {
+          "start": 32.72,
+          "end": 33.22,
+          "word": " again.",
+          "probability": 0.9919244647026062
+        }
+      ]
+    },
+    {
+      "start": 33.76,
+      "end": 38.36,
+      "text": "So the faucet turns reflected infrared light into water flow without touch.",
+      "avg_logprob": -0.1944282560637503,
+      "no_speech_prob": 0.005427014082670212,
+      "words": [
+        {
+          "start": 33.76,
+          "end": 33.82,
+          "word": " So",
+          "probability": 0.9830729961395264
+        },
+        {
+          "start": 33.82,
+          "end": 34.02,
+          "word": " the",
+          "probability": 0.6960057616233826
+        },
+        {
+          "start": 34.02,
+          "end": 34.42,
+          "word": " faucet",
+          "probability": 0.9329679210980734
+        },
+        {
+          "start": 34.42,
+          "end": 34.74,
+          "word": " turns",
+          "probability": 0.9959964752197266
+        },
+        {
+          "start": 34.74,
+          "end": 35.36,
+          "word": " reflected",
+          "probability": 0.9314197897911072
+        },
+        {
+          "start": 35.36,
+          "end": 35.9,
+          "word": " infrared",
+          "probability": 0.9687568545341492
+        },
+        {
+          "start": 35.9,
+          "end": 36.28,
+          "word": " light",
+          "probability": 0.9915538430213928
+        },
+        {
+          "start": 36.28,
+          "end": 36.64,
+          "word": " into",
+          "probability": 0.9897080659866333
+        },
+        {
+          "start": 36.64,
+          "end": 37.06,
+          "word": " water",
+          "probability": 0.979176938533783
+        },
+        {
+          "start": 37.06,
+          "end": 37.44,
+          "word": " flow",
+          "probability": 0.9214403629302979
+        },
+        {
+          "start": 37.44,
+          "end": 37.9,
+          "word": " without",
+          "probability": 0.9398967623710632
+        },
+        {
+          "start": 37.9,
+          "end": 38.36,
+          "word": " touch.",
+          "probability": 0.9946075081825256
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "defaults": {
+    "duration_s": 42.0,
+    "initial_silence_s": 0.15,
+    "target_voice_end_s": 41.1,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-46-vacuum-cleaner",
+      "slug": "vacuum-cleaner",
+      "title": "How a Vacuum Cleaner Pulls Up Dirt",
+      "composition": "Short46VacuumCleaner",
+      "result": "how-a-vacuum-cleaner-pulls-up-dirt.mp4",
+      "duration_s": 42.0,
+      "target_voice_end_s": 41.1,
+      "prompt": "Vacuum cleaner. Nozzle. Fan. Air pressure. Airflow. Dust. Cyclone. Filter. Collection bin.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-pickup",
+          "scene": "hook",
+          "text": "This vacuum cleaner lifts dirt from the floor and carries it into a collection bin."
+        },
+        {
+          "id": "hook-airflow",
+          "scene": "hook",
+          "text": "It does this by creating a continuous airflow, not by pulling on each particle directly."
+        },
+        {
+          "id": "fan-motor",
+          "scene": "fan",
+          "text": "An electric motor spins a fan that pushes air out of the cleaner."
+        },
+        {
+          "id": "fan-pressure",
+          "scene": "fan",
+          "text": "That lowers the air pressure inside, so room air rushes in through the nozzle."
+        },
+        {
+          "id": "path-carry",
+          "scene": "path",
+          "text": "The moving air carries loose dust and debris along the suction path."
+        },
+        {
+          "id": "path-separate",
+          "scene": "path",
+          "text": "A cyclone or filter separates the dirt from that air before the air leaves the machine."
+        },
+        {
+          "id": "filter-maintenance",
+          "scene": "filter",
+          "text": "A clogged filter restricts airflow, which is why cleaning it can restore cleaning performance."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the fan starts an airflow, and the moving air transports dirt into the vacuum."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Airflow carries dirt into the vacuum"
+        ],
+        [
+          "fan",
+          "The fan creates a pressure difference"
+        ],
+        [
+          "path",
+          "Moving air transports and separates dirt"
+        ],
+        [
+          "filter",
+          "Clean filters preserve airflow"
+        ],
+        [
+          "closing",
+          "Fan, airflow, and collection form one chain"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-airflow",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the suction airflow"
+        },
+        {
+          "sync_source": "fan-motor",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Start the motor and fan"
+        },
+        {
+          "sync_source": "path-separate",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Separate dirt from air"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the airflow chain"
+        }
+      ]
+    },
+    {
+      "id": "short-47-digital-scale",
+      "slug": "digital-scale",
+      "title": "How a Digital Scale Measures Weight",
+      "composition": "Short47DigitalScale",
+      "result": "how-a-digital-scale-measures-weight.mp4",
+      "duration_s": 40.5,
+      "target_voice_end_s": 39.6,
+      "prompt": "Digital weighing scale. Load cell. Strain gauge. Resistance. Voltage. Amplifier. Digital reading. Calibration. Tare.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-reading",
+          "scene": "hook",
+          "text": "Place an object on this digital scale, and its weight appears as a number."
+        },
+        {
+          "id": "hook-bend",
+          "scene": "hook",
+          "text": "Inside, the platform bends a tiny metal element by an extremely small amount."
+        },
+        {
+          "id": "loadcell-cell",
+          "scene": "loadcell",
+          "text": "That element is a load cell, built to deform predictably under force."
+        },
+        {
+          "id": "loadcell-gauges",
+          "scene": "loadcell",
+          "text": "Thin strain gauges attached to it stretch or compress along with the metal."
+        },
+        {
+          "id": "signal-resistance",
+          "scene": "signal",
+          "text": "Their electrical resistance changes, producing a small voltage signal."
+        },
+        {
+          "id": "signal-digital",
+          "scene": "signal",
+          "text": "The scale's electronics amplify and convert that signal into a digital reading."
+        },
+        {
+          "id": "use-tare",
+          "scene": "use",
+          "text": "Calibration relates the reading to weight units, while tare subtracts the container."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So a tiny mechanical bend becomes the number you see on the scale."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Weight becomes a tiny mechanical bend"
+        ],
+        [
+          "loadcell",
+          "The load cell deforms under force"
+        ],
+        [
+          "signal",
+          "Resistance becomes an electrical reading"
+        ],
+        [
+          "use",
+          "Calibration and tare make the reading useful"
+        ],
+        [
+          "closing",
+          "Mechanical strain becomes a number"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-bend",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the hidden load cell"
+        },
+        {
+          "sync_source": "loadcell-gauges",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Focus on the strain gauges"
+        },
+        {
+          "sync_source": "signal-digital",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Convert the signal to digits"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the weighing chain"
+        }
+      ]
+    },
+    {
+      "id": "short-48-automatic-faucet",
+      "slug": "automatic-faucet",
+      "title": "How an Automatic Faucet Senses Your Hands",
+      "composition": "Short48AutomaticFaucet",
+      "result": "how-an-automatic-faucet-senses-your-hands.mp4",
+      "duration_s": 39.5,
+      "target_voice_end_s": 38.6,
+      "prompt": "Automatic faucet. Infrared LED. Infrared receiver. Reflection. Hands. Controller. Solenoid valve. Water flow.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-water",
+          "scene": "hook",
+          "text": "Put your hands under this automatic faucet, and water starts without a touch."
+        },
+        {
+          "id": "hook-sensor",
+          "scene": "hook",
+          "text": "A small infrared sensor near the spout detects that your hands are there."
+        },
+        {
+          "id": "emit-pulses",
+          "scene": "emit",
+          "text": "An infrared LED sends out pulses of light that people cannot see."
+        },
+        {
+          "id": "emit-clear",
+          "scene": "emit",
+          "text": "With no hands nearby, that light travels away and little returns to the receiver."
+        },
+        {
+          "id": "reflect-hands",
+          "scene": "reflect",
+          "text": "Your hands reflect some of the infrared light back toward the sensor."
+        },
+        {
+          "id": "reflect-valve",
+          "scene": "reflect",
+          "text": "When the returned signal is strong enough, a controller opens a solenoid valve."
+        },
+        {
+          "id": "valve-remove",
+          "scene": "valve",
+          "text": "Remove your hands, the reflection disappears, and the valve closes again."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So the faucet turns reflected infrared light into water flow without touch."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Hands trigger water without touch"
+        ],
+        [
+          "emit",
+          "The sensor emits invisible infrared pulses"
+        ],
+        [
+          "reflect",
+          "Hands return light to the receiver"
+        ],
+        [
+          "valve",
+          "The solenoid valve starts and stops water"
+        ],
+        [
+          "closing",
+          "Reflected light becomes hands-free control"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-sensor",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the infrared sensor"
+        },
+        {
+          "sync_source": "emit-pulses",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Emit infrared pulses"
+        },
+        {
+          "sync_source": "reflect-valve",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Open the water valve"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the sensing chain"
+        }
+      ]
+    },
+    {
+      "id": "short-49-washing-machine",
+      "slug": "washing-machine",
+      "title": "How a Washing Machine Spins Water Out of Clothes",
+      "composition": "Short49WashingMachine",
+      "result": "how-a-washing-machine-spins-water-out-of-clothes.mp4",
+      "duration_s": 40.0,
+      "target_voice_end_s": 39.1,
+      "prompt": "Washing machine. Spin cycle. Drum. Wet clothes. Water. Inertia. Perforations. Outer tub. Drain pump. Balanced load.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-dry",
+          "scene": "hook",
+          "text": "This washing machine removes water from wet clothes by spinning the drum rapidly."
+        },
+        {
+          "id": "hook-retain",
+          "scene": "hook",
+          "text": "The clothes stay against the drum wall while water escapes."
+        },
+        {
+          "id": "spin-inward",
+          "scene": "spin",
+          "text": "The drum wall pushes inward on the clothes to keep them moving in a circle."
+        },
+        {
+          "id": "spin-water",
+          "scene": "spin",
+          "text": "Water is not held in the same way, so it can move outward through the fabric."
+        },
+        {
+          "id": "drain-holes",
+          "scene": "drain",
+          "text": "The drum's small holes let that water pass into the outer tub."
+        },
+        {
+          "id": "drain-pump",
+          "scene": "drain",
+          "text": "A pump then drains the water away while the clothes stay inside the perforated drum."
+        },
+        {
+          "id": "balance-load",
+          "scene": "balance",
+          "text": "A balanced load keeps the drum stable and lets it reach an effective spin speed."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So rotation, perforations, and drainage remove water without squeezing the clothes."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Spinning removes water from clothes"
+        ],
+        [
+          "spin",
+          "The drum guides clothes while water moves outward"
+        ],
+        [
+          "drain",
+          "Perforations and a pump remove the water"
+        ],
+        [
+          "balance",
+          "A balanced load enables a stable fast spin"
+        ],
+        [
+          "closing",
+          "Rotation and drainage dry the load"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-retain",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the spinning drum"
+        },
+        {
+          "sync_source": "spin-water",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Separate water from fabric"
+        },
+        {
+          "sync_source": "drain-pump",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Drain the extracted water"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the spin-drying chain"
+        }
+      ]
+    },
+    {
+      "id": "short-50-led-bulb",
+      "slug": "led-bulb",
+      "title": "How an LED Bulb Makes Light",
+      "composition": "Short50LedBulb",
+      "result": "how-an-led-bulb-makes-light.mp4",
+      "duration_s": 45.5,
+      "target_voice_end_s": 44.6,
+      "prompt": "LED bulb. Semiconductor. Driver. Direct current. Electrons. Holes. Junction. Photons. Phosphor. Diffuser. Heat sink.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-light",
+          "scene": "hook",
+          "text": "This LED bulb produces bright light while using much less power than an old incandescent bulb."
+        },
+        {
+          "id": "hook-chips",
+          "scene": "hook",
+          "text": "Its light comes from tiny semiconductor chips, not from a glowing metal filament."
+        },
+        {
+          "id": "driver-current",
+          "scene": "driver",
+          "text": "The bulb's driver changes household electricity into a controlled direct current."
+        },
+        {
+          "id": "junction-carriers",
+          "scene": "junction",
+          "text": "Inside each LED, electrons and holes move toward a junction in the semiconductor."
+        },
+        {
+          "id": "junction-photons",
+          "scene": "junction",
+          "text": "When they recombine, they release energy as photons, which are particles of light."
+        },
+        {
+          "id": "white-phosphor",
+          "scene": "white",
+          "text": "The chip's materials set the light's color, and a phosphor coating can create white light."
+        },
+        {
+          "id": "white-diffuse",
+          "scene": "white",
+          "text": "A diffuser spreads that light evenly, while the metal body carries heat away."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So controlled current powers semiconductor junctions that turn electrical energy directly into light."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Semiconductor chips make the light"
+        ],
+        [
+          "driver",
+          "The driver supplies controlled current"
+        ],
+        [
+          "junction",
+          "Recombining charges release photons"
+        ],
+        [
+          "white",
+          "Phosphor, diffusion, and cooling make a useful bulb"
+        ],
+        [
+          "closing",
+          "Electrical energy becomes light directly"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "hook-chips",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the semiconductor chips"
+        },
+        {
+          "sync_source": "driver-current",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Supply controlled current"
+        },
+        {
+          "sync_source": "junction-photons",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -23,
+          "cue": "Release photons at the junction"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the light-production chain"
+        }
+      ]
+    }
+  ]
+}

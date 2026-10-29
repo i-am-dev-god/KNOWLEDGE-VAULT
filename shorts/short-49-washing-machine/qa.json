@@ -1,0 +1,163 @@
+{
+  "file": "../../RESULT/how-a-washing-machine-spins-water-out-of-clothes.mp4",
+  "production_copy": "output/how-a-washing-machine-spins-water-out-of-clothes.mp4",
+  "status": "passed",
+  "bytes": 14393461,
+  "sha256": "94bebb8f69b6fa0f49d18350889f6126db03f909f9f12414f587dd6a29673287",
+  "md5": "df53d16252c1f179cc7321d2b63fd895",
+  "container_duration_seconds": 40.0,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 40.0,
+    "bit_rate": 2673758,
+    "decoded_frames": 1200
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 40.0,
+    "bit_rate": 195763,
+    "integrated_lufs": -16.0,
+    "true_peak_dbfs": -1.88,
+    "loudness_range_lu": 2.6,
+    "mean_volume_db": -19.0,
+    "max_volume_db": -1.9,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 8,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.15,
+    "asr_voice_end_seconds": 38.86,
+    "measured_speech_end_seconds": 39.089229,
+    "scenes": 5,
+    "sfx_cues": 4,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.40167,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.917107403,
+    "source_sped_up": false,
+    "spoken_words": 107,
+    "style": "Result-first opening payoff, immediate narration, content-adaptive duration, meaningful device motion, calm delivery, and a trimmed closing tail",
+    "initial_narration_onset_seconds": 0.15,
+    "closing_tail_after_asr_seconds": 1.14
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-49-washing-machine/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "6d4bc870e15eb135c31f5921fb8300a10ffe02564c4929f869f99232b34946c1",
+    "raw_duration_seconds": 36.12,
+    "trimmed_duration_seconds": 35.721333,
+    "tempo_rate": 0.917107403,
+    "requested_tempo_rate": 0.917107403,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.1,
+    "narration_file": "media/voiceovers/washing-machine/narration.wav",
+    "narration_sha256": "d6713aeb135f7a14bd6862c2d82fe4ab0003679aa18997aed86929f701c71789",
+    "narration_duration_seconds": 40.0,
+    "paced_speech_end_seconds": 39.089229,
+    "script_sha256": "3f3857f4ab091174808ff699017b623761f81dfc84894041d47508c3db4f5f98",
+    "spoken_words": 107,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.975206222860984,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.089229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.975206222860984,
+    "low_confidence_words": [
+      {
+        "start": 34.0,
+        "end": 34.72,
+        "word": " rotation,",
+        "probability": 0.2893446981906891
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 8,
+    "caption_midpoints_extracted": 8,
+    "narration_beat_samples_extracted": 19,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true,
+    "ten_intentionally_removed_result_masters_absent": true,
+    "selected_voice_00_and_exact_normalized_script_match": true,
+    "top_left_title_and_top_right_duration_removed": true,
+    "focus_guidance_system_present": true,
+    "result_first_narration_onset_within_300ms": true,
+    "trimmed_closing_tail_within_500_to_1600ms": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0000-first-frame.jpg",
+      "output/qa/0010-hook-dry-onset.jpg",
+      "output/qa/0077-hook-dry-mid.jpg",
+      "output/qa/0176-hook-retain-onset.jpg",
+      "output/qa/0217-hook-retain-mid.jpg",
+      "output/qa/0289-spin-inward-onset.jpg",
+      "output/qa/0342-spin-inward-mid.jpg",
+      "output/qa/0428-spin-water-onset.jpg",
+      "output/qa/0483-spin-water-mid.jpg",
+      "output/qa/0571-drain-holes-onset.jpg",
+      "output/qa/0621-drain-holes-mid.jpg",
+      "output/qa/0697-drain-pump-onset.jpg",
+      "output/qa/0765-drain-pump-mid.jpg",
+      "output/qa/0802-drain-pump-late.jpg",
+      "output/qa/0844-balance-load-onset.jpg",
+      "output/qa/0916-balance-load-mid.jpg",
+      "output/qa/1021-closing-summary-onset.jpg",
+      "output/qa/1091-closing-summary-mid.jpg",
+      "output/qa/1185-outro.jpg"
+    ],
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "reviewed_on": "2026-10-29",
+    "reviewed_samples": 19,
+    "review": "Immediate spin-drying payoff; inward wall force on clothes, outward water motion, perforations into the outer tub, a clearly visible drain-pump path with clothes retained, balanced-versus-unbalanced loads, and the closing extraction chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-washing-machine-spins-water-out-of-clothes.mp4",
+    "branch": "arena/e7d14043-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}

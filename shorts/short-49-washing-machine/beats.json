@@ -1,0 +1,148 @@
+{
+  "id": "short-49-washing-machine",
+  "title": "How a Washing Machine Spins Water Out of Clothes",
+  "composition": "Short49WashingMachine",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 40.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-49-washing-machine/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "6d4bc870e15eb135c31f5921fb8300a10ffe02564c4929f869f99232b34946c1",
+    "raw_duration_seconds": 36.12,
+    "trimmed_duration_seconds": 35.721333,
+    "tempo_rate": 0.917107403,
+    "requested_tempo_rate": 0.917107403,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.1,
+    "narration_file": "media/voiceovers/washing-machine/narration.wav",
+    "narration_sha256": "d6713aeb135f7a14bd6862c2d82fe4ab0003679aa18997aed86929f701c71789",
+    "narration_duration_seconds": 40.0,
+    "paced_speech_end_seconds": 39.089229,
+    "script_sha256": "3f3857f4ab091174808ff699017b623761f81dfc84894041d47508c3db4f5f98",
+    "spoken_words": 107,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.975206222860984,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.089229s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 40-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 38.86,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Spinning removes water from clothes",
+      "start": 0.0,
+      "end": 8.96
+    },
+    {
+      "id": "spin",
+      "title": "The drum guides clothes while water moves outward",
+      "start": 8.96,
+      "end": 18.36
+    },
+    {
+      "id": "drain",
+      "title": "Perforations and a pump remove the water",
+      "start": 18.36,
+      "end": 27.44
+    },
+    {
+      "id": "balance",
+      "title": "A balanced load enables a stable fast spin",
+      "start": 27.44,
+      "end": 33.36
+    },
+    {
+      "id": "closing",
+      "title": "Rotation and drainage dry the load",
+      "start": 33.36,
+      "end": 40.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-dry",
+      "scene": "hook",
+      "text": "This washing machine removes water from wet clothes by spinning the drum rapidly.",
+      "speak": "This washing machine removes water from wet clothes by spinning the drum rapidly.",
+      "start": 0.15,
+      "end": 5.0,
+      "duration": 4.85
+    },
+    {
+      "id": "hook-retain",
+      "scene": "hook",
+      "text": "The clothes stay against the drum wall while water escapes.",
+      "speak": "The clothes stay against the drum wall while water escapes.",
+      "start": 5.7,
+      "end": 8.74,
+      "duration": 3.04
+    },
+    {
+      "id": "spin-inward",
+      "scene": "spin",
+      "text": "The drum wall pushes inward on the clothes to keep them moving in a circle.",
+      "speak": "The drum wall pushes inward on the clothes to keep them moving in a circle.",
+      "start": 9.46,
+      "end": 13.34,
+      "duration": 3.88
+    },
+    {
+      "id": "spin-water",
+      "scene": "spin",
+      "text": "Water is not held in the same way, so it can move outward through the fabric.",
+      "speak": "Water is not held in the same way, so it can move outward through the fabric.",
+      "start": 14.08,
+      "end": 18.12,
+      "duration": 4.04
+    },
+    {
+      "id": "drain-holes",
+      "scene": "drain",
+      "text": "The drum's small holes let that water pass into the outer tub.",
+      "speak": "The drum's small holes let that water pass into the outer tub.",
+      "start": 18.86,
+      "end": 22.56,
+      "duration": 3.7
+    },
+    {
+      "id": "drain-pump",
+      "scene": "drain",
+      "text": "A pump then drains the water away while the clothes stay inside the perforated drum.",
+      "speak": "A pump then drains the water away while the clothes stay inside the perforated drum.",
+      "start": 23.04,
+      "end": 27.94,
+      "duration": 4.9
+    },
+    {
+      "id": "balance-load",
+      "scene": "balance",
+      "text": "A balanced load keeps the drum stable and lets it reach an effective spin speed.",
+      "speak": "A balanced load keeps the drum stable and lets it reach an effective spin speed.",
+      "start": 27.94,
+      "end": 33.14,
+      "duration": 5.2
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So rotation, perforations, and drainage remove water without squeezing the clothes.",
+      "speak": "So rotation, perforations, and drainage remove water without squeezing the clothes.",
+      "start": 33.86,
+      "end": 38.86,
+      "duration": 5.0
+    }
+  ]
+}

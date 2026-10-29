@@ -41,12 +41,17 @@ import Shot37, { compositionConfig as cfg37 } from './shots/short-42/Short42Smok
 import Shot38, { compositionConfig as cfg38 } from './shots/short-43/Short43HydraulicLift';
 import Shot39, { compositionConfig as cfg39 } from './shots/short-44/Short44PressureCooker';
 import Shot40, { compositionConfig as cfg40 } from './shots/short-45/Short45ElectricKettle';
-import Shot41, { compositionConfig as cfg41 } from './shots/short-5/Short5Monty';
-import Shot42, { compositionConfig as cfg42 } from './shots/short-6/Short6Sheet';
-import Shot43, { compositionConfig as cfg43 } from './shots/short-7/Short7Kids';
-import Shot44, { compositionConfig as cfg44 } from './shots/short-8/Short8Phish';
-import Shot45, { compositionConfig as cfg45 } from './shots/short-9/Short9Chords';
-import Shot46, { compositionConfig as cfg46 } from './shots/vox-1/Vox1Coffee';
+import Shot41, { compositionConfig as cfg41 } from './shots/short-46/Short46VacuumCleaner';
+import Shot42, { compositionConfig as cfg42 } from './shots/short-47/Short47DigitalScale';
+import Shot43, { compositionConfig as cfg43 } from './shots/short-48/Short48AutomaticFaucet';
+import Shot44, { compositionConfig as cfg44 } from './shots/short-49/Short49WashingMachine';
+import Shot45, { compositionConfig as cfg45 } from './shots/short-5/Short5Monty';
+import Shot46, { compositionConfig as cfg46 } from './shots/short-50/Short50LedBulb';
+import Shot47, { compositionConfig as cfg47 } from './shots/short-6/Short6Sheet';
+import Shot48, { compositionConfig as cfg48 } from './shots/short-7/Short7Kids';
+import Shot49, { compositionConfig as cfg49 } from './shots/short-8/Short8Phish';
+import Shot50, { compositionConfig as cfg50 } from './shots/short-9/Short9Chords';
+import Shot51, { compositionConfig as cfg51 } from './shots/vox-1/Vox1Coffee';
 
 export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot0 as React.FC, config: cfg0 },
@@ -96,4 +101,9 @@ export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot44 as React.FC, config: cfg44 },
   { Comp: Shot45 as React.FC, config: cfg45 },
   { Comp: Shot46 as React.FC, config: cfg46 },
+  { Comp: Shot47 as React.FC, config: cfg47 },
+  { Comp: Shot48 as React.FC, config: cfg48 },
+  { Comp: Shot49 as React.FC, config: cfg49 },
+  { Comp: Shot50 as React.FC, config: cfg50 },
+  { Comp: Shot51 as React.FC, config: cfg51 },
 ];

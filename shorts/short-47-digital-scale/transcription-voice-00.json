@@ -1,0 +1,635 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "f52b28d376d9d8bdf0e4566b1854dd9547b8cf3d0976caa11c78b415745d8c11",
+  "language": "en",
+  "language_probability": 1,
+  "text": "Place an object on this digital scale and its weight appears as a number. Inside, the platform bends a tiny metal element by an extremely small amount. That element is a load cell, built to deform predictably under force. Thin strain gauges attach to it, stretch or compress along with the metal. Their electrical resistance changes, producing a small voltage signal. The scale's electronics amplify and convert that signal into a digital reading. Calibration relates the reading to weight units, while tear subtracts the container. So a tiny mechanical bend becomes the number you see on the scale.",
+  "mean_word_probability": 0.9756199320157369,
+  "low_confidence_words": [
+    {
+      "start": 33.62,
+      "end": 34.0,
+      "word": " tear",
+      "probability": 0.39135271310806274
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Place an object on this digital scale and its weight appears as a number. Inside, the platform bends a tiny metal element by an extremely small amount. That element is a load cell, built to deform predictably under force. Thin strain gauges attach to it, stretch or compress along with the metal. Their electrical resistance changes, producing a small voltage signal. The scale's electronics amplify and convert that signal into a digital reading.",
+      "avg_logprob": -0.06751147547567432,
+      "no_speech_prob": 0.0008250386454164982,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " Place",
+          "probability": 0.9942029118537903
+        },
+        {
+          "start": 0.5,
+          "end": 0.78,
+          "word": " an",
+          "probability": 0.9952764511108398
+        },
+        {
+          "start": 0.78,
+          "end": 1.16,
+          "word": " object",
+          "probability": 0.9994311928749084
+        },
+        {
+          "start": 1.16,
+          "end": 1.42,
+          "word": " on",
+          "probability": 0.9983318448066711
+        },
+        {
+          "start": 1.42,
+          "end": 1.58,
+          "word": " this",
+          "probability": 0.9958916902542114
+        },
+        {
+          "start": 1.58,
+          "end": 2.02,
+          "word": " digital",
+          "probability": 0.99730384349823
+        },
+        {
+          "start": 2.02,
+          "end": 2.4,
+          "word": " scale",
+          "probability": 0.9986880421638489
+        },
+        {
+          "start": 2.4,
+          "end": 2.76,
+          "word": " and",
+          "probability": 0.7050592303276062
+        },
+        {
+          "start": 2.76,
+          "end": 2.92,
+          "word": " its",
+          "probability": 0.9690829515457153
+        },
+        {
+          "start": 2.92,
+          "end": 3.28,
+          "word": " weight",
+          "probability": 0.9969220757484436
+        },
+        {
+          "start": 3.28,
+          "end": 3.7,
+          "word": " appears",
+          "probability": 0.9966009855270386
+        },
+        {
+          "start": 3.7,
+          "end": 3.96,
+          "word": " as",
+          "probability": 0.9977454543113708
+        },
+        {
+          "start": 3.96,
+          "end": 4.14,
+          "word": " a",
+          "probability": 0.9953770637512207
+        },
+        {
+          "start": 4.14,
+          "end": 4.38,
+          "word": " number.",
+          "probability": 0.9987471103668213
+        },
+        {
+          "start": 5.1,
+          "end": 5.58,
+          "word": " Inside,",
+          "probability": 0.9963297247886658
+        },
+        {
+          "start": 5.92,
+          "end": 6.08,
+          "word": " the",
+          "probability": 0.9976102113723755
+        },
+        {
+          "start": 6.08,
+          "end": 6.56,
+          "word": " platform",
+          "probability": 0.9903566241264343
+        },
+        {
+          "start": 6.56,
+          "end": 7.04,
+          "word": " bends",
+          "probability": 0.9989797472953796
+        },
+        {
+          "start": 7.04,
+          "end": 7.42,
+          "word": " a",
+          "probability": 0.9981485605239868
+        },
+        {
+          "start": 7.42,
+          "end": 7.78,
+          "word": " tiny",
+          "probability": 0.9976546764373779
+        },
+        {
+          "start": 7.78,
+          "end": 8.12,
+          "word": " metal",
+          "probability": 0.9905368685722351
+        },
+        {
+          "start": 8.12,
+          "end": 8.58,
+          "word": " element",
+          "probability": 0.9995222091674805
+        },
+        {
+          "start": 8.58,
+          "end": 8.9,
+          "word": " by",
+          "probability": 0.9971777200698853
+        },
+        {
+          "start": 8.9,
+          "end": 9.06,
+          "word": " an",
+          "probability": 0.9976345300674438
+        },
+        {
+          "start": 9.06,
+          "end": 9.76,
+          "word": " extremely",
+          "probability": 0.9985944628715515
+        },
+        {
+          "start": 9.76,
+          "end": 10.18,
+          "word": " small",
+          "probability": 0.9995691180229187
+        },
+        {
+          "start": 10.18,
+          "end": 10.56,
+          "word": " amount.",
+          "probability": 0.9993137121200562
+        },
+        {
+          "start": 11.06,
+          "end": 11.36,
+          "word": " That",
+          "probability": 0.9928244352340698
+        },
+        {
+          "start": 11.36,
+          "end": 11.74,
+          "word": " element",
+          "probability": 0.9996277093887329
+        },
+        {
+          "start": 11.74,
+          "end": 11.98,
+          "word": " is",
+          "probability": 0.9991975426673889
+        },
+        {
+          "start": 11.98,
+          "end": 12.26,
+          "word": " a",
+          "probability": 0.9969756603240967
+        },
+        {
+          "start": 12.26,
+          "end": 12.5,
+          "word": " load",
+          "probability": 0.9691958427429199
+        },
+        {
+          "start": 12.5,
+          "end": 12.84,
+          "word": " cell,",
+          "probability": 0.9895831346511841
+        },
+        {
+          "start": 13.08,
+          "end": 13.3,
+          "word": " built",
+          "probability": 0.9975831508636475
+        },
+        {
+          "start": 13.3,
+          "end": 13.52,
+          "word": " to",
+          "probability": 0.9983407258987427
+        },
+        {
+          "start": 13.52,
+          "end": 13.96,
+          "word": " deform",
+          "probability": 0.9965554475784302
+        },
+        {
+          "start": 13.96,
+          "end": 14.62,
+          "word": " predictably",
+          "probability": 0.9779742360115051
+        },
+        {
+          "start": 14.62,
+          "end": 14.98,
+          "word": " under",
+          "probability": 0.9934242963790894
+        },
+        {
+          "start": 14.98,
+          "end": 15.44,
+          "word": " force.",
+          "probability": 0.9956913590431213
+        },
+        {
+          "start": 16.18,
+          "end": 16.42,
+          "word": " Thin",
+          "probability": 0.9964763522148132
+        },
+        {
+          "start": 16.42,
+          "end": 16.94,
+          "word": " strain",
+          "probability": 0.9932717680931091
+        },
+        {
+          "start": 16.94,
+          "end": 17.36,
+          "word": " gauges",
+          "probability": 0.9878516495227814
+        },
+        {
+          "start": 17.36,
+          "end": 17.7,
+          "word": " attach",
+          "probability": 0.6712472438812256
+        },
+        {
+          "start": 17.7,
+          "end": 18.02,
+          "word": " to",
+          "probability": 0.996670663356781
+        },
+        {
+          "start": 18.02,
+          "end": 18.14,
+          "word": " it,",
+          "probability": 0.9989678859710693
+        },
+        {
+          "start": 18.48,
+          "end": 18.7,
+          "word": " stretch",
+          "probability": 0.9990034699440002
+        },
+        {
+          "start": 18.7,
+          "end": 18.98,
+          "word": " or",
+          "probability": 0.7555407285690308
+        },
+        {
+          "start": 18.98,
+          "end": 19.48,
+          "word": " compress",
+          "probability": 0.99919193983078
+        },
+        {
+          "start": 19.48,
+          "end": 19.94,
+          "word": " along",
+          "probability": 0.9379758834838867
+        },
+        {
+          "start": 19.94,
+          "end": 20.22,
+          "word": " with",
+          "probability": 0.9985425472259521
+        },
+        {
+          "start": 20.22,
+          "end": 20.38,
+          "word": " the",
+          "probability": 0.9962866306304932
+        },
+        {
+          "start": 20.38,
+          "end": 20.6,
+          "word": " metal.",
+          "probability": 0.9988092184066772
+        },
+        {
+          "start": 21.12,
+          "end": 21.36,
+          "word": " Their",
+          "probability": 0.8897853493690491
+        },
+        {
+          "start": 21.36,
+          "end": 21.82,
+          "word": " electrical",
+          "probability": 0.9985981583595276
+        },
+        {
+          "start": 21.82,
+          "end": 22.34,
+          "word": " resistance",
+          "probability": 0.9746561050415039
+        },
+        {
+          "start": 22.34,
+          "end": 22.92,
+          "word": " changes,",
+          "probability": 0.9988092184066772
+        },
+        {
+          "start": 23.12,
+          "end": 23.42,
+          "word": " producing",
+          "probability": 0.9986923336982727
+        },
+        {
+          "start": 23.42,
+          "end": 23.64,
+          "word": " a",
+          "probability": 0.9980574250221252
+        },
+        {
+          "start": 23.64,
+          "end": 24.04,
+          "word": " small",
+          "probability": 0.9996511936187744
+        },
+        {
+          "start": 24.04,
+          "end": 24.52,
+          "word": " voltage",
+          "probability": 0.992229163646698
+        },
+        {
+          "start": 24.52,
+          "end": 24.9,
+          "word": " signal.",
+          "probability": 0.998840868473053
+        },
+        {
+          "start": 25.5,
+          "end": 25.74,
+          "word": " The",
+          "probability": 0.9961721301078796
+        },
+        {
+          "start": 25.74,
+          "end": 26.14,
+          "word": " scale's",
+          "probability": 0.961872786283493
+        },
+        {
+          "start": 26.14,
+          "end": 26.68,
+          "word": " electronics",
+          "probability": 0.9952955842018127
+        },
+        {
+          "start": 26.68,
+          "end": 27.36,
+          "word": " amplify",
+          "probability": 0.9959577918052673
+        },
+        {
+          "start": 27.36,
+          "end": 27.72,
+          "word": " and",
+          "probability": 0.9978943467140198
+        },
+        {
+          "start": 27.72,
+          "end": 28.12,
+          "word": " convert",
+          "probability": 0.9979549646377563
+        },
+        {
+          "start": 28.12,
+          "end": 28.42,
+          "word": " that",
+          "probability": 0.9941084384918213
+        },
+        {
+          "start": 28.42,
+          "end": 28.68,
+          "word": " signal",
+          "probability": 0.9983600974082947
+        },
+        {
+          "start": 28.68,
+          "end": 29.02,
+          "word": " into",
+          "probability": 0.9943972826004028
+        },
+        {
+          "start": 29.02,
+          "end": 29.26,
+          "word": " a",
+          "probability": 0.9956942796707153
+        },
+        {
+          "start": 29.26,
+          "end": 29.6,
+          "word": " digital",
+          "probability": 0.9985256791114807
+        },
+        {
+          "start": 29.6,
+          "end": 29.98,
+          "word": " reading.",
+          "probability": 0.9986281394958496
+        }
+      ]
+    },
+    {
+      "start": 30.84,
+      "end": 35.22,
+      "text": "Calibration relates the reading to weight units, while tear subtracts the container.",
+      "avg_logprob": -0.16651988650361696,
+      "no_speech_prob": 0.002046912908554077,
+      "words": [
+        {
+          "start": 30.84,
+          "end": 31.38,
+          "word": " Calibration",
+          "probability": 0.9759737054506937
+        },
+        {
+          "start": 31.38,
+          "end": 31.86,
+          "word": " relates",
+          "probability": 0.9950276017189026
+        },
+        {
+          "start": 31.86,
+          "end": 32.1,
+          "word": " the",
+          "probability": 0.9943675398826599
+        },
+        {
+          "start": 32.1,
+          "end": 32.3,
+          "word": " reading",
+          "probability": 0.9894987344741821
+        },
+        {
+          "start": 32.3,
+          "end": 32.54,
+          "word": " to",
+          "probability": 0.9990826845169067
+        },
+        {
+          "start": 32.54,
+          "end": 32.76,
+          "word": " weight",
+          "probability": 0.9507493376731873
+        },
+        {
+          "start": 32.76,
+          "end": 33.18,
+          "word": " units,",
+          "probability": 0.9954423904418945
+        },
+        {
+          "start": 33.44,
+          "end": 33.62,
+          "word": " while",
+          "probability": 0.9982155561447144
+        },
+        {
+          "start": 33.62,
+          "end": 34.0,
+          "word": " tear",
+          "probability": 0.39135271310806274
+        },
+        {
+          "start": 34.0,
+          "end": 34.68,
+          "word": " subtracts",
+          "probability": 0.9948076009750366
+        },
+        {
+          "start": 34.68,
+          "end": 34.8,
+          "word": " the",
+          "probability": 0.9982545971870422
+        },
+        {
+          "start": 34.8,
+          "end": 35.22,
+          "word": " container.",
+          "probability": 0.9964905381202698
+        }
+      ]
+    },
+    {
+      "start": 35.76,
+      "end": 39.44,
+      "text": "So a tiny mechanical bend becomes the number you see on the scale.",
+      "avg_logprob": -0.16651988650361696,
+      "no_speech_prob": 0.002046912908554077,
+      "words": [
+        {
+          "start": 35.76,
+          "end": 35.94,
+          "word": " So",
+          "probability": 0.9978836178779602
+        },
+        {
+          "start": 35.94,
+          "end": 36.16,
+          "word": " a",
+          "probability": 0.803048849105835
+        },
+        {
+          "start": 36.16,
+          "end": 36.54,
+          "word": " tiny",
+          "probability": 0.9965770840644836
+        },
+        {
+          "start": 36.54,
+          "end": 37.14,
+          "word": " mechanical",
+          "probability": 0.9650305509567261
+        },
+        {
+          "start": 37.14,
+          "end": 37.6,
+          "word": " bend",
+          "probability": 0.9942904710769653
+        },
+        {
+          "start": 37.6,
+          "end": 37.98,
+          "word": " becomes",
+          "probability": 0.989510715007782
+        },
+        {
+          "start": 37.98,
+          "end": 38.2,
+          "word": " the",
+          "probability": 0.997349739074707
+        },
+        {
+          "start": 38.2,
+          "end": 38.5,
+          "word": " number",
+          "probability": 0.9988903403282166
+        },
+        {
+          "start": 38.5,
+          "end": 38.68,
+          "word": " you",
+          "probability": 0.9940049052238464
+        },
+        {
+          "start": 38.68,
+          "end": 38.88,
+          "word": " see",
+          "probability": 0.9965421557426453
+        },
+        {
+          "start": 38.88,
+          "end": 39.04,
+          "word": " on",
+          "probability": 0.9976521134376526
+        },
+        {
+          "start": 39.04,
+          "end": 39.16,
+          "word": " the",
+          "probability": 0.991439700126648
+        },
+        {
+          "start": 39.16,
+          "end": 39.44,
+          "word": " scale.",
+          "probability": 0.9981902241706848
+        }
+      ]
+    }
+  ]
+}

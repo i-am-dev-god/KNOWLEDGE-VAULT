@@ -1,0 +1,155 @@
+{
+  "id": "short-48-automatic-faucet",
+  "title": "How an Automatic Faucet Senses Your Hands",
+  "composition": "Short48AutomaticFaucet",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 39.5
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-48-automatic-faucet/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "4f7868e8a7c783ab23602fd52bbdfa25fc4881f5f8e46df4340f44eeb6eaa191",
+    "raw_duration_seconds": 35.4,
+    "trimmed_duration_seconds": 35.013083,
+    "tempo_rate": 0.910613351,
+    "requested_tempo_rate": 0.910613351,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 38.6,
+    "narration_file": "media/voiceovers/automatic-faucet/narration.wav",
+    "narration_sha256": "8b9c90029a49fac35a2334866010074ac0056f8e59687efa045d53c32c535a68",
+    "narration_duration_seconds": 39.5,
+    "paced_speech_end_seconds": 38.580958,
+    "script_sha256": "650c6fa60a3342896652687560fd481470ddf753299f7a4e79f1c7213980525f",
+    "spoken_words": 100,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9765697865684827,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 38.580958s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [
+      {
+        "asr": "return",
+        "script": "returned",
+        "start": 24.8,
+        "probability": 0.9590783715248108
+      }
+    ],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 39.5-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 38.36,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Hands trigger water without touch",
+      "start": 0.0,
+      "end": 9.6
+    },
+    {
+      "id": "emit",
+      "title": "The sensor emits invisible infrared pulses",
+      "start": 9.6,
+      "end": 19.7
+    },
+    {
+      "id": "reflect",
+      "title": "Hands return light to the receiver",
+      "start": 19.7,
+      "end": 28.22
+    },
+    {
+      "id": "valve",
+      "title": "The solenoid valve starts and stops water",
+      "start": 28.22,
+      "end": 33.26
+    },
+    {
+      "id": "closing",
+      "title": "Reflected light becomes hands-free control",
+      "start": 33.26,
+      "end": 39.5
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-water",
+      "scene": "hook",
+      "text": "Put your hands under this automatic faucet, and water starts without a touch.",
+      "speak": "Put your hands under this automatic faucet, and water starts without a touch.",
+      "start": 0.15,
+      "end": 4.9,
+      "duration": 4.75
+    },
+    {
+      "id": "hook-sensor",
+      "scene": "hook",
+      "text": "A small infrared sensor near the spout detects that your hands are there.",
+      "speak": "A small infrared sensor near the spout detects that your hands are there.",
+      "start": 5.42,
+      "end": 9.6,
+      "duration": 4.18
+    },
+    {
+      "id": "emit-pulses",
+      "scene": "emit",
+      "text": "An infrared LED sends out pulses of light that people cannot see.",
+      "speak": "An infrared LED sends out pulses of light that people cannot see.",
+      "start": 10.1,
+      "end": 14.28,
+      "duration": 4.18
+    },
+    {
+      "id": "emit-clear",
+      "scene": "emit",
+      "text": "With no hands nearby, that light travels away and little returns to the receiver.",
+      "speak": "With no hands nearby, that light travels away and little returns to the receiver.",
+      "start": 14.86,
+      "end": 19.5,
+      "duration": 4.64
+    },
+    {
+      "id": "reflect-hands",
+      "scene": "reflect",
+      "text": "Your hands reflect some of the infrared light back toward the sensor.",
+      "speak": "Your hands reflect some of the infrared light back toward the sensor.",
+      "start": 20.2,
+      "end": 23.88,
+      "duration": 3.68
+    },
+    {
+      "id": "reflect-valve",
+      "scene": "reflect",
+      "text": "When the returned signal is strong enough, a controller opens a solenoid valve.",
+      "speak": "When the returned signal is strong enough, a controller opens a solenoid valve.",
+      "start": 24.44,
+      "end": 28.72,
+      "duration": 4.28
+    },
+    {
+      "id": "valve-remove",
+      "scene": "valve",
+      "text": "Remove your hands, the reflection disappears, and the valve closes again.",
+      "speak": "Remove your hands, the reflection disappears, and the valve closes again.",
+      "start": 28.72,
+      "end": 33.22,
+      "duration": 4.5
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the faucet turns reflected infrared light into water flow without touch.",
+      "speak": "So the faucet turns reflected infrared light into water flow without touch.",
+      "start": 33.76,
+      "end": 38.36,
+      "duration": 4.6
+    }
+  ]
+}

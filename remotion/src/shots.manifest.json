@@ -328,8 +328,48 @@
   "transparent": false
  },
  {
+  "id": "Short46VacuumCleaner",
+  "durationInSeconds": 42,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short47DigitalScale",
+  "durationInSeconds": 40.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short48AutomaticFaucet",
+  "durationInSeconds": 39.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short49WashingMachine",
+  "durationInSeconds": 40,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short5Monty",
   "durationInSeconds": 43,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short50LedBulb",
+  "durationInSeconds": 45.5,
   "fps": 30,
   "width": 1080,
   "height": 1920,

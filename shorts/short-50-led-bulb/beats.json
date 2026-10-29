@@ -1,0 +1,148 @@
+{
+  "id": "short-50-led-bulb",
+  "title": "How an LED Bulb Makes Light",
+  "composition": "Short50LedBulb",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 45.5
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-50-led-bulb/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "a37a369ed2e3459ce7f3e829da07daecefa5b0f8230f36fb7d2c0bff9b6024d2",
+    "raw_duration_seconds": 41.2,
+    "trimmed_duration_seconds": 40.865542,
+    "tempo_rate": 0.919359768,
+    "requested_tempo_rate": 0.919359768,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 44.6,
+    "narration_file": "media/voiceovers/led-bulb/narration.wav",
+    "narration_sha256": "5cf5c5635820bc92faeebcb38248a1b1debd9ce5bf15ecfe49357615f27219bf",
+    "narration_duration_seconds": 45.5,
+    "paced_speech_end_seconds": 44.589646,
+    "script_sha256": "e3bd83b0585ef610d919f18835fd81d5689ad6094d282be45f11ef46820eb275",
+    "spoken_words": 107,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.967592152479653,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 44.589646s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 45.5-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 44.36,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Semiconductor chips make the light",
+      "start": 0.0,
+      "end": 11.82
+    },
+    {
+      "id": "driver",
+      "title": "The driver supplies controlled current",
+      "start": 11.82,
+      "end": 17.22
+    },
+    {
+      "id": "junction",
+      "title": "Recombining charges release photons",
+      "start": 17.22,
+      "end": 27.32
+    },
+    {
+      "id": "white",
+      "title": "Phosphor, diffusion, and cooling make a useful bulb",
+      "start": 27.32,
+      "end": 38.12
+    },
+    {
+      "id": "closing",
+      "title": "Electrical energy becomes light directly",
+      "start": 38.12,
+      "end": 45.5
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-light",
+      "scene": "hook",
+      "text": "This LED bulb produces bright light while using much less power than an old incandescent bulb.",
+      "speak": "This LED bulb produces bright light while using much less power than an old incandescent bulb.",
+      "start": 0.15,
+      "end": 6.56,
+      "duration": 6.41
+    },
+    {
+      "id": "hook-chips",
+      "scene": "hook",
+      "text": "Its light comes from tiny semiconductor chips, not from a glowing metal filament.",
+      "speak": "Its light comes from tiny semiconductor chips, not from a glowing metal filament.",
+      "start": 7.18,
+      "end": 11.58,
+      "duration": 4.4
+    },
+    {
+      "id": "driver-current",
+      "scene": "driver",
+      "text": "The bulb's driver changes household electricity into a controlled direct current.",
+      "speak": "The bulb's driver changes household electricity into a controlled direct current.",
+      "start": 12.32,
+      "end": 17.06,
+      "duration": 4.74
+    },
+    {
+      "id": "junction-carriers",
+      "scene": "junction",
+      "text": "Inside each LED, electrons and holes move toward a junction in the semiconductor.",
+      "speak": "Inside each LED, electrons and holes move toward a junction in the semiconductor.",
+      "start": 17.72,
+      "end": 22.8,
+      "duration": 5.08
+    },
+    {
+      "id": "junction-photons",
+      "scene": "junction",
+      "text": "When they recombine, they release energy as photons, which are particles of light.",
+      "speak": "When they recombine, they release energy as photons, which are particles of light.",
+      "start": 23.28,
+      "end": 27.82,
+      "duration": 4.54
+    },
+    {
+      "id": "white-phosphor",
+      "scene": "white",
+      "text": "The chip's materials set the light's color, and a phosphor coating can create white light.",
+      "speak": "The chip's materials set the light's color, and a phosphor coating can create white light.",
+      "start": 27.82,
+      "end": 33.2,
+      "duration": 5.38
+    },
+    {
+      "id": "white-diffuse",
+      "scene": "white",
+      "text": "A diffuser spreads that light evenly, while the metal body carries heat away.",
+      "speak": "A diffuser spreads that light evenly, while the metal body carries heat away.",
+      "start": 33.76,
+      "end": 38.08,
+      "duration": 4.32
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So controlled current powers semiconductor junctions that turn electrical energy directly into light.",
+      "speak": "So controlled current powers semiconductor junctions that turn electrical energy directly into light.",
+      "start": 38.62,
+      "end": 44.36,
+      "duration": 5.74
+    }
+  ]
+}

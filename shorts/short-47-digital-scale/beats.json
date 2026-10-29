@@ -1,0 +1,161 @@
+{
+  "id": "short-47-digital-scale",
+  "title": "How a Digital Scale Measures Weight",
+  "composition": "Short47DigitalScale",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 40.5
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-47-digital-scale/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "ae7aa7dbfeb923647f8855517d49045b2877ca2cab9b43fcfef1f98864a5e55b",
+    "raw_duration_seconds": 36.56,
+    "trimmed_duration_seconds": 36.144375,
+    "tempo_rate": 0.916207224,
+    "requested_tempo_rate": 0.916207224,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.6,
+    "narration_file": "media/voiceovers/digital-scale/narration.wav",
+    "narration_sha256": "f52b28d376d9d8bdf0e4566b1854dd9547b8cf3d0976caa11c78b415745d8c11",
+    "narration_duration_seconds": 40.5,
+    "paced_speech_end_seconds": 39.585104,
+    "script_sha256": "bde3846e8c57c1e74f373cc90116ca556f04da8f786e9a2a5be76129707603a7",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9756199320157369,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.585104s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [
+      {
+        "asr": "attach",
+        "script": "attached",
+        "start": 17.36,
+        "probability": 0.6712472438812256
+      },
+      {
+        "asr": "tear",
+        "script": "tare",
+        "start": 33.62,
+        "probability": 0.39135271310806274
+      }
+    ],
+    "asr_compound_corrections": []
+  },
+  "pacing": "Calm 40.5-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.44,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Weight becomes a tiny mechanical bend",
+      "start": 0.0,
+      "end": 10.56
+    },
+    {
+      "id": "loadcell",
+      "title": "The load cell deforms under force",
+      "start": 10.56,
+      "end": 20.62
+    },
+    {
+      "id": "signal",
+      "title": "Resistance becomes an electrical reading",
+      "start": 20.62,
+      "end": 30.34
+    },
+    {
+      "id": "use",
+      "title": "Calibration and tare make the reading useful",
+      "start": 30.34,
+      "end": 35.26
+    },
+    {
+      "id": "closing",
+      "title": "Mechanical strain becomes a number",
+      "start": 35.26,
+      "end": 40.5
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-reading",
+      "scene": "hook",
+      "text": "Place an object on this digital scale, and its weight appears as a number.",
+      "speak": "Place an object on this digital scale, and its weight appears as a number.",
+      "start": 0.15,
+      "end": 4.38,
+      "duration": 4.23
+    },
+    {
+      "id": "hook-bend",
+      "scene": "hook",
+      "text": "Inside, the platform bends a tiny metal element by an extremely small amount.",
+      "speak": "Inside, the platform bends a tiny metal element by an extremely small amount.",
+      "start": 5.1,
+      "end": 10.56,
+      "duration": 5.46
+    },
+    {
+      "id": "loadcell-cell",
+      "scene": "loadcell",
+      "text": "That element is a load cell, built to deform predictably under force.",
+      "speak": "That element is a load cell, built to deform predictably under force.",
+      "start": 11.06,
+      "end": 15.44,
+      "duration": 4.38
+    },
+    {
+      "id": "loadcell-gauges",
+      "scene": "loadcell",
+      "text": "Thin strain gauges attached to it stretch or compress along with the metal.",
+      "speak": "Thin strain gauges attached to it stretch or compress along with the metal.",
+      "start": 16.18,
+      "end": 20.6,
+      "duration": 4.42
+    },
+    {
+      "id": "signal-resistance",
+      "scene": "signal",
+      "text": "Their electrical resistance changes, producing a small voltage signal.",
+      "speak": "Their electrical resistance changes, producing a small voltage signal.",
+      "start": 21.12,
+      "end": 24.9,
+      "duration": 3.78
+    },
+    {
+      "id": "signal-digital",
+      "scene": "signal",
+      "text": "The scale's electronics amplify and convert that signal into a digital reading.",
+      "speak": "The scale's electronics amplify and convert that signal into a digital reading.",
+      "start": 25.5,
+      "end": 29.98,
+      "duration": 4.48
+    },
+    {
+      "id": "use-tare",
+      "scene": "use",
+      "text": "Calibration relates the reading to weight units, while tare subtracts the container.",
+      "speak": "Calibration relates the reading to weight units, while tare subtracts the container.",
+      "start": 30.84,
+      "end": 35.22,
+      "duration": 4.38
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So a tiny mechanical bend becomes the number you see on the scale.",
+      "speak": "So a tiny mechanical bend becomes the number you see on the scale.",
+      "start": 35.76,
+      "end": 39.44,
+      "duration": 3.68
+    }
+  ]
+}
