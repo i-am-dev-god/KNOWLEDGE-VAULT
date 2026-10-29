@@ -80,6 +80,6 @@ jobs:
         run: |
           git config user.name "arena-agent"
           git config user.email "arena-agent@users.noreply.github.com"
-          git add shorts/short-41-vacuum-cleaner/transcription-voice-00.json shorts/short-42-digital-scale/transcription-voice-00.json shorts/short-43-automatic-faucet/transcription-voice-00.json shorts/short-44-washing-machine/transcription-voice-00.json shorts/short-45-led-bulb/transcription-voice-00.json
+          git add shorts/short-46-vacuum-cleaner/transcription-voice-00.json shorts/short-47-digital-scale/transcription-voice-00.json shorts/short-48-automatic-faucet/transcription-voice-00.json shorts/short-49-washing-machine/transcription-voice-00.json shorts/short-50-led-bulb/transcription-voice-00.json
           git commit -m "Verify shorts 46-50 voice-00 narrations [skip ci]"
           git push origin "HEAD:refs/heads/$BRANCH"
