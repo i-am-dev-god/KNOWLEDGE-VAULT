@@ -1,7 +1,7 @@
 // Preview or render the five original everyday-technology explainers.
 // Preview: node scripts/render-shorts-46-50.mjs --scale=0.5
 // Final:   node scripts/render-shorts-46-50.mjs --video
-// Subset:  node scripts/render-shorts-46-50.mjs --video --only=Short41InductionCooktop,Short42SmokeDetector
+// Subset:  node scripts/render-shorts-46-50.mjs --video --only=Short46VacuumCleaner,Short47DigitalScale
 import { bundle } from '@remotion/bundler';
 import { renderMedia, renderStill, selectComposition } from '@remotion/renderer';
 import { mkdirSync, readFileSync, rmSync } from 'fs';

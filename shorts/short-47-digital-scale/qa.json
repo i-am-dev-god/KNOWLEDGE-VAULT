@@ -1,0 +1,176 @@
+{
+  "file": "../../RESULT/how-a-digital-scale-measures-weight.mp4",
+  "production_copy": "output/how-a-digital-scale-measures-weight.mp4",
+  "status": "passed",
+  "bytes": 7339399,
+  "sha256": "5ffb8e8fbbec290c026d5db1d30725e11bf4bee407321fde01011df1fa586606",
+  "md5": "62576e77a9573b79a84cca307a61457c",
+  "container_duration_seconds": 40.6,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_duration_seconds": 40.5,
+    "bit_rate": 1243562,
+    "decoded_frames": 1215
+  },
+  "audio": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 40.6,
+    "bit_rate": 196451,
+    "integrated_lufs": -16.08,
+    "true_peak_dbfs": -1.99,
+    "loudness_range_lu": 2.5,
+    "mean_volume_db": -19.1,
+    "max_volume_db": -2.0,
+    "silence_events": [],
+    "silence_check": "passed",
+    "target_bitrate": "192k",
+    "mastering": "48ms silent-head priming correction, 70 Hz high-pass, zero-makeup limiter, two-pass loudnorm I=-16/TP=-2.0/LRA=11; H.264 stream copied without re-encoding"
+  },
+  "synchronization": {
+    "caption_segments": 8,
+    "caption_progress_line": false,
+    "caption_motion": "Whole-clause opacity fades only; no moving underline, timer, or word-pop animation",
+    "timing_source": "faster-whisper medium.en word timestamps on exact selected-voice master; complete normalized script/token match",
+    "initial_narration_onset_seconds": 0.15,
+    "asr_voice_end_seconds": 39.44,
+    "measured_speech_end_seconds": 39.585104,
+    "scenes": 5,
+    "sfx_cues": 4,
+    "sfx_timing_source": "Narration-aligned segment starts",
+    "music": {
+      "id": "cinematic-min",
+      "file": "media/library/music/clips/cinematic-min.mp3",
+      "ducked_under_narration": true,
+      "style": "Calm bed, ducked under narration"
+    },
+    "delivered_narration_offset_seconds": 0.0,
+    "narration_mix_correlation": 0.38738,
+    "measurement": "Best normalized cross-correlation over 1\u201312s at 4kHz; positive offset means delivered narration is late",
+    "delivered_sync_check": "passed; absolute narration offset <=12ms and normalized mix correlation >=0.30"
+  },
+  "pacing": {
+    "source_tempo_rate": 0.916207224,
+    "source_sped_up": false,
+    "spoken_words": 98,
+    "style": "Result-first opening payoff, immediate narration, content-adaptive duration, meaningful device motion, calm delivery, and a trimmed closing tail",
+    "initial_narration_onset_seconds": 0.15,
+    "closing_tail_after_asr_seconds": 1.06
+  },
+  "narration": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-47-digital-scale/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "ae7aa7dbfeb923647f8855517d49045b2877ca2cab9b43fcfef1f98864a5e55b",
+    "raw_duration_seconds": 36.56,
+    "trimmed_duration_seconds": 36.144375,
+    "tempo_rate": 0.916207224,
+    "requested_tempo_rate": 0.916207224,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.6,
+    "narration_file": "media/voiceovers/digital-scale/narration.wav",
+    "narration_sha256": "f52b28d376d9d8bdf0e4566b1854dd9547b8cf3d0976caa11c78b415745d8c11",
+    "narration_duration_seconds": 40.5,
+    "paced_speech_end_seconds": 39.585104,
+    "script_sha256": "bde3846e8c57c1e74f373cc90116ca556f04da8f786e9a2a5be76129707603a7",
+    "spoken_words": 98,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9756199320157369,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 39.585104s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [
+      {
+        "asr": "attach",
+        "script": "attached",
+        "start": 17.36,
+        "probability": 0.6712472438812256
+      },
+      {
+        "asr": "tear",
+        "script": "tare",
+        "start": 33.62,
+        "probability": 0.39135271310806274
+      }
+    ],
+    "asr_compound_corrections": []
+  },
+  "transcription": {
+    "status": "passed",
+    "engine": "faster-whisper medium.en",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9756199320157369,
+    "low_confidence_words": [
+      {
+        "start": 33.62,
+        "end": 34.0,
+        "word": " tear",
+        "probability": 0.39135271310806274
+      }
+    ],
+    "report": "transcription-voice-00.json"
+  },
+  "validation": {
+    "full_video_decode": "passed",
+    "actual_mp4_contact_sheets": [
+      "output/qa/contact-sheet-1.jpg",
+      "output/qa/contact-sheet-2.jpg"
+    ],
+    "caption_onsets_extracted": 8,
+    "caption_midpoints_extracted": 8,
+    "narration_beat_samples_extracted": 19,
+    "outro_extracted": true,
+    "typescript": "npx tsc --noEmit passed in remotion/",
+    "delivery_and_production_copy_sha256_match": true,
+    "retained_results_sha256_unchanged": true,
+    "ten_intentionally_removed_result_masters_absent": true,
+    "selected_voice_00_and_exact_normalized_script_match": true,
+    "top_left_title_and_top_right_duration_removed": true,
+    "focus_guidance_system_present": true,
+    "result_first_narration_onset_within_300ms": true,
+    "trimmed_closing_tail_within_500_to_1600ms": true
+  },
+  "visual_review": {
+    "status": "passed",
+    "samples": [
+      "output/qa/0000-first-frame.jpg",
+      "output/qa/0010-hook-reading-onset.jpg",
+      "output/qa/0068-hook-reading-mid.jpg",
+      "output/qa/0158-hook-bend-onset.jpg",
+      "output/qa/0235-hook-bend-mid.jpg",
+      "output/qa/0337-loadcell-cell-onset.jpg",
+      "output/qa/0398-loadcell-cell-mid.jpg",
+      "output/qa/0491-loadcell-gauges-onset.jpg",
+      "output/qa/0552-loadcell-gauges-mid.jpg",
+      "output/qa/0639-signal-resistance-onset.jpg",
+      "output/qa/0690-signal-resistance-mid.jpg",
+      "output/qa/0770-signal-digital-onset.jpg",
+      "output/qa/0832-signal-digital-mid.jpg",
+      "output/qa/0931-use-tare-onset.jpg",
+      "output/qa/0991-use-tare-mid.jpg",
+      "output/qa/1046-use-tare-late.jpg",
+      "output/qa/1078-closing-summary-onset.jpg",
+      "output/qa/1128-closing-summary-mid.jpg",
+      "output/qa/1200-outro.jpg"
+    ],
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+    "reviewed_on": "2026-10-29",
+    "reviewed_samples": 19,
+    "review": "Immediate scale-reading payoff; load-cell deflection, strain-gauge deformation, resistance-to-digital conversion, calibration, container tare from 0.80 to 0.00, and the closing measurement chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+  },
+  "delivery": {
+    "github_path": "RESULT/how-a-digital-scale-measures-weight.mp4",
+    "branch": "arena/e7d14043-knowledge-vault",
+    "retained_results": "left unchanged",
+    "drive": "Existing Drive deliverables left unchanged"
+  }
+}
