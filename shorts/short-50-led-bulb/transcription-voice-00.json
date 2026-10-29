@@ -1,0 +1,691 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "5cf5c5635820bc92faeebcb38248a1b1debd9ce5bf15ecfe49357615f27219bf",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This LED bulb produces bright light while using much less power than an old incandescent bulb. Its light comes from tiny semiconductor chips, not from a glowing metal filament. The bulb's driver changes household electricity into a controlled direct current. Inside each LED, electrons and holes move toward a junction in the semiconductor. When they recombine, they release energy as photons, which are particles of light. The chip's materials set the light's colour and a phosphor coating can create white light. A diffuser spreads that light evenly while the metal body carries heat away. So controlled current powers semiconductor junctions that turn electrical energy directly into light.",
+  "mean_word_probability": 0.967592152479653,
+  "low_confidence_words": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.82,
+      "text": "This LED bulb produces bright light while using much less power than an old incandescent bulb. Its light comes from tiny semiconductor chips, not from a glowing metal filament. The bulb's driver changes household electricity into a controlled direct current. Inside each LED, electrons and holes move toward a junction in the semiconductor. When they recombine, they release energy as photons, which are particles of light.",
+      "avg_logprob": -0.041971419859363375,
+      "no_speech_prob": 0.05265694856643677,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.56,
+          "word": " This",
+          "probability": 0.8173424005508423
+        },
+        {
+          "start": 0.56,
+          "end": 1.04,
+          "word": " LED",
+          "probability": 0.9795837998390198
+        },
+        {
+          "start": 1.04,
+          "end": 1.44,
+          "word": " bulb",
+          "probability": 0.990410327911377
+        },
+        {
+          "start": 1.44,
+          "end": 2.06,
+          "word": " produces",
+          "probability": 0.9789000749588013
+        },
+        {
+          "start": 2.06,
+          "end": 2.54,
+          "word": " bright",
+          "probability": 0.9935829043388367
+        },
+        {
+          "start": 2.54,
+          "end": 2.94,
+          "word": " light",
+          "probability": 0.9931243062019348
+        },
+        {
+          "start": 2.94,
+          "end": 3.32,
+          "word": " while",
+          "probability": 0.9070923924446106
+        },
+        {
+          "start": 3.32,
+          "end": 3.68,
+          "word": " using",
+          "probability": 0.9943027496337891
+        },
+        {
+          "start": 3.68,
+          "end": 4.0,
+          "word": " much",
+          "probability": 0.9940935969352722
+        },
+        {
+          "start": 4.0,
+          "end": 4.34,
+          "word": " less",
+          "probability": 0.9963990449905396
+        },
+        {
+          "start": 4.34,
+          "end": 4.7,
+          "word": " power",
+          "probability": 0.9972190856933594
+        },
+        {
+          "start": 4.7,
+          "end": 4.94,
+          "word": " than",
+          "probability": 0.9877637028694153
+        },
+        {
+          "start": 4.94,
+          "end": 5.18,
+          "word": " an",
+          "probability": 0.9790215492248535
+        },
+        {
+          "start": 5.18,
+          "end": 5.5,
+          "word": " old",
+          "probability": 0.9981613755226135
+        },
+        {
+          "start": 5.5,
+          "end": 6.2,
+          "word": " incandescent",
+          "probability": 0.9902194738388062
+        },
+        {
+          "start": 6.2,
+          "end": 6.56,
+          "word": " bulb.",
+          "probability": 0.9987120628356934
+        },
+        {
+          "start": 7.18,
+          "end": 7.26,
+          "word": " Its",
+          "probability": 0.8998083472251892
+        },
+        {
+          "start": 7.26,
+          "end": 7.56,
+          "word": " light",
+          "probability": 0.9944131970405579
+        },
+        {
+          "start": 7.56,
+          "end": 7.88,
+          "word": " comes",
+          "probability": 0.9969444870948792
+        },
+        {
+          "start": 7.88,
+          "end": 8.14,
+          "word": " from",
+          "probability": 0.9978269934654236
+        },
+        {
+          "start": 8.14,
+          "end": 8.62,
+          "word": " tiny",
+          "probability": 0.9923070073127747
+        },
+        {
+          "start": 8.62,
+          "end": 9.42,
+          "word": " semiconductor",
+          "probability": 0.9513944983482361
+        },
+        {
+          "start": 9.42,
+          "end": 9.76,
+          "word": " chips,",
+          "probability": 0.9967315196990967
+        },
+        {
+          "start": 10.12,
+          "end": 10.24,
+          "word": " not",
+          "probability": 0.9925164580345154
+        },
+        {
+          "start": 10.24,
+          "end": 10.46,
+          "word": " from",
+          "probability": 0.9924070239067078
+        },
+        {
+          "start": 10.46,
+          "end": 10.64,
+          "word": " a",
+          "probability": 0.9600915908813477
+        },
+        {
+          "start": 10.64,
+          "end": 10.86,
+          "word": " glowing",
+          "probability": 0.9976404905319214
+        },
+        {
+          "start": 10.86,
+          "end": 11.22,
+          "word": " metal",
+          "probability": 0.9939325451850891
+        },
+        {
+          "start": 11.22,
+          "end": 11.58,
+          "word": " filament.",
+          "probability": 0.9972922205924988
+        },
+        {
+          "start": 12.32,
+          "end": 12.46,
+          "word": " The",
+          "probability": 0.9840408563613892
+        },
+        {
+          "start": 12.46,
+          "end": 12.9,
+          "word": " bulb's",
+          "probability": 0.9718885719776154
+        },
+        {
+          "start": 12.9,
+          "end": 13.24,
+          "word": " driver",
+          "probability": 0.9897522926330566
+        },
+        {
+          "start": 13.24,
+          "end": 13.9,
+          "word": " changes",
+          "probability": 0.994114100933075
+        },
+        {
+          "start": 13.9,
+          "end": 14.5,
+          "word": " household",
+          "probability": 0.9964593052864075
+        },
+        {
+          "start": 14.5,
+          "end": 15.14,
+          "word": " electricity",
+          "probability": 0.9934507608413696
+        },
+        {
+          "start": 15.14,
+          "end": 15.52,
+          "word": " into",
+          "probability": 0.9909520149230957
+        },
+        {
+          "start": 15.52,
+          "end": 15.78,
+          "word": " a",
+          "probability": 0.9911550283432007
+        },
+        {
+          "start": 15.78,
+          "end": 16.22,
+          "word": " controlled",
+          "probability": 0.9967108964920044
+        },
+        {
+          "start": 16.22,
+          "end": 16.66,
+          "word": " direct",
+          "probability": 0.9539085626602173
+        },
+        {
+          "start": 16.66,
+          "end": 17.06,
+          "word": " current.",
+          "probability": 0.9957994818687439
+        },
+        {
+          "start": 17.72,
+          "end": 18.06,
+          "word": " Inside",
+          "probability": 0.9884041547775269
+        },
+        {
+          "start": 18.06,
+          "end": 18.54,
+          "word": " each",
+          "probability": 0.9953529834747314
+        },
+        {
+          "start": 18.54,
+          "end": 19.04,
+          "word": " LED,",
+          "probability": 0.9908744096755981
+        },
+        {
+          "start": 19.4,
+          "end": 19.82,
+          "word": " electrons",
+          "probability": 0.989170491695404
+        },
+        {
+          "start": 19.82,
+          "end": 20.14,
+          "word": " and",
+          "probability": 0.9932860732078552
+        },
+        {
+          "start": 20.14,
+          "end": 20.48,
+          "word": " holes",
+          "probability": 0.9974250793457031
+        },
+        {
+          "start": 20.48,
+          "end": 20.86,
+          "word": " move",
+          "probability": 0.996066153049469
+        },
+        {
+          "start": 20.86,
+          "end": 21.16,
+          "word": " toward",
+          "probability": 0.6860554218292236
+        },
+        {
+          "start": 21.16,
+          "end": 21.46,
+          "word": " a",
+          "probability": 0.9916055202484131
+        },
+        {
+          "start": 21.46,
+          "end": 21.72,
+          "word": " junction",
+          "probability": 0.9984764456748962
+        },
+        {
+          "start": 21.72,
+          "end": 21.96,
+          "word": " in",
+          "probability": 0.996890127658844
+        },
+        {
+          "start": 21.96,
+          "end": 22.14,
+          "word": " the",
+          "probability": 0.9924643039703369
+        },
+        {
+          "start": 22.14,
+          "end": 22.8,
+          "word": " semiconductor.",
+          "probability": 0.995846152305603
+        },
+        {
+          "start": 23.28,
+          "end": 23.52,
+          "word": " When",
+          "probability": 0.9913817048072815
+        },
+        {
+          "start": 23.52,
+          "end": 23.72,
+          "word": " they",
+          "probability": 0.9966002106666565
+        },
+        {
+          "start": 23.72,
+          "end": 24.32,
+          "word": " recombine,",
+          "probability": 0.98967045545578
+        },
+        {
+          "start": 24.66,
+          "end": 24.78,
+          "word": " they",
+          "probability": 0.9954708814620972
+        },
+        {
+          "start": 24.78,
+          "end": 25.1,
+          "word": " release",
+          "probability": 0.9988640546798706
+        },
+        {
+          "start": 25.1,
+          "end": 25.58,
+          "word": " energy",
+          "probability": 0.9967222809791565
+        },
+        {
+          "start": 25.58,
+          "end": 25.92,
+          "word": " as",
+          "probability": 0.9978868365287781
+        },
+        {
+          "start": 25.92,
+          "end": 26.4,
+          "word": " photons,",
+          "probability": 0.9961013793945312
+        },
+        {
+          "start": 26.62,
+          "end": 26.8,
+          "word": " which",
+          "probability": 0.9457753896713257
+        },
+        {
+          "start": 26.8,
+          "end": 26.94,
+          "word": " are",
+          "probability": 0.9985331296920776
+        },
+        {
+          "start": 26.94,
+          "end": 27.34,
+          "word": " particles",
+          "probability": 0.9968340992927551
+        },
+        {
+          "start": 27.34,
+          "end": 27.6,
+          "word": " of",
+          "probability": 0.9988954067230225
+        },
+        {
+          "start": 27.6,
+          "end": 27.82,
+          "word": " light.",
+          "probability": 0.9975640773773193
+        }
+      ]
+    },
+    {
+      "start": 27.82,
+      "end": 33.2,
+      "text": "The chip's materials set the light's colour and a phosphor coating can create white light.",
+      "avg_logprob": -0.17490995975962856,
+      "no_speech_prob": 0.013387502171099186,
+      "words": [
+        {
+          "start": 27.82,
+          "end": 28.56,
+          "word": " The",
+          "probability": 0.8875563144683838
+        },
+        {
+          "start": 28.56,
+          "end": 28.98,
+          "word": " chip's",
+          "probability": 0.9128650724887848
+        },
+        {
+          "start": 28.98,
+          "end": 29.38,
+          "word": " materials",
+          "probability": 0.7424881458282471
+        },
+        {
+          "start": 29.38,
+          "end": 29.74,
+          "word": " set",
+          "probability": 0.973347008228302
+        },
+        {
+          "start": 29.74,
+          "end": 29.98,
+          "word": " the",
+          "probability": 0.9909278750419617
+        },
+        {
+          "start": 29.98,
+          "end": 30.38,
+          "word": " light's",
+          "probability": 0.9575145542621613
+        },
+        {
+          "start": 30.38,
+          "end": 30.56,
+          "word": " colour",
+          "probability": 0.5677558779716492
+        },
+        {
+          "start": 30.56,
+          "end": 31.02,
+          "word": " and",
+          "probability": 0.6216282248497009
+        },
+        {
+          "start": 31.02,
+          "end": 31.18,
+          "word": " a",
+          "probability": 0.9847381114959717
+        },
+        {
+          "start": 31.18,
+          "end": 31.66,
+          "word": " phosphor",
+          "probability": 0.9820948839187622
+        },
+        {
+          "start": 31.66,
+          "end": 31.92,
+          "word": " coating",
+          "probability": 0.9853437542915344
+        },
+        {
+          "start": 31.92,
+          "end": 32.16,
+          "word": " can",
+          "probability": 0.9950637221336365
+        },
+        {
+          "start": 32.16,
+          "end": 32.5,
+          "word": " create",
+          "probability": 0.9976499676704407
+        },
+        {
+          "start": 32.5,
+          "end": 32.82,
+          "word": " white",
+          "probability": 0.9784771800041199
+        },
+        {
+          "start": 32.82,
+          "end": 33.2,
+          "word": " light.",
+          "probability": 0.9954902529716492
+        }
+      ]
+    },
+    {
+      "start": 33.76,
+      "end": 38.08,
+      "text": "A diffuser spreads that light evenly while the metal body carries heat away.",
+      "avg_logprob": -0.17490995975962856,
+      "no_speech_prob": 0.013387502171099186,
+      "words": [
+        {
+          "start": 33.76,
+          "end": 33.88,
+          "word": " A",
+          "probability": 0.98329758644104
+        },
+        {
+          "start": 33.88,
+          "end": 34.36,
+          "word": " diffuser",
+          "probability": 0.9948387444019318
+        },
+        {
+          "start": 34.36,
+          "end": 34.8,
+          "word": " spreads",
+          "probability": 0.9954505562782288
+        },
+        {
+          "start": 34.8,
+          "end": 35.04,
+          "word": " that",
+          "probability": 0.9661418795585632
+        },
+        {
+          "start": 35.04,
+          "end": 35.3,
+          "word": " light",
+          "probability": 0.9969430565834045
+        },
+        {
+          "start": 35.3,
+          "end": 35.84,
+          "word": " evenly",
+          "probability": 0.9985783100128174
+        },
+        {
+          "start": 35.84,
+          "end": 36.3,
+          "word": " while",
+          "probability": 0.8326079249382019
+        },
+        {
+          "start": 36.3,
+          "end": 36.5,
+          "word": " the",
+          "probability": 0.9918757677078247
+        },
+        {
+          "start": 36.5,
+          "end": 36.76,
+          "word": " metal",
+          "probability": 0.9950631260871887
+        },
+        {
+          "start": 36.76,
+          "end": 37.06,
+          "word": " body",
+          "probability": 0.9968270659446716
+        },
+        {
+          "start": 37.06,
+          "end": 37.44,
+          "word": " carries",
+          "probability": 0.9975184202194214
+        },
+        {
+          "start": 37.44,
+          "end": 37.72,
+          "word": " heat",
+          "probability": 0.9940226674079895
+        },
+        {
+          "start": 37.72,
+          "end": 38.08,
+          "word": " away.",
+          "probability": 0.9968309998512268
+        }
+      ]
+    },
+    {
+      "start": 38.62,
+      "end": 44.36,
+      "text": "So controlled current powers semiconductor junctions that turn electrical energy directly into light.",
+      "avg_logprob": -0.17490995975962856,
+      "no_speech_prob": 0.013387502171099186,
+      "words": [
+        {
+          "start": 38.62,
+          "end": 38.72,
+          "word": " So",
+          "probability": 0.9908673763275146
+        },
+        {
+          "start": 38.72,
+          "end": 39.24,
+          "word": " controlled",
+          "probability": 0.609448254108429
+        },
+        {
+          "start": 39.24,
+          "end": 39.64,
+          "word": " current",
+          "probability": 0.9900403618812561
+        },
+        {
+          "start": 39.64,
+          "end": 40.12,
+          "word": " powers",
+          "probability": 0.9914163947105408
+        },
+        {
+          "start": 40.12,
+          "end": 41.0,
+          "word": " semiconductor",
+          "probability": 0.9681363701820374
+        },
+        {
+          "start": 41.0,
+          "end": 41.58,
+          "word": " junctions",
+          "probability": 0.997117817401886
+        },
+        {
+          "start": 41.58,
+          "end": 41.98,
+          "word": " that",
+          "probability": 0.9797240495681763
+        },
+        {
+          "start": 41.98,
+          "end": 42.26,
+          "word": " turn",
+          "probability": 0.9866282939910889
+        },
+        {
+          "start": 42.26,
+          "end": 42.86,
+          "word": " electrical",
+          "probability": 0.9954740405082703
+        },
+        {
+          "start": 42.86,
+          "end": 43.26,
+          "word": " energy",
+          "probability": 0.9986817240715027
+        },
+        {
+          "start": 43.26,
+          "end": 43.78,
+          "word": " directly",
+          "probability": 0.9953426122665405
+        },
+        {
+          "start": 43.78,
+          "end": 44.1,
+          "word": " into",
+          "probability": 0.9947664737701416
+        },
+        {
+          "start": 44.1,
+          "end": 44.36,
+          "word": " light.",
+          "probability": 0.9920951724052429
+        }
+      ]
+    }
+  ]
+}

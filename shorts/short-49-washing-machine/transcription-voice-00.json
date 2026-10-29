@@ -1,0 +1,689 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "d6713aeb135f7a14bd6862c2d82fe4ab0003679aa18997aed86929f701c71789",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This washing machine removes water from wet clothes by spinning the drum rapidly. The clothes stay against the drum wall while water escapes. The drum wall pushes inward on the clothes to keep them moving in a circle. Water is not held in the same way, so it can move outward through the fabric. The drum's small holes let that water pass into the outer tub. A pump then drains the water away while the clothes stay inside the perforated drum. A balanced load keeps the drum stable and lets it reach an effective spin speed. So rotation, perforations and drainage remove water without squeezing the clothes.",
+  "mean_word_probability": 0.975206222860984,
+  "low_confidence_words": [
+    {
+      "start": 34.0,
+      "end": 34.72,
+      "word": " rotation,",
+      "probability": 0.2893446981906891
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.94,
+      "text": "This washing machine removes water from wet clothes by spinning the drum rapidly. The clothes stay against the drum wall while water escapes. The drum wall pushes inward on the clothes to keep them moving in a circle. Water is not held in the same way, so it can move outward through the fabric. The drum's small holes let that water pass into the outer tub. A pump then drains the water away while the clothes stay inside the perforated drum.",
+      "avg_logprob": -0.03419106862237377,
+      "no_speech_prob": 0.020597413182258606,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " This",
+          "probability": 0.7362753748893738
+        },
+        {
+          "start": 0.48,
+          "end": 0.88,
+          "word": " washing",
+          "probability": 0.9941242337226868
+        },
+        {
+          "start": 0.88,
+          "end": 1.32,
+          "word": " machine",
+          "probability": 0.9979935884475708
+        },
+        {
+          "start": 1.32,
+          "end": 1.86,
+          "word": " removes",
+          "probability": 0.9922868013381958
+        },
+        {
+          "start": 1.86,
+          "end": 2.26,
+          "word": " water",
+          "probability": 0.9906414151191711
+        },
+        {
+          "start": 2.26,
+          "end": 2.56,
+          "word": " from",
+          "probability": 0.9981106519699097
+        },
+        {
+          "start": 2.56,
+          "end": 2.86,
+          "word": " wet",
+          "probability": 0.9918047189712524
+        },
+        {
+          "start": 2.86,
+          "end": 3.24,
+          "word": " clothes",
+          "probability": 0.9820910096168518
+        },
+        {
+          "start": 3.24,
+          "end": 3.54,
+          "word": " by",
+          "probability": 0.9789806604385376
+        },
+        {
+          "start": 3.54,
+          "end": 3.94,
+          "word": " spinning",
+          "probability": 0.9973694086074829
+        },
+        {
+          "start": 3.94,
+          "end": 4.26,
+          "word": " the",
+          "probability": 0.9956868290901184
+        },
+        {
+          "start": 4.26,
+          "end": 4.44,
+          "word": " drum",
+          "probability": 0.9971621632575989
+        },
+        {
+          "start": 4.44,
+          "end": 5.0,
+          "word": " rapidly.",
+          "probability": 0.9976060390472412
+        },
+        {
+          "start": 5.7,
+          "end": 5.76,
+          "word": " The",
+          "probability": 0.987476646900177
+        },
+        {
+          "start": 5.76,
+          "end": 6.06,
+          "word": " clothes",
+          "probability": 0.9406026005744934
+        },
+        {
+          "start": 6.06,
+          "end": 6.42,
+          "word": " stay",
+          "probability": 0.9949324727058411
+        },
+        {
+          "start": 6.42,
+          "end": 6.8,
+          "word": " against",
+          "probability": 0.9961971044540405
+        },
+        {
+          "start": 6.8,
+          "end": 7.04,
+          "word": " the",
+          "probability": 0.9937781095504761
+        },
+        {
+          "start": 7.04,
+          "end": 7.24,
+          "word": " drum",
+          "probability": 0.9974263310432434
+        },
+        {
+          "start": 7.24,
+          "end": 7.5,
+          "word": " wall",
+          "probability": 0.9754761457443237
+        },
+        {
+          "start": 7.5,
+          "end": 7.86,
+          "word": " while",
+          "probability": 0.9192224144935608
+        },
+        {
+          "start": 7.86,
+          "end": 8.22,
+          "word": " water",
+          "probability": 0.9811766743659973
+        },
+        {
+          "start": 8.22,
+          "end": 8.74,
+          "word": " escapes.",
+          "probability": 0.9983476400375366
+        },
+        {
+          "start": 9.46,
+          "end": 9.54,
+          "word": " The",
+          "probability": 0.9827626943588257
+        },
+        {
+          "start": 9.54,
+          "end": 9.84,
+          "word": " drum",
+          "probability": 0.9975441098213196
+        },
+        {
+          "start": 9.84,
+          "end": 10.1,
+          "word": " wall",
+          "probability": 0.9910276532173157
+        },
+        {
+          "start": 10.1,
+          "end": 10.48,
+          "word": " pushes",
+          "probability": 0.9974374771118164
+        },
+        {
+          "start": 10.48,
+          "end": 11.04,
+          "word": " inward",
+          "probability": 0.9775057435035706
+        },
+        {
+          "start": 11.04,
+          "end": 11.3,
+          "word": " on",
+          "probability": 0.9942703247070312
+        },
+        {
+          "start": 11.3,
+          "end": 11.44,
+          "word": " the",
+          "probability": 0.9851978421211243
+        },
+        {
+          "start": 11.44,
+          "end": 11.72,
+          "word": " clothes",
+          "probability": 0.9910095930099487
+        },
+        {
+          "start": 11.72,
+          "end": 11.96,
+          "word": " to",
+          "probability": 0.9929403066635132
+        },
+        {
+          "start": 11.96,
+          "end": 12.2,
+          "word": " keep",
+          "probability": 0.9982593655586243
+        },
+        {
+          "start": 12.2,
+          "end": 12.42,
+          "word": " them",
+          "probability": 0.9921931624412537
+        },
+        {
+          "start": 12.42,
+          "end": 12.76,
+          "word": " moving",
+          "probability": 0.9975002408027649
+        },
+        {
+          "start": 12.76,
+          "end": 12.92,
+          "word": " in",
+          "probability": 0.9978728294372559
+        },
+        {
+          "start": 12.92,
+          "end": 13.08,
+          "word": " a",
+          "probability": 0.9907397031784058
+        },
+        {
+          "start": 13.08,
+          "end": 13.34,
+          "word": " circle.",
+          "probability": 0.9982469081878662
+        },
+        {
+          "start": 14.08,
+          "end": 14.34,
+          "word": " Water",
+          "probability": 0.9804942607879639
+        },
+        {
+          "start": 14.34,
+          "end": 14.56,
+          "word": " is",
+          "probability": 0.9982170462608337
+        },
+        {
+          "start": 14.56,
+          "end": 14.74,
+          "word": " not",
+          "probability": 0.9974396228790283
+        },
+        {
+          "start": 14.74,
+          "end": 15.04,
+          "word": " held",
+          "probability": 0.9991708993911743
+        },
+        {
+          "start": 15.04,
+          "end": 15.24,
+          "word": " in",
+          "probability": 0.9911201596260071
+        },
+        {
+          "start": 15.24,
+          "end": 15.36,
+          "word": " the",
+          "probability": 0.9920613765716553
+        },
+        {
+          "start": 15.36,
+          "end": 15.58,
+          "word": " same",
+          "probability": 0.9988967180252075
+        },
+        {
+          "start": 15.58,
+          "end": 15.88,
+          "word": " way,",
+          "probability": 0.9984378218650818
+        },
+        {
+          "start": 16.06,
+          "end": 16.24,
+          "word": " so",
+          "probability": 0.9895380735397339
+        },
+        {
+          "start": 16.24,
+          "end": 16.36,
+          "word": " it",
+          "probability": 0.9854902029037476
+        },
+        {
+          "start": 16.36,
+          "end": 16.54,
+          "word": " can",
+          "probability": 0.9940401315689087
+        },
+        {
+          "start": 16.54,
+          "end": 16.78,
+          "word": " move",
+          "probability": 0.9939905405044556
+        },
+        {
+          "start": 16.78,
+          "end": 17.3,
+          "word": " outward",
+          "probability": 0.9732202887535095
+        },
+        {
+          "start": 17.3,
+          "end": 17.64,
+          "word": " through",
+          "probability": 0.9904152154922485
+        },
+        {
+          "start": 17.64,
+          "end": 17.84,
+          "word": " the",
+          "probability": 0.9875614643096924
+        },
+        {
+          "start": 17.84,
+          "end": 18.12,
+          "word": " fabric.",
+          "probability": 0.9980389475822449
+        },
+        {
+          "start": 18.86,
+          "end": 19.02,
+          "word": " The",
+          "probability": 0.9912121891975403
+        },
+        {
+          "start": 19.02,
+          "end": 19.44,
+          "word": " drum's",
+          "probability": 0.9443029463291168
+        },
+        {
+          "start": 19.44,
+          "end": 19.8,
+          "word": " small",
+          "probability": 0.9964219331741333
+        },
+        {
+          "start": 19.8,
+          "end": 20.18,
+          "word": " holes",
+          "probability": 0.9936568140983582
+        },
+        {
+          "start": 20.18,
+          "end": 20.54,
+          "word": " let",
+          "probability": 0.9816722273826599
+        },
+        {
+          "start": 20.54,
+          "end": 20.74,
+          "word": " that",
+          "probability": 0.9687661528587341
+        },
+        {
+          "start": 20.74,
+          "end": 21.04,
+          "word": " water",
+          "probability": 0.9987408518791199
+        },
+        {
+          "start": 21.04,
+          "end": 21.42,
+          "word": " pass",
+          "probability": 0.9960760474205017
+        },
+        {
+          "start": 21.42,
+          "end": 21.76,
+          "word": " into",
+          "probability": 0.9866321682929993
+        },
+        {
+          "start": 21.76,
+          "end": 22.04,
+          "word": " the",
+          "probability": 0.9905569553375244
+        },
+        {
+          "start": 22.04,
+          "end": 22.28,
+          "word": " outer",
+          "probability": 0.9928514957427979
+        },
+        {
+          "start": 22.28,
+          "end": 22.56,
+          "word": " tub.",
+          "probability": 0.9913681149482727
+        },
+        {
+          "start": 23.04,
+          "end": 23.4,
+          "word": " A",
+          "probability": 0.9909816384315491
+        },
+        {
+          "start": 23.4,
+          "end": 23.7,
+          "word": " pump",
+          "probability": 0.9993517994880676
+        },
+        {
+          "start": 23.7,
+          "end": 23.98,
+          "word": " then",
+          "probability": 0.9878743290901184
+        },
+        {
+          "start": 23.98,
+          "end": 24.38,
+          "word": " drains",
+          "probability": 0.9985321760177612
+        },
+        {
+          "start": 24.38,
+          "end": 24.64,
+          "word": " the",
+          "probability": 0.9899791479110718
+        },
+        {
+          "start": 24.64,
+          "end": 24.86,
+          "word": " water",
+          "probability": 0.9992570281028748
+        },
+        {
+          "start": 24.86,
+          "end": 25.2,
+          "word": " away",
+          "probability": 0.9990142583847046
+        },
+        {
+          "start": 25.2,
+          "end": 25.6,
+          "word": " while",
+          "probability": 0.8773688077926636
+        },
+        {
+          "start": 25.6,
+          "end": 25.84,
+          "word": " the",
+          "probability": 0.9784656167030334
+        },
+        {
+          "start": 25.84,
+          "end": 26.1,
+          "word": " clothes",
+          "probability": 0.9873864054679871
+        },
+        {
+          "start": 26.1,
+          "end": 26.42,
+          "word": " stay",
+          "probability": 0.9970147609710693
+        },
+        {
+          "start": 26.42,
+          "end": 26.92,
+          "word": " inside",
+          "probability": 0.9961666464805603
+        },
+        {
+          "start": 26.92,
+          "end": 27.16,
+          "word": " the",
+          "probability": 0.9962090253829956
+        },
+        {
+          "start": 27.16,
+          "end": 27.68,
+          "word": " perforated",
+          "probability": 0.9972149531046549
+        },
+        {
+          "start": 27.68,
+          "end": 27.94,
+          "word": " drum.",
+          "probability": 0.9981822967529297
+        }
+      ]
+    },
+    {
+      "start": 27.94,
+      "end": 33.14,
+      "text": "A balanced load keeps the drum stable and lets it reach an effective spin speed.",
+      "avg_logprob": -0.13003961079650456,
+      "no_speech_prob": 0.012748181819915771,
+      "words": [
+        {
+          "start": 27.94,
+          "end": 28.76,
+          "word": " A",
+          "probability": 0.7934224605560303
+        },
+        {
+          "start": 28.76,
+          "end": 29.32,
+          "word": " balanced",
+          "probability": 0.9906585216522217
+        },
+        {
+          "start": 29.32,
+          "end": 29.64,
+          "word": " load",
+          "probability": 0.9969483017921448
+        },
+        {
+          "start": 29.64,
+          "end": 30.0,
+          "word": " keeps",
+          "probability": 0.9902481436729431
+        },
+        {
+          "start": 30.0,
+          "end": 30.22,
+          "word": " the",
+          "probability": 0.9942183494567871
+        },
+        {
+          "start": 30.22,
+          "end": 30.4,
+          "word": " drum",
+          "probability": 0.9861608743667603
+        },
+        {
+          "start": 30.4,
+          "end": 30.82,
+          "word": " stable",
+          "probability": 0.999504566192627
+        },
+        {
+          "start": 30.82,
+          "end": 31.26,
+          "word": " and",
+          "probability": 0.9748568534851074
+        },
+        {
+          "start": 31.26,
+          "end": 31.46,
+          "word": " lets",
+          "probability": 0.9137877225875854
+        },
+        {
+          "start": 31.46,
+          "end": 31.68,
+          "word": " it",
+          "probability": 0.9969025254249573
+        },
+        {
+          "start": 31.68,
+          "end": 31.9,
+          "word": " reach",
+          "probability": 0.9874882698059082
+        },
+        {
+          "start": 31.9,
+          "end": 32.08,
+          "word": " an",
+          "probability": 0.9891541600227356
+        },
+        {
+          "start": 32.08,
+          "end": 32.46,
+          "word": " effective",
+          "probability": 0.9968698620796204
+        },
+        {
+          "start": 32.46,
+          "end": 32.76,
+          "word": " spin",
+          "probability": 0.9861053824424744
+        },
+        {
+          "start": 32.76,
+          "end": 33.14,
+          "word": " speed.",
+          "probability": 0.9864582419395447
+        }
+      ]
+    },
+    {
+      "start": 33.86,
+      "end": 38.86,
+      "text": "So rotation, perforations and drainage remove water without squeezing the clothes.",
+      "avg_logprob": -0.13003961079650456,
+      "no_speech_prob": 0.012748181819915771,
+      "words": [
+        {
+          "start": 33.86,
+          "end": 34.0,
+          "word": " So",
+          "probability": 0.9892600774765015
+        },
+        {
+          "start": 34.0,
+          "end": 34.72,
+          "word": " rotation,",
+          "probability": 0.2893446981906891
+        },
+        {
+          "start": 35.04,
+          "end": 35.68,
+          "word": " perforations",
+          "probability": 0.9838941097259521
+        },
+        {
+          "start": 35.68,
+          "end": 35.98,
+          "word": " and",
+          "probability": 0.8326547741889954
+        },
+        {
+          "start": 35.98,
+          "end": 36.46,
+          "word": " drainage",
+          "probability": 0.9956666231155396
+        },
+        {
+          "start": 36.46,
+          "end": 37.12,
+          "word": " remove",
+          "probability": 0.9568199515342712
+        },
+        {
+          "start": 37.12,
+          "end": 37.5,
+          "word": " water",
+          "probability": 0.9947881698608398
+        },
+        {
+          "start": 37.5,
+          "end": 37.88,
+          "word": " without",
+          "probability": 0.9946033358573914
+        },
+        {
+          "start": 37.88,
+          "end": 38.36,
+          "word": " squeezing",
+          "probability": 0.9961804151535034
+        },
+        {
+          "start": 38.36,
+          "end": 38.56,
+          "word": " the",
+          "probability": 0.986362099647522
+        },
+        {
+          "start": 38.56,
+          "end": 38.86,
+          "word": " clothes.",
+          "probability": 0.932040810585022
+        }
+      ]
+    }
+  ]
+}

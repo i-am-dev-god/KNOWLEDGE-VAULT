@@ -1,0 +1,788 @@
+{
+  "engine": "faster-whisper",
+  "model": "medium.en",
+  "voice_id": "voice-00",
+  "audio_sha256": "3aed67f47f7e384ecb1387102d302ab56ed06f8cb2fbe683672d5daa82103c03",
+  "language": "en",
+  "language_probability": 1,
+  "text": "This vacuum cleaner lifts dirt from the floor and carries it into a collection bin. It does this by creating a continuous airflow, not by pulling on each particle directly. An electric motor spins a fan that pushes air out of the cleaner. That lowers the air pressure inside, so room air rushes in through the nozzle. The moving air carries loose dust and debris along the suction path. A cyclone or filter separates the dirt from that air before the air leaves the machine. A clogged filter restricts air flow, which is why cleaning it can restore cleaning performance. So the fan starts an air flow and the moving air transports dirt into the vacuum.",
+  "mean_word_probability": 0.9717548481863121,
+  "low_confidence_words": [
+    {
+      "start": 7.52,
+      "end": 8.14,
+      "word": " airflow,",
+      "probability": 0.4664115607738495
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.88,
+      "text": "This vacuum cleaner lifts dirt from the floor and carries it into a collection bin.",
+      "avg_logprob": -0.07685143559166555,
+      "no_speech_prob": 0.001962820068001747,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.54,
+          "word": " This",
+          "probability": 0.9617263674736023
+        },
+        {
+          "start": 0.54,
+          "end": 0.96,
+          "word": " vacuum",
+          "probability": 0.9860379099845886
+        },
+        {
+          "start": 0.96,
+          "end": 1.28,
+          "word": " cleaner",
+          "probability": 0.9910261034965515
+        },
+        {
+          "start": 1.28,
+          "end": 1.8,
+          "word": " lifts",
+          "probability": 0.9933727979660034
+        },
+        {
+          "start": 1.8,
+          "end": 2.08,
+          "word": " dirt",
+          "probability": 0.9919341802597046
+        },
+        {
+          "start": 2.08,
+          "end": 2.36,
+          "word": " from",
+          "probability": 0.9965624213218689
+        },
+        {
+          "start": 2.36,
+          "end": 2.52,
+          "word": " the",
+          "probability": 0.9930612444877625
+        },
+        {
+          "start": 2.52,
+          "end": 2.8,
+          "word": " floor",
+          "probability": 0.998936116695404
+        },
+        {
+          "start": 2.8,
+          "end": 3.2,
+          "word": " and",
+          "probability": 0.9428023099899292
+        },
+        {
+          "start": 3.2,
+          "end": 3.56,
+          "word": " carries",
+          "probability": 0.99437016248703
+        },
+        {
+          "start": 3.56,
+          "end": 3.76,
+          "word": " it",
+          "probability": 0.9936580061912537
+        },
+        {
+          "start": 3.76,
+          "end": 4.0,
+          "word": " into",
+          "probability": 0.9730837941169739
+        },
+        {
+          "start": 4.0,
+          "end": 4.22,
+          "word": " a",
+          "probability": 0.9838367104530334
+        },
+        {
+          "start": 4.22,
+          "end": 4.56,
+          "word": " collection",
+          "probability": 0.9880235195159912
+        },
+        {
+          "start": 4.56,
+          "end": 4.88,
+          "word": " bin.",
+          "probability": 0.9988206028938293
+        }
+      ]
+    },
+    {
+      "start": 5.38,
+      "end": 10.6,
+      "text": "It does this by creating a continuous airflow, not by pulling on each particle directly.",
+      "avg_logprob": -0.07685143559166555,
+      "no_speech_prob": 0.001962820068001747,
+      "words": [
+        {
+          "start": 5.38,
+          "end": 5.6,
+          "word": " It",
+          "probability": 0.9945099353790283
+        },
+        {
+          "start": 5.6,
+          "end": 5.82,
+          "word": " does",
+          "probability": 0.9988082647323608
+        },
+        {
+          "start": 5.82,
+          "end": 6.06,
+          "word": " this",
+          "probability": 0.9963680505752563
+        },
+        {
+          "start": 6.06,
+          "end": 6.24,
+          "word": " by",
+          "probability": 0.9952995777130127
+        },
+        {
+          "start": 6.24,
+          "end": 6.68,
+          "word": " creating",
+          "probability": 0.9985952973365784
+        },
+        {
+          "start": 6.68,
+          "end": 6.96,
+          "word": " a",
+          "probability": 0.9862660765647888
+        },
+        {
+          "start": 6.96,
+          "end": 7.52,
+          "word": " continuous",
+          "probability": 0.9968830347061157
+        },
+        {
+          "start": 7.52,
+          "end": 8.14,
+          "word": " airflow,",
+          "probability": 0.4664115607738495
+        },
+        {
+          "start": 8.46,
+          "end": 8.66,
+          "word": " not",
+          "probability": 0.9950429201126099
+        },
+        {
+          "start": 8.66,
+          "end": 8.88,
+          "word": " by",
+          "probability": 0.9893278479576111
+        },
+        {
+          "start": 8.88,
+          "end": 9.2,
+          "word": " pulling",
+          "probability": 0.997634768486023
+        },
+        {
+          "start": 9.2,
+          "end": 9.44,
+          "word": " on",
+          "probability": 0.9752007722854614
+        },
+        {
+          "start": 9.44,
+          "end": 9.64,
+          "word": " each",
+          "probability": 0.9948347806930542
+        },
+        {
+          "start": 9.64,
+          "end": 10.06,
+          "word": " particle",
+          "probability": 0.9916125535964966
+        },
+        {
+          "start": 10.06,
+          "end": 10.6,
+          "word": " directly.",
+          "probability": 0.9945299029350281
+        }
+      ]
+    },
+    {
+      "start": 11.24,
+      "end": 15.1,
+      "text": "An electric motor spins a fan that pushes air out of the cleaner.",
+      "avg_logprob": -0.07685143559166555,
+      "no_speech_prob": 0.001962820068001747,
+      "words": [
+        {
+          "start": 11.24,
+          "end": 11.44,
+          "word": " An",
+          "probability": 0.9945144653320312
+        },
+        {
+          "start": 11.44,
+          "end": 11.84,
+          "word": " electric",
+          "probability": 0.9914416670799255
+        },
+        {
+          "start": 11.84,
+          "end": 12.16,
+          "word": " motor",
+          "probability": 0.9979876279830933
+        },
+        {
+          "start": 12.16,
+          "end": 12.58,
+          "word": " spins",
+          "probability": 0.9992840886116028
+        },
+        {
+          "start": 12.58,
+          "end": 12.86,
+          "word": " a",
+          "probability": 0.9963669776916504
+        },
+        {
+          "start": 12.86,
+          "end": 13.16,
+          "word": " fan",
+          "probability": 0.9981546998023987
+        },
+        {
+          "start": 13.16,
+          "end": 13.44,
+          "word": " that",
+          "probability": 0.9866557121276855
+        },
+        {
+          "start": 13.44,
+          "end": 13.78,
+          "word": " pushes",
+          "probability": 0.9988596439361572
+        },
+        {
+          "start": 13.78,
+          "end": 14.16,
+          "word": " air",
+          "probability": 0.9935060739517212
+        },
+        {
+          "start": 14.16,
+          "end": 14.52,
+          "word": " out",
+          "probability": 0.9992673993110657
+        },
+        {
+          "start": 14.52,
+          "end": 14.72,
+          "word": " of",
+          "probability": 0.9914351105690002
+        },
+        {
+          "start": 14.72,
+          "end": 14.86,
+          "word": " the",
+          "probability": 0.9968649744987488
+        },
+        {
+          "start": 14.86,
+          "end": 15.1,
+          "word": " cleaner.",
+          "probability": 0.988229513168335
+        }
+      ]
+    },
+    {
+      "start": 15.58,
+      "end": 19.92,
+      "text": "That lowers the air pressure inside, so room air rushes in through the nozzle.",
+      "avg_logprob": -0.07685143559166555,
+      "no_speech_prob": 0.001962820068001747,
+      "words": [
+        {
+          "start": 15.58,
+          "end": 15.92,
+          "word": " That",
+          "probability": 0.9898136258125305
+        },
+        {
+          "start": 15.92,
+          "end": 16.36,
+          "word": " lowers",
+          "probability": 0.9990442395210266
+        },
+        {
+          "start": 16.36,
+          "end": 16.62,
+          "word": " the",
+          "probability": 0.984691321849823
+        },
+        {
+          "start": 16.62,
+          "end": 16.8,
+          "word": " air",
+          "probability": 0.9925676584243774
+        },
+        {
+          "start": 16.8,
+          "end": 17.04,
+          "word": " pressure",
+          "probability": 0.9872246980667114
+        },
+        {
+          "start": 17.04,
+          "end": 17.58,
+          "word": " inside,",
+          "probability": 0.9977211356163025
+        },
+        {
+          "start": 17.78,
+          "end": 18.0,
+          "word": " so",
+          "probability": 0.9968183040618896
+        },
+        {
+          "start": 18.0,
+          "end": 18.36,
+          "word": " room",
+          "probability": 0.9621552228927612
+        },
+        {
+          "start": 18.36,
+          "end": 18.64,
+          "word": " air",
+          "probability": 0.9956800937652588
+        },
+        {
+          "start": 18.64,
+          "end": 19.04,
+          "word": " rushes",
+          "probability": 0.9975998997688293
+        },
+        {
+          "start": 19.04,
+          "end": 19.32,
+          "word": " in",
+          "probability": 0.988353431224823
+        },
+        {
+          "start": 19.32,
+          "end": 19.48,
+          "word": " through",
+          "probability": 0.9947497248649597
+        },
+        {
+          "start": 19.48,
+          "end": 19.68,
+          "word": " the",
+          "probability": 0.9952278137207031
+        },
+        {
+          "start": 19.68,
+          "end": 19.92,
+          "word": " nozzle.",
+          "probability": 0.9874479174613953
+        }
+      ]
+    },
+    {
+      "start": 20.68,
+      "end": 24.64,
+      "text": "The moving air carries loose dust and debris along the suction path.",
+      "avg_logprob": -0.07685143559166555,
+      "no_speech_prob": 0.001962820068001747,
+      "words": [
+        {
+          "start": 20.68,
+          "end": 20.9,
+          "word": " The",
+          "probability": 0.9901306629180908
+        },
+        {
+          "start": 20.9,
+          "end": 21.2,
+          "word": " moving",
+          "probability": 0.9986269474029541
+        },
+        {
+          "start": 21.2,
+          "end": 21.46,
+          "word": " air",
+          "probability": 0.9989103078842163
+        },
+        {
+          "start": 21.46,
+          "end": 21.92,
+          "word": " carries",
+          "probability": 0.9973260164260864
+        },
+        {
+          "start": 21.92,
+          "end": 22.3,
+          "word": " loose",
+          "probability": 0.9688267707824707
+        },
+        {
+          "start": 22.3,
+          "end": 22.68,
+          "word": " dust",
+          "probability": 0.9993046522140503
+        },
+        {
+          "start": 22.68,
+          "end": 22.96,
+          "word": " and",
+          "probability": 0.9907071590423584
+        },
+        {
+          "start": 22.96,
+          "end": 23.32,
+          "word": " debris",
+          "probability": 0.9954013824462891
+        },
+        {
+          "start": 23.32,
+          "end": 23.74,
+          "word": " along",
+          "probability": 0.9939584732055664
+        },
+        {
+          "start": 23.74,
+          "end": 24.02,
+          "word": " the",
+          "probability": 0.99538654088974
+        },
+        {
+          "start": 24.02,
+          "end": 24.32,
+          "word": " suction",
+          "probability": 0.999876856803894
+        },
+        {
+          "start": 24.32,
+          "end": 24.64,
+          "word": " path.",
+          "probability": 0.9872071146965027
+        }
+      ]
+    },
+    {
+      "start": 24.64,
+      "end": 29.94,
+      "text": "A cyclone or filter separates the dirt from that air before the air leaves the machine.",
+      "avg_logprob": -0.16095941637953123,
+      "no_speech_prob": 0.007944648154079914,
+      "words": [
+        {
+          "start": 24.64,
+          "end": 25.34,
+          "word": " A",
+          "probability": 0.9221828579902649
+        },
+        {
+          "start": 25.34,
+          "end": 25.96,
+          "word": " cyclone",
+          "probability": 0.9693984687328339
+        },
+        {
+          "start": 25.96,
+          "end": 26.06,
+          "word": " or",
+          "probability": 0.5695056915283203
+        },
+        {
+          "start": 26.06,
+          "end": 26.44,
+          "word": " filter",
+          "probability": 0.9849467277526855
+        },
+        {
+          "start": 26.44,
+          "end": 27.06,
+          "word": " separates",
+          "probability": 0.9656543135643005
+        },
+        {
+          "start": 27.06,
+          "end": 27.28,
+          "word": " the",
+          "probability": 0.9740796089172363
+        },
+        {
+          "start": 27.28,
+          "end": 27.5,
+          "word": " dirt",
+          "probability": 0.9977784752845764
+        },
+        {
+          "start": 27.5,
+          "end": 27.76,
+          "word": " from",
+          "probability": 0.9956433773040771
+        },
+        {
+          "start": 27.76,
+          "end": 27.94,
+          "word": " that",
+          "probability": 0.9101718664169312
+        },
+        {
+          "start": 27.94,
+          "end": 28.28,
+          "word": " air",
+          "probability": 0.9961811304092407
+        },
+        {
+          "start": 28.28,
+          "end": 28.82,
+          "word": " before",
+          "probability": 0.962135374546051
+        },
+        {
+          "start": 28.82,
+          "end": 29.06,
+          "word": " the",
+          "probability": 0.9260398745536804
+        },
+        {
+          "start": 29.06,
+          "end": 29.18,
+          "word": " air",
+          "probability": 0.9988941550254822
+        },
+        {
+          "start": 29.18,
+          "end": 29.46,
+          "word": " leaves",
+          "probability": 0.9958515167236328
+        },
+        {
+          "start": 29.46,
+          "end": 29.66,
+          "word": " the",
+          "probability": 0.9914146065711975
+        },
+        {
+          "start": 29.66,
+          "end": 29.94,
+          "word": " machine.",
+          "probability": 0.9947578310966492
+        }
+      ]
+    },
+    {
+      "start": 30.74,
+      "end": 35.56,
+      "text": "A clogged filter restricts air flow, which is why cleaning it can restore cleaning performance.",
+      "avg_logprob": -0.16095941637953123,
+      "no_speech_prob": 0.007944648154079914,
+      "words": [
+        {
+          "start": 30.74,
+          "end": 30.78,
+          "word": " A",
+          "probability": 0.988647997379303
+        },
+        {
+          "start": 30.78,
+          "end": 31.24,
+          "word": " clogged",
+          "probability": 0.9980150163173676
+        },
+        {
+          "start": 31.24,
+          "end": 31.6,
+          "word": " filter",
+          "probability": 0.9987170696258545
+        },
+        {
+          "start": 31.6,
+          "end": 32.16,
+          "word": " restricts",
+          "probability": 0.9933517575263977
+        },
+        {
+          "start": 32.16,
+          "end": 32.38,
+          "word": " air",
+          "probability": 0.6300132274627686
+        },
+        {
+          "start": 32.38,
+          "end": 32.66,
+          "word": " flow,",
+          "probability": 0.9885178804397583
+        },
+        {
+          "start": 33.02,
+          "end": 33.1,
+          "word": " which",
+          "probability": 0.994652509689331
+        },
+        {
+          "start": 33.1,
+          "end": 33.2,
+          "word": " is",
+          "probability": 0.9984397292137146
+        },
+        {
+          "start": 33.2,
+          "end": 33.38,
+          "word": " why",
+          "probability": 0.9989932179450989
+        },
+        {
+          "start": 33.38,
+          "end": 33.78,
+          "word": " cleaning",
+          "probability": 0.9929473400115967
+        },
+        {
+          "start": 33.78,
+          "end": 34.04,
+          "word": " it",
+          "probability": 0.9949867725372314
+        },
+        {
+          "start": 34.04,
+          "end": 34.24,
+          "word": " can",
+          "probability": 0.992360532283783
+        },
+        {
+          "start": 34.24,
+          "end": 34.68,
+          "word": " restore",
+          "probability": 0.999262273311615
+        },
+        {
+          "start": 34.68,
+          "end": 35.1,
+          "word": " cleaning",
+          "probability": 0.995349109172821
+        },
+        {
+          "start": 35.1,
+          "end": 35.56,
+          "word": " performance.",
+          "probability": 0.9965587258338928
+        }
+      ]
+    },
+    {
+      "start": 36.3,
+      "end": 40.86,
+      "text": "So the fan starts an air flow and the moving air transports dirt into the vacuum.",
+      "avg_logprob": -0.16095941637953123,
+      "no_speech_prob": 0.007944648154079914,
+      "words": [
+        {
+          "start": 36.3,
+          "end": 36.4,
+          "word": " So",
+          "probability": 0.9909027218818665
+        },
+        {
+          "start": 36.4,
+          "end": 36.6,
+          "word": " the",
+          "probability": 0.7602218389511108
+        },
+        {
+          "start": 36.6,
+          "end": 36.8,
+          "word": " fan",
+          "probability": 0.8994693160057068
+        },
+        {
+          "start": 36.8,
+          "end": 37.36,
+          "word": " starts",
+          "probability": 0.9938644766807556
+        },
+        {
+          "start": 37.36,
+          "end": 37.58,
+          "word": " an",
+          "probability": 0.9832339286804199
+        },
+        {
+          "start": 37.58,
+          "end": 37.72,
+          "word": " air",
+          "probability": 0.8216343522071838
+        },
+        {
+          "start": 37.72,
+          "end": 37.94,
+          "word": " flow",
+          "probability": 0.9931373596191406
+        },
+        {
+          "start": 37.94,
+          "end": 38.3,
+          "word": " and",
+          "probability": 0.8168039321899414
+        },
+        {
+          "start": 38.3,
+          "end": 38.48,
+          "word": " the",
+          "probability": 0.9548251628875732
+        },
+        {
+          "start": 38.48,
+          "end": 38.76,
+          "word": " moving",
+          "probability": 0.998542308807373
+        },
+        {
+          "start": 38.76,
+          "end": 39.02,
+          "word": " air",
+          "probability": 0.9984772801399231
+        },
+        {
+          "start": 39.02,
+          "end": 39.7,
+          "word": " transports",
+          "probability": 0.9893235564231873
+        },
+        {
+          "start": 39.7,
+          "end": 40.08,
+          "word": " dirt",
+          "probability": 0.9841169714927673
+        },
+        {
+          "start": 40.08,
+          "end": 40.42,
+          "word": " into",
+          "probability": 0.9884389042854309
+        },
+        {
+          "start": 40.42,
+          "end": 40.6,
+          "word": " the",
+          "probability": 0.9625455737113953
+        },
+        {
+          "start": 40.6,
+          "end": 40.86,
+          "word": " vacuum.",
+          "probability": 0.9966721534729004
+        }
+      ]
+    }
+  ]
+}
