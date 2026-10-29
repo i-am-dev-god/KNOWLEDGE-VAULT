@@ -1,0 +1,161 @@
+{
+  "id": "short-46-vacuum-cleaner",
+  "title": "How a Vacuum Cleaner Pulls Up Dirt",
+  "composition": "Short46VacuumCleaner",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:complete",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take",
+    "raw_file": "shorts/short-46-vacuum-cleaner/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "8e1a4b131927da02a575c4c856a52fc26d3530d123f6c22d6c21133e7e401c23",
+    "raw_duration_seconds": 37.64,
+    "trimmed_duration_seconds": 37.283333,
+    "tempo_rate": 0.91045991,
+    "requested_tempo_rate": 0.91045991,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 41.1,
+    "narration_file": "media/voiceovers/vacuum-cleaner/narration.wav",
+    "narration_sha256": "3aed67f47f7e384ecb1387102d302ab56ed06f8cb2fbe683672d5daa82103c03",
+    "narration_duration_seconds": 42.0,
+    "paced_speech_end_seconds": 41.08775,
+    "script_sha256": "d3aa4ec5dae6cd0bb00b6255827a521accd022ebfe6ef001ca5cdb75e0137913",
+    "spoken_words": 114,
+    "alignment": "faster-whisper medium.en word timestamps on exact paced narration master",
+    "normalized_script_match": true,
+    "mean_word_probability": 0.9717548481863121,
+    "asr_tail_filter": "Excluded 0 ASR tokens beginning in digital silence at or after 41.087750s",
+    "asr_spurious_token_filter": "Excluded 0 ASR tokens lasting <=0.10s with probability <0.20; exact full-script match still required",
+    "asr_boundary_repeat_filter": "Excluded 0 immediately repeated <=0.16s lower-confidence boundary fragments followed by >=0.25s pauses; exact full-script match still required",
+    "asr_homophone_corrections": [],
+    "asr_compound_corrections": [
+      {
+        "asr": "air flow",
+        "script": "airflow",
+        "start": 32.16,
+        "end": 32.66
+      },
+      {
+        "asr": "air flow",
+        "script": "airflow",
+        "start": 37.58,
+        "end": 37.94
+      }
+    ]
+  },
+  "pacing": "Calm 42-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 40.86,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Airflow carries dirt into the vacuum",
+      "start": 0.0,
+      "end": 10.74
+    },
+    {
+      "id": "fan",
+      "title": "The fan creates a pressure difference",
+      "start": 10.74,
+      "end": 20.18
+    },
+    {
+      "id": "path",
+      "title": "Moving air transports and separates dirt",
+      "start": 20.18,
+      "end": 30.24
+    },
+    {
+      "id": "filter",
+      "title": "Clean filters preserve airflow",
+      "start": 30.24,
+      "end": 35.8
+    },
+    {
+      "id": "closing",
+      "title": "Fan, airflow, and collection form one chain",
+      "start": 35.8,
+      "end": 42.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-pickup",
+      "scene": "hook",
+      "text": "This vacuum cleaner lifts dirt from the floor and carries it into a collection bin.",
+      "speak": "This vacuum cleaner lifts dirt from the floor and carries it into a collection bin.",
+      "start": 0.15,
+      "end": 4.88,
+      "duration": 4.73
+    },
+    {
+      "id": "hook-airflow",
+      "scene": "hook",
+      "text": "It does this by creating a continuous airflow, not by pulling on each particle directly.",
+      "speak": "It does this by creating a continuous airflow, not by pulling on each particle directly.",
+      "start": 5.38,
+      "end": 10.6,
+      "duration": 5.22
+    },
+    {
+      "id": "fan-motor",
+      "scene": "fan",
+      "text": "An electric motor spins a fan that pushes air out of the cleaner.",
+      "speak": "An electric motor spins a fan that pushes air out of the cleaner.",
+      "start": 11.24,
+      "end": 15.1,
+      "duration": 3.86
+    },
+    {
+      "id": "fan-pressure",
+      "scene": "fan",
+      "text": "That lowers the air pressure inside, so room air rushes in through the nozzle.",
+      "speak": "That lowers the air pressure inside, so room air rushes in through the nozzle.",
+      "start": 15.58,
+      "end": 19.92,
+      "duration": 4.34
+    },
+    {
+      "id": "path-carry",
+      "scene": "path",
+      "text": "The moving air carries loose dust and debris along the suction path.",
+      "speak": "The moving air carries loose dust and debris along the suction path.",
+      "start": 20.68,
+      "end": 24.64,
+      "duration": 3.96
+    },
+    {
+      "id": "path-separate",
+      "scene": "path",
+      "text": "A cyclone or filter separates the dirt from that air before the air leaves the machine.",
+      "speak": "A cyclone or filter separates the dirt from that air before the air leaves the machine.",
+      "start": 24.64,
+      "end": 29.94,
+      "duration": 5.3
+    },
+    {
+      "id": "filter-maintenance",
+      "scene": "filter",
+      "text": "A clogged filter restricts airflow, which is why cleaning it can restore cleaning performance.",
+      "speak": "A clogged filter restricts airflow, which is why cleaning it can restore cleaning performance.",
+      "start": 30.74,
+      "end": 35.56,
+      "duration": 4.82
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So the fan starts an airflow, and the moving air transports dirt into the vacuum.",
+      "speak": "So the fan starts an airflow, and the moving air transports dirt into the vacuum.",
+      "start": 36.3,
+      "end": 40.86,
+      "duration": 4.56
+    }
+  ]
+}

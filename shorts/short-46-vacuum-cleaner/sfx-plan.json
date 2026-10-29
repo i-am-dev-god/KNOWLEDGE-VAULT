@@ -1,0 +1,47 @@
+{
+  "master": "RESULT/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "music": {
+    "id": "ambient-pad",
+    "file": "media/library/music/clips/ambient-pad.mp3",
+    "ducked_under_narration": true,
+    "style": "Calm bed, ducked under narration"
+  },
+  "render": {
+    "composition": "remotion/out/Short46VacuumCleaner.mp4",
+    "out": "RESULT/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
+    "end_s": 42.0
+  },
+  "note": "4 restrained cues aligned to one continuous user-selected voice-00 narration take.",
+  "events": [
+    {
+      "at_s": 5.3,
+      "sfx_id": "scan-hum",
+      "gain_db": -25,
+      "cue": "Reveal the suction airflow",
+      "sync_source": "hook-airflow"
+    },
+    {
+      "at_s": 11.16,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -25,
+      "cue": "Start the motor and fan",
+      "sync_source": "fan-motor"
+    },
+    {
+      "at_s": 24.56,
+      "sfx_id": "pop-reveal",
+      "gain_db": -24,
+      "cue": "Separate dirt from air",
+      "sync_source": "path-separate"
+    },
+    {
+      "at_s": 36.18,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -22,
+      "cue": "Resolve the airflow chain",
+      "sync_source": "closing-summary"
+    }
+  ]
+}

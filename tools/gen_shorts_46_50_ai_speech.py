@@ -53,6 +53,7 @@ def normalize_tokens(text: str) -> list[str]:
     text = re.sub(r"\bq[.\s-]*r\b", "qr", text)
     text = re.sub(r"\bl[.\s-]*e[.\s-]*d\b", "led", text)
     text = re.sub(r"\binfra[- ]red\b", "infrared", text)
+    text = re.sub(r"\bair[- ]flow\b", "airflow", text)
     text = text.replace("loadcell", "load cell")
     text = text.replace("photo sites", "photosites").replace("photo site", "photosite")
     text = re.sub(r"\bde[- ]mosaicing\b", "demosaicing", text)
@@ -63,7 +64,7 @@ def normalize_tokens(text: str) -> list[str]:
     aliases = {
         "0": "zero", "1": "one", "2": "two", "canceling": "cancelling",
         "neighbour": "neighbor", "neighbours": "neighbors", "neighbouring": "neighboring",
-        "coloured": "colored", "smoldering": "smouldering",
+        "coloured": "colored", "colour": "color", "colours": "colors", "smoldering": "smouldering",
         "gage": "gauge", "gages": "gauges",
     }
     return [aliases.get(token, token) for token in tokens]
@@ -227,10 +228,17 @@ def align_one(project: dict) -> None:
     asr_alignment = [(token, word) for word in words for token in normalize_tokens(word["word"])]
     expected_tokens = [token for _, token in expected_flat]
     homophone_corrections = []
+    expected_aliases = {
+        "two": {"too", "to"},
+        "attached": {"attach"},
+        "returned": {"return"},
+        "tare": {"tear"},
+    }
     for index, (token, word) in enumerate(asr_alignment):
-        if index < len(expected_tokens) and expected_tokens[index] == "two" and token in {"too", "to"}:
-            homophone_corrections.append({"asr": token, "script": "two", "start": word["start"], "probability": word["probability"]})
-            asr_alignment[index] = ("two", word)
+        expected = expected_tokens[index] if index < len(expected_tokens) else None
+        if expected in expected_aliases and token in expected_aliases[expected]:
+            homophone_corrections.append({"asr": token, "script": expected, "start": word["start"], "probability": word["probability"]})
+            asr_alignment[index] = (expected, word)
     # Whisper may spell a spoken compound as two words. Merge only the exact
     # domain compounds expected at this position, preserving their full time span.
     compound_parts = {
@@ -238,6 +246,7 @@ def align_one(project: dict) -> None:
         "photodetector": ("photo", "detector"), "cooktop": ("cook", "top"),
         "photoelectric": ("photo", "electric"), "bimetallic": ("bi", "metallic"),
         "semiconductor": ("semi", "conductor"), "infrared": ("infra", "red"),
+        "airflow": ("air", "flow"),
     }
     compound_corrections = []
     merged_alignment = []
