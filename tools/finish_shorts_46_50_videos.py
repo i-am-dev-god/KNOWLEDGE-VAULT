@@ -205,6 +205,8 @@ def decode_and_sample(path: Path, project: dict, beats: dict) -> tuple[dict, lis
         (min(expected_frames - 1, round((line["end"] - (1.2 if line["id"] == "drain-pump" else 0.35)) * fps)), f"{line['id']}-late")
         for line in beats["vo"] if line["id"] in {"filter-maintenance", "use-tare", "valve-remove", "drain-pump", "white-diffuse"}
     ]
+    if project["composition"] == "Short47DigitalScale":
+        sample_specs.append((round(1.15 * fps), "physical-contact"))
     # Keep contact sheets chronological even when a targeted late-action sample
     # falls between the penultimate and closing narration beats.
     sample_specs.sort(key=lambda item: item[0])
@@ -328,8 +330,8 @@ def qa_one(project: dict) -> dict:
     component_source = component.read_text()
     if "<Header" in component_source or re.search(r">[^<]*\bSEC\b", component_source):
         raise RuntimeError(f"Old top header or duration label remains in {component}")
-    if "FocusRing" not in component_source or not any(token in component_source for token in ["MovingDots", "Arrow"]):
-        raise RuntimeError(f"Narration-guided focus system missing from {component}")
+    if "ClearLabel" not in component_source or "HighlightPart" not in component_source or not any(token in component_source for token in ["MovingDots", "Arrow"]):
+        raise RuntimeError(f"Clear labeled device-diagram and focus system missing from {component}")
     initial_onset = float(beats["vo"][0]["start"])
     final_tail = float(project.get("duration_s", CONFIG["defaults"]["duration_s"])) - float(beats["voiceEnd"])
     if initial_onset > 0.30:
@@ -398,11 +400,11 @@ def qa_one(project: dict) -> dict:
         "visual_review": {
             "status": "pending",
             "samples": visual_samples,
-            "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
+            "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
         },
         "delivery": {
             "github_path": f"RESULT/{project['result']}",
-            "branch": "arena/e7d14043-knowledge-vault",
+            "branch": "arena/a2e32c43-knowledge-vault",
             "retained_results": "left unchanged",
             "drive": "Existing Drive deliverables left unchanged",
         },
@@ -420,7 +422,7 @@ def write_summary(projects: list[dict], reports: list[dict]) -> None:
     passed = all(report["status"] == "passed" for report in reports)
     summary = {
         "status": "passed" if passed else "technical-passed-visual-pending",
-        "branch": "arena/e7d14043-knowledge-vault",
+        "branch": "arena/a2e32c43-knowledge-vault",
         "voice": "voice-00",
         "caption_progress_line": False,
         "delivered_narration_offset_limit_seconds": 0.012,

@@ -84,6 +84,9 @@ for (const [id, shortId] of projects) {
       },
     ]);
     samples.unshift({ label: 'first-frame', frame: 0 });
+    if (id === 'Short47DigitalScale') {
+      samples.push({ label: 'physical-contact', frame: Math.round(1.15 * composition.fps) });
+    }
     for (const line of beats.vo.filter((item) => ['filter-maintenance', 'use-tare', 'valve-remove', 'drain-pump', 'white-diffuse'].includes(item.id))) {
       const lateOffset = line.id === 'drain-pump' ? 1.2 : 0.35;
       samples.push({

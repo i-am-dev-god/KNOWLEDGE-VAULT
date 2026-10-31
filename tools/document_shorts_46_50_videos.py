@@ -8,56 +8,61 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "tools/shorts-46-50-projects.json").read_text())
 
-PICTURES = {'short-46-vacuum-cleaner': {'hook': 'A floor nozzle and transparent collection bin show dirt moving with '
-                                     'the airflow from the opening seconds.',
-                             'fan': 'A motor-driven fan pushes exhaust air out while room-air arrows enter '
-                                    'through the lower-pressure inlet.',
-                             'path': 'Dust travels with air into a cyclone cutaway, where dirt falls into '
-                                     'the bin and filtered air exits.',
-                             'filter': 'A pleated filter changes from clogged to clean as moving airflow '
-                                       'markers become stronger.',
-                             'closing': 'Fan, moving air, and collected dirt form one continuously animated '
-                                        'cleaning chain.'},
- 'short-47-digital-scale': {'hook': 'An object loads a digital scale, the reading appears, and a cutaway '
-                                    'reveals the hidden metal element bending.',
-                            'loadcell': 'A magnified load cell deflects under force while attached strain '
-                                        'gauges stretch and compress with it.',
-                            'signal': 'A resistance element feeds an amplifier and digitizer before a '
-                                      'numerical reading appears.',
-                            'use': 'A known calibration weight and a container-side tare demonstration show '
-                                   'units and subtraction directly.',
-                            'closing': 'A bent beam, changing resistance, and a digital value form one '
-                                       'measurement chain.'},
- 'short-48-automatic-faucet': {'hook': 'Hands beneath a recognizable faucet trigger an immediate visible '
-                                       'water stream and reveal the infrared sensor window.',
-                               'emit': 'An infrared LED and receiver send animated invisible pulses outward '
-                                       'with no hands in the detection zone.',
-                               'reflect': 'Hands redirect pulses into the receiver while a controller and '
-                                          'solenoid valve respond to the stronger return signal.',
-                               'valve': 'Hands leave, the return path disappears, the solenoid plunger '
-                                        'closes, and water-flow markers stop.',
-                               'closing': 'Infrared emission, hand reflection, and valve-controlled water '
-                                          'form one touch-free chain.'},
- 'short-49-washing-machine': {'hook': 'A front-loading washing machine spins clothes against its drum while '
-                                      'water droplets escape.',
-                              'spin': 'A rotating drum cutaway contrasts inward wall forces on clothes with '
-                                      'outward-moving water.',
-                              'drain': 'Water passes through perforations into the outer tub and follows a '
-                                       'visible path to the drain pump.',
-                              'balance': 'Unbalanced and balanced drum cross-sections compare wobble with an '
-                                         'evenly distributed stable spin.',
-                              'closing': 'Rotation, perforations, and pumping form one animated '
-                                         'water-extraction chain.'},
- 'short-50-led-bulb': {'hook': 'A glowing LED-bulb cutaway reveals semiconductor chips beside a hotter '
-                               'filament-bulb comparison.',
-                       'driver': 'Household power enters a component-filled LED driver and leaves as a '
-                                 'controlled direct-current path.',
-                       'junction': 'Electrons and holes move toward a semiconductor junction, where '
-                                   'recombination releases animated photons.',
-                       'white': 'Blue-chip light enters a phosphor layer, then a diffuser spreads white '
-                                'light while heat leaves the metal body.',
-                       'closing': 'Controlled current, junction emission, and a glowing bulb form one direct '
-                                  'energy-conversion chain.'}}
+PICTURES = {'short-46-vacuum-cleaner': {'hook': 'A complete canister-vacuum cutaway connects the floor nozzle, hose, transparent '
+                                     'dust bin, fan, and exhaust while dirt follows one defined pickup path.',
+                             'fan': 'A labeled inlet, dust bin, filter, motor, fan, and exhaust show fan-driven '
+                                    'exhaust and replacement room air entering from the opposite side.',
+                             'path': 'A labeled separator chamber shows air and dirt entering, air circulating upward '
+                                     'to the cleaner-air outlet, and dirt falling into the collection bin.',
+                             'filter': 'Side-by-side before-and-after pleated filters contrast a dust-blocked passage '
+                                       'with restored airflow through clean pleats.',
+                             'closing': 'Three ordered diagrams connect the running fan, directed airflow, and '
+                                        'collected dirt without decorative particle clutter.'},
+ 'short-47-digital-scale': {'hook': 'A side-cutaway scale lowers the object onto the platform with a zero reading '
+                                    'before contact; the object, platform, support, and load cell then share the same '
+                                    'small deflection before 2.50 kg appears.',
+                            'loadcell': 'A magnified fixed-support metal beam carries bonded top and bottom '
+                                        'strain-gauge strips that stretch and compress with the beam under an applied '
+                                        'force.',
+                            'signal': 'Three ordered stages connect the strain gauge, amplify/digitize electronics, '
+                                      'and kilogram display with labeled voltage and data paths.',
+                            'use': 'A known calibration weight and an empty bowl remain seated on their respective '
+                                   'scale platforms; the TARE button changes only the container-side stored reading.',
+                            'closing': 'Load-cell bending, resistance change, and the weight display form a clear '
+                                       'three-stage measurement chain.'},
+ 'short-48-automatic-faucet': {'hook': 'A recognizable faucet and basin show a hand moving directly under the spout '
+                                       'before the aligned water stream starts, with the infrared sensor window '
+                                       'labeled.',
+                               'emit': 'A close-up sensor window identifies the infrared LED and receiver while '
+                                       'outgoing pulses enter an explicitly empty detection zone and little light '
+                                       'returns.',
+                               'reflect': 'Hand-contacting reflection arrows lead to the receiver and controller '
+                                          'beside a labeled solenoid-valve cutaway whose lifted plunger opens the '
+                                          'water pipe.',
+                               'valve': 'As the hand leaves and reflection disappears, the same solenoid plunger '
+                                        'lowers into the valve seat and blocks the connected water pipe.',
+                               'closing': 'Three ordered diagrams connect hand reflection, valve opening, and water '
+                                          'delivery from the faucet.'},
+ 'short-49-washing-machine': {'hook': 'A front-loading washer cutaway holds shirt-shaped clothes against the '
+                                      'perforated drum wall while water moves into the surrounding outer tub.',
+                              'spin': 'One cloth at the right drum wall anchors stable inward-force, rotation, and '
+                                      'outward-water arrows through nearby perforations.',
+                              'drain': 'A physically connected inner drum, perforations, outer tub, sump, drain pump, '
+                                       'and outlet hose carry water while clothes remain inside.',
+                              'balance': 'Unbalanced and balanced drums compare an off-center mass marker and wobble '
+                                         'with evenly distributed clothes and centered mass.',
+                              'closing': 'Three ordered diagrams connect clothes rotating, water exiting perforations, '
+                                         'and the connected drain pump.'},
+ 'short-50-led-bulb': {'hook': 'A labeled LED-bulb cutaway identifies the diffuser, LED board, heat sink, driver, and '
+                               'base beside a smaller filament-bulb comparison.',
+                       'driver': 'Inside the lower bulb, socket AC connects to a rectifier-and-regulator driver board '
+                                 'whose controlled DC output connects upward to the LED board.',
+                       'junction': 'A magnified P-type/N-type chip uses a few deliberate electron-hole pairs at a '
+                                   'labeled recombination junction and upward photon arrows.',
+                       'white': 'A blue chip with a directly attached yellow phosphor coating contrasts with a '
+                                'complete bulb showing diffuser-spread light and heat leaving the metal body.',
+                       'closing': 'One full LED bulb carries three numbered callouts for base current control, '
+                                  'chip-junction emission, and useful light leaving the dome.'}}
 
 
 def tempo_text(rate: float) -> str:
@@ -83,7 +88,7 @@ def write_script(project: dict, beats: dict, sfx: dict, qa: dict) -> None:
         f"# {project['title']}", "",
         f"**Composition:** `{project['composition']}`", "",
         f"**Format:** 1080 × 1920, 30 fps, {duration:g} seconds", "",
-        "**Production:** Result-first cinematic original cutaway animation with an immediate device payoff, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, no corner topic or duration labels, narration-guided focus highlights, ducked instrumental music, and restrained sound design", "",
+        "**Production:** Rebuilt result-first device animation with physically aligned contact points, connected pipes/wires, recognizable labeled cutaways, one primary action per beat, steady part highlights, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line or corner metadata, ducked music, and restrained sound design", "",
         "## Timed narration and matching demonstrations", "",
     ]
     for index, scene in enumerate(beats["scenes"], start=1):
@@ -139,7 +144,7 @@ def readme_section(project: dict, beats: dict, qa: dict) -> str:
 
 **Finished video:** [{project['result']}]({project['result']})
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - {duration:.2f} seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, {tempo_text(narration['tempo_rate'])}
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, {len(beats['vo'])} complete-clause captions, {len(beats['scenes'])} scenes, and **no moving line or timing indicator beneath subtitles**
