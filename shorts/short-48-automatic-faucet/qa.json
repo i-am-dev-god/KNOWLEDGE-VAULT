@@ -2,9 +2,9 @@
   "file": "../../RESULT/how-an-automatic-faucet-senses-your-hands.mp4",
   "production_copy": "output/how-an-automatic-faucet-senses-your-hands.mp4",
   "status": "passed",
-  "bytes": 8810306,
-  "sha256": "e113cdc62672e2378400afbfc272db13338c79bec1c10ce03e92f1893285c30f",
-  "md5": "760e60943b44b8b20d8cc5b362f2dfb3",
+  "bytes": 6569904,
+  "sha256": "226c778922f83a71add50b9e6ac2828256cbd370c6afa08960a69c94ffcb9251",
+  "md5": "0911b94a9e670d2dc2f023aeca6252de",
   "container_duration_seconds": 39.6,
   "video": {
     "codec": "h264",
@@ -13,7 +13,7 @@
     "height": 1920,
     "fps": 30.0,
     "video_duration_seconds": 39.5,
-    "bit_rate": 1579698,
+    "bit_rate": 1126002,
     "decoded_frames": 1185
   },
   "audio": {
@@ -149,14 +149,14 @@
       "output/qa/1082-closing-summary-mid.jpg",
       "output/qa/1170-outro.jpg"
     ],
-    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
-    "reviewed_on": "2026-10-29",
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
+    "reviewed_on": "2026-10-31",
     "reviewed_samples": 19,
-    "review": "Immediate hands-free water payoff; infrared pulse emission, little return without hands, hand reflection into the receiver, controller/solenoid response, hands-off valve closure, and the closing touch-free chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+    "review": "Rebuilt with a recognizable faucet, basin, hand, sensor window, and connected solenoid-valve cutaway. The hand reaches the stream before water starts; outgoing and reflected IR are distinct; reflection terminates on the hand and returns to the receiver; the separated controller connects to the valve assembly; and the same plunger/pipe opens and closes with detection. All 19 delivered-MP4 samples passed alignment, label, focus, and narration checks."
   },
   "delivery": {
     "github_path": "RESULT/how-an-automatic-faucet-senses-your-hands.mp4",
-    "branch": "arena/e7d14043-knowledge-vault",
+    "branch": "arena/a2e32c43-knowledge-vault",
     "retained_results": "left unchanged",
     "drive": "Existing Drive deliverables left unchanged"
   }

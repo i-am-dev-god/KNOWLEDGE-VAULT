@@ -2,9 +2,9 @@
   "file": "../../RESULT/how-an-led-bulb-makes-light.mp4",
   "production_copy": "output/how-an-led-bulb-makes-light.mp4",
   "status": "passed",
-  "bytes": 11232203,
-  "sha256": "89f82ac217f5001ed249f672e2289249136204bd7e8ac606d5853f02706fe1a4",
-  "md5": "01b13e035cfeaf2ec754c8f2f470f4b1",
+  "bytes": 7637449,
+  "sha256": "9460ad8e789023ba3b107d9428327c11286e3a115881cfdc9ace2a6b1221c534",
+  "md5": "ce8fd8b5f5f139e06f5e536d341ce1d4",
   "container_duration_seconds": 45.5,
   "video": {
     "codec": "h264",
@@ -13,7 +13,7 @@
     "height": 1920,
     "fps": 30.0,
     "video_duration_seconds": 45.5,
-    "bit_rate": 1767555,
+    "bit_rate": 1135518,
     "decoded_frames": 1365
   },
   "audio": {
@@ -142,14 +142,14 @@
       "output/qa/1245-closing-summary-mid.jpg",
       "output/qa/1350-outro.jpg"
     ],
-    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
-    "reviewed_on": "2026-10-29",
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
+    "reviewed_on": "2026-10-31",
     "reviewed_samples": 19,
-    "review": "Immediate LED-light payoff with semiconductor chips rather than a glowing filament; driver-controlled direct current, electron/hole motion and recombination photons, phosphor conversion, diffuser spread and metal heat path, and the closing energy-conversion chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+    "review": "Rebuilt around a recognizable LED-bulb cutaway. Socket AC, driver conversion/regulation, and controlled DC form a connected path to the LED board. The magnified P-type/N-type junction identifies electrons, holes, recombination, and photons with a few deliberate carriers. The phosphor coating is attached to the blue chip, while the complete-bulb diffuser and heat path remain separately legible. All 19 delivered-MP4 samples passed visual review."
   },
   "delivery": {
     "github_path": "RESULT/how-an-led-bulb-makes-light.mp4",
-    "branch": "arena/e7d14043-knowledge-vault",
+    "branch": "arena/a2e32c43-knowledge-vault",
     "retained_results": "left unchanged",
     "drive": "Existing Drive deliverables left unchanged"
   }

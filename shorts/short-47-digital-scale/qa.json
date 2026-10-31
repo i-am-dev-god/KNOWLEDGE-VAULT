@@ -2,9 +2,9 @@
   "file": "../../RESULT/how-a-digital-scale-measures-weight.mp4",
   "production_copy": "output/how-a-digital-scale-measures-weight.mp4",
   "status": "passed",
-  "bytes": 7339399,
-  "sha256": "5ffb8e8fbbec290c026d5db1d30725e11bf4bee407321fde01011df1fa586606",
-  "md5": "62576e77a9573b79a84cca307a61457c",
+  "bytes": 6337610,
+  "sha256": "9c76b1ddcf6b40caf508a585cfbe033d20c9454a10734c35b33ba3081fdc58fe",
+  "md5": "323c0567545962f1fd99e972938fd2b9",
   "container_duration_seconds": 40.6,
   "video": {
     "codec": "h264",
@@ -13,7 +13,7 @@
     "height": 1920,
     "fps": 30.0,
     "video_duration_seconds": 40.5,
-    "bit_rate": 1243562,
+    "bit_rate": 1045681,
     "decoded_frames": 1215
   },
   "audio": {
@@ -127,7 +127,7 @@
     ],
     "caption_onsets_extracted": 8,
     "caption_midpoints_extracted": 8,
-    "narration_beat_samples_extracted": 19,
+    "narration_beat_samples_extracted": 20,
     "outro_extracted": true,
     "typescript": "npx tsc --noEmit passed in remotion/",
     "delivery_and_production_copy_sha256_match": true,
@@ -144,6 +144,7 @@
     "samples": [
       "output/qa/0000-first-frame.jpg",
       "output/qa/0010-hook-reading-onset.jpg",
+      "output/qa/0034-physical-contact.jpg",
       "output/qa/0068-hook-reading-mid.jpg",
       "output/qa/0158-hook-bend-onset.jpg",
       "output/qa/0235-hook-bend-mid.jpg",
@@ -162,14 +163,14 @@
       "output/qa/1128-closing-summary-mid.jpg",
       "output/qa/1200-outro.jpg"
     ],
-    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
-    "reviewed_on": "2026-10-29",
-    "reviewed_samples": 19,
-    "review": "Immediate scale-reading payoff; load-cell deflection, strain-gauge deformation, resistance-to-digital conversion, calibration, container tare from 0.80 to 0.00, and the closing measurement chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
+    "reviewed_on": "2026-10-31",
+    "reviewed_samples": 20,
+    "review": "Rebuilt to correct the reported floating-object/readout error. A dedicated exact-contact sample confirms the object sits on the platform at 0.00 kg while the note says force is building; 2.50 kg appears only after the shared platform/support/load-cell deflection. Bonded gauges remain on the metal beam, signal cards are ordered and connected, and the calibration weight and tare bowl stay seated throughout. All 20 delivered-MP4 samples passed label, contact, alignment, and narration checks."
   },
   "delivery": {
     "github_path": "RESULT/how-a-digital-scale-measures-weight.mp4",
-    "branch": "arena/e7d14043-knowledge-vault",
+    "branch": "arena/a2e32c43-knowledge-vault",
     "retained_results": "left unchanged",
     "drive": "Existing Drive deliverables left unchanged"
   }

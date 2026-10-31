@@ -2,40 +2,65 @@ import React from 'react';
 import { AbsoluteFill, useCurrentFrame } from 'remotion';
 import { prog } from '../../lib/shorts';
 import { CalmCaptions, CalmSound, Scene, line } from '../../lib/next-calm';
-import { Arrow, FocusRing, MovingDots } from '../../lib/focus';
-import {
-  CinematicBackground, DeviceStage, FlowPath, Glow, Leader, QuadraticPulse,
-  SceneHeading, StatusPill, SvgStage, TinyLabel, X,
-} from '../../lib/cinematic';
+import { Arrow, MovingDots } from '../../lib/focus';
+import { CinematicBackground, DeviceStage, FlowPath, SceneHeading, SvgStage, TinyLabel, X } from '../../lib/cinematic';
+import { ClearLabel, HighlightPart, PanelLabel, StageNote } from '../../lib/clear-device';
 import { SCENES, SFX_CUES, VO } from './vo.gen';
 
 export const compositionConfig = { id: 'Short48AutomaticFaucet', durationInSeconds: 39.5, fps: 30, width: 1080, height: 1920 };
 
-const Hands: React.FC<{ x: number; y: number; opacity?: number; scale?: number }> = ({ x, y, opacity = 1, scale = 1 }) => (
-  <g transform={`translate(${x} ${y}) scale(${scale})`} opacity={opacity} fill="#b98265" stroke="#e0ae91" strokeWidth={6}>
-    {[-1, 1].map((side) => <g key={side} transform={`translate(${side * 105} 0) rotate(${side * -14})`}>
-      <rect x={-65} y={-20} width={130} height={190} rx={55} />
-      {[0, 1, 2, 3].map((i) => <rect key={i} x={-59 + i * 31} y={-125 - (i === 1 || i === 2 ? 24 : 0)} width={27} height={145 + (i === 1 || i === 2 ? 24 : 0)} rx={14} />)}
-      <rect x={side * 48 - 15} y={15} width={32} height={105} rx={16} transform={`rotate(${side * 38})`} />
-    </g>)}
+const Hand: React.FC<{ x: number; y: number; scale?: number; opacity?: number; rotation?: number }> = ({ x, y, scale = 1, opacity = 1, rotation = 0 }) => (
+  <g transform={`translate(${x} ${y}) rotate(${rotation}) scale(${scale})`} opacity={opacity} fill="#b98265" stroke="#efb294" strokeWidth={6} strokeLinejoin="round">
+    <path d="M -48 180 H 48 L 62 105 H -62 Z" />
+    <rect x={-76} y={-5} width={152} height={145} rx={58} />
+    {[-57, -19, 19, 57].map((fx, i) => <rect key={fx} x={fx - 15} y={-112 - (i === 1 || i === 2 ? 24 : 0)} width={30} height={140 + (i === 1 || i === 2 ? 24 : 0)} rx={15} />)}
+    <rect x={58} y={25} width={34} height={105} rx={17} transform="rotate(38 75 80)" />
+    <path d="M -45 55 Q 0 85 45 55" fill="none" stroke="#8d5d4b" strokeWidth={5} opacity={0.55} />
   </g>
 );
 
-const SensorPanel: React.FC<{ active?: number }> = ({ active = 1 }) => (
-  <g>
-    <rect x={220} y={535} width={640} height={140} rx={45} fill="#20364a" stroke={X.steel} strokeWidth={8} />
-    <circle cx={360} cy={605} r={43} fill="#281f42" stroke={X.violet} strokeWidth={7} />
-    <circle cx={360} cy={605} r={18 + Math.sin(active * 6) * 3} fill={X.violet} />
-    <circle cx={720} cy={605} r={43} fill="#142f39" stroke={X.cyan} strokeWidth={7} />
-    <circle cx={720} cy={605} r={17} fill={X.cyan} opacity={0.55} />
-    <TinyLabel x={360} y={730} text="INFRARED LED" color={X.violet} />
-    <TinyLabel x={720} y={730} text="RECEIVER" color={X.cyan} />
+const SensorWindow: React.FC<{ x?: number; y?: number; compact?: boolean; labels?: boolean }> = ({ x = 540, y = 610, compact = false, labels = true }) => (
+  <g transform={`translate(${x} ${y}) scale(${compact ? 0.78 : 1})`}>
+    <rect x={-300} y={-65} width={600} height={130} rx={38} fill="#1b3246" stroke={X.steel} strokeWidth={7} />
+    <circle cx={-150} cy={0} r={42} fill="#251e3d" stroke={X.violet} strokeWidth={6} />
+    <circle cx={-150} cy={0} r={17} fill={X.violet} />
+    <circle cx={150} cy={0} r={42} fill="#123039" stroke={X.cyan} strokeWidth={6} />
+    <circle cx={150} cy={0} r={15} fill={X.cyan} opacity={0.65} />
+    {labels && <>
+      <ClearLabel x={-150} y={115} text="Infrared LED" color={X.violet} size={22} />
+      <ClearLabel x={150} y={115} text="Receiver" color={X.cyan} size={22} />
+    </>}
   </g>
 );
+
+const SolenoidValve: React.FC<{ x: number; y: number; open: number; scale?: number; t: number; labels?: boolean }> = ({ x, y, open, scale = 1, t, labels = true }) => {
+  const closed = 1 - open;
+  return <g transform={`translate(${x} ${y}) scale(${scale})`}>
+    <rect x={-205} y={-235} width={410} height={480} rx={32} fill="#102438" stroke={open > 0.5 ? X.green : X.steel} strokeWidth={6} />
+    <path d="M -180 125 H 180" stroke={X.steel} strokeWidth={82} strokeLinecap="round" />
+    <path d="M -180 125 H 180" stroke={X.night} strokeWidth={52} strokeLinecap="round" />
+    <path d="M -45 80 L 0 105 L 45 80" fill="none" stroke={X.amber} strokeWidth={10} strokeLinejoin="round" />
+    <rect x={-92} y={-180} width={184} height={170} rx={24} fill="#302b4a" stroke={X.violet} strokeWidth={6} />
+    {[-145, -110, -75, -40].map((cy) => <path key={cy} d={`M -75 ${cy} H 75`} stroke={X.violet} strokeWidth={7} opacity={0.75} />)}
+    <rect x={-17} y={-155 + closed * 75} width={34} height={185} rx={12} fill={X.amber} stroke={X.white} strokeWidth={4} />
+    <path d="M -17 30 L 0 52 L 17 30" fill={X.amber} transform={`translate(0 ${closed * 75})`} />
+    <g opacity={open}>
+      <MovingDots x1={-150} y1={125} x2={150} y2={125} t={t} count={5} color={X.cyan} radius={8} speed={0.25} />
+      <Arrow x1={95} y1={125} x2={155} y2={125} color={X.cyan} width={7} />
+    </g>
+    {labels && <>
+      <ClearLabel x={0} y={-200} text="Solenoid coil" color={X.violet} size={20} />
+      <ClearLabel x={145} y={-45} targetX={20} targetY={-35 + closed * 75} text="Plunger" color={X.amber} anchor="start" size={20} />
+      <ClearLabel x={-145} y={200} text="Water in" color={X.cyan} size={19} />
+      <ClearLabel x={145} y={200} text={open > 0.5 ? 'Water out' : 'Flow blocked'} color={open > 0.5 ? X.cyan : X.coral} size={19} />
+    </>}
+  </g>;
+};
 
 const Short48AutomaticFaucet: React.FC = () => {
   const frame = useCurrentFrame(); const t = frame / 30;
-  const on = prog(t, 0.20, 1.10);
+  const hands = prog(t, 0.10, 0.80);
+  const water = prog(t, 0.75, 1.20);
   const sensor = prog(t, line(VO, 'hook-sensor').start - 0.08, line(VO, 'hook-sensor').start + 0.60);
   const pulses = prog(t, line(VO, 'emit-pulses').start - 0.08, line(VO, 'emit-pulses').start + 0.55);
   const clear = prog(t, line(VO, 'emit-clear').start - 0.08, line(VO, 'emit-clear').start + 0.55);
@@ -46,110 +71,109 @@ const Short48AutomaticFaucet: React.FC = () => {
   return <AbsoluteFill style={{ background: X.night }}>
     <Scene t={t} id="hook" scenes={SCENES}>
       <CinematicBackground t={t} accent={X.cyan} /><DeviceStage accent={X.cyan} />
-      <SceneHeading eyebrow="The hands-free result comes first" lines={['Hands below', 'water starts']} accent={X.cyan} />
+      <SceneHeading eyebrow="A faucet and sink, not an abstract sensor" lines={['Hands enter the detection zone', 'then the water starts']} accent={X.cyan} size={56} />
       <SvgStage>
-        <path d="M 285 1110 V 655 Q 285 570 375 570 H 715 Q 795 570 795 650 V 720" fill="none" stroke={X.steel} strokeWidth={92} strokeLinecap="round" />
-        <path d="M 285 1110 V 655 Q 285 570 375 570 H 715 Q 795 570 795 650 V 720" fill="none" stroke="#314b60" strokeWidth={62} strokeLinecap="round" />
-        <rect x={195} y={1080} width={180} height={85} rx={30} fill="#425a6e" stroke={X.steel} strokeWidth={8} />
-        <rect x={735} y={705} width={120} height={65} rx={25} fill="#142736" stroke={sensor > 0.4 ? X.violet : X.steel} strokeWidth={6} />
-        <circle cx={795} cy={738} r={15} fill={X.violet} opacity={0.5 + on * 0.5} />
-        <g opacity={on}>
-          <Glow x={795} y={960} r={155} color={X.cyan} opacity={0.45} />
-          <FlowPath d="M 795 790 V 1120" t={t} color={X.cyan} width={26} speed={150} dash="24 20" />
-          <MovingDots x1={795} y1={790} x2={795} y2={1120} t={t} count={8} color={X.white} radius={7} speed={0.42} />
+        <PanelLabel text="HANDS → SENSOR → WATER STREAM" color={X.cyan} />
+        <path d="M 270 1120 V 690 Q 270 580 380 580 H 720 Q 790 580 790 650 V 720" fill="none" stroke={X.steel} strokeWidth={96} strokeLinecap="round" />
+        <path d="M 270 1120 V 690 Q 270 580 380 580 H 720 Q 790 580 790 650 V 720" fill="none" stroke="#334e63" strokeWidth={64} strokeLinecap="round" />
+        <rect x={185} y={1090} width={170} height={70} rx={25} fill="#435b70" stroke={X.steel} strokeWidth={7} />
+        <rect x={735} y={705} width={110} height={58} rx={20} fill="#111f2c" stroke={sensor > 0.3 ? X.violet : X.steel} strokeWidth={5} />
+        <circle cx={770} cy={735} r={11} fill={X.violet} /><circle cx={812} cy={735} r={11} fill={X.cyan} />
+        <ClearLabel x={920} y={650} targetX={825} targetY={715} text="IR sensor window" color={X.violet} anchor="end" opacity={sensor} />
+        <g opacity={water}>
+          <FlowPath d="M 790 775 V 1135" t={t} color={X.cyan} width={24} speed={125} dash="25 18" />
+          <MovingDots x1={790} y1={785} x2={790} y2={1135} t={t} count={6} color={X.white} radius={6} speed={0.34} />
         </g>
-        <Hands x={680} y={1120 + (1 - on) * 90} scale={0.78} opacity={0.55 + on * 0.45} />
-        <FocusRing x={795} y={738} rx={120} ry={95} t={t} color={X.violet} opacity={sensor} />
-        <Leader x={895} y={610} tx={825} ty={720} text="INFRARED SENSOR" color={X.violet} opacity={sensor} anchor="end" />
-        <StatusPill x={540} y={1330} text={on > 0.55 ? 'HANDS DETECTED · WATER ON' : 'HANDS APPROACH THE SENSOR'} color={on > 0.55 ? X.green : X.cyan} width={560} />
+        <Hand x={750} y={1020 + (1 - hands) * 100} scale={0.78} opacity={0.45 + hands * 0.55} />
+        <path d="M 120 1160 Q 540 1370 960 1160 L 900 1240 Q 540 1390 180 1240 Z" fill="#1b3245" stroke={X.steel} strokeWidth={8} />
+        <ellipse cx={790} cy={1175} rx={95} ry={25} fill="none" stroke={X.cyan} strokeWidth={5} opacity={water * 0.6} />
+        <StageNote y={1325} text={water > 0.5 ? 'Hands detected → valve open → water flows into the basin' : 'The hand approaches before the water starts'} color={X.cyan} />
       </SvgStage>
     </Scene>
 
     <Scene t={t} id="emit" scenes={SCENES}>
       <CinematicBackground t={t} accent={X.violet} /><DeviceStage accent={X.violet} />
-      <SceneHeading eyebrow="The sensor sends an invisible signal" lines={['Infrared pulses', 'travel outward']} accent={X.violet} />
+      <SceneHeading eyebrow="Close-up of the faucet’s sensor window" lines={['The LED emits infrared', 'with no hand, little returns']} accent={X.violet} size={56} />
       <SvgStage>
-        <SensorPanel active={t} />
-        {[0, 1, 2].map((i) => <g key={i} opacity={0.25 + pulses * 0.75}>
-          <QuadraticPulse x1={360} y1={660} cx={320 + i * 80} cy={820} x2={250 + i * 220} y2={1110} t={t} count={4} color={X.violet} radius={10} speed={0.30} />
-          <FlowPath d={`M 360 660 Q ${320 + i * 80} 820 ${250 + i * 220} 1110`} t={t} color={X.violet} width={5} speed={70} opacity={0.45} />
-        </g>)}
+        <PanelLabel text="OUTGOING LIGHT · EMPTY DETECTION ZONE" color={X.violet} />
+        <SensorWindow />
+        {[0, 1, 2].map((i) => <path key={i} d={`M 390 675 L ${285 + i * 105} 1080`} fill="none" stroke={X.violet} strokeWidth={6} opacity={0.18 + pulses * 0.35} />)}
+        <MovingDots x1={390} y1={680} x2={390} y2={1080} t={t} count={5} color={X.violet} radius={8} speed={0.24} opacity={0.25 + pulses * 0.75} />
+        <Arrow x1={390} y1={960} x2={390} y2={1060} color={X.violet} width={7} opacity={pulses} />
         <g opacity={clear}>
-          <path d="M 250 1110 Q 420 960 690 660" fill="none" stroke={X.cyan} strokeWidth={5} strokeDasharray="9 15" opacity={0.16} />
-          <TinyLabel x={550} y={1210} text="NO HANDS · LITTLE LIGHT RETURNS" color={X.cyan} />
-          <FocusRing x={720} y={605} rx={95} ry={90} t={t} color={X.cyan} opacity={0.35} />
+          <rect x={245} y={940} width={590} height={170} rx={28} fill="#0b1a29" fillOpacity={0.65} stroke={X.muted} strokeWidth={3} />
+          <ClearLabel x={540} y={1020} text="No hand in this zone" color={X.white} />
+          <ClearLabel x={690} y={835} targetX={690} targetY={675} text="Receiver gets no strong return" color={X.cyan} size={21} />
         </g>
-        <StatusPill x={540} y={1320} text="INFRARED IS LIGHT WE CANNOT SEE" color={X.violet} opacity={pulses} width={620} />
+        <StageNote text="Infrared travels outward; an empty zone sends little back" color={X.violet} />
       </SvgStage>
     </Scene>
 
     <Scene t={t} id="reflect" scenes={SCENES}>
       <CinematicBackground t={t} accent={X.cyan} /><DeviceStage accent={X.cyan} />
-      <SceneHeading eyebrow="Hands change the returning signal" lines={['Reflected light', 'opens the valve']} accent={X.cyan} />
+      <SceneHeading eyebrow="Reflection and valve action, side by side" lines={['Hands return the infrared', 'the controller opens the valve']} accent={X.cyan} size={55} />
       <SvgStage>
-        <SensorPanel active={t} />
-        <Hands x={535} y={1080} scale={0.72} />
-        <g opacity={0.25 + reflect * 0.75}>
-          <QuadraticPulse x1={360} y1={660} cx={330} cy={820} x2={480} y2={940} t={t} count={5} color={X.violet} radius={10} speed={0.32} />
-          <QuadraticPulse x1={480} y1={940} cx={670} cy={850} x2={720} y2={660} t={t} count={5} color={X.cyan} radius={10} speed={0.32} />
-          <FocusRing x={540} y={970} rx={245} ry={210} t={t} color={X.cyan} opacity={reflect} />
+        <PanelLabel text="DETECTION ON THE LEFT · WATER CONTROL ON THE RIGHT" color={X.cyan} />
+        <g transform="translate(335 650) scale(0.78)">
+          <SensorWindow x={0} y={0} labels={false} />
         </g>
-        <g transform="translate(905 800)" opacity={0.30 + valve * 0.70}>
-          <rect x={-105} y={-90} width={210} height={165} rx={28} fill={X.panel2} stroke={X.violet} strokeWidth={6} />
-          <TinyLabel x={0} y={0} text="CONTROLLER" color={X.violet} />
-          <Arrow x1={0} y1={90} x2={0} y2={190} color={X.violet} width={7} />
-          <rect x={-120} y={200} width={240} height={190} rx={35} fill="#183244" stroke={valve > 0.45 ? X.green : X.steel} strokeWidth={7} />
-          <path d={`M 0 225 V ${290 - valve * 50}`} stroke={X.amber} strokeWidth={22} />
-          <TinyLabel x={0} y={445} text="SOLENOID VALVE" color={valve > 0.45 ? X.green : X.steel} />
-          <FocusRing x={0} y={295} rx={155} ry={140} t={t} color={X.green} opacity={valve} />
-        </g>
-        <StatusPill x={540} y={1360} text={valve > 0.45 ? 'STRONG RETURN SIGNAL · VALVE OPENS' : 'HANDS REFLECT LIGHT TO THE RECEIVER'} color={valve > 0.45 ? X.green : X.cyan} width={700} />
+        <Hand x={335} y={1080} scale={0.58} />
+        <Arrow x1={240} y1={700} x2={310} y2={990} color={X.violet} width={7} opacity={0.25 + reflect * 0.75} />
+        <Arrow x1={355} y1={990} x2={430} y2={700} color={X.cyan} width={7} opacity={0.25 + reflect * 0.75} />
+        <MovingDots x1={240} y1={700} x2={310} y2={990} t={t} count={3} color={X.violet} radius={7} speed={0.22} opacity={reflect} />
+        <MovingDots x1={355} y1={990} x2={430} y2={700} t={t} count={3} color={X.cyan} radius={7} speed={0.22} opacity={reflect} />
+        <ClearLabel x={330} y={840} text="Reflected IR" color={X.cyan} opacity={reflect} />
+        <rect x={585} y={575} width={150} height={85} rx={20} fill="#182b40" stroke={X.violet} strokeWidth={5} opacity={0.35 + valve * 0.65} />
+        <ClearLabel x={660} y={628} text="Controller" color={X.violet} size={20} opacity={0.35 + valve * 0.65} />
+        <Arrow x1={450} y1={655} x2={585} y2={620} color={X.violet} width={6} opacity={valve} />
+        <Arrow x1={660} y1={665} x2={735} y2={835} color={X.violet} width={6} opacity={valve} />
+        <SolenoidValve x={805} y={935} open={valve} scale={0.72} t={t} />
+        {valve > 0.05 && <HighlightPart x={655} y={765} width={300} height={350} color={X.green} opacity={valve * 0.35} />}
+        <StageNote text={valve > 0.45 ? 'The plunger lifts, opening a continuous path through the pipe' : 'The hand returns a stronger signal to the receiver'} color={X.cyan} />
       </SvgStage>
     </Scene>
 
     <Scene t={t} id="valve" scenes={SCENES}>
       <CinematicBackground t={t} accent={X.green} /><DeviceStage accent={X.green} />
-      <SceneHeading eyebrow="The signal disappears too" lines={['Hands move away', 'the water stops']} accent={X.green} />
+      <SceneHeading eyebrow="The same control chain in reverse" lines={['Hands leave the sensor', 'the plunger blocks the pipe']} accent={X.green} size={56} />
       <SvgStage>
-        <Hands x={220 - remove * 180} y={720} scale={0.55} opacity={1 - remove * 0.75} />
-        <path d="M 300 730 Q 390 620 480 610" fill="none" stroke={X.cyan} strokeWidth={7} strokeDasharray="10 14" opacity={1 - remove} />
-        <g transform="translate(650 790)">
-          <rect x={-260} y={-190} width={520} height={390} rx={55} fill="#142b3d" stroke={X.steel} strokeWidth={9} />
-          <rect x={-225} y={-150} width={115} height={250} rx={25} fill="#3c3557" stroke={X.violet} strokeWidth={7} />
-          <rect x={110} y={-150} width={115} height={250} rx={25} fill="#3c3557" stroke={X.violet} strokeWidth={7} />
-          <path d={`M 0 -145 V ${35 + remove * 95}`} stroke={X.amber} strokeWidth={34} strokeLinecap="round" />
-          <circle cy={-145} r={34} fill={X.steel} />
-          <path d="M -260 130 H 260" stroke={X.cyan} strokeWidth={65} opacity={0.22 + (1 - remove) * 0.30} />
-          <path d={`M 0 ${35 + remove * 95} V 130`} stroke={remove > 0.5 ? X.coral : X.green} strokeWidth={20} />
-          <FocusRing x={0} y={0} rx={300} ry={240} t={t} color={remove > 0.5 ? X.green : X.amber} opacity={0.8} />
-        </g>
-        <g opacity={1 - remove}>
-          <MovingDots x1={390} y1={920} x2={910} y2={920} t={t} count={8} color={X.cyan} radius={11} speed={0.30} />
-        </g>
-        <StatusPill x={540} y={1270} text={remove > 0.5 ? 'NO REFLECTION · VALVE CLOSED · WATER OFF' : 'RETURN SIGNAL FALLS · VALVE CLOSES'} color={remove > 0.5 ? X.green : X.amber} width={720} />
+        <PanelLabel text="NO RETURN SIGNAL → VALVE CLOSED → WATER OFF" color={X.green} />
+        <g transform="translate(230 615) scale(0.55)"><SensorWindow x={0} y={0} labels={false} /></g>
+        <Hand x={145 - remove * 120} y={940} scale={0.45} opacity={1 - remove * 0.85} rotation={-20} />
+        <path d="M 215 760 Q 300 700 320 665" fill="none" stroke={X.cyan} strokeWidth={6} opacity={1 - remove} />
+        <ClearLabel x={290} y={860} text={remove > 0.5 ? 'No reflected signal' : 'Reflection falling'} color={remove > 0.5 ? X.coral : X.cyan} />
+        <SolenoidValve x={675} y={915} open={1 - remove} scale={0.92} t={t} />
+        <StageNote text={remove > 0.5 ? 'Plunger down → valve seat blocked → no water can pass' : 'The controller lowers the plunger as the return signal disappears'} color={remove > 0.5 ? X.green : X.amber} />
       </SvgStage>
     </Scene>
 
     <Scene t={t} id="closing" scenes={SCENES}>
       <CinematicBackground t={t} accent={X.green} /><DeviceStage accent={X.green} />
-      <SceneHeading eyebrow="One touch-free control chain" lines={['Reflected infrared', 'controls the water']} accent={X.green} />
+      <SceneHeading eyebrow="The complete faucet, in three steps" lines={['Reflected infrared', 'controls a real water valve']} accent={X.green} size={57} />
       <SvgStage>
-        <g transform="translate(180 800)">
-          <circle r={75} fill={X.panel2} stroke={X.violet} strokeWidth={8} /><circle r={25} fill={X.violet} />
-          {[0, 1, 2].map((i) => <path key={i} d={`M ${-45 + i * 45} 95 Q ${-80 + i * 70} 170 ${-100 + i * 90} 220`} fill="none" stroke={X.violet} strokeWidth={6} strokeDasharray="9 12" strokeDashoffset={-t * 35} />)}
-          <TinyLabel x={0} y={310} text="INFRARED PULSES" color={X.violet} />
+        <PanelLabel text="SENSE → OPEN THE VALVE → DELIVER WATER" color={X.green} />
+        <g transform="translate(195 825)">
+          <rect x={-130} y={-165} width={260} height={330} rx={30} fill="#112236" stroke={X.violet} strokeWidth={4} />
+          <circle cx={-45} cy={-55} r={30} fill="#251e3d" stroke={X.violet} strokeWidth={5} />
+          <circle cx={55} cy={-55} r={30} fill="#123039" stroke={X.cyan} strokeWidth={5} />
+          <Hand x={5} y={75} scale={0.32} />
+          <Arrow x1={-45} y1={-15} x2={-10} y2={45} color={X.violet} width={5} /><Arrow x1={25} y1={45} x2={55} y2={-15} color={X.cyan} width={5} />
+          <ClearLabel x={0} y={235} text="1 · Hand reflects IR" color={X.violet} size={21} />
         </g>
-        <Arrow x1={290} y1={800} x2={375} y2={800} color={X.green} width={8} />
-        <Hands x={500} y={835} scale={0.42} />
-        <FocusRing x={500} y={820} rx={135} ry={170} t={t} color={X.cyan} opacity={0.7} />
-        <TinyLabel x={500} y={1110} text="HANDS REFLECT" color={X.cyan} />
-        <Arrow x1={635} y1={800} x2={725} y2={800} color={X.green} width={8} />
-        <g transform="translate(850 800)">
-          <rect x={-105} y={-115} width={210} height={230} rx={40} fill={X.panel2} stroke={X.green} strokeWidth={8} />
-          <FlowPath d="M 0 -85 V 200" t={t} color={X.cyan} width={18} speed={110} dash="20 18" />
-          <TinyLabel x={0} y={310} text="WATER FLOWS" color={X.green} />
+        <Arrow x1={340} y1={825} x2={405} y2={825} color={X.green} width={8} />
+        <g transform="translate(540 825)">
+          <rect x={-130} y={-165} width={260} height={330} rx={30} fill="#112236" stroke={X.green} strokeWidth={4} />
+          <SolenoidValve x={0} y={0} open={1} scale={0.52} t={t} labels={false} />
+          <ClearLabel x={0} y={235} text="2 · Valve opens" color={X.green} size={21} />
         </g>
-        <StatusPill x={540} y={1320} text="EMIT → REFLECT → DETECT → OPEN VALVE" color={X.green} width={680} />
+        <Arrow x1={675} y1={825} x2={750} y2={825} color={X.green} width={8} />
+        <g transform="translate(885 825)">
+          <rect x={-130} y={-165} width={260} height={330} rx={30} fill="#112236" stroke={X.cyan} strokeWidth={4} />
+          <path d="M -70 -105 H 55 Q 85 -105 85 -65 V -25" fill="none" stroke={X.steel} strokeWidth={34} strokeLinecap="round" />
+          <FlowPath d="M 85 -5 V 115" t={t} color={X.cyan} width={16} speed={110} dash="20 16" />
+          <ClearLabel x={0} y={235} text="3 · Water flows" color={X.cyan} size={21} />
+        </g>
+        <StageNote text="Emit → reflect → detect → lift plunger → water flows" color={X.green} />
       </SvgStage>
     </Scene>
 
