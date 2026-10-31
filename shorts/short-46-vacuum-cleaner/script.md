@@ -4,7 +4,7 @@
 
 **Format:** 1080 × 1920, 30 fps, 42 seconds
 
-**Production:** Result-first cinematic original cutaway animation with an immediate device payoff, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, no corner topic or duration labels, narration-guided focus highlights, ducked instrumental music, and restrained sound design
+**Production:** Rebuilt result-first device animation with physically aligned contact points, connected pipes/wires, recognizable labeled cutaways, one primary action per beat, steady part highlights, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line or corner metadata, ducked music, and restrained sound design
 
 ## Timed narration and matching demonstrations
 
@@ -16,7 +16,7 @@
 > It does this by creating a continuous airflow, not by pulling on each particle directly.
 > *5.38–10.60s*
 
-**Picture:** A floor nozzle and transparent collection bin show dirt moving with the airflow from the opening seconds.
+**Picture:** A complete canister-vacuum cutaway connects the floor nozzle, hose, transparent dust bin, fan, and exhaust while dirt follows one defined pickup path.
 
 ### 2. The fan creates a pressure difference · 10.74–20.18s
 
@@ -26,7 +26,7 @@
 > That lowers the air pressure inside, so room air rushes in through the nozzle.
 > *15.58–19.92s*
 
-**Picture:** A motor-driven fan pushes exhaust air out while room-air arrows enter through the lower-pressure inlet.
+**Picture:** A labeled inlet, dust bin, filter, motor, fan, and exhaust show fan-driven exhaust and replacement room air entering from the opposite side.
 
 ### 3. Moving air transports and separates dirt · 20.18–30.24s
 
@@ -36,21 +36,21 @@
 > A cyclone or filter separates the dirt from that air before the air leaves the machine.
 > *24.64–29.94s*
 
-**Picture:** Dust travels with air into a cyclone cutaway, where dirt falls into the bin and filtered air exits.
+**Picture:** A labeled separator chamber shows air and dirt entering, air circulating upward to the cleaner-air outlet, and dirt falling into the collection bin.
 
 ### 4. Clean filters preserve airflow · 30.24–35.80s
 
 > A clogged filter restricts airflow, which is why cleaning it can restore cleaning performance.
 > *30.74–35.56s*
 
-**Picture:** A pleated filter changes from clogged to clean as moving airflow markers become stronger.
+**Picture:** Side-by-side before-and-after pleated filters contrast a dust-blocked passage with restored airflow through clean pleats.
 
 ### 5. Fan, airflow, and collection form one chain · 35.80–42.00s
 
 > So the fan starts an airflow, and the moving air transports dirt into the vacuum.
 > *36.30–40.86s*
 
-**Picture:** Fan, moving air, and collected dirt form one continuously animated cleaning chain.
+**Picture:** Three ordered diagrams connect the running fan, directed airflow, and collected dirt without decorative particle clutter.
 
 ## Selected-voice production record
 
@@ -76,8 +76,8 @@
 - **Delivered synchronization:** Narration offset 0 ms, within the 12 ms acceptance limit; normalized mix correlation 0.39889.
 - **Timing:** 8 captions, 5 scenes, and 4 cues use the verified `voice-00` alignment. ASR caption end is 40.86 seconds; measured speech ends at 41.087750 seconds.
 - **Container duration:** 42.000 seconds (42.00 seconds of video plus AAC padding).
-- **Size:** 12,145,432 bytes.
-- **SHA-256:** `9902fd35fb1268de23cc0f8431bedb60294e5c6b2b841318d58e57e9641b48d4`.
-- **MD5:** `9b44c3a5e94612bd1e33acd045812e70`.
+- **Size:** 7,911,201 bytes.
+- **SHA-256:** `71b1622ce583dea86d94d0060b254c4beef649370f6f92e9ffe781a19a4d5f3b`.
+- **MD5:** `51db4a71d0a472a77c2d442e2a7e2efe`.
 - **Visual review:** Passed on the actual delivered MP4 at frame zero, every narration-clause onset and midpoint, targeted late control actions where applicable, and the outro (19 ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.
 - **Existing versions:** All twenty-two retained delivery hashes are verified unchanged, and existing Drive deliverables are left untouched.

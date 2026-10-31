@@ -4,7 +4,7 @@
 
 **Format:** 1080 × 1920, 30 fps, 39.5 seconds
 
-**Production:** Result-first cinematic original cutaway animation with an immediate device payoff, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, no corner topic or duration labels, narration-guided focus highlights, ducked instrumental music, and restrained sound design
+**Production:** Rebuilt result-first device animation with physically aligned contact points, connected pipes/wires, recognizable labeled cutaways, one primary action per beat, steady part highlights, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line or corner metadata, ducked music, and restrained sound design
 
 ## Timed narration and matching demonstrations
 
@@ -16,7 +16,7 @@
 > A small infrared sensor near the spout detects that your hands are there.
 > *5.42–9.60s*
 
-**Picture:** Hands beneath a recognizable faucet trigger an immediate visible water stream and reveal the infrared sensor window.
+**Picture:** A recognizable faucet and basin show a hand moving directly under the spout before the aligned water stream starts, with the infrared sensor window labeled.
 
 ### 2. The sensor emits invisible infrared pulses · 9.60–19.70s
 
@@ -26,7 +26,7 @@
 > With no hands nearby, that light travels away and little returns to the receiver.
 > *14.86–19.50s*
 
-**Picture:** An infrared LED and receiver send animated invisible pulses outward with no hands in the detection zone.
+**Picture:** A close-up sensor window identifies the infrared LED and receiver while outgoing pulses enter an explicitly empty detection zone and little light returns.
 
 ### 3. Hands return light to the receiver · 19.70–28.22s
 
@@ -36,21 +36,21 @@
 > When the returned signal is strong enough, a controller opens a solenoid valve.
 > *24.44–28.72s*
 
-**Picture:** Hands redirect pulses into the receiver while a controller and solenoid valve respond to the stronger return signal.
+**Picture:** Hand-contacting reflection arrows lead to the receiver and controller beside a labeled solenoid-valve cutaway whose lifted plunger opens the water pipe.
 
 ### 4. The solenoid valve starts and stops water · 28.22–33.26s
 
 > Remove your hands, the reflection disappears, and the valve closes again.
 > *28.72–33.22s*
 
-**Picture:** Hands leave, the return path disappears, the solenoid plunger closes, and water-flow markers stop.
+**Picture:** As the hand leaves and reflection disappears, the same solenoid plunger lowers into the valve seat and blocks the connected water pipe.
 
 ### 5. Reflected light becomes hands-free control · 33.26–39.50s
 
 > So the faucet turns reflected infrared light into water flow without touch.
 > *33.76–38.36s*
 
-**Picture:** Infrared emission, hand reflection, and valve-controlled water form one touch-free chain.
+**Picture:** Three ordered diagrams connect hand reflection, valve opening, and water delivery from the faucet.
 
 ## Selected-voice production record
 
@@ -76,8 +76,8 @@
 - **Delivered synchronization:** Narration offset 0 ms, within the 12 ms acceptance limit; normalized mix correlation 0.30466.
 - **Timing:** 8 captions, 5 scenes, and 4 cues use the verified `voice-00` alignment. ASR caption end is 38.36 seconds; measured speech ends at 38.580958 seconds.
 - **Container duration:** 39.600 seconds (39.50 seconds of video plus AAC padding).
-- **Size:** 8,810,306 bytes.
-- **SHA-256:** `e113cdc62672e2378400afbfc272db13338c79bec1c10ce03e92f1893285c30f`.
-- **MD5:** `760e60943b44b8b20d8cc5b362f2dfb3`.
+- **Size:** 6,569,904 bytes.
+- **SHA-256:** `226c778922f83a71add50b9e6ac2828256cbd370c6afa08960a69c94ffcb9251`.
+- **MD5:** `0911b94a9e670d2dc2f023aeca6252de`.
 - **Visual review:** Passed on the actual delivered MP4 at frame zero, every narration-clause onset and midpoint, targeted late control actions where applicable, and the outro (19 ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.
 - **Existing versions:** All twenty-two retained delivery hashes are verified unchanged, and existing Drive deliverables are left untouched.

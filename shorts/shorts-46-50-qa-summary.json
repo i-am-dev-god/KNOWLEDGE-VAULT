@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "branch": "arena/e7d14043-knowledge-vault",
+  "branch": "arena/a2e32c43-knowledge-vault",
   "voice": "voice-00",
   "caption_progress_line": false,
   "delivered_narration_offset_limit_seconds": 0.012,
   "total_decoded_frames": 6225,
-  "total_actual_mp4_samples": 95,
+  "total_actual_mp4_samples": 96,
   "preserved_results": {
     "how-a-3d-printer-builds-an-object.mp4": "e0094b7f44e3a9c29a4af465658d2b7e0bf49e40f3c903b72eb67588616f726c",
     "how-a-hard-drive-finds-your-files.mp4": "af5e87436daaac94ab68fdb2e37f77a00a5fb57fe3ad5a33df68cf2fd0ff57ef",
@@ -46,8 +46,8 @@
     {
       "file": "RESULT/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
       "composition": "Short46VacuumCleaner",
-      "bytes": 12145432,
-      "sha256": "9902fd35fb1268de23cc0f8431bedb60294e5c6b2b841318d58e57e9641b48d4",
+      "bytes": 7911201,
+      "sha256": "71b1622ce583dea86d94d0060b254c4beef649370f6f92e9ffe781a19a4d5f3b",
       "decoded_frames": 1260,
       "integrated_lufs": -16.1,
       "true_peak_dbfs": -1.75,
@@ -58,8 +58,8 @@
     {
       "file": "RESULT/how-a-digital-scale-measures-weight.mp4",
       "composition": "Short47DigitalScale",
-      "bytes": 7339399,
-      "sha256": "5ffb8e8fbbec290c026d5db1d30725e11bf4bee407321fde01011df1fa586606",
+      "bytes": 6337610,
+      "sha256": "9c76b1ddcf6b40caf508a585cfbe033d20c9454a10734c35b33ba3081fdc58fe",
       "decoded_frames": 1215,
       "integrated_lufs": -16.08,
       "true_peak_dbfs": -1.99,
@@ -70,8 +70,8 @@
     {
       "file": "RESULT/how-an-automatic-faucet-senses-your-hands.mp4",
       "composition": "Short48AutomaticFaucet",
-      "bytes": 8810306,
-      "sha256": "e113cdc62672e2378400afbfc272db13338c79bec1c10ce03e92f1893285c30f",
+      "bytes": 6569904,
+      "sha256": "226c778922f83a71add50b9e6ac2828256cbd370c6afa08960a69c94ffcb9251",
       "decoded_frames": 1185,
       "integrated_lufs": -16.17,
       "true_peak_dbfs": -1.99,
@@ -82,8 +82,8 @@
     {
       "file": "RESULT/how-a-washing-machine-spins-water-out-of-clothes.mp4",
       "composition": "Short49WashingMachine",
-      "bytes": 14393461,
-      "sha256": "94bebb8f69b6fa0f49d18350889f6126db03f909f9f12414f587dd6a29673287",
+      "bytes": 8817431,
+      "sha256": "1d23f2990d2d5365f77d867da3a926b354de53e5288de636be77131ff2de56e1",
       "decoded_frames": 1200,
       "integrated_lufs": -16.0,
       "true_peak_dbfs": -1.88,
@@ -94,8 +94,8 @@
     {
       "file": "RESULT/how-an-led-bulb-makes-light.mp4",
       "composition": "Short50LedBulb",
-      "bytes": 11232203,
-      "sha256": "89f82ac217f5001ed249f672e2289249136204bd7e8ac606d5853f02706fe1a4",
+      "bytes": 7637449,
+      "sha256": "9460ad8e789023ba3b107d9428327c11286e3a115881cfdc9ace2a6b1221c534",
       "decoded_frames": 1365,
       "integrated_lufs": -16.12,
       "true_peak_dbfs": -1.84,

@@ -4,7 +4,7 @@
 
 **Format:** 1080 × 1920, 30 fps, 45.5 seconds
 
-**Production:** Result-first cinematic original cutaway animation with an immediate device payoff, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line, no corner topic or duration labels, narration-guided focus highlights, ducked instrumental music, and restrained sound design
+**Production:** Rebuilt result-first device animation with physically aligned contact points, connected pipes/wires, recognizable labeled cutaways, one primary action per beat, steady part highlights, one continuous user-selected `voice-00` narration take, calm ASR-aligned captions with no progress line or corner metadata, ducked music, and restrained sound design
 
 ## Timed narration and matching demonstrations
 
@@ -16,14 +16,14 @@
 > Its light comes from tiny semiconductor chips, not from a glowing metal filament.
 > *7.18–11.58s*
 
-**Picture:** A glowing LED-bulb cutaway reveals semiconductor chips beside a hotter filament-bulb comparison.
+**Picture:** A labeled LED-bulb cutaway identifies the diffuser, LED board, heat sink, driver, and base beside a smaller filament-bulb comparison.
 
 ### 2. The driver supplies controlled current · 11.82–17.22s
 
 > The bulb's driver changes household electricity into a controlled direct current.
 > *12.32–17.06s*
 
-**Picture:** Household power enters a component-filled LED driver and leaves as a controlled direct-current path.
+**Picture:** Inside the lower bulb, socket AC connects to a rectifier-and-regulator driver board whose controlled DC output connects upward to the LED board.
 
 ### 3. Recombining charges release photons · 17.22–27.32s
 
@@ -33,7 +33,7 @@
 > When they recombine, they release energy as photons, which are particles of light.
 > *23.28–27.82s*
 
-**Picture:** Electrons and holes move toward a semiconductor junction, where recombination releases animated photons.
+**Picture:** A magnified P-type/N-type chip uses a few deliberate electron-hole pairs at a labeled recombination junction and upward photon arrows.
 
 ### 4. Phosphor, diffusion, and cooling make a useful bulb · 27.32–38.12s
 
@@ -43,14 +43,14 @@
 > A diffuser spreads that light evenly, while the metal body carries heat away.
 > *33.76–38.08s*
 
-**Picture:** Blue-chip light enters a phosphor layer, then a diffuser spreads white light while heat leaves the metal body.
+**Picture:** A blue chip with a directly attached yellow phosphor coating contrasts with a complete bulb showing diffuser-spread light and heat leaving the metal body.
 
 ### 5. Electrical energy becomes light directly · 38.12–45.50s
 
 > So controlled current powers semiconductor junctions that turn electrical energy directly into light.
 > *38.62–44.36s*
 
-**Picture:** Controlled current, junction emission, and a glowing bulb form one direct energy-conversion chain.
+**Picture:** One full LED bulb carries three numbered callouts for base current control, chip-junction emission, and useful light leaving the dome.
 
 ## Selected-voice production record
 
@@ -76,8 +76,8 @@
 - **Delivered synchronization:** Narration offset 0 ms, within the 12 ms acceptance limit; normalized mix correlation 0.37178.
 - **Timing:** 8 captions, 5 scenes, and 4 cues use the verified `voice-00` alignment. ASR caption end is 44.36 seconds; measured speech ends at 44.589646 seconds.
 - **Container duration:** 45.500 seconds (45.50 seconds of video plus AAC padding).
-- **Size:** 11,232,203 bytes.
-- **SHA-256:** `89f82ac217f5001ed249f672e2289249136204bd7e8ac606d5853f02706fe1a4`.
-- **MD5:** `01b13e035cfeaf2ec754c8f2f470f4b1`.
+- **Size:** 7,637,449 bytes.
+- **SHA-256:** `9460ad8e789023ba3b107d9428327c11286e3a115881cfdc9ace2a6b1221c534`.
+- **MD5:** `ce8fd8b5f5f139e06f5e536d341ce1d4`.
 - **Visual review:** Passed on the actual delivered MP4 at frame zero, every narration-clause onset and midpoint, targeted late control actions where applicable, and the outro (19 ordered samples). The active object and visible state match the narration, unrelated elements recede, labels and captions remain safe and legible, and no caption timing/progress line appears.
 - **Existing versions:** All twenty-two retained delivery hashes are verified unchanged, and existing Drive deliverables are left untouched.

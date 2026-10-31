@@ -375,16 +375,16 @@ Production and QA: [`script.md`](../shorts/short-45-electric-kettle/script.md) �
 
 **Finished video:** [how-a-vacuum-cleaner-pulls-up-dirt.mp4](how-a-vacuum-cleaner-pulls-up-dirt.mp4)
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - 42.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.910459910×` with pitch preserved; never sped up
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
 - Full 1,260-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
 - Integrated loudness -16.10 LUFS; true peak -1.75 dBTP; measured narration offset 0 ms
 
-**Size:** 12,145,432 bytes
+**Size:** 7,911,201 bytes
 
-**SHA-256:** `9902fd35fb1268de23cc0f8431bedb60294e5c6b2b841318d58e57e9641b48d4`
+**SHA-256:** `71b1622ce583dea86d94d0060b254c4beef649370f6f92e9ffe781a19a4d5f3b`
 
 Production and QA: [`script.md`](../shorts/short-46-vacuum-cleaner/script.md) · [`qa.json`](../shorts/short-46-vacuum-cleaner/qa.json)
 
@@ -392,16 +392,16 @@ Production and QA: [`script.md`](../shorts/short-46-vacuum-cleaner/script.md) ·
 
 **Finished video:** [how-a-digital-scale-measures-weight.mp4](how-a-digital-scale-measures-weight.mp4)
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - 40.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.916207224×` with pitch preserved; never sped up
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
 - Full 1,215-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
 - Integrated loudness -16.08 LUFS; true peak -1.99 dBTP; measured narration offset 0 ms
 
-**Size:** 7,339,399 bytes
+**Size:** 6,337,610 bytes
 
-**SHA-256:** `5ffb8e8fbbec290c026d5db1d30725e11bf4bee407321fde01011df1fa586606`
+**SHA-256:** `9c76b1ddcf6b40caf508a585cfbe033d20c9454a10734c35b33ba3081fdc58fe`
 
 Production and QA: [`script.md`](../shorts/short-47-digital-scale/script.md) · [`qa.json`](../shorts/short-47-digital-scale/qa.json)
 
@@ -409,16 +409,16 @@ Production and QA: [`script.md`](../shorts/short-47-digital-scale/script.md) · 
 
 **Finished video:** [how-an-automatic-faucet-senses-your-hands.mp4](how-an-automatic-faucet-senses-your-hands.mp4)
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - 39.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.910613351×` with pitch preserved; never sped up
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
 - Full 1,185-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
 - Integrated loudness -16.17 LUFS; true peak -1.99 dBTP; measured narration offset 0 ms
 
-**Size:** 8,810,306 bytes
+**Size:** 6,569,904 bytes
 
-**SHA-256:** `e113cdc62672e2378400afbfc272db13338c79bec1c10ce03e92f1893285c30f`
+**SHA-256:** `226c778922f83a71add50b9e6ac2828256cbd370c6afa08960a69c94ffcb9251`
 
 Production and QA: [`script.md`](../shorts/short-48-automatic-faucet/script.md) · [`qa.json`](../shorts/short-48-automatic-faucet/qa.json)
 
@@ -426,16 +426,16 @@ Production and QA: [`script.md`](../shorts/short-48-automatic-faucet/script.md) 
 
 **Finished video:** [how-a-washing-machine-spins-water-out-of-clothes.mp4](how-a-washing-machine-spins-water-out-of-clothes.mp4)
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - 40.00 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.917107403×` with pitch preserved; never sped up
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
 - Full 1,200-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
 - Integrated loudness -16.00 LUFS; true peak -1.88 dBTP; measured narration offset 0 ms
 
-**Size:** 14,393,461 bytes
+**Size:** 8,817,431 bytes
 
-**SHA-256:** `94bebb8f69b6fa0f49d18350889f6126db03f909f9f12414f587dd6a29673287`
+**SHA-256:** `1d23f2990d2d5365f77d867da3a926b354de53e5288de636be77131ff2de56e1`
 
 Production and QA: [`script.md`](../shorts/short-49-washing-machine/script.md) · [`qa.json`](../shorts/short-49-washing-machine/qa.json)
 
@@ -443,15 +443,15 @@ Production and QA: [`script.md`](../shorts/short-49-washing-machine/script.md) �
 
 **Finished video:** [how-an-led-bulb-makes-light.mp4](how-an-led-bulb-makes-light.mp4)
 
-- Cinematic original science-and-technology cutaway explainer; no top-left title or top-right duration label; active-component highlights and directional motion guide attention
+- Rebuilt, physically aligned science-and-technology cutaway; recognizable labeled parts, connected paths, and steady active-component highlights; no corner topic/duration labels
 - 45.50 seconds of video; 1080 × 1920; 30 fps; H.264 High with AAC-LC stereo
 - User-selected `voice-00` exclusively in one continuous take, slowed gently to `0.919359768×` with pitch preserved; never sped up
 - Result-first opening, 0.15-second narration onset, content-adaptive duration, calm pacing, 8 complete-clause captions, 5 scenes, and **no moving line or timing indicator beneath subtitles**
 - Full 1,365-frame decode, loudness and delivered-sync checks, and ordered frame-zero/narration-onset/midpoint/outro visual review passed
 - Integrated loudness -16.12 LUFS; true peak -1.84 dBTP; measured narration offset 0 ms
 
-**Size:** 11,232,203 bytes
+**Size:** 7,637,449 bytes
 
-**SHA-256:** `89f82ac217f5001ed249f672e2289249136204bd7e8ac606d5853f02706fe1a4`
+**SHA-256:** `9460ad8e789023ba3b107d9428327c11286e3a115881cfdc9ace2a6b1221c534`
 
 Production and QA: [`script.md`](../shorts/short-50-led-bulb/script.md) · [`qa.json`](../shorts/short-50-led-bulb/qa.json)

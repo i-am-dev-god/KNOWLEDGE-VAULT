@@ -2,9 +2,9 @@
   "file": "../../RESULT/how-a-washing-machine-spins-water-out-of-clothes.mp4",
   "production_copy": "output/how-a-washing-machine-spins-water-out-of-clothes.mp4",
   "status": "passed",
-  "bytes": 14393461,
-  "sha256": "94bebb8f69b6fa0f49d18350889f6126db03f909f9f12414f587dd6a29673287",
-  "md5": "df53d16252c1f179cc7321d2b63fd895",
+  "bytes": 8817431,
+  "sha256": "1d23f2990d2d5365f77d867da3a926b354de53e5288de636be77131ff2de56e1",
+  "md5": "eef9097daba84a1c4b97f3518c4f1327",
   "container_duration_seconds": 40.0,
   "video": {
     "codec": "h264",
@@ -13,7 +13,7 @@
     "height": 1920,
     "fps": 30.0,
     "video_duration_seconds": 40.0,
-    "bit_rate": 2673758,
+    "bit_rate": 1558512,
     "decoded_frames": 1200
   },
   "audio": {
@@ -149,14 +149,14 @@
       "output/qa/1091-closing-summary-mid.jpg",
       "output/qa/1185-outro.jpg"
     ],
-    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
-    "reviewed_on": "2026-10-29",
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
+    "reviewed_on": "2026-10-31",
     "reviewed_samples": 19,
-    "review": "Immediate spin-drying payoff; inward wall force on clothes, outward water motion, perforations into the outer tub, a clearly visible drain-pump path with clothes retained, balanced-versus-unbalanced loads, and the closing extraction chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+    "review": "Rebuilt around recognizable front-loading and cross-section washer views. Shirt-shaped clothes remain at the drum wall; inward wall force and outward water motion are distinct; perforations lead to a bounded outer tub; and the sump, pump, and outlet form one connected drainage route. The unbalanced/balanced comparison and closing mechanism chain are legible and match the narration. All 19 delivered-MP4 samples passed visual review."
   },
   "delivery": {
     "github_path": "RESULT/how-a-washing-machine-spins-water-out-of-clothes.mp4",
-    "branch": "arena/e7d14043-knowledge-vault",
+    "branch": "arena/a2e32c43-knowledge-vault",
     "retained_results": "left unchanged",
     "drive": "Existing Drive deliverables left unchanged"
   }

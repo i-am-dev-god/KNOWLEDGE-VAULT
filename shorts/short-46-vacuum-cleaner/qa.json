@@ -2,9 +2,9 @@
   "file": "../../RESULT/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
   "production_copy": "output/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
   "status": "passed",
-  "bytes": 12145432,
-  "sha256": "9902fd35fb1268de23cc0f8431bedb60294e5c6b2b841318d58e57e9641b48d4",
-  "md5": "9b44c3a5e94612bd1e33acd045812e70",
+  "bytes": 7911201,
+  "sha256": "71b1622ce583dea86d94d0060b254c4beef649370f6f92e9ffe781a19a4d5f3b",
+  "md5": "51db4a71d0a472a77c2d442e2a7e2efe",
   "container_duration_seconds": 42.0,
   "video": {
     "codec": "h264",
@@ -13,7 +13,7 @@
     "height": 1920,
     "fps": 30.0,
     "video_duration_seconds": 42.0,
-    "bit_rate": 2106577,
+    "bit_rate": 1300061,
     "decoded_frames": 1260
   },
   "audio": {
@@ -162,14 +162,14 @@
       "output/qa/1157-closing-summary-mid.jpg",
       "output/qa/1245-outro.jpg"
     ],
-    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm the visible action and focal component match the narration, unrelated elements recede, labels are legible and safe, and no caption progress line appears",
-    "reviewed_on": "2026-10-29",
+    "required": "Review frame zero, every narration-clause onset and midpoint, targeted late device-action states, and the outro in ordered sheets; confirm physical surface contact, connected pipes/wires, label alignment, recognizable device parts, and visible action matching the narration; unrelated elements must recede, labels must remain legible and safe, and no caption progress line may appear",
+    "reviewed_on": "2026-10-31",
     "reviewed_samples": 19,
-    "review": "Immediate vacuum pickup payoff; motor/fan exhaust, pressure-driven inlet airflow, dirt transport and separation, clogged-to-clean filter restoration, and the animated closing chain match the narration. All 19 chronological actual-MP4 samples show clear focal guidance, safe legible labels and captions, no corner metadata or caption progress line, and a short animated ending."
+    "review": "Rebuilt after device-clarity feedback. The recognizable vacuum body, connected nozzle/hose/bin path, labeled inlet/filter/motor/fan/exhaust arrangement, dirt separator, before/after filter comparison, and ordered closing chain match the narration. All 19 delivered-MP4 samples were checked for legible labels, connected paths, unobstructed parts, steady focus, and absence of decorative dotted-ring clutter."
   },
   "delivery": {
     "github_path": "RESULT/how-a-vacuum-cleaner-pulls-up-dirt.mp4",
-    "branch": "arena/e7d14043-knowledge-vault",
+    "branch": "arena/a2e32c43-knowledge-vault",
     "retained_results": "left unchanged",
     "drive": "Existing Drive deliverables left unchanged"
   }
