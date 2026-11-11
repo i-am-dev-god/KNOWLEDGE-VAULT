@@ -1,0 +1,153 @@
+{
+  "id": "short-54-autofocus",
+  "title": "How Autofocus Finds Sharp Focus Instantly",
+  "composition": "Short54Autofocus",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 41.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:estimated",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take (ESTIMATED timing \u2014 replace after voice-00 master)",
+    "raw_file": "shorts/short-54-autofocus/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "pending",
+    "raw_duration_seconds": 40.95,
+    "trimmed_duration_seconds": 39.95,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.0,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 40.1,
+    "narration_file": "media/voiceovers/autofocus/narration.wav",
+    "narration_sha256": "pending",
+    "narration_duration_seconds": 41.0,
+    "paced_speech_end_seconds": 40.1,
+    "script_sha256": "pending",
+    "spoken_words": 117,
+    "alignment": "ESTIMATED linear per-char distribution; replace with faster-whisper medium.en after voice-00"
+  },
+  "pacing": "Calm 41-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 40.1,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Blurry to sharp instantly",
+      "start": 0.0,
+      "end": 9.266
+    },
+    {
+      "id": "split",
+      "title": "Split images reveal focus error",
+      "start": 9.266,
+      "end": 19.972
+    },
+    {
+      "id": "measure",
+      "title": "Separation tells distance and direction",
+      "start": 19.972,
+      "end": 25.906
+    },
+    {
+      "id": "drive",
+      "title": "The motor jumps to focus",
+      "start": 25.906,
+      "end": 30.25
+    },
+    {
+      "id": "refine",
+      "title": "Contrast adds final polish",
+      "start": 30.25,
+      "end": 34.716
+    },
+    {
+      "id": "closing",
+      "title": "Measure error, move lens, snap sharp",
+      "start": 34.716,
+      "end": 41.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-blurry",
+      "scene": "hook",
+      "text": "You tap to focus, and a blurry scene snaps sharp in a fraction of a second.",
+      "start": 0.15,
+      "end": 4.738
+    },
+    {
+      "id": "hook-old",
+      "scene": "hook",
+      "text": "Early cameras had to hunt back and forth to guess the right lens position.",
+      "start": 4.738,
+      "end": 9.266
+    },
+    {
+      "id": "split-pair",
+      "scene": "split",
+      "text": "Modern autofocus creates two copies of the same subject from opposite sides of the lens.",
+      "start": 9.266,
+      "end": 14.649
+    },
+    {
+      "id": "split-align",
+      "scene": "split",
+      "text": "When the subject is out of focus, those copies are separated. When focused, they align.",
+      "start": 14.649,
+      "end": 19.972
+    },
+    {
+      "id": "measure-distance",
+      "scene": "measure",
+      "text": "The camera measures that separation to know exactly how far and which direction to move the lens.",
+      "start": 19.972,
+      "end": 25.906
+    },
+    {
+      "id": "drive-lens",
+      "scene": "drive",
+      "text": "A focus motor then drives the lens directly to the calculated position.",
+      "start": 25.906,
+      "end": 30.25
+    },
+    {
+      "id": "contrast-refine",
+      "scene": "refine",
+      "text": "Contrast detection then makes a final tiny adjustment for peak sharpness.",
+      "start": 30.25,
+      "end": 34.716
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So split images tell the camera where to go, and the lens moves straight to sharp focus.",
+      "start": 34.716,
+      "end": 40.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 9.186,
+      "id": "scan-hum",
+      "gain": 0.056234
+    },
+    {
+      "at": 19.892,
+      "id": "ui-click-soft",
+      "gain": 0.056234
+    },
+    {
+      "at": 25.826,
+      "id": "pop-reveal",
+      "gain": 0.063096
+    },
+    {
+      "at": 34.596,
+      "id": "warm-shimmer",
+      "gain": 0.079433
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "short-53-portrait-mode",
+  "title": "How Your Phone Blurs the Background in Portrait Mode",
+  "composition": "Short53PortraitMode",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 43.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:estimated",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take (ESTIMATED timing \u2014 replace after voice-00 master)",
+    "raw_file": "shorts/short-53-portrait-mode/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "pending",
+    "raw_duration_seconds": 42.95,
+    "trimmed_duration_seconds": 41.95,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.0,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 42.1,
+    "narration_file": "media/voiceovers/portrait-mode/narration.wav",
+    "narration_sha256": "pending",
+    "narration_duration_seconds": 43.0,
+    "paced_speech_end_seconds": 42.1,
+    "script_sha256": "pending",
+    "spoken_words": 118,
+    "alignment": "ESTIMATED linear per-char distribution; replace with faster-whisper medium.en after voice-00"
+  },
+  "pacing": "Calm 43-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 42.1,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Sharp subject, blurred background",
+      "start": 0.0,
+      "end": 10.368
+    },
+    {
+      "id": "capture",
+      "title": "Two views measure depth",
+      "start": 10.368,
+      "end": 16.08
+    },
+    {
+      "id": "depth",
+      "title": "A depth map separates near and far",
+      "start": 16.08,
+      "end": 21.728
+    },
+    {
+      "id": "cutout",
+      "title": "The phone isolates the person",
+      "start": 21.728,
+      "end": 25.028
+    },
+    {
+      "id": "blur",
+      "title": "Background gets blurred",
+      "start": 25.028,
+      "end": 29.344
+    },
+    {
+      "id": "edge",
+      "title": "Edges keep fine detail sharp",
+      "start": 29.344,
+      "end": 35.754
+    },
+    {
+      "id": "closing",
+      "title": "Depth creates portrait blur",
+      "start": 35.754,
+      "end": 43.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-blur",
+      "scene": "hook",
+      "text": "In portrait mode, your phone keeps you sharp while the background turns soft and blurry.",
+      "start": 0.15,
+      "end": 5.735
+    },
+    {
+      "id": "hook-not-lens",
+      "scene": "hook",
+      "text": "That blur is not from a large lens. It is added after the photo is taken.",
+      "start": 5.735,
+      "end": 10.368
+    },
+    {
+      "id": "capture-two",
+      "scene": "capture",
+      "text": "The phone captures the same scene with two lenses or two focus positions to measure depth.",
+      "start": 10.368,
+      "end": 16.08
+    },
+    {
+      "id": "depth-map",
+      "scene": "depth",
+      "text": "Software builds a depth map, marking how far each part of the picture is from the camera.",
+      "start": 16.08,
+      "end": 21.728
+    },
+    {
+      "id": "cut-person",
+      "scene": "cutout",
+      "text": "It then cuts out the person as the sharp foreground.",
+      "start": 21.728,
+      "end": 25.028
+    },
+    {
+      "id": "blur-background",
+      "scene": "blur",
+      "text": "Everything marked as background is blurred with a soft bokeh effect.",
+      "start": 25.028,
+      "end": 29.344
+    },
+    {
+      "id": "edge-hair",
+      "scene": "edge",
+      "text": "Edge refinement keeps difficult areas like hair sharp while the rest of the background stays blurred.",
+      "start": 29.344,
+      "end": 35.754
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So measured depth and a precise cutout turn a regular photo into a portrait with blurred background.",
+      "start": 35.754,
+      "end": 42.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 10.288,
+      "id": "scan-hum",
+      "gain": 0.056234
+    },
+    {
+      "at": 21.648,
+      "id": "ui-click-soft",
+      "gain": 0.056234
+    },
+    {
+      "at": 24.948,
+      "id": "pop-reveal",
+      "gain": 0.063096
+    },
+    {
+      "at": 35.634,
+      "id": "warm-shimmer",
+      "gain": 0.079433
+    }
+  ]
+}
