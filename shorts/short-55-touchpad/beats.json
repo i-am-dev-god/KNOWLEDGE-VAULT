@@ -1,0 +1,153 @@
+{
+  "id": "short-55-touchpad",
+  "title": "How a Touchpad Knows Tap vs Swipe",
+  "composition": "Short55Touchpad",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:estimated",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take (ESTIMATED timing \u2014 replace after voice-00 master)",
+    "raw_file": "shorts/short-55-touchpad/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "pending",
+    "raw_duration_seconds": 41.95,
+    "trimmed_duration_seconds": 40.95,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.0,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 41.1,
+    "narration_file": "media/voiceovers/touchpad/narration.wav",
+    "narration_sha256": "pending",
+    "narration_duration_seconds": 42.0,
+    "paced_speech_end_seconds": 41.1,
+    "script_sha256": "pending",
+    "spoken_words": 109,
+    "alignment": "ESTIMATED linear per-char distribution; replace with faster-whisper medium.en after voice-00"
+  },
+  "pacing": "Calm 42-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 41.1,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "No buttons, yet it knows",
+      "start": 0.0,
+      "end": 10.42
+    },
+    {
+      "id": "sense",
+      "title": "A grid senses finger capacitance",
+      "start": 10.42,
+      "end": 14.941
+    },
+    {
+      "id": "track",
+      "title": "The controller tracks position constantly",
+      "start": 14.941,
+      "end": 20.173
+    },
+    {
+      "id": "gesture",
+      "title": "Motion over time becomes gesture",
+      "start": 20.173,
+      "end": 30.83
+    },
+    {
+      "id": "hardware",
+      "title": "A press gives a physical click",
+      "start": 30.83,
+      "end": 35.61
+    },
+    {
+      "id": "closing",
+      "title": "Grid, motion, and timing decide gesture",
+      "start": 35.61,
+      "end": 42.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-pad",
+      "scene": "hook",
+      "text": "A tap clicks. A swipe scrolls. The touchpad has no buttons, yet it knows the difference.",
+      "start": 0.15,
+      "end": 5.834
+    },
+    {
+      "id": "hook-grid",
+      "scene": "hook",
+      "text": "Under the surface, a grid of capacitive electrodes watches your finger.",
+      "start": 5.834,
+      "end": 10.42
+    },
+    {
+      "id": "sense-grid",
+      "scene": "sense",
+      "text": "Each finger changes the electrical signal at its position on the grid.",
+      "start": 10.42,
+      "end": 14.941
+    },
+    {
+      "id": "track-position",
+      "scene": "track",
+      "text": "A controller scans the whole grid many times per second to track where you touch.",
+      "start": 14.941,
+      "end": 20.173
+    },
+    {
+      "id": "gesture-velocity",
+      "scene": "gesture",
+      "text": "Software then compares position over time. A short stationary touch is a tap.",
+      "start": 20.173,
+      "end": 25.146
+    },
+    {
+      "id": "gesture-swipe",
+      "scene": "gesture",
+      "text": "A continued movement in one direction becomes a swipe, with speed setting scroll amount.",
+      "start": 25.146,
+      "end": 30.83
+    },
+    {
+      "id": "hardware-click",
+      "scene": "hardware",
+      "text": "Pressing harder flexes the pad against a physical switch for a firm click.",
+      "start": 30.83,
+      "end": 35.61
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So a scanned grid, tracked motion, and timing turn finger movement into tap or swipe.",
+      "start": 35.61,
+      "end": 41.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 10.34,
+      "id": "scan-hum",
+      "gain": 0.056234
+    },
+    {
+      "at": 20.093,
+      "id": "ui-click-soft",
+      "gain": 0.056234
+    },
+    {
+      "at": 30.75,
+      "id": "pop-reveal",
+      "gain": 0.063096
+    },
+    {
+      "at": 35.49,
+      "id": "warm-shimmer",
+      "gain": 0.079433
+    }
+  ]
+}

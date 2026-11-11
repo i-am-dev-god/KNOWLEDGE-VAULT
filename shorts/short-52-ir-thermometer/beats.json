@@ -1,0 +1,159 @@
+{
+  "id": "short-52-ir-thermometer",
+  "title": "How an Infrared Thermometer Reads Temperature Without Touch",
+  "composition": "Short52IrThermometer",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 40.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:estimated",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take (ESTIMATED timing \u2014 replace after voice-00 master)",
+    "raw_file": "shorts/short-52-ir-thermometer/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "pending",
+    "raw_duration_seconds": 39.95,
+    "trimmed_duration_seconds": 38.95,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.0,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 39.1,
+    "narration_file": "media/voiceovers/ir-thermometer/narration.wav",
+    "narration_sha256": "pending",
+    "narration_duration_seconds": 40.0,
+    "paced_speech_end_seconds": 39.1,
+    "script_sha256": "pending",
+    "spoken_words": 97,
+    "alignment": "ESTIMATED linear per-char distribution; replace with faster-whisper medium.en after voice-00"
+  },
+  "pacing": "Calm 40-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 39.1,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Temperature without touch",
+      "start": 0.0,
+      "end": 11.2
+    },
+    {
+      "id": "lens",
+      "title": "The lens gathers infrared",
+      "start": 11.2,
+      "end": 15.779
+    },
+    {
+      "id": "filter",
+      "title": "A filter keeps the heat signal",
+      "start": 15.779,
+      "end": 20.174
+    },
+    {
+      "id": "sensor",
+      "title": "Heat creates a voltage",
+      "start": 20.174,
+      "end": 24.387
+    },
+    {
+      "id": "process",
+      "title": "A table turns voltage into temperature",
+      "start": 24.387,
+      "end": 29.332
+    },
+    {
+      "id": "display",
+      "title": "Material settings tune accuracy",
+      "start": 29.332,
+      "end": 33.972
+    },
+    {
+      "id": "closing",
+      "title": "Infrared becomes temperature",
+      "start": 33.972,
+      "end": 40.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-point",
+      "scene": "hook",
+      "text": "Point this thermometer, press the trigger, and you get a temperature without touching anything.",
+      "start": 0.15,
+      "end": 5.95
+    },
+    {
+      "id": "hook-infrared",
+      "scene": "hook",
+      "text": "It does not measure air. It measures invisible infrared light coming from the surface.",
+      "start": 5.95,
+      "end": 11.2
+    },
+    {
+      "id": "lens-focus",
+      "scene": "lens",
+      "text": "A lens gathers that infrared radiation and focuses it onto a tiny detector.",
+      "start": 11.2,
+      "end": 15.779
+    },
+    {
+      "id": "filter-band",
+      "scene": "filter",
+      "text": "A filter keeps only the heat-related wavelengths and blocks other light.",
+      "start": 15.779,
+      "end": 20.174
+    },
+    {
+      "id": "sensor-voltage",
+      "scene": "sensor",
+      "text": "The thermopile detector turns that focused heat into a small voltage.",
+      "start": 20.174,
+      "end": 24.387
+    },
+    {
+      "id": "process-table",
+      "scene": "process",
+      "text": "Electronics compare that voltage to a calibration table to determine temperature.",
+      "start": 24.387,
+      "end": 29.332
+    },
+    {
+      "id": "display-emissivity",
+      "scene": "display",
+      "text": "Settings like emissivity adjust the reading for different surface materials.",
+      "start": 29.332,
+      "end": 33.972
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So focused infrared light becomes a voltage, and that voltage becomes a temperature.",
+      "start": 33.972,
+      "end": 39.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 11.12,
+      "id": "scan-hum",
+      "gain": 0.056234
+    },
+    {
+      "at": 20.094,
+      "id": "ui-click-soft",
+      "gain": 0.056234
+    },
+    {
+      "at": 24.307,
+      "id": "pop-reveal",
+      "gain": 0.063096
+    },
+    {
+      "at": 33.852,
+      "id": "warm-shimmer",
+      "gain": 0.079433
+    }
+  ]
+}

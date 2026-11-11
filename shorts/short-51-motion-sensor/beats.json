@@ -1,0 +1,147 @@
+{
+  "id": "short-51-motion-sensor",
+  "title": "How a Motion Sensor Turns On Your Light",
+  "composition": "Short51MotionSensor",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42.0
+  },
+  "voiceStatus": "ai-speech:voice-00:user-selected:estimated",
+  "aiSpeech": {
+    "voice_id": "voice-00",
+    "voice_selection": "User-selected narration voice; one continuous take; no alternate voice used",
+    "take": "One continuous full-script take (ESTIMATED timing \u2014 replace after voice-00 master)",
+    "raw_file": "shorts/short-51-motion-sensor/output/ai-speech/voice-00-full-raw.wav",
+    "raw_sha256": "pending",
+    "raw_duration_seconds": 41.95,
+    "trimmed_duration_seconds": 40.95,
+    "tempo_rate": 1.0,
+    "requested_tempo_rate": 1.0,
+    "tempo_algorithm": "FFmpeg atempo WSOLA; pitch preserved; never faster than source",
+    "initial_silence_seconds": 0.15,
+    "target_voice_end_seconds": 41.1,
+    "narration_file": "media/voiceovers/motion-sensor/narration.wav",
+    "narration_sha256": "pending",
+    "narration_duration_seconds": 42.0,
+    "paced_speech_end_seconds": 41.1,
+    "script_sha256": "pending",
+    "spoken_words": 104,
+    "alignment": "ESTIMATED linear per-char distribution; replace with faster-whisper medium.en after voice-00"
+  },
+  "pacing": "Calm 42-second explainer; source never sped up; no caption progress line",
+  "voiceEnd": 41.1,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Motion turns dark to light",
+      "start": 0.0,
+      "end": 8.142
+    },
+    {
+      "id": "lens",
+      "title": "The lens splits the room into zones",
+      "start": 8.142,
+      "end": 20.307
+    },
+    {
+      "id": "sensor",
+      "title": "The PIR sensor sees a heat change",
+      "start": 20.307,
+      "end": 30.774
+    },
+    {
+      "id": "switch",
+      "title": "A relay switches the light on",
+      "start": 30.774,
+      "end": 35.513
+    },
+    {
+      "id": "closing",
+      "title": "Movement becomes light",
+      "start": 35.513,
+      "end": 42.0
+    }
+  ],
+  "vo": [
+    {
+      "id": "hook-dark",
+      "scene": "hook",
+      "text": "You walk into a dark room, and the light turns on by itself.",
+      "start": 0.15,
+      "end": 4.394
+    },
+    {
+      "id": "hook-question",
+      "scene": "hook",
+      "text": "A small motion sensor on the wall made that decision.",
+      "start": 4.394,
+      "end": 8.142
+    },
+    {
+      "id": "lens-heat",
+      "scene": "lens",
+      "text": "Behind its window, a Fresnel lens focuses invisible heat from your body onto a sensor.",
+      "start": 8.142,
+      "end": 14.224
+    },
+    {
+      "id": "lens-windows",
+      "scene": "lens",
+      "text": "The lens divides the room into separate zones, so movement creates a changing pattern.",
+      "start": 14.224,
+      "end": 20.307
+    },
+    {
+      "id": "sensor-change",
+      "scene": "sensor",
+      "text": "A PIR sensor compares the heat in different windows and detects that change.",
+      "start": 20.307,
+      "end": 25.682
+    },
+    {
+      "id": "sensor-trigger",
+      "scene": "sensor",
+      "text": "When the pattern shifts enough, the sensor sends a brief trigger signal.",
+      "start": 25.682,
+      "end": 30.774
+    },
+    {
+      "id": "switch-relay",
+      "scene": "switch",
+      "text": "A controller uses that signal to close a relay and power the light.",
+      "start": 30.774,
+      "end": 35.513
+    },
+    {
+      "id": "closing-summary",
+      "scene": "closing",
+      "text": "So focused heat, a changing pattern, and a relay turn your movement into light.",
+      "start": 35.513,
+      "end": 41.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 14.144,
+      "id": "scan-hum",
+      "gain": 0.056234
+    },
+    {
+      "at": 20.227,
+      "id": "ui-click-soft",
+      "gain": 0.056234
+    },
+    {
+      "at": 30.694,
+      "id": "pop-reveal",
+      "gain": 0.063096
+    },
+    {
+      "at": 35.393,
+      "id": "warm-shimmer",
+      "gain": 0.079433
+    }
+  ]
+}

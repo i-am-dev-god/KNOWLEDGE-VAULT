@@ -1,0 +1,561 @@
+{
+  "defaults": {
+    "duration_s": 42.0,
+    "initial_silence_s": 0.15,
+    "target_voice_end_s": 41.1,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "projects": [
+    {
+      "id": "short-51-motion-sensor",
+      "slug": "motion-sensor",
+      "title": "How a Motion Sensor Turns On Your Light",
+      "composition": "Short51MotionSensor",
+      "result": "how-a-motion-sensor-turns-on-your-light.mp4",
+      "duration_s": 42.0,
+      "target_voice_end_s": 41.1,
+      "prompt": "Motion sensor. PIR. Infrared heat. Fresnel lens. Window. Comparator. Relay. Light.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-dark",
+          "scene": "hook",
+          "text": "You walk into a dark room, and the light turns on by itself."
+        },
+        {
+          "id": "hook-question",
+          "scene": "hook",
+          "text": "A small motion sensor on the wall made that decision."
+        },
+        {
+          "id": "lens-heat",
+          "scene": "lens",
+          "text": "Behind its window, a Fresnel lens focuses invisible heat from your body onto a sensor."
+        },
+        {
+          "id": "lens-windows",
+          "scene": "lens",
+          "text": "The lens divides the room into separate zones, so movement creates a changing pattern."
+        },
+        {
+          "id": "sensor-change",
+          "scene": "sensor",
+          "text": "A PIR sensor compares the heat in different windows and detects that change."
+        },
+        {
+          "id": "sensor-trigger",
+          "scene": "sensor",
+          "text": "When the pattern shifts enough, the sensor sends a brief trigger signal."
+        },
+        {
+          "id": "switch-relay",
+          "scene": "switch",
+          "text": "A controller uses that signal to close a relay and power the light."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So focused heat, a changing pattern, and a relay turn your movement into light."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Motion turns dark to light"
+        ],
+        [
+          "lens",
+          "The lens splits the room into zones"
+        ],
+        [
+          "sensor",
+          "The PIR sensor sees a heat change"
+        ],
+        [
+          "switch",
+          "A relay switches the light on"
+        ],
+        [
+          "closing",
+          "Movement becomes light"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "lens-windows",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Reveal the zoned lens"
+        },
+        {
+          "sync_source": "sensor-change",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Detect the heat change"
+        },
+        {
+          "sync_source": "switch-relay",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Close the relay"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the motion chain"
+        }
+      ]
+    },
+    {
+      "id": "short-52-ir-thermometer",
+      "slug": "ir-thermometer",
+      "title": "How an Infrared Thermometer Reads Temperature Without Touch",
+      "composition": "Short52IrThermometer",
+      "result": "how-an-infrared-thermometer-reads-temperature-without-touch.mp4",
+      "duration_s": 40.0,
+      "target_voice_end_s": 39.1,
+      "prompt": "Infrared thermometer. Infrared radiation. Lens. Thermopile. Filter. Emissivity. Trigger. Display.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-point",
+          "scene": "hook",
+          "text": "Point this thermometer, press the trigger, and you get a temperature without touching anything."
+        },
+        {
+          "id": "hook-infrared",
+          "scene": "hook",
+          "text": "It does not measure air. It measures invisible infrared light coming from the surface."
+        },
+        {
+          "id": "lens-focus",
+          "scene": "lens",
+          "text": "A lens gathers that infrared radiation and focuses it onto a tiny detector."
+        },
+        {
+          "id": "filter-band",
+          "scene": "filter",
+          "text": "A filter keeps only the heat-related wavelengths and blocks other light."
+        },
+        {
+          "id": "sensor-voltage",
+          "scene": "sensor",
+          "text": "The thermopile detector turns that focused heat into a small voltage."
+        },
+        {
+          "id": "process-table",
+          "scene": "process",
+          "text": "Electronics compare that voltage to a calibration table to determine temperature."
+        },
+        {
+          "id": "display-emissivity",
+          "scene": "display",
+          "text": "Settings like emissivity adjust the reading for different surface materials."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So focused infrared light becomes a voltage, and that voltage becomes a temperature."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Temperature without touch"
+        ],
+        [
+          "lens",
+          "The lens gathers infrared"
+        ],
+        [
+          "filter",
+          "A filter keeps the heat signal"
+        ],
+        [
+          "sensor",
+          "Heat creates a voltage"
+        ],
+        [
+          "process",
+          "A table turns voltage into temperature"
+        ],
+        [
+          "display",
+          "Material settings tune accuracy"
+        ],
+        [
+          "closing",
+          "Infrared becomes temperature"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "lens-focus",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Gather infrared"
+        },
+        {
+          "sync_source": "sensor-voltage",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Generate voltage"
+        },
+        {
+          "sync_source": "process-table",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Look up temperature"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve the thermometer chain"
+        }
+      ]
+    },
+    {
+      "id": "short-53-portrait-mode",
+      "slug": "portrait-mode",
+      "title": "How Your Phone Blurs the Background in Portrait Mode",
+      "composition": "Short53PortraitMode",
+      "result": "how-your-phone-blurs-the-background-in-portrait-mode.mp4",
+      "duration_s": 43.0,
+      "target_voice_end_s": 42.1,
+      "prompt": "Portrait mode. Dual camera. Depth map. Disparity. Segmentation. Blur. Bokeh.",
+      "music": "cinematic-min",
+      "lines": [
+        {
+          "id": "hook-blur",
+          "scene": "hook",
+          "text": "In portrait mode, your phone keeps you sharp while the background turns soft and blurry."
+        },
+        {
+          "id": "hook-not-lens",
+          "scene": "hook",
+          "text": "That blur is not from a large lens. It is added after the photo is taken."
+        },
+        {
+          "id": "capture-two",
+          "scene": "capture",
+          "text": "The phone captures the same scene with two lenses or two focus positions to measure depth."
+        },
+        {
+          "id": "depth-map",
+          "scene": "depth",
+          "text": "Software builds a depth map, marking how far each part of the picture is from the camera."
+        },
+        {
+          "id": "cut-person",
+          "scene": "cutout",
+          "text": "It then cuts out the person as the sharp foreground."
+        },
+        {
+          "id": "blur-background",
+          "scene": "blur",
+          "text": "Everything marked as background is blurred with a soft bokeh effect."
+        },
+        {
+          "id": "edge-hair",
+          "scene": "edge",
+          "text": "Edge refinement keeps difficult areas like hair sharp while the rest of the background stays blurred."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So measured depth and a precise cutout turn a regular photo into a portrait with blurred background."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Sharp subject, blurred background"
+        ],
+        [
+          "capture",
+          "Two views measure depth"
+        ],
+        [
+          "depth",
+          "A depth map separates near and far"
+        ],
+        [
+          "cutout",
+          "The phone isolates the person"
+        ],
+        [
+          "blur",
+          "Background gets blurred"
+        ],
+        [
+          "edge",
+          "Edges keep fine detail sharp"
+        ],
+        [
+          "closing",
+          "Depth creates portrait blur"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "capture-two",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Capture two views"
+        },
+        {
+          "sync_source": "cut-person",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Cut out the subject"
+        },
+        {
+          "sync_source": "blur-background",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Apply background blur"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve portrait chain"
+        }
+      ]
+    },
+    {
+      "id": "short-54-autofocus",
+      "slug": "autofocus",
+      "title": "How Autofocus Finds Sharp Focus Instantly",
+      "composition": "Short54Autofocus",
+      "result": "how-autofocus-finds-sharp-focus-instantly.mp4",
+      "duration_s": 41.0,
+      "target_voice_end_s": 40.1,
+      "prompt": "Autofocus. Phase detection. Contrast detection. Lens. Sensor. Split image. Peak contrast. Motor.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-blurry",
+          "scene": "hook",
+          "text": "You tap to focus, and a blurry scene snaps sharp in a fraction of a second."
+        },
+        {
+          "id": "hook-old",
+          "scene": "hook",
+          "text": "Early cameras had to hunt back and forth to guess the right lens position."
+        },
+        {
+          "id": "split-pair",
+          "scene": "split",
+          "text": "Modern autofocus creates two copies of the same subject from opposite sides of the lens."
+        },
+        {
+          "id": "split-align",
+          "scene": "split",
+          "text": "When the subject is out of focus, those copies are separated. When focused, they align."
+        },
+        {
+          "id": "measure-distance",
+          "scene": "measure",
+          "text": "The camera measures that separation to know exactly how far and which direction to move the lens."
+        },
+        {
+          "id": "drive-lens",
+          "scene": "drive",
+          "text": "A focus motor then drives the lens directly to the calculated position."
+        },
+        {
+          "id": "contrast-refine",
+          "scene": "refine",
+          "text": "Contrast detection then makes a final tiny adjustment for peak sharpness."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So split images tell the camera where to go, and the lens moves straight to sharp focus."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "Blurry to sharp instantly"
+        ],
+        [
+          "split",
+          "Split images reveal focus error"
+        ],
+        [
+          "measure",
+          "Separation tells distance and direction"
+        ],
+        [
+          "drive",
+          "The motor jumps to focus"
+        ],
+        [
+          "refine",
+          "Contrast adds final polish"
+        ],
+        [
+          "closing",
+          "Measure error, move lens, snap sharp"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "split-pair",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Split the image"
+        },
+        {
+          "sync_source": "measure-distance",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Measure separation"
+        },
+        {
+          "sync_source": "drive-lens",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Drive the lens"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve focus chain"
+        }
+      ]
+    },
+    {
+      "id": "short-55-touchpad",
+      "slug": "touchpad",
+      "title": "How a Touchpad Knows Tap vs Swipe",
+      "composition": "Short55Touchpad",
+      "result": "how-a-touchpad-knows-tap-vs-swipe.mp4",
+      "duration_s": 42.0,
+      "target_voice_end_s": 41.1,
+      "prompt": "Touchpad. Capacitive grid. Finger capacitance. Controller. Position. Velocity. Gesture. Click.",
+      "music": "ambient-pad",
+      "lines": [
+        {
+          "id": "hook-pad",
+          "scene": "hook",
+          "text": "A tap clicks. A swipe scrolls. The touchpad has no buttons, yet it knows the difference."
+        },
+        {
+          "id": "hook-grid",
+          "scene": "hook",
+          "text": "Under the surface, a grid of capacitive electrodes watches your finger."
+        },
+        {
+          "id": "sense-grid",
+          "scene": "sense",
+          "text": "Each finger changes the electrical signal at its position on the grid."
+        },
+        {
+          "id": "track-position",
+          "scene": "track",
+          "text": "A controller scans the whole grid many times per second to track where you touch."
+        },
+        {
+          "id": "gesture-velocity",
+          "scene": "gesture",
+          "text": "Software then compares position over time. A short stationary touch is a tap."
+        },
+        {
+          "id": "gesture-swipe",
+          "scene": "gesture",
+          "text": "A continued movement in one direction becomes a swipe, with speed setting scroll amount."
+        },
+        {
+          "id": "hardware-click",
+          "scene": "hardware",
+          "text": "Pressing harder flexes the pad against a physical switch for a firm click."
+        },
+        {
+          "id": "closing-summary",
+          "scene": "closing",
+          "text": "So a scanned grid, tracked motion, and timing turn finger movement into tap or swipe."
+        }
+      ],
+      "scenes": [
+        [
+          "hook",
+          "No buttons, yet it knows"
+        ],
+        [
+          "sense",
+          "A grid senses finger capacitance"
+        ],
+        [
+          "track",
+          "The controller tracks position constantly"
+        ],
+        [
+          "gesture",
+          "Motion over time becomes gesture"
+        ],
+        [
+          "hardware",
+          "A press gives a physical click"
+        ],
+        [
+          "closing",
+          "Grid, motion, and timing decide gesture"
+        ]
+      ],
+      "cues": [
+        {
+          "sync_source": "sense-grid",
+          "offset_s": -0.08,
+          "sfx_id": "scan-hum",
+          "gain_db": -25,
+          "cue": "Sense the capacitive grid"
+        },
+        {
+          "sync_source": "gesture-velocity",
+          "offset_s": -0.08,
+          "sfx_id": "ui-click-soft",
+          "gain_db": -25,
+          "cue": "Classify tap versus swipe"
+        },
+        {
+          "sync_source": "hardware-click",
+          "offset_s": -0.08,
+          "sfx_id": "pop-reveal",
+          "gain_db": -24,
+          "cue": "Physical switch click"
+        },
+        {
+          "sync_source": "closing-summary",
+          "offset_s": -0.12,
+          "sfx_id": "warm-shimmer",
+          "gain_db": -22,
+          "cue": "Resolve touchpad chain"
+        }
+      ]
+    }
+  ]
+}
